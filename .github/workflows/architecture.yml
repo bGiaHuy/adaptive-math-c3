@@ -1,0 +1,55 @@
+name: Kiểm tra kiến trúc và hồi quy
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  architecture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run prisma:generate
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm run architecture:check
+      - run: npm run typecheck
+      - run: npm run test:frontend
+      - name: Hồi quy độc lập cơ sở dữ liệu
+        run: npm run test --workspace=@adaptivemath/api -- test/math-adaptive.spec.ts test/diagnostic-blueprint.spec.ts test/exam-blueprint-enforcement.spec.ts test/authorization-policy.spec.ts test/teacher-workspace.spec.ts test/math-question-types.spec.ts test/assignment-blueprint-route.spec.ts test/architecture-compatibility.spec.ts
+      - run: npm run build
+      - run: npm run build:api
+  api-full:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: am
+          POSTGRES_PASSWORD: am_dev_password
+          POSTGRES_DB: adaptivemath_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgresql://am:am_dev_password@localhost:5432/adaptivemath_test?schema=public
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run prisma:generate
+      - name: Áp dụng schema chỉ trên database CI dùng một lần
+        run: npm exec --workspace=@adaptivemath/api -- prisma migrate deploy
+      - run: npm test

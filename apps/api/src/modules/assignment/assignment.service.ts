@@ -1,6 +1,6 @@
 import { LEGACY_BANK_PAUSED } from '../curriculum/thpt-catalog';
 import { requireTeacherCounts, validateTeacherPaper } from './teacher-paper';
-import { DIAGNOSTIC_BLUEPRINT, DIAGNOSTIC_BLUEPRINT_VERSION, EXAM_QUESTION_COUNTS, requireBlueprintCounts, selectBlueprintPaper, validateBlueprintPaper } from '../diagnostic/diagnostic-blueprint';
+import { DIAGNOSTIC_BLUEPRINT, DIAGNOSTIC_BLUEPRINT_VERSION, EXAM_QUESTION_COUNTS, requireBlueprintCounts, selectBlueprintPaper, validateBlueprintPaper } from '../question/diagnostic-blueprint';
 import { requireQuestionLabels } from '../question/question-labels';
 import { tracksTabSwitches, activityReport, deliveredQuestion, resultVisible, gradeDelivered } from './workspace-helpers';
 import { buildQuestionData, validateQuestion, validateAnswer, gradeQuestion } from '../question/math-question';

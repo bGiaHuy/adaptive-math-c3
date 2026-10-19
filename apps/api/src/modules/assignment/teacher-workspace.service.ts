@@ -1,5 +1,5 @@
 import { validateTeacherPaper } from './teacher-paper';
-import { DIAGNOSTIC_BLUEPRINT_VERSION, validateBlueprintPaper } from '../diagnostic/diagnostic-blueprint';
+import { DIAGNOSTIC_BLUEPRINT_VERSION, validateBlueprintPaper } from '../question/diagnostic-blueprint';
 import { RegradeDto } from './regrade.dto';
 import { BadRequestException, ForbiddenException, Injectable, NotFoundException, ConflictException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+apps/api/dist/
+docs/evidence/
+outputs/
+public/
+tai-lieu/
+package-lock.json
+apps/api/package-lock.json

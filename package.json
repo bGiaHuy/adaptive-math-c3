@@ -20,7 +20,14 @@
     "build": "vite build",
     "build:prototype": "vite build",
     "build:api": "npm run build --workspace=@adaptivemath/api",
-    "typecheck": "npm run typecheck --workspace=@adaptivemath/api",
+    "lint": "node scripts/architecture/lint.mjs",
+    "architecture:check": "node scripts/architecture/check.mjs",
+    "architecture:test": "node --test tests/architecture.test.mjs",
+    "format:check": "prettier --check scripts/architecture tests/architecture.test.mjs docs/architecture ARCHITECTURE.md .prettierrc.json .github/workflows/architecture.yml packages/contracts/tsconfig.json packages/contracts/curriculum.js packages/contracts/curriculum.d.ts apps/api/test/architecture-compatibility.spec.ts",
+    "format": "prettier --write scripts/architecture tests/architecture.test.mjs docs/architecture ARCHITECTURE.md .prettierrc.json .github/workflows/architecture.yml packages/contracts/tsconfig.json packages/contracts/curriculum.js packages/contracts/curriculum.d.ts apps/api/test/architecture-compatibility.spec.ts",
+    "typecheck": "npm run typecheck --workspace=@adaptivemath/api && npm run typecheck --workspace=@adaptivemath/contracts",
+    "test:frontend": "node --test tests/*.test.mjs",
+    "verify": "npm run lint && npm run format:check && npm run architecture:check && npm run typecheck && npm run test:frontend && npm test && npm run build && npm run build:api",
     "test": "npm run test --workspace=@adaptivemath/api",
     "prisma:generate": "npm run prisma:generate --workspace=@adaptivemath/api",
     "prisma:push": "npm run prisma:push --workspace=@adaptivemath/api",
@@ -30,6 +37,7 @@
     "package:release": "node scripts/package-release.mjs"
   },
   "dependencies": {
+    "@adaptivemath/contracts": "1.0.0",
     "katex": "^0.16.11",
     "lucide-react": "^0.460.0",
     "react": "^18.3.1",
@@ -38,7 +46,9 @@
   "devDependencies": {
     "@vitejs/plugin-react": "6.1.1",
     "axe-core": "^4.13.0",
+    "prettier": "3.9.10",
     "puppeteer-core": "^25.11.0",
-    "vite": "8.3.0"
+    "vite": "8.3.0",
+    "typescript": "^5.6.2"
   }
 }

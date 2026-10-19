@@ -4,8 +4,8 @@ import { PrismaService } from '../prisma/prisma.service';
 import { SaveDiagnosticDraftDto } from './dto/save-diagnostic-draft.dto';
 import { AnswerQuestionDto } from './dto/answer-question.dto';
 import { gradeQuestion, validateAnswer } from '../question/math-question';
-import { estimateAbility, diagnosticMastery, selectStaircase } from '../student/math-adaptive';
-import { selectBlueprintPaper } from './diagnostic-blueprint';
+import { estimateAbility, diagnosticMastery, selectStaircase } from '../../common/domain/math-adaptive';
+import { selectBlueprintPaper } from '../question/diagnostic-blueprint';
 
 const eligibleQuestions = { OR: [{ status: 'PUBLISHED' as const }, { status: 'DRAFT' as const, source: { path: ['reviewStatus'], equals: 'VERIFIED' } }] };
 const answerInclude = { question: { include: { skill: true, options: true } } };

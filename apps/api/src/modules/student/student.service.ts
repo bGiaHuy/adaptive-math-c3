@@ -3,7 +3,7 @@ import { PrismaService } from '../prisma/prisma.service';
 import { UpdateOnboardingDto } from './dto/update-onboarding.dto';
 import { UpdateMistakeDto } from './dto/update-mistake.dto';
 import { AttemptStatus } from '@prisma/client';
-import { buildStudyPlan, studyDate, targetForGoal, examDay } from './math-adaptive';
+import { buildStudyPlan, studyDate, targetForGoal, examDay } from '../../common/domain/math-adaptive';
 
 @Injectable()
 export class StudentService {

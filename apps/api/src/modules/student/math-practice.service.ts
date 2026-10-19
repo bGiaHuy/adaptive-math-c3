@@ -2,7 +2,7 @@ import { LEGACY_BANK_PAUSED } from '../curriculum/thpt-catalog';
 import { Injectable, BadRequestException, ConflictException, ForbiddenException, NotFoundException } from '@nestjs/common';
 import { createEmptyCard } from 'ts-fsrs';
 import { PrismaService } from '../prisma/prisma.service';
-import { estimateAbility, itemParameters, updateKnowledge } from './math-adaptive';
+import { estimateAbility, itemParameters, updateKnowledge } from '../../common/domain/math-adaptive';
 import { MATH_LESSONS } from './math-lessons';
 
 @Injectable()

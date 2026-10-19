@@ -1,5 +1,5 @@
 import { QUESTION_LABEL_RUBRIC } from '../question/question-label-rubric';
-import { DIAGNOSTIC_BLUEPRINT, DIAGNOSTIC_BLUEPRINT_VERSION, EXAM_QUESTION_COUNTS } from '../diagnostic/diagnostic-blueprint';
+import { DIAGNOSTIC_BLUEPRINT, DIAGNOSTIC_BLUEPRINT_VERSION, EXAM_QUESTION_COUNTS } from '../question/diagnostic-blueprint';
 import { ExamDocumentService } from './exam-document.service';
 import { Response } from 'express';
 import { RegradeDto } from './regrade.dto';
