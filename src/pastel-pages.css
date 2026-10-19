@@ -1,0 +1,261 @@
+/* Shared page contract. Keep question answer/grading colors in QuestionDisplay. */
+/* Student subpages: selectors are scoped so lazy-loaded legacy styles cannot
+   replace the shared surfaces. Answer correctness remains in its own components. */
+.app-container :is(.study-shell,.math-learning,.learning-checklist){max-width:1240px;margin-inline:auto;padding:0;color:var(--bento-ink);font-family:var(--font-family);line-height:1.8;min-width:0}
+.app-container :is(.study-shell,.math-learning,.learning-checklist) h1{font-size:clamp(26px,3vw,36px);line-height:1.4;letter-spacing:-.04em;font-weight:600;text-wrap:balance}
+.app-container :is(.study-shell,.math-learning,.learning-checklist) h2{font-weight:600;line-height:1.5;letter-spacing:-.025em}
+.app-container :is(.study-header p,.study-method,.math-summary,.study-empty){color:var(--bento-muted)}
+.app-container .study-eyebrow{color:#60546e}
+.app-container :is(.study-entry,.study-review,.study-add,.math-lesson,.math-exercise,.math-day,.empty-state-card,.mistake-item-card){border:0;border-radius:24px;background:#fff;box-shadow:var(--bento-shadow);padding:24px;min-width:0}
+.app-container .study-stats{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.app-container .study-stats>div{background:var(--bento-mint);border:0;border-radius:24px;box-shadow:none;padding:24px;color:var(--bento-ink)}
+.app-container .study-stats>div:nth-child(4n+2){background:var(--bento-yellow)}
+.app-container .study-stats>div:nth-child(4n+3){background:var(--bento-lavender)}
+.app-container .study-stats>div:nth-child(4n){background:var(--bento-pink)}
+.app-container .study-stats strong{color:var(--bento-ink);font-variant-numeric:tabular-nums;font-weight:600}
+.app-container :is(.study-shell button,.math-primary,.math-secondary,.btn-empty-action){min-height:44px;border-radius:24px;border:0;padding:12px 20px;font-family:var(--font-family);box-shadow:none;background:var(--bento-lavender);color:#49395f;transition:background .18s,transform .18s}
+.app-container :is(.math-primary,.btn-empty-action,.study-start-action button){background:#293b35;color:#fff}
+.app-container :is(.math-primary,.btn-empty-action,.study-start-action button):hover:not(:disabled){background:#3e594e}
+.app-container .study-shell button:hover:not(:disabled){background:#dcd2ef}
+.app-container .study-shell :is(.study-tabs,.study-kind) .active{background:var(--bento-mint);color:#34594a;border:0}
+.app-container .study-shell :is(input:not([type=radio]):not([type=checkbox]),select,textarea),.app-container .math-learning :is(input:not([type=radio]):not([type=checkbox]),select,textarea){background:#f7f7fa;border:1px solid var(--bento-line);border-radius:16px;min-height:48px;padding:12px 16px;font:inherit;color:var(--bento-ink);max-width:100%;box-sizing:border-box}
+.app-container .study-shell input:is([type=radio],[type=checkbox]){width:18px;min-height:18px;accent-color:var(--bento-action)}
+.app-container .study-shell summary{min-height:44px;color:#49395f}
+.app-container .study-badge{background:var(--bento-lavender);color:#49395f}
+.app-container .study-entry-grid{gap:24px}
+.app-container .study-review:empty{display:none}
+.app-container .study-shell .study-stats{border:0;background:transparent;padding:0}
+.app-container .study-shell .study-entry{border:0;border-radius:24px;box-shadow:var(--bento-shadow)}
+.app-container .study-shell .math-tutor-chat{background:#f3eff9;border:0;border-radius:24px;padding:24px;color:var(--bento-ink)}
+.app-container .study-feedback{background:#f3eff9;border-radius:16px}
+.app-container .study-empty{background:#fff;border-radius:24px;margin-block:24px}
+.app-container .math-notice{background:#fff5d7;color:#705322;border:0;border-radius:16px;padding:16px 24px}
+.app-container .math-error{background:#fff0f1;color:#962e43}
+.app-container .math-text-button{color:#49395f}
+.app-container .math-learning progress{accent-color:var(--bento-action)}
+.app-container .learning-checklist ol{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;padding:0;list-style:none}
+.app-container .learning-checklist li{display:flex;align-items:flex-start;flex-direction:column;gap:16px;margin:0;padding:24px;border:0;border-radius:24px;background:var(--bento-lavender);box-shadow:none;min-width:0}
+.app-container .learning-checklist li:first-child{grid-row:span 2;background:var(--bento-mint);justify-content:center;padding:32px}
+.app-container .learning-checklist li:last-child{background:var(--bento-yellow)}
+.app-container .learning-checklist li button{margin-top:auto}
+.app-container .checklist-marker{color:#34594a;background:#ffffffa6;border:0;border-radius:50%;padding:12px}
+.app-container .checklist-step,.app-container .checklist-note{color:var(--bento-muted)}
+.app-container.teacher-app-shell .teacher-workspace .tp-class-directory{background:transparent;border:0;border-radius:24px}
+.app-container.teacher-app-shell .teacher-workspace .qd-edit{background:var(--bento-lavender);color:#49395f;border:1px solid #c3b5d9;border-radius:24px;min-height:44px}
+.app-container.teacher-app-shell .teacher-workspace .qd-edit:hover{background:#dcd2ef}
+:where(.app-container,.modal-overlay) :is(button,a,input,select,textarea,summary):focus-visible{outline:3px solid var(--bento-focus)!important;outline-offset:3px}
+.app-container button:disabled{cursor:not-allowed;opacity:.55;transform:none}
+.app-container button:not(:disabled):active{transform:translateY(1px)}
+@media(max-width:900px){.app-container .study-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px){.app-container .learning-checklist ol{grid-template-columns:1fr;gap:16px}.app-container .learning-checklist li:first-child{grid-row:auto;padding:24px}.app-container :is(.study-entry,.study-review,.study-add,.math-lesson,.math-exercise,.math-day){padding:16px}.app-container .study-entry-grid{grid-template-columns:1fr}.app-container .study-stats>div{padding:16px}.app-container .study-toolbar>label{min-width:0;flex-basis:100%}.app-container .study-error{flex-wrap:wrap}}
+.app-container .teacher-workspace{--tp-ink:var(--bento-ink);--tp-muted:var(--bento-muted);--tp-line:#e6e5ed;--tp-white:#fff;--tp-gray-50:var(--bento-canvas);--tp-green-700:#2f574c;--tp-green-800:#23463c;--tp-radius:24px;--tw-ink:var(--bento-ink);--tw-muted:var(--bento-muted);--tw-line:#e6e5ed;--tw-paper:#fff;--tw-accent:#2f574c;--tw-soft:var(--bento-mint);font-family:var(--font-family);color:var(--bento-ink);padding-top:0}
+.app-container .teacher-workspace h1{font-size:clamp(26px,2.5vw,36px);font-weight:600;line-height:1.4;letter-spacing:-.04em}
+.app-container .teacher-workspace :is(h2,h3){font-weight:600;line-height:1.5;letter-spacing:-.025em}
+.app-container .teacher-workspace .tw-overline{font-size:11px;letter-spacing:.1em;font-weight:500;color:#60546e}
+.app-container.teacher-app-shell .teacher-workspace :is(.tw-surface,.tw-empty,.tw-library-loading-error,.tw-skills-empty,.tp-directory-empty){border:0;border-radius:24px;background:#fff;box-shadow:var(--bento-shadow);padding:24px}
+.app-container.teacher-app-shell .teacher-workspace .tw-paper-question{border:1px solid #e6e5ed;box-shadow:none;background:#fff}
+.app-container.teacher-app-shell .teacher-workspace :is(.tw-header,.tp-directory-heading){align-items:center;gap:24px;margin-bottom:24px}
+.app-container.teacher-app-shell .teacher-workspace .tw-tabs{gap:8px;border:0;border-radius:24px;background:#fff;padding:8px;margin:24px 0;overflow-x:auto;scroll-padding:8px}
+.app-container.teacher-app-shell .teacher-workspace .tw-tabs button{border:0;border-radius:24px;padding:12px 20px;min-height:44px;background:transparent;color:#535966;font-size:13px;white-space:nowrap}
+.app-container.teacher-app-shell .teacher-workspace .tw-tabs button[aria-current=page]{background:var(--bento-lavender);color:#49395f;font-weight:600;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tw-tabs button:hover{background:#f0ecf7}
+.app-container.teacher-app-shell .teacher-workspace :is(.tw-actions,.tw-editor-footer,.tw-dialog,.tw-drawer,.tl-record-actions,.ar-next-actions,.ar-pagination,.tw-pagination) button{border-radius:24px;min-height:44px;font-size:13px;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace button.tw-primary,.app-container.teacher-app-shell .teacher-workspace button.tl-open-results{background:#293b35;color:#fff;border-color:#293b35;box-shadow:none;border-radius:24px;padding:12px 20px}
+.app-container.teacher-app-shell .teacher-workspace button.tw-primary:hover:not(:disabled),.app-container.teacher-app-shell .teacher-workspace button.tl-open-results:hover:not(:disabled){background:#3e594e}
+.app-container.teacher-app-shell .teacher-workspace button.tw-danger{background:#fbe5e8;color:#8f2f43;border:0}
+.app-container.teacher-app-shell .teacher-workspace .tw-back{border:0;border-radius:24px;background:#fff;color:#535966;padding:10px 16px;margin-bottom:24px;font-size:12px;min-height:44px}
+.app-container.teacher-app-shell .teacher-workspace :is(.tw-notice,.tl-incomplete,.ar-release-note,.ar-next-actions,.document-change-confirm,.document-key-note){background:#eaf4ef;color:#3f5a4c;border:0;border-radius:16px;padding:16px 20px;font-size:13px;line-height:1.8}
+.app-container.teacher-app-shell .teacher-workspace .tw-error{background:#fff0f1;color:#962e43;border:1px solid #f0cbd3;border-radius:16px;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace :is(.tw-form-grid,.tw-regrade-fields,.tw-title-input,.tw-class-tools,.tp-directory-tools,.tl-toolbar,.ar-filter-row,.ar-student-tools,.tec-author,.tec-filters,.tec-counts,.document-answer-question) :is(input:not([type=radio]):not([type=checkbox]),select,textarea){background:#f7f7fa;border:1px solid #d6d8df;border-radius:16px;min-height:48px;padding:12px 16px;box-shadow:inset 2px 2px 4px #343f4905;color:#252a32;font-family:var(--font-family);font-size:14px;max-width:100%}
+.app-container.teacher-app-shell .teacher-workspace :is(.tw-form-grid,.tw-regrade-fields,.tec-author,.tec-filters) textarea{min-height:112px;line-height:1.8}
+.app-container.teacher-app-shell .teacher-workspace input:disabled,.app-container.teacher-app-shell .teacher-workspace textarea:disabled{color:#626575;background:#f0f0f4}
+.app-container.teacher-app-shell .teacher-workspace input:is([type=checkbox],[type=radio]){accent-color:#507768}
+.app-container.teacher-app-shell .teacher-workspace .tw-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;background:transparent;border:0;margin:24px 0}
+.app-container.teacher-app-shell .teacher-workspace .tw-stat{background:var(--bento-mint);border:0;border-radius:24px;padding:24px;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tw-stat:nth-child(3n+2){background:var(--bento-yellow)}
+.app-container.teacher-app-shell .teacher-workspace .tw-stat:nth-child(3n){background:var(--bento-lavender)}
+.app-container.teacher-app-shell .teacher-workspace .tw-stat strong{color:#252a32;font-weight:600}
+/* Library */
+.app-container.teacher-app-shell .teacher-workspace .tl-workspace{--tl-action:#2f574c;--tl-ink:#252a32;--tl-muted:#535966;--tl-line:#e6e5ed}
+.app-container.teacher-app-shell .teacher-workspace .tl-state-strip{display:flex;gap:8px;border:0;background:#fff;border-radius:24px;padding:8px;flex-wrap:wrap;width:fit-content;max-width:100%;margin:0 0 24px}
+.app-container.teacher-app-shell .teacher-workspace .tl-state-strip button{border:0;border-radius:24px;background:transparent;padding:10px 16px;min-height:44px;font-size:13px;color:#535966;gap:8px}
+.app-container.teacher-app-shell .teacher-workspace .tl-state-strip button[aria-pressed=true]{background:var(--bento-lavender);color:#49395f;font-weight:600}
+.app-container.teacher-app-shell .teacher-workspace .tl-state-strip strong{background:#ffffffb0;color:#49395f;border-radius:50%;padding:2px 7px;min-width:24px;font-size:11px;text-align:center}
+.app-container.teacher-app-shell .teacher-workspace .tl-toolbar{border:0;background:#fff;box-shadow:none;padding:24px;border-radius:24px;gap:24px}
+.app-container.teacher-app-shell .teacher-workspace .tl-search-control{background:#f7f7fa;border:1px solid #d6d8df;border-radius:16px;min-height:48px;padding:0 16px;gap:8px}
+.app-container.teacher-app-shell .teacher-workspace .tl-search-control input{background:transparent;border:0;border-radius:16px;box-shadow:none;padding-left:0}
+.app-container.teacher-app-shell .teacher-workspace .tl-records{gap:24px}
+.app-container.teacher-app-shell .teacher-workspace .tl-record{border:0;border-radius:24px;box-shadow:var(--bento-shadow);padding:24px;background:#fff;gap:20px}
+.app-container.teacher-app-shell .teacher-workspace .tl-record:nth-child(3n+2){background:#f3effa}
+.app-container.teacher-app-shell .teacher-workspace .tl-record:nth-child(3n){background:#fdf0f5}
+.app-container.teacher-app-shell .teacher-workspace .tl-file-icon{box-sizing:content-box;background:var(--bento-mint);border-radius:50%;padding:12px;color:#36594e}
+.app-container.teacher-app-shell .teacher-workspace .tl-status{border-radius:16px;padding:6px 12px;font-size:11px;font-weight:500}
+.app-container.teacher-app-shell .teacher-workspace .tl-status.is-closed{background:var(--bento-lavender);color:#49395f}
+.app-container.teacher-app-shell .teacher-workspace .tl-status.is-draft{background:var(--bento-yellow);color:#705a28}
+.app-container.teacher-app-shell .teacher-workspace .tl-status.is-open{background:var(--bento-mint);color:#34594a}
+.app-container.teacher-app-shell .teacher-workspace .tl-submissions{border-radius:16px;background:#edf5f0;padding:16px}
+.app-container.teacher-app-shell .teacher-workspace .tl-exam-facts span{background:#f2f0f6;color:#535966;border-radius:16px;padding:4px 10px}
+.app-container.teacher-app-shell .teacher-workspace .tl-record-actions{padding-top:16px;border-color:#e6e5ed}
+.app-container.teacher-app-shell .teacher-workspace .tl-record-actions .tl-open-paper{background:#f6f4fa;color:#49395f;border:0}
+.app-container.teacher-app-shell .teacher-workspace .tl-more>summary{min-height:44px;border:0;border-radius:24px;padding:12px 16px;background:#f5f5f8;color:#535966;font-size:12px}
+.app-container.teacher-app-shell .teacher-workspace .tl-more>div{border:1px solid #e6e5ed;border-radius:16px;box-shadow:var(--bento-shadow);padding:8px;background:#fff}
+.app-container.teacher-app-shell .teacher-workspace .tl-view-toggle{padding:4px;border-radius:24px;background:#eae7f0}
+.app-container.teacher-app-shell .teacher-workspace .tl-view-toggle button{border-radius:24px;min-height:44px;box-shadow:none;color:#535966}
+.app-container.teacher-app-shell .teacher-workspace .tl-view-toggle button[aria-pressed=true]{background:#fff;color:#49395f}
+.app-container.teacher-app-shell .teacher-workspace .tl-view-list .tl-record{border-radius:16px;box-shadow:none}
+/* Class directory and detail */
+.app-container.teacher-app-shell .teacher-workspace .tp-directory-tools{border:0;background:#fff;border-radius:24px;padding:24px;gap:24px;margin:24px 0}
+.app-container.teacher-app-shell .teacher-workspace .tp-directory-search{border-radius:16px;background:#f7f7fa;gap:8px}
+.app-container.teacher-app-shell .teacher-workspace .tp-directory-search input{border:0;background:transparent;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tp-class-row{background:#fff;border:0;border-radius:24px;padding:24px;margin:16px 0;box-shadow:var(--bento-shadow)}
+.app-container.teacher-app-shell .teacher-workspace .tp-class-row:hover{background:#edf5f0}
+.app-container.teacher-app-shell .teacher-workspace .tp-class-symbol{background:var(--bento-lavender);color:#5d4c78;border:0;border-radius:50%;width:48px;height:48px}
+.app-container.teacher-app-shell .teacher-workspace .tp-class-open{color:#36594e}
+.app-container.teacher-app-shell .teacher-workspace .tw-invite{background:var(--bento-lavender);border:0;border-radius:24px;padding:24px;color:#49395f}
+.app-container.teacher-app-shell .teacher-workspace .tw-invite code{font-size:24px;letter-spacing:.12em}
+.app-container.teacher-app-shell .teacher-workspace .tw-table-wrap{border:0;border-radius:16px;background:#fff}
+.app-container.teacher-app-shell .teacher-workspace table{border-collapse:collapse;font-size:13px}
+.app-container.teacher-app-shell .teacher-workspace th{background:#f2eff8;color:#49395f;font-size:12px;font-weight:500;border-color:#e6e5ed;padding:16px}
+.app-container.teacher-app-shell .teacher-workspace td{border-color:#eeedf2;padding:16px;line-height:1.6}
+.app-container.teacher-app-shell .teacher-workspace tbody tr:hover{background:#f8f6fc}
+.app-container.teacher-app-shell .teacher-workspace :is(.tw-pagination,.ar-pagination) button{border-radius:50%;min-width:44px;background:#f1eef7;border:0;color:#49395f}
+/* Results and analytics: visual grouping only; grading colors remain semantic. */
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis{border:0;border-radius:0;background:transparent;gap:16px;overflow:visible;margin:24px 0}
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis>div,.app-container.teacher-app-shell .teacher-workspace .ar-kpis>button{border:0;border-radius:24px;background:var(--bento-mint);padding:24px;box-shadow:none;gap:8px}
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis>:nth-child(2){background:var(--bento-yellow)}
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis>:nth-child(3){background:var(--bento-lavender)}
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis>:nth-child(4){background:var(--bento-pink)}
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis :is(strong,span,p){color:#424953}
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis strong{font-weight:600;color:#252a32;font-size:32px}
+.app-container.teacher-app-shell .teacher-workspace .ar-kpis strong small{color:#535966}
+.app-container.teacher-app-shell .teacher-workspace .ar-next-actions{margin:24px 0;background:#fff5d7;gap:16px}
+.app-container.teacher-app-shell .teacher-workspace .ar-next-actions button{background:transparent;border:0;color:#5f4f2b}
+.app-container.teacher-app-shell .teacher-workspace .ar-overview{gap:24px;margin:24px 0}
+.app-container.teacher-app-shell .teacher-workspace .ar-report .tw-surface:not(.tw-question){padding:24px;border-radius:24px;background:#fff;box-shadow:var(--bento-shadow);border:0}
+.app-container.teacher-app-shell .teacher-workspace .ar-review-question{border:0;border-bottom:1px solid #e6e5ed;border-radius:0;padding:16px 0;background:transparent}
+.app-container.teacher-app-shell .teacher-workspace .ar-review-question:hover{background:#f9f6fb}
+.app-container.teacher-app-shell .teacher-workspace .ar-filter-row{background:#f6f5f9;border:0;border-radius:16px;padding:16px;gap:16px}
+.app-container.teacher-app-shell .teacher-workspace .ar-filter-chips button,.app-container.teacher-app-shell .teacher-workspace .ar-filters button{border:0;border-radius:24px;background:#f4f2f8;color:#535966;min-height:44px}
+.app-container.teacher-app-shell .teacher-workspace .ar-filter-chips button[aria-pressed=true],.app-container.teacher-app-shell .teacher-workspace .ar-filters button[aria-pressed=true]{background:var(--bento-lavender);color:#49395f}
+.app-container.teacher-app-shell .teacher-workspace .ar-release-note{margin:24px 0;background:#edf5f0}
+/* Composer, settings and review */
+.app-container.teacher-app-shell .teacher-workspace .tw-title-input{padding:24px;background:#fff;border-radius:24px;margin:24px 0;display:flex;gap:12px;flex-direction:column}
+.app-container.teacher-app-shell .teacher-workspace .tec-main{min-width:0}
+.app-container.teacher-app-shell .teacher-workspace .tec-author{padding:24px;background:#fff;border-radius:24px;gap:24px}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card{border:1px solid #e6e5ed;border-radius:24px;background:#fff;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card[aria-pressed=true]{border-color:#9c8fb5;background:var(--bento-lavender);box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card[data-tone=amber]{background:#fff5d7}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-icon{border-radius:50%;background:#ffffffb0;color:#5d4c78}
+.app-container.teacher-app-shell .teacher-workspace .tec-help-trigger{border-radius:50%;width:44px;height:44px;border:0;background:#f0ecf7;color:#49395f}
+.app-container.teacher-app-shell .teacher-workspace .tec-counts{border:0;border-radius:24px;background:#fff5d7;padding:24px;margin:24px 0}
+.app-container.teacher-app-shell .teacher-workspace .tec fieldset:not([disabled]){border-color:#e6e5ed;border-radius:16px}
+.app-container.teacher-app-shell .teacher-workspace .tec .tec-author>button{background:#293b35;color:#fff;border:0;border-radius:24px;min-height:48px;padding:12px 20px}
+.app-container.teacher-app-shell .teacher-workspace .tec-upload-strip{background:#f1edf8;border:0;border-radius:16px;padding:16px}
+.app-container.teacher-app-shell .teacher-workspace .tec-selected{border:0;border-radius:24px;background:#fff;padding:24px}
+.app-container.teacher-app-shell .teacher-workspace .tec-preview{background:#f7f7fa;border-radius:16px;padding:16px}
+.app-container.teacher-app-shell .teacher-workspace .tw-preview{background:#f1edf8;border:0;border-radius:24px;padding:24px}
+.app-container.teacher-app-shell .teacher-workspace .tw-editor-footer{background:#fff;border:0;border-radius:24px;box-shadow:var(--bento-shadow);margin-top:24px;padding:24px;gap:16px}
+.app-container.teacher-app-shell .teacher-workspace .tw-paper-tools{background:#fff;border-radius:16px;padding:16px 24px;margin-bottom:24px}
+/* Dialogs including portals outside the app shell */
+:where(.account-dialog,.tw-dialog,.tw-drawer,.tec-help-dialog,.exam-result,.modal-content){font-family:var(--font-family);color:var(--bento-ink)}
+.account-dialog,.tw-dialog,.tw-drawer,.tec-help-dialog{border:0!important;border-radius:24px!important;background:#fff!important;box-shadow:0 16px 64px #343f4926!important}
+.account-dialog>div:first-child{background:var(--bento-lavender)!important;border:0!important}
+.account-dialog :is(h2,h3){font-family:var(--font-family);font-weight:600}
+.account-dialog :is(input:not([type=checkbox]):not([type=radio]),select,textarea){border-radius:16px!important;min-height:48px;background:#f7f7fa!important;font-family:var(--font-family)}
+.account-dialog button{min-height:44px;border-radius:24px!important;font-family:var(--font-family);box-shadow:none!important}
+.account-dialog .session-device{border-radius:16px!important;background:#f5f3f9}
+.account-dialog .session-toolbar{background:#f6f4fa;border-radius:16px;padding:16px}
+.tec-help-dialog>header{background:var(--bento-lavender);border:0;border-radius:24px 24px 0 0}
+.modal-overlay{backdrop-filter:none!important;background:#33394166!important}
+.modal-overlay .modal-content{border:0;border-radius:24px;box-shadow:0 16px 64px #343f4926}
+/* Student, onboarding, system and account status pages */
+.app-container :is(.wizard-card-box,.classroom-input-card,.classroom-empty-card,.classroom-joined-card,.competency-header-card,.not-found-container){border:0!important;border-radius:24px!important;background:#fff;box-shadow:var(--bento-shadow)!important}
+.app-container .wizard-step-tag{background:var(--bento-lavender);color:#49395f;border-radius:16px;padding:8px 16px;width:fit-content;font-weight:500}
+.app-container .step-title{font-family:var(--font-family);font-weight:600;letter-spacing:-.035em;color:#252a32}
+.app-container .wizard-card-footer{border-color:#eeedf2;padding-top:24px}
+.app-container .btn-wizard-next{background:#293b35;color:#fff;border:0;border-radius:24px;min-height:48px;box-shadow:none}
+.app-container .btn-wizard-back{border:0;border-radius:24px;min-height:44px;color:#535966}
+.app-container .selection-card{border:1px solid #e0dce8;border-radius:16px;background:#f7f6fa;box-shadow:none}
+.app-container .selection-card.selected{background:var(--bento-mint);border-color:#85a596;box-shadow:none}
+.app-container .topic-chip{border:0;border-radius:16px;background:#f1eef7;color:#49395f;min-height:44px;padding:12px 16px}
+.app-container .topic-chip.active{background:var(--bento-mint);color:#34594a}
+.app-container .summary-review-table{background:#f5f2fa;border:0;border-radius:16px;padding:16px}
+.app-container .classroom-input-card{padding:24px;background:var(--bento-mint)}
+.app-container .code-input-group{background:#fff;border:0;border-radius:16px;overflow:hidden;box-shadow:inset 2px 2px 6px #343f4908}
+.app-container .btn-find-class{background:#293b35;color:#fff;border:0;border-radius:24px;min-height:48px;box-shadow:none}
+.app-container .classroom-empty-card{padding:32px}
+.app-container .pastel-class-tab{border:0!important;border-radius:24px!important;background:#fff!important;color:#535966!important;box-shadow:none!important;min-height:44px}
+.app-container .pastel-class-tab[aria-pressed=true]{background:var(--bento-lavender)!important;color:#49395f!important}
+.app-container .pastel-pending-page>div:first-child{background:#fff!important;border:0!important;border-radius:24px!important;box-shadow:var(--bento-shadow)!important}
+.app-container .pastel-pending-page button{min-height:44px;border-radius:24px!important;box-shadow:none!important}
+.app-container .pastel-pending-page input{border-radius:16px!important;min-height:48px}
+.app-container .admin-workspace{color:#252a32;font-family:var(--font-family)}
+.app-container .admin-workspace .admin-section-nav{border:0!important;background:#fff;border-radius:24px;padding:8px!important;gap:8px!important;overflow-x:auto;flex-wrap:nowrap;max-width:100%}
+.app-container .admin-workspace .admin-section-nav>button{border:0!important;border-radius:24px!important;min-height:44px;white-space:nowrap;font-size:13px!important;font-weight:500!important;color:#535966!important;flex-shrink:0}
+.app-container .admin-workspace .admin-section-nav>button[aria-current=page]{background:var(--bento-lavender)!important;color:#49395f!important;font-weight:600!important}
+.app-container .pastel-admin-stat{padding:24px;background:var(--bento-mint);border:0;border-radius:24px;box-shadow:none}
+.app-container .pastel-admin-stat:nth-child(2){background:var(--bento-yellow)}
+.app-container .pastel-admin-stat:nth-child(3){background:var(--bento-lavender)}
+.app-container .pastel-admin-stat:nth-child(4){background:var(--bento-pink)}
+.app-container .admin-workspace button{border-radius:24px!important;min-height:44px;box-shadow:none!important}
+.app-container .admin-workspace :is(input:not([type=checkbox]):not([type=radio]),select,textarea){border-radius:16px!important;min-height:44px;font-family:var(--font-family);max-width:100%}
+.app-container .admin-workspace table{font-size:13px}
+.app-container .admin-workspace th{background:#f1edf8!important;color:#49395f!important}
+/* Paper containers change; answer boxes, correct choices and grading indicators don't. */
+.exam-document-source,.exam-document-answers{border-radius:16px;box-shadow:none}
+.exam-result[role=dialog]{border:0;border-radius:24px;box-shadow:0 16px 64px #343f4926}
+.exam-result-header{background:var(--bento-lavender);border:0}
+.student-exam{border:0!important;border-radius:24px!important;background:var(--bento-canvas)!important;font-family:var(--font-family)}
+.student-exam .student-exam-navigator{border:0;border-radius:24px;background:#fff}
+.student-exam .student-exam-question{border-radius:24px;background:#fff;padding:24px}
+/* Shared interaction contract */
+:where(.teacher-workspace,.admin-workspace,.wizard-content-wrapper,.classroom-page-container,.account-dialog) :is(button,a,input,select,textarea,summary):focus-visible{outline:3px solid #64468e!important;outline-offset:3px}
+:where(.teacher-workspace,.admin-workspace,.wizard-content-wrapper,.classroom-page-container,.account-dialog) button:disabled{opacity:.55;cursor:not-allowed;transform:none}
+:where(.teacher-workspace,.admin-workspace,.wizard-content-wrapper,.classroom-page-container,.account-dialog) button:not(:disabled):active{transform:translateY(1px)}
+@media(max-width:1100px){.app-container.teacher-app-shell .teacher-workspace .ar-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.app-container.teacher-app-shell .teacher-workspace .tl-records{grid-template-columns:repeat(2,minmax(0,1fr))}.app-container.teacher-app-shell .teacher-workspace .tl-record{padding:24px 20px}}
+@media(max-width:767px){.app-container.teacher-app-shell .teacher-workspace :is(.tw-header,.tp-directory-heading){align-items:flex-start;flex-wrap:wrap;gap:16px}.app-container.teacher-app-shell .teacher-workspace :is(.tw-actions,.tw-editor-footer){flex-wrap:wrap}.app-container.teacher-app-shell .teacher-workspace .tl-records{grid-template-columns:1fr}.app-container.teacher-app-shell .teacher-workspace .tl-toolbar{flex-direction:column;align-items:stretch;padding:16px;gap:16px}.app-container.teacher-app-shell .teacher-workspace .tl-folder{flex-basis:auto}.app-container.teacher-app-shell .teacher-workspace .tl-state-strip{width:100%;gap:4px;padding:4px}.app-container.teacher-app-shell .teacher-workspace .tl-state-strip button{padding:8px 12px;font-size:12px}.app-container.teacher-app-shell .teacher-workspace .tl-state-strip strong{font-size:10px;padding:2px 5px;min-width:20px}.app-container.teacher-app-shell .teacher-workspace .ar-overview{grid-template-columns:1fr}.app-container.teacher-app-shell .teacher-workspace .ar-kpis>div,.app-container.teacher-app-shell .teacher-workspace .ar-kpis>button{padding:20px 16px}.app-container.teacher-app-shell .teacher-workspace .ar-kpis strong{font-size:28px}.app-container.teacher-app-shell .teacher-workspace .ar-next-actions{align-items:flex-start;flex-direction:column;gap:8px}.app-container.teacher-app-shell .teacher-workspace .tw-stats{grid-template-columns:1fr}.app-container.teacher-app-shell .teacher-workspace .tw-tabs{border-radius:20px}.app-container.teacher-app-shell .teacher-workspace .tw-tabs button{padding:10px 16px;font-size:12px}.app-container.teacher-app-shell .teacher-workspace .tec-author{padding:16px}.app-container.teacher-app-shell .teacher-workspace .tw-editor-footer{padding:16px}.app-container .wizard-card-box{padding:24px 16px!important}.account-dialog{max-width:calc(100vw - 32px)!important}.app-container .admin-workspace .pastel-admin-stat{min-width:0}.student-exam{border-radius:0!important}.student-exam .student-exam-question{padding:16px}}
+@media(prefers-reduced-motion:reduce){:where(.teacher-workspace,.admin-workspace,.account-dialog,.student-exam) *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+.app-container.teacher-app-shell .teacher-workspace .tw-stat :is(span,small){color:#424953}
+.app-container .pastel-admin-stat>div{color:#424953!important}
+.account-dialog>div:first-child span{color:#535966!important}
+.exam-result .exam-result-eyebrow{color:#535966}
+.app-container.teacher-app-shell .teacher-workspace .tl-toolbar .tl-search-control input{border:0!important;box-shadow:none!important;background:transparent!important;border-radius:0!important}
+.app-container.teacher-app-shell .teacher-workspace .ar-report>.tw-header{background:#fff;border:0;border-radius:24px;padding:24px;box-shadow:var(--bento-shadow)}
+.app-container.teacher-app-shell .teacher-workspace .ar-publish-status{background:#eaf4ef;border:0;border-radius:16px;padding:20px;margin:24px 0}
+.app-container.teacher-app-shell .teacher-workspace :is(.ar-roster-tools,.ar-analysis-tools){background:#f7f5fa;border:0;border-radius:16px;padding:16px;gap:16px;margin:24px 0}
+.app-container.teacher-app-shell .teacher-workspace :is(.ar-roster-tools,.ar-analysis-tools) :is(input,select){background:#fff;border:1px solid #d6d8df;border-radius:16px;min-height:48px;font-size:14px;color:#252a32;padding:12px 16px;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace :is(.ar-roster-tools,.ar-analysis-tools) .ar-search{background:#fff;border:1px solid #d6d8df;border-radius:16px;padding:0 16px;min-height:48px}
+.app-container.teacher-app-shell .teacher-workspace :is(.ar-roster-tools,.ar-analysis-tools) .ar-search input{border:0;background:transparent;padding-left:0;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .ar-score-range{border:0;background:#fff;border-radius:16px;padding:16px}
+.app-container.teacher-app-shell .teacher-workspace .tec-selected-question{margin:16px 0;padding:16px 0;border-top:1px solid #e6e5ed}
+.app-container.teacher-app-shell .teacher-workspace .tec-selected-question>.question-display{border:0;background:transparent;padding:0}
+.app-container.teacher-app-shell .teacher-workspace .tec-inline-preview{margin:16px 0}
+.app-container.teacher-app-shell .teacher-workspace .tec-inline-preview .question-display{border:1px solid #e6e5ed;border-radius:16px;background:#fff}
+.app-container .modern-loading-box{background:#fff;border-radius:24px;box-shadow:var(--bento-shadow);width:fit-content;max-width:100%;margin:24px auto}
+.app-container .not-found-container button{border:0!important;border-radius:24px!important;box-shadow:none!important;min-height:48px}
+
+.app-container.teacher-app-shell .teacher-workspace th button{color:#36594e;background:transparent;border:0;border-radius:16px;min-height:44px}
+.app-container .date-helper-note{color:#535966}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card.is-selected{border:1px solid #a696bc;background:var(--bento-lavender);box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card:not(.is-selected).tec-method-amber{background:#fff5d7}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card:not(.is-selected).tec-method-sage{background:#edf5f0}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card:not(.is-selected).tec-method-blue{background:#f9eaf2}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card:not(.is-selected).tec-method-clay{background:#f1edf8}
+.math-tutor-panel{background:#fff;border:0;border-radius:24px;box-shadow:0 12px 48px #343f4926;font-family:var(--font-family)}
+.math-tutor-panel .math-tutor-panel-heading{background:var(--bento-lavender);color:#49395f;border:0;padding:16px}
+.math-tutor-panel .math-tutor-panel-heading button{border:0;border-radius:50%;min-width:44px;min-height:44px;background:#ffffffb0;color:#49395f}
+.math-tutor-launcher{background:var(--bento-yellow);border:0;color:#624f2b;box-shadow:var(--bento-shadow)}
+.math-tutor-chat{font-family:var(--font-family)}
+.math-tutor-chat :is(textarea,input){border-radius:16px;background:#f7f7fa;color:#252a32}
+
+/* Save controls stay in document flow so no question fields are covered. */
+.app-container.teacher-app-shell .teacher-workspace .tw-exam-editor .tw-editor-footer{position:static!important;inset:auto!important;transform:none!important;width:auto!important;max-width:100%;min-height:0;z-index:auto;margin:24px 0 0;padding:24px;align-items:center}
+.app-container.teacher-app-shell .teacher-workspace .tw-exam-editor .tw-editor-footer>div{min-width:0}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-picker{background:#fff;border:0;border-radius:24px;padding:24px;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tec-support{background:#f1edf8;border:0;border-radius:24px;padding:24px;box-shadow:none}
+.app-container.teacher-app-shell .teacher-workspace .tec-method-card{font-weight:500}
+.app-container.teacher-app-shell .teacher-workspace .tec-support .tec-slot{border-radius:12px;min-width:36px;min-height:36px;background:#ffffffb0;border-color:#ddd6e9;color:#49395f}
+@media(max-width:767px){.app-container.teacher-app-shell .teacher-workspace .tw-exam-editor .tw-editor-footer{padding:16px}.app-container.teacher-app-shell .teacher-workspace .tec-method-picker{padding:16px}.app-container.teacher-app-shell .teacher-workspace .tec-support{padding:16px}}
+
+.app-container .admin-workspace [role=region]:focus-visible{outline:3px solid #64468e;outline-offset:3px}

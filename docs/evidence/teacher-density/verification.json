@@ -1,0 +1,50 @@
+{
+  "checks": [
+    "bank desktop: responsive default, 20/page, next page, empty/reset and retained context",
+    "analysis desktop: responsive default, 20/page, next page, empty/reset and retained context",
+    "bank tablet: responsive default, 20/page, next page, empty/reset and retained context",
+    "analysis tablet: responsive default, 20/page, next page, empty/reset and retained context",
+    "bank mobile: responsive default, 20/page, next page, empty/reset and retained context",
+    "analysis mobile: responsive default, 20/page, next page, empty/reset and retained context",
+    "Bank load failure is distinct from empty; in-place retry recovers questions"
+  ],
+  "measurements": [
+    {
+      "name": "bank",
+      "size": "desktop",
+      "height": 1893,
+      "rows": 10
+    },
+    {
+      "name": "analysis",
+      "size": "desktop",
+      "height": 2802,
+      "rows": 10
+    },
+    {
+      "name": "bank",
+      "size": "tablet",
+      "height": 1950,
+      "rows": 10
+    },
+    {
+      "name": "analysis",
+      "size": "tablet",
+      "height": 3133,
+      "rows": 10
+    },
+    {
+      "name": "bank",
+      "size": "mobile",
+      "height": 1802,
+      "rows": 5
+    },
+    {
+      "name": "analysis",
+      "size": "mobile",
+      "height": 3060,
+      "rows": 5
+    }
+  ],
+  "errors": []
+}

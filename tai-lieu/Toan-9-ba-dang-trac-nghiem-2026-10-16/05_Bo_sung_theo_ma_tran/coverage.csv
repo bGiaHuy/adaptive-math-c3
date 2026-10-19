@@ -1,0 +1,11 @@
+﻿slot,name,totalCandidates,sourceExplicit,modelProposed,uncertain,independentSourcesCount,targetStatus
+2,"Phương trình quy về bậc nhất (TN, Nhận biết)",6,0,6,0,2,REACHED_TARGET_GE_5
+10,"Tứ giác nội tiếp, đa giác đều (TN, Thông hiểu)",6,1,5,0,4,REACHED_TARGET_GE_5
+11,"Thống kê, tần số tương đối (TN, Nhận biết)",5,0,5,0,4,REACHED_TARGET_GE_5
+13,"Mô hình hóa bằng pt và hệ (Đ/S 4 ý, Thông hiểu)",5,0,5,0,5,REACHED_TARGET_GE_5
+14,"Biến đổi căn thức (Đ/S 4 ý, Thông hiểu)",5,0,5,0,5,REACHED_TARGET_GE_5
+15,"Quan hệ hình học đường tròn (Đ/S 4 ý, Thông hiểu)",5,0,5,0,5,REACHED_TARGET_GE_5
+16,"Đọc và phân tích dữ liệu (Đ/S 4 ý, Thông hiểu)",5,0,5,0,5,REACHED_TARGET_GE_5
+17,"Viète và ứng dụng (Ngắn, Vận dụng)",5,0,5,0,5,REACHED_TARGET_GE_5
+20,"Diện tích, thể tích thực tiễn (Ngắn, Vận dụng)",5,0,5,0,3,REACHED_TARGET_GE_5
+22,"Hình học nội tiếp tổng hợp (Ngắn, Vận dụng cao)",5,0,5,0,3,REACHED_TARGET_GE_5

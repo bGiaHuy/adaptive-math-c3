@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Gradebook score opens the selected student in the chosen assignment using exactly one report request",
+    "Library report opens with a single request"
+  ],
+  "errors": []
+}

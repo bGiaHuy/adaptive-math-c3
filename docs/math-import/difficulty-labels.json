@@ -1,0 +1,407 @@
+{
+  "apply": true,
+  "rubric": "PROVISIONAL_CONTENT_REVIEW_REQUIRED",
+  "counts": {
+    "EASY": 64,
+    "MEDIUM": 25,
+    "HARD": 10
+  },
+  "labels": [
+    {
+      "id": "93b6f467-b7bd-5e4d-a181-4a1880c644f8",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "a42b294e-a2f1-526a-ae62-127610491dc1",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "719cc841-4bf4-5251-aadb-67de5a4faef8",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "8376e712-562f-54e2-ad3f-e5856968cfb2",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "6a8a2b73-ae3c-522b-af06-99dd719b6f8b",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "4c4c183e-f48b-5747-a7d4-38df8ecd5418",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "1fec3cd5-5366-50fe-a051-3fffe031fd4e",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "fc5b9562-f6ea-5529-a54f-93a60c05d553",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "670c578a-aa85-5452-af6d-ca91262d1a46",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "45d82e6d-bd45-54cb-a97d-1170f67b6806",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "1c3e3f71-0b22-5f0c-a1e4-69544bf9b6fd",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "30ab9352-b730-5f18-ac80-71e156e9b177",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "45908ddd-26ba-5f61-a39b-111f1e564394",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "04b9264a-8323-5052-af1a-feeaf3a6966c",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "015ecce0-95ff-5199-a049-130e919b8d35",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "8b9e9a16-0cad-51ff-afe4-13439960225b",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "0516f7ed-9f47-5268-aff1-e200e6470511",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "01c6059b-db31-58a4-a38a-7a39dd322b7e",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "3a31b72e-8d3d-57de-aa8d-13f09aa3c745",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "b2cb8f1b-e680-564e-a362-83fba2007210",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "b3d2153b-f1a2-5349-aab9-805dcb0e9bc1",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "e6da9233-a667-5c43-a335-0d6d69df0c51",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "81aa3717-93e7-5b4c-a299-bb8414ce6451",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "7e157233-0ad5-5e66-adfa-913d647f7ae9",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "7c065ff1-7482-5ffd-a25a-f63b60657512",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "a807e065-6c1d-5cd7-a7e5-07418efc7e3b",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "667f0044-f4bf-5b7d-ac4d-bd15ea432edd",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "16d1670f-a1d1-5d8c-a744-8939a6d8b5d6",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "b61846e1-5f87-5c56-aaa5-dba4001109b9",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "ca047ccc-63e1-57f9-ad87-067e3542d14a",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "2ce52c88-9678-5c04-acc3-e601a0214b13",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "c58186d3-1e10-5d58-a70e-f56822a8b1b7",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "6fe68091-6262-5c90-aef5-3cb3e92d1ca2",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "0e33a411-8cbe-5137-ad23-fedef465d8d0",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "44fff239-da36-570f-a6d6-91443ad38e12",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "b3501a21-1b15-51b3-a493-1b6b527a3e96",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "acf6ff75-fd6f-5eb1-a1f9-7747a19fa324",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "4c04b51f-c548-564e-a5c6-e89e4a720884",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "7694afc6-9402-5016-a2eb-e5f4fb1e777c",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "946178ae-283c-56d2-af05-013826c462cc",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "68f17c79-7487-5677-a752-8bd33ac99bac",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "5f6f2bff-224b-54fc-a1fe-66d434aa41b8",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "c467d2f4-4898-59a0-ad63-6603da18e7ab",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "a93f87da-da58-53b4-a68a-5221c6738dee",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "a73f32a6-3925-594b-af4b-acbcb70ef00b",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "84b9177a-427d-51c8-a228-5aacb8db996f",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "faaa523d-f4f8-5ee8-a100-1742c35d3767",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "722bbbb1-8020-5c29-a7ed-225f84811d4a",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "9f4d7b0c-f92d-5362-a038-c2910c559c68",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "2e78872c-db35-5c70-aa19-6d3093a005bb",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "3e61e360-8c25-54e1-a592-7e66ff298d2e",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "87ed6d43-c57a-54fd-a74d-657b787e441c",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "8b5cae24-2e7c-5ed5-abca-f1fb5717993a",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "88b6ec4b-be78-572e-a824-6fbb87065e2b",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "80fbcec2-0177-52de-a1ab-a8886f60e65a",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "537c477f-0c05-5687-a04e-745394220f71",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "12cbaf3b-c779-59bd-a330-5fab65ba7309",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "6450b1e7-4993-53d5-a300-0b775d217216",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "a99888f0-437f-5647-ac01-49b4b4b8d856",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "2570df6e-96d0-5653-a114-1095737b4fcf",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "19deb4a4-bb7c-51af-abac-6eb199ad9bf9",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "1060c93d-a9ba-58ab-acd1-d509aac38350",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "1fc5fe3f-2734-58e0-a3ce-c0e962577c4c",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "29d9f026-3575-5d4a-aa27-48f5351bb5b7",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "558ebe4f-1d7f-5f15-aeca-c2708e69075d",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "8fa2044e-b27a-53c3-a33d-0f93af819a7a",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "9c2e179e-d97f-56ec-a214-bad261ad5665",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "29540604-c85e-535b-a87d-0a3cd97ebdca",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "f1cc6003-e09c-52f5-ad7b-e571f5d7c2a1",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "ad5d9dc9-6c3b-5970-a4f3-8af65d1dc167",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "1bcd1c30-d82c-50fa-a237-295f2b4d49e8",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "6a6deb10-61db-5092-a119-a5c9d5d16ed7",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "c1f0a76b-406d-5636-a176-67d2b561a470",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "185a3d78-e92c-5b58-abd4-51829e07b4a4",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "0c473d10-a034-5c44-afce-9517682c988b",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "4d7396de-66af-5f13-ab01-fb02748f094f",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "180e3043-16d0-5911-a281-dc93895c84f1",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "8569d320-fe94-55d3-a568-ba2caa8680b7",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "b5a2462f-a552-5a37-addf-15cd49524b1b",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "4a601d1f-658d-511b-ae2f-714a5c03af4d",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "ea71ed2e-42ef-587a-a312-d346b3b934fc",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "1521959b-75b3-51d5-ab7e-fb41933f6bb3",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "d77a8eb3-0dfe-5597-a3a1-54a07639b0a4",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "59fc7c7e-7f5d-51c8-a47a-5565192bf6fe",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "713915cd-ce35-5d29-a6e4-f94ad926f02b",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "a433f0e8-4fd7-5d08-a071-47c47157057c",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "id": "8a218011-80e1-55a6-aa53-b8d2f0fa3cfd",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "088f1dfa-44f7-5b9c-a8a9-94a191311319",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "d143e2fc-6628-5ba0-a333-5692206db51f",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "adebd289-67fb-5bf6-a188-8a95265b22ab",
+      "difficulty": "EASY"
+    },
+    {
+      "id": "ee62d882-bded-552f-a3ce-eef80466fbf2",
+      "difficulty": "HARD"
+    },
+    {
+      "id": "51561094-71e1-5d33-a8dc-83c06a8bad7d",
+      "difficulty": "HARD"
+    }
+  ]
+}

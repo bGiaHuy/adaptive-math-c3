@@ -1,0 +1,1158 @@
+{
+  "checks": [
+    "Local draft is discoverable in library and resumes original content",
+    "Invalid duration keeps teacher at settings with actionable error",
+    "After-due publication explains missing deadline before review",
+    "Valid settings reach review preserving title and questions",
+    "Unapplied document answer survives reload under its draft key",
+    "Replace cancel and upload failure preserve answers; successful replacement clears old answer sheet",
+    "Failed assignment save retains draft; explicit retry publishes controlled fixture once and clears saved draft"
+  ],
+  "errors": [],
+  "writes": [
+    "fixture-upload",
+    "fixture-upload",
+    {
+      "save": {
+        "title": "Đề kiểm thử luồng",
+        "description": "",
+        "durationMinutes": 45,
+        "dueDate": "2026-12-01T03:00:00.000Z",
+        "questionCounts": {
+          "SINGLE_CHOICE": 12,
+          "TRUE_FALSE": 4,
+          "SHORT_ANSWER": 6
+        },
+        "questionIds": [],
+        "customQuestions": [
+          {
+            "skillId": "skill1",
+            "difficulty": "EASY",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "MEDIUM",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "VERY_HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "EASY",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "MEDIUM",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "VERY_HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "EASY",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "MEDIUM",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "VERY_HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "EASY",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "MEDIUM",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "HARD",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "VERY_HARD",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "EASY",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "MEDIUM",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "HARD",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "VERY_HARD",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "EASY",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "MEDIUM",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          }
+        ],
+        "status": "PUBLISHED",
+        "settings": {
+          "mode": "TEST",
+          "trackTabSwitches": true,
+          "resultsPolicy": "AFTER_DUE",
+          "published": false,
+          "showSolutions": false,
+          "folder": ""
+        }
+      }
+    },
+    {
+      "save": {
+        "title": "Đề kiểm thử luồng",
+        "description": "",
+        "durationMinutes": 45,
+        "dueDate": "2026-12-01T03:00:00.000Z",
+        "questionCounts": {
+          "SINGLE_CHOICE": 12,
+          "TRUE_FALSE": 4,
+          "SHORT_ANSWER": 6
+        },
+        "questionIds": [],
+        "customQuestions": [
+          {
+            "skillId": "skill1",
+            "difficulty": "EASY",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "MEDIUM",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "VERY_HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "EASY",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "MEDIUM",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "VERY_HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "EASY",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "MEDIUM",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tính giá trị của $\\sqrt{16}$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Tìm tổng hai nghiệm của phương trình $x^2 - 4 = 0$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "0"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "4"
+              },
+              {
+                "key": "D",
+                "content": "-2"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "VERY_HARD",
+            "questionType": "SINGLE_CHOICE",
+            "content": "Đường tròn có bán kính 2 cm. Bình phương bán kính bằng bao nhiêu (cm²)?",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "options": [
+              {
+                "key": "A",
+                "content": "4"
+              },
+              {
+                "key": "B",
+                "content": "2"
+              },
+              {
+                "key": "C",
+                "content": "8"
+              },
+              {
+                "key": "D",
+                "content": "16"
+              }
+            ],
+            "correctOption": "A"
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "EASY",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "MEDIUM",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "HARD",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "VERY_HARD",
+            "questionType": "TRUE_FALSE",
+            "content": "Xét tính đúng sai của các khẳng định về căn bậc hai.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "statements": [
+              {
+                "key": "a",
+                "content": "$1^2 = 1$",
+                "isCorrect": true
+              },
+              {
+                "key": "b",
+                "content": "$2^2 = 4$",
+                "isCorrect": true
+              },
+              {
+                "key": "c",
+                "content": "$3^2 = 9$",
+                "isCorrect": true
+              },
+              {
+                "key": "d",
+                "content": "$4^2 = 16$",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "EASY",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "MEDIUM",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "HARD",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill2",
+            "difficulty": "VERY_HARD",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill3",
+            "difficulty": "EASY",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          },
+          {
+            "skillId": "skill1",
+            "difficulty": "MEDIUM",
+            "questionType": "SHORT_ANSWER",
+            "content": "Tính $2 + 2$.",
+            "explanation": "Áp dụng kiến thức đã học và kiểm tra lại điều kiện của nghiệm.",
+            "cognitiveLevel": "REMEMBERING",
+            "shortAnswer": {
+              "mode": "NUMERIC",
+              "acceptedAnswers": [
+                "4"
+              ],
+              "tolerance": 1e-9,
+              "instructions": "Nhập số, không kèm đơn vị.",
+              "caseSensitive": false
+            }
+          }
+        ],
+        "status": "PUBLISHED",
+        "settings": {
+          "mode": "TEST",
+          "trackTabSwitches": true,
+          "resultsPolicy": "AFTER_DUE",
+          "published": false,
+          "showSolutions": false,
+          "folder": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "Skills failure leaves questions visible, disables only topic edits, retry recovers topics",
+    "Failed label save keeps old difficulty; inline retry resends intended change and confirms success",
+    "Foreign-author question controls remain disabled with an explanation",
+    "Changing last filtered item clamps both displayed rows and pager, explains item leaving current filter",
+    "Topic save uses backend-shaped response with nested skill; summary and selected topic update together"
+  ],
+  "errors": [],
+  "labelWrites": [
+    {
+      "skillId": "skill1",
+      "difficulty": "HARD"
+    },
+    {
+      "skillId": "skill1",
+      "difficulty": "HARD"
+    },
+    {
+      "skillId": "skill2",
+      "difficulty": "HARD"
+    },
+    {
+      "skillId": "skill3",
+      "difficulty": "EASY"
+    }
+  ]
+}

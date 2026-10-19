@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-17T08:42:10.121Z",
+  "username": "qa_paper_1792226529993",
+  "attemptId": "33395017-1135-476e-a48c-4f9d1b4e4306",
+  "types": [
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "TRUE_FALSE",
+    "TRUE_FALSE",
+    "TRUE_FALSE",
+    "TRUE_FALSE",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER"
+  ],
+  "draftCount": 22,
+  "result": {
+    "attemptId": "33395017-1135-476e-a48c-4f9d1b4e4306",
+    "status": "COMPLETED",
+    "finalTheta": 2.1954401749426067,
+    "standardError": 1.0689571505267343,
+    "scorePercentage": 100,
+    "correctCount": 22,
+    "totalAnswered": 22,
+    "skillsEvaluated": [
+      {
+        "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "title": "Đường tròn và góc nội tiếp",
+        "masteryScore": 99,
+        "evidenceCount": 5,
+        "status": "STRONG"
+      },
+      {
+        "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "title": "Biến đổi và tính toán với căn thức",
+        "masteryScore": 99,
+        "evidenceCount": 4,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+        "title": "Căn bậc hai và căn thức cơ bản",
+        "masteryScore": 99,
+        "evidenceCount": 7,
+        "status": "STRONG"
+      },
+      {
+        "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "masteryScore": 99,
+        "evidenceCount": 4,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+        "title": "Định lý Viète và ứng dụng",
+        "masteryScore": 98.48452633946796,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+        "title": "Giải bài toán bằng cách lập hệ phương trình",
+        "masteryScore": 98.48452633946796,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      }
+    ],
+    "alreadySubmitted": false,
+    "parameterStatus": "PROVISIONAL"
+  },
+  "replay": {
+    "attemptId": "33395017-1135-476e-a48c-4f9d1b4e4306",
+    "status": "COMPLETED",
+    "finalTheta": 2.1954401749426067,
+    "standardError": 1.0689571505267343,
+    "scorePercentage": 100,
+    "correctCount": 22,
+    "totalAnswered": 22,
+    "skillsEvaluated": [],
+    "alreadySubmitted": true,
+    "parameterStatus": "PROVISIONAL"
+  }
+}

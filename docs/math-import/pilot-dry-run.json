@@ -1,0 +1,82 @@
+{
+  "batchId": "hung-yen-9101-pilot",
+  "mode": "DRY_RUN",
+  "count": 3,
+  "counts": {
+    "SINGLE_CHOICE": 1,
+    "TRUE_FALSE": 1,
+    "SHORT_ANSWER": 1
+  },
+  "approvedNewSkills": [],
+  "questions": [
+    {
+      "id": "f1cc6003-e09c-52f5-ad7b-e571f5d7c2a1",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-1",
+      "skillCode": "SKILL-03",
+      "contentHash": "d019690a1277cc08358da4a7823d5e3cb00e5232ccb87d3eef52b764794eec1c",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-1",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "contentHash": "d019690a1277cc08358da4a7823d5e3cb00e5232ccb87d3eef52b764794eec1c",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn."
+      }
+    },
+    {
+      "id": "ad5d9dc9-6c3b-5970-a4f3-8af65d1dc167",
+      "externalId": "hung-yen-2025-2026-9101-TRUE_FALSE-1",
+      "skillCode": "SKILL-02",
+      "contentHash": "ee118944a144f190c9ffd7846707b58cc9b7195dbe5bd36d6746c257b35f2b3b",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / TRUE_FALSE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hung-yen-2025-2026-9101-TRUE_FALSE-1",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "contentHash": "ee118944a144f190c9ffd7846707b58cc9b7195dbe5bd36d6746c257b35f2b3b",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn."
+      }
+    },
+    {
+      "id": "1bcd1c30-d82c-50fa-a237-295f2b4d49e8",
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-1",
+      "skillCode": "SKILL-02",
+      "contentHash": "c325eda97a08104c15588567b4b7cdec298d884193366066c2dd9115788cf936",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "9101 / SHORT_ANSWER / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-1",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "contentHash": "c325eda97a08104c15588567b4b7cdec298d884193366066c2dd9115788cf936",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn."
+      }
+    }
+  ]
+}

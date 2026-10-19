@@ -1,0 +1,55 @@
+{
+  "mode": "UI contract fixtures; no live database or authentication verification",
+  "viewports": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "cards": 9,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "cards": 9,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "cards": 9,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "cards": 9,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "cards": 9,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    }
+  ],
+  "checks": [
+    "Grade 12: six chapters; accent-insensitive search; electives: three separate cards",
+    "Diagnostic route shows curriculum and explicit pause notice",
+    "Calendar month navigation and return to current month",
+    "Onboarding route renders with THPT configuration",
+    "Teacher overview and bank responsive; grade/search/book filters grouped; both book choices work"
+  ],
+  "errors": [],
+  "accessibility": [],
+  "focus": {
+    "tag": "BUTTON",
+    "outline": "solid"
+  },
+  "teacherAccessibility": [],
+  "topicArt": {
+    "count": 33,
+    "unique": 33,
+    "decorative": true
+  },
+  "bankAccessibility": []
+}

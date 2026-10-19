@@ -1,0 +1,467 @@
+{
+  "batchId": "specialist-samples-7-sources",
+  "mode": "DRY_RUN",
+  "count": 21,
+  "counts": {
+    "SINGLE_CHOICE": 21,
+    "TRUE_FALSE": 0,
+    "SHORT_ANSWER": 0
+  },
+  "approvedNewSkills": [
+    {
+      "code": "MATH9-LINEAR-EQUATIONS",
+      "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu",
+      "chapter": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH",
+      "grade": 9
+    },
+    {
+      "code": "MATH9-CUBE-ROOTS",
+      "title": "Căn bậc ba",
+      "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+      "grade": 9
+    }
+  ],
+  "questions": [
+    {
+      "id": "88b6ec4b-be78-572e-a824-6fbb87065e2b",
+      "externalId": "specialist-1-SC-1",
+      "skillCode": "SKILL-03",
+      "contentHash": "e54860d2ddebcffe5e375aad5d0a41c39e090a5c8f9c74a3f93e5eae24244ff0",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-1-SC-1",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+        },
+        "contentHash": "e54860d2ddebcffe5e375aad5d0a41c39e090a5c8f9c74a3f93e5eae24244ff0",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "80fbcec2-0177-52de-a1ab-a8886f60e65a",
+      "externalId": "specialist-1-SC-5",
+      "skillCode": "SKILL-03",
+      "contentHash": "2f68772e26b39643bdb648de7cf43603b237e2e7d1a2f56ba2bcb95b4d01eb07",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 5",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-1-SC-5",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+        },
+        "contentHash": "2f68772e26b39643bdb648de7cf43603b237e2e7d1a2f56ba2bcb95b4d01eb07",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "537c477f-0c05-5687-a04e-745394220f71",
+      "externalId": "specialist-1-SC-4",
+      "skillCode": "SKILL-03",
+      "contentHash": "510bde674025b5f959d70bd7cbd492b4cd4229e6b03ca28dd5822cadc7152a3a",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-1-SC-4",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+        },
+        "contentHash": "510bde674025b5f959d70bd7cbd492b4cd4229e6b03ca28dd5822cadc7152a3a",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "12cbaf3b-c779-59bd-a330-5fab65ba7309",
+      "externalId": "specialist-2-SC-3",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "contentHash": "4de69700d2a1bd376b32df966e6966dd44d662222bc9509dc2cffdab516bbbee",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-2-SC-3",
+        "answerEvidence": {
+          "page": 16,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+        },
+        "contentHash": "4de69700d2a1bd376b32df966e6966dd44d662222bc9509dc2cffdab516bbbee",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "6450b1e7-4993-53d5-a300-0b775d217216",
+      "externalId": "specialist-2-SC-4",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "contentHash": "c1ac43325d88443995e0bc1d1377048aa03bc92947d97cec58b49841aac368a6",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-2-SC-4",
+        "answerEvidence": {
+          "page": 16,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+        },
+        "contentHash": "c1ac43325d88443995e0bc1d1377048aa03bc92947d97cec58b49841aac368a6",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+      "externalId": "specialist-2-SC-8",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "contentHash": "8083c6f0728faa2caeccc43521792800df854236686d14b5ad14e2889c60ca89",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "PHẦN I / 8",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-2-SC-8",
+        "answerEvidence": {
+          "page": 16,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+        },
+        "contentHash": "8083c6f0728faa2caeccc43521792800df854236686d14b5ad14e2889c60ca89",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "a99888f0-437f-5647-ac01-49b4b4b8d856",
+      "externalId": "specialist-3-SC-1",
+      "skillCode": "SKILL-05",
+      "contentHash": "8cc83d439ab55afcace7f0591413c72e7cf9c31803dd9bcc109ac6c51fd740f1",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+        "page": 8,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-3-SC-1",
+        "answerEvidence": {
+          "page": 8,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+        },
+        "contentHash": "8cc83d439ab55afcace7f0591413c72e7cf9c31803dd9bcc109ac6c51fd740f1",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "2570df6e-96d0-5653-a114-1095737b4fcf",
+      "externalId": "specialist-3-SC-2",
+      "skillCode": "SKILL-05",
+      "contentHash": "3b179d5df3caac4484342aed75f7dac7dc217f0e8215b696e19589f78ab25276",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+        "page": 8,
+        "questionNumber": "PHẦN I / 2",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-3-SC-2",
+        "answerEvidence": {
+          "page": 8,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+        },
+        "contentHash": "3b179d5df3caac4484342aed75f7dac7dc217f0e8215b696e19589f78ab25276",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "19deb4a4-bb7c-51af-abac-6eb199ad9bf9",
+      "externalId": "specialist-3-SC-4",
+      "skillCode": "SKILL-05",
+      "contentHash": "7693cc5c58dd2efa6e093df876b329a277ea562ec4abb10f045805e1e0370a37",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+        "page": 8,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-3-SC-4",
+        "answerEvidence": {
+          "page": 8,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+        },
+        "contentHash": "7693cc5c58dd2efa6e093df876b329a277ea562ec4abb10f045805e1e0370a37",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+      "externalId": "specialist-4-SC-1",
+      "skillCode": "SKILL-08",
+      "contentHash": "40ab0d32d834a3a10e61fa8f2995c2ca655bb8c17107310dd55293f4cb5425b2",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-4-SC-1",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+        },
+        "contentHash": "40ab0d32d834a3a10e61fa8f2995c2ca655bb8c17107310dd55293f4cb5425b2",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "1060c93d-a9ba-58ab-acd1-d509aac38350",
+      "externalId": "specialist-4-SC-4",
+      "skillCode": "SKILL-08",
+      "contentHash": "0abefd08ccadfe7ce01333317856551648169c5165eb980883fd9dfc99880d15",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-4-SC-4",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+        },
+        "contentHash": "0abefd08ccadfe7ce01333317856551648169c5165eb980883fd9dfc99880d15",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+      "externalId": "specialist-4-SC-5",
+      "skillCode": "SKILL-08",
+      "contentHash": "2dd7299135a80426d04948c8153e8fbe05ab873ebe8c42c5ccc66a6ef6c2007c",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 5",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-4-SC-5",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+        },
+        "contentHash": "2dd7299135a80426d04948c8153e8fbe05ab873ebe8c42c5ccc66a6ef6c2007c",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "1fc5fe3f-2734-58e0-a3ce-c0e962577c4c",
+      "externalId": "specialist-5-SC-1",
+      "skillCode": "SKILL-08",
+      "contentHash": "40c9ba8fc2db3cda250fda5d09b3e0ce524e8dc755b4da2d92d4e62f8d35e4e0",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 7,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-5-SC-1",
+        "answerEvidence": {
+          "page": 7,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+        },
+        "contentHash": "40c9ba8fc2db3cda250fda5d09b3e0ce524e8dc755b4da2d92d4e62f8d35e4e0",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "29d9f026-3575-5d4a-aa27-48f5351bb5b7",
+      "externalId": "specialist-5-SC-2",
+      "skillCode": "SKILL-08",
+      "contentHash": "7f2beb573cbf06eb93fbe801749fce8341d95e56c9029953d765e3878c77719d",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 7,
+        "questionNumber": "PHẦN I / 2",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-5-SC-2",
+        "answerEvidence": {
+          "page": 7,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+        },
+        "contentHash": "7f2beb573cbf06eb93fbe801749fce8341d95e56c9029953d765e3878c77719d",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "558ebe4f-1d7f-5f15-aeca-c2708e69075d",
+      "externalId": "specialist-5-SC-3",
+      "skillCode": "SKILL-08",
+      "contentHash": "8fc9180664826b7823272bb371861feea8c4024d9907f83839ceb861a1bdab5a",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 7,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-5-SC-3",
+        "answerEvidence": {
+          "page": 7,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+        },
+        "contentHash": "8fc9180664826b7823272bb371861feea8c4024d9907f83839ceb861a1bdab5a",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "8fa2044e-b27a-53c3-a33d-0f93af819a7a",
+      "externalId": "specialist-6-SC-3",
+      "skillCode": "SKILL-02",
+      "contentHash": "3065dc25096774fae10528a5197fdf9e91d8c3263a12a6d31a5678853edfbeee",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+        "page": 203,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-6-SC-3",
+        "answerEvidence": {
+          "page": 203,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+        },
+        "contentHash": "3065dc25096774fae10528a5197fdf9e91d8c3263a12a6d31a5678853edfbeee",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+      "externalId": "specialist-6-SC-4",
+      "skillCode": "SKILL-02",
+      "contentHash": "0e43a5da2682f70fb24546889f5a3e24cfc73240839305541626a41533611573",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+        "page": 203,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-6-SC-4",
+        "answerEvidence": {
+          "page": 203,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+        },
+        "contentHash": "0e43a5da2682f70fb24546889f5a3e24cfc73240839305541626a41533611573",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "9c2e179e-d97f-56ec-a214-bad261ad5665",
+      "externalId": "specialist-6-SC-6",
+      "skillCode": "MATH9-CUBE-ROOTS",
+      "contentHash": "9de405fec5fd85091a9644565473053eef6e71117955affa4da53f76870639ce",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+        "page": 203,
+        "questionNumber": "PHẦN I / 6",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-6-SC-6",
+        "answerEvidence": {
+          "page": 203,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+        },
+        "contentHash": "9de405fec5fd85091a9644565473053eef6e71117955affa4da53f76870639ce",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+      "externalId": "specialist-7-SC-1",
+      "skillCode": "SKILL-07",
+      "contentHash": "cfd6d7d7a09faedd5b7606624d9ff5ef7e949aac883664de659727890e15f7cc",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-7-SC-1",
+        "answerEvidence": {
+          "page": 108,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+        },
+        "contentHash": "cfd6d7d7a09faedd5b7606624d9ff5ef7e949aac883664de659727890e15f7cc",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "29540604-c85e-535b-a87d-0a3cd97ebdca",
+      "externalId": "specialist-7-SC-3",
+      "skillCode": "SKILL-07",
+      "contentHash": "b0d8854ff5c5f12e950a18188eb3f239527b6c6037824d7e9542e9a62f210658",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-7-SC-3",
+        "answerEvidence": {
+          "page": 108,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+        },
+        "contentHash": "b0d8854ff5c5f12e950a18188eb3f239527b6c6037824d7e9542e9a62f210658",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    },
+    {
+      "id": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+      "externalId": "specialist-7-SC-4",
+      "skillCode": "SKILL-07",
+      "contentHash": "a5bc77f80ca893cdb456c883b933eac9386f499b547f57de32e28c439ab6859c",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED",
+        "externalId": "specialist-7-SC-4",
+        "answerEvidence": {
+          "page": 108,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+        },
+        "contentHash": "a5bc77f80ca893cdb456c883b933eac9386f499b547f57de32e28c439ab6859c",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+      }
+    }
+  ]
+}

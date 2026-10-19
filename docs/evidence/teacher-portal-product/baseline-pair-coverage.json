@@ -1,0 +1,1042 @@
+{
+  "scope": "Original 69 workflow/state/viewport baseline captures; not every later supplemental microstate",
+  "pairs": [
+    {
+      "name": "overview",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-overview-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-overview-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "classes",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-classes-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-classes-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "library",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-library-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-library-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "class-overview",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-class-overview-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-class-overview-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "class-assignments",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-class-assignments-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-class-assignments-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "students",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-students-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-students-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "gradebook",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-gradebook-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-gradebook-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "skills",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-skills-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-skills-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "bank",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-bank-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-bank-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "report-results",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-results-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-results-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "report-paper",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-paper-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-paper-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "report-settings",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-settings-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-settings-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "report-analysis",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-analysis-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-analysis-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "create-class",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-create-class-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-create-class-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "composer-picker",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-picker-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-picker-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "composer-bank",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-bank-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-bank-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "composer-manual",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-manual-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-manual-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "composer-document",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-document-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-document-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "composer-json",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-json-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-json-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "composer-ai",
+      "size": "desktop",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-ai-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-ai-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "empty",
+      "size": "desktop",
+      "state": "empty",
+      "before": "docs/evidence/teacher-portal-product/before-empty-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-empty-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "error",
+      "size": "desktop",
+      "state": "error",
+      "before": "docs/evidence/teacher-portal-product/before-error-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-error-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "loading",
+      "size": "desktop",
+      "state": "loading",
+      "before": "docs/evidence/teacher-portal-product/before-loading-desktop.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-loading-desktop.png",
+      "beforeDimensions": [
+        1440,
+        900
+      ],
+      "afterDimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "name": "overview",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-overview-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-overview-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "classes",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-classes-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-classes-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "library",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-library-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-library-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "class-overview",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-class-overview-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-class-overview-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "class-assignments",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-class-assignments-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-class-assignments-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "students",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-students-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-students-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "gradebook",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-gradebook-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-gradebook-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "skills",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-skills-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-skills-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "bank",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-bank-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-bank-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "report-results",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-results-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-results-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "report-paper",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-paper-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-paper-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "report-settings",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-settings-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-settings-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "report-analysis",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-analysis-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-analysis-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "create-class",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-create-class-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-create-class-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "composer-picker",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-picker-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-picker-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "composer-bank",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-bank-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-bank-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "composer-manual",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-manual-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-manual-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "composer-document",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-document-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-document-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "composer-json",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-json-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-json-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "composer-ai",
+      "size": "tablet",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-ai-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-ai-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "empty",
+      "size": "tablet",
+      "state": "empty",
+      "before": "docs/evidence/teacher-portal-product/before-empty-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-empty-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "error",
+      "size": "tablet",
+      "state": "error",
+      "before": "docs/evidence/teacher-portal-product/before-error-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-error-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "loading",
+      "size": "tablet",
+      "state": "loading",
+      "before": "docs/evidence/teacher-portal-product/before-loading-tablet.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-loading-tablet.png",
+      "beforeDimensions": [
+        820,
+        1000
+      ],
+      "afterDimensions": [
+        820,
+        1000
+      ]
+    },
+    {
+      "name": "overview",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-overview-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-overview-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "classes",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-classes-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-classes-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "library",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-library-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-library-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "class-overview",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-class-overview-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-class-overview-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "class-assignments",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-class-assignments-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-class-assignments-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "students",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-students-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-students-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "gradebook",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-gradebook-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-gradebook-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "skills",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-skills-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-skills-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "bank",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-bank-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-bank-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "report-results",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-results-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-results-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "report-paper",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-paper-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-paper-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "report-settings",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-settings-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-settings-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "report-analysis",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-report-analysis-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-report-analysis-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "create-class",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-create-class-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-create-class-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "composer-picker",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-picker-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-picker-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "composer-bank",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-bank-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-bank-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "composer-manual",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-manual-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-manual-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "composer-document",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-document-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-document-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "composer-json",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-json-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-json-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "composer-ai",
+      "size": "mobile",
+      "state": "populated",
+      "before": "docs/evidence/teacher-portal-product/before-composer-ai-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-composer-ai-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "empty",
+      "size": "mobile",
+      "state": "empty",
+      "before": "docs/evidence/teacher-portal-product/before-empty-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-empty-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "error",
+      "size": "mobile",
+      "state": "error",
+      "before": "docs/evidence/teacher-portal-product/before-error-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-error-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "loading",
+      "size": "mobile",
+      "state": "loading",
+      "before": "docs/evidence/teacher-portal-product/before-loading-mobile.png",
+      "after": "docs/evidence/teacher-portal-product/accessibility-final-loading-mobile.png",
+      "beforeDimensions": [
+        390,
+        844
+      ],
+      "afterDimensions": [
+        390,
+        844
+      ]
+    }
+  ],
+  "matched": 69,
+  "missing": []
+}

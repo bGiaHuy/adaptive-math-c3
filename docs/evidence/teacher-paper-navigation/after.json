@@ -1,0 +1,17 @@
+{
+  "measurements": [
+    {
+      "size": "desktop",
+      "height": 2407
+    },
+    {
+      "size": "tablet",
+      "height": 2407
+    },
+    {
+      "size": "mobile",
+      "height": 2624
+    }
+  ],
+  "errors": []
+}

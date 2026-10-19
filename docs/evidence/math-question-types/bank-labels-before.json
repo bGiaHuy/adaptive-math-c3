@@ -1,0 +1,4121 @@
+[
+  {
+    "id": "8376e712-562f-54e2-ad3f-e5856968cfb2",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-2",
+      "contentHash": "9f36a3ab25beb54cc38944deb915aed1d254d19dbb17a98b675b7c02bf101506",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 2"
+    }
+  },
+  {
+    "id": "6a8a2b73-ae3c-522b-af06-99dd719b6f8b",
+    "skillId": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-3",
+      "contentHash": "5932c4ad706e7e2ba942bf148527a44b0be36e501430c123825b9f9d900f6ed4",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 3"
+    }
+  },
+  {
+    "id": "4c4c183e-f48b-5747-a7d4-38df8ecd5418",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-4",
+      "contentHash": "96570074447781e86390350bbb7051b121455774b965fb01d531f049c1b54be7",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 4"
+    }
+  },
+  {
+    "id": "1fec3cd5-5366-50fe-a051-3fffe031fd4e",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-5",
+      "contentHash": "4fc4276b44a14de90edb5012bb1d918385b95ac2963720da922cc4ce0e399d7f",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 5"
+    }
+  },
+  {
+    "id": "fc5b9562-f6ea-5529-a54f-93a60c05d553",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-6",
+      "contentHash": "2ebd118e0eb3a5c77db2b75c794c90766e7ef74f5e677ef255cefe281a47dac6",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 6"
+    }
+  },
+  {
+    "id": "670c578a-aa85-5452-af6d-ca91262d1a46",
+    "skillId": "1fc30aa7-27d6-4232-9232-5b21769cffec",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-7",
+      "contentHash": "5eec083f044fde5bc63f195060d420e11ad861578519e8308d55e31cf6f9f02f",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 7"
+    }
+  },
+  {
+    "id": "45d82e6d-bd45-54cb-a97d-1170f67b6806",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-8",
+      "contentHash": "6742d50253e583f921baf1af99b3518de242bd7161d9cf0c02bc1fe67ea14de6",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 8"
+    }
+  },
+  {
+    "id": "1c3e3f71-0b22-5f0c-a1e4-69544bf9b6fd",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-9",
+      "contentHash": "4ef00890d0edef3670a603ca0cea37ef41b08ad5e44a7751ae7914dd3d0bcdb7",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 9"
+    }
+  },
+  {
+    "id": "30ab9352-b730-5f18-ac80-71e156e9b177",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-10",
+      "contentHash": "56669f66a496e4252e245cdf7445ae5459e015afe91949ea079413f61454d3b1",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 10"
+    }
+  },
+  {
+    "id": "45908ddd-26ba-5f61-a39b-111f1e564394",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-11",
+      "contentHash": "bc298e08f8637466eb7ec300b88296b5919e4f93c0a5968d3d3a7f188831db30",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn. Câu được giữ theo đáp án chính thức C; cách diễn đạt tập nghiệm với B/D cần giáo viên rà soát trước xuất bản.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 11"
+    }
+  },
+  {
+    "id": "04b9264a-8323-5052-af1a-feeaf3a6966c",
+    "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-12",
+      "contentHash": "9c6a97915e8de58192d81878292140ef50d7297b461ec8fd2df71f182987e507",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 12"
+    }
+  },
+  {
+    "id": "015ecce0-95ff-5199-a049-130e919b8d35",
+    "skillId": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-13",
+      "contentHash": "eb8133a656ed5d569f040da2136ade38db894500088f7941305053eb80273735",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 13"
+    }
+  },
+  {
+    "id": "8b9e9a16-0cad-51ff-afe4-13439960225b",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-14",
+      "contentHash": "3e4d7ad4ab8fb12b740ba31887b9cd8f6e5bdacc9951a893113ab9ba1f57c914",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 14"
+    }
+  },
+  {
+    "id": "0516f7ed-9f47-5268-aff1-e200e6470511",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-15",
+      "contentHash": "0d9024e4ed2ca985e607a41da7cde00548c89ab6f686e6cb4b20e7cd533497cf",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 15"
+    }
+  },
+  {
+    "id": "01c6059b-db31-58a4-a38a-7a39dd322b7e",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-16",
+      "contentHash": "3deb069378853caf41abde40ea95178500dae16872ad7045bbdf5578cf81753f",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 16"
+    }
+  },
+  {
+    "id": "3a31b72e-8d3d-57de-aa8d-13f09aa3c745",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-17",
+      "contentHash": "905f6f57f315d7128fcbb446c4c7b04675e7ef8063e47ed61e48bf107a1cec0c",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 17"
+    }
+  },
+  {
+    "id": "b2cb8f1b-e680-564e-a362-83fba2007210",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-18",
+      "contentHash": "6c8050e044c8b6560dcfeb6b0eaecf404d8c4e3dc4665c0af80512fa6cd743dc",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 18"
+    }
+  },
+  {
+    "id": "73a75b38-9dbd-4d7b-8610-23c88c92185d",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "e15e843c-cc4e-48e2-a7b5-76cb6e0a24da",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "c7111916-5044-4261-86de-007caae116c0",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "be6bf169-975f-422c-8909-15ec9baf5f6a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "4d8358f7-1811-4171-bc43-10c59616efa4",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "1390e3ea-db33-4fc7-b46a-0dbd8f8f0935",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b2e6c1bf-1bf2-47b2-bf8c-8559688d2a8b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "657b0c91-6630-42dd-8354-573a2b76bc54",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a380ce48-1b8d-4e99-8bff-854983834fda",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-19",
+      "contentHash": "c1b19d65f7770b4298bfc724ff90c83c7005e84bdd96d79d4e3771f3fb5e9eff",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 19"
+    }
+  },
+  {
+    "id": "b3d2153b-f1a2-5349-aab9-805dcb0e9bc1",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-3",
+      "contentHash": "5e6d7168020b1f5282de591fd0ec949beb7863a57b17c25f0dd1e02c0139ca36",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 3"
+    }
+  },
+  {
+    "id": "e6da9233-a667-5c43-a335-0d6d69df0c51",
+    "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-20",
+      "contentHash": "60f67053bc15ac7ddc407c061bd12abf13b98b1792169235e9cf328981bc33fc",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 20"
+    }
+  },
+  {
+    "id": "81aa3717-93e7-5b4c-a299-bb8414ce6451",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-22",
+      "contentHash": "89b451bb9d58d1d9dd3344f2146dba1b6fe2bf80b2c8b86426bdc0c0678f7a92",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 22"
+    }
+  },
+  {
+    "id": "7e157233-0ad5-5e66-adfa-913d647f7ae9",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-23",
+      "contentHash": "dc7cddabc026e7deace989682b525f4b7d30a875e0238497bc323956184cd860",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 23"
+    }
+  },
+  {
+    "id": "7c065ff1-7482-5ffd-a25a-f63b60657512",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-24",
+      "contentHash": "3fff585e3c3373271a87c267521571a34f6f14ed9fa88f0624a97248f9802b91",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 24"
+    }
+  },
+  {
+    "id": "a807e065-6c1d-5cd7-a7e5-07418efc7e3b",
+    "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-25",
+      "contentHash": "f02825a390174ad474776ea77d44a1f94c8e555ba4cd8fb4cc2dec2c5f57a25b",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 25"
+    }
+  },
+  {
+    "id": "667f0044-f4bf-5b7d-ac4d-bd15ea432edd",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-26",
+      "contentHash": "1a7e075c5b0120497b5e424a68f07594d27c9c1103440454fb2dcde9bd896fa2",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 26"
+    }
+  },
+  {
+    "id": "16d1670f-a1d1-5d8c-a744-8939a6d8b5d6",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-TRUE_FALSE-2",
+      "contentHash": "b8e6e456dbac4e4ebf3939628c287af2bc19d3171eac7bf9cff52e1b171b452f",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / TRUE_FALSE / 2"
+    }
+  },
+  {
+    "id": "b61846e1-5f87-5c56-aaa5-dba4001109b9",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-2",
+      "contentHash": "b92a06fc08a9af07760006dcb9d1a1da5d9735024fd6b8492fda1b81a907602d",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SHORT_ANSWER / 2"
+    }
+  },
+  {
+    "id": "ca047ccc-63e1-57f9-ad87-067e3542d14a",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-3",
+      "contentHash": "b5ca2df4b92229cc641205a1338a967e7a8c5248b7453e32eacf2f7107eaf686",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SHORT_ANSWER / 3"
+    }
+  },
+  {
+    "id": "dd3e1bad-ec84-46d7-9041-adfaf619d2e8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "2ce52c88-9678-5c04-acc3-e601a0214b13",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-4",
+      "contentHash": "184ba592d6543287cf3301eecfb8396fc2bc068a7235de1c88a0166ca2c00dd2",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SHORT_ANSWER / 4"
+    }
+  },
+  {
+    "id": "c58186d3-1e10-5d58-a70e-f56822a8b1b7",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-5",
+      "contentHash": "2e3555481db5c531734f41b0a1e595676402fffb5cb2e867181d2658c67c0678",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SHORT_ANSWER / 5"
+    }
+  },
+  {
+    "id": "6fe68091-6262-5c90-aef5-3cb3e92d1ca2",
+    "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-6",
+      "contentHash": "9fc8c61b9cfd57bbf1b720493012f755d6b91f77f3c2e238d91f6109f3f7331a",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SHORT_ANSWER / 6"
+    }
+  },
+  {
+    "id": "0e33a411-8cbe-5137-ad23-fedef465d8d0",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-4",
+      "contentHash": "07b2e2fd7abc26949d5c6133df29d2b26f70f0f217f5001a063b0b34b2289bdd",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 4"
+    }
+  },
+  {
+    "id": "2dcf08cb-1652-4063-8983-b009d46bdc9b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "2ebb138e-ba57-4c00-86a0-c1cf84c33095",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "ac6e4e9e-a447-4309-9f5f-22c30e45d6cf",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "ac0d2148-3a39-4489-b0b9-7edc7fd9f21c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6a74cdb9-d428-4251-866d-b3c57a57c773",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "74d6153e-521d-4023-b2d6-9d5f86aa4d47",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c950acfb-3ba3-4cec-ae02-8cbe106acac5",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "5c4f6e0c-5b48-4a93-bc6b-61c5c15f1545",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "49303068-3de7-439c-b928-a33149b8cd1a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "44fff239-da36-570f-a6d6-91443ad38e12",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-5",
+      "contentHash": "90dcb5b409f1847710b333c950f0162c8b890d8f273952a596445ac5a1fda724",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 5"
+    }
+  },
+  {
+    "id": "b3501a21-1b15-51b3-a493-1b6b527a3e96",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-6",
+      "contentHash": "86b7ff5d8cb76bdaffb6be47db42cb47220b6bb6e07309085e6fda781e9b84f9",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 6"
+    }
+  },
+  {
+    "id": "acf6ff75-fd6f-5eb1-a1f9-7747a19fa324",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-7",
+      "contentHash": "04107ca9bab7721429e048d79ce87378e9fd9bae40e49d73d029b522ba77f85d",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 7"
+    }
+  },
+  {
+    "id": "4c04b51f-c548-564e-a5c6-e89e4a720884",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-8",
+      "contentHash": "43b3655478cf60340cd1de512d1227dd69c915a2077000b46de44682f6b93886",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 8"
+    }
+  },
+  {
+    "id": "7694afc6-9402-5016-a2eb-e5f4fb1e777c",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-9",
+      "contentHash": "e875153eb93716f3b10031aa15e3fd89b542a2f457d07486330d35446a7cd290",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 9"
+    }
+  },
+  {
+    "id": "946178ae-283c-56d2-af05-013826c462cc",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-10",
+      "contentHash": "fcfc07d3aa3ef4f577cedf470a2a5998f32a42f198b652dd025e5062b3309ae0",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 10"
+    }
+  },
+  {
+    "id": "68f17c79-7487-5677-a752-8bd33ac99bac",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-11",
+      "contentHash": "773069dabcf175a7491b5c680972b7e3eea486ab956390b6a9d19b4b48589c7c",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 11"
+    }
+  },
+  {
+    "id": "5f6f2bff-224b-54fc-a1fe-66d434aa41b8",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-12",
+      "contentHash": "f1f9dc0ee2ce9019152113b7ec08781d2b9c5a0bf19c6134cb0aa1259d155575",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 12"
+    }
+  },
+  {
+    "id": "c467d2f4-4898-59a0-ad63-6603da18e7ab",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-1",
+      "contentHash": "af0563cb8a92b1ed10c60cc299e68cb562f4ee8046d0b5e1bb8cbfe3794c2463",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / TRUE_FALSE / 1"
+    }
+  },
+  {
+    "id": "a93f87da-da58-53b4-a68a-5221c6738dee",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-2",
+      "contentHash": "6e7a87e6820c5c7a3b370fc1d714f49a8c6c4524d536657cc1bfe3c1c291f13f",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / TRUE_FALSE / 2"
+    }
+  },
+  {
+    "id": "a73f32a6-3925-594b-af4b-acbcb70ef00b",
+    "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-3",
+      "contentHash": "b926e903eda40b3951eb5cdaad45b3b53b46ad5dd8e9878e7f001fa60515ac1a",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / TRUE_FALSE / 3"
+    }
+  },
+  {
+    "id": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+      "page": 108,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-7-SC-1",
+      "contentHash": "cfd6d7d7a09faedd5b7606624d9ff5ef7e949aac883664de659727890e15f7cc",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 108,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+      },
+      "questionNumber": "PHẦN I / 1"
+    }
+  },
+  {
+    "id": "84b9177a-427d-51c8-a228-5aacb8db996f",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-4",
+      "contentHash": "26a880e068a3779d1d732bcc9658f9e41107f1dd0c4512b84b825005abb31c5a",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / TRUE_FALSE / 4"
+    }
+  },
+  {
+    "id": "faaa523d-f4f8-5ee8-a100-1742c35d3767",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-1",
+      "contentHash": "69946d2f0d4d8cc3f5c8fa38efa2434090bd5f2cc60c5b3fb7b55eaf4ee6ca0c",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SHORT_ANSWER / 1"
+    }
+  },
+  {
+    "id": "722bbbb1-8020-5c29-a7ed-225f84811d4a",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-2",
+      "contentHash": "d84b2bb35566fa29cc3143998a14cc590ac8d3f52d3b46c0ea0bcbb35c936af9",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SHORT_ANSWER / 2"
+    }
+  },
+  {
+    "id": "9f4d7b0c-f92d-5362-a038-c2910c559c68",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-3",
+      "contentHash": "978b76c95faa1ba8195543f2d8681339096bb3a0a0898d7a074510d33e84dbdc",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SHORT_ANSWER / 3"
+    }
+  },
+  {
+    "id": "2e78872c-db35-5c70-aa19-6d3093a005bb",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-4",
+      "contentHash": "5e4133a8964e66af4b8f372e00d79a77e4b2c3fb80dcb37872cb9c9cfc5d2cf0",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SHORT_ANSWER / 4"
+    }
+  },
+  {
+    "id": "3e61e360-8c25-54e1-a592-7e66ff298d2e",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-8",
+      "contentHash": "80334ea383c90e425990a05ddf95cbb8d6923a8ea85cade701be70bcffcb9f5d",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 8"
+    }
+  },
+  {
+    "id": "87ed6d43-c57a-54fd-a74d-657b787e441c",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-5",
+      "contentHash": "fbe71d5899ecab2733c3870a0cad4a5fa81f1d53da64cdeb3c6b64a40494e517",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SHORT_ANSWER / 5"
+    }
+  },
+  {
+    "id": "8b5cae24-2e7c-5ed5-abca-f1fb5717993a",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-6",
+      "contentHash": "8dce57a2fa7ad6d98a9c65a98826a756d775b7547dbdeb2fab4457545c5abf75",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SHORT_ANSWER / 6"
+    }
+  },
+  {
+    "id": "88b6ec4b-be78-572e-a824-6fbb87065e2b",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+      "page": 5,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-1-SC-1",
+      "contentHash": "e54860d2ddebcffe5e375aad5d0a41c39e090a5c8f9c74a3f93e5eae24244ff0",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+      },
+      "questionNumber": "PHẦN I / 1"
+    }
+  },
+  {
+    "id": "80fbcec2-0177-52de-a1ab-a8886f60e65a",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+      "page": 5,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-1-SC-5",
+      "contentHash": "2f68772e26b39643bdb648de7cf43603b237e2e7d1a2f56ba2bcb95b4d01eb07",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+      },
+      "questionNumber": "PHẦN I / 5"
+    }
+  },
+  {
+    "id": "537c477f-0c05-5687-a04e-745394220f71",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+      "page": 5,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-1-SC-4",
+      "contentHash": "510bde674025b5f959d70bd7cbd492b4cd4229e6b03ca28dd5822cadc7152a3a",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+      },
+      "questionNumber": "PHẦN I / 4"
+    }
+  },
+  {
+    "id": "12cbaf3b-c779-59bd-a330-5fab65ba7309",
+    "skillId": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+      "page": 16,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-2-SC-3",
+      "contentHash": "4de69700d2a1bd376b32df966e6966dd44d662222bc9509dc2cffdab516bbbee",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 16,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+      },
+      "questionNumber": "PHẦN I / 3"
+    }
+  },
+  {
+    "id": "6450b1e7-4993-53d5-a300-0b775d217216",
+    "skillId": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+      "page": 16,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-2-SC-4",
+      "contentHash": "c1ac43325d88443995e0bc1d1377048aa03bc92947d97cec58b49841aac368a6",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 16,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+      },
+      "questionNumber": "PHẦN I / 4"
+    }
+  },
+  {
+    "id": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+    "skillId": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+      "page": 16,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-2-SC-8",
+      "contentHash": "8083c6f0728faa2caeccc43521792800df854236686d14b5ad14e2889c60ca89",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 16,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+      },
+      "questionNumber": "PHẦN I / 8"
+    }
+  },
+  {
+    "id": "93b6f467-b7bd-5e4d-a181-4a1880c644f8",
+    "skillId": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-21",
+      "contentHash": "2789f11eda6f65f6a1d4192acfc6e02e69b67626ca9a56678da40d0d5c88d459",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 21"
+    }
+  },
+  {
+    "id": "a99888f0-437f-5647-ac01-49b4b4b8d856",
+    "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+      "page": 8,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-3-SC-1",
+      "contentHash": "8cc83d439ab55afcace7f0591413c72e7cf9c31803dd9bcc109ac6c51fd740f1",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 8,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+      },
+      "questionNumber": "PHẦN I / 1"
+    }
+  },
+  {
+    "id": "2570df6e-96d0-5653-a114-1095737b4fcf",
+    "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+      "page": 8,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-3-SC-2",
+      "contentHash": "3b179d5df3caac4484342aed75f7dac7dc217f0e8215b696e19589f78ab25276",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 8,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+      },
+      "questionNumber": "PHẦN I / 2"
+    }
+  },
+  {
+    "id": "19deb4a4-bb7c-51af-abac-6eb199ad9bf9",
+    "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+      "page": 8,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-3-SC-4",
+      "contentHash": "7693cc5c58dd2efa6e093df876b329a277ea562ec4abb10f045805e1e0370a37",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 8,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+      },
+      "questionNumber": "PHẦN I / 4"
+    }
+  },
+  {
+    "id": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+      "page": 5,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-4-SC-1",
+      "contentHash": "40ab0d32d834a3a10e61fa8f2995c2ca655bb8c17107310dd55293f4cb5425b2",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+      },
+      "questionNumber": "PHẦN I / 1"
+    }
+  },
+  {
+    "id": "1060c93d-a9ba-58ab-acd1-d509aac38350",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+      "page": 5,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-4-SC-4",
+      "contentHash": "0abefd08ccadfe7ce01333317856551648169c5165eb980883fd9dfc99880d15",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+      },
+      "questionNumber": "PHẦN I / 4"
+    }
+  },
+  {
+    "id": "ea106b4a-ea19-4a1f-ad70-2c81617fda10",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6610e5d0-1e2c-4d76-8c71-26b487d28933",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "128716d0-846c-4dfd-bd76-3e547ec46ec5",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "12b34bf3-814a-4aad-9155-14b18d4e496b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "d02a0a6f-2167-49fb-8cc7-21faeb87b76d",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+      "page": 5,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-4-SC-5",
+      "contentHash": "2dd7299135a80426d04948c8153e8fbe05ab873ebe8c42c5ccc66a6ef6c2007c",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+      },
+      "questionNumber": "PHẦN I / 5"
+    }
+  },
+  {
+    "id": "1fc5fe3f-2734-58e0-a3ce-c0e962577c4c",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+      "page": 7,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-5-SC-1",
+      "contentHash": "40c9ba8fc2db3cda250fda5d09b3e0ce524e8dc755b4da2d92d4e62f8d35e4e0",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 7,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+      },
+      "questionNumber": "PHẦN I / 1"
+    }
+  },
+  {
+    "id": "29d9f026-3575-5d4a-aa27-48f5351bb5b7",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+      "page": 7,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-5-SC-2",
+      "contentHash": "7f2beb573cbf06eb93fbe801749fce8341d95e56c9029953d765e3878c77719d",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 7,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+      },
+      "questionNumber": "PHẦN I / 2"
+    }
+  },
+  {
+    "id": "558ebe4f-1d7f-5f15-aeca-c2708e69075d",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+      "page": 7,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-5-SC-3",
+      "contentHash": "8fc9180664826b7823272bb371861feea8c4024d9907f83839ceb861a1bdab5a",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 7,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+      },
+      "questionNumber": "PHẦN I / 3"
+    }
+  },
+  {
+    "id": "8fa2044e-b27a-53c3-a33d-0f93af819a7a",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+      "page": 203,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-6-SC-3",
+      "contentHash": "3065dc25096774fae10528a5197fdf9e91d8c3263a12a6d31a5678853edfbeee",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 203,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+      },
+      "questionNumber": "PHẦN I / 3"
+    }
+  },
+  {
+    "id": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+      "page": 203,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-6-SC-4",
+      "contentHash": "0e43a5da2682f70fb24546889f5a3e24cfc73240839305541626a41533611573",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 203,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+      },
+      "questionNumber": "PHẦN I / 4"
+    }
+  },
+  {
+    "id": "9c2e179e-d97f-56ec-a214-bad261ad5665",
+    "skillId": "1fc30aa7-27d6-4232-9232-5b21769cffec",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+      "page": 203,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-6-SC-6",
+      "contentHash": "9de405fec5fd85091a9644565473053eef6e71117955affa4da53f76870639ce",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 203,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+      },
+      "questionNumber": "PHẦN I / 6"
+    }
+  },
+  {
+    "id": "401bcc7c-b3b5-4ed3-ad81-ae9c3ead22f4",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "ef3f6449-636b-4d7b-8da7-0bf228c03a78",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "29540604-c85e-535b-a87d-0a3cd97ebdca",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+      "page": 108,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-7-SC-3",
+      "contentHash": "b0d8854ff5c5f12e950a18188eb3f239527b6c6037824d7e9542e9a62f210658",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 108,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+      },
+      "questionNumber": "PHẦN I / 3"
+    }
+  },
+  {
+    "id": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+      "page": 108,
+      "author": "Trương Ngọc Vỹ",
+      "externalId": "specialist-7-SC-4",
+      "contentHash": "a5bc77f80ca893cdb456c883b933eac9386f499b547f57de32e28c439ab6859c",
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 108,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+      },
+      "questionNumber": "PHẦN I / 4"
+    }
+  },
+  {
+    "id": "4c2eed2b-fa55-4412-8286-98e1eb8a0b8e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6b8a1a43-98d9-4489-97b5-93026fe3242e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "573ff878-9c30-4bde-a842-24b376963139",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "96558ecf-668a-4014-8d84-bda34b7f5657",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "6c0e7b78-e7d9-4197-b1b0-2c30034e1d49",
+    "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "75ea79a8-2538-47cc-9eaf-ed0011934b21",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6155c7e7-0966-46f5-ac9c-640adf1c198e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "ba9f3bb7-87da-4dba-9c87-b0864fccfea0",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "607ad59d-4a11-45a8-8fd5-db424e77b614",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "efcc3643-1d30-4efe-a3d4-14dd90c494db",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "801ab78f-42a5-434d-8a8c-c0bc5e313dc3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "8ff08e8d-f458-40e3-a5a5-e5e3f27be8a5",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "e6d6ab85-dc0e-4d73-a388-5bf224868587",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "b0473e79-10a8-4789-9739-1419d370f471",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "7508632c-3f84-4a24-87e1-da53130a8137",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "c41eb5f8-9558-4052-937d-e364568d5b70",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "24930716-caac-4888-a9e4-7c2c554c1da5",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "648682f1-5192-413e-bff5-ad49bf6e6137",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "8d17117e-e5da-4dc9-bf68-65451d7a0ab8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "e90d8215-3518-4c50-85c3-e811b70bfb75",
+    "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f2e825a3-be2c-448c-90c2-bc8e9fd82e93",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "240a532b-db38-4d51-8131-d51e8c3b3cdb",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "dc6b9a1b-bf60-4533-ac17-7832b3967b29",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "4d512a13-3f0c-4a6c-b654-d5ec01f05850",
+    "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "ee6bf22c-ab63-4d1e-acea-4fc9f122dfff",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "2ddaf4f6-4af6-486f-9cce-3538e17bed86",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "d407dbdf-0b1a-494f-b6bf-37879c3c8162",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f69cafb9-a28d-44b9-bf08-8cc042deff55",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "7e59c22c-7977-42d7-8567-fe257f69853b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c9c147f9-dcc0-4a53-8ab6-18e13ecd9966",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b3d06d48-f9ab-45cc-b942-c94a37b28120",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "43d677bd-1e74-48b5-b0b6-0819f9b8cb24",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "ed5f2c54-d992-451e-91fd-1bf065cf3786",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "24a1b256-4186-4a71-9bf2-1be7e8039fd8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "1daf6ec9-6cad-45dd-8efe-340bdc1507e8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a3912785-2b13-443f-9ec7-bd3e271bef89",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "7135541c-befe-4df5-bc8c-2c2168838170",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "a94ae8a0-e406-4482-bd6c-509fcb87ee6c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b704abff-cf3e-452a-b215-68719561cce6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "e32ea77f-562e-428c-b747-f5e84d3b1cce",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "93bf9083-5489-4ba0-a862-c1cb3018633b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "abfcf1af-0035-4056-a367-6fd8d36ac791",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "a0e10f36-6174-4645-a977-2d9992c47804",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "95a13ffb-d633-45dd-93f9-06bde909725b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "27e46c09-b6c6-4ce3-a6c0-2e65ec95d2c9",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6e7af4ef-cf13-4d5e-977b-9d3c7166f122",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "00f12ef4-467f-45f7-a9ef-edc8500a9be3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "00e01f80-3006-4f99-b0c5-b9dc79e4166e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "288894be-d4c9-4dc4-b482-2c66b879ca4d",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "90d13b63-ac2b-4886-bf20-ef5f078e3e0b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a723c67b-0657-4761-99d8-e76560747ee6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "20e83c27-a470-4f1b-aa1a-eb9a16b34a6c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b8ff3848-689d-4f9f-ad8a-a4aa2500b606",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "6a5371ab-0e13-4da4-bdd7-5c0ffeff402f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "d4e9aa16-211e-4451-bd5a-b69bd0686b07",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "5694689e-0daa-4ab5-892b-270758a1384e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "3339c9b1-975d-4e36-bfaf-a413ff48d00f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "6d3c1e32-9d2d-4616-9acf-56a02bfe85c5",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "3be6c35f-64b2-495b-b7fa-0dd6ef1f03b6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "df832395-1aa3-42b4-bf33-973c02b6dfa3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "bd255724-2664-4c56-91b7-2bd848432863",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "84683a2e-8d21-4f68-94fc-a044459db99e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "d503f4d7-966d-4dc2-b4ff-d7c517698050",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "eab65d80-2ee1-4ea0-98f3-b0f5b28c56bd",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "9612ceab-d272-4ac6-bb95-7b313a80e360",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6fb38240-52f9-4e01-952d-3a16fc1a5cd8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a42b294e-a2f1-526a-ae62-127610491dc1",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-1",
+      "contentHash": "57ca2098c63f1ec4662082571660b6b04903a3121e32934252b939680d992ccb",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 1"
+    }
+  },
+  {
+    "id": "719cc841-4bf4-5251-aadb-67de5a4faef8",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Trường THCS Quán Toan Hải Phòng",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-2",
+      "contentHash": "6a695f296d6fe54db443e84d962aac710651c4206609a6a82dd8b30d30728303",
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "row": "901 (hàng đầu tiên)",
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "questionNumber": "901 / SINGLE_CHOICE / 2"
+    }
+  },
+  {
+    "id": "f1cc6003-e09c-52f5-ad7b-e571f5d7c2a1",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-1",
+      "contentHash": "d019690a1277cc08358da4a7823d5e3cb00e5232ccb87d3eef52b764794eec1c",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SINGLE_CHOICE / 1"
+    }
+  },
+  {
+    "id": "ad5d9dc9-6c3b-5970-a4f3-8af65d1dc167",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-TRUE_FALSE-1",
+      "contentHash": "ee118944a144f190c9ffd7846707b58cc9b7195dbe5bd36d6746c257b35f2b3b",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / TRUE_FALSE / 1"
+    }
+  },
+  {
+    "id": "d1f4913c-ff39-418d-a1fd-377df6f44844",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "90e22909-4e63-4d1b-9655-bf04566a5925",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c330ae05-f32b-4f55-aa11-decb0d1bbc94",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "1bcd1c30-d82c-50fa-a237-295f2b4d49e8",
+    "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Sở GDĐT Hưng Yên",
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-1",
+      "contentHash": "c325eda97a08104c15588567b4b7cdec298d884193366066c2dd9115788cf936",
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "questionNumber": "9101 / SHORT_ANSWER / 1"
+    }
+  },
+  {
+    "id": "6a6deb10-61db-5092-a119-a5c9d5d16ed7",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-1",
+      "contentHash": "baf4e96d3aba6eda5a842f27706bb14e91fa5bea1248ff61968a6bbef67d4b43",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 1"
+    }
+  },
+  {
+    "id": "c1f0a76b-406d-5636-a176-67d2b561a470",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-2",
+      "contentHash": "c3e6d8c79636b5d2ab080bb2a5c034a7181aadc19ff63b209daaa77fd2a46068",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 2"
+    }
+  },
+  {
+    "id": "185a3d78-e92c-5b58-abd4-51829e07b4a4",
+    "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-3",
+      "contentHash": "7a2a22db7268c5d42be5b34d205b92ab051b342d7c38610f5efdac85fd71e91d",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 3"
+    }
+  },
+  {
+    "id": "0c473d10-a034-5c44-afce-9517682c988b",
+    "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-4",
+      "contentHash": "cc0789e3c1a42ee851a1104371404c0be63be819612abf94f759e31dfdfc0402",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 4"
+    }
+  },
+  {
+    "id": "4d7396de-66af-5f13-ab01-fb02748f094f",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-5",
+      "contentHash": "00939eae4ba2311f44394c410128d7c6ceb894de6ac39c18140e7f4895ce8b7d",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 5"
+    }
+  },
+  {
+    "id": "180e3043-16d0-5911-a281-dc93895c84f1",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-6",
+      "contentHash": "b8086cf9ff009a20dad914fc463be16b6e1b76cd054161d56613f2764824b2c5",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 6"
+    }
+  },
+  {
+    "id": "8569d320-fe94-55d3-a568-ba2caa8680b7",
+    "skillId": "d7ad3caf-51b8-497c-ac22-c07171b68bdd",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 1,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-7",
+      "contentHash": "a1f3dd9ed691ade088f9d42904a244143c49c1b2d7a002e4e2ac71e7ccab536a",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 7"
+    }
+  },
+  {
+    "id": "b5a2462f-a552-5a37-addf-15cd49524b1b",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-9",
+      "contentHash": "206cb43d4b09e030351a0753d163b619a8d98f7fd5f2e7611c88505ce039f3de",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 9"
+    }
+  },
+  {
+    "id": "4a601d1f-658d-511b-ae2f-714a5c03af4d",
+    "skillId": "4cdefaf4-e03c-4afb-aa68-a6c56371ab0c",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-10",
+      "contentHash": "2f4cae0ab73ad670d8d64b0bce9146f8f415116398fff244d9bdd2e9910e2c50",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 10"
+    }
+  },
+  {
+    "id": "ea71ed2e-42ef-587a-a312-d346b3b934fc",
+    "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-11",
+      "contentHash": "0aae61d93077742d662471b40cab59d13db48c66338646f13626ca4f3b15d6bf",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 11"
+    }
+  },
+  {
+    "id": "1521959b-75b3-51d5-ab7e-fb41933f6bb3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-12",
+      "contentHash": "8b6a78aaa26cd46ce4ca339370b4069bf14fcc79276549c79dc090ad1a72b540",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SINGLE_CHOICE / 12"
+    }
+  },
+  {
+    "id": "d77a8eb3-0dfe-5597-a3a1-54a07639b0a4",
+    "skillId": "4cdefaf4-e03c-4afb-aa68-a6c56371ab0c",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-1",
+      "contentHash": "fdc844a924b42dd28a1cd5aa3ac2d9fa885d6aa8a5ae37caac01ab420fc91c77",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / TRUE_FALSE / 1"
+    }
+  },
+  {
+    "id": "fe3eaf5b-b4b4-441f-9c40-1ca44edd4a61",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "59fc7c7e-7f5d-51c8-a47a-5565192bf6fe",
+    "skillId": "d7ad3caf-51b8-497c-ac22-c07171b68bdd",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 2,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-2",
+      "contentHash": "52ffece56c2818c9f580a1fd3f5d3f860077cf941796fa88f33e3e114160f6d4",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / TRUE_FALSE / 2"
+    }
+  },
+  {
+    "id": "713915cd-ce35-5d29-a6e4-f94ad926f02b",
+    "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-3",
+      "contentHash": "f2b92f0dba973c2a641cca7003480e39a3ab08c9af77614e252adb43d8eddb99",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / TRUE_FALSE / 3"
+    }
+  },
+  {
+    "id": "a433f0e8-4fd7-5d08-a071-47c47157057c",
+    "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-4",
+      "contentHash": "f0adbac3c5278c74738b73c3caf6f272186596551e342fe5183741d3e5d50d35",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / TRUE_FALSE / 4"
+    }
+  },
+  {
+    "id": "8a218011-80e1-55a6-aa53-b8d2f0fa3cfd",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-1",
+      "contentHash": "ccd21ffe94c61328c2dd63ff38d3607d0bc7a142ec9582eef4185e4461425e22",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SHORT_ANSWER / 1"
+    }
+  },
+  {
+    "id": "088f1dfa-44f7-5b9c-a8a9-94a191311319",
+    "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-2",
+      "contentHash": "fd18ec341c91d246082761f66973e2e2faefc2720433ccc4c1c7e6fdad3a160d",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SHORT_ANSWER / 2"
+    }
+  },
+  {
+    "id": "2657ee88-6f22-454f-a0be-e12eea752412",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "d143e2fc-6628-5ba0-a333-5692206db51f",
+    "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 3,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-3",
+      "contentHash": "4ff4682e7e7888204c3f368b620d489a9d972a16ee1109d66a442baa5222a69b",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SHORT_ANSWER / 3"
+    }
+  },
+  {
+    "id": "57eb58da-5326-41c5-b104-a03adf083318",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "54b3333b-1ed9-47f9-ac7d-2cb7a8565d81",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "ae3c6c25-21f0-4bb5-bcca-2c4b36e5ea97",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "5bb02df3-dc58-4d4b-b68d-ed7d37b0372b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "3b9bfffe-b987-467a-88e2-596e641608e7",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "ac29ebe7-acd5-443f-8085-19aeba289245",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "d871afe4-e509-4630-8183-7e5a50ca525f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "544d671f-8fdf-4ee9-b762-c8b0959406d7",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f6e37ebf-9ecb-4a2a-aa6d-154ec8a088e7",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "7b644aa1-d4b4-4826-a7b8-2417a2454b83",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "cf992928-44d0-47c2-a64e-bb953c5b770a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "05129ba2-6ad9-4985-98f8-35b6c3f818bf",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "ee731cc8-b0a2-4750-a745-fb61f0f230f8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "8932cab7-e381-43ed-836b-be148fba832a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "24a99fb5-4f53-4541-84f7-7c656010facb",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "07feb0af-1999-4c6a-97b8-fb6da5cf79d9",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "1cf091ee-cabf-4bea-852a-5dab92e9d15e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "155aa69e-8a64-4dfc-b655-66894b01ec54",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b42a0f20-0178-4244-84e1-fc3dbd22423c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "881a0f05-b9bc-4525-9d3d-34a97a91974c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "0dd0f153-c277-44e6-b3fa-fcea235e7d0b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "7267e706-dab8-44fd-b796-4890ed649b9c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "b28974ec-e9af-4ee6-a5a9-9609ce77eeaa",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "e7aa212a-ebb2-429d-97f7-96a57d13c13f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "0577bfe6-b58a-48f9-876f-69dd2c102394",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "8b1d0e5d-e8cd-4d4e-b756-3834fa34fdf6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c3cbcbe8-0e82-45cc-8321-112f9410a164",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a1739490-1615-4f38-a285-545c366f5666",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "445167ba-156b-4f15-98c0-6530ef781ae7",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "ed047af7-8f99-4f74-a5c6-aeec3c178381",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "7d4951ee-411e-463c-9a1e-a70f5620c432",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "8292cff8-a0f7-4af7-a2e3-60cb4362b79c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "0ffe1a7a-3102-439c-945c-e450272ee06f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "4ddff8d9-35c8-4c25-897a-88a134aea249",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "1861cef3-c4cb-402a-b1ba-9da65ad20983",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b9afaae1-74bd-4373-9ce9-ed8424093988",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "84b1c85e-451d-4f43-8c65-cb8c95f4b794",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "2084e9cd-f838-480d-ae16-2d18bdca159f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "0e3df32a-a396-4b93-bed4-8abc55d47d94",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "da169eb6-3cbd-486c-b8fa-5a53293b7fde",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "e458d006-a9e5-43bb-94b1-e101526b74c9",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f09f5558-7cb5-42a1-945c-ce224257b5a3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "28fba860-4867-4962-bcb6-d5956f29c89a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b70422d1-893a-45cb-b9d7-a49b3b6f5637",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "9df9d8c4-4d02-4806-84fa-c2666adf2989",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "0d80a61d-577f-4a91-8ac3-6c4f7a8f3532",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "92242679-12a1-48b7-95bb-ccd94f57f918",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "05c07ae9-58e6-4caa-bd40-87ca3e57ba7b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "86664235-4b55-434e-b0a1-35d3fe287b04",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "d4cb8146-7df7-4ff2-afb1-11ed23478f89",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "501196ba-b5ca-4561-923b-86f4ce4bb5b8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "1be6faf0-3504-4081-b68b-30280bf62a76",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "acd99222-8c9b-4b95-8a7f-3dd2b1474fb3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "ab0adeaf-6a11-4dd4-9b39-a426871428bd",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f747b237-c080-4322-aa73-9de1a90870be",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "1d936a7d-24ab-4c7e-86cf-e89fa2625b3f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "3826c686-9789-4e27-9d75-b51f1376e9b0",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "4996472f-13f6-4301-8d95-1f3da7c55fe8",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "9d9a7be2-de13-4ef8-b28d-13cb1ee8e2da",
+    "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "96833da1-e5a0-4ba8-8417-8f375813a507",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "89ec649c-14c1-4c9b-a29a-b6cd60d08e42",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "46f852c8-ed37-426a-8f49-f5c6f4bc3c3d",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "254c6af5-4672-4d21-bf90-fc7cf06b8086",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "aeab800e-ce03-4367-9331-f0cf06a47988",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "38055a98-49d5-4fa5-9456-46da79756e9a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "ef0c2d3c-389f-410d-b44a-92974434da51",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "bc632702-9806-4bcc-b6d0-eaa37d49a578",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "8850c597-151e-4a3c-953e-cc8a8526dbb3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a892c31c-9b63-49cf-a43f-f7a3c193c0d6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "2d644296-8c39-4da7-8453-42de27c01cff",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "17d77814-3719-4597-b96c-35e7b4f4f8c3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "d5277ca4-df2d-4dec-b2e3-0b501e6d26cc",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "28251af1-2d0f-4952-ab8a-3302dffa6120",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "11fd1c16-8d37-49fb-8081-6825a1159a1f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "8e595d11-e716-49ef-b9a6-cbbe1b2101e3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b9ec4f55-b8e6-4284-a928-2af47c84648d",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a4509ea8-4a76-49a3-8d77-a44d6a09f968",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "c8688fe0-3969-4077-9713-6205b9aa878f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "9c144baa-21b4-409f-8e9c-509cb8908b8f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "fb80a17a-688f-49f5-9d70-3ad5dd708e18",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "eeb462c1-87f2-4d5a-952e-cfa1b3aeb3ad",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c82b01c1-1cec-4b49-813a-d7966610b3d2",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f84c9253-8cf8-47de-8cc6-28f57ca8dc4e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "4189ed9b-37eb-49ff-9cb1-a2f597159697",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "dd57e099-f1e6-4d63-88a6-a6de1e4a196e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "64f60cde-6a54-4625-8739-be822fe19567",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "fc6559f3-114a-493b-9c2a-c972e95f72e4",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "c2630213-de20-41cb-ae13-0e362fd8e695",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "af83095c-a430-43e4-b16a-21b6dca50306",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "959f1b4c-1091-4383-abec-017e26e661a6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c98d5615-c5ca-4682-a1d5-ce291a25a408",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "260b7966-e7be-49ea-a6ee-4c586aeaf3a6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "81232a79-7b12-4dea-b2b2-a4c9f383ec0d",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "5b414e68-5cce-48d7-8e72-21fbf6d57741",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f9f3760a-10f1-49d8-bc24-d317748503b3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "0b5f3c70-4512-48c2-87d7-b57ec1ced99a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "97e53905-9f91-4b70-a205-f825aeaa6aee",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "00053d8b-8b68-4a1e-9964-ca05bbc729b2",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "41426319-146b-4586-840b-a2c98c91dcbc",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "4bd3431c-eace-4b32-b465-d9ca17f5d195",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "42752815-3b24-42c1-8a79-ac887584ac54",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "25d20b09-0b79-4306-812a-47052e34bdf3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "5c68cc28-1d4c-4896-9f6c-aea96ddbf464",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "9b0956b8-3aca-4163-a8cc-093d4501007e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "76acf191-fe48-4a38-859d-cac2d4fb2d7a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "7d02b5d3-4ad1-4b98-9420-9fbc8a44eadf",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "886a61e6-e3be-410e-8876-1ef7b937541b",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "ec51f81d-6b5a-445f-a473-07362330a9f6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "229ea1e5-6070-434d-9aab-5574ee770e18",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6c0ad346-df0d-4739-8329-8d9cd3685221",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "d4514706-a288-48ca-9282-0efe087b9726",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "05b03200-d8f9-415f-a314-18b1b3d5d7dd",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "2b18d53f-17b1-435c-aebf-0eb294219919",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "04d36a3e-29b2-4b5b-a3cb-22266d8a4064",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6b3b8f0a-71be-41e9-966e-a8bca519b4cb",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c54f434e-8f19-4963-947b-4e0b6ecfd392",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "6d37b41f-5ca8-4c76-b904-a74c9f02ef18",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "876818f3-d3a8-4329-b7d4-a85d362c52d0",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "dac68f54-4a10-4c7b-94f2-1889daf9577d",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "5eded570-fc8e-4a42-be1b-ae99b9ac691f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "5d384446-08f6-4717-881e-fb0db318e201",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "caf880a7-8848-42a6-8226-186f214b9ee4",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "896270bd-e0f9-4e6d-a111-a085ad4b5d5e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "60f1035b-08a2-4835-bbab-5668e440aec9",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "9be32810-5aa2-460e-bbe6-f98f2d192d62",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "e7be0fa9-718c-4c98-a6af-f26143d1e378",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "9c44a7ce-7fde-4bff-9cbf-a0bc2a5d5e31",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "0d3e134e-d4c9-4bde-86b0-31c2290de25e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a97ab8cb-e6d4-4aeb-a1e8-8de725a24424",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "b0382374-0ca8-427c-b3c7-8828000a25e6",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "e1b8e08b-87b7-4751-ad86-6df71688b569",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "505d6707-67b8-4148-a2ba-eb5418eae17f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "939ef2c4-61fa-4857-ac41-e0f47f591a11",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "e4fad064-e249-4e7d-a269-78f36e792d1e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "a5e6368f-44c4-48c8-ba77-a2a1a0cfd9b2",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "c2283c62-36ac-41d5-8166-3e9af5bfe9c4",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "4c7bd4ce-3822-4970-bf08-f77de6177a27",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "77199da9-ec3d-4684-9b20-0b0698e5a4c3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "bfa7066d-11b4-4511-9a50-9cfa788c14dc",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "9fc64e26-b1c8-4a96-8712-0f1f8b9ad6f1",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "83008dfe-1078-40ef-90d7-5d92fb8d54e3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "149528c8-2942-4764-afc6-d4a14e6e2faf",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "51a48205-7035-49d6-ab6c-3ce065d558df",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "7aa411f1-4beb-45e4-a1d4-738159224a82",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "fae4b6a9-0699-47de-ba28-6b4a6ce06e18",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "806cdfa3-0772-414b-a1c3-c2e11e9275ff",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "c7c7e61a-662f-48c8-9d51-6c77e71b9c6f",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "9b1b4ab5-30a3-43c0-b631-4e7af3e424a9",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "23dcde5b-9152-4451-8628-8a3b4ace5af0",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "95d84eff-1596-4d66-8f44-91c33c74a583",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "6e25f1ef-2f06-4b12-83ac-9bb661fa5ee3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "9a796dbc-f51e-4b86-83ff-072b7cc297a3",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "08f0538d-6ec9-4140-8fe5-86236366a966",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "c8a58a59-0155-4a68-aa48-f0de4f499dea",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "29adf715-bf3b-4b7a-8ac7-e1d694836e60",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "bed0b280-4dd2-434a-97dd-87b1445ff148",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "2f0af69a-e45a-492a-985e-7ade0ae29cd9",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "3f9bea56-072f-4e13-a565-f8dbb147c7c0",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "01340701-886d-4136-bafd-55ab1a49792e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "7d68ebe7-bcc3-4abe-a386-2972b6b4ec53",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "MEDIUM",
+    "cognitiveLevel": "UNDERSTANDING",
+    "source": null
+  },
+  {
+    "id": "913e4e97-67f3-422a-ad25-ba56d7bd0014",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "f4d3ac08-d247-4f49-8967-a14be34ceda4",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "0b48a2d6-6bce-40d5-9e3f-e07efe0f10ea",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "05af83ce-5840-4e44-b8b6-6b006441246a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "5589174f-464e-49c3-83ea-8c165a3be65a",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "00671104-f950-46b7-8a7b-5c1949e7fd0e",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "HARD",
+    "cognitiveLevel": "APPLYING",
+    "source": null
+  },
+  {
+    "id": "14ff2d45-4052-4ed6-a5c4-47acf4d06f2c",
+    "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": null
+  },
+  {
+    "id": "adebd289-67fb-5bf6-a188-8a95265b22ab",
+    "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+    "difficulty": "EASY",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-4",
+      "contentHash": "c0111cb893aecd88c19880e74ea62fee025e8013856b8a875b13cc54d438f852",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SHORT_ANSWER / 4"
+    }
+  },
+  {
+    "id": "ee62d882-bded-552f-a3ce-eef80466fbf2",
+    "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-5",
+      "contentHash": "48b447e4ffd8abcaf2dc041317e5522a6700a0b5c2b51879ff168e2955502285",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SHORT_ANSWER / 5"
+    }
+  },
+  {
+    "id": "51561094-71e1-5d33-a8dc-83c06a8bad7d",
+    "skillId": "f3b380b9-d8b3-47ba-81ab-6e9137e73109",
+    "difficulty": "HARD",
+    "cognitiveLevel": "REMEMBERING",
+    "source": {
+      "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+      "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+      "page": 4,
+      "year": "2025-2026",
+      "author": "Cụm chuyên môn số 24 Hải Phòng",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-6",
+      "contentHash": "2058f408a122877e9e37886bb82f899aa217455bbff6be6aa91a37c849d5ea29",
+      "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+      "reviewStatus": "VERIFIED",
+      "answerEvidence": {
+        "page": 9,
+        "column": "101"
+      },
+      "questionNumber": "101 / SHORT_ANSWER / 6"
+    }
+  }
+]

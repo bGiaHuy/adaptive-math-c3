@@ -1,0 +1,4 @@
+# Batch37 — Đối chiếu response chỉnh nhãn với backend
+Đọc admin.service.setQuestionLabels hiện tại: transaction trả question include skill/options, kiểm tra tác giả/admin và grade của skill. Không sửa backend/nghiệp vụ. Fixture trước chỉ trả labels, quá yếu để chứng minh summary tên chuyên đề đổi.
+Cập nhật verifier response include nested skill giống shape máy chủ, thêm đổi skill3 và assert summary Đường tròn cùngselect skill3. Chạy lạibank-labels5checks đạt, gồm error/retry/rights/lastfiltered/topic summary; no pageerror, controlled4writes không dữ liệu thật.
+Files scripts/verify-teacher-bank-labels.mjs; evidence teacher-bank-labels/verification.json. Không tuyên bố backend thực được kiểm tra từ việc đọc code và intercept. Goalactive; contract UI đã có bằng chứng cụ thể hơn, không thêm feature không cần thiết.

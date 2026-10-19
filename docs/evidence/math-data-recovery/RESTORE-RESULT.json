@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14T15:41:05.010Z",
+  "sourceSha256": "a78776087d989ff1c7bf315ab6cd7f3afbec3c8f8c22d6acce05d46a8fc018ab",
+  "sourceQuestions": 1472,
+  "sourceTopics": 92,
+  "restoredQuestions": 1472,
+  "newlyInserted": 1472,
+  "options": 5888,
+  "status": "PUBLISHED",
+  "newAcademicReviewClaimed": false,
+  "studentHistoryRestored": false,
+  "englishServicesModified": false,
+  "activatedAt": "2026-10-14T15:41:20.805Z",
+  "publishedQuestions": 1472,
+  "activatedThisRun": 1472,
+  "authorization": "User explicitly approved restoring and using the legacy Math bank.",
+  "skillsDeleted": 0
+}

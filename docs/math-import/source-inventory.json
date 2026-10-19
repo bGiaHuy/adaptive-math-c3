@@ -1,0 +1,460 @@
+[
+  {
+    "sourceId": 1,
+    "name": "01_Phuong_trinh_he_hai_an",
+    "file": "01_Chuyen_de\\01_Phuong_trinh_he_hai_an.pdf",
+    "pages": 294,
+    "sha256": "231d091df9cc27aadd2316263a48d91baa16899f3cc42310397a1a8661c8f648",
+    "sourceUrl": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        5
+      ],
+      "dung_sai": [
+        10
+      ],
+      "tra_loi_ngan": [
+        12
+      ]
+    },
+    "samplePages": [
+      1,
+      5,
+      10,
+      12,
+      294
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1390,
+      "5": 2008,
+      "10": 1330,
+      "12": 1151,
+      "294": 1268
+    },
+    "disposition": "VERIFIED_SUBSET_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 3,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 3,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Phần ngoài mẫu chưa đối chiếu hình/công thức/đáp án từng câu, xem review-queue.json và README."
+  },
+  {
+    "sourceId": 2,
+    "name": "02_Phuong_trinh_bat_phuong_trinh",
+    "file": "01_Chuyen_de\\02_Phuong_trinh_bat_phuong_trinh.pdf",
+    "pages": 431,
+    "sha256": "da5a26498f8dc67b2cd9e8c8300bd3e88f85030fd0f7673346d7ec2187de149b",
+    "sourceUrl": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        16
+      ],
+      "dung_sai": [
+        23
+      ],
+      "tra_loi_ngan": [
+        30
+      ]
+    },
+    "samplePages": [
+      1,
+      16,
+      23,
+      30,
+      431
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1239,
+      "16": 1744,
+      "23": 1730,
+      "30": 1997,
+      "431": 998
+    },
+    "disposition": "VERIFIED_SUBSET_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 3,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 3,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Phần ngoài mẫu chưa đối chiếu hình/công thức/đáp án từng câu, xem review-queue.json và README."
+  },
+  {
+    "sourceId": 3,
+    "name": "03_Ham_so_phuong_trinh_bac_hai",
+    "file": "01_Chuyen_de\\03_Ham_so_phuong_trinh_bac_hai.pdf",
+    "pages": 398,
+    "sha256": "a4476d470814d9cb126563738226f6e7522c0bd4a1f9cbacfb415c68fce8eecf",
+    "sourceUrl": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        8
+      ],
+      "dung_sai": [
+        12
+      ],
+      "tra_loi_ngan": [
+        15
+      ]
+    },
+    "samplePages": [
+      1,
+      8,
+      12,
+      15,
+      398
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1478,
+      "8": 1690,
+      "12": 1841,
+      "15": 1498,
+      "398": 1140
+    },
+    "disposition": "VERIFIED_SUBSET_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 3,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 3,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Phần ngoài mẫu chưa đối chiếu hình/công thức/đáp án từng câu, xem review-queue.json và README."
+  },
+  {
+    "sourceId": 4,
+    "name": "04_Duong_tron",
+    "file": "01_Chuyen_de\\04_Duong_tron.pdf",
+    "pages": 459,
+    "sha256": "622c8b29491012db3842e7788226d73fcb3e346191f94f648010e8978c85360c",
+    "sourceUrl": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        5
+      ],
+      "dung_sai": [
+        10
+      ],
+      "tra_loi_ngan": [
+        13
+      ]
+    },
+    "samplePages": [
+      1,
+      5,
+      10,
+      13,
+      459
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1049,
+      "5": 2182,
+      "10": 1297,
+      "13": 1490,
+      "459": 1472
+    },
+    "disposition": "VERIFIED_SUBSET_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 3,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 3,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Phần ngoài mẫu chưa đối chiếu hình/công thức/đáp án từng câu, xem review-queue.json và README."
+  },
+  {
+    "sourceId": 5,
+    "name": "05_Ngoai_tiep_noi_tiep",
+    "file": "01_Chuyen_de\\05_Ngoai_tiep_noi_tiep.pdf",
+    "pages": 334,
+    "sha256": "77b00b9c9425eb05462247d933272b48ce69c4119a3c7e103876428566f2659f",
+    "sourceUrl": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        7
+      ],
+      "dung_sai": [
+        16
+      ],
+      "tra_loi_ngan": [
+        21
+      ]
+    },
+    "samplePages": [
+      1,
+      7,
+      16,
+      21,
+      334
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1008,
+      "7": 1336,
+      "16": 1269,
+      "21": 1720,
+      "334": 913
+    },
+    "disposition": "VERIFIED_SUBSET_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 3,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 3,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Phần ngoài mẫu chưa đối chiếu hình/công thức/đáp án từng câu, xem review-queue.json và README."
+  },
+  {
+    "sourceId": 6,
+    "name": "06_Can_thuc_Canh_Dieu",
+    "file": "01_Chuyen_de\\06_Can_thuc_Canh_Dieu.pdf",
+    "pages": 333,
+    "sha256": "48bac9e9ee941b3aeb42dd29e0d895e8c5bf8b63a591f9c8a1f7610c5cbc320d",
+    "sourceUrl": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        203
+      ],
+      "dung_sai": [
+        216
+      ],
+      "tra_loi_ngan": [
+        223
+      ]
+    },
+    "samplePages": [
+      1,
+      203,
+      216,
+      223,
+      333
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1069,
+      "203": 1463,
+      "216": 1756,
+      "223": 1400,
+      "333": 950
+    },
+    "disposition": "VERIFIED_SUBSET_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 3,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 3,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Phần ngoài mẫu chưa đối chiếu hình/công thức/đáp án từng câu, xem review-queue.json và README."
+  },
+  {
+    "sourceId": 7,
+    "name": "07_Luong_giac_Canh_Dieu",
+    "file": "01_Chuyen_de\\07_Luong_giac_Canh_Dieu.pdf",
+    "pages": 240,
+    "sha256": "6242031b7ecdf75187eff4e536358713940920b56e3d7ecb6e74d3e9f3a4affd",
+    "sourceUrl": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        108
+      ],
+      "dung_sai": [
+        117
+      ],
+      "tra_loi_ngan": [
+        126
+      ]
+    },
+    "samplePages": [
+      1,
+      108,
+      117,
+      126,
+      240
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1355,
+      "108": 1834,
+      "117": 1301,
+      "126": 1784,
+      "240": 956
+    },
+    "disposition": "VERIFIED_SUBSET_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 3,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 3,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Phần ngoài mẫu chưa đối chiếu hình/công thức/đáp án từng câu, xem review-queue.json và README."
+  },
+  {
+    "sourceId": 8,
+    "name": "01_HK1_Hung_Yen_2025_2026",
+    "file": "02_De_tong_hop\\01_HK1_Hung_Yen_2025_2026.pdf",
+    "pages": 6,
+    "sha256": "b40a085244b55bb5f684e6fab610bda5cd52100dafe55e56bcc624260e8ac80d",
+    "sourceUrl": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        1
+      ],
+      "dung_sai": [
+        3
+      ],
+      "tra_loi_ngan": [
+        4
+      ]
+    },
+    "samplePages": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 2139,
+      "3": 2391,
+      "4": 1160,
+      "6": 78
+    },
+    "disposition": "FULL_EXAM_PREPARED",
+    "reason": "34 câu đã đối chiếu công thức/hình/đáp án mã9101 trang1–5.",
+    "verifiedPreparedQuestions": 34,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 34,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Không nhập các mã đảo thứ tự trùng; trước xuất bản cần rà soát chuyên môn."
+  },
+  {
+    "sourceId": 9,
+    "name": "02_Khao_sat_Hai_Phong_2025_2026",
+    "file": "02_De_tong_hop\\02_Khao_sat_Hai_Phong_2025_2026.pdf",
+    "pages": 9,
+    "sha256": "633650bbdfcea1b17120ffe90ae0209922e913b23ce439d1ad29c92417313469",
+    "sourceUrl": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        1
+      ],
+      "dung_sai": [
+        2
+      ],
+      "tra_loi_ngan": [
+        3
+      ]
+    },
+    "samplePages": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 1631,
+      "2": 1851,
+      "3": 2614,
+      "9": 926
+    },
+    "disposition": "FULL_EXAM_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 22,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 22,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Không nhập các mã đảo thứ tự trùng; trước xuất bản cần rà soát chuyên môn."
+  },
+  {
+    "sourceId": 10,
+    "name": "03_HK1_Quan_Toan_2025_2026",
+    "file": "02_De_tong_hop\\03_HK1_Quan_Toan_2025_2026.pdf",
+    "pages": 7,
+    "sha256": "2a7adbfc62176c87969b4c80a386dfb8a863342d9514c983377de57704c5f13a",
+    "sourceUrl": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+    "typePages": {
+      "nhieu_lua_chon": [
+        1
+      ],
+      "dung_sai": [
+        1
+      ],
+      "tra_loi_ngan": [
+        1
+      ]
+    },
+    "samplePages": [
+      1,
+      7
+    ],
+    "textClassification": "TEXT_WITH_MATH_LAYOUT",
+    "sampleTextCharacters": {
+      "1": 4126,
+      "7": 78
+    },
+    "disposition": "FULL_EXAM_PREPARED",
+    "reason": "Có văn bản nhưng thứ tự phân số/căn/hệ phương trình bị đảo khi trích xuất; mẫu và trang cần rà soát đã lưu. Chưa đánh dấu VERIFIED cho câu chưa đối chiếu trực quan cùng đáp án.",
+    "verifiedPreparedQuestions": 22,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 22,
+    "status": "LOCAL_APPLIED_DRAFT",
+    "pendingReason": "Không nhập các mã đảo thứ tự trùng; trước xuất bản cần rà soát chuyên môn."
+  },
+  {
+    "sourceId": 11,
+    "name": "04_HK1_Tay_Son_2025_2026",
+    "file": "02_De_tong_hop\\04_HK1_Tay_Son_2025_2026.pdf",
+    "pages": 2,
+    "sha256": "7052d79472bd0276e3d26e2db489f4f73f276697ac4720fb4de3b756f81e600a",
+    "sourceUrl": "https://thcs.toanmath.com/2025/12/de-cuoi-ki-1-toan-9-nam-2025-2026-truong-thcs-tay-son-da-nang.html",
+    "typePages": {
+      "nhieu_lua_chon": [],
+      "dung_sai": [],
+      "tra_loi_ngan": []
+    },
+    "samplePages": [
+      1,
+      2
+    ],
+    "textClassification": "SCAN_OR_NO_TEXT",
+    "sampleTextCharacters": {
+      "1": 0,
+      "2": 2
+    },
+    "disposition": "NEEDS_ANSWER_KEY",
+    "reason": "Không có lớp văn bản có thể dùng; cần OCR và đối chiếu ảnh/đáp án từng câu, không suy diễn loại câu từ tên tệp.",
+    "verifiedPreparedQuestions": 0,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 0,
+    "status": "PENDING_MANUAL_REVIEW",
+    "pendingReason": "Không có đáp án trong PDF scan; cần nguồn đáp án/OCR."
+  },
+  {
+    "sourceId": 12,
+    "name": "05_GK1_Nguyen_Van_Linh_2025_2026",
+    "file": "02_De_tong_hop\\05_GK1_Nguyen_Van_Linh_2025_2026.pdf",
+    "pages": 2,
+    "sha256": "e7d1630edcb69cfae3ff09876453d2c00a1fa63af8a31e2c5799cf9e3654c05d",
+    "sourceUrl": "https://thcs.toanmath.com/2025/11/de-giua-ky-1-toan-9-nam-2025-2026-truong-thcs-nguyen-van-linh-da-nang.html",
+    "typePages": {
+      "nhieu_lua_chon": [],
+      "dung_sai": [],
+      "tra_loi_ngan": []
+    },
+    "samplePages": [
+      1,
+      2
+    ],
+    "textClassification": "SCAN_OR_NO_TEXT",
+    "sampleTextCharacters": {
+      "1": 0,
+      "2": 2
+    },
+    "disposition": "NEEDS_ANSWER_KEY",
+    "reason": "Không có lớp văn bản có thể dùng; cần OCR và đối chiếu ảnh/đáp án từng câu, không suy diễn loại câu từ tên tệp.",
+    "verifiedPreparedQuestions": 0,
+    "detailedReview": "README.md#những-phần-cần-rà-soát",
+    "importedQuestions": 0,
+    "status": "PENDING_MANUAL_REVIEW",
+    "pendingReason": "Không có đáp án trong PDF scan; cần nguồn đáp án/OCR."
+  }
+]

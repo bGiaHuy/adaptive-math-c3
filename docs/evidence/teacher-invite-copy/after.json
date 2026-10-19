@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Failed class creation retains fields; retry opens new class and preserves one-time invite across details loading",
+    "desktop: clipboard rejection retains code; retry copies exact code and clears error",
+    "tablet: clipboard rejection retains code; retry copies exact code and clears error",
+    "mobile: clipboard rejection retains code; retry copies exact code and clears error"
+  ],
+  "errors": [],
+  "scope": "Simulated clipboard only; system clipboard untouched"
+}

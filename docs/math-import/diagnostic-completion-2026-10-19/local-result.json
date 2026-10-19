@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-18T18:30:24.334Z",
+  "destination": "LOCAL",
+  "batchSha256": "c488f287bc5ef9d77c230f8b23a8c489ba90374e68c12bac826c4147ac0db163",
+  "reviewed": 20,
+  "additions": [
+    {
+      "externalId": "QF-1",
+      "skillCode": "MATH9-QUADRATIC-FUNCTIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "QF-2",
+      "skillCode": "MATH9-QUADRATIC-FUNCTIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "SOL-1",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "SOL-2",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "MOD-1",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "MOD-2",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "RAD-1",
+      "skillCode": "SKILL-02",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "RAD-2",
+      "skillCode": "SKILL-02",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "CIR-1",
+      "skillCode": "SKILL-08",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "CIR-2",
+      "skillCode": "SKILL-08",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "STA-1",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "STA-2",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "INE-1",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "INE-2",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "PRO-1",
+      "skillCode": "MATH9-PROBABILITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "PRO-2",
+      "skillCode": "MATH9-PROBABILITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "OPT-1",
+      "skillCode": "SKILL-02",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "OPT-2",
+      "skillCode": "SKILL-02",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "GEO-1",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "GEO-2",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SHORT_ANSWER"
+    }
+  ],
+  "skipped": [],
+  "newSkills": [],
+  "mode": "APPLY",
+  "result": {
+    "imported": 20,
+    "ids": [
+      "4277f659-4fd6-57df-a4e4-15555de5773a",
+      "6c081ea9-7a9e-5e2b-ae6a-ad2f73cdc681",
+      "05b7308d-1412-5932-a65f-5c6882d1cf53",
+      "e1411e7a-b71a-5a4e-a007-61977018761f",
+      "6f072bc3-e878-58f5-a6df-7f56714e9077",
+      "bf0ae13c-db86-5740-ae7c-d771e1ce63a3",
+      "1fb9e0d3-b119-5e3f-afc8-2c091eca8a5c",
+      "b56548a8-1e62-5220-a91d-7c7fe4718fa5",
+      "7e49c6c6-38c5-58f6-ac85-1205e4ca28eb",
+      "ead868b0-cae2-5084-a871-c1741fa92c4e",
+      "78552aeb-15bc-5bda-a423-4df9b30ca3f6",
+      "a4384b5d-aca1-5506-a178-9d0956923edd",
+      "027ec00d-b64b-5f30-a204-6fa1af3f3309",
+      "614a2d2f-0c1e-560f-a4e9-b5c1210eed1d",
+      "dde8dfb7-857a-5710-aff3-d138477aa3ce",
+      "1d8dd155-d514-5522-ac30-5935b41da197",
+      "e3e8e038-9988-534c-aa0a-115aadb6b5ae",
+      "f16900be-3abc-55d7-a5b6-7be02eaa78c9",
+      "881f8ecd-4bf0-590b-a965-a79936b7af09",
+      "ddb5cf03-daeb-5087-a6fd-1b504bb1943d"
+    ]
+  },
+  "verified": [
+    {
+      "id": "4277f659-4fd6-57df-a4e4-15555de5773a",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-QUADRATIC-FUNCTIONS",
+        "title": "Hàm số y = ax² và đồ thị"
+      }
+    },
+    {
+      "id": "6c081ea9-7a9e-5e2b-ae6a-ad2f73cdc681",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-QUADRATIC-FUNCTIONS",
+        "title": "Hàm số y = ax² và đồ thị"
+      }
+    },
+    {
+      "id": "05b7308d-1412-5932-a65f-5c6882d1cf53",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-SOLIDS",
+        "title": "Hình trụ, hình nón và hình cầu"
+      }
+    },
+    {
+      "id": "e1411e7a-b71a-5a4e-a007-61977018761f",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-SOLIDS",
+        "title": "Hình trụ, hình nón và hình cầu"
+      }
+    },
+    {
+      "id": "6f072bc3-e878-58f5-a6df-7f56714e9077",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "SKILL-04",
+        "title": "Giải bài toán bằng cách lập hệ phương trình"
+      }
+    },
+    {
+      "id": "bf0ae13c-db86-5740-ae7c-d771e1ce63a3",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "SKILL-04",
+        "title": "Giải bài toán bằng cách lập hệ phương trình"
+      }
+    },
+    {
+      "id": "1fb9e0d3-b119-5e3f-afc8-2c091eca8a5c",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức"
+      }
+    },
+    {
+      "id": "b56548a8-1e62-5220-a91d-7c7fe4718fa5",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức"
+      }
+    },
+    {
+      "id": "7e49c6c6-38c5-58f6-ac85-1205e4ca28eb",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp"
+      }
+    },
+    {
+      "id": "ead868b0-cae2-5084-a871-c1741fa92c4e",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp"
+      }
+    },
+    {
+      "id": "78552aeb-15bc-5bda-a423-4df9b30ca3f6",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-STATISTICS",
+        "title": "Thống kê và tần số tương đối"
+      }
+    },
+    {
+      "id": "a4384b5d-aca1-5506-a178-9d0956923edd",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-STATISTICS",
+        "title": "Thống kê và tần số tương đối"
+      }
+    },
+    {
+      "id": "027ec00d-b64b-5f30-a204-6fa1af3f3309",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-LINEAR-INEQUALITY",
+        "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn"
+      }
+    },
+    {
+      "id": "614a2d2f-0c1e-560f-a4e9-b5c1210eed1d",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-LINEAR-INEQUALITY",
+        "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn"
+      }
+    },
+    {
+      "id": "dde8dfb7-857a-5710-aff3-d138477aa3ce",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-PROBABILITY",
+        "title": "Xác suất của biến cố"
+      }
+    },
+    {
+      "id": "1d8dd155-d514-5522-ac30-5935b41da197",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-PROBABILITY",
+        "title": "Xác suất của biến cố"
+      }
+    },
+    {
+      "id": "e3e8e038-9988-534c-aa0a-115aadb6b5ae",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "skill": {
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức"
+      }
+    },
+    {
+      "id": "f16900be-3abc-55d7-a5b6-7be02eaa78c9",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "skill": {
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức"
+      }
+    },
+    {
+      "id": "881f8ecd-4bf0-590b-a965-a79936b7af09",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "skill": {
+        "code": "MATH9-CYCLIC-POLYGONS",
+        "title": "Góc nội tiếp, tứ giác nội tiếp và đa giác đều"
+      }
+    },
+    {
+      "id": "ddb5cf03-daeb-5087-a6fd-1b504bb1943d",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "skill": {
+        "code": "MATH9-CYCLIC-POLYGONS",
+        "title": "Góc nội tiếp, tứ giác nội tiếp và đa giác đều"
+      }
+    }
+  ]
+}

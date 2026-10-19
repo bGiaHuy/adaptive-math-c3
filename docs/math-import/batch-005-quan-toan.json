@@ -1,0 +1,927 @@
+{
+  "batchId": "quan-toan-901",
+  "questions": [
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-1",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Biển báo trong hình báo trọng tải P tối đa của toàn bộ xe đi qua cầu. P phải thỏa mãn điều kiện nào để đúng quy định biển báo?\n\n![Biển báo nguồn](/math-import-assets/quan-toan-901-sign.png)",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$P>10$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$P\\le10$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$P<10$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$P\\ge10$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-2",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong các hình dưới đây, hình nào minh họa góc ở tâm?\n\n![Hình nguồn](/math-import-assets/quan-toan-901-angles.png)",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "Hình 3",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "Hình 1",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "Hình 4",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "Hình 2",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-3",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Tam giác MNP vuông tại M, MN = 9 cm, MP = 12 cm. Khi đó cos N bằng:",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\frac43$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac35$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\frac34$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\frac45$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Căn bậc hai số học của 7 là:",
+      "skillCode": "SKILL-01",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\pm\\sqrt7$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\sqrt7$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "49",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$-\\sqrt7$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-5",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hệ phương trình $\\begin{cases}2x+y=-3\\\\x+3y=1\\end{cases}$ có nghiệm là:",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 5",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "(−2;1)",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "(2;1)",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "(−2;−1)",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "(2;−1)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-6",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Tam giác ABC vuông tại A, đường cao AH. Chọn khẳng định sai:",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 6",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\tan C=\\frac{AH}{AC}$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\sin B=\\frac{AH}{AB}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\cos C=\\frac{AC}{BC}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\tan B=\\frac{AC}{AB}$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-7",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hai đường tròn (O;6 cm), (O′;2 cm), OO′ = 9 cm. Vị trí tương đối của hai đường tròn là:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 7",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "Cắt nhau",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "Ở ngoài nhau",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "Tiếp xúc trong",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "Tiếp xúc ngoài",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-8",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hai tiếp tuyến tại B,C của (O) cắt nhau tại A. Chọn khẳng định sai:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 8",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "OA là đường trung trực của BC.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$OA\\perp BC$.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$OA\\perp BC$ tại trung điểm của OA.",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "AB = AC.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-9",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hệ phương trình nào là hệ phương trình bậc nhất hai ẩn?",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 9",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\begin{cases}0x+0y=2\\\\x-3y=1\\end{cases}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\begin{cases}x+\\sqrt3y=-2\\\\2x-y=\\sqrt5\\end{cases}$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\begin{cases}x+y=0\\\\-x^2+2y=3\\end{cases}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\begin{cases}x^2+3y=2\\\\2y-x=3\\end{cases}$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-10",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Điều kiện để $\\sqrt{1-4x}$ xác định là:",
+      "skillCode": "SKILL-01",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 10",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x\\ge\\frac14$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$x\\le\\frac14$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$x\\le-\\frac14$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$x\\ge-\\frac14$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-11",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho (O;5 cm), điểm M cách O 13 cm. Vẽ tiếp tuyến MA (A là tiếp điểm). Độ dài MA là:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 11",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "10 cm",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "6 cm",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "12 cm",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "8 cm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-12",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Số nào không là nghiệm của bất phương trình $2x-4\\ge0$?",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 12",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\sqrt5$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac{11}5$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "2",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\sqrt3$",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-1",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho bất đẳng thức $a\\ge b$. Xét các khẳng định:",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$(2-\\sqrt5)a\\ge(2-\\sqrt5)b$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "$\\sqrt{2025a}-2026\\le\\sqrt{2025b}-2026$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "$-5a\\le-5b$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "$3-m^2a\\le3-m^2b$ với $m<0$.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-2",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho $A=\\frac{\\sqrt x-3}{\\sqrt x+3}$ và $B=\\frac3{\\sqrt x+3}+\\frac{3\\sqrt x+27}{x-9}$. Xét các khẳng định:",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Giá trị $P=A\\cdot B$ tại $x=3$ là 1.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Rút gọn $B=\\frac6{\\sqrt x-3}$.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Điều kiện để B không âm là $x\\ge9$.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "Điều kiện xác định A,B là $x\\ge0,\\ x\\ne9$.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-3",
+      "questionType": "TRUE_FALSE",
+      "content": "Ô tô đi AB với 60 km/h, tiếp BC với 50 km/h. Tổng AB,BC = 190 km; thời gian đi AB ít hơn BC 30 phút. Gọi x,y giờ là thời gian đi AB,BC. Xét các khẳng định:",
+      "skillCode": "SKILL-04",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Thời gian đi AB là 1,5 giờ.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Điều kiện $x,y\\in\\mathbb N,\\ y>0,5$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "AB dài 60x km, BC dài 50y km.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Phương trình liên hệ thời gian là y − x = 30.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-4",
+      "questionType": "TRUE_FALSE",
+      "content": "Tam giác ABC vuông tại A, AB = 5 cm, $\\widehat{ACB}=40^\\circ$. Đường tròn tâm I đường kính AB cắt BC ở M. Xét các khẳng định:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$AM\\perp BC$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Đường tròn đường kính AC đi qua M.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Độ dài cung nhỏ BM là $\\frac{10}9$ cm.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "Diện tích đường tròn $(I,IA)$ bằng $\\frac{25}2\\pi$ cm².",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-1",
+      "questionType": "SHORT_ANSWER",
+      "content": "Mặt đĩa CD có dạng vành khuyên giới hạn bởi hai đường tròn bán kính 1,5 cm và 5 cm. Diện tích bao nhiêu cm²? Lấy π = 3,14, làm tròn đến hàng đơn vị.\n\n![Đĩa CD nguồn](/math-import-assets/quan-toan-901-disc.png)",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SHORT_ANSWER / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "71"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-2",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho $x\\ge16$. Tìm giá trị lớn nhất $A=\\frac{\\sqrt{x-16}}{3x}$, làm tròn đến chữ số thập phân thứ hai.",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "0.04"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-3",
+      "questionType": "SHORT_ANSWER",
+      "content": "Biết $\\alpha=30^\\circ$. Tính $M=\\sin\\alpha-2\\cos\\alpha$, làm tròn đến hàng phần trăm.",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "-1.23"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-4",
+      "questionType": "SHORT_ANSWER",
+      "content": "Tính $A=\\frac{\\sqrt5-5}{1-\\sqrt5}-\\sqrt{(2-\\sqrt5)^2}$.",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "2"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-5",
+      "questionType": "SHORT_ANSWER",
+      "content": "Kì thi gồm Toán, Ngữ văn, Tiếng Anh: Toán và Ngữ văn hệ số 2, Tiếng Anh hệ số 1. Điểm trung bình ít nhất 8 để trúng tuyển. An được Toán 9,25, Tiếng Anh 7,75. Điểm Ngữ văn tối thiểu bao nhiêu, làm tròn đến chữ số thập phân thứ nhất?",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 5",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "6.9"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-6",
+      "questionType": "SHORT_ANSWER",
+      "content": "Thiết bị chiếu sáng B gắn trên tường AB, cao 2,95 m, góc chiếu $\\widehat{DBC}=25^\\circ$. Vùng sáng bắt đầu C cách chân tường A 1,88 m. Tính độ dài CD (m); làm tròn góc đến độ, độ dài đến chữ số thập phân thứ nhất.\n\n![Hình nguồn](/math-import-assets/quan-toan-901-light.png)",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 6",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "pages": [
+          5,
+          6
+        ],
+        "row": "901 (hàng đầu tiên)"
+      },
+      "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "2.8"
+        ],
+        "tolerance": 1e-09
+      }
+    }
+  ]
+}

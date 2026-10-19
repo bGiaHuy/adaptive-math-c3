@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "desktop: current fixture logout clears teacher UI, dialog, URL context and body lock",
+    "desktop: all fixture logout clears teacher UI, dialog, URL context and body lock",
+    "tablet: current fixture logout clears teacher UI, dialog, URL context and body lock",
+    "tablet: all fixture logout clears teacher UI, dialog, URL context and body lock",
+    "mobile: current fixture logout clears teacher UI, dialog, URL context and body lock",
+    "mobile: all fixture logout clears teacher UI, dialog, URL context and body lock"
+  ],
+  "errors": []
+}

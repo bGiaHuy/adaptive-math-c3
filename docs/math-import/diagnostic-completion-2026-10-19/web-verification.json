@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-18T18:31:54.251Z",
+  "base": "https://adaptivemath-blush.vercel.app",
+  "checks": [
+    {
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "path": "/admin/questions",
+      "status": 200
+    },
+    {
+      "path": "/auth/logout",
+      "status": 200
+    },
+    {
+      "path": "/auth/register/student",
+      "status": 201
+    },
+    {
+      "path": "/auth/login",
+      "status": 200
+    },
+    {
+      "path": "/student/onboarding",
+      "status": 200
+    },
+    {
+      "path": "/diagnostic/start",
+      "status": 201
+    },
+    {
+      "path": "/diagnostic/draft",
+      "status": 200
+    },
+    {
+      "path": "/diagnostic/start",
+      "status": 201
+    },
+    {
+      "path": "/diagnostic/submit/1e7e273e-1dc2-4686-976f-c022603f8601",
+      "status": 200
+    },
+    {
+      "path": "/diagnostic/submit/1e7e273e-1dc2-4686-976f-c022603f8601",
+      "status": 200
+    },
+    {
+      "path": "/diagnostic/latest",
+      "status": 200
+    },
+    {
+      "path": "/auth/logout",
+      "status": 200
+    }
+  ],
+  "teacherVisible": 20,
+  "counts": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 4,
+    "SHORT_ANSWER": 6
+  },
+  "status": "PASS",
+  "attemptId": "1e7e273e-1dc2-4686-976f-c022603f8601",
+  "totalAnswered": 22,
+  "correctCount": 22,
+  "scorePercentage": 100,
+  "resumedSamePaper": true,
+  "answersHidden": true,
+  "submitIdempotent": true
+}

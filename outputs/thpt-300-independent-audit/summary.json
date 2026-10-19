@@ -1,0 +1,25 @@
+{
+  "papers": 300,
+  "byGrade": [
+    {
+      "grade": 10,
+      "count": 100
+    },
+    {
+      "grade": 11,
+      "count": 100
+    },
+    {
+      "grade": 12,
+      "count": 100
+    }
+  ],
+  "missing": 0,
+  "badHeader": 0,
+  "badHash": 0,
+  "uniqueFileHashes": 300,
+  "questionRows": 300,
+  "uniqueQuestionContents": 90,
+  "extractionImplementation": "scripts/process-thpt-300-questions.mjs reuses 90 pilot templates and assigns pages/item numbers arithmetically; no PDF question extraction",
+  "importRecommendation": "DO_NOT_IMPORT_QUESTION_EXPORTS"
+}

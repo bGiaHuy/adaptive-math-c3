@@ -1,0 +1,354 @@
+import json
+import csv
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+root = r'C:\Users\Administrator\Documents\Codespace\Adaptive Learning\Adaptive Math\tai-lieu\Toan-9-ba-dang-trac-nghiem-2026-10-16'
+rev_dir = os.path.join(root, '04_Trich_xuat_Gemini', 'revision-01')
+questions_path = os.path.join(rev_dir, 'questions.jsonl')
+review_csv_path = os.path.join(rev_dir, 'review.csv')
+
+questions = [
+    {
+        "id": "SRC009-P001-Q001",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "I",
+        "questionNumber": 1,
+        "questionPages": [1],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Hệ thức lượng trong tam giác vuông",
+        "type": "MULTIPLE_CHOICE",
+        "stem": "Trong tam giác vuông, nếu cạnh góc vuông đối diện với một góc nhọn bằng nửa cạnh huyền thì góc nhọn đó có số đo là:",
+        "options": [
+            {"key": "A", "text": "$30^\\circ$"},
+            {"key": "B", "text": "$60^\\circ$"},
+            {"key": "C", "text": "$45^\\circ$"},
+            {"key": "D", "text": "$50^\\circ$"}
+        ],
+        "statements": None,
+        "answer": {"correctOption": "A"},
+        "explanation": "Trong tam giác vuông, gọi $\\alpha$ là góc nhọn và $a$ là độ dài cạnh huyền, cạnh góc vuông đối diện có độ dài là $\\frac{a}{2}$. Ta có $\\sin \\alpha = \\frac{a/2}{a} = \\frac{1}{2} \\Rightarrow \\alpha = 30^\\circ$. Do đó đáp án đúng là A.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 1 (đề bài: Phần I - Câu 1, đủ 4 phương án A, B, C, D) và trang 9 (bảng đáp án Mã đề 101: Câu 1 chọn A). Nguồn chỉ có bảng đáp án tổng hợp, không kèm lời giải chi tiết nên explanationOrigin ghi MODEL_GENERATED.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P001-Q004",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "I",
+        "questionNumber": 4,
+        "questionPages": [1],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Phương trình bậc hai một ẩn và định lý Viète",
+        "type": "MULTIPLE_CHOICE",
+        "stem": "Phương trình $x^2 - 3x - 5 = 0$ có hai nghiệm $x_1, x_2$ ($x_1 > x_2$). Khi đó $T = 2x_1 + x_2$ bằng",
+        "options": [
+            {"key": "A", "text": "$\\frac{3 + \\sqrt{29}}{2}$"},
+            {"key": "B", "text": "$\\frac{9 + \\sqrt{29}}{2}$"},
+            {"key": "C", "text": "$\\frac{3 - \\sqrt{29}}{2}$"},
+            {"key": "D", "text": "$\\frac{9 - \\sqrt{29}}{2}$"}
+        ],
+        "statements": None,
+        "answer": {"correctOption": "B"},
+        "explanation": "Phương trình $x^2 - 3x - 5 = 0$ có biệt thức $\\Delta = (-3)^2 - 4(1)(-5) = 29 > 0$. Do $x_1 > x_2$ nên hai nghiệm là $x_1 = \\frac{3 + \\sqrt{29}}{2}$ và $x_2 = \\frac{3 - \\sqrt{29}}{2}$. Khi đó $T = 2x_1 + x_2 = 2 \\cdot \\frac{3 + \\sqrt{29}}{2} + \\frac{3 - \\sqrt{29}}{2} = (3 + \\sqrt{29}) + \\frac{3 - \\sqrt{29}}{2} = \\frac{6 + 2\\sqrt{29} + 3 - \\sqrt{29}}{2} = \\frac{9 + \\sqrt{29}}{2}$. Do đó đáp án đúng là B.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 1 (đề bài: Phần I - Câu 4, công thức toán phương trình bậc hai và biểu thức T, 4 phương án) và trang 9 (bảng đáp án Mã đề 101: Câu 4 chọn B). Khớp hoàn toàn.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P001-Q005",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "I",
+        "questionNumber": 5,
+        "questionPages": [1],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Góc ở tâm và góc nội tiếp đường tròn",
+        "type": "MULTIPLE_CHOICE",
+        "stem": "Cho đường tròn tâm $O$ và $3$ điểm $A, B, C$ thuộc đường tròn (tham khảo hình vẽ). Biết $\\widehat{BAC} = x - 10^\\circ$ và $\\widehat{BOC} = 4x - 80^\\circ$. Giá trị của $x$ bằng (đơn vị: độ)",
+        "options": [
+            {"key": "A", "text": "$20^\\circ$"},
+            {"key": "B", "text": "$45^\\circ$"},
+            {"key": "C", "text": "$30^\\circ$"},
+            {"key": "D", "text": "$40^\\circ$"}
+        ],
+        "statements": None,
+        "answer": {"correctOption": "C"},
+        "explanation": "Trong một đường tròn, góc ở tâm chắn một cung có số đo gấp hai lần góc nội tiếp cùng chắn cung đó. Do $\\widehat{BOC}$ là góc ở tâm và $\\widehat{BAC}$ là góc nội tiếp cùng chắn cung $BC$, ta có: $\\widehat{BOC} = 2\\widehat{BAC} \\Leftrightarrow 4x - 80^\\circ = 2(x - 10^\\circ) \\Leftrightarrow 4x - 80^\\circ = 2x - 20^\\circ \\Leftrightarrow 2x = 60^\\circ \\Leftrightarrow x = 30^\\circ$. Do đó đáp án đúng là C.",
+        "assets": ["assets/SRC009-P001-Q005.png"],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 1 (đề bài: Phần I - Câu 5, nội dung góc ở tâm và góc nội tiếp) và trang 9 (bảng đáp án Mã đề 101: Câu 5 chọn C). Hình vẽ đã được crop trực tiếp từ trang 1 PDF ở độ phân giải 300 DPI, đảm bảo giữ nguyên vẹn các điểm A, B, C, O, các cung góc và nhãn công thức không bị mất nét.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P001-Q007",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "I",
+        "questionNumber": 7,
+        "questionPages": [1],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Tần số và tần số tương đối",
+        "type": "MULTIPLE_CHOICE",
+        "stem": "Một cửa hàng thống kê số lượng các loại nước giải khát bán được trong một ngày như sau: Tổng cộng $50$ ly nước, trong đó có $15$ ly trà sữa, $25$ ly nước ép và còn lại là trà trái cây. Tần số tương đối của loại nước trà trái cây bán được trong ngày hôm đó là",
+        "options": [
+            {"key": "A", "text": "$20\\%$"},
+            {"key": "B", "text": "$15\\%$"},
+            {"key": "C", "text": "$30\\%$"},
+            {"key": "D", "text": "$10\\%$"}
+        ],
+        "statements": None,
+        "answer": {"correctOption": "A"},
+        "explanation": "Số lượng ly trà trái cây bán được trong ngày là $50 - (15 + 25) = 10$ ly. Tần số tương đối của loại nước trà trái cây là $f = \\frac{10}{50} \\times 100\\% = 20\\%$. Do đó đáp án đúng là A.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 1 (đề bài: Phần I - Câu 7, dữ liệu thống kê số ly nước) và trang 9 (bảng đáp án Mã đề 101: Câu 7 chọn A). Khớp hoàn toàn.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P002-Q001",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "II",
+        "questionNumber": 1,
+        "questionPages": [2],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Hình trụ - Diện tích xung quanh và bài toán thực tế",
+        "type": "TRUE_FALSE",
+        "stem": "Một gia đình lắp đặt một ống thoát nước hình trụ dài $10\\text{ m}$, có đường kính $0{,}2\\text{ m}$. Để chống thấm, người ta quét một lớp keo đặc biệt lên mặt xung quanh của ống. Biết mỗi hộp keo quét được $3\\text{ m}^2$, giá mỗi hộp là $50\\,000$ đồng (lấy $\\pi \\approx 3{,}14$). Xét các khẳng định sau:",
+        "options": None,
+        "statements": [
+            {"key": "a", "text": "Diện tích cần quét keo lên ống thoát nước hình trụ là diện tích xung quanh của hình trụ có chiều cao $h = 10\\text{ m}$ và bán kính đáy $r = 10\\text{ cm}$."},
+            {"key": "b", "text": "Diện tích xung quanh của ống là $628\\text{ m}^2$."},
+            {"key": "c", "text": "Nếu mua $2$ hộp keo thì đủ để quét hết bề mặt ống."},
+            {"key": "d", "text": "Số tiền tối thiểu cần chi để mua keo là $150\\,000$ đồng."}
+        ],
+        "answer": {"a": True, "b": False, "c": False, "d": True},
+        "explanation": "• Ý a (ĐÚNG): Chiều cao ống $h = 10\\text{ m}$, bán kính đáy $r = \\frac{d}{2} = \\frac{0{,}2}{2} = 0{,}1\\text{ m} = 10\\text{ cm}$. Diện tích quét keo lên mặt xung quanh chính là diện tích xung quanh của hình trụ.\n• Ý b (SAI): Diện tích xung quanh là $S_{xq} = 2\\pi r h \\approx 2 \\times 3{,}14 \\times 0{,}1 \\times 10 = 6{,}28\\text{ m}^2 \\ne 628\\text{ m}^2$.\n• Ý c (SAI): Mua 2 hộp keo chỉ quét được diện tích tối đa là $2 \\times 3 = 6\\text{ m}^2 < 6{,}28\\text{ m}^2$, không đủ để quét hết bề mặt ống.\n• Ý d (ĐÚNG): Số hộp keo cần mua là số nguyên nhỏ nhất lớn hơn hoặc bằng $\\frac{6{,}28}{3} \\approx 2{,}093$, tức là cần mua $3$ hộp keo. Số tiền tối thiểu chi để mua keo là $3 \\times 50\\,000 = 150\\,000$ đồng.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 2 (đề bài: Phần II - Câu 1, bài toán thực tế hình trụ, 4 khẳng định a, b, c, d) và trang 9 (bảng đáp án Mã đề 101 Phần II: Câu 1 có a: Đ, b: S, c: S, d: Đ). Khớp hoàn toàn.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P002-Q002",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "II",
+        "questionNumber": 2,
+        "questionPages": [2],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Bảng tần số ghép nhóm và phân tích số liệu",
+        "type": "TRUE_FALSE",
+        "stem": "Một cửa hàng tiện lợi thống kê số lượng khách hàng ghé thăm mỗi giờ trong suốt $24$ giờ của một ngày như sau:\n\n| Số lượng khách hàng | Số giờ |\n|---|---:|\n| Từ $10$ đến dưới $20$ khách | $5$ |\n| Từ $20$ đến dưới $30$ khách | $10$ |\n| Từ $30$ đến dưới $40$ khách | $6$ |\n| Từ $40$ đến dưới $50$ khách | $3$ |\n\nNhững giờ có từ $30$ khách trở lên được coi là giờ cao điểm. Xét các khẳng định sau:",
+        "options": None,
+        "statements": [
+            {"key": "a", "text": "Trong ngày, số giờ có từ $20$ đến dưới $30$ khách chiếm thời gian nhiều nhất."},
+            {"key": "b", "text": "Tổng số giờ cao điểm của cửa hàng trong ngày hôm đó là $9$ giờ."},
+            {"key": "c", "text": "Tỉ lệ số giờ vắng khách (dưới $20$ khách) chiếm hơn $25\\%$ thời gian trong ngày."},
+            {"key": "d", "text": "Nếu mỗi giờ cao điểm cửa hàng phải chi thêm $50\\,000$ đồng tiền thuê nhân sự bổ sung, thì tổng số tiền chi thêm cho việc này trong ngày hôm đó là $500\\,000$ đồng."}
+        ],
+        "answer": {"a": True, "b": True, "c": False, "d": False},
+        "explanation": "• Ý a (ĐÚNG): Nhóm có số lượng khách từ 20 đến dưới 30 có tần số là 10 giờ, là tần số lớn nhất trong 4 nhóm.\n• Ý b (ĐÚNG): Các giờ cao điểm là các nhóm từ 30 khách trở lên, gồm nhóm [30; 40) có 6 giờ và nhóm [40; 50) có 3 giờ. Tổng số giờ cao điểm là $6 + 3 = 9$ giờ.\n• Ý c (SAI): Số giờ dưới 20 khách là 5 giờ. Tỉ lệ thời gian là $\\frac{5}{24} \\approx 20{,}83\\% < 25\\%$.\n• Ý d (SAI): Số giờ cao điểm là 9 giờ, mỗi giờ chi thêm $50\\,000$ đồng thì tổng tiền chi thêm là $9 \\times 50\\,000 = 450\\,000$ đồng $\\ne 500\\,000$ đồng.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 2 (đề bài: Phần II - Câu 2, bảng thống kê tần số ghép nhóm 24 giờ và 4 khẳng định a, b, c, d) và trang 9 (bảng đáp án Mã đề 101 Phần II: Câu 2 có a: Đ, b: Đ, c: S, d: S). Bảng số liệu và 4 khẳng định khớp hoàn toàn.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P003-Q003",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "II",
+        "questionNumber": 3,
+        "questionPages": [3],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Giải bài toán bằng cách lập hệ phương trình bậc nhất hai ẩn",
+        "type": "TRUE_FALSE",
+        "stem": "Một nhà máy sản xuất hai loại chip điện tử: chip vi điều khiển (MCU) và chip nhớ (Flash). Trong tuần 1, để sản xuất một sản phẩm:\n• Mỗi chip MCU cần $2$ giờ và $500\\,000$ đồng chi phí nguyên liệu.\n• Mỗi chip Flash cần $3$ giờ và $400\\,000$ đồng chi phí nguyên liệu.\nTổng quỹ thời gian sản xuất trong tuần là $1\\,200$ giờ và tổng chi phí nguyên liệu là $244$ triệu đồng. Biết rằng nhà máy sử dụng hết cả quỹ thời gian và chi phí này.\nSang tuần 2, nhờ nâng cấp công nghệ, thời gian sản xuất mỗi chip MCU giảm $20\\%$ (còn $1{,}6$ giờ), mỗi chip Flash giảm $10\\%$ (còn $2{,}7$ giờ). Gọi $x, y$ lần lượt là số chip MCU và Flash được sản xuất trong tuần 1. Xét các khẳng định sau:",
+        "options": None,
+        "statements": [
+            {"key": "a", "text": "Nếu sản xuất $300$ chip MCU thì quỹ thời gian còn lại không đủ để sản xuất $200$ chip Flash."},
+            {"key": "b", "text": "Số lượng chip sản xuất trong tuần 1 là $x = 160$ và $y = 360$."},
+            {"key": "c", "text": "Nếu giữ nguyên sản lượng như tuần 1, thì tổng thời gian sản xuất trong tuần 2 là $1\\,008$ giờ."},
+            {"key": "d", "text": "Nếu muốn tăng sản lượng mỗi loại thêm $15\\%$ trong tuần 2 thì nhà máy không cần bổ sung thêm quỹ thời gian."}
+        ],
+        "answer": {"a": False, "b": False, "c": True, "d": True},
+        "explanation": "• Ý a (SAI): Thời gian sản xuất 300 chip MCU và 200 chip Flash là $300 \\times 2 + 200 \\times 3 = 600 + 600 = 1\\,200$ giờ, vừa bằng tổng quỹ thời gian nên vẫn đủ thực hiện.\n• Ý b (SAI): Thiết lập hệ phương trình theo tuần 1: thời gian $2x + 3y = 1200$, chi phí nguyên liệu $500\\,000x + 400\\,000y = 244\\,000\\,000 \\Leftrightarrow 5x + 4y = 2440$. Giải hệ:\nNhân pt (1) với 5, pt (2) với 2: $10x + 15y = 6000$ và $10x + 8y = 4880 \\Rightarrow 7y = 1120 \\Rightarrow y = 160$. Thay vào: $2x + 3(160) = 1200 \\Rightarrow 2x = 720 \\Rightarrow x = 360$. Vậy sản lượng tuần 1 là $x = 360$ (MCU) và $y = 160$ (Flash). Khẳng định ghi $x = 160, y = 360$ là sai.\n• Ý c (ĐÚNG): Tổng thời gian tuần 2 nếu giữ nguyên sản lượng là $1{,}6 \\times 360 + 2{,}7 \\times 160 = 576 + 432 = 1\\,008$ giờ.\n• Ý d (ĐÚNG): Nếu tăng sản lượng mỗi loại thêm $15\\%$, quỹ thời gian cần trong tuần 2 là $1\\,008 \\times 1{,}15 = 1\\,159{,}2$ giờ. Vì $1\\,159{,}2 \\le 1\\,200$ giờ nên nhà máy không cần bổ sung thêm quỹ thời gian.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 3 (đề bài: Phần II - Câu 3, đề bài lập hệ phương trình sản xuất chip 2 tuần và 4 khẳng định) và trang 9 (bảng đáp án Mã đề 101 Phần II: Câu 3 có a: S, b: S, c: Đ, d: Đ). Khớp hoàn toàn.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P004-Q004",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "III",
+        "questionNumber": 4,
+        "questionPages": [4],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Vị trí tương đối của hai đường tròn và tiếp tuyến",
+        "type": "SHORT_ANSWER",
+        "stem": "Cho hình vuông $ABCD$ có cạnh bằng $40$. Trong hình vuông vẽ cung tròn $BD$ tâm $A$ bán kính $AB$ và cung tròn $AC$ tâm $B$ bán kính $BA$. Gọi $(O; r)$ là đường tròn tiếp xúc với hai cung tròn $AC, BD$ lần lượt tại $P, Q$ và tiếp xúc với cạnh $AB$ tại $R$. Tính $PQ$.",
+        "options": None,
+        "statements": None,
+        "answer": {"raw": "24", "normalized": "24", "unit": None, "rounding": None},
+        "explanation": "Gọi $R$ là tiếp điểm của $(O; r)$ với $AB$. Do tính đối xứng của hình vuông và hai cung tròn, $R$ là trung điểm của cạnh $AB$, suy ra $AR = RB = \\frac{40}{2} = 20$, $OR \\perp AB$ và $OR = r$.\nVì $(O; r)$ tiếp xúc trong với cung tròn tâm $A$ bán kính $R_A = 40$ tại tiếp điểm $Q$, nên ba điểm $A, O, Q$ thẳng hàng và $AQ = 40 \\Rightarrow AO = AQ - OQ = 40 - r$.\nÁp dụng định lý Pythagore trong tam giác vuông $ARO$ (vuông tại $R$):\n$AO^2 = AR^2 + OR^2 \\Leftrightarrow (40 - r)^2 = 20^2 + r^2 \\Leftrightarrow 1600 - 80r + r^2 = 400 + r^2 \\Leftrightarrow 80r = 1200 \\Leftrightarrow r = 15$.\nKhi đó khoảng cách $OA = OB = 40 - 15 = 25$.\nVì $OP = OQ = r = 15$, tam giác $OPQ$ cân tại $O$ và đồng dạng với tam giác cân $OBA$ tại $O$ (có chung góc đỉnh tại $O$) theo tỉ số đồng dạng $k = \\frac{OP}{OB} = \\frac{15}{25} = \\frac{3}{5}$.\nTừ đó suy ra độ dài đoạn thẳng: $PQ = \\frac{3}{5} \\times AB = \\frac{3}{5} \\times 40 = 24$.",
+        "assets": ["assets/SRC009-P004-Q004.png"],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 4 (đề bài: Phần III - Câu 4, hình vuông cạnh 40 và đường tròn (O; r) tiếp xúc 2 cung tròn, tính PQ) và trang 9 (bảng đáp án Mã đề 101 Phần III: Câu 4 có đáp án là 24). Hình vẽ crop ở 300 DPI từ trang 4 (assets/SRC009-P004-Q004.png) bảo toàn đầy đủ các nhãn đỉnh A, B, C, D, P, Q, R và đoạn PQ màu đỏ.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P004-Q005",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "III",
+        "questionNumber": 5,
+        "questionPages": [4],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Bất phương trình bậc nhất một ẩn và bài toán tối ưu chi phí",
+        "type": "SHORT_ANSWER",
+        "stem": "Một lớp học tại Hải Phòng muốn thuê xe ô tô $29$ chỗ để đi chụp ảnh kỷ yếu. Sau khi tham khảo, lớp nhận được báo giá từ hai công ty vận tải như sau:\nCông ty A: Phí dịch vụ cố định là $1\\,200\\,000$ đồng (phí điều xe và bảo hiểm), tiền thuê xe tính theo quãng đường thực tế là $13\\,000$ đồng/km.\nCông ty B: Không thu phí dịch vụ cố định, tiền thuê xe tính theo quãng đường thực tế là $18\\,000$ đồng/km.\nGọi $x$ (km) là độ dài quãng đường di chuyển ($x > 0$). Tìm giá trị nguyên lớn nhất của $x$ để việc thuê xe của Công ty B có tổng chi phí thấp hơn Công ty A?",
+        "options": None,
+        "statements": None,
+        "answer": {"raw": "239", "normalized": "239", "unit": None, "rounding": None},
+        "explanation": "Tổng chi phí thuê xe của Công ty A theo quãng đường $x$ (km) là: $C_A(x) = 1\\,200\\,000 + 13\\,000x$ (đồng).\nTổng chi phí thuê xe của Công ty B theo quãng đường $x$ (km) là: $C_B(x) = 18\\,000x$ (đồng).\nĐể việc thuê xe của Công ty B có chi phí thấp hơn Công ty A, ta có bất phương trình:\n$C_B(x) < C_A(x) \\Leftrightarrow 18\\,000x < 1\\,200\\,000 + 13\\,000x \\Leftrightarrow 5\\,000x < 1\\,200\\,000 \\Leftrightarrow x < 240$.\nVì $x$ là số nguyên dương lớn nhất thoả mãn điều kiện $x < 240$, ta tìm được $x = 239$.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 4 (đề bài: Phần III - Câu 5, so sánh chi phí thuê xe của Công ty A và Công ty B, tìm giá trị nguyên lớn nhất của x) và trang 9 (bảng đáp án Mã đề 101 Phần III: Câu 5 có đáp án là 239). Khớp hoàn toàn.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    },
+    {
+        "id": "SRC009-P004-Q006",
+        "sourceId": "SRC009",
+        "examCode": "101",
+        "section": "III",
+        "questionNumber": 6,
+        "questionPages": [4],
+        "answerPages": [9],
+        "explanationPages": [],
+        "grade": 9,
+        "bookSeries": None,
+        "topic": "Xác suất của biến cố trong một số mô hình xác suất đơn giản",
+        "type": "SHORT_ANSWER",
+        "stem": "Trong một hộp có các thẻ bài giống nhau về hình dạng, mỗi thẻ được ghi một chữ cái của cụm từ HAIPHONG (mỗi chữ cái ứng với một thẻ, không phân biệt chữ trùng nhau và không tính dấu thanh). Một học sinh rút ngẫu nhiên cùng lúc $2$ thẻ từ hộp. Tính xác suất để trong $2$ thẻ rút ra có ít nhất một thẻ ghi chữ cái là nguyên âm (trong cụm từ này, nguyên âm là A, I, O). (Kết quả làm tròn đến hàng phần trăm).",
+        "options": None,
+        "statements": None,
+        "answer": {"raw": "0,64", "normalized": "0.64", "unit": None, "rounding": "Hàng phần trăm"},
+        "explanation": "Cụm từ \"HAIPHONG\" có 8 chữ cái (H, A, I, P, H, O, N, G), trong đó có 3 chữ cái nguyên âm (A, I, O) và 5 chữ cái phụ âm (H, P, H, N, G).\nSố cách rút ngẫu nhiên cùng lúc 2 thẻ từ hộp 8 thẻ là: $n(\\Omega) = C_8^2 = \\frac{8 \\times 7}{2} = 28$.\nGọi biến cố $E$: \"Trong 2 thẻ rút ra có ít nhất một thẻ ghi chữ cái nguyên âm\".\nKhi đó biến cố đối $\\overline{E}$: \"Cả 2 thẻ rút ra đều ghi chữ cái phụ âm\".\nSố cách chọn 2 thẻ phụ âm từ 5 thẻ phụ âm là: $n(\\overline{E}) = C_5^2 = \\frac{5 \\times 4}{2} = 10$.\nXác suất của biến cố đối là $P(\\overline{E}) = \\frac{10}{28} = \\frac{5}{14}$.\nDo đó xác suất của biến cố $E$ là: $P(E) = 1 - P(\\overline{E}) = 1 - \\frac{5}{14} = \\frac{9}{14} \\approx 0{,}642857...$\nLàm tròn kết quả đến hàng phần trăm theo yêu cầu đề bài ta được $0{,}64$.",
+        "assets": [],
+        "answerOrigin": "SOURCE_KEY",
+        "explanationOrigin": "MODEL_GENERATED",
+        "verificationNotes": "Đã đối chiếu trực quan với trang 4 (đề bài: Phần III - Câu 6, xác suất rút thẻ cụm từ HAIPHONG, yêu cầu làm tròn hàng phần trăm) và trang 9 (bảng đáp án Mã đề 101 Phần III: Câu 6 có đáp án là 0,64). Khớp hoàn toàn.",
+        "reviewStatus": "NEEDS_REVIEW",
+        "issues": []
+    }
+]
+
+# Write questions.jsonl
+with open(questions_path, 'w', encoding='utf-8') as f:
+    for q in questions:
+        f.write(json.dumps(q, ensure_ascii=False) + '\n')
+
+print(f"Successfully written {len(questions)} questions to {questions_path}")
+
+# Write review.csv with UTF-8 BOM
+fieldnames = [
+    "id",
+    "sourceId",
+    "examCode",
+    "section",
+    "questionNumber",
+    "type",
+    "topic",
+    "questionPages",
+    "answerPages",
+    "explanationPages",
+    "answer",
+    "assets",
+    "answerOrigin",
+    "explanationOrigin",
+    "reviewStatus",
+    "issues",
+    "verificationNotes"
+]
+
+with open(review_csv_path, 'w', encoding='utf-8-sig', newline='') as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    for q in questions:
+        row = {
+            "id": q["id"],
+            "sourceId": q["sourceId"],
+            "examCode": q["examCode"],
+            "section": q["section"],
+            "questionNumber": q["questionNumber"],
+            "type": q["type"],
+            "topic": q["topic"],
+            "questionPages": ",".join(map(str, q["questionPages"])),
+            "answerPages": ",".join(map(str, q["answerPages"])),
+            "explanationPages": ",".join(map(str, q["explanationPages"])),
+            "answer": json.dumps(q["answer"], ensure_ascii=False),
+            "assets": ",".join(q["assets"]),
+            "answerOrigin": q["answerOrigin"],
+            "explanationOrigin": q["explanationOrigin"],
+            "reviewStatus": q["reviewStatus"],
+            "issues": "; ".join(q["issues"]) if q["issues"] else "NONE",
+            "verificationNotes": q["verificationNotes"]
+        }
+        writer.writerow(row)
+
+print(f"Successfully written review CSV to {review_csv_path}")

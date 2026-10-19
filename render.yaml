@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: adaptivemath-api
+    repo: https://github.com/bGiaHuy/math
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm ci --include=dev && npm run prisma:generate && npm run build:api
+    startCommand: npm run start --workspace=@adaptivemath/api
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: WEB_URL
+        value: https://adaptivemath-blush.vercel.app
+      - key: DATABASE_URL
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: SESSION_COOKIE_NAME
+        value: __Host-am_math_session
+      - key: SESSION_TTL_SECONDS
+        value: "604800"
+      - key: INVITE_CODE_HMAC_SECRET
+        generateValue: true
+      - key: NODE_VERSION
+        value: "24"
+      - key: AI_ENABLED
+        value: "false"

@@ -1,0 +1,25 @@
+{
+  "candidates": 540,
+  "papers": 30,
+  "placeholderQuestions": 181,
+  "genericTrueFalse": 54,
+  "genericShortAnswers": 108,
+  "placeholderOptions": 19,
+  "placeholderFlaggedAsCrosschecked": 181,
+  "independentlySolved": 0,
+  "importFileBytes": 0,
+  "samples": [
+    {
+      "id": "GENUINE-10-THPT-10-CUOI_HK1-028-Q06",
+      "content": "Trong \nABC\n\n có \n=\n=\n=\n,\n,\nAB\nc AC\nb BC\na. Đẳng thức nào sau đây đúng?"
+    },
+    {
+      "id": "GENUINE-10-THPT-10-CUOI_HK1-028-Q13",
+      "content": "Xét tính đúng/sai của các khẳng định sau trong bài kiểm tra (Câu 1, Mã đề 1001):"
+    },
+    {
+      "id": "GENUINE-10-THPT-10-CUOI_HK1-028-Q14",
+      "content": "Xét tính đúng/sai của các khẳng định sau trong bài kiểm tra (Câu 2, Mã đề 1001):"
+    }
+  ]
+}

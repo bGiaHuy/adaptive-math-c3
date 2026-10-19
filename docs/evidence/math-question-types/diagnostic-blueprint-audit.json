@@ -1,0 +1,307 @@
+{
+  "blueprintVersion": "math9-comprehensive-v1",
+  "eligibleQuestions": 251,
+  "ready": false,
+  "shortages": [
+    {
+      "slot": 2,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Phương trình quy về bậc nhất",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 10,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Tứ giác nội tiếp, đa giác đều",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 11,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-STATISTICS",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Thống kê, tần số và tần số tương đối",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 13,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "SKILL-04",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Mô hình hóa bằng phương trình và hệ phương trình",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 14,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "SKILL-02",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Biến đổi căn thức",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 15,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "SKILL-08",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Quan hệ hình học đường tròn",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 16,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "MATH9-STATISTICS",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Đọc và phân tích dữ liệu",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 17,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "SKILL-06",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "topic": "Định lí Viète và ứng dụng",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 20,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "MATH9-SOLIDS",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "topic": "Diện tích, thể tích trong thực tiễn",
+      "required": 1,
+      "available": 0
+    },
+    {
+      "slot": 22,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "topic": "Hình học nội tiếp tổng hợp",
+      "required": 1,
+      "available": 0
+    }
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "SKILL-03",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Hệ phương trình bậc nhất hai ẩn",
+      "available": 3
+    },
+    {
+      "slot": 2,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Phương trình quy về bậc nhất",
+      "available": 0
+    },
+    {
+      "slot": 3,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Bất đẳng thức và bất phương trình",
+      "available": 4
+    },
+    {
+      "slot": 4,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "SKILL-01",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Căn bậc hai",
+      "available": 85
+    },
+    {
+      "slot": 5,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-CUBE-ROOTS",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Căn bậc ba",
+      "available": 2
+    },
+    {
+      "slot": 6,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-QUADRATIC-FUNCTIONS",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Hàm số y = ax² và đồ thị",
+      "available": 1
+    },
+    {
+      "slot": 7,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "SKILL-05",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Phương trình bậc hai",
+      "available": 33
+    },
+    {
+      "slot": 8,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "SKILL-07",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Tỉ số lượng giác và tam giác vuông",
+      "available": 16
+    },
+    {
+      "slot": 9,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "SKILL-08",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Đường tròn, góc, cung, tiếp tuyến",
+      "available": 9
+    },
+    {
+      "slot": 10,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Tứ giác nội tiếp, đa giác đều",
+      "available": 0
+    },
+    {
+      "slot": 11,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-STATISTICS",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "topic": "Thống kê, tần số và tần số tương đối",
+      "available": 0
+    },
+    {
+      "slot": 12,
+      "questionType": "SINGLE_CHOICE",
+      "skillCode": "MATH9-SOLIDS",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Hình trụ, hình nón, hình cầu",
+      "available": 1
+    },
+    {
+      "slot": 13,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "SKILL-04",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Mô hình hóa bằng phương trình và hệ phương trình",
+      "available": 0
+    },
+    {
+      "slot": 14,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "SKILL-02",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Biến đổi căn thức",
+      "available": 0
+    },
+    {
+      "slot": 15,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "SKILL-08",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Quan hệ hình học đường tròn",
+      "available": 0
+    },
+    {
+      "slot": 16,
+      "questionType": "TRUE_FALSE",
+      "skillCode": "MATH9-STATISTICS",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "topic": "Đọc và phân tích dữ liệu",
+      "available": 0
+    },
+    {
+      "slot": 17,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "SKILL-06",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "topic": "Định lí Viète và ứng dụng",
+      "available": 0
+    },
+    {
+      "slot": 18,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "topic": "Vận dụng bất phương trình",
+      "available": 2
+    },
+    {
+      "slot": 19,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "MATH9-PROBABILITY",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "topic": "Xác suất của biến cố",
+      "available": 1
+    },
+    {
+      "slot": 20,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "MATH9-SOLIDS",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "topic": "Diện tích, thể tích trong thực tiễn",
+      "available": 0
+    },
+    {
+      "slot": 21,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "SKILL-02",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "topic": "Căn thức tổng hợp và cực trị",
+      "available": 1
+    },
+    {
+      "slot": 22,
+      "questionType": "SHORT_ANSWER",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "topic": "Hình học nội tiếp tổng hợp",
+      "available": 0
+    }
+  ]
+}

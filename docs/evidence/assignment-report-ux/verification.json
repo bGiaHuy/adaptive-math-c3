@@ -1,0 +1,39 @@
+{
+  "checks": [
+    "19/31 below 5 = 61.3%; 10 rows per page",
+    "Pagination reset, status/time filters, unaccented search, student drilldown retains context",
+    "Overview question links open analytics; topics filter real questions; analysis paginated",
+    "Review makes no write; explicit acknowledgment; failure stays recoverable; publish only changes published flag",
+    "Mobile and tablet: no document overflow",
+    "Admin observation has no publish action",
+    "Empty report, missing score and invalid choice key block publication; immediate policy avoids redundant publish"
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "view": "analytics",
+      "violations": []
+    },
+    {
+      "view": "publish",
+      "violations": []
+    },
+    {
+      "view": "results",
+      "violations": []
+    }
+  ],
+  "fixture": {
+    "students": 35,
+    "submitted": 31,
+    "below5": 19
+  },
+  "writes": [
+    {
+      "published": true
+    },
+    {
+      "published": true
+    }
+  ]
+}

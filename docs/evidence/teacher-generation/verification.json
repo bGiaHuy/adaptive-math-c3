@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "AI appends a new question without removing the question currently being manually edited; manual draft remains editable",
+    "Replacement requires explicit confirmation; cancellation makes no request; failure keeps both original questions",
+    "Successful replacement yields 22 bank questions with one expanded preview"
+  ],
+  "errors": [],
+  "requests": [
+    "/api/v1/assignments/ai-preview",
+    "/api/v1/assignments/random-preview",
+    "/api/v1/assignments/random-preview"
+  ]
+}

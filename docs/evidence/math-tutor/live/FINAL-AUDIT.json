@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-14T15:20:26.849Z",
+  "site": "https://adaptivemath-blush.vercel.app",
+  "backend": "https://adaptivemath-api.onrender.com",
+  "health": "ok",
+  "qaRealAiRequests": 4,
+  "qaCompleted": 4,
+  "qaReservationsUsd": 0,
+  "qaRecordedCostUsd": 0.11908,
+  "activeQaAccounts": 0,
+  "qaGrade99Skills": 0,
+  "publishedQuestions": 0,
+  "referenceSkills": 8
+}

@@ -1,0 +1,35 @@
+{
+  "checks": [
+    "Authenticated catalog: 100 real PDFs per grade; unauthenticated request rejected",
+    "300 document endpoints return expected PDF size and MIME",
+    "PDF byte range and original page PNG work; invalid document/page return 404",
+    "66 source question excerpts and all image segments are accessible; 12 essays retain ESSAY type; none is used for automatic grading",
+    "Grade switching and accent-insensitive school search filter real documents",
+    "Source question type filtering, essays, full visible content, pagination and two-part graph question render correctly",
+    "Reader loads original page images, all page containers are present, back navigation and KNTT curriculum tab work"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "cards": 12
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "cards": 12
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "cards": 12
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "cards": 12
+    }
+  ],
+  "errors": [],
+  "accessibility": []
+}

@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "54 private teacher drafts, 18 per grade; legacy bank excluded; student cannot read answer bank; no fake publication or reviewer",
+    "Real assignment snapshots from SC/TF/SA drafts; student submission scored 10/10; regrade preview/apply preserved source bank and second assignment",
+    "Teacher library shows 18 questions per selected grade, original images load on desktop/mobile; composer selection creates a visible question preview"
+  ],
+  "errors": []
+}

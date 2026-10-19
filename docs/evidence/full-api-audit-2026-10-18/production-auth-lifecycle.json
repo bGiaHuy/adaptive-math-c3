@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-18T17:10:53.793Z",
+  "checks": [
+    {
+      "path": "/auth/register/teacher",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/auth/teacher-profile",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/auth/sessions",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/auth/sessions/8c32474e-80f3-4608-8256-218073c59afe/revoke",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/auth/me",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/auth/change-password",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/auth/me",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/auth/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 401
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/auth/logout-all",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/auth/me",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/auth/me",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/auth/register/student",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/student/onboarding",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/student/profile",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/auth/logout",
+      "method": "POST",
+      "status": 200
+    }
+  ],
+  "status": "PASS"
+}

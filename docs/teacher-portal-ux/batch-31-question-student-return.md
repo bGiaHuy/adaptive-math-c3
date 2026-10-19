@@ -1,0 +1,4 @@
+# Batch31 — Trở về phân tích câu sau khi xem bài học sinh
+P1 context loss: mở học sinh từ drawer câu đóng questionId, làm mất search/page/group khi cần đối chiếu nhiều học sinh. Giữ drawer mounted trong lúc học sinh mở, ẩn overlay đó; focus hook drawer tạm dừng và chỉ một dialog visible. Đóng bài học sinh quay lại câu hiện tại, query/group giữ nguyên. Không tạo nested modal có2trap cùng lúc, không đổi score hay API.
+Files TeacherWorkspace.jsx; verify-teacher-question-roster.mjs.
+Chrome fixture3viewport1440×900/820×1000/390×844: search Nguyễn Minh Đức→đúng bài→Escape→câu cũ vẫn giữ query; group reset có chủ đích; body overflow hidden trong bài, chỉ1visible dialog; no pageerror/overflow. Build đạt. Evidence teacher-question-roster/verification.json cập nhật. Không real writes. Chưa chứng minh screenreader native, goal vẫn active.

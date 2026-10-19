@@ -1,0 +1,6 @@
+# Batch23 — Thẻ thư viện hai cột trên tablet
+P1: grid bị ép1cột dưới1050 dù viewport820 có vùng nội dung~700px, làm10 cards kéo dài3815px trong ảnh đã xem ở đầu batch. Bổ sung grid2cột tại760–1050, padding/gap hợp lý, action targets>=44px. Điện thoại vẫn1cột và list mode giữ nguyên.
+P1 visual: brand text ở sidebar tablet đè breadcrumb vì display:flex inline thắng rule display:none. Scope rule tablet tăng priority cho phần chữ, căn biểu tượng trong rail.
+Files TeacherLibrary.css, teacher-app-shell.css. Build đạt. verify-teacher-library-density3viewport đạt (defaults/paging/search/report-back/8of8), không overflow/pageerror. After tablet820×1000 pageheight2049px; desktop2214/mobile2584px. Ảnh fullpage đã xem ở tablet; text/actions trong card còn đọc được. Evidence teacher-library-density/library-tablet.png và verification.json.
+Ảnh đầu batch3815 đã bị script ghi đè khi rerun; không tuyên bố còn artifact cặp3815→2049 có thể kiểm tra độc lập. Audit accessibility-current có baseline sớm hơn với bố cục trước nhưng không cùng exactrevision; ghi rõ giới hạn. Cần lưu baseline bất biến ở những lần sau.
+Goal active; tiếp tục final review và đủ bằng chứng theo requirement, không thay rule/quyền hay dữ liệu backend.

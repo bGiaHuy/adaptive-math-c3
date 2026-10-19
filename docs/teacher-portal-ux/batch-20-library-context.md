@@ -1,0 +1,5 @@
+# Batch20 — Phân trang thư viện đồng bộ với màn cha
+P1 regression được tìm bằng kiểm tra đầy đủ: TeacherLibrary có5/trang nhưng parent listPage vẫn clamp theo10/trang. 36 bài chỉ tới trang4 dù pager báo8. PageSize local cũng reset khi unmount để mở report, khiến quay lại sai vị trí.
+Lift pageSize lên TeacherWorkspace và truyền controlled props; parent clamp cùng pageSize, chọn size reset page có chủ đích. Không thay dữ liệu, quyền hoặc số bài tồn tại. TeacherLibrary/TeacherWorkspace; mở rộng verify-teacher-library-density.
+Browser3 viewport kiểm tra defaults,size20,search,paper/back giữ size20. Riêng mobile đi hết8 trang ở5/trang, trang8 có1 bài, mở report/back giữ trang8. Không pageerror. Regression report navigation, delayed responses3 viewport, settings/CSV/delete chạy lại exit0. Build đạt. Evidence teacher-library-density/verification.json (không dùng bản kiểm tra chỉ page2 để chứng minh toàn bộ pagination nữa).
+Không đổi ảnh before/after vì fix interaction, layout giống batch19. Goal active; cập nhật các kiểm thử cũ theo markup mới và đánh giá coverage còn lại trước khi kết luận.

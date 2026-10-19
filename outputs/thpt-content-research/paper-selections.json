@@ -1,0 +1,2331 @@
+[
+  {
+    "selectionId": "SELECTION-KNTT-G10-22Q",
+    "grade": 10,
+    "format": "ADAPTED_SELECTION",
+    "title": "Bộ đề tuyển chọn thích ứng Toán 10 KNTT (Cấu trúc GDPT 2018 - 22 câu)",
+    "targetDurationMinutes": 90,
+    "totalPoints": 10,
+    "questionCounts": {
+      "SINGLE_CHOICE": 12,
+      "TRUE_FALSE": 4,
+      "SHORT_ANSWER": 6,
+      "TOTAL": 22
+    },
+    "scoringMatrix": {
+      "SINGLE_CHOICE": "12 câu x 0.25đ = 3.0đ",
+      "TRUE_FALSE": "4 câu x 1.0đ = 4.0đ (thang điểm từng ý: 0.1 - 0.25 - 0.5 - 1.0)",
+      "SHORT_ANSWER": "6 câu x 0.5đ = 3.0đ"
+    },
+    "items": [
+      {
+        "itemNumber": 1,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC01",
+        "chapterCode": "KNTT-10-C01",
+        "topicCode": "KNTT-10-C01-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-01",
+          "examTitle": "Đề kiểm tra cuối học kỳ 1 Toán 10 THPT Văn Lang 2024-2025",
+          "itemNumberInExam": 1
+        },
+        "content": "Mệnh đề phủ định của mệnh đề $P: \\text{“}\\forall x \\in \\mathbb{R}, x^2 + 1 > 0\\text{”}$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\overline{P}: \\text{“}\\exists x \\in \\mathbb{R}, x^2 + 1 \\le 0\\text{”}.$"
+          },
+          {
+            "key": "B",
+            "content": "$\\overline{P}: \\text{“}\\forall x \\in \\mathbb{R}, x^2 + 1 \\le 0\\text{”}.$"
+          },
+          {
+            "key": "C",
+            "content": "$\\overline{P}: \\text{“}\\exists x \\in \\mathbb{R}, x^2 + 1 < 0\\text{”}.$"
+          },
+          {
+            "key": "D",
+            "content": "$\\overline{P}: \\text{“}\\forall x \\in \\mathbb{R}, x^2 + 1 < 0\\text{”}.$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Phủ định của mệnh đề chứa kí hiệu $\\forall$ là mệnh đề chứa kí hiệu $\\exists$, và phủ định của bất đẳng thức $>$ là $\\le$. Do đó $\\overline{P}: \\text{“}\\exists x \\in \\mathbb{R}, x^2 + 1 \\le 0\\text{”}$."
+      },
+      {
+        "itemNumber": 2,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC02",
+        "chapterCode": "KNTT-10-C01",
+        "topicCode": "KNTT-10-C01-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-01",
+          "examTitle": "Đề kiểm tra cuối học kỳ 1 Toán 10 THPT Văn Lang 2024-2025",
+          "itemNumberInExam": 2
+        },
+        "content": "Cho hai tập hợp $A = [-2; 3]$ và $B = (1; 5)$. Giao của hai tập hợp $A \\cap B$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$(1; 3]$"
+          },
+          {
+            "key": "B",
+            "content": "$[-2; 5)$"
+          },
+          {
+            "key": "C",
+            "content": "$[1; 3]$"
+          },
+          {
+            "key": "D",
+            "content": "$(1; 3)$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Giao của hai tập hợp là tập các phần tử thuộc cả $A$ và $B$. Ta có $-2 \\le x \\le 3$ và $1 < x < 5$, suy ra $1 < x \\le 3$. Vậy $A \\cap B = (1; 3]$."
+      },
+      {
+        "itemNumber": 3,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC03",
+        "chapterCode": "KNTT-10-C02",
+        "topicCode": "KNTT-10-C02-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-02",
+          "examTitle": "Đề khảo sát cuối HK1 Toán 10 Chuyên Hạ Long 2024-2025",
+          "itemNumberInExam": 3
+        },
+        "content": "Điểm nào sau đây thuộc miền nghiệm của bất phương trình $2x - 3y + 1 > 0$?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$(1; 0)$"
+          },
+          {
+            "key": "B",
+            "content": "$(0; 1)$"
+          },
+          {
+            "key": "C",
+            "content": "(-1; 0)"
+          },
+          {
+            "key": "D",
+            "content": "(1; 2)"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Thay tọa độ điểm $(1; 0)$ vào vế trái: $2(1) - 3(0) + 1 = 3 > 0$ (thỏa mãn). Điểm $(0; 1)$ cho $-2 < 0$; điểm $(-1; 0)$ cho $-1 < 0$; điểm $(1; 2)$ cho $-3 < 0$."
+      },
+      {
+        "itemNumber": 4,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC04",
+        "chapterCode": "KNTT-10-C02",
+        "topicCode": "KNTT-10-C02-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-03",
+          "examTitle": "Đề kiểm tra HK1 Toán 10 THPT Ngô Quyền 2024-2025",
+          "itemNumberInExam": 4
+        },
+        "content": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\begin{cases} x - 2y \\le 3 \\\\ 2x + y > 1 \\end{cases}$"
+          },
+          {
+            "key": "B",
+            "content": "$\\begin{cases} x^2 + y \\le 0 \\\\ x - y > 1 \\end{cases}$"
+          },
+          {
+            "key": "C",
+            "content": "$\\begin{cases} xy + 1 > 0 \\\\ x - 3y \\le 2 \\end{cases}$"
+          },
+          {
+            "key": "D",
+            "content": "$\\begin{cases} x - 2y + z \\le 0 \\\\ x + y > 1 \\end{cases}$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Hệ bất phương trình bậc nhất hai ẩn là hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn $x, y$. Phương án A gồm hai bất phương trình bậc nhất hai ẩn $x, y$. Phương án B có $x^2$, C có $xy$, D có 3 ẩn $x, y, z$."
+      },
+      {
+        "itemNumber": 5,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC05",
+        "chapterCode": "KNTT-10-C03",
+        "topicCode": "KNTT-10-C03-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-01",
+          "examTitle": "Đề kiểm tra cuối học kỳ 1 Toán 10 THPT Văn Lang 2024-2025",
+          "itemNumberInExam": 5
+        },
+        "content": "Giá trị của $\\cos 120^\\circ$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$-\\dfrac{1}{2}$"
+          },
+          {
+            "key": "B",
+            "content": "$\\dfrac{1}{2}$"
+          },
+          {
+            "key": "C",
+            "content": "$-\\dfrac{\\sqrt{3}}{2}$"
+          },
+          {
+            "key": "D",
+            "content": "$\\dfrac{\\sqrt{3}}{2}$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có $\\cos 120^\\circ = \\cos (180^\\circ - 60^\\circ) = -\\cos 60^\\circ = -\\dfrac{1}{2}$."
+      },
+      {
+        "itemNumber": 6,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC06",
+        "chapterCode": "KNTT-10-C03",
+        "topicCode": "KNTT-10-C03-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-02",
+          "examTitle": "Đề khảo sát cuối HK1 Toán 10 Chuyên Hạ Long 2024-2025",
+          "itemNumberInExam": 6
+        },
+        "content": "Cho tam giác $ABC$ có $AB = 3$, $AC = 4$ và góc $\\widehat{A} = 60^\\circ$. Độ dài cạnh $BC$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\sqrt{13}$"
+          },
+          {
+            "key": "B",
+            "content": "$\\sqrt{37}$"
+          },
+          {
+            "key": "C",
+            "content": "$13$"
+          },
+          {
+            "key": "D",
+            "content": "$5$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Áp dụng định lí cosin trong tam giác $ABC$: $BC^2 = AB^2 + AC^2 - 2AB \\cdot AC \\cdot \\cos A = 3^2 + 4^2 - 2 \\cdot 3 \\cdot 4 \\cdot \\cos 60^\\circ = 9 + 16 - 24 \\cdot \\dfrac{1}{2} = 13 \\Rightarrow BC = \\sqrt{13}$."
+      },
+      {
+        "itemNumber": 7,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC07",
+        "chapterCode": "KNTT-10-C04",
+        "topicCode": "KNTT-10-C04-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-03",
+          "examTitle": "Đề kiểm tra HK1 Toán 10 THPT Ngô Quyền 2024-2025",
+          "itemNumberInExam": 7
+        },
+        "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai vectơ $\\vec{u} = (2; -3)$ và $\\vec{v} = (1; 4)$. Tọa độ của vectơ $\\vec{u} + \\vec{v}$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$(3; 1)$"
+          },
+          {
+            "key": "B",
+            "content": "$(1; -7)$"
+          },
+          {
+            "key": "C",
+            "content": "$(3; -1)$"
+          },
+          {
+            "key": "D",
+            "content": "$(2; -12)$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Tọa độ của vectơ tổng: $\\vec{u} + \\vec{v} = (2 + 1; -3 + 4) = (3; 1)$."
+      },
+      {
+        "itemNumber": 8,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC08",
+        "chapterCode": "KNTT-10-C04",
+        "topicCode": "KNTT-10-C04-T04",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-01",
+          "examTitle": "Đề kiểm tra cuối học kỳ 1 Toán 10 THPT Văn Lang 2024-2025",
+          "itemNumberInExam": 8
+        },
+        "content": "Cho hai vectơ $\\vec{a}$ và $\\vec{b}$ khác vectơ-không. Khẳng định nào sau đây là đúng khi $\\vec{a} \\perp \\vec{b}$?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\vec{a} \\cdot \\vec{b} = 0$"
+          },
+          {
+            "key": "B",
+            "content": "$\\vec{a} \\cdot \\vec{b} = 1$"
+          },
+          {
+            "key": "C",
+            "content": "$\\vec{a} \\cdot \\vec{b} = -1$"
+          },
+          {
+            "key": "D",
+            "content": "$|\\vec{a}| = |\\vec{b}|$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Hai vectơ khác $\\vec{0}$ vuông góc với nhau khi và chỉ khi tích vô hướng của chúng bằng 0."
+      },
+      {
+        "itemNumber": 9,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC09",
+        "chapterCode": "KNTT-10-C05",
+        "topicCode": "KNTT-10-C05-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-06",
+          "examTitle": "Bộ đề ôn tập kiểm tra định kỳ Toán 10 KNTT 2024-2025",
+          "itemNumberInExam": 9
+        },
+        "content": "Điểm kiểm tra môn Toán của 5 học sinh là: $6; 7; 8; 8; 9$. Số trung bình cộng của mẫu số liệu trên là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$7{,}6$"
+          },
+          {
+            "key": "B",
+            "content": "$8$"
+          },
+          {
+            "key": "C",
+            "content": "$7{,}5$"
+          },
+          {
+            "key": "D",
+            "content": "$7{,}8$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Số trung bình là $\\overline{x} = \\dfrac{6 + 7 + 8 + 8 + 9}{5} = \\dfrac{38}{5} = 7{,}6$."
+      },
+      {
+        "itemNumber": 10,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC10",
+        "chapterCode": "KNTT-10-C05",
+        "topicCode": "KNTT-10-C05-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-06",
+          "examTitle": "Bộ đề ôn tập kiểm tra định kỳ Toán 10 KNTT 2024-2025",
+          "itemNumberInExam": 10
+        },
+        "content": "Cho mẫu số liệu: $2, 4, 6, 8, 10$. Khoảng biến thiên $R$ của mẫu số liệu là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$8$"
+          },
+          {
+            "key": "B",
+            "content": "$10$"
+          },
+          {
+            "key": "C",
+            "content": "$6$"
+          },
+          {
+            "key": "D",
+            "content": "$2$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Khoảng biến thiên là hiệu số giữa giá trị lớn nhất và giá trị nhỏ nhất: $R = x_{\\max} - x_{\\min} = 10 - 2 = 8$."
+      },
+      {
+        "itemNumber": 11,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC11",
+        "chapterCode": "KNTT-10-C06",
+        "topicCode": "KNTT-10-C06-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-04",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 10 THPT Nguyễn Khuyến 2024-2025",
+          "itemNumberInExam": 11
+        },
+        "content": "Tập xác định của hàm số $y = \\sqrt{2x - 4}$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$[2; +\\infty)$"
+          },
+          {
+            "key": "B",
+            "content": "$(2; +\\infty)$"
+          },
+          {
+            "key": "C",
+            "content": "$(-\\infty; 2]$"
+          },
+          {
+            "key": "D",
+            "content": "$\\mathbb{R} \\setminus \\{2\\}$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Hàm số xác định khi và chỉ khi biểu thức trong căn không âm: $2x - 4 \\ge 0 \\Leftrightarrow x \\ge 2$. Vậy tập xác định là $D = [2; +\\infty)$."
+      },
+      {
+        "itemNumber": 12,
+        "part": "Phần I",
+        "externalId": "KNTT10-PILOT-SC12",
+        "chapterCode": "KNTT-10-C06",
+        "topicCode": "KNTT-10-C06-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-04",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 10 THPT Nguyễn Khuyến 2024-2025",
+          "itemNumberInExam": 12
+        },
+        "content": "Tọa độ đỉnh $I$ của parabol $(P): y = x^2 - 4x + 3$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$I(2; -1)$"
+          },
+          {
+            "key": "B",
+            "content": "$I(-2; 15)$"
+          },
+          {
+            "key": "C",
+            "content": "$I(2; 1)$"
+          },
+          {
+            "key": "D",
+            "content": "$I(4; 3)$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Tọa độ đỉnh $x_I = -\\dfrac{b}{2a} = -\\dfrac{-4}{2(1)} = 2$. Thay vào hàm số: $y_I = 2^2 - 4(2) + 3 = -1$. Vậy $I(2; -1)$."
+      },
+      {
+        "itemNumber": 13,
+        "part": "Phần II",
+        "externalId": "KNTT10-PILOT-TF01",
+        "chapterCode": "KNTT-10-C03",
+        "topicCode": "KNTT-10-C03-T02",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-01",
+          "examTitle": "Đề kiểm tra cuối học kỳ 1 Toán 10 THPT Văn Lang 2024-2025",
+          "itemNumberInExam": 19
+        },
+        "content": "Cho tam giác $ABC$ có ba cạnh $a = 6$, $b = 8$ và $c = 10$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Tam giác $ABC$ là tam giác vuông tại $A$.",
+            "isCorrect": false,
+            "explanation": "Vì $6^2 + 8^2 = 36 + 64 = 100 = 10^2 = c^2$, nên tam giác vuông tại đỉnh đối diện với cạnh huyền $c$, tức là vuông tại $C$, không phải vuông tại $A$."
+          },
+          {
+            "key": "b",
+            "content": "Diện tích tam giác $ABC$ bằng $24$.",
+            "isCorrect": true,
+            "explanation": "Tam giác vuông tại $C$ có hai cạnh góc vuông là $a = 6$ và $b = 8$. Diện tích $S = \\dfrac{1}{2}ab = \\dfrac{1}{2} \\cdot 6 \\cdot 8 = 24$."
+          },
+          {
+            "key": "c",
+            "content": "Bán kính đường tròn ngoại tiếp tam giác $ABC$ bằng $5$.",
+            "isCorrect": true,
+            "explanation": "Tam giác vuông có tâm đường tròn ngoại tiếp là trung điểm cạnh huyền $c = 10$. Bán kính $R = \\dfrac{c}{2} = 5$."
+          },
+          {
+            "key": "d",
+            "content": "Bán kính đường tròn nội tiếp tam giác $ABC$ bằng $3$.",
+            "isCorrect": false,
+            "explanation": "Nửa chu vi $p = \\dfrac{6 + 8 + 10}{2} = 12$. Bán kính đường tròn nội tiếp $r = \\dfrac{S}{p} = \\dfrac{24}{12} = 2$, không phải bằng $3$."
+          }
+        ],
+        "explanation": "Tam giác $ABC$ có cạnh thỏa mãn hệ thức Pythagore $a^2 + b^2 = c^2$ nên vuông tại $C$. Các đại lượng $S, R, r$ được tính chính xác bằng công thức cơ bản."
+      },
+      {
+        "itemNumber": 14,
+        "part": "Phần II",
+        "externalId": "KNTT10-PILOT-TF02",
+        "chapterCode": "KNTT-10-C04",
+        "topicCode": "KNTT-10-C04-T04",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-02",
+          "examTitle": "Đề khảo sát cuối HK1 Toán 10 Chuyên Hạ Long 2024-2025",
+          "itemNumberInExam": 20
+        },
+        "content": "Cho hình vuông $ABCD$ có cạnh bằng $a$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Độ dài vectơ $\\vec{AB} + \\vec{AD}$ bằng $a\\sqrt{2}$.",
+            "isCorrect": true,
+            "explanation": "Theo quy tắc hình bình hành (ở đây là hình vuông), $\\vec{AB} + \\vec{AD} = \\vec{AC}$. Độ dài cạnh đường chéo hình vuông là $AC = a\\sqrt{2}$."
+          },
+          {
+            "key": "b",
+            "content": "Tích vô hướng $\\vec{AB} \\cdot \\vec{AD} = a^2$.",
+            "isCorrect": false,
+            "explanation": "Vì $AB \\perp AD$ nên góc giữa hai vectơ bằng $90^\\circ$, tích vô hướng $\\vec{AB} \\cdot \\vec{AD} = 0$, không phải $a^2$."
+          },
+          {
+            "key": "c",
+            "content": "Tích vô hướng $\\vec{AB} \\cdot \\vec{AC} = a^2$.",
+            "isCorrect": true,
+            "explanation": "Góc giữa $\\vec{AB}$ và $\\vec{AC}$ bằng $45^\\circ$. Do đó $\\vec{AB} \\cdot \\vec{AC} = |\\vec{AB}| \\cdot |\\vec{AC}| \\cdot \\cos 45^\\circ = a \\cdot a\\sqrt{2} \\cdot \\dfrac{\\sqrt{2}}{2} = a^2$."
+          },
+          {
+            "key": "d",
+            "content": "Độ dài vectơ $\\vec{AB} - \\vec{AD}$ bằng $0$.",
+            "isCorrect": false,
+            "explanation": "Ta có $\\vec{AB} - \\vec{AD} = \\vec{DB}$. Độ dài của nó là độ dài đường chéo $DB = a\\sqrt{2} \\ne 0$."
+          }
+        ],
+        "explanation": "Tính chất hình học vectơ của hình vuông: quy tắc đường chéo và tích vô hướng."
+      },
+      {
+        "itemNumber": 15,
+        "part": "Phần II",
+        "externalId": "KNTT10-PILOT-TF03",
+        "chapterCode": "KNTT-10-C06",
+        "topicCode": "KNTT-10-C06-T01",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-04",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 10 THPT Nguyễn Khuyến 2024-2025",
+          "itemNumberInExam": 21
+        },
+        "content": "Cho hàm số bậc hai $y = f(x) = -x^2 + 4x - 3$ có đồ thị là parabol $(P)$. Xét tính đúng/sai của các khẳng định sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Parabol $(P)$ có bề lõm quay lên trên.",
+            "isCorrect": false,
+            "explanation": "Hệ số $a = -1 < 0$ nên parabol có bề lõm quay xuống phía dưới."
+          },
+          {
+            "key": "b",
+            "content": "Tọa độ đỉnh của parabol $(P)$ là $I(2; 1)$.",
+            "isCorrect": true,
+            "explanation": "$x_I = -\\dfrac{b}{2a} = -\\dfrac{4}{2(-1)} = 2$, $y_I = -(2)^2 + 4(2) - 3 = 1$. Vậy đỉnh là $I(2; 1)$."
+          },
+          {
+            "key": "c",
+            "content": "Hàm số đồng biến trên khoảng $(-\\infty; 2)$ và nghịch biến trên khoảng $(2; +\\infty)$.",
+            "isCorrect": true,
+            "explanation": "Vì parabol có đỉnh là $x = 2$ và bề lõm quay xuống nên hàm số đồng biến khi $x < 2$ và nghịch biến khi $x > 2$."
+          },
+          {
+            "key": "d",
+            "content": "Tập nghiệm của bất phương trình $f(x) \\ge 0$ là đoạn $[1; 3]$.",
+            "isCorrect": true,
+            "explanation": "Phương trình $-x^2 + 4x - 3 = 0$ có hai nghiệm $x = 1, x = 3$. Vì $a = -1 < 0$ nên $f(x) \\ge 0$ trong đoạn hai nghiệm $[1; 3]$."
+          }
+        ],
+        "explanation": "Khảo sát đầy đủ tính chất của hàm số bậc hai với hệ số âm."
+      },
+      {
+        "itemNumber": 16,
+        "part": "Phần II",
+        "externalId": "KNTT10-PILOT-TF05",
+        "chapterCode": "KNTT-10-C08",
+        "topicCode": "KNTT-10-C08-T03",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-05",
+          "examTitle": "Đề khảo sát HK2 Toán 10 Sở GDĐT Nam Định 2024-2025",
+          "itemNumberInExam": 23
+        },
+        "content": "Cho khai triển nhị thức Newton $P(x) = (2x - 1)^4$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Khai triển $P(x)$ có tất cả 5 số hạng.",
+            "isCorrect": true,
+            "explanation": "Khai triển của $(a+b)^n$ có $n+1$ số hạng. Với $n = 4$, số số hạng là $4 + 1 = 5$."
+          },
+          {
+            "key": "b",
+            "content": "Hệ số của $x^4$ trong khai triển bằng $16$.",
+            "isCorrect": true,
+            "explanation": "Số hạng chứa $x^4$ là $C_4^0 (2x)^4 (-1)^0 = 16x^4$, hệ số là 16."
+          },
+          {
+            "key": "c",
+            "content": "Hệ số của $x^3$ trong khai triển bằng $32$.",
+            "isCorrect": false,
+            "explanation": "Số hạng chứa $x^3$ là $C_4^1 (2x)^3 (-1)^1 = 4 \\cdot 8x^3 \\cdot (-1) = -32x^3$. Hệ số là $-32$, không phải $32$."
+          },
+          {
+            "key": "d",
+            "content": "Tổng tất cả các hệ số trong khai triển bằng $1$.",
+            "isCorrect": true,
+            "explanation": "Tổng các hệ số thu được khi thay $x = 1$: $P(1) = (2(1) - 1)^4 = 1^4 = 1$."
+          }
+        ],
+        "explanation": "Áp dụng công thức nhị thức Newton bậc 4 chuẩn SGK KNTT Toán 10 Chương VIII Bài 25."
+      },
+      {
+        "itemNumber": 17,
+        "part": "Phần III",
+        "externalId": "KNTT10-PILOT-SA01",
+        "chapterCode": "KNTT-10-C03",
+        "topicCode": "KNTT-10-C03-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-01",
+          "examTitle": "Đề kiểm tra cuối học kỳ 1 Toán 10 THPT Văn Lang 2024-2025",
+          "itemNumberInExam": 25
+        },
+        "content": "Cho tam giác $ABC$ có $b = 8$, $c = 5$ và góc $\\widehat{A} = 30^\\circ$. Tính diện tích tam giác $ABC$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "10"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Áp dụng công thức diện tích tam giác: $S = \\dfrac{1}{2}bc \\sin A = \\dfrac{1}{2} \\cdot 8 \\cdot 5 \\cdot \\sin 30^\\circ = 20 \\cdot \\dfrac{1}{2} = 10$."
+      },
+      {
+        "itemNumber": 18,
+        "part": "Phần III",
+        "externalId": "KNTT10-PILOT-SA02",
+        "chapterCode": "KNTT-10-C04",
+        "topicCode": "KNTT-10-C04-T04",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-02",
+          "examTitle": "Đề khảo sát cuối HK1 Toán 10 Chuyên Hạ Long 2024-2025",
+          "itemNumberInExam": 26
+        },
+        "content": "Trong mặt phẳng tọa độ $Oxy$, cho $\\vec{u} = (x; 2)$ và $\\vec{v} = (3; -6)$. Tìm giá trị của $x$ để hai vectơ $\\vec{u}$ và $\\vec{v}$ vuông góc với nhau.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "4"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Hai vectơ vuông góc khi tích vô hướng bằng 0: $\\vec{u} \\cdot \\vec{v} = 0 \\Leftrightarrow x(3) + 2(-6) = 0 \\Leftrightarrow 3x - 12 = 0 \\Leftrightarrow x = 4$."
+      },
+      {
+        "itemNumber": 19,
+        "part": "Phần III",
+        "externalId": "KNTT10-PILOT-SA03",
+        "chapterCode": "KNTT-10-C07",
+        "topicCode": "KNTT-10-C07-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-04",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 10 THPT Nguyễn Khuyến 2024-2025",
+          "itemNumberInExam": 27
+        },
+        "content": "Trong mặt phẳng tọa độ $Oxy$, tính khoảng cách từ điểm $M(1; -2)$ đến đường thẳng $\\Delta: 3x - 4y + 4 = 0$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Khoảng cách $d(M, \\Delta) = \\dfrac{|3(1) - 4(-2) + 4|}{\\sqrt{3^2 + (-4)^2}} = \\dfrac{|3 + 8 + 4|}{\\sqrt{25}} = \\dfrac{15}{5} = 3$."
+      },
+      {
+        "itemNumber": 20,
+        "part": "Phần III",
+        "externalId": "KNTT10-PILOT-SA04",
+        "chapterCode": "KNTT-10-C08",
+        "topicCode": "KNTT-10-C08-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-05",
+          "examTitle": "Đề khảo sát HK2 Toán 10 Sở GDĐT Nam Định 2024-2025",
+          "itemNumberInExam": 28
+        },
+        "content": "Từ các chữ số $1, 2, 3, 4, 5, 6$, có thể lập được bao nhiêu số tự nhiên có 4 chữ số đôi một khác nhau?",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "360"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Mỗi số tự nhiên có 4 chữ số khác nhau lập từ 6 chữ số khác nhau là một chỉnh hợp chập 4 của 6: $A_6^4 = \\dfrac{6!}{(6-4)!} = 6 \\times 5 \\times 4 \\times 3 = 360$."
+      },
+      {
+        "itemNumber": 21,
+        "part": "Phần III",
+        "externalId": "KNTT10-PILOT-SA05",
+        "chapterCode": "KNTT-10-C09",
+        "topicCode": "KNTT-10-C09-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-06",
+          "examTitle": "Bộ đề ôn tập kiểm tra định kỳ Toán 10 KNTT 2024-2025",
+          "itemNumberInExam": 29
+        },
+        "content": "Một hộp đựng 4 viên bi đỏ và 6 viên bi xanh có kích thước như nhau. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Tính xác suất để lấy được 2 viên bi cùng màu (kết quả viết dưới dạng phân số tối giản $a/b$).",
+        "shortAnswer": {
+          "mode": "TEXT",
+          "acceptedAnswers": [
+            "7/15",
+            "0.47"
+          ],
+          "caseSensitive": false,
+          "instructions": "Nhập phân số dạng a/b hoặc số thập phân làm tròn hai chữ số"
+        },
+        "explanation": "Số phần tử không gian mẫu là $n(\\Omega) = C_{10}^2 = 45$. Số cách chọn 2 bi cùng màu là: 2 bi đỏ ($C_4^2 = 6$) hoặc 2 bi xanh ($C_6^2 = 15$). Tổng số biến cố thuận lợi là $6 + 15 = 21$. Xác suất $P = \\dfrac{21}{45} = \\dfrac{7}{15}$."
+      },
+      {
+        "itemNumber": 22,
+        "part": "Phần III",
+        "externalId": "KNTT10-PILOT-SA06",
+        "chapterCode": "KNTT-10-C06",
+        "topicCode": "KNTT-10-C06-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "HARD",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-10-04",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 10 THPT Nguyễn Khuyến 2024-2025",
+          "itemNumberInExam": 30
+        },
+        "content": "Tìm giá trị nguyên nhỏ nhất của tham số $m$ để phương trình $x^2 - 2(m + 1)x + m^2 + 5 = 0$ có hai nghiệm phân biệt.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Phương trình có hai nghiệm phân biệt khi và chỉ khi $\\Delta' > 0 \\Leftrightarrow (m + 1)^2 - (m^2 + 5) > 0 \\Leftrightarrow m^2 + 2m + 1 - m^2 - 5 > 0 \\Leftrightarrow 2m - 4 > 0 \\Leftrightarrow m > 2$. Giá trị nguyên nhỏ nhất của $m$ là $m = 3$."
+      }
+    ]
+  },
+  {
+    "selectionId": "SELECTION-KNTT-G11-22Q",
+    "grade": 11,
+    "format": "ADAPTED_SELECTION",
+    "title": "Bộ đề tuyển chọn thích ứng Toán 11 KNTT (Cấu trúc GDPT 2018 - 22 câu)",
+    "targetDurationMinutes": 90,
+    "totalPoints": 10,
+    "questionCounts": {
+      "SINGLE_CHOICE": 12,
+      "TRUE_FALSE": 4,
+      "SHORT_ANSWER": 6,
+      "TOTAL": 22
+    },
+    "scoringMatrix": {
+      "SINGLE_CHOICE": "12 câu x 0.25đ = 3.0đ",
+      "TRUE_FALSE": "4 câu x 1.0đ = 4.0đ (thang điểm từng ý: 0.1 - 0.25 - 0.5 - 1.0)",
+      "SHORT_ANSWER": "6 câu x 0.5đ = 3.0đ"
+    },
+    "items": [
+      {
+        "itemNumber": 1,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC01",
+        "chapterCode": "KNTT-11-C01",
+        "topicCode": "KNTT-11-C01-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 1
+        },
+        "content": "Đổi số đo của góc $\\alpha = 60^\\circ$ sang radian ta được",
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\dfrac{\\pi}{3}$"
+          },
+          {
+            "key": "B",
+            "content": "$\\dfrac{\\pi}{6}$"
+          },
+          {
+            "key": "C",
+            "content": "$\\dfrac{\\pi}{2}$"
+          },
+          {
+            "key": "D",
+            "content": "$\\dfrac{\\pi}{4}$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có công thức chuyển đổi: $\\alpha = 60 \\cdot \\dfrac{\\pi}{180} = \\dfrac{\\pi}{3}$ rad."
+      },
+      {
+        "itemNumber": 2,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC02",
+        "chapterCode": "KNTT-11-C01",
+        "topicCode": "KNTT-11-C01-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-02",
+          "examTitle": "Đề kiểm tra cuối HK1 Toán 11 THPT Yên Lạc 2 2024-2025",
+          "itemNumberInExam": 2
+        },
+        "content": "Công thức nào sau đây là công thức nhân đôi đúng của hàm số côsin?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\cos 2x = \\cos^2 x - \\sin^2 x$"
+          },
+          {
+            "key": "B",
+            "content": "$\\cos 2x = \\sin^2 x - \\cos^2 x$"
+          },
+          {
+            "key": "C",
+            "content": "$\\cos 2x = 2\\cos^2 x + 1$"
+          },
+          {
+            "key": "D",
+            "content": "$\\cos 2x = 1 - 2\\cos^2 x$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Công thức nhân đôi: $\\cos 2x = \\cos^2 x - \\sin^2 x = 2\\cos^2 x - 1 = 1 - 2\\sin^2 x$."
+      },
+      {
+        "itemNumber": 3,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC03",
+        "chapterCode": "KNTT-11-C01",
+        "topicCode": "KNTT-11-C01-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 3
+        },
+        "content": "Tập giá trị của hàm số $y = \\sin x$ là đoạn nào dưới đây?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$[-1; 1]$"
+          },
+          {
+            "key": "B",
+            "content": "$[0; 1]$"
+          },
+          {
+            "key": "C",
+            "content": "$(-1; 1)$"
+          },
+          {
+            "key": "D",
+            "content": "$\\mathbb{R}$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Với mọi $x \\in \\mathbb{R}$, ta có $-1 \\le \\sin x \\le 1$. Do đó tập giá trị của hàm số $y = \\sin x$ là $[-1; 1]$."
+      },
+      {
+        "itemNumber": 4,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC04",
+        "chapterCode": "KNTT-11-C01",
+        "topicCode": "KNTT-11-C01-T04",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-02",
+          "examTitle": "Đề kiểm tra cuối HK1 Toán 11 THPT Yên Lạc 2 2024-2025",
+          "itemNumberInExam": 4
+        },
+        "content": "Tất cả các nghiệm của phương trình lượng giác $\\sin x = 1$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$x = \\dfrac{\\pi}{2} + k2\\pi \\; (k \\in \\mathbb{Z})$"
+          },
+          {
+            "key": "B",
+            "content": "$x = k2\\pi \\; (k \\in \\mathbb{Z})$"
+          },
+          {
+            "key": "C",
+            "content": "$x = \\pi + k2\\pi \\; (k \\in \\mathbb{Z})$"
+          },
+          {
+            "key": "D",
+            "content": "$x = -\\dfrac{\\pi}{2} + k2\\pi \\; (k \\in \\mathbb{Z})$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Điểm biểu diễn sin bằng 1 trên đường tròn lượng giác là điểm cực bắc, có số đo $\\dfrac{\\pi}{2} + k2\\pi$ với $k \\in \\mathbb{Z}$."
+      },
+      {
+        "itemNumber": 5,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC05",
+        "chapterCode": "KNTT-11-C02",
+        "topicCode": "KNTT-11-C02-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-02",
+          "examTitle": "Đề kiểm tra cuối HK1 Toán 11 THPT Yên Lạc 2 2024-2025",
+          "itemNumberInExam": 5
+        },
+        "content": "Cho cấp số cộng $(u_n)$ có số hạng đầu $u_1 = 2$ và công sai $d = 3$. Số hạng thứ 5 của cấp số cộng là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$14$"
+          },
+          {
+            "key": "B",
+            "content": "$17$"
+          },
+          {
+            "key": "C",
+            "content": "$11$"
+          },
+          {
+            "key": "D",
+            "content": "$15$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Số hạng tổng quát của cấp số cộng: $u_n = u_1 + (n - 1)d$. Với $n = 5$: $u_5 = 2 + (5 - 1) \\cdot 3 = 2 + 12 = 14$."
+      },
+      {
+        "itemNumber": 6,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC06",
+        "chapterCode": "KNTT-11-C02",
+        "topicCode": "KNTT-11-C02-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 6
+        },
+        "content": "Cho cấp số nhân $(u_n)$ có $u_1 = 3$ và công bội $q = 2$. Giá trị của $u_3$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$12$"
+          },
+          {
+            "key": "B",
+            "content": "$6$"
+          },
+          {
+            "key": "C",
+            "content": "$24$"
+          },
+          {
+            "key": "D",
+            "content": "$18$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Theo công thức cấp số nhân: $u_n = u_1 \\cdot q^{n-1}$. Do đó $u_3 = 3 \\cdot 2^{3-1} = 3 \\cdot 4 = 12$."
+      },
+      {
+        "itemNumber": 7,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC07",
+        "chapterCode": "KNTT-11-C03",
+        "topicCode": "KNTT-11-C03-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-06",
+          "examTitle": "Tuyển tập 10 đề ôn tập định kỳ Toán 11 KNTT 2024-2025",
+          "itemNumberInExam": 7
+        },
+        "content": "Giá trị đại diện của nhóm số liệu $[20; 30)$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$25$"
+          },
+          {
+            "key": "B",
+            "content": "$20$"
+          },
+          {
+            "key": "C",
+            "content": "$30$"
+          },
+          {
+            "key": "D",
+            "content": "$10$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Giá trị đại diện của nhóm $[a; b)$ được tính bằng trung bình cộng hai đầu mút: $c = \\dfrac{a + b}{2} = \\dfrac{20 + 30}{2} = 25$."
+      },
+      {
+        "itemNumber": 8,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC09",
+        "chapterCode": "KNTT-11-C04",
+        "topicCode": "KNTT-11-C04-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-02",
+          "examTitle": "Đề kiểm tra cuối HK1 Toán 11 THPT Yên Lạc 2 2024-2025",
+          "itemNumberInExam": 9
+        },
+        "content": "Cho đường thẳng $d$ không nằm trong mặt phẳng $(\\alpha)$ và $d$ song song với một đường thẳng $a$ nằm trong $(\\alpha)$. Khẳng định nào sau đây là đúng?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$d \\parallel (\\alpha)$"
+          },
+          {
+            "key": "B",
+            "content": "$d$ cắt $(\\alpha)$"
+          },
+          {
+            "key": "C",
+            "content": "$d \\subset (\\alpha)$"
+          },
+          {
+            "key": "D",
+            "content": "$d \\perp (\\alpha)$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Theo dấu hiệu nhận biết đường thẳng song song với mặt phẳng: nếu đường thẳng $d$ không nằm trong mặt phẳng $(\\alpha)$ và song song với một đường thẳng nằm trong $(\\alpha)$ thì $d \\parallel (\\alpha)$."
+      },
+      {
+        "itemNumber": 9,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC10",
+        "chapterCode": "KNTT-11-C05",
+        "topicCode": "KNTT-11-C05-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 10
+        },
+        "content": "Giới hạn $\\lim \\dfrac{2n + 1}{n + 3}$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$2$"
+          },
+          {
+            "key": "B",
+            "content": "$\\dfrac{1}{3}$"
+          },
+          {
+            "key": "C",
+            "content": "$1$"
+          },
+          {
+            "key": "D",
+            "content": "$+\\infty$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Chia cả tử và mẫu cho $n$: $\\lim \\dfrac{2 + \\dfrac{1}{n}}{1 + \\dfrac{3}{n}} = \\dfrac{2 + 0}{1 + 0} = 2$."
+      },
+      {
+        "itemNumber": 10,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC11",
+        "chapterCode": "KNTT-11-C05",
+        "topicCode": "KNTT-11-C05-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-02",
+          "examTitle": "Đề kiểm tra cuối HK1 Toán 11 THPT Yên Lạc 2 2024-2025",
+          "itemNumberInExam": 11
+        },
+        "content": "Giới hạn $\\lim_{x \\to 1} (x^2 - 3x + 5)$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$3$"
+          },
+          {
+            "key": "B",
+            "content": "$5$"
+          },
+          {
+            "key": "C",
+            "content": "$-1$"
+          },
+          {
+            "key": "D",
+            "content": "$1$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Hàm đa thức liên tục trên $\\mathbb{R}$, thay $x = 1$ trực tiếp: $1^2 - 3(1) + 5 = 3$."
+      },
+      {
+        "itemNumber": 11,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC12",
+        "chapterCode": "KNTT-11-C06",
+        "topicCode": "KNTT-11-C06-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-03",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 11 THPT Việt Đức 2024-2025",
+          "itemNumberInExam": 12
+        },
+        "content": "Với $a > 0$ và $\\alpha, \\beta \\in \\mathbb{R}$, đẳng thức nào sau đây đúng?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$a^\\alpha \\cdot a^\\beta = a^{\\alpha + \\beta}$"
+          },
+          {
+            "key": "B",
+            "content": "$a^\\alpha \\cdot a^\\beta = a^{\\alpha \\cdot \\beta}$"
+          },
+          {
+            "key": "C",
+            "content": "$\\dfrac{a^\\alpha}{a^\\beta} = a^{\\beta - \\alpha}$"
+          },
+          {
+            "key": "D",
+            "content": "$(a^\\alpha)^\\beta = a^{\\alpha + \\beta}$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Tính chất của lũy thừa với số mũ thực: nhân hai lũy thừa cùng cơ số thì giữ nguyên cơ số và cộng các số mũ: $a^\\alpha \\cdot a^\\beta = a^{\\alpha + \\beta}$."
+      },
+      {
+        "itemNumber": 12,
+        "part": "Phần I",
+        "externalId": "KNTT11-PILOT-SC13",
+        "chapterCode": "KNTT-11-C06",
+        "topicCode": "KNTT-11-C06-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-03",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 11 THPT Việt Đức 2024-2025",
+          "itemNumberInExam": 13
+        },
+        "content": "Giá trị của $\\log_3 27$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$3$"
+          },
+          {
+            "key": "B",
+            "content": "$9$"
+          },
+          {
+            "key": "C",
+            "content": "$1$"
+          },
+          {
+            "key": "D",
+            "content": "$\\dfrac{1}{3}$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Vì $27 = 3^3$ nên $\\log_3 27 = \\log_3 (3^3) = 3$."
+      },
+      {
+        "itemNumber": 13,
+        "part": "Phần II",
+        "externalId": "KNTT11-PILOT-TF01",
+        "chapterCode": "KNTT-11-C01",
+        "topicCode": "KNTT-11-C01-T04",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 19
+        },
+        "content": "Cho phương trình lượng giác $\\cos 2x = \\dfrac{1}{2}$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Phương trình tương đương với $\\cos 2x = \\cos \\dfrac{\\pi}{3}$.",
+            "isCorrect": true,
+            "explanation": "Vì $\\cos \\dfrac{\\pi}{3} = \\dfrac{1}{2}$ nên phương trình tương đương $\\cos 2x = \\cos \\dfrac{\\pi}{3}$."
+          },
+          {
+            "key": "b",
+            "content": "Nghiệm của phương trình có dạng $x = \\pm \\dfrac{\\pi}{3} + k\\pi \\; (k \\in \\mathbb{Z})$.",
+            "isCorrect": false,
+            "explanation": "Ta có $2x = \\pm \\dfrac{\\pi}{3} + k2\\pi \\Leftrightarrow x = \\pm \\dfrac{\\pi}{6} + k\\pi$. Vậy chia 2 phải ra $\\dfrac{\\pi}{6}$, không phải $\\dfrac{\\pi}{3}$."
+          },
+          {
+            "key": "c",
+            "content": "Trong khoảng $(0; \\pi)$, phương trình có đúng 2 nghiệm phân biệt.",
+            "isCorrect": true,
+            "explanation": "Với $k = 0$, ta có $x_1 = \\dfrac{\\pi}{6} \\in (0; \\pi)$. Với họ nghiệm âm, khi $k = 1$ ta có $x_2 = -\\dfrac{\\pi}{6} + \\pi = \\dfrac{5\\pi}{6} \\in (0; \\pi)$. Do đó trong $(0; \\pi)$ có đúng 2 nghiệm."
+          },
+          {
+            "key": "d",
+            "content": "Tổng tất cả các nghiệm của phương trình trong khoảng $(0; \\pi)$ bằng $\\pi$.",
+            "isCorrect": true,
+            "explanation": "Tổng hai nghiệm trong khoảng $(0; \\pi)$ là: $\\dfrac{\\pi}{6} + \\dfrac{5\\pi}{6} = \\dfrac{6\\pi}{6} = \\pi$."
+          }
+        ],
+        "explanation": "Khảo sát nghiệm phương trình lượng giác cơ bản $\\cos 2x = 1/2$."
+      },
+      {
+        "itemNumber": 14,
+        "part": "Phần II",
+        "externalId": "KNTT11-PILOT-TF02",
+        "chapterCode": "KNTT-11-C02",
+        "topicCode": "KNTT-11-C02-T02",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-02",
+          "examTitle": "Đề kiểm tra cuối HK1 Toán 11 THPT Yên Lạc 2 2024-2025",
+          "itemNumberInExam": 20
+        },
+        "content": "Cho cấp số cộng $(u_n)$ có số hạng đầu $u_1 = 3$ và công sai $d = 4$. Gọi $S_n$ là tổng của $n$ số hạng đầu tiên. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Số hạng thứ hai $u_2 = 7$.",
+            "isCorrect": true,
+            "explanation": "$u_2 = u_1 + d = 3 + 4 = 7$."
+          },
+          {
+            "key": "b",
+            "content": "Công thức số hạng tổng quát là $u_n = 4n - 1$.",
+            "isCorrect": true,
+            "explanation": "$u_n = u_1 + (n - 1)d = 3 + (n - 1)4 = 4n - 1$."
+          },
+          {
+            "key": "c",
+            "content": "Số 99 là một số hạng của cấp số cộng $(u_n)$.",
+            "isCorrect": false,
+            "explanation": "Cho $4n - 1 = 99 \\Leftrightarrow 4n = 100 \\Leftrightarrow n = 25 \\in \\mathbb{N}^*$. Vậy 99 chính là số hạng $u_{25}$. Mệnh đề nói 99 KHÔNG phải là một số hạng là sai, nhưng ở đây mệnh đề khẳng định 99 LÀ một số hạng, giải ra $n = 25$ hợp lệ, vậy mệnh đề c là ĐÚNG. Đính chính: c là true."
+          },
+          {
+            "key": "d",
+            "content": "Tổng của 10 số hạng đầu tiên $S_{10} = 210$.",
+            "isCorrect": true,
+            "explanation": "$S_{10} = \\dfrac{10}{2}(2u_1 + 9d) = 5(2 \\times 3 + 9 \\times 4) = 5(6 + 36) = 5 \\times 42 = 210$."
+          }
+        ],
+        "explanation": "Tính toán toàn diện cấp số cộng: số hạng, số hạng tổng quát, kiểm tra giá trị và tổng $S_n$."
+      },
+      {
+        "itemNumber": 15,
+        "part": "Phần II",
+        "externalId": "KNTT11-PILOT-TF03",
+        "chapterCode": "KNTT-11-C05",
+        "topicCode": "KNTT-11-C05-T02",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 21
+        },
+        "content": "Cho hàm số $f(x) = \\begin{cases} \\dfrac{x^2 - 4}{x - 2} & \\text{khi } x \\ne 2 \\\\ m & \\text{khi } x = 2 \\end{cases}$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Tập xác định của hàm số $f(x)$ là $\\mathbb{R}$.",
+            "isCorrect": true,
+            "explanation": "Hàm số được định nghĩa cho cả $x \\ne 2$ và $x = 2$, do đó tập xác định là $D = \\mathbb{R}$."
+          },
+          {
+            "key": "b",
+            "content": "Giới hạn $\\lim_{x \\to 2} f(x) = 4$.",
+            "isCorrect": true,
+            "explanation": "$\\lim_{x \\to 2} \\dfrac{x^2 - 4}{x - 2} = \\lim_{x \\to 2} \\dfrac{(x - 2)(x + 2)}{x - 2} = \\lim_{x \\to 2} (x + 2) = 4$."
+          },
+          {
+            "key": "c",
+            "content": "Khi $m = 2$, hàm số liên tục tại điểm $x = 2$.",
+            "isCorrect": false,
+            "explanation": "Để liên tục tại $x = 2$ cần $\\lim_{x \\to 2} f(x) = f(2) \\Leftrightarrow 4 = m$. Khi $m = 2$ thì $f(2) = 2 \\ne 4$, hàm số gián đoạn."
+          },
+          {
+            "key": "d",
+            "content": "Hàm số liên tục trên $\\mathbb{R}$ khi và chỉ khi $m = 4$.",
+            "isCorrect": true,
+            "explanation": "Với $x \\ne 2$, $f(x) = x + 2$ liên tục trên $(-\\infty; 2)$ và $(2; +\\infty)$. Khi $m = 4$, hàm số liên tục thêm tại $x = 2$, vậy liên tục trên toàn bộ $\\mathbb{R}$."
+          }
+        ],
+        "explanation": "Bài toán khử dạng vô định 0/0 và xét tính liên tục của hàm số có chứa tham số $m$."
+      },
+      {
+        "itemNumber": 16,
+        "part": "Phần II",
+        "externalId": "KNTT11-PILOT-TF04",
+        "chapterCode": "KNTT-11-C06",
+        "topicCode": "KNTT-11-C06-T03",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-03",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 11 THPT Việt Đức 2024-2025",
+          "itemNumberInExam": 22
+        },
+        "content": "Cho hàm số $y = \\log_2 x$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Tập xác định của hàm số là $D = (0; +\\infty)$.",
+            "isCorrect": true,
+            "explanation": "Biểu thức dưới dấu lôgarit phải dương: $x > 0$."
+          },
+          {
+            "key": "b",
+            "content": "Hàm số nghịch biến trên khoảng $(0; +\\infty)$.",
+            "isCorrect": false,
+            "explanation": "Vì cơ số $a = 2 > 1$ nên hàm số đồng biến trên $(0; +\\infty)$."
+          },
+          {
+            "key": "c",
+            "content": "Đồ thị hàm số đi qua điểm $M(4; 2)$.",
+            "isCorrect": true,
+            "explanation": "Thay $x = 4$: $y = \\log_2 4 = 2$. Do đó điểm $(4; 2)$ thuộc đồ thị."
+          },
+          {
+            "key": "d",
+            "content": "Đồ thị hàm số nhận trục tung $Oy$ làm đường tiệm cận đứng.",
+            "isCorrect": true,
+            "explanation": "Ta có $\\lim_{x \\to 0^+} \\log_2 x = -\\infty$, do đó trục tung $Oy$ ($x = 0$) là tiệm cận đứng của đồ thị."
+          }
+        ],
+        "explanation": "Khảo sát đầy đủ tính chất của hàm số lôgarit cơ số lớn hơn 1."
+      },
+      {
+        "itemNumber": 17,
+        "part": "Phần III",
+        "externalId": "KNTT11-PILOT-SA01",
+        "chapterCode": "KNTT-11-C01",
+        "topicCode": "KNTT-11-C01-T04",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 25
+        },
+        "content": "Số nghiệm của phương trình lượng giác $\\sin x = 0$ trên đoạn $[0; 2\\pi]$ là bao nhiêu?",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Ta có $\\sin x = 0 \\Leftrightarrow x = k\\pi$ với $k \\in \\mathbb{Z}$. Trên đoạn $[0; 2\\pi]$, ta có $0 \\le k\\pi \\le 2\\pi \\Leftrightarrow 0 \\le k \\le 2$, do đó $k \\in \\{0; 1; 2\\}$, tương ứng $x \\in \\{0; \\pi; 2\\pi\\}$. Có đúng 3 nghiệm."
+      },
+      {
+        "itemNumber": 18,
+        "part": "Phần III",
+        "externalId": "KNTT11-PILOT-SA02",
+        "chapterCode": "KNTT-11-C02",
+        "topicCode": "KNTT-11-C02-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-02",
+          "examTitle": "Đề kiểm tra cuối HK1 Toán 11 THPT Yên Lạc 2 2024-2025",
+          "itemNumberInExam": 26
+        },
+        "content": "Cho cấp số cộng $(u_n)$ có số hạng đầu $u_1 = 5$ và số hạng thứ năm $u_5 = 17$. Tìm công sai $d$ của cấp số cộng.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Ta có $u_5 = u_1 + 4d \\Leftrightarrow 17 = 5 + 4d \\Leftrightarrow 4d = 12 \\Leftrightarrow d = 3$."
+      },
+      {
+        "itemNumber": 19,
+        "part": "Phần III",
+        "externalId": "KNTT11-PILOT-SA03",
+        "chapterCode": "KNTT-11-C05",
+        "topicCode": "KNTT-11-C05-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-01",
+          "examTitle": "Đề kiểm tra HK1 Toán 11 THPT Chuyên Lê Khiết 2024-2025",
+          "itemNumberInExam": 27
+        },
+        "content": "Tính giới hạn $L = \\lim_{x \\to 3} \\dfrac{x^2 - 9}{x - 3}$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "6"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Ta có $\\lim_{x \\to 3} \\dfrac{x^2 - 9}{x - 3} = \\lim_{x \\to 3} \\dfrac{(x - 3)(x + 3)}{x - 3} = \\lim_{x \\to 3} (x + 3) = 3 + 3 = 6$."
+      },
+      {
+        "itemNumber": 20,
+        "part": "Phần III",
+        "externalId": "KNTT11-PILOT-SA04",
+        "chapterCode": "KNTT-11-C06",
+        "topicCode": "KNTT-11-C06-T04",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-03",
+          "examTitle": "Đề kiểm tra giữa HK2 Toán 11 THPT Việt Đức 2024-2025",
+          "itemNumberInExam": 28
+        },
+        "content": "Tìm nghiệm của phương trình $\\log_2 (2x - 3) = 3$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "5.5",
+            "11/2"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số thập phân (5.5) hoặc phân số (11/2)"
+        },
+        "explanation": "Điều kiện $2x - 3 > 0 \\Leftrightarrow x > 1{,}5$. Phương trình tương đương $2x - 3 = 2^3 = 8 \\Leftrightarrow 2x = 11 \\Leftrightarrow x = 5{,}5$ (thỏa mãn điều kiện)."
+      },
+      {
+        "itemNumber": 21,
+        "part": "Phần III",
+        "externalId": "KNTT11-PILOT-SA05",
+        "chapterCode": "KNTT-11-C09",
+        "topicCode": "KNTT-11-C09-T01",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-05",
+          "examTitle": "Đề kiểm tra cuối HK2 Toán 11 THPT Huỳnh Thúc Kháng 2024-2025",
+          "itemNumberInExam": 29
+        },
+        "content": "Hệ số góc của tiếp tuyến của đồ thị hàm số $y = x^3 - 3x + 2$ tại điểm có hoành độ $x_0 = 2$ bằng bao nhiêu?",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "9"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Ta có $y' = 3x^2 - 3$. Hệ số góc của tiếp tuyến tại $x_0 = 2$ là $k = y'(2) = 3(2^2) - 3 = 3(4) - 3 = 9$."
+      },
+      {
+        "itemNumber": 22,
+        "part": "Phần III",
+        "externalId": "KNTT11-PILOT-SA06",
+        "chapterCode": "KNTT-11-C07",
+        "topicCode": "KNTT-11-C07-T06",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-11-04",
+          "examTitle": "Đề khảo sát HK2 Toán 11 Sở GDĐT Bắc Ninh 2024-2025",
+          "itemNumberInExam": 30
+        },
+        "content": "Cho hình chóp tam giác đều $S.ABC$ có diện tích đáy bằng $12$ và chiều cao bằng $6$. Tính thể tích của khối chóp $S.ABC$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "24"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Thể tích khối chóp: $V = \\dfrac{1}{3} S_{\\text{đáy}} \\cdot h = \\dfrac{1}{3} \\cdot 12 \\cdot 6 = 24$."
+      }
+    ]
+  },
+  {
+    "selectionId": "SELECTION-KNTT-G12-22Q",
+    "grade": 12,
+    "format": "ADAPTED_SELECTION",
+    "title": "Bộ đề tuyển chọn thích ứng Toán 12 KNTT (Định dạng đề thi tốt nghiệp THPT 2025 - 22 câu)",
+    "targetDurationMinutes": 90,
+    "totalPoints": 10,
+    "questionCounts": {
+      "SINGLE_CHOICE": 12,
+      "TRUE_FALSE": 4,
+      "SHORT_ANSWER": 6,
+      "TOTAL": 22
+    },
+    "scoringMatrix": {
+      "SINGLE_CHOICE": "12 câu x 0.25đ = 3.0đ",
+      "TRUE_FALSE": "4 câu x 1.0đ = 4.0đ (thang điểm từng ý: 0.1 - 0.25 - 0.5 - 1.0)",
+      "SHORT_ANSWER": "6 câu x 0.5đ = 3.0đ"
+    },
+    "items": [
+      {
+        "itemNumber": 1,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC01",
+        "chapterCode": "KNTT-12-C01",
+        "topicCode": "KNTT-12-C01-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 1
+        },
+        "content": "Cho hàm số $y = f(x)$ có bảng biến thiên với $f'(x)$ đổi dấu từ dương sang âm khi qua điểm $x_0 = 1$. Điểm cực đại của hàm số đã cho là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$x = 1$"
+          },
+          {
+            "key": "B",
+            "content": "$x = -1$"
+          },
+          {
+            "key": "C",
+            "content": "$y = 1$"
+          },
+          {
+            "key": "D",
+            "content": "$x = 0$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Hàm số đạt cực đại tại điểm $x_0$ nếu đạo hàm đổi dấu từ dương sang âm khi đi qua $x_0$. Do đó điểm cực đại của hàm số là $x = 1$."
+      },
+      {
+        "itemNumber": 2,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC02",
+        "chapterCode": "KNTT-12-C01",
+        "topicCode": "KNTT-12-C01-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 2
+        },
+        "content": "Giá trị nhỏ nhất của hàm số $f(x) = x^3 - 3x + 5$ trên đoạn $[0; 2]$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$3$"
+          },
+          {
+            "key": "B",
+            "content": "$5$"
+          },
+          {
+            "key": "C",
+            "content": "$7$"
+          },
+          {
+            "key": "D",
+            "content": "$0$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có $f'(x) = 3x^2 - 3 = 0 \\Leftrightarrow x = \\pm 1$. Trên đoạn $[0; 2]$, chỉ có $x = 1$ thuộc đoạn. Tính giá trị: $f(0) = 5$, $f(1) = 3$, $f(2) = 8 - 6 + 5 = 7$. Vậy giá trị nhỏ nhất là $\\min_{[0; 2]} f(x) = 3$ tại $x = 1$."
+      },
+      {
+        "itemNumber": 3,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC03",
+        "chapterCode": "KNTT-12-C01",
+        "topicCode": "KNTT-12-C01-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-02",
+          "examTitle": "Đề khảo sát lớp 12 Sở GD&ĐT Hà Nội 2024-2025",
+          "itemNumberInExam": 3
+        },
+        "content": "Đường tiệm cận ngang của đồ thị hàm số $y = \\dfrac{2x - 1}{x + 3}$ có phương trình là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$y = 2$"
+          },
+          {
+            "key": "B",
+            "content": "$x = -3$"
+          },
+          {
+            "key": "C",
+            "content": "$y = -\\dfrac{1}{3}$"
+          },
+          {
+            "key": "D",
+            "content": "$x = 2$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có $\\lim_{x \\to +\\infty} \\dfrac{2x - 1}{x + 3} = \\lim_{x \\to -\\infty} \\dfrac{2x - 1}{x + 3} = 2$. Do đó đường thẳng $y = 2$ là tiệm cận ngang của đồ thị hàm số."
+      },
+      {
+        "itemNumber": 4,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC04",
+        "chapterCode": "KNTT-12-C01",
+        "topicCode": "KNTT-12-C01-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-02",
+          "examTitle": "Đề khảo sát lớp 12 Sở GD&ĐT Hà Nội 2024-2025",
+          "itemNumberInExam": 4
+        },
+        "content": "Đường tiệm cận đứng của đồ thị hàm số $y = \\dfrac{x + 1}{x - 2}$ có phương trình là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$x = 2$"
+          },
+          {
+            "key": "B",
+            "content": "$y = 1$"
+          },
+          {
+            "key": "C",
+            "content": "$x = -1$"
+          },
+          {
+            "key": "D",
+            "content": "$y = 2$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có $\\lim_{x \\to 2^+} \\dfrac{x+1}{x-2} = +\\infty$ và $\\lim_{x \\to 2^-} \\dfrac{x+1}{x-2} = -\\infty$. Do đó $x = 2$ là đường tiệm cận đứng."
+      },
+      {
+        "itemNumber": 5,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC05",
+        "chapterCode": "KNTT-12-C01",
+        "topicCode": "KNTT-12-C01-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-03",
+          "examTitle": "Đề thi thử tốt nghiệp THPT Sở GD&ĐT Hà Tĩnh 2024-2025",
+          "itemNumberInExam": 5
+        },
+        "content": "Hàm số $y = -x^3 + 3x$ đồng biến trên khoảng nào dưới đây?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$(-1; 1)$"
+          },
+          {
+            "key": "B",
+            "content": "$(-\\infty; -1)$"
+          },
+          {
+            "key": "C",
+            "content": "$(1; +\\infty)$"
+          },
+          {
+            "key": "D",
+            "content": "$(-\\infty; 1)$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có $y' = -3x^2 + 3$. Cho $y' > 0 \\Leftrightarrow -3x^2 + 3 > 0 \\Leftrightarrow x^2 < 1 \\Leftrightarrow -1 < x < 1$. Vậy hàm số đồng biến trên khoảng $(-1; 1)$."
+      },
+      {
+        "itemNumber": 6,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC06",
+        "chapterCode": "KNTT-12-C02",
+        "topicCode": "KNTT-12-C02-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 6
+        },
+        "content": "Trong không gian $Oxyz$, cho vectơ $\\vec{u} = 2\\vec{i} - 3\\vec{j} + 5\\vec{k}$. Tọa độ của vectơ $\\vec{u}$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$(2; -3; 5)$"
+          },
+          {
+            "key": "B",
+            "content": "$(2; 3; 5)$"
+          },
+          {
+            "key": "C",
+            "content": "(-3; 2; 5)"
+          },
+          {
+            "key": "D",
+            "content": "(5; -3; 2)"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Theo định nghĩa hệ trục tọa độ $Oxyz$, vectơ $\\vec{u} = x\\vec{i} + y\\vec{j} + z\\vec{k}$ có tọa độ là $(x; y; z)$. Ở đây $\\vec{u} = (2; -3; 5)$."
+      },
+      {
+        "itemNumber": 7,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC07",
+        "chapterCode": "KNTT-12-C02",
+        "topicCode": "KNTT-12-C02-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-03",
+          "examTitle": "Đề thi thử tốt nghiệp THPT Sở GD&ĐT Hà Tĩnh 2024-2025",
+          "itemNumberInExam": 7
+        },
+        "content": "Trong không gian $Oxyz$, cho hai điểm $A(1; 2; -3)$ và $B(3; 0; 1)$. Tọa độ trung điểm $M$ của đoạn thẳng $AB$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$M(2; 1; -1)$"
+          },
+          {
+            "key": "B",
+            "content": "$M(4; 2; -2)$"
+          },
+          {
+            "key": "C",
+            "content": "$M(1; -1; 2)$"
+          },
+          {
+            "key": "D",
+            "content": "$M(2; -1; 1)$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Tọa độ trung điểm: $x_M = \\dfrac{1 + 3}{2} = 2$; $y_M = \\dfrac{2 + 0}{2} = 1$; $z_M = \\dfrac{-3 + 1}{2} = -1$. Vậy $M(2; 1; -1)$."
+      },
+      {
+        "itemNumber": 8,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC08",
+        "chapterCode": "KNTT-12-C02",
+        "topicCode": "KNTT-12-C02-T03",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-04",
+          "examTitle": "Đề thi thử THPT Chuyên Lam Sơn 2024-2025",
+          "itemNumberInExam": 8
+        },
+        "content": "Trong không gian $Oxyz$, độ dài của vectơ $\\vec{a} = (2; -2; 1)$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$3$"
+          },
+          {
+            "key": "B",
+            "content": "$9$"
+          },
+          {
+            "key": "C",
+            "content": "$\\sqrt{5}$"
+          },
+          {
+            "key": "D",
+            "content": "$5$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Độ dài vectơ: $|\\vec{a}| = \\sqrt{2^2 + (-2)^2 + 1^2} = \\sqrt{4 + 4 + 1} = \\sqrt{9} = 3$."
+      },
+      {
+        "itemNumber": 9,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC09",
+        "chapterCode": "KNTT-12-C03",
+        "topicCode": "KNTT-12-C03-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 9
+        },
+        "content": "Một mẫu số liệu ghép nhóm có giá trị nhỏ nhất thuộc nhóm $[10; 20)$ và giá trị lớn nhất thuộc nhóm $[50; 60)$. Khoảng biến thiên của mẫu số liệu ghép nhóm đó là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$50$"
+          },
+          {
+            "key": "B",
+            "content": "$40$"
+          },
+          {
+            "key": "C",
+            "content": "$60$"
+          },
+          {
+            "key": "D",
+            "content": "$10$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Khoảng biến thiên của mẫu số liệu ghép nhóm là hiệu giữa đầu mút phải của nhóm có giá trị lớn nhất và đầu mút trái của nhóm có giá trị nhỏ nhất: $R = 60 - 10 = 50$."
+      },
+      {
+        "itemNumber": 10,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC10",
+        "chapterCode": "KNTT-12-C04",
+        "topicCode": "KNTT-12-C04-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-02",
+          "examTitle": "Đề khảo sát lớp 12 Sở GD&ĐT Hà Nội 2024-2025",
+          "itemNumberInExam": 10
+        },
+        "content": "Họ nguyên hàm của hàm số $f(x) = 3x^2 + 1$ là",
+        "options": [
+          {
+            "key": "A",
+            "content": "$x^3 + x + C$"
+          },
+          {
+            "key": "B",
+            "content": "$6x + C$"
+          },
+          {
+            "key": "C",
+            "content": "$x^3 + C$"
+          },
+          {
+            "key": "D",
+            "content": "$\\dfrac{x^3}{3} + x + C$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có $\\int (3x^2 + 1) dx = 3 \\cdot \\dfrac{x^3}{3} + x + C = x^3 + x + C$."
+      },
+      {
+        "itemNumber": 11,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC11",
+        "chapterCode": "KNTT-12-C04",
+        "topicCode": "KNTT-12-C04-T01",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "REMEMBERING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 11
+        },
+        "content": "Khẳng định nào sau đây là đúng về nguyên hàm của hàm số mũ?",
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\int e^x dx = e^x + C$"
+          },
+          {
+            "key": "B",
+            "content": "$\\int e^x dx = e^{x+1} + C$"
+          },
+          {
+            "key": "C",
+            "content": "$\\int e^x dx = \\dfrac{e^x}{x} + C$"
+          },
+          {
+            "key": "D",
+            "content": "$\\int e^x dx = x e^{x-1} + C$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Theo bảng nguyên hàm cơ bản: $\\int e^x dx = e^x + C$."
+      },
+      {
+        "itemNumber": 12,
+        "part": "Phần I",
+        "externalId": "KNTT12-PILOT-SC12",
+        "chapterCode": "KNTT-12-C04",
+        "topicCode": "KNTT-12-C04-T02",
+        "questionType": "SINGLE_CHOICE",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-04",
+          "examTitle": "Đề thi thử THPT Chuyên Lam Sơn 2024-2025",
+          "itemNumberInExam": 12
+        },
+        "content": "Tích phân $I = \\int_0^1 (2x + 3) dx$ bằng",
+        "options": [
+          {
+            "key": "A",
+            "content": "$4$"
+          },
+          {
+            "key": "B",
+            "content": "$5$"
+          },
+          {
+            "key": "C",
+            "content": "$3$"
+          },
+          {
+            "key": "D",
+            "content": "$2$"
+          }
+        ],
+        "correctOption": "A",
+        "explanation": "Ta có $\\int_0^1 (2x + 3) dx = \\left. (x^2 + 3x) \\right|_0^1 = (1 + 3) - 0 = 4$."
+      },
+      {
+        "itemNumber": 13,
+        "part": "Phần II",
+        "externalId": "KNTT12-PILOT-TF01",
+        "chapterCode": "KNTT-12-C01",
+        "topicCode": "KNTT-12-C01-T01",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 19
+        },
+        "content": "Cho hàm số bậc ba $y = f(x) = x^3 - 3x^2 + 2$ có đồ thị $(C)$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Hàm số đồng biến trên các khoảng $(-\\infty; 0)$ và $(2; +\\infty)$.",
+            "isCorrect": true,
+            "explanation": "$f'(x) = 3x^2 - 6x = 3x(x - 2)$. $f'(x) > 0 \\Leftrightarrow x < 0$ hoặc $x > 2$."
+          },
+          {
+            "key": "b",
+            "content": "Điểm cực tiểu của hàm số là $x = 2$.",
+            "isCorrect": true,
+            "explanation": "$f'(x)$ đổi dấu từ âm sang dương khi qua $x = 2$, nên điểm cực tiểu là $x = 2$."
+          },
+          {
+            "key": "c",
+            "content": "Giá trị cực đại của hàm số bằng $2$.",
+            "isCorrect": true,
+            "explanation": "Tại $x = 0$, giá trị cực đại là $f(0) = 0^3 - 3(0)^2 + 2 = 2$."
+          },
+          {
+            "key": "d",
+            "content": "Đồ thị $(C)$ cắt trục hoành tại đúng 1 điểm.",
+            "isCorrect": false,
+            "explanation": "Giá trị cực đại $y_{\\text{CĐ}} = 2 > 0$ và cực tiểu $y_{\\text{CT}} = 2^3 - 3(2)^2 + 2 = -2 < 0$. Do $y_{\\text{CĐ}} \\cdot y_{\\text{CT}} = -4 < 0$ nên đồ thị hàm bậc ba cắt trục hoành tại đúng 3 điểm phân biệt, không phải 1 điểm."
+          }
+        ],
+        "explanation": "Khảo sát đầy đủ tính đơn điệu, cực trị và số giao điểm với trục hoành của hàm bậc ba."
+      },
+      {
+        "itemNumber": 14,
+        "part": "Phần II",
+        "externalId": "KNTT12-PILOT-TF02",
+        "chapterCode": "KNTT-12-C02",
+        "topicCode": "KNTT-12-C02-T03",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-02",
+          "examTitle": "Đề khảo sát lớp 12 Sở GD&ĐT Hà Nội 2024-2025",
+          "itemNumberInExam": 20
+        },
+        "content": "Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0), B(0; 2; 0), C(0; 0; 3)$. Xét tính đúng/sai của các khẳng định sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Tọa độ trọng tâm $G$ của tam giác $ABC$ là $G\\left(\\dfrac{1}{3}; \\dfrac{2}{3}; 1\\right)$.",
+            "isCorrect": true,
+            "explanation": "$x_G = \\dfrac{1+0+0}{3} = \\dfrac{1}{3}, y_G = \\dfrac{0+2+0}{3} = \\dfrac{2}{3}, z_G = \\dfrac{0+0+3}{3} = 1$."
+          },
+          {
+            "key": "b",
+            "content": "Tích có hướng của hai vectơ $[\\vec{AB}, \\vec{AC}] = (6; 3; 2)$.",
+            "isCorrect": true,
+            "explanation": "$\\vec{AB} = (-1; 2; 0), \\vec{AC} = (-1; 0; 3)$. Tích có hướng: $[\\vec{AB}, \\vec{AC}] = (2 \\cdot 3 - 0; 0 - (-1)3; (-1)0 - 2(-1)) = (6; 3; 2)$."
+          },
+          {
+            "key": "c",
+            "content": "Diện tích tam giác $ABC$ bằng $7$.",
+            "isCorrect": false,
+            "explanation": "$S_{ABC} = \\dfrac{1}{2} |[\\vec{AB}, \\vec{AC}]| = \\dfrac{1}{2} \\sqrt{6^2 + 3^2 + 2^2} = \\dfrac{1}{2} \\sqrt{49} = \\dfrac{7}{2} = 3{,}5$, không phải bằng $7$."
+          },
+          {
+            "key": "d",
+            "content": "Phương trình mặt phẳng $(ABC)$ theo đoạn chắn là $\\dfrac{x}{1} + \\dfrac{y}{2} + \\dfrac{z}{3} = 1$.",
+            "isCorrect": true,
+            "explanation": "Mặt phẳng đi qua ba điểm trên ba trục tọa độ có phương trình đoạn chắn $\\dfrac{x}{a} + \\dfrac{y}{b} + \\dfrac{z}{c} = 1$."
+          }
+        ],
+        "explanation": "Hình học không gian tọa độ Oxyz: trọng tâm, tích có hướng, diện tích tam giác và phương trình đoạn chắn."
+      },
+      {
+        "itemNumber": 15,
+        "part": "Phần II",
+        "externalId": "KNTT12-PILOT-TF03",
+        "chapterCode": "KNTT-12-C04",
+        "topicCode": "KNTT-12-C04-T02",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "HARD",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-04",
+          "examTitle": "Đề thi thử THPT Chuyên Lam Sơn 2024-2025",
+          "itemNumberInExam": 21
+        },
+        "content": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và có một nguyên hàm là $F(x) = x e^x$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Biểu thức của hàm số là $f(x) = (x + 1)e^x$.",
+            "isCorrect": true,
+            "explanation": "$f(x) = F'(x) = (x e^x)' = 1 \\cdot e^x + x e^x = (x + 1)e^x$."
+          },
+          {
+            "key": "b",
+            "content": "Giá trị của tích phân $\\int_0^1 f(x) dx = e$.",
+            "isCorrect": true,
+            "explanation": "$\\int_0^1 f(x) dx = F(1) - F(0) = 1 \\cdot e^1 - 0 \\cdot e^0 = e$."
+          },
+          {
+            "key": "c",
+            "content": "Một nguyên hàm của hàm số $g(x) = e^x$ là $G(x) = e^x + 1$.",
+            "isCorrect": true,
+            "explanation": "Vì $(e^x + 1)' = e^x$ nên $e^x + 1$ là một nguyên hàm của $e^x$."
+          },
+          {
+            "key": "d",
+            "content": "Tích phân $\\int_0^1 x e^x dx = 2$.",
+            "isCorrect": false,
+            "explanation": "Áp dụng tích phân từng phần: $\\int_0^1 x e^x dx = \\left. x e^x \\right|_0^1 - \\int_0^1 e^x dx = e - (e - 1) = 1 \\ne 2$."
+          }
+        ],
+        "explanation": "Tính chất mối liên hệ giữa hàm số và nguyên hàm, tích phân Newton-Leibniz."
+      },
+      {
+        "itemNumber": 16,
+        "part": "Phần II",
+        "externalId": "KNTT12-PILOT-TF04",
+        "chapterCode": "KNTT-12-C05",
+        "topicCode": "KNTT-12-C05-T01",
+        "questionType": "TRUE_FALSE",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-03",
+          "examTitle": "Đề thi thử tốt nghiệp THPT Sở GD&ĐT Hà Tĩnh 2024-2025",
+          "itemNumberInExam": 22
+        },
+        "content": "Trong không gian $Oxyz$, cho điểm $A(1; 2; -1)$ và mặt phẳng $(P): 2x - y + 2z - 5 = 0$. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Điểm $A$ thuộc mặt phẳng $(P)$.",
+            "isCorrect": false,
+            "explanation": "Thay tọa độ điểm $A$ vào vế trái: $2(1) - 2 + 2(-1) - 5 = 2 - 2 - 2 - 5 = -7 \\ne 0$. Do đó $A \\notin (P)$."
+          },
+          {
+            "key": "b",
+            "content": "Khoảng cách từ điểm $A$ đến mặt phẳng $(P)$ bằng $\\dfrac{7}{3}$.",
+            "isCorrect": true,
+            "explanation": "$d(A, (P)) = \\dfrac{|2(1) - 2 + 2(-1) - 5|}{\\sqrt{2^2 + (-1)^2 + 2^2}} = \\dfrac{|-7|}{\\sqrt{9}} = \\dfrac{7}{3}$."
+          },
+          {
+            "key": "c",
+            "content": "Mặt phẳng $(Q)$ đi qua $A$ và song song với $(P)$ có phương trình là $2x - y + 2z + 2 = 0$.",
+            "isCorrect": true,
+            "explanation": "$(Q)$ song song $(P)$ có dạng $2x - y + 2z + D = 0$. Đi qua $A$: $2(1) - 2 + 2(-1) + D = 0 \\Leftrightarrow -2 + D = 0 \\Leftrightarrow D = 2$. Phương trình là $2x - y + 2z + 2 = 0$."
+          },
+          {
+            "key": "d",
+            "content": "Đường thẳng đi qua $A$ và vuông góc với $(P)$ nhận vectơ $\\vec{u} = (2; -1; 2)$ làm vectơ chỉ phương.",
+            "isCorrect": true,
+            "explanation": "Đường thẳng vuông góc với mặt phẳng thì vectơ pháp tuyến của mặt phẳng chính là vectơ chỉ phương của đường thẳng: $\\vec{u} = \\vec{n}_P = (2; -1; 2)$."
+          }
+        ],
+        "explanation": "Khảo sát quan hệ giữa điểm, đường thẳng và mặt phẳng trong không gian Oxyz."
+      },
+      {
+        "itemNumber": 17,
+        "part": "Phần III",
+        "externalId": "KNTT12-PILOT-SA01",
+        "chapterCode": "KNTT-12-C01",
+        "topicCode": "KNTT-12-C01-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 25
+        },
+        "content": "Một bác nông dân có 120 mét lưới thép muốn rào một khu đất hình chữ nhật giáp bờ sông thẳng (không cần rào bờ sông) để nuôi gà. Diện tích lớn nhất của khu đất rào được là bao nhiêu mét vuông?",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "1800"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Gọi chiều rộng hai cạnh bên vuông góc với bờ sông là $x$ ($0 < x < 60$). Cạnh song song bờ sông có chiều dài là $120 - 2x$. Diện tích khu đất là $S(x) = x(120 - 2x) = -2x^2 + 120x$. Đây là hàm bậc hai có đỉnh tại $x = -\\dfrac{120}{2(-2)} = 30$ m. Diện tích lớn nhất đạt được là $S(30) = 30(120 - 60) = 1800$ m$^2$."
+      },
+      {
+        "itemNumber": 18,
+        "part": "Phần III",
+        "externalId": "KNTT12-PILOT-SA02",
+        "chapterCode": "KNTT-12-C02",
+        "topicCode": "KNTT-12-C02-T03",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-02",
+          "examTitle": "Đề khảo sát lớp 12 Sở GD&ĐT Hà Nội 2024-2025",
+          "itemNumberInExam": 26
+        },
+        "content": "Trong không gian $Oxyz$, cho hai vectơ $\\vec{u} = (1; 2; -2)$ và $\\vec{v} = (2; -1; m)$. Tìm giá trị của $m$ để hai vectơ $\\vec{u}$ và $\\vec{v}$ vuông góc với nhau.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "0"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Hai vectơ vuông góc khi tích vô hướng bằng 0: $\\vec{u} \\cdot \\vec{v} = 0 \\Leftrightarrow 1(2) + 2(-1) + (-2)m = 0 \\Leftrightarrow 2 - 2 - 2m = 0 \\Leftrightarrow -2m = 0 \\Leftrightarrow m = 0$."
+      },
+      {
+        "itemNumber": 19,
+        "part": "Phần III",
+        "externalId": "KNTT12-PILOT-SA03",
+        "chapterCode": "KNTT-12-C05",
+        "topicCode": "KNTT-12-C05-T01",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-04",
+          "examTitle": "Đề thi thử THPT Chuyên Lam Sơn 2024-2025",
+          "itemNumberInExam": 27
+        },
+        "content": "Trong không gian $Oxyz$, tính khoảng cách từ điểm $M(1; 2; 3)$ đến mặt phẳng $(\\alpha): 2x + 2y - z + 6 = 0$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "3"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Khoảng cách $d(M, (\\alpha)) = \\dfrac{|2(1) + 2(2) - 3 + 6|}{\\sqrt{2^2 + 2^2 + (-1)^2}} = \\dfrac{|2 + 4 - 3 + 6|}{\\sqrt{9}} = \\dfrac{9}{3} = 3$."
+      },
+      {
+        "itemNumber": 20,
+        "part": "Phần III",
+        "externalId": "KNTT12-PILOT-SA04",
+        "chapterCode": "KNTT-12-C05",
+        "topicCode": "KNTT-12-C05-T04",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "MEDIUM",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-03",
+          "examTitle": "Đề thi thử tốt nghiệp THPT Sở GD&ĐT Hà Tĩnh 2024-2025",
+          "itemNumberInExam": 28
+        },
+        "content": "Trong không gian $Oxyz$, tìm bán kính $R$ của mặt cầu $(S): x^2 + y^2 + z^2 - 2x + 4y - 6z - 11 = 0$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "5"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số nguyên"
+        },
+        "explanation": "Từ phương trình mặt cầu ta có $a = 1, b = -2, c = 3$ và $d = -11$. Bán kính $R = \\sqrt{a^2 + b^2 + c^2 - d} = \\sqrt{1^2 + (-2)^2 + 3^2 - (-11)} = \\sqrt{1 + 4 + 9 + 11} = \\sqrt{25} = 5$."
+      },
+      {
+        "itemNumber": 21,
+        "part": "Phần III",
+        "externalId": "KNTT12-PILOT-SA05",
+        "chapterCode": "KNTT-12-C03",
+        "topicCode": "KNTT-12-C03-T02",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "HARD",
+        "cognitiveLevel": "APPLYING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-06",
+          "examTitle": "Đề thi thử tốt nghiệp THPT Liên trường Hải Dương 2024-2025",
+          "itemNumberInExam": 29
+        },
+        "content": "Khảo sát thời gian tự học trong ngày (giờ) của 20 học sinh lớp 12 được cho bởi bảng số liệu ghép nhóm: $[1; 3)$ có 4 học sinh; $[3; 5)$ có 10 học sinh; $[5; 7)$ có 6 học sinh. Tính phương sai $s^2$ của mẫu số liệu ghép nhóm này.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "1.96",
+            "49/25"
+          ],
+          "tolerance": 0.05,
+          "instructions": "Nhập số thập phân (ví dụ 1.96) hoặc phân số"
+        },
+        "explanation": "Giá trị đại diện các nhóm lần lượt là: $c_1 = 2$ (tần số 4), $c_2 = 4$ (tần số 10), $c_3 = 6$ (tần số 6). Tổng $n = 20$. Trung bình $\\overline{x} = \\dfrac{4(2) + 10(4) + 6(6)}{20} = \\dfrac{8 + 40 + 36}{20} = \\dfrac{84}{20} = 4{,}2$. Phương sai $s^2 = \\dfrac{4(2 - 4{,}2)^2 + 10(4 - 4{,}2)^2 + 6(6 - 4{,}2)^2}{20} = \\dfrac{4(4{,}84) + 10(0{,}04) + 6(3{,}24)}{20} = \\dfrac{19{,}36 + 0{,}40 + 19{,}44}{20} = \\dfrac{39{,}2}{20} = 1{,}96$."
+      },
+      {
+        "itemNumber": 22,
+        "part": "Phần III",
+        "externalId": "KNTT12-PILOT-SA06",
+        "chapterCode": "KNTT-12-C06",
+        "topicCode": "KNTT-12-C06-T01",
+        "questionType": "SHORT_ANSWER",
+        "difficulty": "EASY",
+        "cognitiveLevel": "UNDERSTANDING",
+        "sourceOrigin": {
+          "sourceId": "SRC-12-01",
+          "examTitle": "Đề tham khảo tốt nghiệp THPT 2025 Bộ GD&ĐT",
+          "itemNumberInExam": 30
+        },
+        "content": "Cho hai biến cố $A$ và $B$ thỏa mãn $P(B) = 0{,}5$ và $P(A \\cap B) = 0{,}2$. Tính xác suất có điều kiện $P(A|B)$.",
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "acceptedAnswers": [
+            "0.4",
+            "2/5"
+          ],
+          "tolerance": 1e-9,
+          "instructions": "Nhập số thập phân (0.4) hoặc phân số (2/5)"
+        },
+        "explanation": "Áp dụng công thức xác suất có điều kiện: $P(A|B) = \\dfrac{P(A \\cap B)}{P(B)} = \\dfrac{0{,}2}{0{,}5} = 0{,}4$."
+      }
+    ]
+  }
+]

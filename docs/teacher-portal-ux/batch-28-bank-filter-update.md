@@ -1,0 +1,4 @@
+# Batch28 — Cập nhật nhãn dưới bộ lọc
+P1: khi câu cuối trang2 không còn khớp filter sau save, pager clamp về1 nhưng slice vẫn page2 tạo blank giả. Dùng currentPage cùng công thức cho slice, index và pager. Khi difficulty/topic thay đổi làm câu rời filter, thông báo success ở ngoài card giải thích nơi tìm lại; per-question success có thể biến mất là đúng theo filter. Không đổi giá trị lọc hoặc tự bỏ filter.
+QuestionBankView.jsx; verify-teacher-bank-labels.mjs.
+Fixture11 câu EASY, pageSize10: trang2 có1 câu; đổi HARD thành công thì10 câu EASY còn lại xuất hiện trang1/1, có notice. Save failure/retry và2 foreign controls disabled vẫn đạt. Build và density/axe6screens chạy lại đạt, không pageerror. Không server writes thật. Evidence teacher-bank-labels/verification.json; teacher-density/verification.json. Không ảnh baseline mới cho interaction này. Goal active, chưa tuyên bố hoàn tất toàn portal.

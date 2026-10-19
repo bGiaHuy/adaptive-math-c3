@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "desktop: review links open paper/analysis; reopened review requires acknowledgment; Escape restores trigger",
+    "tablet: review links open paper/analysis; reopened review requires acknowledgment; Escape restores trigger",
+    "mobile: review links open paper/analysis; reopened review requires acknowledgment; Escape restores trigger"
+  ],
+  "mutations": [],
+  "errors": []
+}

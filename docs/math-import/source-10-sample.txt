@@ -1,0 +1,152 @@
+PAGE 1
+Mã đề 901 Trang 1/2 
+UBND PHƯỜNG HỒNG AN 
+TRƯỜNG THCS QUÁN TOAN 
+ 
+-------------------- 
+(Đề thi có 02  trang) 
+ĐỀ KIỂM TRA CUỐI HỌC KÌ I 
+NĂM HỌC 2025 - 2026 
+MÔN: TOÁN 
+Thời gian làm bài: 90 phút 
+(không kể thời gian phát đề) 
+ 
+Họ và tên: ............................................................................ Số báo danh: ....... Mã đề 901 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn. Thí sinh trả lời từ câu 1 đến câu 12. Mỗi 
+câu hỏi thí sinh chỉ chọn một phương án. 
+Câu 1. Biển báo giao thông (hình bên) báo trọng tải P  tối đa của toàn bộ xe khi đi qua cầu. Nếu 
+một xe tải đi trên cầu đó thì P  phải thỏa mãn điều kiện nào trong các điều kiện sau để đúng quy 
+định với biển báo giao thông? 
+ 
+ A. 10P > . B. 10P ≤ . C. 10P < . D. 10P ≥ . 
+Câu 2. Cho các hình vẽ dưới đây, hình vẽ nào minh họa góc ở tâm? 
+ 
+ A. Hình 3. B. Hình 1. C. Hình 4. D. Hình 2. 
+Câu 3. Cho tam giác MNP  vuông tại M  có 9 ,  12MN cm MP cm= = . Khi đó, cos N  bằng 
+ A. 4
+3 . B. 3
+5  . C. 3
+4 . D. 4
+5 . 
+Câu 4. Căn bậc hai số học của 7 là 
+ A. 7± . B. 7  C. 49. D. 7− . 
+Câu 5. Hệ phương trình 23
+31
+xy
+xy
++= −
+ +=
+ có nghiệm là 
+ A. ( )2;1− . B. ( )2;1 . C. ( )2; 1−− . D. ( )2; 1− . 
+Câu 6. Cho tam giác ABC  vuông tại A, đường cao AH . Chọn khẳng định sai trong các khẳng định sau 
+ A. tan AHC AC= . B. sin AHB AB= . C. cos ACC BC= . D. tan ACB AB= . 
+Câu 7. Cho hai đường tròn ( ); 6O cm  và ( )';  2O cm . Biết '9OO cm= . Khi đó vị trí tương đối của hai 
+đường tròn đã cho là 
+ A. cắt nhau. B. ở ngoài nhau. C. tiếp xúc trong. D. tiếp xúc ngoài. 
+Câu 8. Hai tiếp tuyến tại B  và C  của đường tròn ()O  cắt nhau tại A. Chọn khẳng định sai? 
+ A. OA là đường trung trực của BC . B. OA BC⊥ . 
+ C. OA BC⊥  tại trung điểm của OA. D. AB AC= . 
+Câu 9. Hệ phương trình nào dưới đây là hệ hai phương trình bậc nhất hai ẩn? 
+ A. .0
+31
+02
+x
+x
+y
+y
+ −=
+=
+
++  B. .
+5
+32
+2
+xy
+xy−
++
+=
+=
+
+−  C. 2
+0 .23
+xy
+xy
++=
+−+ =
+ D. 
+2
+.
+3
+32
+2y
+xy
+x
++
+ −=
+=  
+Câu 10. Điều kiện để biểu thức 14 x−  xác định là 
+ A. 1
+4x ≥ . B. 1
+4x ≤ . C. 1
+4x ≤− . D. 1
+4x ≥− . 
+Câu 11. Cho đường tròn ( ; 5 )O cm  và một điểm M  cách O  là 13 .cm  Vẽ tiếp tuyến MA với đường 
+tròn ( A là tiếp điểm). Khi đó, độ dài đoạn thẳng MA là 
+ A. 10 cm . B. 6 cm. C. 12 cm . D. 8 cm . 
+Câu 12. Số nào dưới đây không là nghiệm của bất phương trình 2 40x −≥ ? 
+ A. 5 . B. 11
+5 . C. 2. D. 3 . 
+PHẦN II. Câu trắc nghiệm đúng sai. Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) 
+ở mỗi câu, thí sinh chọn đúng hoặc sai. 
+Câu 1. Cho bất đẳng thức ab≥ . 
+ a) ( ) ( )25 25 . ab− ≥−  b) 2025 2026 2025 2026.ab−≤ −  
+ c) 5 5.ab− ≤−  d) 
+22
+33 ma mb− ≤−  với 0.m <  
+Câu 2. Cho biểu thức 3
+3
+xA
+x
+−=
++
+ và 3 3 27
+93
+xB xx
++= + −+
+ 
+ a) Giá trị của biểu thức .P AB=  tại 3x =  là 1. 
+ b) Kết quả rút gọn của B  là 6
+3x
+⋅
+−
+ 
+ c) Điều kiện của x  để biểu thức B  có giá trị không âm là 9.x ≥  
+ d) ĐKXĐ của biểu thức A và B  là 0, 9xx≥≠ . 
+Câu 3. Một ô tô đi quãng đư ờng AB  với vận tốc 60 / ,km h  rồi đi tiếp quãng đư ờng BC với vận tốc 
+50 / .km h  Biết quãng đường AB  và BC  dài tổng cộng 190km và thời gian ô tô đi trên quãng đư ờng 
+AB  ít hơn thờ i gian ô tô đi trên quãng đư ờng BC  là 30phút. Gọi thờ i gian ô tô đi trên các quãng 
+đường AB  và BC  lần lượt là , xy (giờ). 
+ a) Thời gian ô tô đi hết đường AB  là 1, 5 giờ. 
+ b) Điều kiện , , 0,5.xy y∈>  
+ c) Quãng đường AB  dài ( )60x km , quãng đường BC dài 50 ( ).y km  
+ d) Phương trình biểu diễn liên hệ giữa thời gian ô tô đi trên quãng đường AB  và thời gian ô tô đi 
+trên quãng đường BC  là 30yx−= . 
+Câu 4. Cho ABC∆  vuông tại ,A  0
+5 , 40 .AB cm ACB= =   Đường tròn tâm I , đường kính AB  cắt BC
+ở .M  
+ a) AM  ⊥  .BC  
+ b) Đường tròn đường kính AC  đi qua điểm .M  
+ c) Độ dài cung nhỏ BM  là ( )10 .9 cm  
+ d) Diện tích đường tròn ( ),I IA   bằng ( )
+225 .2 cmπ  
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Thí sinh trả lời từ câu 1 đến câu 6. 
+Câu 1. Mặt đĩa CD ở hình sau có dạng hình vành khuyên giới hạn bởi hai đường tròn có bán kính lần 
+lượt là 1, 5 cm  và 5 cm. Hình vành khuyên đó có diện tích bằng bao nhiêu centimét vuông? (Lấy 
+3 14,π = , làm tròn kết quả đến hàng đơn vị). 
+
+
+PAGE 7
+ 
+ 
+Xem thêm: ĐỀ THI HK1 TOÁN 9 
+https://thcs.toanmath.com/de-thi-hk1-toan-9  

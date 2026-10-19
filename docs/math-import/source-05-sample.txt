@@ -1,0 +1,151 @@
+PAGE 1
+Hình học 9 - Chương 9: Đường tròn ngoại tiếp và đường tròn nội tiếp   – Đề bài tự luận phân dạng và trắc nghiệm 4 phần  
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 9 
+ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP 
+ 
+BÀI 27 
+GÓC NỘI TIẾP 
+ 
+1. Đ ịnh nghĩa: Góc n ội tiếp là góc có đ ỉnh nằm tr ên đường tr òn và hai c ạnh chứa hai dây cung của 
+đường tròn đó. Cung nằm bên trong góc nội tiếp được gọi là cung bị chắn. 
+ 
+ Trong các hình trên, góc B  là góc nội niếp, còn các góc , ,A C D  không phải là góc nội tiếp. 
+2. Định lí: Trong một đường tròn, số đo của góc nội tiếp bằng nửa số đo của cung bị chắn.  
+ 
+ 1
+2 BCBAC s đ  ;  1
+2 ACABC s đ  ;  1
+2 ABACB s đ  ( góc nội tiếp bằng nửa số đo của cung bị chắn) 
+Nhận xét: 
+  Các góc nội tiếp bằng nhau chắn các cung bằng nhau. 
+ 
+Nếu  
+1 2A A  thì  Cs MBđ sđ M  (hai góc nội tiếp bằng nhau thì chắn hai cung bằng nhau) 
+ 
+ 
+ 
+
+PAGE 7
+Hình học 9 - Chương 9: Đường tròn ngoại tiếp và đường tròn nội tiếp   – Đề bài tự luận phân dạng và trắc nghiệm 4 phần  
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 7
+   PHẦN B 
+TRẮC NGHIỆM VÀ TỰ LUẬN GỒM BỐN PHẦN 
+ 
+PHẦN I. Câu trắc nghiệm nhiều ph ương án l ựa chọn. Mỗi câu hỏi thí sinh chỉ chọn một ph ương 
+án. 
+Câu 1. Góc nội tiếp nhỏ hơn hoặc bằng 90  có số đo 
+ A. Bằng nửa số đo góc ở tâm cùng chắn một cung.  
+ B. Bằng số đo của góc ở tâm cùng chắn một cung. 
+ C. Bằng số đo cung bị chắn. 
+ D. Bằng nửa số đo cung lớn. 
+Câu 2. Góc nội tiếp chắn nửa đường tròn bằng bao nhiêu độ? 
+ A. 45. B. 90 . C. 60. D. 120 . 
+Câu 3. Khẳng định nào sau đây là sai? 
+ A. Trong một đường tròn, góc nội tiếp chắn nửa đường tròn là góc vuông. 
+ B. Trong một đường tròn, hai góc nội tiếp bằng nhau chắn hai cung bằng nhau. 
+ C. Trong một đường tròn, hai góc nội tiếp cùng chắn cung một cung thì bằng nhau. 
+ D. Trong một đường tròn, hai góc nội tiếp bằng nhau thì cùng chắn một cung. 
+Câu 4. Cho đường tròn  O và góc ACB   như hình vẽ. 
+ 
+Nhận định nào sau đây đúng? 
+ A. 1
+2 sđ AB  .   
+ B.   là góc nội tiếp của đường tròn  O . 
+ C.   không phải là góc nội tiếp của đường tròn  O .  
+ D. Tất cả đều sai. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 16
+Hình học 9 - Chương 9: Đường tròn ngoại tiếp và đường tròn nội tiếp   – Đề bài tự luận phân dạng và trắc nghiệm 4 phần  
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 16 
+PHẦN II. Câu trắc nghiệm đúng sa i. Trong m ỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc 
+sai. 
+Câu 31. Cho nửa đường tr òn  O  đường kính MN , tiếp tuyến Nx . Qua A  trên n ửa đường tr òn ( A  
+không trùng với ,M N  ) kẻ tiếp tuyến với nửa đường tròn cắt Nx  ở B . Tia MA  cắt Nx  ở C . 
+ 
+O
+C
+B
+A
+x
+NM
+ 
+a)  2
+3AMN AON  
+b)  AMN AOB  
+c) OB AN  
+d) Giả sử  3AB cm , khi đó  7NC cm . 
+Câu 32. Cho ΔABC  là tam giác nhọn cân tại A . Kẻ hai đường cao BH  và CK . 
+a) Đường tròn tâm O  đường kính BC  đi qua K  và H .  
+b) Số đo cung nhỏ BK   bằng số đo cung nhỏ HC .  
+c) Số đo cung nhỏ BH   lớn số đo cung nhỏ CK .  
+d) Giả sử   040BAC  , khi đó số đo của cung nhỏ KH  bằng 0100 . 
+Câu 33. Cho tam giác ABC  có ba góc nh ọn, đường cao AH . Vẽ đường tròn ( )O , đường kính AM  đi 
+qua ba đỉnh của tam giác ABC . Gọi N  là giao điểm của AH  với đường tròn ( )O . 
+N
+H
+M
+O
+A
+CB
+ 
+a)  90ACM     
+b)  OAC BAH  
+c) Tứ giác BCMN  là hình thang cân. 
+d)  BAH OCA  
+
+PAGE 21
+Hình học 9 - Chương 9: Đường tròn ngoại tiếp và đường tròn nội tiếp   – Đề bài tự luận phân dạng và trắc nghiệm 4 phần  
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 21 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Mỗi câu hỏi thí sinh chỉ trả lời đáp án. 
+Câu 41. Cho đường tròn ( )O đi qua ba đỉnh của tam giác đều ABC . Số đo cung BC  nhỏ bằng bao nhiêu 
+độ? 
+Trả lời: ……………….. 
+Câu 42. Cho đường tròn ( )O đi qua ba đỉnh của tam giác đều ABC . Số đo cung AC  lớn bằng bao nhiêu 
+độ? 
+Trả lời: ……………….. 
+Câu 43. Cho đường tròn ( )O  và điểm I  nằm ngoài ( )O . Từ điểm I  kẻ hai dây cung AB  và CD  ( A  
+nằm giữa I  và ,B C  nằm giữa I  và D ) sao cho  120CAB   . Tổng hai góc IAC  và IDB  bằng bao 
+nhiêu độ? 
+Trả lời: ……………….. 
+Câu 44. Cho đường tròn  ;O R đi qua ba đỉnh của tam giác ABC  có  45C    và  10 2AB cm . Bán 
+kính đường tròn ( )O  bằng bao nhiêu centimet? 
+Trả lời: ……………….. 
+Câu 45. Cho tam giác ABC  có 5 ; 3AB cm AC cm   đường cao AH . Vẽ đường tròn ( )O  đường kính 
+AD  đi qua ba đỉnh của tam giác ABC . Khi đó tích .AH AD  bằng bao nhiêu centimet vuông? 
+Trả lời: ……………….. 
+Câu 46. Cho đường tr òn  ;O R đi qua ba đ ỉnh của tam giác ABC . Kẻ đường cao AH  của tam giác 
+ABC   H BC . Biết 5R cm  và 8AH cm , khi đó .AB AC  bằng bao nhiêu centimét vuông? 
+Trả lời: ……………….. 
+Câu 47. Cho đường tròn  ;O R  đi qua ba đ ỉnh của tam giác ABC  có  30BAC   . Biết 2026R mm , 
+khi đó độ dài BC  bằng bao nhiêu milimét? 
+Trả lời: ……………….. 
+Câu 48. Cho hình vẽ, biết Ax  là tiếp tuyến của  O , số đo  40AEB   . Số đo BAx  bằng bao nhiêu độ? 
+ 
+Trả lời: ……………….. 
+ 
+ 
+ 
+ 
+
+PAGE 334
+Hình học 9 - Chương 9: Đường tròn ngoại tiếp và đường tròn nội tiếp  – Trắc nghiệm 4 phần có lời giải                                  
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 28 
+Ta có: OD OA  và  60AOD    nên tam giác AOD  là tam giác đều AD OA OD R    ( R  là bán 
+kính đường tròn  O ). 
+Chứng minh tương tự, ta có: BE CF R AD BE CF R       (*) 
+Tam giác ABC  đểu nội tiếp đường tròn   O , ta có: OD OA OB   (1) 
+Lại có  120AOB    mà  60AOD    (cmt)  60DOB     
+Từ (1) và  2   suy ra Tam giác DOB  là tam giác đều.  
+chứng minh tương tự các tam giác ECC và FOA cũng là tam giác đều DB EC EA R    (**) 
+Từ (*) và (**) AD DB BE EC CE EA R        (3) 
+Dễ thấy      ADB DBE BEC ECF CFA FAD      (4) 
+Từ (3) và (4) suy ra ADCECF  là một lục giác đều. 
+ 
+ 

@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "desktop: Escape clears password fields and visibility before reopen; no password submission",
+    "tablet: Escape clears password fields and visibility before reopen; no password submission",
+    "mobile: Escape clears password fields and visibility before reopen; no password submission"
+  ],
+  "errors": []
+}

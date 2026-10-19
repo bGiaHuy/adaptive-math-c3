@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Retrying class details during pending gradebook does not invalidate gradebook response or leave spinner stuck"
+  ],
+  "errors": [],
+  "releasedReports": 19
+}

@@ -1,0 +1,3 @@
+Tìm bổ sung đề Toán 9 GDPT2018 có nhiều lựa chọn (mỗi câu4 phương án,1 đúng), đúng/sai (4 ý a–d), trả lời ngắn. Ưu tiên thống kê, xác suất, hình trụ/nón/cầu và đề học kỳ2 có đáp án. Đối chiếu DANH-MUC.csv trong tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16 để tránh trùng. Nguồn mới đã tìm: HK2 Hưng Yên2025–2026, https://thcs.toanmath.com/2026/04/de-cuoi-hoc-ky-2-toan-9-nam-2025-2026-so-gddt-hung-yen.html. Chỉ dùng tài liệu công khai; lưu PDF nguyên bản, URL nguồn/tải, tác giả/trường, năm, số trang, trang từng loại và đáp án. Không đoán công thức/đáp án. Không nhập hoặc xuất bản vào ứng dụng. Xuất CSV và danh sách câu cần rà soát.
+
+Phiên Codex hiện không có connector/công cụ gửi trực tiếp sang Antigravity; đây là prompt bàn giao, không phải bằng chứng đã gửi.

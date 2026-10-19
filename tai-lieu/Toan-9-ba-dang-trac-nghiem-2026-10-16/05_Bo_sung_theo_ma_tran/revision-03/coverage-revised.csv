@@ -1,0 +1,11 @@
+﻿slot,name,totalCandidates,fullyMatchedCandidates,partiallyMatchedCandidates,lackingEvidenceCandidates,approvedCount,independentSourcesCount,targetStatus,auditSummary
+2,"Phương trình quy về bậc nhất (TN, Nhận biết)",7,6,1,0,0,2,REACHED_PROVISIONAL_TARGET_GE_5,6 câu TN Nhận biết khớp đầy đủ; 1 câu Đúng/Sai đại số CAND-SLOT13-05 chuyển về (chờ quy tắc gộp).
+10,"Tứ giác nội tiếp, đa giác đều (TN, Thông hiểu)",6,6,0,0,0,4,REACHED_PROVISIONAL_TARGET_GE_5,"Đạt 6 ứng viên khớp chuyên đề và mức Thông hiểu, 100% đối chiếu chính xác từ PDF gốc."
+11,"Thống kê, tần số tương đối (TN, Nhận biết)",6,5,0,1,0,4,REACHED_PROVISIONAL_TARGET_GE_5,Bổ sung CAND-SLOT11-REPL01 (đề HK2 CVA Gia Lai) thay thế cho câu gán sai nguồn; đạt 5 ứng viên khớp đầy đủ; 1 câu cách ly do thiếu căn cứ.
+13,"Mô hình hóa bằng pt và hệ (Đ/S 4 ý, Thông hiểu)",4,0,4,0,0,4,PENDING_TF_AGGREGATION_RULE,"4 câu Đúng/Sai mô hình toán học hợp lệ (CAND-SLOT13-05 đã chuyển sang Slot 2). cognitiveLevel câu chính để null, chờ quy tắc gộp."
+14,"Biến đổi căn thức (Đ/S 4 ý, Thông hiểu)",5,0,3,2,0,3,PENDING_TF_AGGREGATION_RULE,3 câu Đúng/Sai căn thức hợp lệ (chờ quy tắc gộp); 2 câu cách ly do thiếu chứng cứ nguồn thực tế.
+15,"Quan hệ hình học đường tròn (Đ/S 4 ý, Thông hiểu)",5,0,3,2,0,3,PENDING_TF_AGGREGATION_RULE,3 câu Đúng/Sai hình học hợp lệ (chờ quy tắc gộp); 2 câu cách ly do thiếu chứng cứ nguồn thực tế.
+16,"Đọc và phân tích dữ liệu (Đ/S 4 ý, Thông hiểu)",5,0,3,2,0,3,PENDING_TF_AGGREGATION_RULE,3 câu Đúng/Sai thống kê hợp lệ (chờ quy tắc gộp); 2 câu cách ly do thiếu chứng cứ nguồn thực tế.
+17,"Viète và ứng dụng (Ngắn, Vận dụng)",6,4,0,2,0,4,BELOW_TARGET_MISSING_1,Bổ sung CAND-SLOT17-REPL01 (đề HK2 CVA Gia Lai); đạt 4 câu trả lời ngắn Viète khớp đầy đủ; 2 câu cách ly do thiếu chứng cứ.
+20,"Diện tích, thể tích thực tiễn (Ngắn, Vận dụng)",6,5,0,1,0,3,REACHED_PROVISIONAL_TARGET_GE_5,Bổ sung CAND-SLOT20-REPL01 (lon nước ngọt hình trụ đề CVA Gia Lai); đạt 5 câu trả lời ngắn hình khối thực tiễn; 1 câu cách ly do thiếu chứng cứ.
+22,"Hình học nội tiếp tổng hợp (Ngắn, Vận dụng cao)",6,1,5,0,0,4,BELOW_TARGET_MISSING_4,Bổ sung CAND-SLOT22-NEW01 (đề thi thử vào 10 Cụm 2 Hải Phòng) đạt chuẩn VDC (ADVANCED_APPLYING); 5 câu cũ là mức Thông hiểu/Vận dụng cơ bản.

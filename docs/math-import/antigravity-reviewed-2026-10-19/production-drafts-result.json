@@ -1,0 +1,36 @@
+{
+  "mode": "APPLY",
+  "sha256": "0e49849db1e441734165e7dcf2648ce23c4ff855f8292689b27b4e2bbd304f4a",
+  "quarantined": 30,
+  "existingDrafts": 0,
+  "newTopics": [
+    {
+      "code": "MATH9-ANGLE-MEASURE",
+      "title": "Đo góc và ứng dụng thực tế",
+      "chapter": "ĐƯỜNG TRÒN",
+      "grade": 9,
+      "orderIndex": 33
+    },
+    {
+      "code": "MATH9-PLANE-AREA",
+      "title": "Diện tích hình phẳng tổng hợp",
+      "chapter": "ĐƯỜNG TRÒN",
+      "grade": 9,
+      "orderIndex": 34
+    },
+    {
+      "code": "MATH9-CIRCLE-INTERSECTIONS",
+      "title": "Đường tròn giao nhau và hệ thức dây cung",
+      "chapter": "ĐƯỜNG TRÒN",
+      "grade": 9,
+      "orderIndex": 35
+    }
+  ],
+  "allStatus": "DRAFT",
+  "studentEligible": false,
+  "result": {
+    "added": 30,
+    "skipped": 0
+  },
+  "verifiedDrafts": 30
+}

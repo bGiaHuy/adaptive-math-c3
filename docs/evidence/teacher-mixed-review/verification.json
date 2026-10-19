@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "desktop: eight answer-state labels, four review matches, jump resets filter and focuses selected question",
+    "tablet: eight answer-state labels, four review matches, jump resets filter and focuses selected question",
+    "mobile: eight answer-state labels, four review matches, jump resets filter and focuses selected question"
+  ],
+  "accessibility": [
+    {
+      "size": "desktop",
+      "violations": []
+    },
+    {
+      "size": "tablet",
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

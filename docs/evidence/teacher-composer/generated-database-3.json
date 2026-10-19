@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "In the Enrollment(StudentID, CourseID, StudentName, CourseName, Grade) relation, why does the current schema violate Second Normal Form (2NF)?",
+      "options": [
+        {
+          "key": "A",
+          "content": "StudentName and CourseName are not atomic attributes"
+        },
+        {
+          "key": "B",
+          "content": "StudentName depends only on StudentID and CourseName depends only on CourseID, which are only part of the composite key"
+        },
+        {
+          "key": "C",
+          "content": "There is no primary key defined for the relation"
+        },
+        {
+          "key": "D",
+          "content": "Grade has a transitive dependency on StudentID through CourseID"
+        }
+      ],
+      "correctOption": "B",
+      "difficulty": "HARD",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "2NF requires that all non-key attributes depend on the entire composite key, not just part of it. StudentName depends only on StudentID (half of the key) and CourseName depends only on CourseID (the other half), creating partial dependencies that violate 2NF. Decomposing into separate Student, Course, and Enrollment relations resolves this."
+    },
+    {
+      "questionType": "TRUE_FALSE",
+      "content": "Evaluate each statement about database concepts:",
+      "statements": [
+        {
+          "key": "a",
+          "content": "HAVING clause filters individual rows before GROUP BY groups them",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "A LEFT JOIN preserves all unmatched rows from the left table, filling right table columns with null values",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Atomicity ensures that committed database changes are preserved even after a system crash",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "COUNT(column) excludes null values while COUNT(*) counts all rows",
+          "isCorrect": true
+        }
+      ],
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Statement (a) is false: HAVING filters groups after GROUP BY, not before. Statement (b) is true: LEFT JOIN preserves all rows from the left table. Statement (c) is false: durability (not atomicity) ensures committed changes persist after a crash; atomicity means all operations commit together or rollback together. Statement (d) is true: COUNT(column) ignores nulls; COUNT(*) counts every row."
+    },
+    {
+      "questionType": "SHORT_ANSWER",
+      "content": "A database uses a B-tree index on the SalaryRange column to optimize queries. When a new employee record is inserted, what is the primary trade-off that occurs?",
+      "shortAnswer": {
+        "mode": "TEXT",
+        "acceptedAnswers": [
+          "write overhead",
+          "write performance",
+          "storage overhead",
+          "storage cost",
+          "increased write time",
+          "maintenance cost"
+        ],
+        "caseSensitive": false,
+        "instructions": "Enter the primary trade-off introduced when maintaining the B-tree index during inserts. Use 2–4 words (e.g., 'write overhead' or 'storage cost'). Do not include articles or extra words."
+      },
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "While B-tree indexes speed up read operations and range searches, they add overhead during write operations (inserts, updates, deletes) because the index structure must be maintained and rebalanced. They also consume additional storage space. The primary trade-off is the performance cost and complexity of writes or the storage cost required to maintain the index."
+    }
+  ],
+  "questionCounts": {
+    "SINGLE_CHOICE": 1,
+    "TRUE_FALSE": 1,
+    "SHORT_ANSWER": 1
+  }
+}

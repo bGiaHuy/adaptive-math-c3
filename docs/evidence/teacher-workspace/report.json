@@ -1,0 +1,19 @@
+{
+  "database": "teacher_workspace_qa_1792244390869",
+  "checks": [
+    "DOCX stored privately and converted for browser preview; unassigned student denied",
+    "Another teacher cannot read or change the class assignment",
+    "No answers in take; hidden score blocked in submit, result and assignment list",
+    "Activity is durable and idempotent; reload separate; skipped separated from wrong",
+    "Regrade preview is read-only; atomic apply; stale revision rejected; original question unchanged",
+    "Publication and solutions visibility separate; teacher endpoint denies students",
+    "Teacher UI answer edit, preview and regrade persist to database",
+    "866px manual layout keeps radio compact and answer input wide; document upload and answer-key UI work",
+    "Real student browser tab switch saved on server and survives page reload",
+    "Desktop and mobile teacher flow rendered; no page overflow"
+  ],
+  "errors": [],
+  "accessibility": [],
+  "classroomId": "8ea8b3a1-3297-48a8-b6eb-228bd28d33d6",
+  "assignmentId": "ebeb9cf4-37a8-4d84-8dba-530dc203d190"
+}

@@ -1,0 +1,472 @@
+[
+  {
+    "externalId": "KNTT10-PILOT-SC01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC07",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC08",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC09",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC10",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC11",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC12",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC13",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC14",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC15",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC16",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC17",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC18",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC07",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC08",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC09",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC10",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC11",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC12",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC13",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC14",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC15",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC16",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC17",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC18",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC07",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC08",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC09",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC10",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC11",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC12",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC13",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC14",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC15",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC16",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC17",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC18",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA01",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA02",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA03",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA04",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA05",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA06",
+    "code": "NO_QUESTION_PAGE",
+    "details": "No per-question page or exam version for source comparison"
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF02",
+    "code": "WRONG_TRUTH_KEY",
+    "details": "Statement c says 99 is a term. u_n=4n-1; n=(99+1)/4=25. Expected true, stored false. Original explanation itself confirms true. Also appears in grade 11 paper selection."
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA05",
+    "code": "ANSWER_FORMAT_CONFLICT",
+    "details": "Prompt requests reduced fraction a/b; instructions and TEXT acceptedAnswers also allow rounded 0.47. Need one explicit grading policy; no silent change."
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC01",
+    "code": "INSUFFICIENT_EXTREMUM_ASSUMPTIONS",
+    "details": "Derivative sign on either side alone does not guarantee a local maximum at x=1 without continuity/value assumptions. Variation table is mentioned but not attached. Review source table."
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC18",
+    "code": "MISSING_CONDITIONAL_PROBABILITY_ASSUMPTION",
+    "details": "P(A|B_i) needs P(B_i)>0. State this explicitly or verify the textbook definition of the partition used."
+  }
+]

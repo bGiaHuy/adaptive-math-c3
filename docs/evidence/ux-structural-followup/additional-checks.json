@@ -1,0 +1,94 @@
+[
+  {
+    "size": "desktop",
+    "kind": "create",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Tạo lớp",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "desktop",
+    "kind": "delete",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Xóa bài",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "desktop",
+    "priorityFilter": "LOW",
+    "rows": 10
+  },
+  {
+    "size": "laptop",
+    "kind": "create",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Tạo lớp",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "laptop",
+    "kind": "delete",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Xóa bài",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "laptop",
+    "priorityFilter": "LOW",
+    "rows": 10
+  },
+  {
+    "size": "tablet",
+    "kind": "create",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Tạo lớp",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "tablet",
+    "kind": "delete",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Xóa bài",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "tablet",
+    "priorityFilter": "LOW",
+    "rows": 10
+  },
+  {
+    "size": "mobile",
+    "kind": "create",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Tạo lớp",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "mobile",
+    "kind": "delete",
+    "bodyLocked": true,
+    "tabsContained": true,
+    "closed": true,
+    "returned": "Xóa bài",
+    "bodyUnlocked": true
+  },
+  {
+    "size": "mobile",
+    "priorityFilter": "LOW",
+    "rows": 10
+  }
+]

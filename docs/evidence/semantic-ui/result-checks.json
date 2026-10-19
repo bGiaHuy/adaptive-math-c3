@@ -1,0 +1,11 @@
+{
+  "source": "Isolated actual result component with controlled eight-state fixture",
+  "checks": [
+    "Eight distinct result labels",
+    "Tab stays inside modal",
+    "Shift-Tab wraps",
+    "Keyboard expands solution"
+  ],
+  "errors": [],
+  "a11y": []
+}

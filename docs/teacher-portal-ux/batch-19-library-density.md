@@ -1,0 +1,5 @@
+# Batch19 — Thư viện mobile có độ dài phù hợp hơn
+P1: thư viện hiện tại3478px ở390×844 do10 bài dạng card. Dùng pageSize responsive chung:5 mobile,10 màn lớn, chọn5/10/20 bài. TeacherPageSize nhận label tùy ngữ cảnh (câu/bài); đổi số lượng reset page. Giữ nút kết quả/đáp án và thao tác phụ, không bỏ tính năng.
+Files TeacherLibrary.jsx, TeacherListControls.jsx; verify-teacher-library-density.mjs. Chrome fixture1440×900,820×1000,390×844: defaults/paging/20perpage/reset/search không dấu/paper-back giữ filter; không pageerror/overflow. Build đạt. Ảnh full-page mobile đã xem: các hành động và pager đều hiện.
+Before docs/evidence/teacher-portal-product/accessibility-current-library-mobile.png (3478px); after docs/evidence/teacher-library-density/library-mobile.png (2271px), cùng390×844/dữ liệu36 bài, giảm1207px. Desktop1842/tablet3179px; chưa tối ưu chiều dài tablet, không suy từ mobile. JSON checks và measurements tại cùng thư mục.
+Goal active. Cần kiểm tra các script library cũ theo markup mới, audit cuối và xử lý ngữ cảnh pageSize khi quay lại/resize theo nhu cầu thực tế. Không ghi máy chủ thật.

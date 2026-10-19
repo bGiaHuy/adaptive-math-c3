@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "desktop: back during pending request remains in library after old response",
+    "desktop: old report response cannot replace newer assignment",
+    "tablet: back during pending request remains in library after old response",
+    "tablet: old report response cannot replace newer assignment",
+    "mobile: back during pending request remains in library after old response",
+    "mobile: old report response cannot replace newer assignment"
+  ],
+  "errors": [],
+  "releasedResponses": 6
+}

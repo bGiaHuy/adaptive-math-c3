@@ -1,0 +1,57 @@
+{
+  "source": "C:/Users/Administrator/Documents/Codespace/Adaptive Learning/Adaptive English/adaptivemath-main",
+  "declared": 1472,
+  "actual": 1472,
+  "topics": 92,
+  "grades": {
+    "6": {
+      "count": 352,
+      "topics": 22,
+      "levels": {
+        "N": 88,
+        "H": 88,
+        "V": 88,
+        "T": 88
+      },
+      "uniquePrompts": 271
+    },
+    "7": {
+      "count": 368,
+      "topics": 23,
+      "levels": {
+        "N": 92,
+        "H": 92,
+        "V": 92,
+        "T": 92
+      },
+      "uniquePrompts": 240
+    },
+    "8": {
+      "count": 368,
+      "topics": 23,
+      "levels": {
+        "N": 92,
+        "H": 92,
+        "V": 92,
+        "T": 92
+      },
+      "uniquePrompts": 244
+    },
+    "9": {
+      "count": 384,
+      "topics": 24,
+      "levels": {
+        "N": 96,
+        "H": 96,
+        "V": 96,
+        "T": 96
+      },
+      "uniquePrompts": 216
+    }
+  },
+  "uniquePrompts": 953,
+  "repeatedPromptInstances": 519,
+  "duplicateIds": 0,
+  "invalidRecords": 0,
+  "formulaErrors": 0
+}

@@ -1,0 +1,598 @@
+{
+  "simulation": true,
+  "mode": "accelerated normal API flow; read-only answer key used to choose synthetic responses",
+  "attemptId": "e8893616-2de6-42d0-b1f5-0bf518b9d160",
+  "events": [
+    {
+      "questionId": "240a532b-db38-4d51-8131-d51e8c3b3cdb",
+      "selectedOptionKey": "A",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "f2e825a3-be2c-448c-90c2-bc8e9fd82e93",
+      "selectedOptionKey": "A",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "4d512a13-3f0c-4a6c-b654-d5ec01f05850",
+      "selectedOptionKey": "A",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "75ea79a8-2538-47cc-9eaf-ed0011934b21",
+      "selectedOptionKey": "A",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "ab0adeaf-6a11-4dd4-9b39-a426871428bd",
+      "selectedOptionKey": "B",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "e90d8215-3518-4c50-85c3-e811b70bfb75",
+      "selectedOptionKey": "A",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "6c0e7b78-e7d9-4197-b1b0-2c30034e1d49",
+      "selectedOptionKey": "A",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "96558ecf-668a-4014-8d84-bda34b7f5657",
+      "selectedOptionKey": "B",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "9d9a7be2-de13-4ef8-b28d-13cb1ee8e2da",
+      "selectedOptionKey": "B",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "abfcf1af-0035-4056-a367-6fd8d36ac791",
+      "selectedOptionKey": "C",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+      "selectedOptionKey": "A",
+      "isCorrect": true,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "a723c67b-0657-4761-99d8-e76560747ee6",
+      "selectedOptionKey": "B",
+      "isCorrect": false,
+      "timeSpentSeconds": 3
+    },
+    {
+      "questionId": "eab65d80-2ee1-4ea0-98f3-b0f5b28c56bd",
+      "selectedOptionKey": "B",
+      "isCorrect": false,
+      "timeSpentSeconds": 3
+    }
+  ],
+  "submitted": {
+    "attemptId": "e8893616-2de6-42d0-b1f5-0bf518b9d160",
+    "status": "COMPLETED",
+    "finalTheta": 0.7862149757520648,
+    "standardError": 0.6858596221835127,
+    "scorePercentage": 85,
+    "correctCount": 11,
+    "totalAnswered": 13,
+    "skillsEvaluated": [
+      {
+        "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+        "title": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "masteryScore": 89.43801101705404,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "masteryScore": 86.70243498370165,
+        "evidenceCount": 2,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+        "title": "Phương trình bậc hai một ẩn",
+        "masteryScore": 89.43801101705404,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "title": "Đường tròn và góc nội tiếp",
+        "masteryScore": 96.37256893248963,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+        "title": "Căn bậc hai và căn thức cơ bản",
+        "masteryScore": 56.000888197615275,
+        "evidenceCount": 4,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+        "title": "Định lý Viète và ứng dụng",
+        "masteryScore": 96.37256893248963,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+        "title": "Giải bài toán bằng cách lập hệ phương trình",
+        "masteryScore": 75.10181560615037,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "title": "Biến đổi và tính toán với căn thức",
+        "masteryScore": 94.67896748107887,
+        "evidenceCount": 2,
+        "status": "INSUFFICIENT_DATA"
+      }
+    ],
+    "alreadySubmitted": false,
+    "parameterStatus": "PROVISIONAL"
+  },
+  "result": {
+    "attemptId": "e8893616-2de6-42d0-b1f5-0bf518b9d160",
+    "status": "COMPLETED",
+    "finalTheta": 0.7862149757520648,
+    "standardError": 0.6858596221835127,
+    "startedAt": "2026-10-17T06:33:09.544Z",
+    "completedAt": "2026-10-17T06:34:10.694Z",
+    "totalAnswered": 13,
+    "correctCount": 11,
+    "parameterStatus": "PROVISIONAL",
+    "answers": [
+      {
+        "questionId": "240a532b-db38-4d51-8131-d51e8c3b3cdb",
+        "content": "Hệ phương trình $\\begin{cases} x + 2y = 4 \\\\ 2x + 4y = 8 \\end{cases}$ có bao nhiêu nghiệm?",
+        "explanation": "Ta thấy tỉ số các hệ số: $\\frac{1}{2} = \\frac{2}{4} = \\frac{4}{8}$, hai đường thẳng trùng nhau nên hệ có vô số nghiệm.",
+        "skillTitle": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 0.6692426799460209,
+        "options": [
+          {
+            "key": "A",
+            "content": "Vô số nghiệm",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "Vô nghiệm",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "Một nghiệm duy nhất",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "Hai nghiệm",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "f2e825a3-be2c-448c-90c2-bc8e9fd82e93",
+        "content": "Trong tam giác $ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$ và cạnh huyền $BC = 12$ cm. Độ dài cạnh $AB$ là:",
+        "explanation": "Ta có $\\sin C = \\frac{AB}{BC} \\implies AB = BC \\times \\sin 30^\\circ = 12 \\times \\frac{1}{2} = 6\\text{ cm}$.",
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 0.9902362441596058,
+        "options": [
+          {
+            "key": "A",
+            "content": "$6$ cm",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "$6\\sqrt{3}$ cm",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$8$ cm",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$4$ cm",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "4d512a13-3f0c-4a6c-b654-d5ec01f05850",
+        "content": "Tập nghiệm của phương trình bậc hai $x^2 - 5x + 6 = 0$ là:",
+        "explanation": "Ta có $\\Delta = (-5)^2 - 4(1)(6) = 25 - 24 = 1 > 0$. Nghiệm là $x_1 = \\frac{5 + 1}{2} = 3$ và $x_2 = \\frac{5 - 1}{2} = 2$.",
+        "skillTitle": "Phương trình bậc hai một ẩn",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.201610878330863,
+        "options": [
+          {
+            "key": "A",
+            "content": "$S = \\{2;\\; 3\\}$",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "$S = \\{-2;\\; -3\\}$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$S = \\{-1;\\; -6\\}$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$S = \\{1;\\; 6\\}$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "75ea79a8-2538-47cc-9eaf-ed0011934b21",
+        "content": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
+        "explanation": "Theo định lý về góc nội tiếp trong hình học 9: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$).",
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.258670851507429,
+        "options": [
+          {
+            "key": "A",
+            "content": "$90^\\circ$",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "$180^\\circ$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$60^\\circ$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$45^\\circ$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "ab0adeaf-6a11-4dd4-9b39-a426871428bd",
+        "content": "Giá trị của \\sin 30^\\circ bằng:",
+        "explanation": "Theo bảng giá trị lượng giác cơ bản, \\sin 30^\\circ = 1/2.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.310436669919494,
+        "options": [
+          {
+            "key": "A",
+            "content": "1",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "\\frac{1}{2}",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "\\frac{\\sqrt{3}}{2}",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "0",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "e90d8215-3518-4c50-85c3-e811b70bfb75",
+        "content": "Cho phương trình $x^2 - 7x + 10 = 0$. Tổng và tích hai nghiệm $S = x_1 + x_2$ và $P = x_1 \\cdot x_2$ là:",
+        "explanation": "Theo định lý Viète: $S = x_1 + x_2 = -\\frac{b}{a} = -\\frac{-7}{1} = 7$ và $P = x_1 x_2 = \\frac{c}{a} = \\frac{10}{1} = 10$.",
+        "skillTitle": "Định lý Viète và ứng dụng",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.357870013702078,
+        "options": [
+          {
+            "key": "B",
+            "content": "$S = -7;\\; P = 10$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$S = 7;\\; P = -10$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$S = -7;\\; P = -10$",
+            "isCorrect": false
+          },
+          {
+            "key": "A",
+            "content": "$S = 7;\\; P = 10$",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "questionId": "6c0e7b78-e7d9-4197-b1b0-2c30034e1d49",
+        "content": "Hai bạn An và Bình có tổng cộng 50 viên bi. Biết số bi của An nhiều hơn số bi của Bình 10 viên. Số bi của An là:",
+        "explanation": "Gọi số bi của An là x, Bình là y (x, y > 0). Ta có hệ: $\\begin{cases} x + y = 50 \\\\ x - y = 10 \\end{cases}$. Cộng 2 phương trình: $2x = 60 \\implies x = 30$. An có 30 viên bi.",
+        "skillTitle": "Giải bài toán bằng cách lập hệ phương trình",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.656308622483455,
+        "options": [
+          {
+            "key": "A",
+            "content": "30 viên",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "20 viên",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "35 viên",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "25 viên",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "96558ecf-668a-4014-8d84-bda34b7f5657",
+        "content": "Rút gọn \\sqrt{245} được kết quả là:",
+        "explanation": "Ta có $245 = 49 \\times 5 = 7^2 \\times 5$. Do đó $\\sqrt{245} = \\sqrt{7^2 \\times 5} = 7\\sqrt{5}$.",
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.685021339467592,
+        "options": [
+          {
+            "key": "A",
+            "content": "\\sqrt{35}",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "7\\sqrt{5}",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "5\\sqrt{7}",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "49\\sqrt{5}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "9d9a7be2-de13-4ef8-b28d-13cb1ee8e2da",
+        "content": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6$ cm, $AC = 8$ cm. Giá trị $\\sin B$ bằng:",
+        "explanation": "Áp dụng định lý Pythagoras: $BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Tỉ số $\\sin B = \\frac{\\text{đối}}{\\text{huyền}} = \\frac{AC}{BC} = \\frac{8}{10} = \\frac{4}{5}$.",
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.894999976146821,
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\frac{3}{5}$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$\\frac{4}{5}$",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "$\\frac{3}{4}$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$\\frac{4}{3}$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "abfcf1af-0035-4056-a367-6fd8d36ac791",
+        "content": "Tìm $x$ biết $x^2 - 4 = 0$",
+        "explanation": "Phương trình tương đương $(x-2)(x+2) = 0 \\Leftrightarrow x = \\pm 2$",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "C",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.955971066579667,
+        "options": [
+          {
+            "key": "A",
+            "content": "$x = 2$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$x = -2$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$x = \\pm 2$",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "content": "$x = 4$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+        "content": "Trục căn thức ở mẫu của biểu thức \\frac{6}{\\sqrt{3}} ta được:",
+        "explanation": "Nhân cả tử và mẫu với $\\sqrt{3}$, ta có: $\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$.",
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 2.011392422624207,
+        "options": [
+          {
+            "key": "A",
+            "content": "2\\sqrt{3}",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "3\\sqrt{2}",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "\\sqrt{3}",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "6\\sqrt{3}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "a723c67b-0657-4761-99d8-e76560747ee6",
+        "content": "Tam giác ABC vuông tại A có AB = 3cm, AC = 4cm. Độ dài cạnh BC là:",
+        "explanation": "Áp dụng định lý Pythagoras: BC = \\sqrt{AB^2 + AC^2} = \\sqrt{9 + 16} = 5cm.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": false,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 1.19213052547218,
+        "options": [
+          {
+            "key": "A",
+            "content": "5cm",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "7cm",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "6cm",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "25cm",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "eab65d80-2ee1-4ea0-98f3-b0f5b28c56bd",
+        "content": "Tam giác ABC vuông tại A có AB = 3cm, AC = 4cm. Độ dài cạnh BC là:",
+        "explanation": "Áp dụng định lý Pythagoras: BC = \\sqrt{AB^2 + AC^2} = \\sqrt{9 + 16} = 5cm.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": false,
+        "isTimeout": false,
+        "timeSpentSeconds": 3,
+        "thetaAfter": 0.7862149757520648,
+        "options": [
+          {
+            "key": "A",
+            "content": "5cm",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "7cm",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "6cm",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "25cm",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "notebookCount": 4,
+  "activeAttempts": 0
+}

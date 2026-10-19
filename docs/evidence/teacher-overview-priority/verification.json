@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "desktop: attention precedes recent in DOM and visual order; draft action opens paper",
+    "tablet: attention precedes recent in DOM and visual order; draft action opens paper",
+    "mobile: attention precedes recent in DOM and visual order; draft action opens paper"
+  ],
+  "errors": []
+}

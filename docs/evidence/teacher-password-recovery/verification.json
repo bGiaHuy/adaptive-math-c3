@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "desktop: submit disabled while pending; failed request retains inputs; retry success closes dialog and restores scrolling",
+    "tablet: submit disabled while pending; failed request retains inputs; retry success closes dialog and restores scrolling",
+    "mobile: submit disabled while pending; failed request retains inputs; retry success closes dialog and restores scrolling"
+  ],
+  "errors": [],
+  "scope": "Intercepted auth API; no real password changed"
+}

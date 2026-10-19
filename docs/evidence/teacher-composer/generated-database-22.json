@@ -1,0 +1,540 @@
+{
+  "questions": [
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "In a relational database, what is the primary purpose of a primary key?",
+      "options": [
+        {
+          "key": "A",
+          "content": "To establish a relationship between two tables"
+        },
+        {
+          "key": "B",
+          "content": "To uniquely identify a tuple and prevent null values"
+        },
+        {
+          "key": "C",
+          "content": "To improve query performance automatically"
+        },
+        {
+          "key": "D",
+          "content": "To store backup copies of data"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "A primary key uniquely identifies each tuple (row) in a relation and cannot be null. This ensures each record is distinct and retrievable.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "Which SQL clause is used to filter rows AFTER grouping has occurred?",
+      "options": [
+        {
+          "key": "A",
+          "content": "WHERE"
+        },
+        {
+          "key": "B",
+          "content": "GROUP BY"
+        },
+        {
+          "key": "C",
+          "content": "HAVING"
+        },
+        {
+          "key": "D",
+          "content": "ORDER BY"
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "HAVING filters groups after GROUP BY has been applied. WHERE filters individual rows before grouping occurs.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "What is the key difference between INNER JOIN and LEFT JOIN?",
+      "options": [
+        {
+          "key": "A",
+          "content": "INNER JOIN is faster than LEFT JOIN"
+        },
+        {
+          "key": "B",
+          "content": "LEFT JOIN preserves unmatched rows from the left table with null right values; INNER JOIN returns only matching rows"
+        },
+        {
+          "key": "C",
+          "content": "INNER JOIN requires a primary key; LEFT JOIN does not"
+        },
+        {
+          "key": "D",
+          "content": "LEFT JOIN is used only for three or more tables"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "INNER JOIN returns only rows where there is a match in both tables. LEFT JOIN preserves all rows from the left table, filling right table columns with null when no match exists.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "Which ACID property ensures that all operations in a transaction commit together or are all rolled back?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Consistency"
+        },
+        {
+          "key": "B",
+          "content": "Atomicity"
+        },
+        {
+          "key": "C",
+          "content": "Isolation"
+        },
+        {
+          "key": "D",
+          "content": "Durability"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Atomicity ensures that all operations within a transaction are treated as a single unit: either all succeed and are committed, or all fail and are rolled back. This prevents partial updates.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "What is the trade-off when using indexes on a database table?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Indexes speed reads but add write and storage overhead"
+        },
+        {
+          "key": "B",
+          "content": "Indexes slow down reads but eliminate write overhead"
+        },
+        {
+          "key": "C",
+          "content": "Indexes have no impact on performance"
+        },
+        {
+          "key": "D",
+          "content": "Indexes eliminate the need for primary keys"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Indexes improve read performance by speeding up data retrieval, but they consume additional storage and slow down write operations (INSERT, UPDATE, DELETE) because the index must also be updated.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "Which normalization form requires that all attributes be atomic?",
+      "options": [
+        {
+          "key": "A",
+          "content": "First Normal Form (1NF)"
+        },
+        {
+          "key": "B",
+          "content": "Second Normal Form (2NF)"
+        },
+        {
+          "key": "C",
+          "content": "Third Normal Form (3NF)"
+        },
+        {
+          "key": "D",
+          "content": "Boyce-Codd Normal Form (BCNF)"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "First Normal Form (1NF) is the foundational normalization level that requires all attributes to be atomic—that is, indivisible and not containing repeating groups or composite values.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "In the Enrollment(StudentID, CourseID, StudentName, CourseName, Grade) relation with composite key (StudentID, CourseID), why does the current schema violate 2NF?",
+      "options": [
+        {
+          "key": "A",
+          "content": "StudentName and CourseName contain null values"
+        },
+        {
+          "key": "B",
+          "content": "StudentName depends only on StudentID and CourseName only on CourseID, creating partial dependencies on the composite key"
+        },
+        {
+          "key": "C",
+          "content": "Grade is a transitive dependency on StudentID"
+        },
+        {
+          "key": "D",
+          "content": "There are more than three attributes in the relation"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Second Normal Form (2NF) requires that all non-key attributes depend on the entire primary key, not just part of it. Here, StudentName depends only on StudentID (not CourseID) and CourseName depends only on CourseID (not StudentID), violating 2NF.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "What does the durability property of ACID guarantee?",
+      "options": [
+        {
+          "key": "A",
+          "content": "All users see the same version of the database at all times"
+        },
+        {
+          "key": "B",
+          "content": "Committed changes are preserved after a crash or system failure"
+        },
+        {
+          "key": "C",
+          "content": "Only one transaction can access data at a time"
+        },
+        {
+          "key": "D",
+          "content": "All operations within a transaction succeed or fail together"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Durability ensures that once a transaction is committed, its changes persist permanently in the database, even if there is a system crash or failure immediately afterward.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "A foreign key serves what primary function in a relational database?",
+      "options": [
+        {
+          "key": "A",
+          "content": "To speed up read queries on large tables"
+        },
+        {
+          "key": "B",
+          "content": "To reference candidate keys and enforce referential integrity between tables"
+        },
+        {
+          "key": "C",
+          "content": "To create backups of data across multiple servers"
+        },
+        {
+          "key": "D",
+          "content": "To replace the need for primary keys"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "A foreign key is an attribute (or set of attributes) that references a candidate key in another table. It enforces referential integrity by ensuring that values in the foreign key column exist in the referenced table.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "What type of search operations does a B-tree index efficiently support?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Only exact-match searches"
+        },
+        {
+          "key": "B",
+          "content": "Only range queries"
+        },
+        {
+          "key": "C",
+          "content": "Equality and range searches"
+        },
+        {
+          "key": "D",
+          "content": "Substring pattern matching only"
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "A B-tree index efficiently supports both equality searches (finding exact values) and range searches (finding values within a specified range), making it a versatile indexing structure.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "Which of the following best describes a serializable schedule in the context of transaction management?",
+      "options": [
+        {
+          "key": "A",
+          "content": "A schedule where only one transaction executes at a time"
+        },
+        {
+          "key": "B",
+          "content": "A schedule that is equivalent to some serial execution, ensuring transaction isolation"
+        },
+        {
+          "key": "C",
+          "content": "A schedule where transactions execute in reverse order of their creation"
+        },
+        {
+          "key": "D",
+          "content": "A schedule where all transactions must access the same data"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "A serializable schedule is one whose outcome is equivalent to some serial execution of the same transactions. It ensures that concurrent transactions do not interfere with each other's results.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING"
+    },
+    {
+      "questionType": "SINGLE_CHOICE",
+      "content": "What happens when a deadlock occurs in a database?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Transactions execute faster to avoid conflicts"
+        },
+        {
+          "key": "B",
+          "content": "Two or more transactions wait cyclically for locks held by each other, causing the system to hang"
+        },
+        {
+          "key": "C",
+          "content": "All data is automatically backed up"
+        },
+        {
+          "key": "D",
+          "content": "Indexes are automatically rebuilt"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "A deadlock occurs when two or more transactions wait for locks held by each other in a circular manner. For example, Transaction A waits for a lock held by Transaction B, while Transaction B waits for a lock held by Transaction A.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "TRUE_FALSE",
+      "content": "Consider the following statements about database concepts:",
+      "statements": [
+        {
+          "key": "a",
+          "content": "A primary key can contain null values as long as it is unique.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "The COUNT(*) function counts all rows including those with null values in specific columns.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Third Normal Form (3NF) removes transitive dependencies between non-key attributes.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "A functional dependency X→Y means that different X values always produce different Y values.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Statement (a) is false because a primary key cannot be null by definition. Statement (b) is true: COUNT(*) counts all rows regardless of null values in other columns. Statement (c) is true: 3NF specifically addresses and removes transitive dependencies. Statement (d) is false: X→Y means equal X values imply equal Y values, not that different X values produce different Y values.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING"
+    },
+    {
+      "questionType": "TRUE_FALSE",
+      "content": "Consider the following statements about SQL operations and joins:",
+      "statements": [
+        {
+          "key": "a",
+          "content": "WHERE clause filters rows before GROUP BY is applied.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "A LEFT JOIN returns only rows where there is a match in both the left and right tables.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "COUNT(column) excludes null values from the count.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "INNER JOIN and LEFT JOIN produce identical results when all rows have matching values.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Statement (a) is true: WHERE filters individual rows before grouping. Statement (b) is false: LEFT JOIN returns all rows from the left table plus matching rows from the right (with nulls for non-matches). Statement (c) is true: COUNT(column) excludes nulls, whereas COUNT(*) counts all rows. Statement (d) is true: when all rows have matches, INNER JOIN and LEFT JOIN produce the same result.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "TRUE_FALSE",
+      "content": "Consider the following statements about database design and transactions:",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Atomicity ensures that committed changes persist after a system crash.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Indexes improve read performance but add overhead to write operations.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "A B-tree index supports only exact-match searches, not range searches.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "Database backups enable recovery after data loss.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Statement (a) is false: durability ensures persistence after crashes, not atomicity. Atomicity ensures all-or-nothing execution. Statement (b) is true: indexes speed reads but slow writes and consume storage. Statement (c) is false: B-trees support both equality and range searches. Statement (d) is true: backups are essential for recovery from data loss.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "TRUE_FALSE",
+      "content": "Consider the following statements about normalization and functional dependencies:",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Second Normal Form (2NF) requires that all non-key attributes depend on the entire primary key.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "First Normal Form (1NF) eliminates transitive dependencies between non-key attributes.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "A functional dependency X→Y means that equal X values imply equal Y values.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Partial dependencies on composite keys are allowed in 2NF.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Statement (a) is true: 2NF requires no partial dependencies on composite keys. Statement (b) is false: 1NF requires atomicity; 3NF addresses transitive dependencies. Statement (c) is true: this is the definition of a functional dependency. Statement (d) is false: 2NF specifically prohibits partial dependencies.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING"
+    },
+    {
+      "questionType": "SHORT_ANSWER",
+      "content": "Name the ACID property that ensures all operations within a transaction commit together or are all rolled back.",
+      "shortAnswer": {
+        "mode": "TEXT",
+        "acceptedAnswers": [
+          "Atomicity",
+          "atomicity"
+        ],
+        "caseSensitive": false,
+        "instructions": "Enter the name of the ACID property (one word). Example: Atomicity"
+      },
+      "explanation": "Atomicity is the ACID property that guarantees all-or-nothing execution of transactions. Either all operations succeed and the transaction commits, or all operations are rolled back.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING"
+    },
+    {
+      "questionType": "SHORT_ANSWER",
+      "content": "What is the name of the SQL clause used to filter groups after GROUP BY has been applied?",
+      "shortAnswer": {
+        "mode": "TEXT",
+        "acceptedAnswers": [
+          "HAVING",
+          "having"
+        ],
+        "caseSensitive": false,
+        "instructions": "Enter the SQL clause name (one word). Example: HAVING"
+      },
+      "explanation": "The HAVING clause filters groups that result from GROUP BY aggregation. It operates on grouped data, whereas WHERE filters individual rows before grouping.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING"
+    },
+    {
+      "questionType": "SHORT_ANSWER",
+      "content": "In the Enrollment(StudentID, CourseID, StudentName, CourseName, Grade) relation with composite key (StudentID, CourseID), identify which attribute(s) have a partial dependency that violates 2NF.",
+      "shortAnswer": {
+        "mode": "TEXT",
+        "acceptedAnswers": [
+          "StudentName and CourseName",
+          "StudentName, CourseName",
+          "StudentName and CourseName",
+          "CourseName and StudentName",
+          "StudentName, CourseName"
+        ],
+        "caseSensitive": false,
+        "instructions": "Enter the attribute names that depend on only part of the composite key (separate multiple entries with 'and' or comma). Example: StudentName and CourseName"
+      },
+      "explanation": "StudentName depends only on StudentID (not the full composite key), and CourseName depends only on CourseID (not the full composite key). These partial dependencies violate 2NF, which requires all non-key attributes to depend on the entire primary key.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING"
+    },
+    {
+      "questionType": "SHORT_ANSWER",
+      "content": "List the two basic operations that a B-tree index efficiently supports.",
+      "shortAnswer": {
+        "mode": "TEXT",
+        "acceptedAnswers": [
+          "equality and range searches",
+          "equality and range",
+          "equality searches and range searches",
+          "exact-match and range"
+        ],
+        "caseSensitive": false,
+        "instructions": "Enter the two types of search operations separated by 'and'. Example: equality and range searches"
+      },
+      "explanation": "B-tree indexes efficiently support both equality searches (finding exact values) and range searches (finding values within a specified range), making them versatile for various query types.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SHORT_ANSWER",
+      "content": "What phenomenon occurs when two or more transactions wait cyclically for locks held by each other in a database system?",
+      "shortAnswer": {
+        "mode": "TEXT",
+        "acceptedAnswers": [
+          "deadlock",
+          "Deadlock"
+        ],
+        "caseSensitive": false,
+        "instructions": "Enter the term for this transaction conflict scenario (one word). Example: deadlock"
+      },
+      "explanation": "A deadlock occurs when transactions form a circular wait chain for locks, preventing any of them from proceeding. Database systems use detection and recovery mechanisms to resolve deadlocks.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "questionType": "SHORT_ANSWER",
+      "content": "Explain why the original Enrollment(StudentID, CourseID, StudentName, CourseName, Grade) schema should be decomposed into Student, Course, and Enrollment tables.",
+      "shortAnswer": {
+        "mode": "TEXT",
+        "acceptedAnswers": [
+          "to remove partial dependencies and satisfy 2NF",
+          "to eliminate partial dependencies on the composite key",
+          "to remove partial dependencies",
+          "partial dependencies violate 2NF"
+        ],
+        "caseSensitive": false,
+        "instructions": "Provide a brief reason (3–15 words maximum). Mention partial dependencies and/or normalization form. Example: to remove partial dependencies and satisfy 2NF"
+      },
+      "explanation": "The original schema violates 2NF because StudentName and CourseName have partial dependencies on the composite key (StudentID, CourseID). Decomposing into separate Student, Course, and Enrollment tables removes these partial dependencies, ensuring each non-key attribute depends on the entire primary key of its relation.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING"
+    }
+  ],
+  "questionCounts": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 4,
+    "SHORT_ANSWER": 6
+  }
+}

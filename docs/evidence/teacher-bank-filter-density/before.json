@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "desktop: combined type/difficulty filters, empty search/reset, responsive paging and no overflow",
+    "tablet: combined type/difficulty filters, empty search/reset, responsive paging and no overflow",
+    "mobile: combined type/difficulty filters, empty search/reset, responsive paging and no overflow",
+    "small-phone: combined type/difficulty filters, empty search/reset, responsive paging and no overflow"
+  ],
+  "measurements": [
+    {
+      "size": "desktop",
+      "filterHeight": 117.390625,
+      "firstQuestionTop": 590.96875
+    },
+    {
+      "size": "tablet",
+      "filterHeight": 210.78125,
+      "firstQuestionTop": 680.359375
+    },
+    {
+      "size": "mobile",
+      "filterHeight": 389.5625,
+      "firstQuestionTop": 953.625
+    },
+    {
+      "size": "small-phone",
+      "filterHeight": 389.5625,
+      "firstQuestionTop": 953.625
+    }
+  ],
+  "errors": []
+}

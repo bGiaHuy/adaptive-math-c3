@@ -1,0 +1,14 @@
+AdaptiveMath_Demo_Official_FullHD.webm
+release/
+docs/
+scripts/
+*.zip
+*.zip.sha256
+*.log
+backup_rehearsal.sql
+.release_staging/
+.temp_release_verify/
+.ui-audit/
+coverage/
+playwright-report/
+test-results/

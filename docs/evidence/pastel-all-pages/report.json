@@ -1,0 +1,1380 @@
+{
+  "mode": "Isolated visual fixtures; API mutations disabled",
+  "pages": [
+    {
+      "mode": "library",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "panels": [
+            {
+              "class": "tl-record",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tl-record",
+              "radius": "24px",
+              "background": "rgb(243, 239, 250)"
+            },
+            {
+              "class": "tl-record",
+              "radius": "24px",
+              "background": "rgb(253, 240, 245)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "panels": [
+            {
+              "class": "tl-record",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tl-record",
+              "radius": "24px",
+              "background": "rgb(243, 239, 250)"
+            },
+            {
+              "class": "tl-record",
+              "radius": "24px",
+              "background": "rgb(253, 240, 245)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "report-results",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "tw-surface ar-distribution",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-review-preview",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-roster",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "tw-surface ar-distribution",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-review-preview",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-roster",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "report-analytics",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "tw-surface ar-topic-insights",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "tw-surface ar-topic-insights",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "report-paper",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "question-display qd-paper tw-surface tw-question tw-paper-question",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "question-display qd-paper tw-surface tw-question tw-paper-question",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "question-display qd-paper tw-surface tw-question tw-paper-question",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "question-display qd-paper tw-surface tw-question tw-paper-question",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "question-display qd-paper tw-surface tw-question tw-paper-question",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "question-display qd-paper tw-surface tw-question tw-paper-question",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": [],
+      "paper": {
+        "questions": 3,
+        "hiddenQuestions": 0,
+        "editButtons": 3
+      }
+    },
+    {
+      "mode": "report-settings",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "classes",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Các lớp phụ trách",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Các lớp phụ trách",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "class-detail",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Toán 10A1",
+          "panels": [
+            {
+              "class": "tw-surface tw-recent",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface tw-invite-history",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Toán 10A1",
+          "panels": [
+            {
+              "class": "tw-surface tw-recent",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface tw-invite-history",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "class-students",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Toán 10A1",
+          "panels": [
+            {
+              "class": "tw-surface tw-student-list",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Toán 10A1",
+          "panels": [
+            {
+              "class": "tw-surface tw-student-list",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "class-gradebook",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Toán 10A1",
+          "panels": [
+            {
+              "class": "tw-surface tw-student-list",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Toán 10A1",
+          "panels": [
+            {
+              "class": "tw-surface tw-student-list",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "class-skills",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Toán 10A1",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Toán 10A1",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "create-class",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Lớp học của thầy cô",
+          "panels": [
+            {
+              "class": "tw-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Lớp học của thầy cô",
+          "panels": [
+            {
+              "class": "tw-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "report-edit",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "report-publish",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "tw-surface ar-distribution",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-review-preview",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-roster",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-dialog ar-publish-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "tw-surface ar-distribution",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-review-preview",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-roster",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-dialog ar-publish-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "report-student",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "tw-surface ar-distribution",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-review-preview",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-roster",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": [
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "tw-surface ar-distribution",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-review-preview",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            },
+            {
+              "class": "tw-surface ar-roster",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "student-classroom",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Lớp Học Của Em",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Lớp Học Của Em",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "student-dashboard",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Một khởi đầu nhỏ.Một bước tiến mới.",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Một khởi đầu nhỏ.Một bước tiến mới.",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "tutor",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Chào bạn!",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Chào bạn!",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding-2",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Bạn đang học lớp mấy?",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Bạn đang học lớp mấy?",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding-3",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Mục tiêu của bạn là gì?",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Mục tiêu của bạn là gì?",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding-4",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Mỗi ngày bạn học được bao lâu?",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Mỗi ngày bạn học được bao lâu?",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding-5",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Bạn có mốc thi nào không?",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Bạn có mốc thi nào không?",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding-6",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Bạn tự đánh giá mình thế nào?",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Bạn tự đánh giá mình thế nào?",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding-7",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Chủ đề nào bạn thấy khó?",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Chủ đề nào bạn thấy khó?",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "onboarding-8",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Kiểm tra lại thông tin",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Kiểm tra lại thông tin",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "admin-overview",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Quản trị hệ thống",
+          "panels": [
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(230, 223, 244)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(248, 222, 234)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Quản trị hệ thống",
+          "panels": [
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(230, 223, 244)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(248, 222, 234)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "admin-users",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Quản trị hệ thống",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Quản trị hệ thống",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "admin-audit",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Quản trị hệ thống",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Quản trị hệ thống",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "pending",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hồ sơ Đang Chờ Phê Duyệt",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hồ sơ Đang Chờ Phê Duyệt",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "rejected",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hồ sơ Giáo viên Cần Cập Nhật & Nộp Lại",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hồ sơ Giáo viên Cần Cập Nhật & Nộp Lại",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "sessions",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Phiên đăng nhập",
+          "panels": [
+            {
+              "class": "account-dialog session-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Phiên đăng nhập",
+          "panels": [
+            {
+              "class": "account-dialog session-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "password",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Đổi mật khẩu",
+          "panels": [
+            {
+              "class": "account-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Đổi mật khẩu",
+          "panels": [
+            {
+              "class": "account-dialog",
+              "radius": "24px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "legal",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Chính Sách Bảo Mật & Điều Khoản Sử Dụng",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Chính Sách Bảo Mật & Điều Khoản Sử Dụng",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "student-result",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Hàm số bậc hai và đồ thị",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "not-found",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không tìm thấy trang yêu cầu",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không tìm thấy trang yêu cầu",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "loading",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "curriculum",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Mỗi ngày, hiểu thêm một chút.",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Mỗi ngày, hiểu thêm một chút.",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "composer",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        }
+      ],
+      "footer": "static",
+      "accessibility": []
+    },
+    {
+      "mode": "composer-bank",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        }
+      ],
+      "footer": "static",
+      "accessibility": []
+    },
+    {
+      "mode": "composer-manual",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        }
+      ],
+      "footer": "static",
+      "accessibility": []
+    },
+    {
+      "mode": "composer-document",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        }
+      ],
+      "footer": "static",
+      "accessibility": []
+    },
+    {
+      "mode": "composer-json",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không gian soạn đề",
+          "panels": []
+        }
+      ],
+      "footer": "static",
+      "accessibility": []
+    },
+    {
+      "mode": "admin-classrooms",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Quản trị hệ thống",
+          "panels": [
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(230, 223, 244)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Quản trị hệ thống",
+          "panels": [
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(213, 235, 227)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(255, 237, 181)"
+            },
+            {
+              "class": "pastel-admin-stat",
+              "radius": "24px",
+              "background": "rgb(230, 223, 244)"
+            }
+          ]
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "composer-settings",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không gian soạn đề",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không gian soạn đề",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "footer": "static",
+      "accessibility": []
+    },
+    {
+      "mode": "composer-review",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Không gian soạn đề",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Không gian soạn đề",
+          "panels": [
+            {
+              "class": "tw-surface",
+              "radius": "14px",
+              "background": "rgb(255, 255, 255)"
+            }
+          ]
+        }
+      ],
+      "footer": "static",
+      "accessibility": []
+    },
+    {
+      "mode": "student-exam",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Lớp Học Của Em",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Lớp Học Của Em",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    },
+    {
+      "mode": "student-exam-confirm",
+      "errors": [],
+      "layouts": [
+        {
+          "width": 1074,
+          "scrollWidth": 1074,
+          "heading": "Lớp Học Của Em",
+          "panels": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heading": "Lớp Học Của Em",
+          "panels": []
+        }
+      ],
+      "accessibility": []
+    }
+  ]
+}

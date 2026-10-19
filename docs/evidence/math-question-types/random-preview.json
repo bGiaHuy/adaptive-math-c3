@@ -1,0 +1,1463 @@
+{
+  "questionIds": [
+    "573ff878-9c30-4bde-a842-24b376963139",
+    "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+    "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+    "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+    "0516f7ed-9f47-5268-aff1-e200e6470511",
+    "670c578a-aa85-5452-af6d-ca91262d1a46",
+    "47d7abf1-4d0c-5726-a409-b86481f5d239",
+    "47d9c982-fe08-40ac-bb07-cf12383567f8",
+    "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+    "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+    "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+    "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+    "a433f0e8-4fd7-5d08-a071-47c47157057c",
+    "713915cd-ce35-5d29-a6e4-f94ad926f02b",
+    "c467d2f4-4898-59a0-ad63-6603da18e7ab",
+    "84b9177a-427d-51c8-a228-5aacb8db996f",
+    "2e78872c-db35-5c70-aa19-6d3093a005bb",
+    "722bbbb1-8020-5c29-a7ed-225f84811d4a",
+    "c58186d3-1e10-5d58-a70e-f56822a8b1b7",
+    "ca047ccc-63e1-57f9-ad87-067e3542d14a",
+    "9f4d7b0c-f92d-5362-a038-c2910c559c68",
+    "87ed6d43-c57a-54fd-a74d-657b787e441c"
+  ],
+  "questions": [
+    {
+      "id": "573ff878-9c30-4bde-a842-24b376963139",
+      "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+      "difficulty": "MEDIUM",
+      "versionNumber": 1,
+      "cognitiveLevel": "UNDERSTANDING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": null,
+      "content": "Biểu thức \\sqrt{2x - 6} có nghĩa khi và chỉ khi:",
+      "explanation": "Căn thức \\sqrt{A} có nghĩa khi A \\ge 0. Ta có $2x - 6 \\ge 0 \\iff 2x \\ge 6 \\iff x \\ge 3$.",
+      "status": "PUBLISHED",
+      "authorId": "1762cc0a-1d6d-46bb-b36c-768ccc75f642",
+      "reviewerId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "createdAt": "2026-10-05T01:08:50.280Z",
+      "updatedAt": "2026-10-05T01:08:50.280Z",
+      "skill": {
+        "id": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+        "code": "SKILL-01",
+        "title": "Căn bậc hai và căn thức cơ bản",
+        "grade": 9,
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "orderIndex": 1
+      },
+      "options": [
+        {
+          "id": "1ee27f66-f54c-4902-8c07-0ad7135cee7d",
+          "questionId": "573ff878-9c30-4bde-a842-24b376963139",
+          "optionKey": "A",
+          "content": "x \\ge 3",
+          "isCorrect": true
+        },
+        {
+          "id": "933c8698-670a-4a5e-b11e-c4af65d4cb80",
+          "questionId": "573ff878-9c30-4bde-a842-24b376963139",
+          "optionKey": "B",
+          "content": "x > 3",
+          "isCorrect": false
+        },
+        {
+          "id": "73ea0280-aa62-4d78-91fc-7002ddba1c9c",
+          "questionId": "573ff878-9c30-4bde-a842-24b376963139",
+          "optionKey": "C",
+          "content": "x \\le 3",
+          "isCorrect": false
+        },
+        {
+          "id": "27bb8f10-960c-4cf6-bf39-8f47451c4c4b",
+          "questionId": "573ff878-9c30-4bde-a842-24b376963139",
+          "optionKey": "D",
+          "content": "x < 3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+      "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": null,
+      "content": "Căn bậc hai số học của 81 là:",
+      "explanation": "Theo định nghĩa, căn bậc hai số học của số dương a là số không âm x sao cho x^2 = a. Do đó căn bậc hai số học của 81 là 9.",
+      "status": "PUBLISHED",
+      "authorId": "1762cc0a-1d6d-46bb-b36c-768ccc75f642",
+      "reviewerId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "createdAt": "2026-10-05T01:08:50.275Z",
+      "updatedAt": "2026-10-05T01:08:50.275Z",
+      "skill": {
+        "id": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+        "code": "SKILL-01",
+        "title": "Căn bậc hai và căn thức cơ bản",
+        "grade": 9,
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "orderIndex": 1
+      },
+      "options": [
+        {
+          "id": "010145bf-8c3b-472b-8a38-c74932eb6771",
+          "questionId": "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+          "optionKey": "A",
+          "content": "-9",
+          "isCorrect": false
+        },
+        {
+          "id": "c8ac6472-4a46-40b4-8959-086ffd4ccb14",
+          "questionId": "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+          "optionKey": "B",
+          "content": "9",
+          "isCorrect": true
+        },
+        {
+          "id": "3698b8da-29b9-46db-8640-410612be3f0f",
+          "questionId": "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+          "optionKey": "C",
+          "content": "\\pm 9",
+          "isCorrect": false
+        },
+        {
+          "id": "9e590a05-3730-48b8-b640-6fafd8b9ad58",
+          "questionId": "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+          "optionKey": "D",
+          "content": "81",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+      "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+      "difficulty": "MEDIUM",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "year": "2025-2026",
+        "author": "Sở GDĐT Hưng Yên",
+        "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-19",
+        "contentHash": "c1b19d65f7770b4298bfc724ff90c83c7005e84bdd96d79d4e3771f3fb5e9eff",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "questionNumber": "9101 / SINGLE_CHOICE / 19"
+      },
+      "content": "Hệ phương trình $\\begin{cases}2(x+2)-3(y+1)=9\\\\3(x+1)+2(y-1)=0\\end{cases}$ có nghiệm là:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:04:53.919Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "efaf9a31-a71b-4445-9830-52162b34dd46",
+        "code": "SKILL-03",
+        "title": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "grade": 9,
+        "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+        "orderIndex": 3
+      },
+      "options": [
+        {
+          "id": "9ff55b65-254c-4c1c-a029-810a6acab342",
+          "questionId": "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+          "optionKey": "A",
+          "content": "$(x;y)=(-2;3)$",
+          "isCorrect": false
+        },
+        {
+          "id": "cb8fe8f6-dc3b-4672-a806-9d4ff4d73fb3",
+          "questionId": "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+          "optionKey": "B",
+          "content": "$(x;y)=(2;-3)$",
+          "isCorrect": false
+        },
+        {
+          "id": "112b3fb7-5813-4c0d-95cf-3ffe85382fb7",
+          "questionId": "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+          "optionKey": "C",
+          "content": "$(x;y)=(1;-2)$",
+          "isCorrect": true
+        },
+        {
+          "id": "6f28a75c-513e-4713-ad9c-d4132a7bf41f",
+          "questionId": "96bc988c-1688-5e6b-a4f2-65f2b5ff6771",
+          "optionKey": "D",
+          "content": "$(x;y)=(-1;2)$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+      "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "author": "Trương Ngọc Vỹ",
+        "externalId": "specialist-4-SC-5",
+        "contentHash": "2dd7299135a80426d04948c8153e8fbe05ab873ebe8c42c5ccc66a6ef6c2007c",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+        },
+        "questionNumber": "PHẦN I / 5"
+      },
+      "content": "Trên mặt phẳng Oxy, xác định vị trí điểm A(−3;−4) với đường tròn tâm gốc tọa độ O, bán kính R = 3.",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:18.308Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp",
+        "grade": 9,
+        "chapter": "ĐƯỜNG TRÒN",
+        "orderIndex": 8
+      },
+      "options": [
+        {
+          "id": "6673d872-55c1-4876-84a9-ddaf7c5b5c90",
+          "questionId": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+          "optionKey": "A",
+          "content": "A nằm ngoài (O;3).",
+          "isCorrect": true
+        },
+        {
+          "id": "d9004528-fd50-42a0-be2e-377639058e3d",
+          "questionId": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+          "optionKey": "B",
+          "content": "A nằm trên (O;3).",
+          "isCorrect": false
+        },
+        {
+          "id": "f6a63315-634b-49bd-b299-eb2b6626ef5d",
+          "questionId": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+          "optionKey": "C",
+          "content": "A nằm trong (O;3).",
+          "isCorrect": false
+        },
+        {
+          "id": "b46a5c3c-269a-4f5d-9989-a30641829897",
+          "questionId": "a3e50940-1e47-51be-a96c-79881ccc0ab3",
+          "optionKey": "D",
+          "content": "Không kết luận được.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "0516f7ed-9f47-5268-aff1-e200e6470511",
+      "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "year": "2025-2026",
+        "author": "Sở GDĐT Hưng Yên",
+        "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-15",
+        "contentHash": "0d9024e4ed2ca985e607a41da7cde00548c89ab6f686e6cb4b20e7cd533497cf",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "questionNumber": "9101 / SINGLE_CHOICE / 15"
+      },
+      "content": "Tỉ số giữa độ dài cung $n^\\circ$ và độ dài đường tròn (có cùng bán kính) bằng:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:04:53.910Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp",
+        "grade": 9,
+        "chapter": "ĐƯỜNG TRÒN",
+        "orderIndex": 8
+      },
+      "options": [
+        {
+          "id": "5002cfc8-12d5-44b9-b824-bc3c72c1a768",
+          "questionId": "0516f7ed-9f47-5268-aff1-e200e6470511",
+          "optionKey": "A",
+          "content": "$\\frac n{180}$",
+          "isCorrect": false
+        },
+        {
+          "id": "c2655d2f-f403-4ea3-9008-9eb50cfa0722",
+          "questionId": "0516f7ed-9f47-5268-aff1-e200e6470511",
+          "optionKey": "B",
+          "content": "$\\frac n{90}$",
+          "isCorrect": false
+        },
+        {
+          "id": "9a7e7dd0-81e7-48aa-a443-b4d42e98e3a1",
+          "questionId": "0516f7ed-9f47-5268-aff1-e200e6470511",
+          "optionKey": "C",
+          "content": "$\\frac n{360}$",
+          "isCorrect": true
+        },
+        {
+          "id": "09023ac0-8bb2-4b75-8f2a-b2b4582b0064",
+          "questionId": "0516f7ed-9f47-5268-aff1-e200e6470511",
+          "optionKey": "D",
+          "content": "$\\frac n{120}$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "670c578a-aa85-5452-af6d-ca91262d1a46",
+      "skillId": "1fc30aa7-27d6-4232-9232-5b21769cffec",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "year": "2025-2026",
+        "author": "Sở GDĐT Hưng Yên",
+        "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-7",
+        "contentHash": "5eec083f044fde5bc63f195060d420e11ad861578519e8308d55e31cf6f9f02f",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "questionNumber": "9101 / SINGLE_CHOICE / 7"
+      },
+      "content": "$\\sqrt[3]{-125}$ có kết quả là:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:04:53.888Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "1fc30aa7-27d6-4232-9232-5b21769cffec",
+        "code": "MATH9-CUBE-ROOTS",
+        "title": "Căn bậc ba",
+        "grade": 9,
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "orderIndex": 25
+      },
+      "options": [
+        {
+          "id": "da3a7491-fd3e-47ff-a4e7-25b00e02d444",
+          "questionId": "670c578a-aa85-5452-af6d-ca91262d1a46",
+          "optionKey": "A",
+          "content": "25",
+          "isCorrect": false
+        },
+        {
+          "id": "59015667-ddea-4bd7-8d59-16b294809367",
+          "questionId": "670c578a-aa85-5452-af6d-ca91262d1a46",
+          "optionKey": "B",
+          "content": "−5",
+          "isCorrect": true
+        },
+        {
+          "id": "2a4db7a3-5f69-442b-81a8-19a89887fff6",
+          "questionId": "670c578a-aa85-5452-af6d-ca91262d1a46",
+          "optionKey": "C",
+          "content": "−25",
+          "isCorrect": false
+        },
+        {
+          "id": "872e492d-5385-48b6-a713-beae3ea65c22",
+          "questionId": "670c578a-aa85-5452-af6d-ca91262d1a46",
+          "optionKey": "D",
+          "content": "5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+      "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "author": "Trương Ngọc Vỹ",
+        "externalId": "specialist-4-SC-1",
+        "contentHash": "40ab0d32d834a3a10e61fa8f2995c2ca655bb8c17107310dd55293f4cb5425b2",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 5,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+        },
+        "questionNumber": "PHẦN I / 1"
+      },
+      "content": "Cho (O;R), điểm M bất kỳ biết OM = R. Chọn khẳng định đúng:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:18.304Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp",
+        "grade": 9,
+        "chapter": "ĐƯỜNG TRÒN",
+        "orderIndex": 8
+      },
+      "options": [
+        {
+          "id": "deae1a69-41e8-4a66-90d7-62927275d9c1",
+          "questionId": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+          "optionKey": "A",
+          "content": "M nằm ngoài (O;R).",
+          "isCorrect": false
+        },
+        {
+          "id": "0df7a89b-f8a9-4ad7-bc4c-d478e102f75e",
+          "questionId": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+          "optionKey": "B",
+          "content": "M nằm trên (O;R).",
+          "isCorrect": true
+        },
+        {
+          "id": "8d3d533f-e3f7-45fc-bda5-a7a01a0b6fcc",
+          "questionId": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+          "optionKey": "C",
+          "content": "M nằm trong (O;R).",
+          "isCorrect": false
+        },
+        {
+          "id": "e229d081-f1d6-41a1-8291-1c7051ce8287",
+          "questionId": "47d7abf1-4d0c-5726-a409-b86481f5d239",
+          "optionKey": "D",
+          "content": "M không thuộc (O;R).",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+      "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+      "difficulty": "MEDIUM",
+      "versionNumber": 1,
+      "cognitiveLevel": "UNDERSTANDING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": null,
+      "content": "Trục căn thức ở mẫu của biểu thức \\frac{6}{\\sqrt{3}} ta được:",
+      "explanation": "Nhân cả tử và mẫu với $\\sqrt{3}$, ta có: $\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$.",
+      "status": "PUBLISHED",
+      "authorId": "1762cc0a-1d6d-46bb-b36c-768ccc75f642",
+      "reviewerId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "createdAt": "2026-10-05T01:08:50.285Z",
+      "updatedAt": "2026-10-05T01:08:50.285Z",
+      "skill": {
+        "id": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức",
+        "grade": 9,
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "orderIndex": 2
+      },
+      "options": [
+        {
+          "id": "c0548865-2ba5-4da9-af77-4bec37eaed81",
+          "questionId": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+          "optionKey": "A",
+          "content": "2\\sqrt{3}",
+          "isCorrect": true
+        },
+        {
+          "id": "3be010a6-c91b-4498-a4fd-38491e94727d",
+          "questionId": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+          "optionKey": "B",
+          "content": "3\\sqrt{2}",
+          "isCorrect": false
+        },
+        {
+          "id": "798d0242-6cb2-4d68-b69d-43b6d68f5c65",
+          "questionId": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+          "optionKey": "C",
+          "content": "\\sqrt{3}",
+          "isCorrect": false
+        },
+        {
+          "id": "7c6bc833-0702-4b42-b414-16dbf0734dda",
+          "questionId": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+          "optionKey": "D",
+          "content": "6\\sqrt{3}",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+      "skillId": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "author": "Trương Ngọc Vỹ",
+        "externalId": "specialist-2-SC-8",
+        "contentHash": "8083c6f0728faa2caeccc43521792800df854236686d14b5ad14e2889c60ca89",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 16,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+        },
+        "questionNumber": "PHẦN I / 8"
+      },
+      "content": "Tìm m để $(m-5x)(1-3x)=0$ có nghiệm x = 1.",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:18.291Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+        "code": "MATH9-LINEAR-EQUATIONS",
+        "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu",
+        "grade": 9,
+        "chapter": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH",
+        "orderIndex": 24
+      },
+      "options": [
+        {
+          "id": "2a478f5d-f108-4832-adc5-50d108007ea5",
+          "questionId": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+          "optionKey": "A",
+          "content": "m = −5",
+          "isCorrect": false
+        },
+        {
+          "id": "ed45859d-87cd-4640-bad7-aba589b9b25c",
+          "questionId": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+          "optionKey": "B",
+          "content": "m = 5",
+          "isCorrect": true
+        },
+        {
+          "id": "8d73a1e8-446f-4d34-b8e7-a5e53008a0e7",
+          "questionId": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+          "optionKey": "C",
+          "content": "m = −2",
+          "isCorrect": false
+        },
+        {
+          "id": "d729d061-1af3-49d6-8702-933739202e8a",
+          "questionId": "c7d64783-1742-5e3b-a020-19a0fc2c5bce",
+          "optionKey": "D",
+          "content": "m = 2",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+      "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "author": "Trương Ngọc Vỹ",
+        "externalId": "specialist-7-SC-1",
+        "contentHash": "cfd6d7d7a09faedd5b7606624d9ff5ef7e949aac883664de659727890e15f7cc",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 108,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+        },
+        "questionNumber": "PHẦN I / 1"
+      },
+      "content": "Với mọi góc nhọn $\\alpha$, ta có:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:18.330Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "code": "SKILL-07",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "grade": 9,
+        "chapter": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+        "orderIndex": 7
+      },
+      "options": [
+        {
+          "id": "035628ce-2f8d-4289-82d7-5ee4e82e45a8",
+          "questionId": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+          "optionKey": "A",
+          "content": "$\\cot(90^\\circ-\\alpha)=\\cos\\alpha$",
+          "isCorrect": false
+        },
+        {
+          "id": "2c64d180-9c4b-4995-b811-052b4e2f7317",
+          "questionId": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+          "optionKey": "B",
+          "content": "$\\tan(90^\\circ-\\alpha)=\\cos\\alpha$",
+          "isCorrect": false
+        },
+        {
+          "id": "6744396b-3eb6-4942-9df5-576a3aa1443f",
+          "questionId": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+          "optionKey": "C",
+          "content": "$\\cot(90^\\circ-\\alpha)=\\sin\\alpha$",
+          "isCorrect": false
+        },
+        {
+          "id": "b06011da-325c-4c6d-beae-8edbea165793",
+          "questionId": "ba7751b0-badd-501a-a2a2-828e5c413ff4",
+          "optionKey": "D",
+          "content": "$\\tan^2(90^\\circ-\\alpha)=\\cot^2\\alpha$",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+      "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+        "page": 203,
+        "author": "Trương Ngọc Vỹ",
+        "externalId": "specialist-6-SC-4",
+        "contentHash": "0e43a5da2682f70fb24546889f5a3e24cfc73240839305541626a41533611573",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 203,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+        },
+        "questionNumber": "PHẦN I / 4"
+      },
+      "content": "Cho a không âm, b,c dương. Khẳng định nào sau đây sai?",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:18.323Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức",
+        "grade": 9,
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "orderIndex": 2
+      },
+      "options": [
+        {
+          "id": "17f6d0d5-840c-43cf-b36a-f75671a98b40",
+          "questionId": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+          "optionKey": "A",
+          "content": "$\\sqrt{\\frac{ac}b}=\\frac{\\sqrt{ac}}{\\sqrt b}$",
+          "isCorrect": false
+        },
+        {
+          "id": "1a08f86a-262c-4d63-9c7b-5bbfb83b370a",
+          "questionId": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+          "optionKey": "B",
+          "content": "$\\frac{\\sqrt{ab}}{\\sqrt c}=\\sqrt{\\frac{ab}c}$",
+          "isCorrect": false
+        },
+        {
+          "id": "5ee014c1-62c9-4915-990a-d6d958a876be",
+          "questionId": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+          "optionKey": "C",
+          "content": "$\\sqrt a\\sqrt b\\sqrt c=\\sqrt{abc}$",
+          "isCorrect": false
+        },
+        {
+          "id": "f433f646-5ca4-4090-a0cb-bf7138231629",
+          "questionId": "2052f801-a7d4-57bd-a9e6-8912b3f9e765",
+          "optionKey": "D",
+          "content": "$\\frac{\\sqrt a}{\\sqrt{bc}}=\\frac{\\sqrt{ab}}{\\sqrt c}$",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+      "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SINGLE_CHOICE",
+      "statements": null,
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "author": "Trương Ngọc Vỹ",
+        "externalId": "specialist-7-SC-4",
+        "contentHash": "a5bc77f80ca893cdb456c883b933eac9386f499b547f57de32e28c439ab6859c",
+        "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 108,
+          "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+        },
+        "questionNumber": "PHẦN I / 4"
+      },
+      "content": "Cho hai góc nhọn $\\alpha+\\beta=90^\\circ$. Khẳng định nào đúng?",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:18.335Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "code": "SKILL-07",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "grade": 9,
+        "chapter": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+        "orderIndex": 7
+      },
+      "options": [
+        {
+          "id": "1234623b-0ead-42c3-b01a-6283b9f02045",
+          "questionId": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+          "optionKey": "A",
+          "content": "$\\tan\\alpha=\\sin\\beta$",
+          "isCorrect": false
+        },
+        {
+          "id": "a18fe866-837c-430d-a19e-5876f7b7ac9e",
+          "questionId": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+          "optionKey": "B",
+          "content": "$\\tan\\alpha=\\cot\\beta$",
+          "isCorrect": true
+        },
+        {
+          "id": "6db6391c-6d3f-489c-82d5-6be8ad5f18df",
+          "questionId": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+          "optionKey": "C",
+          "content": "$\\tan\\alpha=\\cos\\beta$",
+          "isCorrect": false
+        },
+        {
+          "id": "0fe9d8f3-27ca-4c80-b688-bfa9f405f5e0",
+          "questionId": "0410731f-e437-55ec-ad62-3a7c17d3c3c6",
+          "optionKey": "D",
+          "content": "$\\tan\\alpha=\\tan\\beta$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "a433f0e8-4fd7-5d08-a071-47c47157057c",
+      "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+      "difficulty": "MEDIUM",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "TRUE_FALSE",
+      "statements": [
+        {
+          "key": "a",
+          "content": "(P) không đi qua gốc tọa độ.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "$x_1,x_2$ là nghiệm $2x^2-5x+9=0$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "$x_1x_2=-\\frac92$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "$y_1y_2=100$.",
+          "isCorrect": false
+        }
+      ],
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "year": "2025-2026",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-4",
+        "contentHash": "f0adbac3c5278c74738b73c3caf6f272186596551e342fe5183741d3e5d50d35",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "questionNumber": "101 / TRUE_FALSE / 4"
+      },
+      "content": "Parabol $(P):y=2x^2$ và đường thẳng $d:y=4x+9$. A$(x_1;y_1)$, B$(x_2;y_2)$ cùng thuộc (P) và d. Xét các khẳng định:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:16.934Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+        "code": "SKILL-06",
+        "title": "Định lý Viète và ứng dụng",
+        "grade": 9,
+        "chapter": "HÀM SỐ BẬC HAI VÀ PHƯƠNG TRÌNH BẬC HAI",
+        "orderIndex": 6
+      },
+      "options": []
+    },
+    {
+      "id": "713915cd-ce35-5d29-a6e4-f94ad926f02b",
+      "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+      "difficulty": "HARD",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "TRUE_FALSE",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Nếu sản xuất 300 MCU thì thời gian còn lại không đủ sản xuất 200 Flash.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Tuần 1 có x = 160 và y = 360.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "Giữ nguyên sản lượng tuần 1 thì tuần 2 cần 1008 giờ.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Tăng sản lượng mỗi loại thêm 15% trong tuần 2 thì không cần bổ sung quỹ thời gian.",
+          "isCorrect": true
+        }
+      ],
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "year": "2025-2026",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-3",
+        "contentHash": "f2b92f0dba973c2a641cca7003480e39a3ab08c9af77614e252adb43d8eddb99",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "questionNumber": "101 / TRUE_FALSE / 3"
+      },
+      "content": "Nhà máy sản xuất chip MCU và Flash. Tuần 1: mỗi MCU cần 2 giờ và 500000 đồng; mỗi Flash cần 3 giờ và 400000 đồng. Tổng quỹ 1200 giờ và 244 triệu đồng, sử dụng hết. Tuần 2 thời gian mỗi MCU giảm 20% còn 1,6 giờ, mỗi Flash giảm 10% còn 2,7 giờ. Gọi x,y lần lượt là số MCU,Flash tuần 1. Xét các khẳng định:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:16.931Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+        "code": "SKILL-04",
+        "title": "Giải bài toán bằng cách lập hệ phương trình",
+        "grade": 9,
+        "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+        "orderIndex": 4
+      },
+      "options": []
+    },
+    {
+      "id": "c467d2f4-4898-59a0-ad63-6603da18e7ab",
+      "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+      "difficulty": "MEDIUM",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "TRUE_FALSE",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$(2-\\sqrt5)a\\ge(2-\\sqrt5)b$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "$\\sqrt{2025a}-2026\\le\\sqrt{2025b}-2026$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "$-5a\\le-5b$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "$3-m^2a\\le3-m^2b$ với $m<0$.",
+          "isCorrect": true
+        }
+      ],
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "year": "2025-2026",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-1",
+        "contentHash": "af0563cb8a92b1ed10c60cc299e68cb562f4ee8046d0b5e1bb8cbfe3794c2463",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "row": "901 (hàng đầu tiên)",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        "questionNumber": "901 / TRUE_FALSE / 1"
+      },
+      "content": "Cho bất đẳng thức $a\\ge b$. Xét các khẳng định:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:17.561Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+        "code": "MATH9-LINEAR-INEQUALITY",
+        "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn",
+        "grade": 9,
+        "chapter": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH",
+        "orderIndex": 23
+      },
+      "options": []
+    },
+    {
+      "id": "84b9177a-427d-51c8-a228-5aacb8db996f",
+      "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+      "difficulty": "MEDIUM",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "TRUE_FALSE",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$AM\\perp BC$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Đường tròn đường kính AC đi qua M.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Độ dài cung nhỏ BM là $\\frac{10}9$ cm.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "Diện tích đường tròn $(I,IA)$ bằng $\\frac{25}2\\pi$ cm².",
+          "isCorrect": false
+        }
+      ],
+      "shortAnswer": null,
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "year": "2025-2026",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-4",
+        "contentHash": "26a880e068a3779d1d732bcc9658f9e41107f1dd0c4512b84b825005abb31c5a",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "row": "901 (hàng đầu tiên)",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        "questionNumber": "901 / TRUE_FALSE / 4"
+      },
+      "content": "Tam giác ABC vuông tại A, AB = 5 cm, $\\widehat{ACB}=40^\\circ$. Đường tròn tâm I đường kính AB cắt BC ở M. Xét các khẳng định:",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:17.569Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp",
+        "grade": 9,
+        "chapter": "ĐƯỜNG TRÒN",
+        "orderIndex": 8
+      },
+      "options": []
+    },
+    {
+      "id": "2e78872c-db35-5c70-aa19-6d3093a005bb",
+      "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SHORT_ANSWER",
+      "statements": null,
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "tolerance": 1e-9,
+        "acceptedAnswers": [
+          "2"
+        ]
+      },
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "year": "2025-2026",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-4",
+        "contentHash": "5e4133a8964e66af4b8f372e00d79a77e4b2c3fb80dcb37872cb9c9cfc5d2cf0",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "row": "901 (hàng đầu tiên)",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        "questionNumber": "901 / SHORT_ANSWER / 4"
+      },
+      "content": "Tính $A=\\frac{\\sqrt5-5}{1-\\sqrt5}-\\sqrt{(2-\\sqrt5)^2}$.",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:17.577Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức",
+        "grade": 9,
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "orderIndex": 2
+      },
+      "options": []
+    },
+    {
+      "id": "722bbbb1-8020-5c29-a7ed-225f84811d4a",
+      "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+      "difficulty": "HARD",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SHORT_ANSWER",
+      "statements": null,
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "tolerance": 1e-9,
+        "acceptedAnswers": [
+          "0.04"
+        ]
+      },
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "year": "2025-2026",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-2",
+        "contentHash": "d84b2bb35566fa29cc3143998a14cc590ac8d3f52d3b46c0ea0bcbb35c936af9",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "row": "901 (hàng đầu tiên)",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        "questionNumber": "901 / SHORT_ANSWER / 2"
+      },
+      "content": "Cho $x\\ge16$. Tìm giá trị lớn nhất $A=\\frac{\\sqrt{x-16}}{3x}$, làm tròn đến chữ số thập phân thứ hai.",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:17.573Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "code": "SKILL-02",
+        "title": "Biến đổi và tính toán với căn thức",
+        "grade": 9,
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "orderIndex": 2
+      },
+      "options": []
+    },
+    {
+      "id": "c58186d3-1e10-5d58-a70e-f56822a8b1b7",
+      "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SHORT_ANSWER",
+      "statements": null,
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "tolerance": 1e-9,
+        "acceptedAnswers": [
+          "3"
+        ]
+      },
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "year": "2025-2026",
+        "author": "Sở GDĐT Hưng Yên",
+        "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-5",
+        "contentHash": "2e3555481db5c531734f41b0a1e595676402fffb5cb2e867181d2658c67c0678",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "questionNumber": "9101 / SHORT_ANSWER / 5"
+      },
+      "content": "Giá trị $\\frac{\\cos^2 25^\\circ+\\cos^2 65^\\circ+2}{2\\tan20^\\circ\\cdot\\tan70^\\circ-1}$ bằng bao nhiêu?",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:04:53.948Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "code": "SKILL-07",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "grade": 9,
+        "chapter": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+        "orderIndex": 7
+      },
+      "options": []
+    },
+    {
+      "id": "ca047ccc-63e1-57f9-ad87-067e3542d14a",
+      "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+      "difficulty": "MEDIUM",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SHORT_ANSWER",
+      "statements": null,
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "tolerance": 1e-9,
+        "acceptedAnswers": [
+          "442"
+        ]
+      },
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "year": "2025-2026",
+        "author": "Sở GDĐT Hưng Yên",
+        "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-3",
+        "contentHash": "b5ca2df4b92229cc641205a1338a967e7a8c5248b7453e32eacf2f7107eaf686",
+        "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+          "page": 5,
+          "column": "9101"
+        },
+        "questionNumber": "9101 / SHORT_ANSWER / 3"
+      },
+      "content": "Cho hình vẽ, tính diện tích phần tô xám theo $cm^2$, biết OA = 20 cm, OC = 5 cm, $\\widehat{AOB}=135^\\circ$. Lấy $\\pi\\approx3,14$, làm tròn đến hàng đơn vị.\n\n![Hình nguồn](/math-import-assets/hung-yen-9101-sector.png)",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:04:53.943Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp",
+        "grade": 9,
+        "chapter": "ĐƯỜNG TRÒN",
+        "orderIndex": 8
+      },
+      "options": []
+    },
+    {
+      "id": "9f4d7b0c-f92d-5362-a038-c2910c559c68",
+      "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SHORT_ANSWER",
+      "statements": null,
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "tolerance": 1e-9,
+        "acceptedAnswers": [
+          "-1.23"
+        ]
+      },
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "year": "2025-2026",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-3",
+        "contentHash": "978b76c95faa1ba8195543f2d8681339096bb3a0a0898d7a074510d33e84dbdc",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "row": "901 (hàng đầu tiên)",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        "questionNumber": "901 / SHORT_ANSWER / 3"
+      },
+      "content": "Biết $\\alpha=30^\\circ$. Tính $M=\\sin\\alpha-2\\cos\\alpha$, làm tròn đến hàng phần trăm.",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:17.575Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "code": "SKILL-07",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "grade": 9,
+        "chapter": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+        "orderIndex": 7
+      },
+      "options": []
+    },
+    {
+      "id": "87ed6d43-c57a-54fd-a74d-657b787e441c",
+      "skillId": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+      "difficulty": "EASY",
+      "versionNumber": 1,
+      "cognitiveLevel": "REMEMBERING",
+      "irtA": null,
+      "irtB": null,
+      "irtC": null,
+      "questionType": "SHORT_ANSWER",
+      "statements": null,
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "tolerance": 1e-9,
+        "acceptedAnswers": [
+          "6.9"
+        ]
+      },
+      "source": {
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "year": "2025-2026",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-5",
+        "contentHash": "fbe71d5899ecab2733c3870a0cad4a5fa81f1d53da64cdeb3c6b64a40494e517",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự.",
+        "reviewStatus": "VERIFIED",
+        "answerEvidence": {
+          "row": "901 (hàng đầu tiên)",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        "questionNumber": "901 / SHORT_ANSWER / 5"
+      },
+      "content": "Kì thi gồm Toán, Ngữ văn, Tiếng Anh: Toán và Ngữ văn hệ số 2, Tiếng Anh hệ số 1. Điểm trung bình ít nhất 8 để trúng tuyển. An được Toán 9,25, Tiếng Anh 7,75. Điểm Ngữ văn tối thiểu bao nhiêu, làm tròn đến chữ số thập phân thứ nhất?",
+      "explanation": null,
+      "status": "DRAFT",
+      "authorId": "a426f62f-c79d-44f2-9a21-6be2303a8792",
+      "reviewerId": null,
+      "createdAt": "2026-10-17T07:06:17.580Z",
+      "updatedAt": "2026-10-17T07:41:37.953Z",
+      "skill": {
+        "id": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+        "code": "MATH9-LINEAR-INEQUALITY",
+        "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn",
+        "grade": 9,
+        "chapter": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH",
+        "orderIndex": 23
+      },
+      "options": []
+    }
+  ],
+  "questionCounts": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 4,
+    "SHORT_ANSWER": 6
+  }
+}

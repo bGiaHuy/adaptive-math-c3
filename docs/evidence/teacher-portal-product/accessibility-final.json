@@ -1,0 +1,1490 @@
+[
+  {
+    "name": "overview",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1707,
+    "viewport": 900,
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Cần theo dõi",
+      "Bài giao gần đây",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 111
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 230
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "library",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2214,
+    "viewport": 900,
+    "headings": [
+      "Thư viện đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "class-overview",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1150,
+    "viewport": 900,
+    "headings": [
+      "Toán 9A1",
+      "Bài tập gần đây"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "class-assignments",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2352,
+    "viewport": 900,
+    "headings": [
+      "Toán 9A1"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "students",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1232,
+    "viewport": 900,
+    "headings": [
+      "Toán 9A1",
+      "Danh sách học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 4
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "gradebook",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1244,
+    "viewport": 900,
+    "headings": [
+      "Toán 9A1",
+      "Sổ điểm lớp"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 20
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "skills",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "headings": [
+      "Toán 9A1",
+      "Kết quả theo kỹ năng"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "bank",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1893,
+    "viewport": 900,
+    "headings": [
+      "Ngân hàng câu hỏi"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-results",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2084,
+    "viewport": 900,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Tình hình điểm số",
+      "Câu hỏi cần xem lại",
+      "Bài làm của học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 6
+      }
+    ],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 189
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-paper",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2407,
+    "viewport": 900,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nội dung đề và đáp án"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 189
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-settings",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Thiết lập bài giao"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 189
+      },
+      {
+        "text": "Lưu thiết lập",
+        "top": 751
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-analysis",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2802,
+    "viewport": 900,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nên ôn lại kiến thức nào?",
+      "Tìm nguyên nhân theo từng câu"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 189
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "create-class",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách",
+      "Tạo lớp học"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 111
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 230
+      },
+      {
+        "text": "Tạo lớp và mã mời",
+        "top": 574
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-picker",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1489,
+    "viewport": 900,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-bank",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1332,
+    "viewport": 900,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-manual",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1626,
+    "viewport": 900,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-document",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1166,
+    "viewport": 900,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-json",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1166,
+    "viewport": 900,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-ai",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1489,
+    "viewport": 900,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "empty",
+    "size": "desktop",
+    "state": "empty",
+    "overflow": false,
+    "height": 908,
+    "viewport": 900,
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Cần theo dõi",
+      "Bài giao gần đây",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "error",
+    "size": "desktop",
+    "state": "error",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "headings": [
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "loading",
+    "size": "desktop",
+    "state": "loading",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 111
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "overview",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1929,
+    "viewport": 1000,
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Cần theo dõi",
+      "Bài giao gần đây",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1000,
+    "viewport": 1000,
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 107
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 226
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "library",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2049,
+    "viewport": 1000,
+    "headings": [
+      "Thư viện đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "class-overview",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1114,
+    "viewport": 1000,
+    "headings": [
+      "Toán 9A1",
+      "Bài tập gần đây"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "class-assignments",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2187,
+    "viewport": 1000,
+    "headings": [
+      "Toán 9A1"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "students",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1196,
+    "viewport": 1000,
+    "headings": [
+      "Toán 9A1",
+      "Danh sách học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 4
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "gradebook",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1208,
+    "viewport": 1000,
+    "headings": [
+      "Toán 9A1",
+      "Sổ điểm lớp"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 20
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "skills",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1000,
+    "viewport": 1000,
+    "headings": [
+      "Toán 9A1",
+      "Kết quả theo kỹ năng"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "bank",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1950,
+    "viewport": 1000,
+    "headings": [
+      "Ngân hàng câu hỏi"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-results",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2346,
+    "viewport": 1000,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Tình hình điểm số",
+      "Câu hỏi cần xem lại",
+      "Bài làm của học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 6
+      }
+    ],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 230
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-paper",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2407,
+    "viewport": 1000,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nội dung đề và đáp án"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 230
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-settings",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1000,
+    "viewport": 1000,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Thiết lập bài giao"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 230
+      },
+      {
+        "text": "Lưu thiết lập",
+        "top": 806
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-analysis",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 3133,
+    "viewport": 1000,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nên ôn lại kiến thức nào?",
+      "Tìm nguyên nhân theo từng câu"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 230
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "create-class",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1000,
+    "viewport": 1000,
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách",
+      "Tạo lớp học"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 107
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 226
+      },
+      {
+        "text": "Tạo lớp và mã mời",
+        "top": 624
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-picker",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1695,
+    "viewport": 1000,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 899
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-bank",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1565,
+    "viewport": 1000,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 899
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-manual",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1888,
+    "viewport": 1000,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 899
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-document",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1194,
+    "viewport": 1000,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 899
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-json",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1346,
+    "viewport": 1000,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 899
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-ai",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1695,
+    "viewport": 1000,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 899
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "empty",
+    "size": "tablet",
+    "state": "empty",
+    "overflow": false,
+    "height": 1083,
+    "viewport": 1000,
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Cần theo dõi",
+      "Bài giao gần đây",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "error",
+    "size": "tablet",
+    "state": "error",
+    "overflow": false,
+    "height": 1000,
+    "viewport": 1000,
+    "headings": [
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "loading",
+    "size": "tablet",
+    "state": "loading",
+    "overflow": false,
+    "height": 1000,
+    "viewport": 1000,
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 107
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "overview",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2499,
+    "viewport": 844,
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Cần theo dõi",
+      "Bài giao gần đây",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1211,
+    "viewport": 844,
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 198
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 362
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "library",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2584,
+    "viewport": 844,
+    "headings": [
+      "Thư viện đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 175
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "class-overview",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1434,
+    "viewport": 844,
+    "headings": [
+      "Toán 9A1",
+      "Bài tập gần đây"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 175
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "class-assignments",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2834,
+    "viewport": 844,
+    "headings": [
+      "Toán 9A1"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 175
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "students",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1355,
+    "viewport": 844,
+    "headings": [
+      "Toán 9A1",
+      "Danh sách học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 4
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 175
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "gradebook",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1367,
+    "viewport": 844,
+    "headings": [
+      "Toán 9A1",
+      "Sổ điểm lớp"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 20
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 175
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "skills",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1129,
+    "viewport": 844,
+    "headings": [
+      "Toán 9A1",
+      "Kết quả theo kỹ năng"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 175
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "bank",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1802,
+    "viewport": 844,
+    "headings": [
+      "Ngân hàng câu hỏi"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 175
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-results",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2974,
+    "viewport": 844,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Tình hình điểm số",
+      "Câu hỏi cần xem lại",
+      "Bài làm của học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 6
+      }
+    ],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 258
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-paper",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2624,
+    "viewport": 844,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nội dung đề và đáp án"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 258
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-settings",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1131,
+    "viewport": 844,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Thiết lập bài giao"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 258
+      },
+      {
+        "text": "Lưu thiết lập",
+        "top": 938
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "report-analysis",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 3060,
+    "viewport": 844,
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nên ôn lại kiến thức nào?",
+      "Tìm nguyên nhân theo từng câu"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 258
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "create-class",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1211,
+    "viewport": 844,
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách",
+      "Tạo lớp học"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 198
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 362
+      },
+      {
+        "text": "Tạo lớp và mã mời",
+        "top": 607
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-picker",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2012,
+    "viewport": 844,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 687
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-bank",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1993,
+    "viewport": 844,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 687
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-manual",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2213,
+    "viewport": 844,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 687
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-document",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1431,
+    "viewport": 844,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 687
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-json",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1671,
+    "viewport": 844,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 687
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "composer-ai",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2012,
+    "viewport": 844,
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 687
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "empty",
+    "size": "mobile",
+    "state": "empty",
+    "overflow": false,
+    "height": 1228,
+    "viewport": 844,
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Cần theo dõi",
+      "Bài giao gần đây",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "error",
+    "size": "mobile",
+    "state": "error",
+    "overflow": false,
+    "height": 844,
+    "viewport": 844,
+    "headings": [
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [],
+    "accessibility": [],
+    "errors": []
+  },
+  {
+    "name": "loading",
+    "size": "mobile",
+    "state": "loading",
+    "overflow": false,
+    "height": 844,
+    "viewport": 844,
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 198
+      }
+    ],
+    "accessibility": [],
+    "errors": []
+  }
+]

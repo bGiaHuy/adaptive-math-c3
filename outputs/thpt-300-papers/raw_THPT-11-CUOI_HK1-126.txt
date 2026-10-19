@@ -1,0 +1,1427 @@
+=== THPT-11-CUOI_HK1-126.pdf (Total pages: 22) ===
+--- QUESTION PAGES ---
+
+[PAGE 1]
+Đề kiểm tra cuối kỳ 1, môn Toán_11. Trang 1/3 - Mã đề thi 132 
+SỞ GD&ĐT THÀNH PHỐ HUẾ 
+TRƯỜNG THPT PHÚ LỘC 
+ĐỀ KIỂM TRA CUỐI KỲ I, NĂM HỌC 2025-2026 
+MÔN: TOÁN 11 
+(Đề thi gồm có 03 trang) 
+Thời gian làm bài 90  phút, không kể thời gian phát đề 
+      Họ và tên học sinh: ……………………………………………..., Lớp: 11B... 
+Mã đề 132 
+ 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3 điểm). 
+Câu 1.  Mệnh đề nào trong các mệnh đề sau đây là sai? 
+A. Hình biểu biễn của hình tam giác (vuông, cân, đều) trong không gian là hình tam giác. 
+B. Hình biểu biễn của hình bình hành (hình vuông, hình thoi, hình chữ nhật) trong không gian là hình bình 
+hành. 
+C. Hình biểu biễn của  hình tròn trong không gian là hình tròn. 
+D. Hình biểu biễn của hai đường thẳng song song trong không gian là hai đường thẳng song song. 
+Câu 2.  Trong không gian cho đường thẳng a , điểm H và mặt phẳng ( )
+P . Khẳng định  nào sau đây sai? 
+ A. 
+( )
+a
+P
+⊂
+. 
+ B. 
+( )
+a
+P
+∈
+. 
+ C. 
+( )
+H
+P
+∈
+. 
+ D. H
+a
+∈
+. 
+Câu 3.  Trong các dãy số sau, dãy số nào là dãy giảm. 
+ A. 1 1 1
+;
+;
+9 6 3 . 
+ B. 7;7;7. 
+ C. 3;0;9 . 
+ D. 1 1
+1
+;
+;
+5 10 15 . 
+Câu 4.  Tìm hiểu thời gian hoàn thành một bài tập của một số học sinh thu được kết quả sau: 
+ 
+Số học sinh hoàn thành một bài tập trước 12 phút là: 
+ A. 6. 
+ B. 7. 
+ C. 13. 
+ D. 17. 
+Câu 5.  Giá trị của 
+(
+)
+2
+1
+lim 2
+3
+1
+x
+x
+x
+→
+−
++
+ bằng 
+ A. 1. 
+ B. 0. 
+ C. 2. 
+ D. +∞. 
+Câu 6.  Cho cấp số cộng (
+)
+nu
+ với 
+7
+2
+n
+u
+n
+=
++
+. Số hạng đầu của cấp số cộng đó bằng 
+ A. 2. 
+ B. 5. 
+ C. 7. 
+ D. 9. 
+Câu 7.  Trong các hàm số sau, hàm số nào là hàm số chẵn. 
+ A. 
+sin
+y
+x
+=
+. 
+ B. 
+cot
+y
+x
+=
+. 
+ C. 
+tan
+y
+x
+=
+. 
+ D. 
+cos
+y
+x
+=
+. 
+Câu 8.  Góc có số đo 15°thì có số đo theo radian là 
+ A. 
+15
+π . 
+ B. 6
+π . 
+ C. 
+12
+π . 
+ D. 8
+π . 
+Câu 9.  Cho hình chóp .
+S ABCD , đáy ABCD là hình bình hành, Gọi 
+,
+,G
+M N
+ lần lượt là trung điểm 
+,
+SA SB và trọng tâm 
+SCD
+
+. Khẳng định nào sau đây đúng? 
+ 
+ A. MN
+CD
+
+. 
+ B. MN
+AD
+
+. 
+ C. MG
+BC
+
+. 
+ D. NG
+AD
+
+. 
+Câu 10.  Biểu thức sin cos
+cos sin
+a
+b
+a
+b
++
+ bằng 
+ A. 
+(
+)
+sin a
+b
++
+. 
+ B. 
+(
+)
+cos a
+b
++
+. 
+ C. 
+(
+)
+sin a
+b
+−
+. 
+ D. 
+(
+)
+cos a
+b
+−
+. 
+ 
+
+[PAGE 2]
+Đề kiểm tra cuối kỳ 1, môn Toán_11. Trang 2/3 - Mã đề thi 132 
+Câu 11.  Phương trình sin
+0
+x =
+ có nghiệm là 
+ A. 
+(
+)
+x
+k
+k
+π
+=
+∈. 
+ B. 
+(
+)
+2
+2
+x
+k
+k
+π
+π
+=
++
+∈. 
+ C. 
+(
+)
+2
+x
+k
+k
+π
+π
+=
++
+∈. 
+ D. 
+(
+)
+2
+2
+x
+k
+k
+π
+π
+= −
++
+∈. 
+Câu 12.  Điểm thi môn Toán ( thang điểm 100) của 60 thí sinh được cho trong bảng sau: 
+ 
+Nhóm chứa Mốt của mẫu số liệu trên là: 
+ A. 45. 
+ B. 55. 
+ C. 
+
+50;60
+
+. 
+ D. 
+
+40;50
+
+. 
+PHẦN II. Câu trắc nghiệm đúng sai (2 điểm). 
+Câu 1.  Cho hình chóp .
+,
+S ABCD ABCD là hình bình hành tâm O , Gọi 
+,
+M N lần lượt là trung điểm 
+,
+SA SD .  
+ 
+ a) SO là giao tuyến của hai mặt phẳng (
+)
+SAC và (
+)
+SDB . 
+ b) MO
+SB
+
+. 
+ c) (
+) (
+)
+MNO
+SBC
+
+. 
+ d) 
+(
+)
+MO
+SBC
+
+. 
+Câu 2.  Cho hàm số 
+( )
+2
+1
+khi
+0.
+2
+1
+khi
+0
+x
+x
+f x
+x
+x
+
++
+≥
+= 
+−
+<
+
+ 
+ a) Hàm số 
+( )
+y
+f x
+=
+ liên tục tại 
+2.
+x =
+ 
+ b) 
+( )
+0
+2
+f
+=
+ 
+ c) 
+( )
+0
+lim
+1
+x
+f x
++
+→
+= − 
+ d) Hàm số 
+( )
+y
+f x
+=
+ gián đoạn tại 
+0.
+x =
+ 
+ 
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2 điểm). 
+Câu 1.  Cho cấp số nhân (
+)
+n
+u
+có 
+1
+2
+u =
+, công bội 
+3
+q = . Tính 
+5u 
+Câu 2.  Cho biết
+2
+2
+6
+2025
+1
+lim
+7
+4
+n
+n
+n
+n
+a
+→+∞
++
+−
+=
++
+. Giá trị a bằng bao nhiêu? 
+Câu 3.  Biến đổi biểu thức 
+5
+sin
+sin
+16
+16
+M
+π
+π
+=
+−
+ thành tích ta được 
+2sin
+cos
+M
+a
+b
+π
+π
+=
+ với 
+1 1
+;
+2 2
+a
+
+
+∈−
+
+
+
+
+ 
+và 
+(
+)
+0;1
+b∈
+. Khi đó 4
+8
+a
+b
++
+ bằng bao nhiêu? 
+Câu 4.  Tìm hiểu thời gian hoàn thành một bài tập khó của một số học sinh thu được kết quả sau: 
+ 
+Tìm thời gian trung bình hoàn thành bài tập đó của các học sinh (kết quả làm tròn đến hàng phần mười) 
+
+[PAGE 3]
+Đề kiểm tra cuối kỳ 1, môn Toán_11. Trang 3/3 - Mã đề thi 132 
+Phần IV. Tự luận (3 điểm). 
+Câu 1. (0,5 điểm) Tính giới hạn sau: 
+2
+2
+2
+3
+2
+lim
+4
+x
+x
+x
+x
+→
+−
++
+−
+ 
+Câu 2. (1,5 điểm) Cho hình chóp .
+,
+S ABCD ABCD là tứ giác không có cặp cạnh đối nào song song. Gọi 
+G là trọng tâm 
+SDC
+
+. Điểm M thuộc cạnh AB sao cho 
+2
+MB
+MA
+=
+. 
+a.  Tìm giao tuyến của hai mặt phẳng (
+) (
+)
+;
+SAB
+SDC . 
+b.   Trong mặt phẳng (
+)
+ABCD vẻ đường thẳng d đi qua M và song song BC cắt AC tại N . Chứng 
+minh rằng:  
+(
+)
+NG
+SAD
+
+. 
+Câu 3. (0,5 điểm) Để làm một khung lồng đèn kéo quân hình lăng trụ lục giác đều ABCDEFA B C D E F
+′ ′ ′ ′ ′ ′
+. Quân gắn hai thanh tre 
+1
+1
+1
+1
+,
+A D FC song song với mặt phẳng đáy và cắt nhau tại 
+1
+O , gọi O là tâm đáy
+ABCDEF , H là giao điểm của (
+)
+1
+1
+'
+AFC và DD .  Quân cần dán giấy màu khác biệt với hình đoạn 
+'
+D H , 
+Giúp Quân tính độ dài đoạn 
+'
+D H . Cho biết 
+1
+1
+4
+A A
+AA
+=
+′
+ và 
+60 cm
+AA′ =
+.  
+ 
+ 
+ 
+Câu 4. (0,5 điểm) Một hòn đảo nhân tạo được thiết kế theo hình dạng bông tuyết Koch. Bắt đầu từ một tam 
+giác đều cạnh a = 100 mét. Với quy luật: mỗi cạnh của bước trước được chia làm 3, bỏ đoạn giữa và thay 
+bằng 2 đoạn bằng nó ghép thành một tam giác đều (hướng ra ngoài). Cho biết chi phí để lấp đất và trồng 
+cỏ phủ kín hòn đảo có chi phí là 5 triệu đồng /m². Nếu quá trình xây dựng cứ tiếp diễn mãi mãi, hãy tính 
+tổng chi phí lấp đất và trồng cỏ.   
+ 
+----HẾT--- 
+ 
+ 
+
+--- ANSWER PAGES ---
+
+[PAGE 7]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_11. Trang 1/4 
+SỞ GD&ĐT THÀNH PHỐ HUẾ 
+TRƯỜNG THPT PHÚ LỘC 
+KIỂM TRA CUỐI KÌ I, NĂM HỌC 2025-2026 
+MÔN: TOÁN - 11 
+ 
+HƯỚNG DẪN CHẤM 
+ 
+Phần I. Câu trắc  nghiệm nhiều phương án lựa chọn.  
+(Mỗi câu trả lời đúng thí sinh được 0,25 điểm) 
+ 
+Câu 
+Mã đề 132 
+Mã đề 209 
+Mã đề 357 
+Mã đề 485 
+1 
+C 
+A 
+A 
+C 
+2 
+B 
+C 
+B 
+A 
+3 
+D 
+B 
+D 
+C 
+4 
+C 
+C 
+A 
+C 
+5 
+B 
+A 
+C 
+A 
+6 
+D 
+B 
+D 
+D 
+7 
+D 
+D 
+C 
+A 
+8 
+C 
+A 
+A 
+A 
+9 
+A 
+C 
+B 
+B 
+10 
+A 
+B 
+D 
+A 
+11 
+A 
+B 
+B 
+B 
+12 
+D 
+B 
+D 
+A 
+ 
+Phần II. Câu trắc nghiệm đúng sai.  
+Điểm tối đa của 01 câu hỏi là 1 điểm 
+-Thí sinh chỉ lựa chọn chính xác 01 ý trong 1 câu hỏi được 0,1 điểm. 
+-Thí sinh chỉ lựa chọn chính xác 02 ý trong 1 câu hỏi được 0,25 điểm. 
+-Thí sinh chỉ lựa chọn chính xác 03 ý trong 1 câu hỏi được 0,5 điểm. 
+-Thí sinh lựa chọn chính xác cả 04 ý trong 1 câu hỏi được 1,0 điểm. 
+Câu hỏi 
+Mã đề thi 
+132 
+209 
+357 
+485 
+1 
+ĐSĐĐ 
+SĐĐĐ 
+SĐĐĐ 
+ĐSĐĐ 
+2 
+ĐSSĐ 
+ĐSSĐ 
+SĐSĐ 
+ĐSSĐ 
+ 
+Phần III. Câu trắc nghiệm trả lời ngắn. 
+Điểm cho mỗi câu là 0,5 điểm:  
+Câu hỏi 
+Mã đề thi 
+132 
+209 
+357 
+485 
+1 
+162 
+1 
+7 
+1 
+2 
+7 
+10,4 
+162 
+162 
+3 
+1 
+162 
+1 
+10,4 
+4 
+10,4 
+7 
+10,4 
+7 
+ 
+MĐ 132 
+Câu 1: Cho cấp số nhân (
+)
+n
+u
+có 
+1
+2
+u =
+, công bội 
+3
+q = . Tính 
+5u 
+Lời giải 
+Đáp án: 162 
+Giải thích: 
+( )
+4
+4
+5
+1.
+2. 3
+162.
+u
+u q
+=
+=
+=
+ 
+
+[PAGE 8]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_11. Trang 2/4 
+Câu 2. Cho biết
+2
+2
+6
+2025
+1
+lim
+7
+4
+n
+n
+n
+n
+a
+→+∞
++
+−
+=
++
+. Giá trị a bằng bao nhiêu?  
+Lời giải 
+Đáp án: 7 
+Giải thích: Ta có: 
+2
+2
+2
+2
+2
+2
+2
+2
+6
+2025
+6
+2025
+1
+1
+6
+2025
+1
+lim
+lim
+lim
+4
+4
+7
+4
+7
+(7
+)
+(7
+)
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+→+∞
+→+∞
+→+∞
+
+
+
+
++
+−
++
+−
+
+
+
+
++
+−
+
+
+
+
+=
+=
+=
++
++
++
+. 
+Vậy  a=7 
+Câu 3: Biến đổi biểu thức 
+5
+sin
+sin
+16
+16
+M
+π
+π
+=
+−
+ thành tích ta được 
+2sin
+cos
+M
+a
+b
+π
+π
+=
+ với 
+1 1
+;
+2 2
+a
+
+
+∈−
+
+
+
+
+ và 
+(
+)
+0;1
+b∈
+. Khi đó 4
+8
+a
+b
++
+ bằng bao nhiêu? 
+Lời giải 
+Đáp án: 1 
+Giải thích: Ta có: 
+5
+5
+5
+3
+16
+16
+16
+16
+sin
+sin
+2cos
+sin
+2cos
+sin
+16
+16
+2
+2
+16
+8
+M
+π
+π
+π
+π
+π
+π
+π
+π
++
+−
+
+
+=
+−
+=
+=
+−
+
+
+
+
+ 
+Suy ra 
+1
+3
+;
+8
+16
+a
+b
+= −
+=
+. 
+Vậy 
+1
+3
+4
+8
+4.
+8.
+1
+8
+16
+a
+b
+
+
++
+=
+−
++
+=
+
+
+
+
+ 
+ 
+Câu 4. Tìm hiểu thời gian hoàn thành một bài tập khó của một số học sinh thu được kết quả sau: 
+ 
+Tìm thời gian trung bình để hoàn thành bài tập đó của các học sinh?  ( kết quả làm tròn đến hàng phần 
+mười ) 
+Lời giải 
+Đáp án: 10,4. 
+Giải thích: Thời gian trung bình là : 10,4 
+ 
+PHẦN IV. Tự luận. 
+Câu 
+Nội dung 
+Điểm 
+1 
+Đề: Tính giới hạn
+2
+2
+2
+3
+2
+lim
+4
+x
+x
+x
+x
+→
+−
++
+−
+ 
+ 
+Ta có 
+2
+2
+2
+3
+2
+lim
+4
+x
+x
+x
+x
+→
+−
++
+−
+(
+)(
+)
+(
+)(
+)
+2
+1
+2
+lim
+2
+2
+x
+x
+x
+x
+x
+→
+−
+−
+=
+−
++
+2
+1
+1
+lim
+2
+4
+x
+x
+x
+→
+−
+=
+=
++
+. 
+0,25 
+2
+1
+1
+lim
+2
+4
+x
+x
+x
+→
+−
+=
+=
++
+ 
+0,25 
+2 
+Đề: Cho hình chóp .
+,
+S ABCD ABCD là tứ giác không có cặp cạnh đối nào song 
+song. Gọi G là trọng tâm 
+SDC
+
+. Điểm M thuộc cạnh AB sao cho 
+2
+MB
+MA
+=
+. 
+a.  Tìm giao tuyến của hai mặt phẳng (
+) (
+)
+;
+SAB
+SDC . 
+b.   Trong mặt phẳng (
+)
+ABCD vẻ đường thẳng d đi qua M và song song BC cắt 
+AC tại N . Chứng minh rằng:  
+(
+)
+NG
+SAD
+
+. 
+ 
+
+[PAGE 9]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_11. Trang 3/4 
+0,25 
+I
+AB
+CD
+I
+=
+∩
+⇒
+ là điểm chung của hai mặt phẳng 
+ 
+0,5 
+S là điểm chung của hai mặt phẳng 
+Vậy 
+(
+)
+(
+)
+SI
+SAB
+SCD
+=
+∩
+ 
+0,25 
+G là trọng tâm tam giác SCD nên  
+2
+3
+CG
+CH =
+. 
+Theo giả thiết 
+2
+3
+BM
+AB =
+ và MN// BC nên 
+2
+3
+CN
+CA =
+. 
+ 
+0,25 
+Do đó 
+2
+/ /
+3
+CG
+CN
+GN
+HA
+CH
+CA
+=
+=
+⇒
+ 
+Mà 
+(
+)
+HA
+SAD
+⊂
+ 
+Vậy 
+(
+)
+/ /
+GN
+SAD 
+0,25 
+3 
+Đề: Để làm một khung lồng đèn kéo quân hình lăng trụ lục giác đều 
+ABCDEFA B C D E F
+′ ′ ′ ′ ′ ′ . Quân gắn hai thanh tre 
+1
+1
+1
+1
+,
+A D FC song song với mặt phẳng 
+đáy và cắt nhau tại 
+1
+O , gọi O là tâm đáy ABCDEF , H là giao điểm của 
+(
+)
+1
+1
+'
+AFC và DD . Quân cần dán giấy màu khác biệt với hình đoạn 
+'
+D H , Giúp Quân 
+tính độ dài đoạn 
+'
+D H . Cho biết 
+1
+1
+4
+A A
+AA
+=
+′
+ và 
+60 cm
+AA′ =
+. 
+ 
+1
+1
+4
+A A
+AA
+=
+′
+ và 
+60 cm
+AA′ =
+,  nên 
+1
+12
+AA
+cm
+=
+. 
+Trong mặt phẳng ( A’D’DA), 
+(
+)
+1
+1 1
+'
+H
+DD'
+H
+AQ
+DD
+AF C
+=
+∩
+⇒
+=
+∩
+. 
+Do (
+)
+'
+'
+ADD A
+ cắt (
+) (
+)
+1 1
+1 1
+A F D C
+ABCDEF
+
+lần lượt 
+1
+1,
+A D AD nên 
+1
+1
+1
+1
+/ /
+/ /
+A D
+AD
+AA
+DD 
+1
+1
+AA D D
+⇒
+ là hình bình hành  
+ Do đó 
+1
+1
+12
+AA
+D D
+cm
+=
+=
+. 
+0,25 
+Mà 
+1
+1
+/ /
+OO
+D D , O là trung điểm AD nên 
+1
+2
+24
+DH
+D D
+cm
+=
+=
+ 
+Do đó 
+'H
+60
+24
+36
+D
+cm
+=
+−
+=
+. 
+Vậy  D’H = 36 cm 
+0,25 
+ 
+ 
+
+[PAGE 10]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_11. Trang 4/4 
+4 
+Đề: Một hòn đảo nhân tạo được thiết kế theo hình dạng bông tuyết Koch. Bắt đầu từ 
+một tam giác đều cạnh a = 100 mét. Với quy luật: mỗi cạnh của bước trước được chia 
+làm 3, bỏ đoạn giữa và thay bằng 2 đoạn bằng nó ghép thành một tam giác đều (hướng 
+ra ngoài).Cho biết chi phí để lấp đất và trồng cỏ phủ kín hòn đảo có chi phí là 5 triệu 
+đồng /m². Nếu quá trình xây dựng cứ tiếp diễn mãi mãi, hãy tính tổng chi phí lấp đất và 
+trồng cỏ.   
+ 
+Diện tích ban đầu (Bước 0):Diện tích tam giác đều cạnh a = 100 m là:
+2
+2
+0
+3
+100
+3
+2500 3
+4
+4
+a
+S =
+=
+=
+ 
+Diện tích thêm vào ở mỗi bước: 
+Bước 1: Ta thêm 3 tam giác nhỏ, mỗi tam giác có cạnh bằng a/3. Diện tích mỗi tam 
+giác nhỏ này là 
+2
+1
+0
+3
+1
+3
+4
+9
+a
+S
+S
+
+
+
+
+
+
+=
+=
+ 
+Tổng diện tích thêm vào là 
+0
+1
+3
+9 S
+×
+ 
+Bước 2: Ở bước này, ta thêm 3.4 = 12 tam giác nhỏ hơn nữa. Mỗi tam giác có cạnh 
+bằng a/9, diện tích bằng 
+2
+1
+0
+1
+1
+9
+81
+S
+S
+S
+=
+=
+ 
+Tổng diện tích thêm vào là:
+0
+0
+1
+4
+12.81
+27
+S
+S
+=
+ 
+Tổng quát (Bước n): Diện tích được thêm vào ở bước n là một cấp số nhân với số 
+hạng đầu 
+1
+0
+1
+3
+u
+S
+=
+, 
+4
+9
+q =
+ 
+Tổng diện tích  S của hòn đảo là tổng của diện tích ban đầu và tổng của chuỗi diện 
+tích được thêm vào:
+0
+0
+0
+0
+0
+0
+0
+1
+1
+4
+16
+8
+3
+......
+4000 3
+4
+3
+27
+243
+5
+1
+9
+S
+S
+S
+S
+S
+S
+S
+S
+
+
+=
++
++
++
++
+=
++
+=
+=
+
+
+
+
+−
+ 
+0,25 
+Tính tổng chi phí: Chi phí lấp đất và trồng cỏ là 5triệu đồng /m² nên tổng chi phí 
+trồng cỏ và lấp đất là 5. S=  
+5.4000 3
+20000 3
+=
+ 
+0,25 
+ 
+Chú ý: Nếu học sinh trình bày cách giải khác, đảm bảo đúng và chặt chẻ thì chấm điểm tối đa của phần 
+hoặc câu đó. 
+ 
+ 

@@ -1,0 +1,1544 @@
+=== THPT-10-CUOI_HK1-026.pdf (Total pages: 11) ===
+--- QUESTION PAGES ---
+
+[PAGE 1]
+Đề kiểm tra cuối kỳ 1, môn Toán_10.Trang 1/3 - Mã đề 132 
+ 
+SỞ GD&ĐT THÀNH PHỐ HUẾ 
+TRƯỜNG THPT PHÚ LỘC 
+ ĐỀ KIỂM TRA CUỐI KỲ I, NĂM HỌC 2025 - 2026 
+MÔN: TOÁN 10 
+(Đề thi gồm có 03 trang) 
+Thời gian làm bài 90 phút, không kể thời gian phát đề 
+ 
+Mã đề 132 
+Họ và tên học sinh………………………….................................., Lớp: 10B…. 
+ 
+PHẦN I. Trắc nghiệm nhiều phương án lựa chọn. 
+Câu 1. Trong mặt phẳng tọa độ Oxy, biết 
+3
+9 .
+u
+i
+j
+=
+−
+
+
+
+ Tọa độ của vectơ u
+
+ là 
+ 
+A. (
+)
+3; 9 .
+−
+ 
+B. (
+)
+3;9 . 
+C. (
+)
+9;3 . 
+D. (
+)
+9;6 .
+−
+ 
+Câu 2. Cho hai tập hợp 
+{
+}
+{
+}
+0;1;2;3;4 ,
+2;3;4;5;6
+A
+B
+=
+=
+. Xác đinh tập hợp 
+\
+.
+A B 
+ 
+A. 
+{ }
+\
+0 .
+A B =
+ 
+B. 
+{
+}
+\
+1;2 .
+A B =
+ 
+C. 
+{
+}
+\
+1;5 .
+A B =
+ 
+D. 
+{
+}
+\
+0;1 .
+A B =
+ 
+Câu 3. Cho mệnh đề: 
+2
+,
+5
+10
+0
+x
+x
+x
+∀∈
++
++
+>
+
+. Xác định mênh đề phủ định của mệnh đề trên? 
+ 
+A. 
+2
+,
+5
+10
+0
+x
+x
+x
+∀∈
++
++
+≤
+
+ 
+B. 
+2
+,
+5
+10
+0
+x
+x
+x
+∀∈
++
++
+<
+
+ 
+ 
+C. 
+2
+,
+5
+10
+0
+x
+x
+x
+∃∈
++
++
+<
+
+ 
+D. 
+2
+,
+5
+10
+0
+x
+x
+x
+∃∈
++
++
+≤
+
+ 
+Câu 4. Cho số đúng a và số gần đúng a . Sai số tuyệt đối của số gần đúng a là: 
+ 
+A. 
+a
+a
+a
+∆=
++
+. 
+B. 
+a
+a
+a
+∆=
++
+. 
+C. 
+a
+a
+a
+∆=
+−
+. 
+D. 
+a
+a
+a
+∆=
+−
+. 
+Câu 5. Trong các câu sau, câu nào không phải là một mệnh đề ? 
+ 
+A. 2 + 8 = 6. 
+B. Số 18 chia hết cho 6. 
+ 
+C. Ăn phở rất ngon !. 
+D. Việt Nam có 54 dân tộc. 
+Câu 6. Cho tập hợp 
+{
+}
+|
+5
+A
+x
+x
+=
+∈
+≤
+
+. Tập hợp A được viết dưới dạng liệt kê các phần tử là 
+ 
+A. 
+{
+}
+0;1;2;3;4;5
+A=
+. 
+B. 
+{
+}
+1;2;3;4;5
+A=
+. 
+C. 
+{
+}
+1;2;3;4
+A=
+. 
+D. 
+{
+}
+0;1;2;3;4
+A=
+ 
+Câu 7. Điểm nào dưới đây thuộc miền nghiệm của bất phương trình 2
+5
+x
+y
+−
+>
+? 
+ 
+A. 
+(
+)
+2; 2
+N
+−
+. 
+B. 
+(
+)
+2; 1
+M
+−
+. 
+C. 
+(
+)
+1;1
+P
+. 
+D. 
+(
+)
+1;1
+Q −
+. 
+Câu 8. Trong các số dưới đây, số nào là số đúng? 
+ 
+A. Dân số xã Phú Lộc khoảng 50929 người. 
+B. Khoảng cách từ nhà em đến trường là 1,2 km. 
+ 
+C. Cân một túi gạo cho kết quả là 5,2kg. 
+D. Sỉ số của lớp em là 40 bạn. 
+Câu 9. Trong mặt phẳng Oxy , cho vectơ a
+
+ được biểu diễn như hình vẽ. 
+ 
+Tọa độ của vectơ a
+
+ là: 
+ 
+A. (
+)
+3;3 . 
+B. (
+)
+3;2 . 
+C. (
+)
+2;3 . 
+D. (
+)
+3; 2 .
+−
+ 
+Câu 10. Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn? 
+ 
+A. 
+2
+2024
+2
+2025
+x
+xy
+x
+y
++
+>
+
+
+−
+<
+
+. 
+B. 
+2024
+2
+2025
+x
+y
+x
+y
++
+>
+
+
+−
+<
+
+. 
+C. 
+2
+2024
+2
+2025
+x
+y
+x
+y
+
++
+>
+
+−
+<
+
+. 
+D. 
+2024
+2
+2025
+x
+y
+x
+y
++
+>
+
+
+−
+=
+
+. 
+
+[PAGE 2]
+ Đề kiểm tra cuối kỳ 1, môn Toán_10.Trang 2/3 - Mã đề 132 
+ 
+Câu 11. Cho 
+ABC
+∆
+ với các cạnh 
+,
+,
+AB
+c AC
+b BC
+a
+=
+=
+=
+, R là bán kính đường tròn ngoại tiếp. Trong 
+các phát biểu sau, phát biểu nào đúng? 
+ 
+A. 
+2
+2
+2
+2
+.cos .
+a
+b
+c
+bc
+A
+=
++
+−
+ 
+B. 
+.
+sin
+a
+R
+A =
+ 
+ 
+C. 
+2
+2
+2
+2
+.cos .
+b
+a
+c
+ac
+B
+=
++
++
+ 
+D. 
+.
+abc
+S
+R
+=
+ 
+Câu 12. Cho bốn điểm phân biệt
+, ,
+,
+A B C D . Vectơ tổng AB
+CD
+BC
+DA
++
++
++
+
+
+
+
+ bằng 
+ 
+A. BA
+
+. 
+B. BD
+
+. 
+C. 0
+
+. 
+D. AC
+
+. 
+ 
+Phần II. Câu trắc nghiệm đúng sai. 
+ 
+Câu 1. Số liệu thu nhập bình quân đầu người một tháng (đơn vị: triệu đồng) năm 2023 của 6 vùng kinh tế 
+- xã hội tại Việt Nam được cho trong bảng sau: (nguồn: gso.gov.vn - Kết quả khảo sát mức sống dân cư 
+2023) 
+ 
+ 
+a) Vùng kinh tế Tây Nguyên có mức thu nhập bình quân thấp nhất trong 6 vùng. 
+ 
+b) Thu nhập trung bình của các vùng là 4,7 triệu đồng/tháng. 
+ 
+c) Khoảng biến thiên của mẫu số liệu thu nhập giữa các vùng là 3,1 triệu đồng. 
+ 
+d) Nếu tất cả các vùng đều có thu nhập tăng thêm 1 triệu đồng/tháng thì độ lệch chuẩn của mẫu số liệu 
+mới sẽ không thay đổi so với số liệu ban đầu. 
+Câu 2. Cho hình chữ nhật ABCD biết
+4,
+3
+AB
+AD
+=
+= . Gọi O là giao điểm của hai đường chéo AC và 
+BD. 
+a) OB
+
+ không cùng phương với 
+.
+BD
+
+ 
+ 
+ 
+b) 
+1
+.
+2
+OA
+AC
+−
+=
+
+
+ 
+ 
+c) 
+.
+BA
+BC
+BO
+OD
++
+=
++
+
+
+
+ 
+ 
+ 
+d) 
+5.
+BA
+BC
++
+=
+
+
+ 
+Phần III. Câu trắc nghiệm trả lời ngắn.  
+Câu 1. Theo số liệu từ Trung tâm Dự báo Khí tượng Thủy văn Quốc gia, lượng mưa đo được trong 5 
+ngày liên tiếp tại một trạm quan trắc ở miền Trung trong đợt áp thấp nhiệt đới vừa qua lần lượt là (đơn vị: 
+mm): 120;
+150;
+180;
+200;
+250 
+Hãy tính lượng mưa trung bình ( x ) của mẫu số liệu trên. 
+
+[PAGE 3]
+Đề kiểm tra cuối kỳ 1, môn Toán_10. Trang 3/3 - Mã đề 132 
+Câu 2. Cho hình vuông ABCD có cạnh bằng 3 2 . Tính độ dài của vectơ 2
+.
+AB
+AC
+−
+
+
+  
+Câu 3. Trung tâm Khí tượng Thủy văn đang theo dõi lộ trình của một cơn bão trên bản đồ vệ tinh (được 
+gắn hệ trục tọa độ Oxy, với đơn vị độ dài trên các trục là km). Giả sử tâm bão chuyển động thẳng đều 
+theo một hướng cố định. Lúc 7 giờ 00, tâm bão ở vị trí điểm 
+(120; 50)
+A
+−
+. Lúc 9 giờ 00 cùng ngày, tâm 
+bão di chuyển đến vị trí điểm 
+(180;30).
+B
+Các nhà khí tượng dự báo rằng nếu giữ nguyên tốc độ và hướng 
+di chuyển, cơn bão sẽ đổ bộ vào đất liền lúc 12 giờ 00 trưa cùng ngày tại vị trí điểm 
+( ; )
+C x y . Hãy tính giá 
+trị của biểu thức 
+2
+T
+x
+y
+=
+−
+. 
+Câu 4. Để đánh giá sự đồng đều trong công tác bảo vệ rừng, người ta thống kê tỷ lệ che phủ rừng (%) của 
+8 tỉnh thuộc vùng Trung du và Miền núi phía Bắc năm 2022. Theo số liệu từ Tổng cục Thống kê, tỷ lệ che 
+phủ rừng của các tỉnh này lần lượt là: 
+1
+5
+;
+63
+65
+4
+7;
+;
+51;
+5
+3
+4
+8;
+7;
+5
+;
+ 
+(Đơn vị: %). Tính khoảng biến thiên ( R ) của mẫu số liệu trên. 
+ 
+Phần IV. Tự luận. 
+Câu 1. ( 0,5 điểm) Cho tam giác ABC biết 
+5,
+8,
+AB
+c
+BC
+a
+=
+=
+=
+=
+góc 
+0
+30
+B =
+. Tính diện tích tam giác 
+ABC 
+Câu 2. ( 0,75 điểm) Một diễn viên xiếc (coi là một vật rắn) trọng lượng700N đi trên dây làm dây võng 
+xuống một góc 
+0
+140 .Tính lực căng của dây treo khi diễn viên xiếc đứng cân bằng (như hình minh họa bên 
+dưới) coi dây không giãn. Biết rằng khi ở vị trí cân bằng thì 
+1
+2
+0.
+T
+T
+P
++
++
+=
+
+
+
+
+ (kết quả làm tròn đến hàng 
+đơn vị).  
+ 
+Câu 3. ( 1,0 điểm) Trong mặt phẳng tọa độ Oxy, cho hai điểm 
+(2;3)
+A
+ và 
+( 1; 1)
+B −−
+ và 
+(
+)
+5; 4
+u =
+−
+
+. 
+a) Tìm tọa độ của vectơ x
+AB
+u
+=
++
+
+
+
+. 
+b) Tìm tọa độ điểm C nằm trên trục hoành sao cho tam giác ABC vuông tại A. 
+Câu 4. ( 0,75 điểm) Theo báo cáo "Digital 2024: Vietnam" từ We Are Social và Meltwater, thời gian sử 
+dụng Internet trung bình mỗi ngày của người dùng Việt Nam có sự khác biệt giữa các nhóm tuổi và mục 
+đích. Để khảo sát thực tế tại một lớp học, bạn lớp trưởng thống kê thời gian sử dụng điện thoại (đơn vị: 
+giờ) trong một ngày của 10 bạn học sinh trong lớp như sau: 
+6,2 
+5,5 
+7,0 
+6,5 
+8,0 
+6,5 
+5,0 
+6,5 
+9,0 
+7,8 
+ 
+Tìm trung vị, tứ phân vị và mốt của mẫu số liệu trên? 
+===== Hết ===== 
+ 
+ 
+
+--- ANSWER PAGES ---
+
+[PAGE 7]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_10. Trang 1/4 
+SỞ GD&ĐT THÀNH PHỐ HUẾ 
+TRƯỜNG THPT PHÚ LỘC 
+KIỂM TRA CUỐI KÌ I, NĂM HỌC 2025-2026 
+MÔN: TOÁN 10 
+ 
+ 
+HƯỚNG DẪN CHẤM 
+ 
+Phần I. Câu trắc  nghiệm nhiều phương án lựa chọn.  
+(Mỗi câu trả lời đúng thí sinh được 0,25 điểm) 
+ 
+CÂU 
+132 
+209 
+357 
+485 
+Câu 1 
+A 
+D 
+D 
+A 
+Câu 2 
+D 
+C 
+C 
+B 
+Câu 3 
+D 
+A 
+A 
+D 
+Câu 4 
+D 
+B 
+D 
+B 
+Câu 5 
+C 
+C 
+C 
+A 
+Câu 6 
+A 
+D 
+B 
+C 
+Câu 7 
+A 
+A 
+A 
+C 
+Câu 8 
+D 
+B 
+A 
+B 
+Câu 9 
+C 
+D 
+C 
+D 
+Câu 10 
+B 
+B 
+C 
+A 
+Câu 11 
+A 
+C 
+C 
+A 
+Câu 12 
+C 
+B 
+D 
+C 
+Phần II. Câu trắc nghiệm đúng sai.  
+Điểm tối đa của 01 câu hỏi là 1 điểm 
+-Thí sinh chỉ lựa chọn chính xác 01 ý trong 1 câu hỏi được 0,1 điểm. 
+-Thí sinh chỉ lựa chọn chính xác 02 ý trong 1 câu hỏi được 0,25 điểm. 
+-Thí sinh chỉ lựa chọn chính xác 03 ý trong 1 câu hỏi được 0,5 điểm. 
+-Thí sinh lựa chọn chính xác cả 04 ý trong 1 câu hỏi được 1,0 điểm. 
+ 
+Mã đề 
+Câu 1 
+Câu 2 
+132 
+S - Đ - Đ - Đ 
+S - Đ - Đ - Đ 
+209 
+Đ - S - Đ - Đ 
+Đ - Đ - Đ - S 
+357 
+Đ - S - Đ - Đ 
+Đ - Đ - S - Đ 
+485 
+Đ - S - Đ - Đ 
+S - Đ - Đ - Đ 
+HƯỚNG DẪN GIẢI CHI TIẾT 
+Câu 1. Số liệu thu nhập bình quân đầu người một tháng (đơn vị: triệu đồng) năm 2023 của 6 vùng kinh 
+tế - xã hội tại Việt Nam được cho trong bảng sau: (nguồn: gso.gov.vn - Kết quả khảo sát mức sống dân 
+cư 2023) 
+ 
+
+[PAGE 8]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_10. Trang 2/4 
+a) Thu nhập trung bình của các vùng là 4,7 triệu đồng/tháng. 
+b) Vùng kinh tế Tây Nguyên có mức thu nhập bình quân thấp nhất trong 6 vùng. 
+c) Khoảng biến thiên của mẫu số liệu thu nhập giữa các vùng là 3,1 triệu đồng. 
+d) Nếu tất cả các vùng đều có thu nhập tăng thêm 1 triệu đồng/tháng thì độ lệch chuẩn của mẫu số 
+liệu mới sẽ không thay đổi so với số liệu ban đầu.  
+Lời giải: 
+(a) Đúng 
+(b) Sai 
+(c) Đúng 
+(d) Đúng 
+Câu 2. Cho hình chữ nhật ABCD biết
+4,
+3
+AB
+AD
+=
+= . Gọi O là giao điểm của hai đường chéo AC và 
+BD. 
+a) OB
+
+ không cùng phương với 
+.
+BD
+ 
+b) 
+1
+.
+2
+OA
+AC
+−
+=
+
+
+  
+c) 
+.
+BA
+BC
+BO
+OD
++
+=
++
+
+
+
+
+ 
+d) 
+5.
+BA
+BC
++
+=
+
+
+ 
+Lời giải 
+(a) Sai. 
+(b) Đúng.  
+(c) Đúng. Vì 
+.
+VT
+VP
+BD
+=
+=
+
+  
+(d) Đúng. Vì 
+2
+2
+3
+4
+5.
+BA
+BC
+BD
+BD
+AC
++
+=
+=
+=
+=
++
+=
+
+
+
+ 
+Phần III. Câu trắc nghiệm trả lời ngắn. 
+Câu 
+Mã đề 132 
+Mã đề 209 
+Mã đề 357 
+Mã đề 485 
+1 
+180 
+-30 
+22 
+6 
+2 
+6 
+22 
+180 
+-30 
+3 
+-30 
+180 
+6 
+22 
+4 
+22 
+6 
+-30 
+180 
+ 
+LỜI GIẢI CHI TIẾT 
+Câu 1. Theo số liệu từ Trung tâm Dự báo Khí tượng Thủy văn Quốc gia, lượng mưa đo được trong 5 
+ngày liên tiếp tại một trạm quan trắc ở miền Trung trong đợt áp thấp nhiệt đới vừa qua lần lượt là (đơn 
+vị: mm): 120;
+150;
+180;
+200;
+250 
+Hãy tính lượng mưa trung bình ( x ) của mẫu số liệu trên. 
+Lời giải: 
+Đáp án: 180 
+Tổng lượng mưa: 120 150 180
+200
+250
+900
++
++
++
++
+=
+ (mm). 
+Lượng mưa trung bình: 
+900
+180
+5
+x =
+=
+ (mm). 
+Câu 2. Cho hình vuông ABCD có cạnh bằng 3 2 . Tính độ dài của vectơ 
+2
+.
+AB
+AC
+−
+
+  
+Lời giải 
+Đáp số : 6 
+Dựng 
+1
+1
+1
+2
+2
+.
+AB
+AB
+AB
+AC
+AB
+AC
+CB
+=
+⇒
+−
+=
+−
+=
+
+
+
+
+
+
+
+ 
+Suy ra: 
+1
+1
+2
+2
+6.
+AB
+AC
+CB
+CB
+AB
+−
+=
+=
+=
+=
+
+
+
+ 
+Câu 3. Trung tâm Khí tượng Thủy văn đang theo dõi lộ trình của một cơn bão trên bản đồ vệ tinh (được 
+gắn hệ trục tọa độ Oxy, với đơn vị độ dài trên các trục là km). Giả sử tâm bão chuyển động thẳng đều 
+
+[PAGE 9]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_10. Trang 3/4 
+theo một hướng cố định. Lúc 7 giờ 00, tâm bão ở vị trí điểm 
+(120; 50)
+A
+−
+. Lúc 9 giờ 00 cùng ngày, tâm 
+bão di chuyển đến vị trí điểm 
+(180;30).
+B
+Các nhà khí tượng dự báo rằng nếu giữ nguyên tốc độ và 
+hướng di chuyển, cơn bão sẽ đổ bộ vào đất liền lúc 12 giờ 00 trưa cùng ngày tại vị trí điểm 
+( ; )
+C x y . 
+Hãy tính giá trị của biểu thức 
+2
+T
+x
+y
+=
+−
+. 
+Lời giải: 
+Đáp án: 30
+−
+. 
+(
+)
+(
+)
+120;
+50 ,
+60;80
+AC
+x
+y
+AB
+=
+−
++
+=
+
+
+. 
+(
+)
+5
+120
+.60
+270
+5
+2
+270;150
+5
+150
+2
+50
+.80
+2
+x
+x
+AC
+AB
+C
+y
+y
+−
+=
+
+=
+
+
+=
+⇔
+⇔
+⇒
+
+
+=
+
++
+=
+
+
+
+. 
+Khi đó 
+270
+2.150
+30
+T =
+−
+= −
+. 
+Câu 4. Để đánh giá sự đồng đều trong công tác bảo vệ rừng, người ta thống kê tỷ lệ che phủ rừng (%) 
+của 8 tỉnh thuộc vùng Trung du và Miền núi phía Bắc năm 2022. Theo số liệu từ Tổng cục Thống kê, tỷ 
+lệ che phủ rừng của các tỉnh này lần lượt là: 
+1
+5
+;
+63
+65
+4
+7;
+;
+51;
+5
+3
+4
+8;
+7;
+5
+;
+ 
+(Đơn vị: %). Tính khoảng biến thiên ( R ) của mẫu số liệu trên. 
+Lời giải: 
+Đáp án: 22 
+65
+43
+22
+R =
+−
+=
+ 
+PHẦN III. Tự luận. 
+ 
+* Mã đề 132  
+Câu 
+Nội dung 
+Điểm 
+1 
+Đề: Cho tam giác ABC biết 
+5,
+8,
+AB
+c
+BC
+a
+=
+=
+=
+=
+góc 
+0
+30
+B =
+. Tính diện tích tam 
+giác ABC 
+ 
+1
+.sin
+2
+S
+ac
+B
+=
+ 
+0,25 
+0
+1 8.5.sin30
+10
+2
+=
+=
+ 
+0,25 
+2 
+Đề: Một diễn viên xiếc (coi là một vật rắn) trọng lượng700N đi trên dây làm dây 
+võng xuống một góc 
+0
+140 .Tính lực căng của dây treo khi diễn viên xiếc đứng cân 
+bằng (như hình minh họa bên dưới) coi dây không giãn. Biết rằng khi ở vị trí cân 
+bằng thì 
+1
+2
+0.
+T
+T
+P
++
++
+=
+
+
+
+
+ (kết quả làm tròn đến hàng đơn vị). 
+ 
+ 
+ 
+0,25 
+Theo quy tắc hình bình hành, ta có 
+1
+2
+.
+T
+T
+F
++
+=
+
+
+
+  
+Khi 
+diễn 
+viên 
+xiếc 
+đạt 
+trạng 
+thái 
+cân 
+bằng 
+trên 
+dây, 
+ta 
+có: 
+
+[PAGE 10]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_10. Trang 4/4 
+ 
+Chú ý: Nếu học sinh trình bày cách giải khác, đảm bảo đúng và chặt chẻ thì chấm điểm tối đa của phần 
+hoặc câu đó. 
+1
+2
+0
+T
+T
+P
+F
+P
++
++
+=
+⇔
+= −
+
+
+
+
+
+
+  và độ lớn F
+P
+= −
+
+
+ hay 
+700
+.
+F
+P
+N
+=
+=
+  
+Ta có: góc hợp bởi 
+1T
+
+ và 
+2T
+
+ bằng 
+0
+0
+0
+0
+140
+180
+140
+40 .
+CDA
+∧
+⇒
+=
+−
+=
+  
+Dây không giãn nên 
+1
+2 .
+T
+T
+=
+
+
+  
+Xét tam giác ACD có 
+(
+)
+2
+2
+2
+2
+2
+0
+1
+2
+1
+2
+1
+2 . .cos
+2
+. 1
+40
+F
+T
+T
+T T
+CAD
+F
+T
+cos
+∧
+=
++
+−
+⇔
+=
+−
+  
+0,25 
+(
+)
+(
+)
+2
+2
+1
+0
+0
+700
+1023 .
+2. 1
+os40
+2. 1
+os40
+F
+T
+N
+c
+c
+⇒
+=
+=
+≈
+−
+−
+ 
+0,25 
+ 
+ 
+ 
+3 
+Đề: Trong mặt phẳng tọa độ Oxy, cho hai điểm 
+(2;3)
+A
+ và 
+( 1; 1)
+B −−
+ và 
+(
+)
+5; 4
+u =
+−
+
+. 
+a) Tìm tọa độ của vectơ x
+AB
+u
+=
++
+
+
+
+. 
+b) Tìm tọa độ điểm C nằm trên trục hoành sao cho tam giác ABC vuông tại A . 
+ 
+a) 
+(
+)
+(
+)
+3; 4 ;
+5; 4
+AB
+u
+= −
+−
+=
+−
+
+
+ 
+0,25 
+(
+)
+(
+)
+3
+5; 4
+4
+2; 8
+x = −+
+−−
+=
+−
+
+ 
+0,25 
+b) Điểm C nằm trên Ox nên 
+( ;0)
+C x
+. 
+( 3; 4)
+AB = −
+−
+
+, 
+(
+2; 3)
+AC
+x
+=
+−
+−
+
+ 
+0,25 
+Tam giác ABC vuông tại A . 
+0
+3(
+2)
+( 4)( 3)
+0
+3
+6 12
+0
+6
+AB AC
+x
+x
+x
+⇒
+⋅
+=
+⇒−
+−
++ −
+−
+=
+⇔−
++
++
+=
+⇔
+=
+
+ 
+Vậy 
+(6;0)
+C
+. 
+0,25 
+4 
+Đề: Theo báo cáo "Digital 2024: Vietnam" từ We Are Social và Meltwater, thời gian 
+sử dụng Internet trung bình mỗi ngày của người dùng Việt Nam có sự khác biệt giữa 
+các nhóm tuổi và mục đích. Để khảo sát thực tế tại một lớp học, bạn lớp trưởng 
+thống kê thời gian sử dụng điện thoại (đơn vị: giờ) trong một ngày của 10 bạn học 
+sinh trong lớp như sau: 
+6,2 
+5,5 
+7,0 
+6,5 
+8,0 
+6,5 
+5,0 
+6,5 
+9,0 
+7,8 
+ 
+Tìm trung vị, tứ phân vị và mốt của mẫu số liệu trên? 
+ 
+ 
+ Sắp xếp:  
+5,0 
+5,5 
+6,2 
+6,5 
+6,5 
+6,5 
+7,0 
+7,8 
+8,0 
+9,0 
+Vì cỡ mẫu n = 10 (số chẵn), nên số trung vị là trung bình cộng của giá trị thứ 5 và 
+thứ 6 trong dãy đã sắp xếp. 
+Số trung vị: 
+6,5
+6,5
+6,5
+2
+e
+M
++
+=
+=
+. 
+0,25 
+Tứ phân vị: 
++ 
+2
+6,5
+Q =
+ 
++ Dãy bên trái:  
+5,0 
+5,5 
+6,2 
+6,5 
+6,5 
+1
+6,2
+Q =
+ 
++ Dãy bên phải: 
+6,5 
+7,0 
+7,8 
+8,0 
+9,0 
+3
+7,8
+Q =
+ 
+0,25 
+Mốt: Giá trị 6,5 xuất hiện nhiều nhất (3 lần). Vậy 
+6,5
+o
+M =
+ 
+0,25 

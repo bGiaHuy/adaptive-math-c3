@@ -1,0 +1,199 @@
+PAGE 1
+CỤM CHUYÊN MÔN SỐ 24
+(Đề thi gồm 4 trang)
+KHẢO SÁT CHẤT LƯỢNG HỌC SINH LỚP 9
+NĂM HỌC 2025-2026
+MÔN: TOÁN
+Thời gian làm bài 90 phút, không kể thời gian phát đề
+Mã đề: 101
+Họ và tên thí sinh:.........................................số báo danh:................
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.
+Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.
+Câu 1.Trong tam giác vuông, nếu cạnh góc vuông đối diện với một góc nhọn bằng nửa cạnh
+huyền thì góc nhọn đó có số đo là:
+30◦A.60 ◦B.45 ◦C.50 ◦D.
+Câu 2.Cho đường tròn(O1; 4cm)và(O 2; 6cm)vàO 1O2 = 6cm. Phát biểu nào sau đâyđúng?
+Hai đường tròn không cắt nhau A.
+Hai đường tròn cắt nhau tại hai điểm phân biệt B.
+Hai đường tròn tiếp xúc trong C.
+Hai đường tròn tiếp xúc ngoài D.
+Câu 3.Cho hệ phương trình
+{
+2x+ 3y−5 = 0
+x−y−2 = 0có nghiệm(x;y).Khi đóx+ybằng
+13
+5A. 12
+5B.− 12
+5C.− 13
+5D.
+Câu 4.Phương trìnhx2−3x−5 = 0có hai nghiệmx1,x 2 (x1>x 2). Khi đóT= 2x1 +x 2 bằng
+3 +
+√
+29
+2A. 9 +
+√
+29
+2B. 3−
+√
+29
+2C. 9−
+√
+29
+2D.
+Câu 5.Cho đường tròn tâmOvà 3 điểmA,B,Cthuộc đường tròn
+(tham khảo hình vẽ). Biết[BAC=x−10◦ và \BOC= 4x−80◦.Giá
+trị củaxbằng (đơn vị: độ)
+20◦A.45 ◦B.
+30◦C.40 ◦D.
+Câu 6.Cho hình quạt tròn có bán kínhR= 9cm và số đo góc ở tâm bằng40◦. Lấyπ≈3,14,
+diện tích của hình quạt tròn đó bằng
+28,20cm 2A.28,26cm 2B.
+28,27cm 2C.25,43cm 2D.
+Câu 7.Một cửa hàng thống kê số lượng các loại nước giải khát bán được trong một ngày như
+sau: Tổng cộng50ly nước, trong đó có15ly trà sữa,25ly nước ép và còn lại là trà trái cây.
+Tần số tương đối của loại nước trà trái cây bán được trong ngày hôm đó là
+20%A.15%B.30%C.10%D.
+Trang1/4 —Mã đề 101
+
+PAGE 2
+Câu 8.Biểu thứcA=
+√
+6 + 2
+√
+5bằng:
+2 +
+√
+5A.1 +
+√
+5B.1−
+√
+5C.2−
+√
+5D.
+Câu 9.Phát biểu nào sau đâysai?
+Nếu0<a<1thìa 2<1A. Nếua<0<bthìa 2<b 2B.
+Nếua>b>1thì(a−1)(b−1)>0C. Nếua<bthì2a<a+bD.
+Câu 10.Cho hình cầu có bán kínhr= 3.Thể tích hình cầu bằng
+12πA.9πB.36πC.16πD.
+Câu 11.Trong các hàm số sau, hàm số nào luôn là hàm số bậc hai?
+y= (a+ 1)x 2 (alà số thực tuỳ ý) A.
+y= 2xB.
+y=√xC.
+y= (a 2 + 1)x2,(alà số thực tuỳ ý) D.
+Câu 12.Điều kiện xác định của biểu thứcA=√x−2 +√4−xlà
+2<x<4A.x≤4B.2≤x≤4C.x≥2D.
+PHẦN II. Câu trắc nghiệm đúng sai.
+Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu thí sinh chọn đúng
+hoặc sai.
+Câu 1.Một gia đình lắp đặt một ống thoát nước hình trụ dài10m, có đường kính0,2m. Để
+chống thấm, người ta quét một lớp keo đặc biệt lên mặt xung quanh của ống. Biết mỗi hộp
+keo quét được3m2, giá mỗi hộp là50000đồng (π≈3,14). Xét các khẳng định sau:
+Diện tích cần quét keo lên ống thoát nước hình trụ là diện tích xung quanh của hình
+trụ có chiều caoh= 10m và bán kính đáyr= 10cm.
+a)
+Diện tích xung quanh của ống là628m2.b)
+Nếu mua2hộp keo thì đủ để quét hết bề mặt ống.c)
+Số tiền tối thiểu cần chi để mua keo là150000đồng.d)
+Câu 2.Một cửa hàng tiện lợi thống kê số lượng khách hàng ghé thăm mỗi giờ trong suốt24
+giờ của một ngày như sau:
+Số lượng khách hàngSố giờ
+Từ10đến dưới20khách 5
+Từ20đến dưới30khách 10
+Từ30đến dưới40khách 6
+Từ40đến dưới50khách 3
+Những giờ có từ30khách trở lên được coi làgiờ cao điểm. Xét các khẳng định sau:
+Trong ngày, số giờ có từ20đến dưới30khách chiếm thời gian nhiều nhất.a)
+Tổng số giờ cao điểm của cửa hàng trong ngày hôm đó là9giờ.b)
+Tỉ lệ số giờ vắng khách (dưới20khách) chiếm hơn25%thời gian trong ngày.c)
+Nếu mỗi giờ cao điểm cửa hàng phải chi thêm50 000đồng tiền thuê nhân sự bổ sung,
+thì tổng số tiền chi thêm cho việc này trong ngày hôm đó là500 000đồng.
+d)
+Trang2/4 —Mã đề 101
+
+PAGE 3
+Câu 3.Một nhà máy sản xuất hai loại chip điện tử: chip vi điều khiển (MCU) và chip nhớ
+(Flash). Trong tuần 1, để sản xuất một sản phẩm:
+•Mỗi chip MCU cần 2 giờ và 500.000 đồng chi phí nguyên liệu.
+•Mỗi chip Flash cần 3 giờ và 400.000 đồng chi phí nguyên liệu.
+Tổng quỹ thời gian sản xuất trong tuần là 1.200 giờ và tổng chi phí nguyên liệu là 244 triệu
+đồng. Biết rằng nhà máy sử dụng hết cả quỹ thời gian và chi phí này.
+Sang tuần 2, nhờ nâng cấp công nghệ, thời gian sản xuất mỗi chip MCU giảm20%(còn 1,6
+giờ), mỗi chip Flash giảm10%(còn 2,7 giờ). Gọix,ylần lượt là số chip MCU và Flash được
+sản xuất trong tuần 1. Xét các khẳng định sau:
+Nếu sản xuất 300 chip MCU thì quỹ thời gian còn lại không đủ để sản xuất 200 chip
+Flash.
+a)
+Số lượng chip sản xuất trong tuần 1 làx= 160vày= 360.b)
+Nếu giữ nguyên sản lượng như tuần 1, thì tổng thời gian sản xuất trong tuần 2 là 1008
+giờ.
+c)
+Nếu muốn tăng sản lượng mỗi loại thêm15%trong tuần 2 thì nhà máy không cần bổ
+sung thêm quỹ thời gian.
+d)
+Câu 4.Trong mặt phẳng toạ độOxycho parabol(P)có phương trìnhy= 2x2 và đường thẳng
+dcó phương trìnhy= 4x+ 9.GọiA(x1;y 1),B(x 2;y 2)là hai điểm cùng thuộc(P)vàd.Khi đó,
+ta có:
+(P)không đi qua gốc toạ độa)
+x1,x 2 là nghiệm của phương trình2x2−5x+ 9 = 0b)
+Giá trị củax1x2 bằng−9
+2c)
+Giá trị củay1y2 bằng100d)
+PHẦN III. Câu trắc nghiệm trả lời ngắn.
+Thí sinh trả lời từ câu 1 đến câu 6.
+Câu 1.Cho nửa đường tròn tâmPđường kínhAB.GọiRlà
+điểm thuộc đoạnPB.Vẽ đường thẳng đi quaRvà vuông góc với
+AB,cắt nửa đường tròn tâmPtạiS.BiếtPR= 10cm vàPB=
+2RS.Gọi(O;R)là đường tròn tiếp xúc với các đoạn thẳng
+PA,PQvà nửa đường tròn đã cho tại điểmN.TínhR(kết
+quả làm tròn đến hàng phần trăm).
+Câu 2.Cho phương trình bậc haix2−4x+ 1 = 0có hai nghiệm phân biệtx1,x 2 (x1>x 2). Biểu
+thứcP=
+√
+x4
+1−14x1 + 7 + 11x2 được biểu diễn dưới dạnga+b√cvớia,blà các số nguyên,c
+là số nguyên tố. TínhT=a+bc.
+Câu 3.Một đại lý điện thoại nhận phân phối độc quyền một lô hàng gồm500chiếc điện thoại
+phiên bản đặc biệt. Nếu bán với giá22 000 000đồng/chiếc (đã bao gồm10%thuế VAT) thì
+đại lý sẽ bán hết toàn bộ lô hàng trong tháng đầu tiên. Để gia tăng lợi nhuận, đại lý quyết
+định tăng giá bán. Qua phân tích dữ liệu, cứ mỗi lần tăng thêm1 100 000đồng/chiếc (đã bao
+gồm10%thuế VAT) thì số lượng điện thoại bán ra trong tháng sẽ giảm đi25chiếc. Những
+chiếc điện thoại chưa bán được sẽ được các đối tác thu mua lại với giá thanh lý là11 000 000
+đồng/chiếc (đã bao gồm10%thuế VAT). Tính tổng số tiền lớn nhất (sau khi đã khấu trừ10%
+thuế VAT) mà đại lý có thể thu được từ toàn bộ lô hàng trên? (Kết quả làm tròn đến hàng
+phần trăm của tỷ đồng).
+Trang3/4 —Mã đề 101
+
+PAGE 9
+BẢNG ĐÁP ÁN TỔNG HỢP
+CỤM CHUYÊN MÔN SỐ 24KHẢO SÁT CHẤT LƯỢNG HỌC SINH LỚP 9
+NĂM HỌC 2025-2026
+MÔN: TOÁN
+Thời gian làm bài 90 phút, không kể thời gian phát đề
+BẢNG ĐÁP ÁN TỔNG HỢP
+Câu 101 102 103 104 105 106 107 108
+PHẦN I. Trắc nghiệm nhiều phương án lựa chọn
+1 A D A C D B B D
+2 B D D D D C B A
+3 B A C C D C B B
+4 B D A B D D C B
+5 C D A B A B D A
+6 B A A D C C A B
+7 A C C C A D B A
+8 B C D C D A D B
+9 B D B D B D D D
+10 C C C D A B D B
+11 D B B B A A A D
+12 C D D B A D C C
+PHẦN II. Trắc nghiệm đúng sai
+1 ĐSSĐ ĐĐSS SSĐĐ SSĐĐ ĐSSĐ ĐSSĐ SSĐĐ SSĐĐ
+2 ĐĐSS SSĐĐ ĐĐSS SSĐS SSĐĐ SSĐĐ SSĐS ĐSSĐ
+3 SSĐĐ ĐSSĐ ĐSSĐ ĐSSĐ SSĐS SSĐS ĐĐSS ĐĐSS
+4 SSĐS SSĐS SSĐS ĐĐSS ĐĐSS ĐĐSS ĐSSĐ SSĐS
+PHẦN III. Trắc nghiệm trả lời ngắn
+1 4,78 0,64 0,64 4,78 5 5 239 0,64
+2 5 5 10,63 239 0,64 24 24 24
+3 10,63 4,78 4,78 5 10,63 10,63 0,64 10,63
+4 24 24 239 24 4,78 0,64 10,63 239
+5 239 239 24 0,64 239 4,78 4,78 5
+6 0,64 10,63 5 10,63 24 239 5 4,78
+49

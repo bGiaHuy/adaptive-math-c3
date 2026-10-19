@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "phone: final question clears bottom navigation; publish action receives hit test above nav; Escape restores scroll",
+    "small-phone: final question clears bottom navigation; publish action receives hit test above nav; Escape restores scroll",
+    "tablet: final question clears bottom navigation; publish action receives hit test above nav; Escape restores scroll"
+  ],
+  "geometry": [
+    {
+      "size": "phone",
+      "bottom": 624.03125,
+      "navTop": 761.40625,
+      "viewport": 844,
+      "covered": false
+    },
+    {
+      "size": "small-phone",
+      "bottom": 420.03125,
+      "navTop": 557.40625,
+      "viewport": 640,
+      "covered": false
+    },
+    {
+      "size": "tablet",
+      "bottom": 858.34375,
+      "navTop": 86,
+      "viewport": 1000,
+      "covered": false
+    }
+  ],
+  "errors": []
+}

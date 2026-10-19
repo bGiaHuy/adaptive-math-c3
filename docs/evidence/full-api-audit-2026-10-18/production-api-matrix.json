@@ -1,0 +1,1468 @@
+{
+  "at": "2026-10-18T17:05:30.455Z",
+  "base": "https://adaptivemath-blush.vercel.app",
+  "checks": [
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/admin/questions",
+      "status": 401,
+      "ms": 32606,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/admin/questions",
+      "status": 401,
+      "ms": 32606,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/admin/overview",
+      "status": 401,
+      "ms": 32633,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "PATCH",
+      "path": "/api/v1/admin/questions/00000000-0000-4000-8000-000000000000/labels",
+      "status": 401,
+      "ms": 173,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "PATCH",
+      "path": "/api/v1/admin/questions/00000000-0000-4000-8000-000000000000/difficulty",
+      "status": 401,
+      "ms": 189,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "PATCH",
+      "path": "/api/v1/admin/questions/00000000-0000-4000-8000-000000000000/review",
+      "status": 401,
+      "ms": 235,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/admin/users",
+      "status": 401,
+      "ms": 171,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/admin/audit-logs",
+      "status": 401,
+      "ms": 171,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "PATCH",
+      "path": "/api/v1/admin/users/00000000-0000-4000-8000-000000000000/status",
+      "status": 401,
+      "ms": 171,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/admin/classrooms",
+      "status": 401,
+      "ms": 111,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/admin/curriculum-stats",
+      "status": 401,
+      "ms": 111,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/admin/users/00000000-0000-4000-8000-000000000000/reset-password",
+      "status": 401,
+      "ms": 229,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/assignments/blueprint",
+      "status": 401,
+      "ms": 103,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/assignments/documents",
+      "status": 401,
+      "ms": 113,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/assignments/documents/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 134,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/assignments/ai-preview",
+      "status": 401,
+      "ms": 123,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/assignments/random-preview",
+      "status": 401,
+      "ms": 123,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/assignments/documents/00000000-0000-4000-8000-000000000000/file",
+      "status": 401,
+      "ms": 135,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments",
+      "status": 401,
+      "ms": 112,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000/submissions",
+      "status": 401,
+      "ms": 113,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments",
+      "status": 401,
+      "ms": 203,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000/regrade",
+      "status": 401,
+      "ms": 196,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000/settings",
+      "status": 401,
+      "ms": 196,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/activity",
+      "status": 401,
+      "ms": 196,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/assignments/sample-template",
+      "status": 401,
+      "ms": 103,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/take",
+      "status": 401,
+      "ms": 112,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "DELETE",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 127,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/submit",
+      "status": 401,
+      "ms": 95,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/result",
+      "status": 401,
+      "ms": 100,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/draft",
+      "status": 401,
+      "ms": 101,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/auth/register/student",
+      "status": 400,
+      "ms": 98,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/auth/register/teacher",
+      "status": 400,
+      "ms": 105,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 400,
+      "ms": 111,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 401,
+      "ms": 91,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/auth/me",
+      "status": 401,
+      "ms": 112,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/auth/logout-all",
+      "status": 401,
+      "ms": 207,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/auth/sessions/00000000-0000-4000-8000-000000000000/revoke",
+      "status": 401,
+      "ms": 172,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/auth/change-password",
+      "status": 401,
+      "ms": 172,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/auth/sessions",
+      "status": 401,
+      "ms": 173,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/classrooms",
+      "status": 401,
+      "ms": 95,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/classrooms",
+      "status": 401,
+      "ms": 96,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "PUT",
+      "path": "/api/v1/auth/teacher-profile",
+      "status": 401,
+      "ms": 104,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/classrooms/join",
+      "status": 401,
+      "ms": 112,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 118,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/invite-codes",
+      "status": 401,
+      "ms": 148,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/curriculum/grades",
+      "status": 200,
+      "ms": 102
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/invite-codes/00000000-0000-4000-8000-000000000000/revoke",
+      "status": 401,
+      "ms": 103,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/students",
+      "status": 401,
+      "ms": 102,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/curriculum/options",
+      "status": 200,
+      "ms": 100
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/start",
+      "status": 401,
+      "ms": 118,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/curriculum/skills",
+      "status": 200,
+      "ms": 363
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/draft",
+      "status": 401,
+      "ms": 95,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/abandon-current",
+      "status": 401,
+      "ms": 100,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/answer",
+      "status": 401,
+      "ms": 117,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/diagnostic/results/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 95,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/diagnostic/latest",
+      "status": 401,
+      "ms": 105,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/submit/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 113,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/english/lessons/00000000-0000-4000-8000-000000000000/submit",
+      "status": 401,
+      "ms": 181,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/lessons/00000000-0000-4000-8000-000000000000",
+      "status": 404,
+      "ms": 248,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/topics",
+      "status": 200,
+      "ms": 704
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/progress",
+      "status": 401,
+      "ms": 96,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/placement",
+      "status": 401,
+      "ms": 199,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/placement/result",
+      "status": 401,
+      "ms": 229,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/admin/lessons",
+      "status": 401,
+      "ms": 99,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/english/import",
+      "status": 401,
+      "ms": 99,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/english/placement",
+      "status": 401,
+      "ms": 115,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/classes/00000000-0000-4000-8000-000000000000/assignments",
+      "status": 401,
+      "ms": 104,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/english/my-assignments",
+      "status": 401,
+      "ms": 107,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/english/lessons/00000000-0000-4000-8000-000000000000/review",
+      "status": 401,
+      "ms": 112,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "DELETE",
+      "path": "/api/v1/english/classes/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 93,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/english/classes/00000000-0000-4000-8000-000000000000/assignments",
+      "status": 401,
+      "ms": 99,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/health",
+      "status": 200,
+      "ms": 257
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/practice/active",
+      "status": 401,
+      "ms": 97,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/practice/start/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 100,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/practice/00000000-0000-4000-8000-000000000000/answer",
+      "status": 401,
+      "ms": 112,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/tutor-stream",
+      "status": 401,
+      "ms": 99,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/chat-stream",
+      "status": 401,
+      "ms": 113,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/practice/00000000-0000-4000-8000-000000000000/abandon",
+      "status": 401,
+      "ms": 126,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/review/tutor/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 89,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/tutor/00000000-0000-4000-8000-000000000000/clear",
+      "status": 401,
+      "ms": 95,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/tutor",
+      "status": 401,
+      "ms": 104,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/review/conversations",
+      "status": 401,
+      "ms": 94,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/review/queue",
+      "status": 401,
+      "ms": 100,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/review/summary",
+      "status": 401,
+      "ms": 101,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/enroll/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 95,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/cards/00000000-0000-4000-8000-000000000000/reveal",
+      "status": 401,
+      "ms": 110,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/logs/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 110,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/chat",
+      "status": 401,
+      "ms": 194,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/feedback",
+      "status": 401,
+      "ms": 196,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/review/chat/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 196,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/activity",
+      "status": 401,
+      "ms": 91,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "POST",
+      "path": "/api/v1/student/review/chat/00000000-0000-4000-8000-000000000000/clear",
+      "status": 401,
+      "ms": 91,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/profile",
+      "status": 401,
+      "ms": 172,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/mastery",
+      "status": 401,
+      "ms": 88,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/learning-path",
+      "status": 401,
+      "ms": 89,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "PATCH",
+      "path": "/api/v1/student/onboarding",
+      "status": 401,
+      "ms": 90,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/api/v1/student/mistakes",
+      "status": 401,
+      "ms": 98,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "anonymous",
+      "method": "PATCH",
+      "path": "/api/v1/student/mistakes/00000000-0000-4000-8000-000000000000",
+      "status": 401,
+      "ms": 99,
+      "code": "UNAUTHORIZED"
+    },
+    {
+      "role": "teacher",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "ms": 1077
+    },
+    {
+      "role": "QA setup",
+      "method": "POST",
+      "path": "/api/v1/auth/register/student",
+      "status": 201,
+      "ms": 1190
+    },
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "ms": 589
+    },
+    {
+      "role": "QA setup",
+      "method": "POST",
+      "path": "/api/v1/auth/register/teacher",
+      "status": 201,
+      "ms": 1970
+    },
+    {
+      "role": "qa-teacher",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "ms": 931
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/auth/me",
+      "status": 200,
+      "ms": 540
+    },
+    {
+      "role": "public",
+      "method": "GET",
+      "path": "/api/v1/health",
+      "status": 200,
+      "ms": 178
+    },
+    {
+      "role": "public",
+      "method": "GET",
+      "path": "/api/v1/curriculum/grades",
+      "status": 200,
+      "ms": 130
+    },
+    {
+      "role": "public",
+      "method": "GET",
+      "path": "/api/v1/curriculum/options",
+      "status": 200,
+      "ms": 101
+    },
+    {
+      "role": "public",
+      "method": "GET",
+      "path": "/api/v1/curriculum/skills",
+      "status": 200,
+      "ms": 308
+    },
+    {
+      "role": "public",
+      "method": "GET",
+      "path": "/api/v1/english/topics",
+      "status": 200,
+      "ms": 171
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/curriculum/skills",
+      "status": 200,
+      "ms": 176
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/profile",
+      "status": 200,
+      "ms": 1305
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/activity",
+      "status": 200,
+      "ms": 814
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/mastery",
+      "status": 200,
+      "ms": 917
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/learning-path",
+      "status": 200,
+      "ms": 1542
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/mistakes",
+      "status": 200,
+      "ms": 1168
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/practice/active",
+      "status": 200,
+      "ms": 690
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/review/summary",
+      "status": 200,
+      "ms": 813
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/review/queue",
+      "status": 200,
+      "ms": 835
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/student/review/conversations",
+      "status": 200,
+      "ms": 1064
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/diagnostic/latest",
+      "status": 200,
+      "ms": 569
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/auth/sessions",
+      "status": 200,
+      "ms": 971
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/english/progress",
+      "status": 200,
+      "ms": 570
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/english/placement",
+      "status": 400,
+      "ms": 556,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/english/placement/result",
+      "status": 200,
+      "ms": 534
+    },
+    {
+      "role": "student",
+      "method": "GET",
+      "path": "/api/v1/english/my-assignments",
+      "status": 200,
+      "ms": 822
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/api/v1/classrooms",
+      "status": 200,
+      "ms": 692
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/api/v1/admin/questions",
+      "status": 200,
+      "ms": 4910
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/api/v1/assignments/blueprint",
+      "status": 200,
+      "ms": 658
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/api/v1/assignments/sample-template",
+      "status": 200,
+      "ms": 566
+    },
+    {
+      "role": "student-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/overview",
+      "status": 403,
+      "ms": 476,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/overview",
+      "status": 403,
+      "ms": 387,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/users",
+      "status": 403,
+      "ms": 398,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/users",
+      "status": 403,
+      "ms": 390,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/classrooms",
+      "status": 403,
+      "ms": 396,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/classrooms",
+      "status": 403,
+      "ms": 394,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/curriculum-stats",
+      "status": 403,
+      "ms": 436,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/curriculum-stats",
+      "status": 403,
+      "ms": 413,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/audit-logs",
+      "status": 403,
+      "ms": 409,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-denial",
+      "method": "GET",
+      "path": "/api/v1/admin/audit-logs",
+      "status": 403,
+      "ms": 412,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/admin/questions",
+      "status": 403,
+      "ms": 407,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "PATCH",
+      "path": "/api/v1/admin/questions/00000000-0000-4000-8000-000000000000/review",
+      "status": 403,
+      "ms": 421,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "PATCH",
+      "path": "/api/v1/admin/questions/00000000-0000-4000-8000-000000000000/difficulty",
+      "status": 404,
+      "ms": 564,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "PATCH",
+      "path": "/api/v1/admin/questions/00000000-0000-4000-8000-000000000000/labels",
+      "status": 400,
+      "ms": 409,
+      "code": "QUESTION_LABELS_REQUIRED"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "PATCH",
+      "path": "/api/v1/admin/users/00000000-0000-4000-8000-000000000000/status",
+      "status": 403,
+      "ms": 445,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/admin/users/00000000-0000-4000-8000-000000000000/reset-password",
+      "status": 403,
+      "ms": 405,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/assignments/documents",
+      "status": 400,
+      "ms": 387,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/assignments/ai-preview",
+      "status": 400,
+      "ms": 390,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/assignments/random-preview",
+      "status": 400,
+      "ms": 386,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments",
+      "status": 400,
+      "ms": 384,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000/settings",
+      "status": 404,
+      "ms": 831,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000/regrade",
+      "status": 400,
+      "ms": 418,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/activity",
+      "status": 400,
+      "ms": 410,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "DELETE",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000",
+      "status": 403,
+      "ms": 536,
+      "code": "ACCESS_DENIED"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/draft",
+      "status": 400,
+      "ms": 388,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/assignments/00000000-0000-4000-8000-000000000000/submit",
+      "status": 400,
+      "ms": 405,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/classrooms",
+      "status": 403,
+      "ms": 641,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/classrooms/join",
+      "status": 403,
+      "ms": 395,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/invite-codes",
+      "status": 404,
+      "ms": 455,
+      "code": "CLASSROOM_NOT_FOUND"
+    },
+    {
+      "role": "teacher-validation",
+      "method": "POST",
+      "path": "/api/v1/classrooms/00000000-0000-4000-8000-000000000000/invite-codes/00000000-0000-4000-8000-000000000000/revoke",
+      "status": 403,
+      "ms": 469,
+      "code": "FORBIDDEN_SCOPE"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/start",
+      "status": 400,
+      "ms": 2277,
+      "code": "DIAGNOSTIC_BLUEPRINT_INSUFFICIENT"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/draft",
+      "status": 400,
+      "ms": 691,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/answer",
+      "status": 400,
+      "ms": 386,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/abandon-current",
+      "status": 200,
+      "ms": 759,
+      "note": "QA-safe empty-body operation"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/diagnostic/submit/00000000-0000-4000-8000-000000000000",
+      "status": 404,
+      "ms": 741,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/english/lessons/00000000-0000-4000-8000-000000000000/submit",
+      "status": 400,
+      "ms": 402,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/english/placement",
+      "status": 400,
+      "ms": 380,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/english/import",
+      "status": 403,
+      "ms": 634,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/english/lessons/00000000-0000-4000-8000-000000000000/review",
+      "status": 403,
+      "ms": 398,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/english/classes/00000000-0000-4000-8000-000000000000/assignments",
+      "status": 403,
+      "ms": 384,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-validation",
+      "method": "DELETE",
+      "path": "/api/v1/english/classes/00000000-0000-4000-8000-000000000000/assignments/00000000-0000-4000-8000-000000000000",
+      "status": 403,
+      "ms": 386,
+      "code": "FORBIDDEN_ROLE_ACCESS"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/practice/start/00000000-0000-4000-8000-000000000000",
+      "status": 404,
+      "ms": 992,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/practice/00000000-0000-4000-8000-000000000000/answer",
+      "status": 400,
+      "ms": 410,
+      "code": "VALIDATION_FAILED"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/practice/00000000-0000-4000-8000-000000000000/abandon",
+      "status": 404,
+      "ms": 750,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/review/tutor/00000000-0000-4000-8000-000000000000/clear",
+      "status": 201,
+      "ms": 1558,
+      "note": "QA-safe empty-body operation"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/review/enroll/00000000-0000-4000-8000-000000000000",
+      "status": 404,
+      "ms": 619,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/review/cards/00000000-0000-4000-8000-000000000000/reveal",
+      "status": 400,
+      "ms": 487,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/review/logs/00000000-0000-4000-8000-000000000000",
+      "status": 400,
+      "ms": 385,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "role": "student-validation",
+      "method": "POST",
+      "path": "/api/v1/student/review/chat/00000000-0000-4000-8000-000000000000/clear",
+      "status": 404,
+      "ms": 606,
+      "code": "RESOURCE_NOT_FOUND"
+    },
+    {
+      "role": "student-validation",
+      "method": "PATCH",
+      "path": "/api/v1/student/onboarding",
+      "status": 200,
+      "ms": 956,
+      "note": "QA-safe empty-body operation"
+    },
+    {
+      "role": "student-validation",
+      "method": "PATCH",
+      "path": "/api/v1/student/mistakes/00000000-0000-4000-8000-000000000000",
+      "status": 404,
+      "ms": 547,
+      "code": "MISTAKE_NOT_FOUND"
+    },
+    {
+      "role": "qa-teacher",
+      "method": "GET",
+      "path": "/api/v1/auth/sessions",
+      "status": 200,
+      "ms": 875
+    },
+    {
+      "role": "qa-teacher",
+      "method": "POST",
+      "path": "/api/v1/auth/change-password",
+      "status": 200,
+      "ms": 1692
+    },
+    {
+      "role": "qa-teacher",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "ms": 925
+    },
+    {
+      "role": "teacher",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 200,
+      "ms": 982
+    },
+    {
+      "role": "student",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 200,
+      "ms": 783
+    },
+    {
+      "role": "qa-teacher",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 200,
+      "ms": 783
+    }
+  ],
+  "failures": [
+    {
+      "path": "/english/placement",
+      "reason": "Unexpected student read status",
+      "status": 400,
+      "classification": "Confirmed content readiness limitation, not a connection or server crash."
+    }
+  ],
+  "status": "PASS_WITH_CONTENT_LIMITATIONS",
+  "scope": "98-route anonymous checks; public reads; student and teacher positive reads; access denials; invalid-body handling; QA auth lifecycle. Positive admin and content mutation flows require isolated integration checks.",
+  "limitations": [
+    "English placement requires at least 6 exercises across 2 levels.",
+    "Math diagnostic lacks required grade-9 blueprint slots."
+  ],
+  "serverErrorCount": 0
+}

@@ -1,0 +1,123 @@
+{
+  "at": "2026-10-18T11:03:22.585Z",
+  "pages": [
+    {
+      "role": "teacher",
+      "route": "teacher-overview",
+      "heading": [
+        "Tổng quan giảng dạy",
+        "Cần theo dõi",
+        "Bài giao gần đây"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "teacher",
+      "route": "teacher-classes",
+      "heading": [
+        "Lớp học của thầy cô",
+        "Các lớp phụ trách"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "teacher",
+      "route": "teacher-library",
+      "heading": [
+        "Thư viện đề"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "teacher",
+      "route": "teacher-bank",
+      "heading": [
+        "Ngân hàng câu hỏi"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "dashboard",
+      "heading": [
+        "Xin chào, học sinh Khối 9!",
+        "Làm bài kiểm tra đầu vào",
+        "Hôm nay cần làm"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "profile",
+      "heading": [
+        "Chưa có kết quả kiểm tra năng lực"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "learning-path",
+      "heading": [
+        "Lộ trình học cá nhân",
+        "Việc học theo ngày",
+        "Chọn chủ đề để luyện"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "missions",
+      "heading": [
+        "Chọn bước học tiếp theo",
+        "Xác định điểm xuất phát",
+        "Học theo quỹ thời gian của em"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "mistakes",
+      "heading": [
+        "Sổ tay lỗi sai còn trống"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "review",
+      "heading": [
+        "Hiểu lại lỗi cũ. Nhớ chắc cách làm.",
+        "Dạng toán cần luyện thêm",
+        "Câu trong sổ lỗi của bạn"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "classroom",
+      "heading": [
+        "Lớp Học Của Em",
+        "Vào lớp của giáo viên"
+      ],
+      "status": "PASS"
+    },
+    {
+      "role": "student",
+      "route": "diagnostic",
+      "heading": [
+        "Bài kiểm tra đầu vào"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Diagnostic bank does not fill the required grade-9 blueprint; start returns an explicit 400."
+  ],
+  "diagnostic": {
+    "status": 400,
+    "code": "DIAGNOSTIC_BLUEPRINT_INSUFFICIENT",
+    "message": "Ngân hàng chưa đủ câu hỏi đúng chuyên đề, mức nhận thức và độ khó của ma trận Toán 9. Cần bổ sung hoặc rà soát nhãn câu hỏi trước khi mở bài kiểm tra."
+  },
+  "status": "PASS_WITH_CONTENT_LIMITATION"
+}

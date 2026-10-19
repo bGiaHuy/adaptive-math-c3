@@ -1,0 +1,11 @@
+{
+  "destination": "production",
+  "imported": 25,
+  "gradingChecks": 50,
+  "oldQuestionsUnchanged": 510,
+  "types": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 2,
+    "SHORT_ANSWER": 11
+  }
+}

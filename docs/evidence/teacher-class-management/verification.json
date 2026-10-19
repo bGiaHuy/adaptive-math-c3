@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "Failed class creation retains fields; retry opens new class and preserves one-time invite across details loading",
+    "Expired/exhausted labels; revoke confirmation/cancel without write; failed revoke retry keeps context and refreshes wrapped class response",
+    "Class details failure has retry rather than endless loading; retry recovers members view"
+  ],
+  "errors": [],
+  "writes": [
+    {
+      "path": "/api/v1/classrooms",
+      "data": {
+        "name": "Toán 9A4",
+        "grade": 9,
+        "academicYear": "2026-2027"
+      }
+    },
+    {
+      "path": "/api/v1/classrooms",
+      "data": {
+        "name": "Toán 9A4",
+        "grade": 9,
+        "academicYear": "2026-2027"
+      }
+    },
+    {
+      "path": "/api/v1/classrooms/c4/invite-codes/active/revoke"
+    },
+    {
+      "path": "/api/v1/classrooms/c4/invite-codes/active/revoke"
+    }
+  ]
+}

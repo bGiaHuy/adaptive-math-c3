@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "Create dialog traps Tab/Shift+Tab, Escape restores trigger and body scroll",
+    "Delete dialog Escape restores exact trigger without mutation",
+    "Source method radios support Home/End/arrows, selection follows focus with one tab stop"
+  ],
+  "errors": []
+}

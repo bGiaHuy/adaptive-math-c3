@@ -1,0 +1,4 @@
+# Batch 14 — Đường dẫn báo cáo không còn khả dụng
+P1: reportId không có trong assignments khiến URL vẫn trỏ bài nhưng nội dung hiển thị danh sách không giải thích. Thêm state không tìm thấy, mô tả trung lập (đường dẫn cũ hoặc quyền truy cập), về danh sách hoặc tải lại. Không giả định lý do xóa và không đổi quyền API.
+Files: TeacherWorkspace.jsx; verify-teacher-report-recovery.mjs. Script Chrome fixture tiếp tục xác nhận recovery503 ở1440×900/820×1000/390×844, thêm unknown-id và quay về danh sách dùng được; không pageerror. Build đạt. Bằng chứng JSON tại docs/evidence/teacher-report-recovery/verification.json. Không ghi dữ liệu thật. Không có ảnh before mới cùng trạng thái.
+Thêm requirements-evidence.md để đối chiếu phạm vi goal, bằng chứng và thiếu sót; chưa chứng minh hoàn tất. Batch kế tiếp ưu tiên lỗi tải một phần trong danh sách lớp/bài giao, sau đó review/rerun cuối.

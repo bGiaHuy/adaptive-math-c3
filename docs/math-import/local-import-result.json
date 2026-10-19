@@ -1,0 +1,23 @@
+{
+  "environment": "local127.0.0.1/adaptivemath_test",
+  "imported": 99,
+  "status": "DRAFT",
+  "counts": {
+    "SINGLE_CHOICE": 71,
+    "TRUE_FALSE": 10,
+    "SHORT_ANSWER": 18
+  },
+  "batches": [
+    3,
+    30,
+    1,
+    22,
+    22,
+    21
+  ],
+  "idempotency": {
+    "pilotRerunSkipped": 3,
+    "haiPhongRerunSkipped": 22
+  },
+  "published": 0
+}

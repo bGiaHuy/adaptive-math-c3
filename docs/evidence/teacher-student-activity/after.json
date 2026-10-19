@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "desktop: activity summary, 30 synthetic entries, unknown return preserved, close restores question/search",
+    "tablet: activity summary, 30 synthetic entries, unknown return preserved, close restores question/search",
+    "mobile: activity summary, 30 synthetic entries, unknown return preserved, close restores question/search"
+  ],
+  "errors": []
+}

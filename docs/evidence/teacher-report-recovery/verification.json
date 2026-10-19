@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "desktop: direct report error retains route/tab; explicit retry recovers analytics",
+    "tablet: direct report error retains route/tab; explicit retry recovers analytics",
+    "mobile: direct report error retains route/tab; explicit retry recovers analytics",
+    "Unknown report shows honest unavailable state and returns to usable list"
+  ],
+  "errors": []
+}

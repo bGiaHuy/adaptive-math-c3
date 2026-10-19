@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "size": "desktop",
+      "emptyText": "Em đã trả lời đúng tất cả các câu được tính điểm.",
+      "pendingCount": 22
+    },
+    {
+      "size": "tablet",
+      "emptyText": "Em đã trả lời đúng tất cả các câu được tính điểm.",
+      "pendingCount": 22
+    },
+    {
+      "size": "mobile",
+      "emptyText": "Em đã trả lời đúng tất cả các câu được tính điểm.",
+      "pendingCount": 22
+    }
+  ],
+  "errors": []
+}

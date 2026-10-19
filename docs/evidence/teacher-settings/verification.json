@@ -1,0 +1,69 @@
+{
+  "checks": [
+    "Settings failure retains title and focuses error; retry saves title and refreshes report",
+    "Close/reopen changes receiving status without publishing grades; report filter survives settings refresh",
+    "Report CSV exports all 35 students rather than visible page",
+    "Delete review/cancel sends no delete; failed delete error appears inside modal; retry removes assignment"
+  ],
+  "errors": [],
+  "writes": [
+    {
+      "path": "/api/v1/classrooms/c1/assignments/a3/settings",
+      "dto": {
+        "title": "Đề đã chỉnh tên",
+        "folder": "Ôn thi",
+        "mode": "TEST",
+        "resultsPolicy": "MANUAL",
+        "trackTabSwitches": true,
+        "showSolutions": false,
+        "published": false
+      }
+    },
+    {
+      "path": "/api/v1/classrooms/c1/assignments/a3/settings",
+      "dto": {
+        "title": "Đề đã chỉnh tên",
+        "folder": "Ôn thi",
+        "mode": "TEST",
+        "resultsPolicy": "MANUAL",
+        "trackTabSwitches": true,
+        "showSolutions": false,
+        "published": false
+      }
+    },
+    {
+      "path": "/api/v1/classrooms/c1/assignments/a3/settings",
+      "dto": {
+        "title": "Đề đã chỉnh tên",
+        "folder": "Ôn thi",
+        "mode": "TEST",
+        "resultsPolicy": "MANUAL",
+        "trackTabSwitches": true,
+        "showSolutions": false,
+        "published": false,
+        "status": "CLOSED"
+      }
+    },
+    {
+      "path": "/api/v1/classrooms/c1/assignments/a3/settings",
+      "dto": {
+        "title": "Đề đã chỉnh tên",
+        "folder": "Ôn thi",
+        "mode": "TEST",
+        "resultsPolicy": "MANUAL",
+        "trackTabSwitches": true,
+        "showSolutions": false,
+        "published": false,
+        "status": "PUBLISHED"
+      }
+    },
+    {
+      "path": "/api/v1/classrooms/c1/assignments/a3",
+      "method": "DELETE"
+    },
+    {
+      "path": "/api/v1/classrooms/c1/assignments/a3",
+      "method": "DELETE"
+    }
+  ]
+}

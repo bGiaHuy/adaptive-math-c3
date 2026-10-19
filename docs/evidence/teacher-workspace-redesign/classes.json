@@ -1,0 +1,18 @@
+[
+  {
+    "size": "desktop",
+    "opened": true
+  },
+  {
+    "size": "laptop",
+    "opened": true
+  },
+  {
+    "size": "tablet",
+    "opened": true
+  },
+  {
+    "size": "mobile",
+    "opened": true
+  }
+]

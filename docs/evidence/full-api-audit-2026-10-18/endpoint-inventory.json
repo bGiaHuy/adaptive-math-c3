@@ -1,0 +1,590 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/overview",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 31
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/questions",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 38
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/questions",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 55
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/questions/:questionId/review",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 66
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/questions/:questionId/difficulty",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 78
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/questions/:questionId/labels",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 85
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/audit-logs",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 92
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/users",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 101
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/users/:userId/status",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 125
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/users/:userId/reset-password",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 136
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/classrooms",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 148
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/curriculum-stats",
+    "source": "apps\\api\\src\\modules\\admin\\admin.controller.ts",
+    "line": 155
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/assignments/blueprint",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 40
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/assignments/documents",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 44
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/assignments/documents/:documentId",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 49
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/assignments/documents/:documentId/file",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 53
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/assignments/ai-preview",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 63
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/assignments/random-preview",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 71
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/classrooms/:classId/assignments",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 83
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/classrooms/:classId/assignments",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 96
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/classrooms/:classId/assignments/:assignmentId/submissions",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 109
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/classrooms/:classId/assignments/:assignmentId/settings",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 122
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/classrooms/:classId/assignments/:assignmentId/regrade",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 128
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/assignments/:id/activity",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 134
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/classrooms/:classId/assignments/:assignmentId",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 140
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/assignments/sample-template",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 153
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/assignments/:id/take",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 165
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/assignments/:id/draft",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 176
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/assignments/:id/submit",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 180
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/assignments/:id/result",
+    "source": "apps\\api\\src\\modules\\assignment\\assignment.controller.ts",
+    "line": 193
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/auth/register/student",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 65
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/auth/register/teacher",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 72
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/auth/login",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 79
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/auth/me",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 101
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/auth/logout",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 112
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/auth/logout-all",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 133
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/auth/sessions",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 151
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/auth/sessions/:sessionId/revoke",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 164
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/auth/change-password",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 183
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/auth/teacher-profile",
+    "source": "apps\\api\\src\\modules\\auth\\auth.controller.ts",
+    "line": 205
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/classrooms",
+    "source": "apps\\api\\src\\modules\\classroom\\classroom.controller.ts",
+    "line": 29
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/classrooms",
+    "source": "apps\\api\\src\\modules\\classroom\\classroom.controller.ts",
+    "line": 41
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/classrooms/join",
+    "source": "apps\\api\\src\\modules\\classroom\\classroom.controller.ts",
+    "line": 49
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/classrooms/:id",
+    "source": "apps\\api\\src\\modules\\classroom\\classroom.controller.ts",
+    "line": 61
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/classrooms/:id/invite-codes",
+    "source": "apps\\api\\src\\modules\\classroom\\classroom.controller.ts",
+    "line": 73
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/classrooms/:id/invite-codes/:codeId/revoke",
+    "source": "apps\\api\\src\\modules\\classroom\\classroom.controller.ts",
+    "line": 86
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/classrooms/:id/students",
+    "source": "apps\\api\\src\\modules\\classroom\\classroom.controller.ts",
+    "line": 100
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/curriculum/grades",
+    "source": "apps\\api\\src\\modules\\curriculum\\curriculum.controller.ts",
+    "line": 10
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/curriculum/options",
+    "source": "apps\\api\\src\\modules\\curriculum\\curriculum.controller.ts",
+    "line": 17
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/curriculum/skills",
+    "source": "apps\\api\\src\\modules\\curriculum\\curriculum.controller.ts",
+    "line": 24
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/diagnostic/start",
+    "source": "apps\\api\\src\\modules\\diagnostic\\diagnostic.controller.ts",
+    "line": 28
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/diagnostic/draft",
+    "source": "apps\\api\\src\\modules\\diagnostic\\diagnostic.controller.ts",
+    "line": 36
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/diagnostic/answer",
+    "source": "apps\\api\\src\\modules\\diagnostic\\diagnostic.controller.ts",
+    "line": 43
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/diagnostic/abandon-current",
+    "source": "apps\\api\\src\\modules\\diagnostic\\diagnostic.controller.ts",
+    "line": 55
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/diagnostic/submit/:attemptId",
+    "source": "apps\\api\\src\\modules\\diagnostic\\diagnostic.controller.ts",
+    "line": 63
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/diagnostic/latest",
+    "source": "apps\\api\\src\\modules\\diagnostic\\diagnostic.controller.ts",
+    "line": 75
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/diagnostic/results/:attemptId",
+    "source": "apps\\api\\src\\modules\\diagnostic\\diagnostic.controller.ts",
+    "line": 81
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/topics",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 15
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/lessons/:id",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 18
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/english/lessons/:id/submit",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 21
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/progress",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 28
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/placement",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 33
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/placement/result",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 38
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/english/placement",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 43
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/english/import",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 50
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/admin/lessons",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 61
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/english/lessons/:id/review",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 68
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/my-assignments",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 80
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/english/classes/:classId/assignments",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 85
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/english/classes/:classId/assignments",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 92
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/english/classes/:classId/assignments/:assignmentId",
+    "source": "apps\\api\\src\\modules\\english\\english.controller.ts",
+    "line": 99
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/health",
+    "source": "apps\\api\\src\\modules\\health\\health.controller.ts",
+    "line": 10
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/practice/active",
+    "source": "apps\\api\\src\\modules\\student\\math-practice.controller.ts",
+    "line": 19
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/practice/start/:skillId",
+    "source": "apps\\api\\src\\modules\\student\\math-practice.controller.ts",
+    "line": 20
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/practice/:sessionId/answer",
+    "source": "apps\\api\\src\\modules\\student\\math-practice.controller.ts",
+    "line": 21
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/practice/:sessionId/abandon",
+    "source": "apps\\api\\src\\modules\\student\\math-practice.controller.ts",
+    "line": 24
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/tutor-stream",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 7
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/chat-stream",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 8
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/review/tutor/:conversationId",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 18
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/tutor",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 19
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/tutor/:conversationId/clear",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 20
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/review/summary",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 21
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/review/conversations",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 22
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/review/queue",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 23
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/enroll/:questionId",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 24
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/cards/:cardId/reveal",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 25
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/logs/:reviewId",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 26
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/feedback",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 27
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/review/chat/:reviewId",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 28
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/chat",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 29
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/student/review/chat/:reviewId/clear",
+    "source": "apps\\api\\src\\modules\\student\\math-review.controller.ts",
+    "line": 30
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/activity",
+    "source": "apps\\api\\src\\modules\\student\\student.controller.ts",
+    "line": 27
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/profile",
+    "source": "apps\\api\\src\\modules\\student\\student.controller.ts",
+    "line": 30
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/student/onboarding",
+    "source": "apps\\api\\src\\modules\\student\\student.controller.ts",
+    "line": 37
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/mastery",
+    "source": "apps\\api\\src\\modules\\student\\student.controller.ts",
+    "line": 47
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/learning-path",
+    "source": "apps\\api\\src\\modules\\student\\student.controller.ts",
+    "line": 54
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/student/mistakes",
+    "source": "apps\\api\\src\\modules\\student\\student.controller.ts",
+    "line": 61
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/student/mistakes/:id",
+    "source": "apps\\api\\src\\modules\\student\\student.controller.ts",
+    "line": 73
+  }
+]

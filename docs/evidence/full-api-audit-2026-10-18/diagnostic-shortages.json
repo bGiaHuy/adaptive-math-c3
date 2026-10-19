@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-18T17:13:25.958Z",
+  "ready": false,
+  "status": 400,
+  "code": "DIAGNOSTIC_BLUEPRINT_INSUFFICIENT",
+  "message": "Ngân hàng chưa đủ câu hỏi đúng chuyên đề, mức nhận thức và độ khó của ma trận Toán 9. Cần bổ sung hoặc rà soát nhãn câu hỏi trước khi mở bài kiểm tra.",
+  "requestId": "req_84d84196-3b86-429d-b267-890afce1d714",
+  "timestamp": "2026-10-18T17:13:48.088Z"
+}

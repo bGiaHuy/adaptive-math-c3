@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vercel/
+.next/
+out/
+build/
+apps/*/dist/
+apps/*/.next/
+apps/api/generated/
+apps/api/prisma/generated/
+*.tsbuildinfo
+
+# Env & secrets (never commit)
+.env
+.env.*
+.env.local
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.token
+
+# Backups, dumps & logs
+*.log
+npm-debug.log*
+backups/
+*.sql
+!apps/api/prisma/migrations/**/migration.sql
+*.dump
+*.tar
+backup_rehearsal.sql
+docs/evidence/backup/*.sql
+release/
+*.zip
+*.zip.sha256
+.release_staging/
+.temp_release_verify/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Test / coverage
+coverage/
+playwright-report/
+.embedded-test-db/
+*.embedded-test-db/
+test-results/
+.ui-audit/
+.math-adaptive-qa/
+supabase/.temp/
+
+# Misc
+.vscode/*
+!.vscode/extensions.json
+
+# Local dependency cache
+.cache/

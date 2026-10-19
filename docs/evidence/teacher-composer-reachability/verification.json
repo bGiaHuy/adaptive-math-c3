@@ -1,0 +1,83 @@
+{
+  "checks": [
+    "desktop: explanation and add-question receive pointer hit after scrolling",
+    "tablet: explanation and add-question receive pointer hit after scrolling",
+    "mobile: explanation and add-question receive pointer hit after scrolling",
+    "small-phone: explanation and add-question receive pointer hit after scrolling"
+  ],
+  "geometry": [
+    {
+      "size": "desktop",
+      "name": "explanation",
+      "reachable": true,
+      "x": 692,
+      "y": 623.28125,
+      "top": 579.28125,
+      "bottom": 667.28125
+    },
+    {
+      "size": "desktop",
+      "name": "add-question",
+      "reachable": true,
+      "x": 355.828125,
+      "y": 703.28125,
+      "top": 681.28125,
+      "bottom": 725.28125
+    },
+    {
+      "size": "tablet",
+      "name": "explanation",
+      "reachable": true,
+      "x": 308,
+      "y": 755.265625,
+      "top": 711.265625,
+      "bottom": 799.265625
+    },
+    {
+      "size": "tablet",
+      "name": "add-question",
+      "reachable": true,
+      "x": 199.828125,
+      "y": 835.265625,
+      "top": 813.265625,
+      "bottom": 857.265625
+    },
+    {
+      "size": "mobile",
+      "name": "explanation",
+      "reachable": true,
+      "x": 195,
+      "y": 324.046875,
+      "top": 280.046875,
+      "bottom": 368.046875
+    },
+    {
+      "size": "mobile",
+      "name": "add-question",
+      "reachable": true,
+      "x": 103.828125,
+      "y": 324.046875,
+      "top": 302.046875,
+      "bottom": 346.046875
+    },
+    {
+      "size": "small-phone",
+      "name": "explanation",
+      "reachable": true,
+      "x": 180,
+      "y": 222.046875,
+      "top": 178.046875,
+      "bottom": 266.046875
+    },
+    {
+      "size": "small-phone",
+      "name": "add-question",
+      "reachable": true,
+      "x": 103.828125,
+      "y": 222.046875,
+      "top": 200.046875,
+      "bottom": 244.046875
+    }
+  ],
+  "errors": []
+}

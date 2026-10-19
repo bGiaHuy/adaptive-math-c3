@@ -1,0 +1,405 @@
+{
+  "records": [
+    {
+      "size": "desktop",
+      "sample": "normal",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1608,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "desktop",
+      "sample": "normal",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 1741,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "desktop",
+      "sample": "empty",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 991,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "desktop",
+      "sample": "empty",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 900,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "desktop",
+      "sample": "sparse",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1025,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "desktop",
+      "sample": "sparse",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 900,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "desktop",
+      "sample": "dense",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1772,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "desktop",
+      "sample": "dense",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 1741,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "normal",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1678,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "normal",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 1795,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "empty",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1045,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "empty",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 800,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "sparse",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1079,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "sparse",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 850,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "dense",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1826,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "laptop",
+      "sample": "dense",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 1797,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "normal",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1990,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "normal",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 3080,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "empty",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1033,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "empty",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 1024,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "sparse",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1066,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "sparse",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 1024,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "dense",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 2138,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "tablet",
+      "sample": "dense",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 3080,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "normal",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 2428,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "normal",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 3478,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "empty",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1311,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "empty",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 967,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "sparse",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 1502,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "sparse",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 1127,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "dense",
+      "route": "teacher-overview",
+      "overflow": false,
+      "height": 2615,
+      "headings": [
+        "Tổng quan giảng dạy",
+        "Bài giao gần đây",
+        "Cần theo dõi",
+        "Lớp phụ trách"
+      ],
+      "axe": []
+    },
+    {
+      "size": "mobile",
+      "sample": "dense",
+      "route": "teacher-library",
+      "overflow": false,
+      "height": 3478,
+      "headings": [
+        "Thư viện đề"
+      ],
+      "axe": []
+    }
+  ],
+  "errors": []
+}

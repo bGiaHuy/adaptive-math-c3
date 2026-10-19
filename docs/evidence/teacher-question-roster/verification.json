@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "desktop: roster10/page, next/search, correct student drilldown returns to same question/search and group resets search",
+    "tablet: roster10/page, next/search, correct student drilldown returns to same question/search and group resets search",
+    "mobile: roster10/page, next/search, correct student drilldown returns to same question/search and group resets search"
+  ],
+  "errors": []
+}

@@ -1,0 +1,334 @@
+[
+  {
+    "name": "student",
+    "size": "desktop",
+    "rect": {
+      "top": 24,
+      "bottom": 876,
+      "width": 1200
+    },
+    "scroll": 850,
+    "client": 850,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Xem bài"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "question",
+    "size": "desktop",
+    "rect": {
+      "top": 27,
+      "bottom": 873,
+      "width": 1000
+    },
+    "scroll": 1293,
+    "client": 846,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      },
+      {
+        "label": "So sánh câu trả lời học sinh",
+        "tabIndex": 0,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Phân tích từng câu"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "publish",
+    "size": "desktop",
+    "rect": {
+      "top": 77.828125,
+      "bottom": 822.15625,
+      "width": 520
+    },
+    "scroll": 744,
+    "client": 744,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Kiểm tra & công bố"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "student",
+    "size": "laptop",
+    "rect": {
+      "top": 24,
+      "bottom": 776,
+      "width": 1200
+    },
+    "scroll": 750,
+    "client": 750,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Xem bài"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "question",
+    "size": "laptop",
+    "rect": {
+      "top": 24,
+      "bottom": 776,
+      "width": 1000
+    },
+    "scroll": 1293,
+    "client": 752,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      },
+      {
+        "label": "So sánh câu trả lời học sinh",
+        "tabIndex": 0,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Phân tích từng câu"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "publish",
+    "size": "laptop",
+    "rect": {
+      "top": 40,
+      "bottom": 760,
+      "width": 520
+    },
+    "scroll": 744,
+    "client": 720,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Kiểm tra & công bố"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "student",
+    "size": "tablet",
+    "rect": {
+      "top": 52,
+      "bottom": 972,
+      "width": 720
+    },
+    "scroll": 918,
+    "client": 918,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Xem bài"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "question",
+    "size": "tablet",
+    "rect": {
+      "top": 30.71875,
+      "bottom": 993.265625,
+      "width": 720
+    },
+    "scroll": 1293,
+    "client": 963,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      },
+      {
+        "label": "So sánh câu trả lời học sinh",
+        "tabIndex": 0,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Phân tích từng câu"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "publish",
+    "size": "tablet",
+    "rect": {
+      "top": 139.828125,
+      "bottom": 884.15625,
+      "width": 520
+    },
+    "scroll": 744,
+    "client": 744,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Kiểm tra & công bố"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "student",
+    "size": "mobile",
+    "rect": {
+      "top": 0,
+      "bottom": 844,
+      "width": 390
+    },
+    "scroll": 844,
+    "client": 844,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Xem bài"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "question",
+    "size": "mobile",
+    "rect": {
+      "top": 16.875,
+      "bottom": 827.109375,
+      "width": 374
+    },
+    "scroll": 1283,
+    "client": 810,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      },
+      {
+        "label": "So sánh câu trả lời học sinh",
+        "tabIndex": 0,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Phân tích từng câu"
+    },
+    "escapeClosed": true
+  },
+  {
+    "name": "publish",
+    "size": "mobile",
+    "rect": {
+      "top": 42.203125,
+      "bottom": 801.796875,
+      "width": 374
+    },
+    "scroll": 850,
+    "client": 760,
+    "focus": true,
+    "overflow": false,
+    "scrollReached": [
+      {
+        "label": null,
+        "tabIndex": -1,
+        "reached": true
+      }
+    ],
+    "all40TabsContained": true,
+    "tabContained": true,
+    "returnedFocus": {
+      "tag": "BUTTON",
+      "text": "Kiểm tra & công bố"
+    },
+    "escapeClosed": true
+  }
+]

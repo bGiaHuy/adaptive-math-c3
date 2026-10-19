@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "desktop: empty skills view, no fake percentages, no horizontal overflow",
+    "tablet: empty skills view, no fake percentages, no horizontal overflow",
+    "mobile: empty skills view, no fake percentages, no horizontal overflow"
+  ],
+  "errors": []
+}

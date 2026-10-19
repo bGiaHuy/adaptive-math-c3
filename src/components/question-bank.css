@@ -1,0 +1,46 @@
+/* Teacher question browsing: prompt first, answer key second, details on demand. */
+.teacher-workspace .question-bank-workspace{padding:24px;border:1px solid var(--tw-line);border-radius:12px;margin-bottom:24px;background:#f5f7fa;min-width:0}
+.qb-bank-intro h2{margin:0;font-size:20px;line-height:1.4}
+.qb-bank-intro p{margin:6px 0 0;color:var(--tw-muted);line-height:1.6}
+.teacher-workspace .question-bank-filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0 16px;padding:20px;background:var(--tw-paper);border:1px solid var(--tw-line);border-radius:8px}
+.teacher-workspace .question-bank-filters>label{margin:0;min-width:0;font-size:13px}
+.question-bank-filters .qb-search{grid-column:1/-1}
+.teacher-workspace .question-bank-filters :is(input,select){width:100%;min-width:0;box-sizing:border-box}
+.qb-results-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 20px;color:var(--tw-muted);font-size:13px}
+.qb-results-toolbar>div{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.qb-results-toolbar p{margin:0}
+.qb-question-list{display:grid;gap:24px}
+.teacher-workspace .qb-question{border:1px solid #d5dde5;border-radius:12px;margin:0;padding:24px 28px;background:#fff;min-width:0}
+.qb-card-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px}
+.teacher-workspace .qb-card-heading h3{margin:0;font-size:16px;font-weight:700;line-height:1.5;color:#243b53}
+.qb-card-heading p{margin:4px 0 0;color:#526373;font-size:13px;line-height:1.5}
+.qb-publication{flex-shrink:0;padding:4px 10px;border:1px solid #dbe3ec;border-radius:6px;font-size:12px;line-height:1.6;color:#526373;background:#f4f6f8}
+.qb-publication.published{background:#edf4ff;color:#31598b;border-color:#ccdcf2}
+.qb-question-topic{font-size:12px;font-weight:500;color:#63758a;margin-bottom:10px;overflow-wrap:anywhere;line-height:1.6}
+.teacher-workspace .qb-question-content{display:block;font-size:17px;font-weight:500;color:#172b3a;line-height:1.85;max-width:80ch;overflow-wrap:anywhere;overflow-x:auto}
+.qb-answer-section{margin-top:24px;padding-top:20px;border-top:1px solid #e8edf2;min-width:0}
+.teacher-workspace .qb-answer-section h4{font-size:12px;color:#63758a;font-weight:600;margin:0 0 12px;line-height:1.5}
+.qb-answer-section .math-response-result{margin:0;gap:10px}
+.qb-answer-section .math-key-short>strong{display:none}
+.qb-answer-section .math-answer-key .math-key-short{padding:0;border:0;background:transparent}
+.qb-answer-section .math-key-value{min-width:110px;text-align:center;padding:12px 20px;border-radius:6px;font-size:24px;line-height:1.4}
+.qb-card-footer{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;margin-top:20px;padding-top:12px;border-top:1px solid #e8edf2}
+.qb-card-footer details{min-width:0}
+.qb-card-footer summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:8px;font-size:13px;list-style:none}
+.qb-card-footer summary:before{content:'+';font-size:18px;width:16px;text-align:center}
+.qb-card-footer details[open]>summary:before{content:'−'}
+.qb-card-footer summary::-webkit-details-marker{display:none}
+.qb-card-footer .qb-solution>summary{color:var(--tw-accent);font-weight:600}
+.qb-card-footer .qb-technical>summary{color:#63758a}
+.qb-card-footer summary:focus-visible{outline:3px solid var(--tw-accent);outline-offset:3px;border-radius:4px}
+.qb-disclosure-content{margin:0 0 12px;padding:12px 16px;background:#f7f9fb;border-radius:6px;font-size:14px;line-height:1.8;overflow-wrap:anywhere;min-width:0}
+.qb-disclosure-content p{margin:0}
+.qb-technical dl{display:grid;grid-template-columns:140px minmax(0,1fr);gap:8px 16px;font-size:12px}
+.qb-technical dt{color:#63758a}.qb-technical dd{margin:0}
+@media(max-width:1000px){.teacher-workspace .question-bank-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.teacher-workspace .question-bank-workspace{padding:12px}.teacher-workspace .qb-question{padding:20px 16px}.teacher-workspace .question-bank-filters{padding:12px}.question-bank-filters>label:nth-child(2){grid-column:1/-1}.qb-results-toolbar{align-items:flex-start;flex-direction:column;gap:8px}.qb-card-heading{gap:8px}.teacher-workspace .qb-question-content{font-size:16px}.qb-technical dl{grid-template-columns:minmax(0,1fr);gap:4px}.qb-technical dd{margin-bottom:8px}.qb-question-list{gap:16px}}
+
+/* Teacher bank answer keys retain the requested green fill and black outline. */
+.qb-answer-section .math-key-value,
+.qb-answer-section .math-truth-circle,
+.qb-answer-section .math-key-choice.is-key{background:#bbf7d0;border:2px solid #000;color:#14532d}

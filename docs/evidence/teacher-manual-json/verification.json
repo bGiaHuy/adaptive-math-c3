@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Short-answer preview matches typed accepted answers and added question",
+    "Malformed JSON focuses visible error, retains input and previously selected question",
+    "Valid JSON adds atomically; duplicate leaves existing two questions unchanged",
+    "Reload retains selected manual/JSON questions and unapplied JSON; zero server writes"
+  ],
+  "errors": [],
+  "writes": []
+}

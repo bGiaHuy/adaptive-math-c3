@@ -1,0 +1,57 @@
+{
+  "candidateCount": 90,
+  "claimedVerifiedCount": 84,
+  "importEligibleCount": 0,
+  "quarantinedCount": 90,
+  "singleChoiceKeyDistribution": {
+    "A": 54,
+    "B": 0,
+    "C": 0,
+    "D": 0
+  },
+  "sourceCount": 18,
+  "invalidHashCount": 5,
+  "emptyFileHashCount": 1,
+  "katexErrors": 0,
+  "unknownTopicCodes": 0,
+  "paperAudit": [
+    {
+      "id": "SELECTION-KNTT-G10-22Q",
+      "count": 22,
+      "counts": {
+        "SINGLE_CHOICE": 12,
+        "TRUE_FALSE": 4,
+        "SHORT_ANSWER": 6
+      },
+      "importEligible": false,
+      "wrongKeyIncluded": false
+    },
+    {
+      "id": "SELECTION-KNTT-G11-22Q",
+      "count": 22,
+      "counts": {
+        "SINGLE_CHOICE": 12,
+        "TRUE_FALSE": 4,
+        "SHORT_ANSWER": 6
+      },
+      "importEligible": false,
+      "wrongKeyIncluded": true
+    },
+    {
+      "id": "SELECTION-KNTT-G12-22Q",
+      "count": 22,
+      "counts": {
+        "SINGLE_CHOICE": 12,
+        "TRUE_FALSE": 4,
+        "SHORT_ANSWER": 6
+      },
+      "importEligible": false,
+      "wrongKeyIncluded": false
+    }
+  ],
+  "limitations": [
+    "No claim of full independent mathematical certification",
+    "Only one related external source PDF inspected; others remain unverified",
+    "All original artifacts left unchanged; no database operations"
+  ]
+}

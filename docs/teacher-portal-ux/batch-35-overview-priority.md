@@ -1,0 +1,3 @@
+# Batch35 — Tổng quan ưu tiên công việc cần xử lý
+P1 hierarchy: “Cần theo dõi” nằm sau6recent assignments, mobile phải cuộn qua history trước thấy draft/no-submission tasks. Đổi thứ tự sections trong DOM để attention trước recent, không chỉ CSS order làm keyboard lệch. Giữ cả recent và lớp, không thêm phân tích giả.
+TeacherOverview.jsx; verify-teacher-overview-priority.mjs. Chrome fixture3viewport: section đầu là attention, geometry trước recent, draft button mở đúngpaper; no overflow/pageerror. Build đạt. After teacher-overview-priority/overview-*.png và verification.json; baseline rộng accessibility-review-20261018-overview-*.png cùngfixture/viewports nhưng trước các batch class khác, không nói exact revision unchanged. Goalactive.

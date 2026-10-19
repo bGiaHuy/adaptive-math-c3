@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "size": "desktop",
+      "emptyText": "Chưa có câu được xác định cần ôn. Câu chờ chấm, không tính điểm hoặc cho điểm toàn bộ không nằm trong bộ lọc này.",
+      "pendingCount": 22
+    },
+    {
+      "size": "tablet",
+      "emptyText": "Chưa có câu được xác định cần ôn. Câu chờ chấm, không tính điểm hoặc cho điểm toàn bộ không nằm trong bộ lọc này.",
+      "pendingCount": 22
+    },
+    {
+      "size": "mobile",
+      "emptyText": "Chưa có câu được xác định cần ôn. Câu chờ chấm, không tính điểm hoặc cho điểm toàn bộ không nằm trong bộ lọc này.",
+      "pendingCount": 22
+    }
+  ],
+  "errors": []
+}

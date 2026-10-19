@@ -1,0 +1,1504 @@
+=== THPT-12-CUOI_HK1-227.pdf (Total pages: 19) ===
+--- QUESTION PAGES ---
+
+[PAGE 1]
+Đề kiểm tra cuối kỳ 1, môn Toán_12. Trang 1/4 - Mã đề thi 132 
+SỞ GD&ĐT THÀNH PHỐ HUẾ 
+TRƯỜNG THPT PHÚ LỘC 
+ĐỀ KIỂM TRA CUỐI KỲ I, NĂM HỌC 2025-2026 
+MÔN: TOÁN 12 
+(Đề thi gồm có 04 trang) 
+Thời gian làm bài 90 phút, không kể thời gian phát đề 
+      Họ và tên học sinh: ……………………………………………..., Lớp: 12B... 
+Mã đề 132 
+ 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn. Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi 
+thí sinh chỉ chọn một phương án. 
+Câu 1. Cho hình hộp 
+.
+'
+'
+'
+'
+ABCD A B C D . Véc-tơ  có điểm đầu và điểm cuối là các đỉnh của hình hộp và 
+bằng véc-tơ 
+'
+'
+B D
+
+ là véc-tơ nào sau đây? 
+ 
+ A. 
+'
+'.
+A C
+
+ 
+ B. 
+.
+DB
+
+ 
+ C. 
+.
+BD
+
+ 
+ D. 
+'
+'.
+D B
+
+ 
+Câu 2. Cho hình hộp 
+.
+'
+'
+'
+'
+ABCD A B C D , véc-tơ 
+=
++
++
+'
+'
+'
+'
+'
+u
+A A
+A B
+A D
+
+
+
+
+ bằng véc-tơ nào dưới đây? 
+ 
+ A. 
+'
+.
+C A
+
+ 
+ B. 
+'.
+AC
+
+ 
+ C. 
+' .
+A C
+
+ 
+ D. 
+'.
+CA
+
+ 
+Câu 3. Cho hàm số 
+( )
+f x , bảng xét dấu của 
+( )
+f
+x
+′
+ như sau: 
+ 
+    Số điểm cực trị của hàm số đã cho là 
+ A. 3. 
+ B. 1. 
+ C. 2 . 
+ D. 0 . 
+Câu 4. Cho tứ diện ABCD . Mệnh đề nào sau đây đúng? 
+ A. 
++
+=
+.
+BC
+AB
+AC
+
+
+
+ 
+ B. 
++
+=
+.
+AB
+BD
+DA
+
+
+
+ 
+ C. 
+−
+=
+.
+AB
+AD
+BD
+
+
+
+ 
+ D. 
+−
+=
+.
+AC
+CB
+AB
+
+
+
+ 
+Câu 5. Tiệm cận đứng của đồ thị hàm số 
+3
+2
+2
+x
+y
+x
++
+=
+−
+ là đường thẳng có phương trình: 
+ A. 
+2
+x =
+. 
+ B. 
+3
+x =
+. 
+ C. 
+3
+y =
+. 
+ D. 
+2
+y =
+. 
+Câu 6. Đường cong của hình vẽ là đồ thị của hàm số nào dưới đây? 
+
+[PAGE 2]
+Đề kiểm tra cuối kỳ 1, môn Toán_12. Trang 2/4 - Mã đề thi 132 
+ 
+ A. 
+1
+1
+x
+y
+x
+−
+=
++ . 
+ B. 
+2
+3
+1
+3
+x
+x
+y
+x
++
++
+=
++
+. 
+ C. 
+3
+2
+3
+y
+x
+x
+=
+−
+. 
+ D. 
+2
+1
+2
+2
+x
+y
+x
+−
++
+=
++
+. 
+Câu 7. Chiều cao của 40 học sinh nam ở một trường THPT cho bởi bảng sau 
+Lớp chiều cao (cm) 
+[
+)
+150;155 
+[
+)
+155;160 
+[
+)
+160;165 
+[
+)
+165;170 
+Số học sinh 
+9 
+      20 
+       7 
+       4 
+ 
+Giá trị đại diện của nhóm chứa Mốt của mẫu số liệu là: 
+ A. 160. 
+ B. 157,5. 
+ C. 162,5. 
+ D. 168,5 . 
+Câu 8. Tuổi thọ (năm) của 50 bình ắc quy ô tô  điện được cho như sau: 
+Tuổi thọ (năm) 
+[2;2,5) [2,5;3) [3;3,5) [3,5;4) [4;4,5) [4,5;5) 
+Tần số 
+     4 
+     9 
+    14  
+    11 
+     7 
+    5  
+Khoảng biến thiên của mẫu số liệu trên là:  
+ A. 10. 
+ B. 2,25 . 
+ C. 3. 
+ D. 2,5. 
+Câu 9. Trong không gian Oxyz , cho hai véc-tơ 
+(
+)
+1 3
+2
+= −
+−
+; ;
+a
+
+và 
+(
+)
+2 0 3
+= −; ;
+b
+
+. Tọa độ của véc-tơ −
+b
+a
+
+
+ là 
+ A. (
+)
+1
+3 5
+−
+−
+;
+;
+. 
+ B. (
+)
+3 3 1
+−; ;
+. 
+ C. (
+)
+1 3
+5
+−
+; ;
+. 
+ D. (
+)
+1
+3 1
+−−
+;
+;
+. 
+Câu 10. Trong không gian Oxyz , cho véc-tơ 
+2
+= −
+−
+u
+i
+j
+k
+
+
+
+
+. Mệnh đề nào sau đây đúng? 
+ A. 
+(
+)
+1 2 1
+=
+; ;
+.
+u
+
+ 
+ B. 
+(
+)
+1 2 1
+= −; ;
+.
+u
+
+ 
+ C. 
+(
+)
+1
+2 1
+=
+−
+;
+;
+.
+u
+
+ 
+ D. 
+(
+)
+1
+2
+1
+=
+−
+−
+;
+;
+.
+u
+
+ 
+Câu 11. Trong các khẳng định sau, khẳng định nào sai? 
+   A. Phương sai luôn luôn là số không âm. 
+   B. Phương sai là bình phương của độ lệch chuẩn. 
+   C. Phương sai càng lớn thì độ phân tán của các giá trị quanh số trung bình càng lớn. 
+   D. Phương sai luôn luôn lớn hơn độ lệch chuẩn. 
+Câu 12. Cho hàm số 
+( )
+f x liên tục trên đoạn [
+]
+2;3
+−
+ có đồ thị như hình vẽ dưới đây. 
+ 
+Gọi 
+,
+m M lần lượt là giá trị nhỏ nhất và giá trị lớn nhất của hàm số trên đoạn [
+]
+2;3
+−
+. Giá trị của m
+M
++
+bằng: 
+
+[PAGE 3]
+Đề kiểm tra cuối kỳ 1, môn Toán_12. Trang 3/4 - Mã đề thi 132 
+ A. 7. 
+ B. 1. 
+ C. 3. 
+ D. 5 . 
+ 
+PHẦN II. Câu trắc nghiệm đúng sai. Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi 
+câu, thí sinh chọn đúng hoặc sai. 
+Câu 1. Trong không gian Oxyz , cho hình hộp chữ nhật 
+.
+'
+'
+'
+'
+ABCD A B C D biết điểm A trùng với gốc O
+, (
+)
+2 0 0
+; ;
+B
+, 
+(
+)
+0 3 0
+; ;
+D
+, 
+(
+)
+0 0 4
+'
+; ;
+A
+ 
+ 
+   a) Tọa độ của véc-tơ 
+'
+AC
+
+là (
+)
+2 3 4
+; ;
+. 
+   b) Tâm của hình hộp chữ nhật 
+.
+'
+'
+'
+'
+ABCD A B C D có tọa độ là (
+)
+0 0 0
+; ;
+. 
+   c) Tích vô hướng 
+'.
+'
+AC CD
+
+bằng 16. 
+   d) Chu vi của tam giác 
+'
+'
+AB D lớn hơn 13 5
+, . 
+Câu 2. Cho hàm số 
+3
+2
+2
+x
+y
+x
++
+=
++
+ có đồ thị là ( )
+C . 
+   a) Đồ thị ( )
+C đi qua điểm (
+)
+0;2
+A
+. 
+   b) Hàm số luôn đồng biến trên . 
+   c) Hàm số không có cực trị. 
+   d) Điểm (
+)
+2;3
+I −
+ là giao điểm của các đường tiệm cận của đồ thị ( )
+C . 
+ 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Thí sinh trả lời từ câu 1 đến câu 4. 
+Câu 1. Cho tứ diện đều ABCD có cạnh bằng 2 . Tích vô hướng 
+(
+)
+−
+AB AB
+DA
+
+
+bằng bao nhiêu? 
+Câu 2. Kết quả điều tra về số giờ làm thêm trong 1 tuần của một nhóm sinh viên được cho ở bảng sau: 
+ 
+Tính khoảng tứ phân vị của mẫu số liệu ghép nhóm trên (làm tròn kết quả đến hàng phần trăm)?`1 
+Câu 3. Trong không gian Oxyz , cho điểm 
+(
+)
+3 3
+2
+−
+; ;
+M
+và điểm N đối xứng với M qua trục Oy . Độ dài 
+đoạn thẳng MN bằng bao nhiêu? (làm tròn kết quả đến hàng phần mười). 
+ 
+
+[PAGE 4]
+Đề kiểm tra cuối kỳ 1, môn Toán_12. Trang 4/4 - Mã đề thi 132 
+Câu 4. Một công ty muốn xây một đường ống dẫn từ một điểm A trên bờ biển đến một điểm B trên một 
+hòn đảo. Giá để xây đường ống trên bờ là 30triệu đồng mỗi km và 50triệu đồng để xây mỗi km dưới nước. 
+Gọi C là điểm trên bờ biển sao cho BC vuông góc với bờ biển, 
+6
+BC =
+km, 
+9
+AC =
+km. Gọi M là vị trí 
+trên đoạn AC sao cho khi làm ống dẫn theo đường gấp khúc AMB thì chi phí ít nhất (tham khảo hình vẽ). 
+Hỏi chi phí thấp nhất để hoàn thành việc xây dựng đường ống dẫn là bao nhiêu triệu đồng? (kết quả làm 
+tròn đến hàng đơn vị). 
+ 
+PHẦN IV. Tự luận. 
+Câu 1. (0,75 điểm) Mỗi ngày bác Hòa đều đi bộ để rèn luyện sức khoẻ. Quãng đường đi bộ mỗi ngày (đơn 
+vị: km ) của bác Hòa trong 20 ngày được thống kê lại ở bảng sau: 
+Quãng đường (
+)
+km 
+[2,7;3,0) 
+[3,0;3,3) 
+[3,3;3,6) 
+[3,6;3,9) 
+[3,9;4,2) 
+Số ngày 
+3 
+6 
+5 
+4 
+2 
+Tìm độ lệch chuẩn của mẫu số liệu ghép nhóm trên. 
+Câu 2. (0,75 điểm) Cho hình lập phương ABCD.A'B'C'D' có cạnh bằng a . Tính độ dài của vectơ 
+v
+BC
+BB′
+=
+−
+
+
+
+. 
+Câu 3. (0,75 điểm) Trong không gian với hệ tọa độ Oxyz , cho hai điểm 
+(1; 2;3)
+A
+−
+, 
+(3;0;2)
+B
+ và vectơ 
+( 1;2;1)
+c = −
+
+. Tìm tọa độ của vectơ 
+3
+u
+AB
+c
+=
++
+
+
+. Từ đó, tính độ dài của vectơ u. 
+Câu 4. (0,75 điểm) Trong đợt cứu trợ đồng bào miền Trung, Ban chỉ huy tìm kiếm cứu nạn thiết lập hệ trục 
+tọa độ Oxyz (đơn vị đo là km) để định vị các mục tiêu. Trục Oy mô phỏng tuyến Quốc lộ 1A đang ngập 
+nước nhưng xe lội nước chuyên dụng vẫn có thể di chuyển được. Hai chiếc Flycam trinh sát đang bay tại 
+hai vị trí cố định: 
+Flycam A di chuyển đến vị trí 
+(3;2;4)
+A
+. 
+Flycam B di chuyển đến vị trí 
+( 9;14;12)
+B −
+. 
+Một xe trạm thu phát tín hiệu di chuyển trên Quốc lộ 1A để nhận dữ liệu từ cả hai Flycam. Để 
+đường truyền ổn định nhất và tổng độ trễ tín hiệu là thấp nhất, xe cần tìm một vị trí M trên đường sao cho 
+tổng khoảng cách từ xe đến hai Flycam là nhỏ nhất. 
+Tìm tọa độ điểm M và giá trị nhỏ nhất của tổng khoảng cách đó. 
+ 
+===== Hết ===== 
+ 
+
+--- ANSWER PAGES ---
+
+[PAGE 9]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_12. Trang 1/4 
+SỞ GD&ĐT THÀNH PHỐ HUẾ 
+TRƯỜNG THPT PHÚ LỘC 
+KIỂM TRA CUỐI KÌ I, NĂM HỌC 2025-2026 
+MÔN: TOÁN 12 
+ 
+ 
+HƯỚNG DẪN CHẤM 
+ 
+Phần I. Câu trắc  nghiệm nhiều phương án lựa chọn.  
+(Mỗi câu trả lời đúng thí sinh được 0,25 điểm) 
+ 
+Câu 
+Mã đề 132 
+Mã đề 209 
+Mã đề 357 
+Mã đề 485 
+1 
+C 
+A 
+C 
+A 
+2 
+C 
+D 
+D 
+D 
+3 
+C 
+A 
+D 
+D 
+4 
+A 
+B 
+B 
+B 
+5 
+A 
+C 
+B 
+C 
+6 
+A 
+A 
+D 
+A 
+7 
+B 
+B 
+D 
+C 
+8 
+C 
+A 
+C 
+B 
+9 
+A 
+B 
+D 
+C 
+10 
+D 
+A 
+D 
+B 
+11 
+D 
+C 
+D 
+B 
+12 
+B 
+C 
+A 
+C 
+ 
+Phần II. Câu trắc nghiệm đúng sai.  
+Điểm tối đa của 01 câu hỏi là 1 điểm 
+-Thí sinh chỉ lựa chọn chính xác 01 ý trong 1 câu hỏi được 0,1 điểm. 
+-Thí sinh chỉ lựa chọn chính xác 02 ý trong 1 câu hỏi được 0,25 điểm. 
+-Thí sinh chỉ lựa chọn chính xác 03 ý trong 1 câu hỏi được 0,5 điểm. 
+-Thí sinh lựa chọn chính xác cả 04 ý trong 1 câu hỏi được 1,0 điểm. 
+Câu 
+Mã đề 132 
+Mã đề 209 
+Mã đề 357 
+Mã đề 485 
+1 
+ĐSSS 
+ĐSSS 
+SSĐĐ 
+ĐSSS 
+2 
+SSĐĐ 
+SSĐĐ 
+ĐSSS 
+SSĐĐ 
+ 
+HƯỚNG DẪN GIẢI CHI TIẾT 
+Phần III. Câu trắc nghiệm trả lời ngắn. 
+Câu 
+Mã đề 132 
+Mã đề 209 
+Mã đề 357 
+Mã đề 485 
+1 
+6 
+510 
+510 
+510 
+2 
+3,27  
+3,27  
+7,2  
+3,27  
+3 
+7,2  
+7,2  
+3,27  
+6 
+4 
+510 
+6 
+6 
+7,2  
+MĐ 132: 
+Câu 1. Cho tứ diện đều ABCD có cạnh bằng 2 . Tích vô hướng 
+(
+)
+−
+AB AB
+DA
+
+
+bằng bao nhiêu? 
+Lời giải 
+(
+)
+(
+)
+2
+2
+2
+0
+2
+2 2
+6
+−
+=
+−
+=
+−
+=
+−
+=
+.
+.
+.cos
+,
+. .cos120
+AB AB
+DA
+AB
+AB DA
+AB
+AB DA
+AB DA
+
+
+
+
+
+ 
+
+[PAGE 10]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_12. Trang 2/4 
+ 
+Đáp án: 6 
+Câu 2. 
+Lời giải 
+Từ biểu đồ, ta có bảng số liệu sau: 
+Giờ 
+[
+)
+2;4 
+[
+)
+4;6 
+[
+)
+6;8 
+[
+)
+8;10 
+[
+)
+10;12 
+Số sinh viên 
+12 
+20 
+37 
+21 
+10 
+Cỡ mẫu 
+100
+n =
+. 
+ 
+(
+)
+1
+100
+12
+53
+4
+4
+. 6
+4
+20
+10
+Q
+−
+=
++
+−
+=
+. 
+(
+)
+(
+)
+3
+3.100
+12
+20
+37
+60
+4
+8
+. 10
+8
+21
+7
+Q
+−
++
++
+=
++
+−
+=
+. 
+Khoảng tứ phân vị là 
+3
+1
+60
+53
+229
+3,27
+7
+10
+70
+Q
+Q
+Q
+∆=
+−
+=
+−
+=
+≈
+ (giờ). 
+Đáp án: 3,27 
+Câu 3. Trong không gian Oxyz , cho điểm 
+(
+)
+3 3
+2
+−
+; ;
+M
+và điểm N đối xứng với M qua trục Oy . Độ dài 
+đoạn thẳng MN bằng bao nhiêu? (làm tròn kết quả đến hàng phần mười). 
+Lời giải 
+(
+)
+3 3 2
+−; ;
+N
+,  
+(
+)
+6 0 4
+−; ;
+MN
+
+,  
+36
+0 16
+52
+7 211102551
+=
++
++
+=
+≈,
+....
+MN
+ 
+Đáp án: 7,2 
+Câu 4. Một công ty muốn xây một đường ống dẫn từ một điểm A trên bờ biển đến một điểm B trên một 
+hòn đảo. Giá để xây đường ống trên bờ là 30triệu đồng mỗi km và 50triệu đồng để xây mỗi km dưới nước. 
+Gọi C là điểm trên bờ biển sao cho BC vuông góc với bờ biển, 
+6
+BC =
+km, 
+9
+AC =
+km. Gọi M là vị trí 
+trên đoạn AC sao cho khi làm ống dẫn theo đường gấp khúc AMB thì chi phí ít nhất (tham khảo hình vẽ). 
+Hỏi chi phí thấp nhất để hoàn thành việc xây dựng đường ống dẫn là bao nhiêu triệu đồng? (kết quả làm 
+tròn đến hàng đơn vị). 
+ 
+Lời giải 
+
+[PAGE 11]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_12. Trang 3/4 
+- Đặt CM
+x
+=
+(
+)
+km , với 0
+9
+x
+≤
+≤
+. 
+- Ta có: tổng chi phí để xây dựng đường ống dẫn theo đường gấp khúc AMB là: 
+(
+)
+2
+30. 9
+50.
+36
+T
+x
+x
+=
+−
++
++
+(triệu đồng) 
+Xét hàm số 
+( )
+(
+)
+2
+30. 9
+50.
+36
+f x
+x
+x
+=
+−
++
++
+ trên đoạn [
+]
+0;9 , ta có : 
+( )
+2
+50
+9
+30
+0
+2
+36
+x
+f
+x
+x
+x
+′
+= −
++
+=
+⇔
+=
++
+. 
+Tính được : 
+( )
+0
+570
+f
+=
+, 
+9
+510
+2
+f 
+=
+
+
+
+
+, 
+( )
+9
+541
+f
+≈
+. 
+Vậy 
+min
+510
+T
+=
+(triệu đồng). 
+Đáp án: 510 
+PHẦN IV. Tự luận. 
+Câu 
+Nội dung 
+Điểm 
+1 
+Đề: Mỗi ngày bác Hòa đều đi bộ để rèn luyện sức khoẻ. Quãng đường đi bộ mỗi ngày (đơn 
+vị: km ) của bác Hòa trong 20 ngày được thống kê lại ở bảng sau: 
+ Quãng đường (
+)
+km  [2,7;3,0) [3,0;3,3) [3,3;3,6) [3,6;3,9) 
+[3,9;4,2) 
+ Số ngày  
+3 
+6 
+5 
+4 
+2 
+Tìm độ lệch chuẩn của mẫu số liệu ghép nhóm trên. 
+ 
+3,39
+x =
+ 
+0,25 
+(
+)
+2
+2
+2
+2
+2
+2
+2
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+1
+.
+.
+.
+.
+.
+s
+s
+x m
+x
+m
+x
+m
+x
+m
+x
+m
+x
+n
+=
+=
++
++
++
++
+−
+ 
+0,25 
+0,36
+=
+ 
+0,25 
+2 
+Đề: Cho hình lập phương ABCD.A'B'C'D' có cạnh bằng a . Tính độ dài của vectơ 
+v
+BC
+BB′
+=
+−
+
+
+
+. 
+ 
+Ta có: 
+'
+v
+BC
+BB
+B C
+′
+=
+−
+=
+
+
+
+
+. 
+0,25 
+Suy ra: 
+2
+2
+'
+v
+B C
+a
+a
+=
+=
++
+
+
+  
+0,25 
+               
+2
+a
+=
+ 
+0,25 
+3 
+Đề: Trong không gian với hệ tọa độ Oxyz , cho hai điểm 
+(1; 2;3)
+A
+−
+, 
+(3;0;2)
+B
+ và vectơ 
+( 1;2;1)
+c = −
+
+. Tìm tọa độ của vectơ 
+3
+u
+AB
+c
+=
++
+
+
+. Từ đó, tính độ dài của vectơ u. 
+ 
+(
+)
+2;2; 1
+AB =
+−
+
+; 
+(
+)
+3
+3;6;3
+c = −
+
+ 
+0,25 
+(
+)
+3
+1;8;2
+u
+AB
+c
+=
++
+= −
+
+
+
+. 
+0,25 
+2
+2
+2
+( 1)
+8
+2
+69
+u =
+−
++
++
+=
+
+. 
+0,25 
+4 
+Đề: Trong đợt cứu trợ đồng bào miền Trung, Ban chỉ huy tìm kiếm cứu nạn thiết lập hệ trục 
+tọa độ Oxyz (đơn vị đo là km) để định vị các mục tiêu. Trục Oy mô phỏng tuyến Quốc lộ 
+1A đang ngập nước nhưng xe lội nước chuyên dụng vẫn có thể di chuyển được. Hai chiếc 
+Flycam trinh sát đang bay tại hai vị trí cố định: 
+Flycam A di chuyển đến vị trí 
+(3;2;4)
+A
+. 
+Flycam B di chuyển đến vị trí 
+( 9;14;12)
+B −
+. 
+ 
+
+[PAGE 12]
+Hướng dẫn chấm kiểm tra cuối kỳ 1, môn Toán_12. Trang 4/4 
+Một xe trạm thu phát tín hiệu di chuyển trên Quốc lộ 1A để nhận dữ liệu từ cả hai Flycam. 
+Để 
+đường truyền ổn định nhất và tổng độ trễ tín hiệu là thấp nhất, xe cần tìm một vị trí M trên 
+đường sao cho tổng khoảng cách từ xe đến hai Flycam là nhỏ nhất. 
+Tìm tọa độ điểm M và giá trị nhỏ nhất của tổng khoảng cách đó. 
+Vì M thuộc trục Oy nên 
+(0; ;0)
+M
+y
+. 
+2
+2
+2
+2
+2
+(0
+3)
+(
+2)
+(0
+4)
+9
+(
+2)
+16
+(
+2)
+25
+MA
+y
+y
+y
+=
+−
++
+−
++
+−
+=
++
+−
++
+=
+−
++
+. 
+2
+2
+2
+2
+2
+(0
+( 9))
+(
+14)
+(0 12)
+81 (
+14)
+144
+(
+14)
+225
+MB
+y
+y
+y
+=
+−−
++
+−
++
+−
+=
++
+−
++
+=
+−
++
+. 
+0,25 
+Biểu thức cần tìm giá trị nhỏ nhất: 
+2
+2
+2
+2
+(
+2)
+25
+(
+14)
+225
+(2
+)
+25
+(
+14)
+225
+T
+y
+y
+y
+y
+=
+−
++
++
+−
++
+=
+−
++
++
+−
++
+. 
+Xét bất đẳng thức vectơ: |
+|
+|
+| |
+|
+u
+v
+u
+v
++
+≥
++
+
+
+
+. 
+Dấu "=" xảy ra khi và chỉ khi hai vectơ u và v cùng hướng. 
+Đặt 
+(2
+;5)
+u
+y
+=
+−
+
+ 
+2
+2
+|
+|
+(2
+)
+5
+u
+y
+⇒
+=
+−
++
+
+; 
+(
+14;15)
+v
+y
+=
+−
+
+ 
+2
+2
+|
+|
+(
+14)
+15
+v
+y
+⇒
+=
+−
++
+
+ 
+Khi đó tổng vectơ là: 
+(2
+14;5 15)
+( 12;20)
+u
+v
+y
+y
++
+=
+−
++
+−
++
+= −
+
+
+. 
+Độ dài vectơ tổng: 
+2
+2
+|
+|
+( 12)
+20
+144
+400
+544
+4 34
+u
+v
++
+=
+−
++
+=
++
+=
+=
+
+
+. 
+Vậy ta luôn có: 
+4 34
+MA
+MB
++
+≥
+. 
+0,25 
+Dấu "=" xảy ra khi u và v cùng hướng 
+2
+5
+5
+14
+15
+y
+y
+y
+−
+=
+⇒
+=
+−
+. 
+Vậy tọa độ xe trạm cần tìm là 
+(0;5;0)
+M
+. 
+0,25 
+ 
+Chú ý: Nếu học sinh trình bày cách giải khác, đảm bảo đúng và chặt chẻ thì chấm điểm tối đa của phần 
+hoặc câu đó. 
+ 
+ 

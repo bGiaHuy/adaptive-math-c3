@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "seconds": 8,
+  "questions": 3,
+  "types": [
+    "SINGLE_CHOICE",
+    "TRUE_FALSE",
+    "SHORT_ANSWER"
+  ]
+}

@@ -1,0 +1,1284 @@
+[
+  {
+    "role": "guest",
+    "tab": "landing",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Đừng học lạiphần bạn đã biết.",
+    "mainWidth": 1360,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "guest",
+    "tab": "landing",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Đừng học lạiphần bạn đã biết.",
+    "mainWidth": 390,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "guest",
+    "tab": "login",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Đăng nhập",
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "guest",
+    "tab": "login",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Đăng nhập",
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "guest",
+    "tab": "signup",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Tạo tài khoản",
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "guest",
+    "tab": "signup",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Tạo tài khoản",
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "guest",
+    "tab": "not-found",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Không tìm thấy trang yêu cầu",
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "guest",
+    "tab": "not-found",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Không tìm thấy trang yêu cầu",
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "dashboard",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Xin chào, học sinh Khối 9!",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "dashboard",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Xin chào, học sinh Khối 9!",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "profile",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Hồ sơ năng lực toán học",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "profile",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Hồ sơ năng lực toán học",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "learning-path",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Lộ trình học cá nhân",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "learning-path",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Lộ trình học cá nhân",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "diagnostic",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Đã nộp bài kiểm tra đầu vào",
+    "mainWidth": 1440,
+    "offenders": [
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5427
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "diagnostic",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Đã nộp bài kiểm tra đầu vào",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item active",
+        "width": 154
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 110
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "mistakes",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Sổ tay lỗi sai (27 câu)",
+    "mainWidth": 1440,
+    "offenders": [
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5317
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5317
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5317
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5317
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5317
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5317
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5317
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7601
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "mistakes",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Sổ tay lỗi sai (27 câu)",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item active",
+        "width": 115
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "review",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Hiểu lại lỗi cũ. Nhớ chắc cách làm.",
+    "mainWidth": 1440,
+    "offenders": [
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 5427
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7758
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "review",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Hiểu lại lỗi cũ. Nhớ chắc cách làm.",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "classroom",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Lớp Học Của Em",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "classroom",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Lớp Học Của Em",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "onboarding",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Chào bạn!",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "onboarding",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Chào bạn!",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "missions",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Nhiệm vụ số hôm nay",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "missions",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Nhiệm vụ số hôm nay",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "practice",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Luyện tập theo chủ đề",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "student",
+    "tab": "practice",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Luyện tập theo chủ đề",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 150
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 10
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 112
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-overview",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Một ngày dạy học mới.",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-overview",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Một ngày dạy học mới.",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 147
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 103
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-classes",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Lớp học của thầy cô",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-classes",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Lớp học của thầy cô",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 147
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 103
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-library",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Thư viện đề",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-library",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Thư viện đề",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 147
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 103
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-bank",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Ngân hàng câu hỏi",
+    "mainWidth": 1440,
+    "offenders": [
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 7271
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "teacher",
+    "tab": "teacher-bank",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Ngân hàng câu hỏi",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item active",
+        "width": 150
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 6784
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 6784
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 6784
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 6784
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 6784
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 6784
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "applicant",
+    "tab": "teacher-pending",
+    "size": "desktop",
+    "source": "controlled role fixture",
+    "overflow": false,
+    "heading": "Hồ sơ Đang Chờ Phê Duyệt",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "applicant",
+    "tab": "teacher-pending",
+    "size": "mobile",
+    "source": "controlled role fixture",
+    "overflow": false,
+    "heading": "Hồ sơ Đang Chờ Phê Duyệt",
+    "mainWidth": 390,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-overview",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-overview",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 147
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 103
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 144
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 3
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 100
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-users",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-users",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 147
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 103
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 144
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 3
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 100
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-questions",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-questions",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item active",
+        "width": 150
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 106
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 144
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 3
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 100
+      }
+    ],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-audit",
+    "size": "desktop",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 1440,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "role": "admin",
+    "tab": "admin-audit",
+    "size": "mobile",
+    "source": "local server",
+    "overflow": false,
+    "heading": "Quản trị hệ thống",
+    "mainWidth": 390,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item ",
+        "width": 147
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 103
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "sidebar-nav-item active",
+        "width": 148
+      },
+      {
+        "tag": "svg",
+        "cls": {},
+        "width": 18
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 14
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 4
+      },
+      {
+        "tag": "path",
+        "cls": {},
+        "width": 3
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sidebar-item-label",
+        "width": 104
+      }
+    ],
+    "errors": []
+  }
+]

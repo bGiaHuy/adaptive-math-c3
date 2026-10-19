@@ -1,0 +1,50 @@
+[
+  {
+    "size": "desktop",
+    "selected": "Ôn tập căn thức · Bài 1Toán 9A1 · 22 câu · 45 phút · Bản nháp0/35 đã nộp",
+    "preview": {
+      "top": 270,
+      "left": 1115.8125,
+      "right": 1395.8125,
+      "bottom": 942.359375,
+      "width": 280
+    },
+    "overflow": false
+  },
+  {
+    "size": "laptop",
+    "selected": "Ôn tập căn thức · Bài 1Toán 9A1 · 22 câu · 45 phút · Bản nháp0/35 đã nộp",
+    "preview": {
+      "top": 318.796875,
+      "left": 960.609375,
+      "right": 1240.609375,
+      "bottom": 991.15625,
+      "width": 280
+    },
+    "overflow": false
+  },
+  {
+    "size": "tablet",
+    "selected": "Ôn tập căn thức · Bài 1Toán 9A1 · 22 câu · 45 phút · Bản nháp0/35 đã nộp",
+    "preview": {
+      "top": 307.75,
+      "left": 174.03125,
+      "right": 743.96875,
+      "bottom": 589.34375,
+      "width": 569.9375
+    },
+    "overflow": false
+  },
+  {
+    "size": "mobile",
+    "selected": "Ôn tập căn thức · Bài 1Toán 9A1 · 22 câu · 45 phút · Bản nháp0/35 đã nộp",
+    "preview": {
+      "top": 205.53125,
+      "left": 17,
+      "right": 373,
+      "bottom": 638.109375,
+      "width": 356
+    },
+    "overflow": false
+  }
+]

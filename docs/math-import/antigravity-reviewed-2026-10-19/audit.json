@@ -1,0 +1,282 @@
+[
+  {
+    "id": "CAND-SLOT02-01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT02-02",
+    "decision": "QUARANTINED",
+    "reason": "Phương án nguồn dùng liên từ và khi giải tích cần hoặc; giữ riêng do mơ hồ sư phạm."
+  },
+  {
+    "id": "CAND-SLOT02-03",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT02-04",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT02-05",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT02-06",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT10-01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT10-02",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT10-03",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT10-04",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT10-05",
+    "decision": "QUARANTINED",
+    "reason": "Phụ thuộc bốn hình phương án; cần xuất đủ hình chuẩn và kiểm tra hiển thị trước khi nhập."
+  },
+  {
+    "id": "CAND-SLOT10-06",
+    "decision": "QUARANTINED",
+    "reason": "Phương án JSON thay biển báo hình ảnh bằng tên đa giác khác nguồn."
+  },
+  {
+    "id": "CAND-SLOT11-01",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT11-02",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT11-03",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT11-04",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT11-05",
+    "decision": "QUARANTINED",
+    "reason": "Biểu đồ gốc mỗi biểu tượng là một học sinh; JSON ghi hai và thay các bảng phương án."
+  },
+  {
+    "id": "CAND-SLOT13-01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT13-02",
+    "decision": "QUARANTINED",
+    "reason": "Dữ kiện đường/giờ JSON sai so với ảnh; ảnh bằng chứng còn thiếu ý d."
+  },
+  {
+    "id": "CAND-SLOT13-03",
+    "decision": "QUARANTINED",
+    "reason": "Câu hệ có tham số không phải bài mô hình hóa; cần kiểm tra lại từng ý và nhãn."
+  },
+  {
+    "id": "CAND-SLOT13-04",
+    "decision": "QUARANTINED",
+    "reason": "Đề nguồn tính theo giờ và nguyên liệu tuần 1; JSON đổi thành sản lượng tháng."
+  },
+  {
+    "id": "CAND-SLOT13-05",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT14-01",
+    "decision": "QUARANTINED",
+    "reason": "Đáp án và điều kiện biểu thức cần tính lại; chưa xuất bản theo khóa AI."
+  },
+  {
+    "id": "CAND-SLOT14-02",
+    "decision": "QUARANTINED",
+    "reason": "Ý c về số tự nhiên và điều kiện cần kiểm tra đáp án nguồn, khóa AI có dấu hiệu sai."
+  },
+  {
+    "id": "CAND-SLOT14-03",
+    "decision": "QUARANTINED",
+    "reason": "Rút gọn thực tế B=(sqrt(x)+2)/(sqrt(x)-2), khác khóa AI; chưa nhập."
+  },
+  {
+    "id": "CAND-SLOT14-04",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT14-05",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT15-01",
+    "decision": "QUARANTINED",
+    "reason": "Ngữ cảnh hình học JSON không khớp hình/điểm I và các ý trong ảnh nguồn."
+  },
+  {
+    "id": "CAND-SLOT15-02",
+    "decision": "QUARANTINED",
+    "reason": "Ngữ cảnh JSON dựng dây MN khác bài cát tuyến AC,BC trong nguồn."
+  },
+  {
+    "id": "CAND-SLOT15-03",
+    "decision": "QUARANTINED",
+    "reason": "Ảnh nguồn là E trên cung AD, JSON đổi E là trung điểm OA."
+  },
+  {
+    "id": "CAND-SLOT15-04",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT15-05",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT16-01",
+    "decision": "QUARANTINED",
+    "reason": "Ảnh có dữ liệu nguyên bảng; cần khôi phục bảng và tính lại từng ý."
+  },
+  {
+    "id": "CAND-SLOT16-02",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT16-03",
+    "decision": "QUARANTINED",
+    "reason": "Đã có nội dung tương đương trong lô Hải Phòng; chưa thêm bản lặp."
+  },
+  {
+    "id": "CAND-SLOT16-04",
+    "decision": "QUARANTINED",
+    "reason": "Ảnh chứng minh là bài xưởng bánh, không phải dữ liệu PM2.5."
+  },
+  {
+    "id": "CAND-SLOT16-05",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT17-01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT17-02",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT17-03",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT17-04",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT17-05",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT20-01",
+    "decision": "QUARANTINED",
+    "reason": "Bài diện tích hình phẳng có phần tô đậm, cần hình và thẩm định đáp án; không thuộc hình khối."
+  },
+  {
+    "id": "CAND-SLOT20-02",
+    "decision": "QUARANTINED",
+    "reason": "Đề gốc yêu cầu giấy cả hộp và hao hụt 7%, JSON đổi sang nhãn quanh thân; chưa nhập."
+  },
+  {
+    "id": "CAND-SLOT20-03",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT20-04",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT20-05",
+    "decision": "QUARANTINED",
+    "reason": "Không xác minh được nội dung tương ứng với vị trí nguồn; không nhập."
+  },
+  {
+    "id": "CAND-SLOT22-01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT22-02",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT22-03",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT22-04",
+    "decision": "QUARANTINED",
+    "reason": "Cần hình và đầy đủ đối chiếu khóa đáp án của bài hai đường tròn."
+  },
+  {
+    "id": "CAND-SLOT22-05",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT11-REPL01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT17-REPL01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT20-REPL01",
+    "decision": "REVIEWED_FOR_IMPORT",
+    "reason": "Đối chiếu ảnh nguồn và giải độc lập; nhãn theo nội dung, không ép ma trận."
+  },
+  {
+    "id": "CAND-SLOT22-NEW01",
+    "decision": "QUARANTINED",
+    "reason": "Lời giải AI suy ngược từ đáp án, thiếu chứng minh; cần hình và rà nhãn, không lấp vị trí 22."
+  }
+]

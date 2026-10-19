@@ -1,0 +1,136 @@
+{
+  "at": "2026-10-18T17:08:55.363Z",
+  "checks": [
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200,
+      "ms": 793
+    },
+    {
+      "path": "/classrooms/f083138a-6ab8-4475-8835-912366be7be4/students",
+      "method": "GET",
+      "status": 200,
+      "ms": 930
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200,
+      "ms": 475
+    },
+    {
+      "path": "/student/practice/start/6d6b2181-8dfa-41f4-a340-cdbd024fceea",
+      "method": "POST",
+      "status": 201,
+      "ms": 2203
+    },
+    {
+      "path": "/student/practice/08807f6c-f450-4323-be70-b9842961097f/answer",
+      "method": "POST",
+      "status": 201,
+      "ms": 1461
+    },
+    {
+      "path": "/student/practice/08807f6c-f450-4323-be70-b9842961097f/answer",
+      "method": "POST",
+      "status": 201,
+      "ms": 1021
+    },
+    {
+      "path": "/student/practice/active",
+      "method": "GET",
+      "status": 200,
+      "ms": 763
+    },
+    {
+      "path": "/student/practice/08807f6c-f450-4323-be70-b9842961097f/abandon",
+      "method": "POST",
+      "status": 201,
+      "ms": 938
+    },
+    {
+      "path": "/student/review/queue",
+      "method": "GET",
+      "status": 200,
+      "ms": 624
+    },
+    {
+      "path": "/student/review/summary",
+      "method": "GET",
+      "status": 200,
+      "ms": 971
+    },
+    {
+      "path": "/student/review/tutor-stream",
+      "method": "POST",
+      "status": 201,
+      "ms": 4550
+    },
+    {
+      "path": "/student/review/tutor/c76bc634-4027-42c7-b1c0-c160c59b56c0",
+      "method": "GET",
+      "status": 200,
+      "ms": 965
+    },
+    {
+      "path": "/student/review/tutor/c76bc634-4027-42c7-b1c0-c160c59b56c0/clear",
+      "method": "POST",
+      "status": 201,
+      "ms": 1439
+    },
+    {
+      "path": "/assignments/ai-preview",
+      "method": "POST",
+      "status": 200,
+      "ms": 3714
+    },
+    {
+      "path": "/english/topics",
+      "method": "GET",
+      "status": 200,
+      "ms": 354
+    },
+    {
+      "path": "/english/placement",
+      "method": "GET",
+      "status": 400,
+      "ms": 588,
+      "code": "BAD_REQUEST"
+    },
+    {
+      "path": "/diagnostic/start",
+      "method": "POST",
+      "status": 400,
+      "ms": 2019,
+      "code": "DIAGNOSTIC_BLUEPRINT_INSUFFICIENT"
+    },
+    {
+      "path": "/auth/logout",
+      "method": "POST",
+      "status": 200,
+      "ms": 1137
+    },
+    {
+      "path": "/auth/logout",
+      "method": "POST",
+      "status": 200,
+      "ms": 776
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "English placement bank is not ready; response Cần ít nhất 6 câu trắc nghiệm ở 2 mức bài học để bắt đầu.",
+    "Grade-9 diagnostic blueprint is not filled; DIAGNOSTIC_BLUEPRINT_INSUFFICIENT"
+  ],
+  "tutor": {
+    "streaming": true,
+    "completed": true
+  },
+  "examAi": {
+    "completed": true,
+    "questionCount": 1
+  },
+  "englishPublishedTopics": 0,
+  "status": "PASS_WITH_LIMITATIONS"
+}

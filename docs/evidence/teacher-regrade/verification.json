@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "22 collapsed editors; jump navigation; submitted content locked; preview failure retains reason; preview performs no apply",
+    "Impact filters/paging and three responsive viewports; apply failure keeps preview; explicit retry succeeds"
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "apply": false,
+      "revision": 1,
+      "questionCount": 22
+    },
+    {
+      "apply": false,
+      "revision": 1,
+      "questionCount": 22
+    },
+    {
+      "apply": true,
+      "revision": 1,
+      "questionCount": 22
+    },
+    {
+      "apply": true,
+      "revision": 1,
+      "questionCount": 22
+    }
+  ]
+}

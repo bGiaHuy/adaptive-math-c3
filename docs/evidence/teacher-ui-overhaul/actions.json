@@ -1,0 +1,113 @@
+{
+  "checks": [
+    {
+      "size": "desktop",
+      "initialRows": 10,
+      "gridList": true,
+      "search": true,
+      "status": true,
+      "folder": true,
+      "directResults": true,
+      "directPaper": true,
+      "cancelDelete": true,
+      "accountPanel": true,
+      "navigation": true,
+      "layout": {
+        "overflow": false,
+        "railWidth": 232,
+        "nav": {
+          "x": 18,
+          "y": 135.359375,
+          "width": 195,
+          "height": 216,
+          "top": 135.359375,
+          "right": 213,
+          "bottom": 351.359375,
+          "left": 18
+        }
+      }
+    },
+    {
+      "size": "laptop",
+      "initialRows": 10,
+      "gridList": true,
+      "search": true,
+      "status": true,
+      "folder": true,
+      "directResults": true,
+      "directPaper": true,
+      "cancelDelete": true,
+      "accountPanel": true,
+      "navigation": true,
+      "layout": {
+        "overflow": false,
+        "railWidth": 232,
+        "nav": {
+          "x": 18,
+          "y": 135.359375,
+          "width": 195,
+          "height": 216,
+          "top": 135.359375,
+          "right": 213,
+          "bottom": 351.359375,
+          "left": 18
+        }
+      }
+    },
+    {
+      "size": "tablet",
+      "initialRows": 10,
+      "gridList": true,
+      "search": true,
+      "status": true,
+      "folder": true,
+      "directResults": true,
+      "directPaper": true,
+      "cancelDelete": true,
+      "accountPanel": true,
+      "navigation": true,
+      "layout": {
+        "overflow": false,
+        "railWidth": 84,
+        "nav": {
+          "x": 12,
+          "y": 86,
+          "width": 59,
+          "height": 232,
+          "top": 86,
+          "right": 71,
+          "bottom": 318,
+          "left": 12
+        }
+      }
+    },
+    {
+      "size": "mobile",
+      "initialRows": 5,
+      "gridList": true,
+      "search": true,
+      "status": true,
+      "folder": true,
+      "directResults": true,
+      "directPaper": true,
+      "cancelDelete": true,
+      "accountPanel": true,
+      "navigation": true,
+      "layout": {
+        "overflow": false,
+        "railWidth": 390,
+        "nav": {
+          "x": 0,
+          "y": 761.40625,
+          "width": 390,
+          "height": 82.59375,
+          "top": 761.40625,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        }
+      }
+    }
+  ],
+  "errors": []
+}

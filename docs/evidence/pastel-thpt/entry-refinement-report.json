@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "page": "login",
+      "violations": []
+    },
+    {
+      "page": "signup",
+      "violations": []
+    },
+    {
+      "page": "landing",
+      "violations": []
+    }
+  ],
+  "viewports": [
+    1440,
+    1074,
+    768,
+    390
+  ],
+  "passwordToggle": "passed",
+  "mode": "Live local API; no account created"
+}

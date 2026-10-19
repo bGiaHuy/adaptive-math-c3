@@ -1,0 +1,20 @@
+{
+  "desktop": {
+    "topicsHeight": 248,
+    "topicsScroll": 950,
+    "overflow": false,
+    "methodTop": 303.796875,
+    "workspaceTop": 497.984375,
+    "footerBottom": 888
+  },
+  "added": "1/22",
+  "preservedAfterTopicChange": true,
+  "slotFilters": true,
+  "sourceSwitchesPreserve": true,
+  "mobile": {
+    "overflow": false,
+    "matrixToggle": true
+  },
+  "footerClear": true,
+  "errors": []
+}

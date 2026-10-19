@@ -1,0 +1,259 @@
+PAGE 1
+Đại số 9 - Chương 3: Căn thức  – Tự luận phân dạng toán có lời giải                                                                  Cánh Diều  
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 3 
+CĂN THỨC 
+ 
+BÀI 1 
+CĂN BẬC HAI VÀ CĂN BẬC BA CỦA SỐ THỰC 
+ 
+1. Căn bậc hai của số thực không âm 
+Định nghĩa: Căn bậc hai của số thực a  không âm là số x  sao cho 2x a .  
+Chú ý: 
+   Mỗi số thực dương  0a a   có đúng hai căn bậc hai là hai số đối nhau. Số dương kí hiệu là: a , 
+số âm kí hiệu là: a . Ta gọi a  là căn bậc hai số học của a . 
+   Số 0  có đúng 1 căn bậc hai là chính nó, ta viết 0 0  
+   Số âm không có căn bậc hai.   
+Nhận xét: Với 0, 0a b  , ta có:  
+   Nếu a b  thì a b . 
+   Nếu a b  thì a b . 
+2. Căn bậc ba 
+ Căn bậc ba của số thực a  là số thực x  sao cho 3x a .  
+ Căn bậc ba của số thực a  được kí hiệu là: 3 a . 
+Nhận xét:  
+    
+33 a a  . 
+   Nếu a b  thì 3 3a b . 
+   Nếu 3 3a b  thì a b . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 203
+Đại số 9 - Chương 3: Căn thức  – Tự luận và trắc nghiệm 4 phần có lời giải                                                          Cánh Diều  
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 1
+TRẮC NGHIỆM VÀ TỰ LUẬN TỔNG HỢP GỒM BỐN PHẦN 
+CHƯƠNG 3: CĂN THỨC 
+ 
+PHẦN I. Câu trắc nghiệm nhiều ph ương án l ựa chọn. Mỗi câu hỏi thí sinh chỉ chọn một ph ương 
+án. 
+Câu 1. Cho số thực 0a  . Số nào sau đây là căn bậc hai số học của a ? 
+ A. a . B. 2
+a . C. 2a . D. 2 a . 
+Câu 2. Khẳng định nào sau đây là sai? 
+ A. 2a a .  
+ B. Với 0, 0a b  , ta có: . .a b a b . 
+ C. Với 0, 0a b  , ta có: a a
+b b
+ .  
+ D. Với 0, 0a b  , ta có: b b
+aa
+ . 
+Câu 3. Cho ,a b  là hai số không âm. Khẳng định nào sau đây là đúng? 
+ A. ab a b . B. a b b a . C. . .a b a b . D. aab
+b
+ .  
+Câu 4. Cho a  là số không âm và ,b c  là số dương. Khẳng định nào sau đây là sai? 
+ A. ac ac
+b b
+ . B. ab ab
+cc
+ . C. . .a b c abc . D. a ab
+bc c
+  
+Câu 5. Cho số thực a . Khẳng định nào sau đây là sai? 
+ A. Với 0a  , ta có: 2a a .  
+ B. Với 0a  , ta có:  
+2
+a a  . 
+ C. Với 0a  , ta có:  
+2
+a a  .  
+ D. Với 0a  , ta có: 2a a  . 
+Câu 6. Cho số thực a . Khẳng định nào sau đây là sai? 
+ A. Với 0, 0a b  , nếu a b  thì a b .  
+ B. Với 0, 0a b  , nếu a b  thì a b . 
+ C. Nếu a b  thì 3 3a b .  
+ D. Nếu 3 3a b  thì a b . 
+Câu 7. Khẳng định nào sau đây đúng? 
+
+PAGE 216
+Đại số 9 - Chương 3: Căn thức  – Tự luận và trắc nghiệm 4 phần có lời giải                                                          Cánh Diều  
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 14 
+PHẦN II. Câu trắc nghiệm đúng sai. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc 
+sai. 
+Câu 131. Cho hai biểu thức  27 12 2 6 : 3 3M      và 3 5. 8N   . 
+a) Rút g ọn biểu thức M  ta đư ợc 2a cM b d  , với ;a c
+b d  là phân s ố tối giản v à , , ,a b c d   . Ta có 
+10a b c d    . 
+b) Rút gọn biểu thức N  ta được . 5N e f  , với ,e f   . Ta có 0e f  . 
+c) Với 2 .1 2
+3 3P M    
+
+
+ , ta có 7
+9P  . 
+d) Với 
+10 2
+NQ 
+
+ , ta có 2Q  . 
+Câu 132. Cho hai biểu thức 6 15
+35 14
+M 
+
+  và 24 8 5N   . 
+a) Rút gọn biểu thức M  ta được 21M a
+b , với a
+b  là phân số tối giản và ,a b   . Ta có . 7a b   . 
+b) Rút gọn biểu thức N  ta được 5N c d  , với ,c d   . Ta có . 4c d   . 
+c) Với  7 11 .21P M     
+ , ta có 4
+7P   . 
+d) Với  20 2 .Q N   , ta có 16Q  . 
+Câu 133. Cho hai biểu thức 5 5
+10 2
+M 
+
+  và 54 18 10N   . 
+a) Rút gọn biểu thức M  ta được 10M a
+b , với a
+b  là phân số tối giản và ,a b   . Ta có 2a b  . 
+b) Rút gọn biểu thức N  ta được 3 2N c d  , với ,c d   . Ta có . 15c d  . 
+c) Với 2
+NP M  , ta có 3 2 3 5
+2 5P  . 
+d) Với  45 18 . NQ    , ta có 27Q   . 
+Câu 134. Cho hai biểu thức  
+212 2 18 . 2M     và 36 12 5
+6
+N  . 
+a) Rút gọn biểu thức M  ta được 6M ba  , với a
+b  là phân số tối giản và ,a b   . Ta có 6 0a b  . 
+b) Rút gọn biểu thức N  ta được N c d  , với ,c d   . Ta có 4c d  . 
+c) Với  6 1 .P M   , ta có 5 6P  . 
+
+PAGE 223
+Đại số 9 - Chương 3: Căn thức  – Tự luận và trắc nghiệm 4 phần có lời giải                                                          Cánh Diều  
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 21 
+d) Với 0; 1x x  , giá trị lớn nhất của biểu thức .P M N  bằng 1
+4  tại 1
+4x  . 
+ 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Mỗi câu hỏi thí sinh chỉ trả lời đáp án. 
+Câu 161. Nhà bạn An (vị trí A trên hình vẽ) cách nhà bạn Châu (vị trí C trên hình vẽ) 600m và cách nhà 
+bạn Bình (vị trí B tr ên hình vẽ) 450m. Biết rằng 3 vị trí: nhà An, nhà Bình và nhà Châu là 3 đỉnh của một 
+tam giác vuông (xem hình vẽ). Khoảng cách từ nhà Bình đến nhà Châu bằng bao nhiêu mét? 
+ 
+Nhà bạn ChâuNhà bạn An
+Nhà bạn Bình
+600m
+450m
+B
+A C  
+Trả lời: ……………….. 
+Câu 162. Một cây cao 12m mọc cạnh bờ sông.Tr ên đỉnh cây có một con c him đang đậu và chuẩn bị s à 
+xuống bắt con cá tr ên mặt nước (như hình 1 và được mô phỏng nh ư hình 2). H ỏi con chim sẽ bay một 
+đoạn ngắn nhất bằng bao nhi êu mét thì bắt được con cá? (Biết con cá cách gốc cây 5m v à nước cao mấp 
+mé bờ sông) 
+ 
+Trả lời: ……………….. 
+Câu 163. Trong công viên thi ếu nhi của th ành phố Nha Trang có cầu tr ượt trẻ em đ ược mô phỏng nh ư 
+hình vẽ bên dưới. Chiều dài đường trượt AC bằng bao nhiêu mét? (kết quả làm tròn hàng phần mười).  
+ 
+Trả lời: ……………….. 
+
+PAGE 333
+Đại số 9 - Chương 3: Căn thức  – Tự luận và trắc nghiệm 4 phần có lời giải                                                          Cánh Diều  
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 41 
+a) Thay 9x  (tmđk) vào biểu thức A , ta có: 
+9 1 3 1 4 23 1 29 1
+A      
+ 
+Vậy khi 9x   thì 2A   
+b) Với 0; 1x x   thì: 
+1 1 :
+1 1 1
+x x xB
+x x x
+          
+   
+  
+2 2
+1 1
+:
+11 1
+x x x
+xx x
+  
+
+    
+2 1 2 1 :
+11 1
+x x x x x
+xx x
+    
+ 
+ 
+  
+4 1 .
+1 1
+x x
+xx x
+
+ 
+4
+1x
+
+
+ 
+Vậy với 0; 1x x   thì 4
+1
+B
+x
+
+
+ 
+c) Tìm x  để giá trị của A và B  trái dấu. 
+Để giá trị của A và B  trái dấu thì: 
+. 0
+1 4. 0
+1 1
+4 0
+1
+A B
+x
+x x
+x
+
+ 
+ 
+
+
+ 
+Vì 4 0  nên: 
+ 
+4 0
+1
+1 0
+1
+1
+x
+x
+x
+x
+
+
+ 
+
+
+ 
+Kết hợp điều kiện 0; 1x x   ta có 0 1 x   
+Để giá trị của A và B  trái dấu thì 0 1 x  . 

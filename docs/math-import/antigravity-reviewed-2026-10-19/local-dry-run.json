@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-18T18:09:38.542Z",
+  "destination": "LOCAL",
+  "batchSha256": "968b4c514366b835f5298d50dea2c2715b5eae8c0e836e42ea2de4b69c38cb6f",
+  "reviewed": 26,
+  "additions": [
+    {
+      "externalId": "CAND-SLOT02-01",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT02-04",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT02-05",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT02-06",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-01",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-02",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-03",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-04",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-02",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-03",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-04",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-REPL01",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT17-01",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT17-02",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT17-03",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT17-REPL01",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT20-03",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT20-04",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT20-REPL01",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-01",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-02",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-03",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-05",
+      "skillCode": "SKILL-08",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT13-01",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "CAND-SLOT13-05",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "TRUE_FALSE"
+    }
+  ],
+  "skipped": [
+    {
+      "externalId": "CAND-SLOT02-03",
+      "id": "12cbaf3b-c779-59bd-a330-5fab65ba7309",
+      "reason": "EXISTING_SOURCE_SEPARATE_REVIEW_REQUIRED"
+    }
+  ],
+  "newSkills": [
+    {
+      "code": "MATH9-TRIANGLE-CIRCLES",
+      "title": "Đường tròn ngoại tiếp và nội tiếp tam giác",
+      "chapter": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+      "grade": 9,
+      "orderIndex": 32
+    }
+  ],
+  "mode": "DRY_RUN"
+}

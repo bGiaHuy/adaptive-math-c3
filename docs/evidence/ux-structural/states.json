@@ -1,0 +1,1390 @@
+[
+  {
+    "name": "bank-sparse",
+    "size": "desktop",
+    "state": "sparse",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 149
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-sparse-expanded",
+    "size": "desktop",
+    "state": "sparse",
+    "overflow": false,
+    "height": 1262,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 499.875,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 149
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long",
+    "size": "desktop",
+    "state": "long",
+    "overflow": false,
+    "height": 1867,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 149
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long-expanded",
+    "size": "desktop",
+    "state": "long",
+    "overflow": false,
+    "height": 2504,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 746.875,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 149
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "composer-bottom-clearance",
+    "size": "desktop",
+    "footerTop": 754,
+    "footerBottom": 888,
+    "viewport": 900,
+    "bottom": true
+  },
+  {
+    "name": "composer-keyboard",
+    "size": "desktop",
+    "focus": {
+      "tag": "BUTTON",
+      "text": "Tạo đề bằng AITạo câu hỏi từ tài liệu mọi môn và phân loại bốn độ khó.",
+      "outline": "solid"
+    }
+  },
+  {
+    "name": "empty",
+    "size": "desktop",
+    "state": "empty",
+    "overflow": false,
+    "height": 1111,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Các lớp phụ trách",
+      "Bài cần theo dõi"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 149
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "error",
+    "size": "desktop",
+    "state": "error",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 241
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "loading",
+    "size": "desktop",
+    "state": "loading",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 149
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-sparse",
+    "size": "laptop",
+    "state": "sparse",
+    "overflow": false,
+    "height": 922,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 200
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-sparse-expanded",
+    "size": "laptop",
+    "state": "sparse",
+    "overflow": false,
+    "height": 1311,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 499.875,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 200
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long",
+    "size": "laptop",
+    "state": "long",
+    "overflow": false,
+    "height": 1916,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 200
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long-expanded",
+    "size": "laptop",
+    "state": "long",
+    "overflow": false,
+    "height": 2552,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 746.875,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 200
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "composer-bottom-clearance",
+    "size": "laptop",
+    "footerTop": 654,
+    "footerBottom": 788,
+    "viewport": 800,
+    "bottom": true
+  },
+  {
+    "name": "composer-keyboard",
+    "size": "laptop",
+    "focus": {
+      "tag": "BUTTON",
+      "text": "Tạo đề bằng AITạo câu hỏi từ tài liệu mọi môn và phân loại bốn độ khó.",
+      "outline": "solid"
+    }
+  },
+  {
+    "name": "empty",
+    "size": "laptop",
+    "state": "empty",
+    "overflow": false,
+    "height": 1160,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Các lớp phụ trách",
+      "Bài cần theo dõi"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 200
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "error",
+    "size": "laptop",
+    "state": "error",
+    "overflow": false,
+    "height": 800,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 292
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "loading",
+    "size": "laptop",
+    "state": "loading",
+    "overflow": false,
+    "height": 800,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 200
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-sparse",
+    "size": "tablet",
+    "state": "sparse",
+    "overflow": false,
+    "height": 1024,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 195
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-sparse-expanded",
+    "size": "tablet",
+    "state": "sparse",
+    "overflow": false,
+    "height": 1393,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 499.875,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 195
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long",
+    "size": "tablet",
+    "state": "long",
+    "overflow": false,
+    "height": 1998,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 195
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long-expanded",
+    "size": "tablet",
+    "state": "long",
+    "overflow": false,
+    "height": 2743,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 854.875,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 195
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "composer-bottom-clearance",
+    "size": "tablet",
+    "footerTop": 854,
+    "footerBottom": 1012,
+    "viewport": 1024,
+    "bottom": true
+  },
+  {
+    "name": "composer-keyboard",
+    "size": "tablet",
+    "focus": {
+      "tag": "BUTTON",
+      "text": "Tạo đề bằng AITạo câu hỏi từ tài liệu mọi môn và phân loại bốn độ khó.",
+      "outline": "solid"
+    }
+  },
+  {
+    "name": "empty",
+    "size": "tablet",
+    "state": "empty",
+    "overflow": false,
+    "height": 1149,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Các lớp phụ trách",
+      "Bài cần theo dõi"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 195
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "error",
+    "size": "tablet",
+    "state": "error",
+    "overflow": false,
+    "height": 1024,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 287
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "loading",
+    "size": "tablet",
+    "state": "loading",
+    "overflow": false,
+    "height": 1024,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 195
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-sparse",
+    "size": "mobile",
+    "state": "sparse",
+    "overflow": false,
+    "height": 1271,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 131.96875,
+        "summaryHeight": 130.96875,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 272
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-sparse-expanded",
+    "size": "mobile",
+    "state": "sparse",
+    "overflow": false,
+    "height": 1764,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 625.09375,
+        "summaryHeight": 130.96875,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 272
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long",
+    "size": "mobile",
+    "state": "long",
+    "overflow": false,
+    "height": 2696,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 272
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "bank-long-expanded",
+    "size": "mobile",
+    "state": "long",
+    "overflow": false,
+    "height": 3823,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 1282.578125,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 272
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "composer-bottom-clearance",
+    "size": "mobile",
+    "footerTop": 700.4375,
+    "footerBottom": 836,
+    "viewport": 844,
+    "bottom": true
+  },
+  {
+    "name": "composer-keyboard",
+    "size": "mobile",
+    "focus": {
+      "tag": "BUTTON",
+      "text": "Tạo đề bằng AITạo câu hỏi từ tài liệu mọi môn và phân loại bốn độ khó.",
+      "outline": "solid"
+    }
+  },
+  {
+    "name": "empty",
+    "size": "mobile",
+    "state": "empty",
+    "overflow": false,
+    "height": 1350,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Các lớp phụ trách",
+      "Bài cần theo dõi"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 294
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "error",
+    "size": "mobile",
+    "state": "error",
+    "overflow": false,
+    "height": 844,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới.",
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 386
+      }
+    ],
+    "errors": [],
+    "axe": []
+  },
+  {
+    "name": "loading",
+    "size": "mobile",
+    "state": "loading",
+    "overflow": false,
+    "height": 844,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 294
+      }
+    ],
+    "errors": [],
+    "axe": []
+  }
+]

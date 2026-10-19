@@ -1,0 +1,292 @@
+{
+  "at": "2026-10-18T11:00:13.380Z",
+  "checks": [
+    {
+      "path": "/health",
+      "method": "GET",
+      "status": 200,
+      "ms": 1160
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200,
+      "ms": 2230
+    },
+    {
+      "path": "/auth/me",
+      "method": "GET",
+      "status": 200,
+      "ms": 681
+    },
+    {
+      "path": "/classrooms",
+      "method": "GET",
+      "status": 200,
+      "ms": 592
+    },
+    {
+      "path": "/assignments/blueprint",
+      "method": "GET",
+      "status": 200,
+      "ms": 903
+    },
+    {
+      "path": "/admin/questions",
+      "method": "GET",
+      "status": 200,
+      "ms": 4377
+    },
+    {
+      "path": "/assignments/sample-template",
+      "method": "GET",
+      "status": 200,
+      "ms": 850
+    },
+    {
+      "path": "/auth/sessions",
+      "method": "GET",
+      "status": 200,
+      "ms": 1073
+    },
+    {
+      "path": "/classrooms",
+      "method": "POST",
+      "status": 201,
+      "ms": 1480
+    },
+    {
+      "path": "/assignments/documents",
+      "method": "POST",
+      "status": 201,
+      "ms": 1731
+    },
+    {
+      "path": "/assignments/documents/59de65c5-824c-477c-81da-69e9ded2759f",
+      "method": "GET",
+      "status": 200,
+      "ms": 593
+    },
+    {
+      "path": "/classrooms/f083138a-6ab8-4475-8835-912366be7be4/assignments",
+      "method": "POST",
+      "status": 201,
+      "ms": 3596
+    },
+    {
+      "path": "/classrooms/f083138a-6ab8-4475-8835-912366be7be4/assignments",
+      "method": "GET",
+      "status": 200,
+      "ms": 1116
+    },
+    {
+      "path": "/auth/register/student",
+      "method": "POST",
+      "status": 201,
+      "ms": 1131
+    },
+    {
+      "path": "/auth/login",
+      "method": "POST",
+      "status": 200,
+      "ms": 792
+    },
+    {
+      "path": "/classrooms/join",
+      "method": "POST",
+      "status": 200,
+      "ms": 1793
+    },
+    {
+      "path": "/student/profile",
+      "method": "GET",
+      "status": 200,
+      "ms": 1621
+    },
+    {
+      "path": "/student/mastery",
+      "method": "GET",
+      "status": 200,
+      "ms": 1219
+    },
+    {
+      "path": "/student/learning-path",
+      "method": "GET",
+      "status": 200,
+      "ms": 1408
+    },
+    {
+      "path": "/student/mistakes",
+      "method": "GET",
+      "status": 200,
+      "ms": 1182
+    },
+    {
+      "path": "/student/activity",
+      "method": "GET",
+      "status": 200,
+      "ms": 638
+    },
+    {
+      "path": "/student/review/summary",
+      "method": "GET",
+      "status": 200,
+      "ms": 1204
+    },
+    {
+      "path": "/student/review/queue",
+      "method": "GET",
+      "status": 200,
+      "ms": 2624
+    },
+    {
+      "path": "/diagnostic/latest",
+      "method": "GET",
+      "status": 200,
+      "ms": 625
+    },
+    {
+      "path": "/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/take",
+      "method": "GET",
+      "status": 200,
+      "ms": 2341
+    },
+    {
+      "path": "/assignments/documents/59de65c5-824c-477c-81da-69e9ded2759f",
+      "method": "GET",
+      "status": 200,
+      "ms": 661
+    },
+    {
+      "path": "/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/draft",
+      "method": "POST",
+      "status": 201,
+      "ms": 3256
+    },
+    {
+      "path": "/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/take",
+      "method": "GET",
+      "status": 200,
+      "ms": 1718
+    },
+    {
+      "path": "/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/submit",
+      "method": "POST",
+      "status": 200,
+      "ms": 2506
+    },
+    {
+      "path": "/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/result",
+      "method": "GET",
+      "status": 200,
+      "ms": 1112
+    },
+    {
+      "path": "/classrooms/f083138a-6ab8-4475-8835-912366be7be4/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/submissions",
+      "method": "GET",
+      "status": 200,
+      "ms": 1735
+    },
+    {
+      "path": "/classrooms/f083138a-6ab8-4475-8835-912366be7be4/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/settings",
+      "method": "POST",
+      "status": 201,
+      "ms": 2707
+    },
+    {
+      "path": "/assignments/31beb123-8a89-4938-bd24-680069ce2d6b/result",
+      "method": "GET",
+      "status": 200,
+      "ms": 1191
+    },
+    {
+      "browser": "teacher",
+      "route": "teacher-overview",
+      "status": "PASS"
+    },
+    {
+      "browser": "teacher",
+      "route": "teacher-classes",
+      "status": "PASS"
+    },
+    {
+      "browser": "teacher",
+      "route": "teacher-library",
+      "status": "PASS"
+    },
+    {
+      "browser": "teacher",
+      "route": "teacher-bank",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "route": "dashboard",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "route": "profile",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "route": "learning-path",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "route": "missions",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "route": "mistakes",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "route": "review",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "route": "classroom",
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "width": 1440,
+      "launcher": {
+        "right": 24,
+        "bottom": 24
+      },
+      "status": "PASS"
+    },
+    {
+      "browser": "student",
+      "width": 390,
+      "launcher": {
+        "right": 12,
+        "bottom": 13.79400634765625
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "/auth/logout",
+      "method": "POST",
+      "status": 200,
+      "ms": 1264
+    },
+    {
+      "path": "/auth/logout",
+      "method": "POST",
+      "status": 200,
+      "ms": 819
+    }
+  ],
+  "errors": [],
+  "assignmentId": "31beb123-8a89-4938-bd24-680069ce2d6b",
+  "classId": "f083138a-6ab8-4475-8835-912366be7be4",
+  "status": "PASS"
+}

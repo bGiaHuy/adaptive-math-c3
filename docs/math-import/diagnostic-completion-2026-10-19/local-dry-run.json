@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-18T18:29:56.096Z",
+  "destination": "LOCAL",
+  "batchSha256": "c488f287bc5ef9d77c230f8b23a8c489ba90374e68c12bac826c4147ac0db163",
+  "reviewed": 20,
+  "additions": [
+    {
+      "externalId": "QF-1",
+      "skillCode": "MATH9-QUADRATIC-FUNCTIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "QF-2",
+      "skillCode": "MATH9-QUADRATIC-FUNCTIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "SOL-1",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "SOL-2",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "MOD-1",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "MOD-2",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "RAD-1",
+      "skillCode": "SKILL-02",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "RAD-2",
+      "skillCode": "SKILL-02",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "CIR-1",
+      "skillCode": "SKILL-08",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "CIR-2",
+      "skillCode": "SKILL-08",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "STA-1",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "STA-2",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "INE-1",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "INE-2",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "PRO-1",
+      "skillCode": "MATH9-PROBABILITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "PRO-2",
+      "skillCode": "MATH9-PROBABILITY",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "OPT-1",
+      "skillCode": "SKILL-02",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "OPT-2",
+      "skillCode": "SKILL-02",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "GEO-1",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "GEO-2",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SHORT_ANSWER"
+    }
+  ],
+  "skipped": [],
+  "newSkills": [],
+  "mode": "DRY_RUN"
+}

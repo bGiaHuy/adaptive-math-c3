@@ -1,0 +1,38 @@
+[
+  {
+    "sourceId": "SRC-NEW-001",
+    "name": "17_GK1_Newton_Pascal_Ha_Noi_2026",
+    "filename": "17_GK1_Newton_Pascal_Ha_Noi_2026.pdf",
+    "relativePath": "05_Bo_sung_theo_ma_tran/PDF/17_GK1_Newton_Pascal_Ha_Noi_2026.pdf",
+    "sha256": "bbc02d89f5b663aa58cb0fa9b73dc4b8e359e67f3a36673c66d0b4ae5da56129",
+    "bytes": 1320194,
+    "pages": 10,
+    "sourcePageUrl": "https://thcs.toanmath.com/2026/10/de-giua-ki-1-toan-9-nam-2026-2027-he-thong-giao-duc-newton-pascal-ha-noi.html",
+    "pdfDownloadUrl": "https://thcs.toanmath.com/thcs-pdf/17-gk1-newton-pascal-ha-noi-2026.pdf",
+    "status": "DOWNLOADED_AND_VERIFIED"
+  },
+  {
+    "sourceId": "SRC-NEW-002",
+    "name": "18_KS_Tu_Liem_1_Ha_Noi_2026",
+    "filename": "18_KS_Tu_Liem_1_Ha_Noi_2026.pdf",
+    "relativePath": "05_Bo_sung_theo_ma_tran/PDF/18_KS_Tu_Liem_1_Ha_Noi_2026.pdf",
+    "sha256": "e246b82f380794853f73991628df194fd1c53f86d2dbb1f2d0a3dd07ba9bde91",
+    "bytes": 963463,
+    "pages": 11,
+    "sourcePageUrl": "https://thcs.toanmath.com/2026/10/de-khao-sat-toan-9-thang-10-nam-2026-truong-thcs-tu-liem-1-ha-noi.html",
+    "pdfDownloadUrl": "https://thcs.toanmath.com/thcs-pdf/18-ks-tu-liem-1-ha-noi-2026.pdf",
+    "status": "DOWNLOADED_AND_VERIFIED"
+  },
+  {
+    "sourceId": "SRC-NEW-003",
+    "name": "19_KS_Cum_18_Hai_Phong_2025_2026",
+    "filename": "19_KS_Cum_18_Hai_Phong_2025_2026.pdf",
+    "relativePath": "05_Bo_sung_theo_ma_tran/PDF/19_KS_Cum_18_Hai_Phong_2025_2026.pdf",
+    "sha256": "81c56d82863bdce9a2b2a124de8905b7dd1e06eb25b3ffc65994d646bcee8419",
+    "bytes": 601596,
+    "pages": 13,
+    "sourcePageUrl": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-18-hai-phong.html",
+    "pdfDownloadUrl": "https://thcs.toanmath.com/thcs-pdf/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-18-hai-phong.pdf",
+    "status": "DOWNLOADED_AND_VERIFIED"
+  }
+]

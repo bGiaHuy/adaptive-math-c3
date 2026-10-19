@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "desktop: responsive default, paging, size reset, unaccented search and paper/back retain filter and list view",
+    "tablet: responsive default, paging, size reset, unaccented search and paper/back retain filter and list view",
+    "mobile: responsive default, paging, size reset, unaccented search and paper/back retain filter and list view",
+    "All36 assignments reachable at5/page, page8 retained after report/back"
+  ],
+  "measurements": [
+    {
+      "size": "desktop",
+      "height": 2214
+    },
+    {
+      "size": "tablet",
+      "height": 2049
+    },
+    {
+      "size": "mobile",
+      "height": 2584
+    }
+  ],
+  "errors": []
+}

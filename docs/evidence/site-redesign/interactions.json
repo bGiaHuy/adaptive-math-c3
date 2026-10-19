@@ -1,0 +1,43 @@
+{
+  "checks": [
+    "Signup input labels, keyboard role selection and empty-field validation",
+    "Account menu Escape, password dialog focus and Escape",
+    "Mobile selected navigation stays visible",
+    "Only today expanded; accent-insensitive topic search, filter restoration and empty-state recovery",
+    "Dashboard promotes saved-session continuation (controlled response fixture)",
+    "Question bank opens, search empty state and reset",
+    "Teacher composer method switching and desktop/mobile bounds (no assignment published)",
+    "Admin secondary navigation synchronizes main navigation and browser Back",
+    "Author/reviewer menus omit inaccessible account and audit screens (role fixtures)"
+  ],
+  "accessibility": [
+    {
+      "label": "signup",
+      "violations": []
+    },
+    {
+      "label": "password-dialog",
+      "violations": []
+    },
+    {
+      "label": "learning-path",
+      "violations": []
+    },
+    {
+      "label": "student-dashboard",
+      "violations": []
+    },
+    {
+      "label": "teacher-bank",
+      "violations": []
+    },
+    {
+      "label": "teacher-overview",
+      "violations": []
+    },
+    {
+      "label": "admin-overview",
+      "violations": []
+    }
+  ]
+}

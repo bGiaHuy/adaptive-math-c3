@@ -1,0 +1,284 @@
+{
+  "version": "1.0.0",
+  "framework": "Chương trình Giáo dục phổ thông 2018 môn Toán - Lớp 9 (Thông tư 32/2018/TT-BGDĐT)",
+  "description": "Danh mục nhãn chuẩn hóa phục vụ phân loại câu hỏi Toán 9 và đối chiếu với ma trận kiểm tra đầu vào.",
+  "knowledgeStrands": [
+    {
+      "code": "ALGEBRA",
+      "name": "Đại số và một số yếu tố giải tích",
+      "shortName": "Đại số"
+    },
+    {
+      "code": "GEOMETRY",
+      "name": "Hình học và đo lường",
+      "shortName": "Hình học và đo lường"
+    },
+    {
+      "code": "STATISTICS_PROBABILITY",
+      "name": "Thống kê và xác suất",
+      "shortName": "Thống kê và xác suất"
+    }
+  ],
+  "chapters": [
+    {
+      "code": "CH-EQ-SYS",
+      "strand": "ALGEBRA",
+      "name": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH"
+    },
+    {
+      "code": "CH-INEQ",
+      "strand": "ALGEBRA",
+      "name": "BẤT ĐẲNG THỨC VÀ BẤT PHƯƠNG TRÌNH"
+    },
+    {
+      "code": "CH-ROOTS",
+      "strand": "ALGEBRA",
+      "name": "CĂN BẬC HAI VÀ CĂN BẬC BA"
+    },
+    {
+      "code": "CH-QUADRATIC",
+      "strand": "ALGEBRA",
+      "name": "HÀM SỐ BẬC HAI VÀ PHƯƠNG TRÌNH BẬC HAI"
+    },
+    {
+      "code": "CH-TRIGONOMETRY",
+      "strand": "GEOMETRY",
+      "name": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG"
+    },
+    {
+      "code": "CH-CIRCLES",
+      "strand": "GEOMETRY",
+      "name": "ĐƯỜNG TRÒN"
+    },
+    {
+      "code": "CH-CYCLIC",
+      "strand": "GEOMETRY",
+      "name": "ĐƯỜNG TRÒN NỘI TIẾP, NGOẠI TIẾP VÀ ĐA GIÁC ĐỀU"
+    },
+    {
+      "code": "CH-SOLIDS",
+      "strand": "GEOMETRY",
+      "name": "HÌNH KHỐI TRONG THỰC TIỄN"
+    },
+    {
+      "code": "CH-STATISTICS",
+      "strand": "STATISTICS_PROBABILITY",
+      "name": "MỘT SỐ YẾU TỐ THỐNG KÊ"
+    },
+    {
+      "code": "CH-PROBABILITY",
+      "strand": "STATISTICS_PROBABILITY",
+      "name": "MỘT SỐ YẾU TỐ XÁC SUẤT"
+    }
+  ],
+  "skills": [
+    {
+      "code": "SKILL-01",
+      "title": "Căn bậc hai và căn thức cơ bản",
+      "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+      "strand": "ALGEBRA",
+      "orderIndex": 1,
+      "source": "seed.ts"
+    },
+    {
+      "code": "SKILL-02",
+      "title": "Biến đổi và tính toán với căn thức",
+      "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+      "strand": "ALGEBRA",
+      "orderIndex": 2,
+      "source": "seed.ts"
+    },
+    {
+      "code": "SKILL-03",
+      "title": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+      "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+      "strand": "ALGEBRA",
+      "orderIndex": 3,
+      "source": "seed.ts"
+    },
+    {
+      "code": "SKILL-04",
+      "title": "Giải bài toán bằng cách lập hệ phương trình",
+      "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+      "strand": "ALGEBRA",
+      "orderIndex": 4,
+      "source": "seed.ts"
+    },
+    {
+      "code": "SKILL-05",
+      "title": "Phương trình bậc hai một ẩn",
+      "chapter": "HÀM SỐ BẬC HAI VÀ PHƯƠNG TRÌNH BẬC HAI",
+      "strand": "ALGEBRA",
+      "orderIndex": 5,
+      "source": "seed.ts"
+    },
+    {
+      "code": "SKILL-06",
+      "title": "Định lý Viète và ứng dụng",
+      "chapter": "HÀM SỐ BẬC HAI VÀ PHƯƠNG TRÌNH BẬC HAI",
+      "strand": "ALGEBRA",
+      "orderIndex": 6,
+      "source": "seed.ts"
+    },
+    {
+      "code": "SKILL-07",
+      "title": "Tỉ số lượng giác của góc nhọn",
+      "chapter": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+      "strand": "GEOMETRY",
+      "orderIndex": 7,
+      "source": "seed.ts"
+    },
+    {
+      "code": "SKILL-08",
+      "title": "Đường tròn và góc nội tiếp",
+      "chapter": "ĐƯỜNG TRÒN",
+      "strand": "GEOMETRY",
+      "orderIndex": 8,
+      "source": "seed.ts"
+    },
+    {
+      "code": "MATH9-LINEAR-EQUATIONS",
+      "title": "Phương trình quy về bậc nhất",
+      "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+      "strand": "ALGEBRA",
+      "orderIndex": 21,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-LINEAR-INEQUALITY",
+      "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn",
+      "chapter": "BẤT ĐẲNG THỨC VÀ BẤT PHƯƠNG TRÌNH",
+      "strand": "ALGEBRA",
+      "orderIndex": 22,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-CUBE-ROOTS",
+      "title": "Căn bậc ba và ứng dụng",
+      "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+      "strand": "ALGEBRA",
+      "orderIndex": 23,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-QUADRATIC-FUNCTIONS",
+      "title": "Hàm số y = ax² và đồ thị",
+      "chapter": "HÀM SỐ BẬC HAI VÀ PHƯƠNG TRÌNH BẬC HAI",
+      "strand": "ALGEBRA",
+      "orderIndex": 24,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-CYCLIC-POLYGONS",
+      "title": "Góc nội tiếp, tứ giác nội tiếp và đa giác đều",
+      "chapter": "ĐƯỜNG TRÒN NỘI TIẾP, NGOẠI TIẾP VÀ ĐA GIÁC ĐỀU",
+      "strand": "GEOMETRY",
+      "orderIndex": 25,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-STATISTICS",
+      "title": "Thống kê, tần số và tần số tương đối, bảng ghép nhóm",
+      "chapter": "MỘT SỐ YẾU TỐ THỐNG KÊ",
+      "strand": "STATISTICS_PROBABILITY",
+      "orderIndex": 26,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-SOLIDS",
+      "title": "Hình trụ, hình nón, hình cầu",
+      "chapter": "HÌNH KHỐI TRONG THỰC TIỄN",
+      "strand": "GEOMETRY",
+      "orderIndex": 27,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-PROBABILITY",
+      "title": "Xác suất của biến cố trong mô hình đơn giản",
+      "chapter": "MỘT SỐ YẾU TỐ XÁC SUẤT",
+      "strand": "STATISTICS_PROBABILITY",
+      "orderIndex": 28,
+      "source": "diagnostic-blueprint.ts"
+    },
+    {
+      "code": "MATH9-ALGEBRA-OPTIMIZATION",
+      "title": "Biến đổi đại số và bài toán cực trị",
+      "chapter": "HÀM SỐ BẬC HAI VÀ PHƯƠNG TRÌNH BẬC HAI",
+      "strand": "ALGEBRA",
+      "orderIndex": 29,
+      "source": "bank-classification-plan.json"
+    },
+    {
+      "code": "MATH9-REVIEW-REQUIRED",
+      "title": "Chờ phân loại nội dung — dữ liệu kiểm thử",
+      "chapter": "CẦN RÀ SOÁT NỘI DUNG",
+      "strand": "ALGEBRA",
+      "orderIndex": 999,
+      "source": "bank-classification-plan.json"
+    }
+  ],
+  "cognitiveLevels": [
+    {
+      "level": "REMEMBERING",
+      "vietnameseName": "Nhận biết",
+      "description": "Nhận biết, nhắc lại được các định nghĩa, định lý, công thức, khái niệm cơ bản hoặc thực hiện các thao tác tư duy 1 bước trực tiếp không cần biến đổi phức tạp."
+    },
+    {
+      "level": "UNDERSTANDING",
+      "vietnameseName": "Thông hiểu",
+      "description": "Giải thích, so sánh, đối chiếu, thực hiện biến đổi trung gian 2-3 bước dựa trên sự hiểu rõ bản chất toán học, nhận biết tính đúng sai của khẳng định toán học thông qua lập luận."
+    },
+    {
+      "level": "APPLYING",
+      "vietnameseName": "Vận dụng",
+      "description": "Vận dụng kiến thức, kỹ năng toán học vào giải quyết bài toán có tình huống thực tiễn hoặc kết hợp nhiều kỹ năng trong cùng mạch kiến thức; liên hệ mô hình toán học."
+    },
+    {
+      "level": "ADVANCED_APPLYING",
+      "vietnameseName": "Vận dụng cao",
+      "description": "Vận dụng kiến thức, kỹ năng toán học vào giải quyết các bài toán phức hợp, bài toán cực trị, hạ bậc đa thức, hình học phân hóa nhiều bước suy luận chứng minh độc lập."
+    }
+  ],
+  "difficultyLevels": [
+    {
+      "level": "EASY",
+      "vietnameseName": "Dễ",
+      "nature": "Biên soạn sư phạm tạm thời (PROVISIONAL) khi câu hỏi khớp các slot nhận biết cơ bản; chưa hiệu chuẩn thực nghiệm."
+    },
+    {
+      "level": "MEDIUM",
+      "vietnameseName": "Trung bình",
+      "nature": "Biên soạn sư phạm tạm thời (PROVISIONAL) khi câu hỏi khớp các slot thông hiểu; chưa hiệu chuẩn thực nghiệm."
+    },
+    {
+      "level": "HARD",
+      "vietnameseName": "Khó",
+      "nature": "Biên soạn sư phạm tạm thời (PROVISIONAL) khi câu hỏi khớp các slot vận dụng thực tiễn / đại số nhiều bước; chưa hiệu chuẩn thực nghiệm."
+    },
+    {
+      "level": "VERY_HARD",
+      "vietnameseName": "Rất khó",
+      "nature": "Biên soạn sư phạm tạm thời (PROVISIONAL) khi câu hỏi khớp các slot vận dụng cao phân hóa; chưa hiệu chuẩn thực nghiệm."
+    }
+  ],
+  "statusEnums": {
+    "classificationOrigin": [
+      "SOURCE_EXPLICIT",
+      "MODEL_PROPOSED"
+    ],
+    "difficultyStatus": [
+      "PROVISIONAL",
+      "NEEDS_DIFFICULTY_REVIEW",
+      "CALIBRATED"
+    ],
+    "calibrationStatus": [
+      "UNCALIBRATED",
+      "CALIBRATED"
+    ],
+    "labelReviewStatus": [
+      "NEEDS_REVIEW",
+      "APPROVED",
+      "REJECTED"
+    ]
+  }
+}

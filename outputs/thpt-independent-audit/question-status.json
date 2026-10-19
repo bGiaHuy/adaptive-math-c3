@@ -1,0 +1,1176 @@
+[
+  {
+    "externalId": "KNTT10-PILOT-SC01",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC02",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC03",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC04",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC05",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC06",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC07",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC08",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC09",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC10",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC11",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC12",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC13",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC14",
+    "grade": 10,
+    "originalStatus": "NEEDS_REVIEW",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC15",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC16",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC17",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SC18",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF01",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF02",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF03",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF04",
+    "grade": 10,
+    "originalStatus": "NEEDS_REVIEW",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF05",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-TF06",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA01",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA02",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA03",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA04",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA05",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE",
+      "ANSWER_FORMAT_CONFLICT"
+    ]
+  },
+  {
+    "externalId": "KNTT10-PILOT-SA06",
+    "grade": 10,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC01",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC02",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC03",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC04",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC05",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC06",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC07",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC08",
+    "grade": 11,
+    "originalStatus": "NEEDS_REVIEW",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC09",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC10",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC11",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC12",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC13",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC14",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC15",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC16",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC17",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SC18",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF01",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF02",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE",
+      "WRONG_TRUTH_KEY"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF03",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF04",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF05",
+    "grade": 11,
+    "originalStatus": "RIGHTS_UNCLEAR",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-TF06",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA01",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA02",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA03",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA04",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA05",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT11-PILOT-SA06",
+    "grade": 11,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC01",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE",
+      "INSUFFICIENT_EXTREMUM_ASSUMPTIONS"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC02",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC03",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC04",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC05",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC06",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC07",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC08",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC09",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC10",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC11",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC12",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC13",
+    "grade": 12,
+    "originalStatus": "NEEDS_REVIEW",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC14",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC15",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC16",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC17",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SC18",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE",
+      "MISSING_CONDITIONAL_PROBABILITY_ASSUMPTION"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF01",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF02",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF03",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF04",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF05",
+    "grade": 12,
+    "originalStatus": "NEEDS_REVIEW",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-TF06",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA01",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA02",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA03",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA04",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA05",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  },
+  {
+    "externalId": "KNTT12-PILOT-SA06",
+    "grade": 12,
+    "originalStatus": "VERIFIED",
+    "status": "QUARANTINED",
+    "importEligible": false,
+    "mathematicalReview": "NOT_CERTIFIED",
+    "reasons": [
+      "SOURCE_NOT_AUTHENTICATED",
+      "REUSE_EVIDENCE_NOT_SUPPLIED",
+      "NO_QUESTION_PAGE"
+    ]
+  }
+]

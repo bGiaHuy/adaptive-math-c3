@@ -1,0 +1,38 @@
+{
+  "total": 365,
+  "missingLabels": 0,
+  "changedLabels": 246,
+  "contentAndAnswerKeysPreserved": true,
+  "counts": {
+    "topics": {
+      "SKILL-07": 70,
+      "SKILL-01": 87,
+      "SKILL-03": 12,
+      "MATH9-LINEAR-EQUATIONS": 34,
+      "MATH9-REVIEW-REQUIRED": 57,
+      "SKILL-05": 34,
+      "SKILL-08": 23,
+      "MATH9-CUBE-ROOTS": 2,
+      "MATH9-LINEAR-INEQUALITY": 9,
+      "SKILL-02": 13,
+      "SKILL-04": 6,
+      "SKILL-06": 3,
+      "MATH9-CYCLIC-POLYGONS": 4,
+      "MATH9-ALGEBRA-OPTIMIZATION": 1,
+      "MATH9-STATISTICS": 2,
+      "MATH9-SOLIDS": 2,
+      "MATH9-QUADRATIC-FUNCTIONS": 5,
+      "MATH9-PROBABILITY": 1
+    },
+    "difficulty": {
+      "EASY": 207,
+      "MEDIUM": 134,
+      "HARD": 18,
+      "VERY_HARD": 6
+    },
+    "classification": {
+      "PROVISIONAL": 308,
+      "NEEDS_REVIEW": 57
+    }
+  }
+}

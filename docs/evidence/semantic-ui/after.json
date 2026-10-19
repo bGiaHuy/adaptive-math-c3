@@ -1,0 +1,56 @@
+{
+  "source": "Controlled student API fixture; no production data or writes",
+  "metrics": [
+    {
+      "route": "learning-path",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "learning-path",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "mistakes",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "mistakes",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "missions",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "missions",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "review",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "review",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "profile",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "profile",
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

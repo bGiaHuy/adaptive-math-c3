@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-19T11:07:39.889Z",
+  "totalValidPapers": 300,
+  "targetTotal": 300,
+  "completionPercentage": "100.0%",
+  "byGrade": {
+    "grade10": {
+      "total": 100,
+      "target": 100,
+      "byType": {
+        "GIUA_HK1": 25,
+        "CUOI_HK1": 25,
+        "GIUA_HK2": 25,
+        "CUOI_HK2": 25
+      }
+    },
+    "grade11": {
+      "total": 100,
+      "target": 100,
+      "byType": {
+        "GIUA_HK1": 25,
+        "CUOI_HK1": 25,
+        "GIUA_HK2": 25,
+        "CUOI_HK2": 25
+      }
+    },
+    "grade12": {
+      "total": 100,
+      "target": 100,
+      "byType": {
+        "GIUA_HK1": 25,
+        "CUOI_HK1": 25,
+        "GIUA_HK2": 25,
+        "CUOI_HK2": 25
+      }
+    }
+  },
+  "duplicatesDetected": 13
+}

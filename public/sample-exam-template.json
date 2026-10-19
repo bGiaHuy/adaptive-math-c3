@@ -1,0 +1,43 @@
+{
+  "title": "Đề kiểm tra 15 phút - Căn bậc hai và Hằng đẳng thức",
+  "description": "Kiểm tra kiến thức cơ bản về căn bậc hai, điều kiện xác định và rút gọn biểu thức chứa căn.",
+  "durationMinutes": 15,
+  "questions": [
+    {
+      "content": "Giá trị của biểu thức $\\sqrt{25} - \\sqrt{9}$ là:",
+      "options": [
+        { "key": "A", "content": "2" },
+        { "key": "B", "content": "4" },
+        { "key": "C", "content": "16" },
+        { "key": "D", "content": "-2" }
+      ],
+      "correctOption": "A",
+      "explanation": "Ta có $\\sqrt{25} = 5$ và $\\sqrt{9} = 3$. Do đó $5 - 3 = 2$.",
+      "cognitiveLevel": "REMEMBERING"
+    },
+    {
+      "content": "Điều kiện xác định của biểu thức $\\sqrt{2x - 6}$ là:",
+      "options": [
+        { "key": "A", "content": "$x \\ge 3$" },
+        { "key": "B", "content": "$x > 3$" },
+        { "key": "C", "content": "$x \\le 3$" },
+        { "key": "D", "content": "$x \\ge 6$" }
+      ],
+      "correctOption": "A",
+      "explanation": "Biểu thức $\\sqrt{2x - 6}$ có nghĩa khi và chỉ khi $2x - 6 \\ge 0 \\Leftrightarrow 2x \\ge 6 \\Leftrightarrow x \\ge 3$.",
+      "cognitiveLevel": "UNDERSTANDING"
+    },
+    {
+      "content": "Rút gọn biểu thức $P = \\sqrt{(2 - \\sqrt{5})^2} + \\sqrt{5}$ ta được kết quả là:",
+      "options": [
+        { "key": "A", "content": "$2$" },
+        { "key": "B", "content": "$2\\sqrt{5} - 2$" },
+        { "key": "C", "content": "$-2$" },
+        { "key": "D", "content": "$2\\sqrt{5} + 2$" }
+      ],
+      "correctOption": "B",
+      "explanation": "Vì $2 < \\sqrt{5}$ nên $2 - \\sqrt{5} < 0$. Do đó $\\sqrt{(2-\\sqrt{5})^2} = |2-\\sqrt{5}| = \\sqrt{5} - 2$. Vậy $P = \\sqrt{5} - 2 + \\sqrt{5} = 2\\sqrt{5} - 2$.",
+      "cognitiveLevel": "APPLYING"
+    }
+  ]
+}

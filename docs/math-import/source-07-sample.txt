@@ -1,0 +1,198 @@
+PAGE 1
+Hình học 9 - Chương 4: Hệ thức lượng trong tam giác vuông  – Tự luận phân dạng có lời giải                         Cánh Diều 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 4 
+HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG  
+ 
+BÀI 1 
+TỈ SỐ LƯỢNG GIÁC CỦA GÓC NHỌN 
+ 
+1. Tỉ số lượng giác của góc nhọn 
+ Cho góc nhọn  
+0 00 90    . Xét  ABC  vuông tại A  có ABC  . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chú ý: Với góc nhọn  , ta có: 
+  0 sin 1 ;  0 cos 1        
+  
+1cot tan   hay tan .cot 1    
+2. Tỉ số lượng giác của hai góc phụ nhau 
+ Hai góc phụ nhau là hai góc nhọn có tổng bằng 090 . 
+Định lí: Nếu hai góc phụ nhau thì sin góc này bằng côsin góc kia, tang góc này bằng côtang góc kia. 
+Nhận xét: Với 0 00 90  , ta có: 
+  
+0sin(90 ) cos      
+  
+0cos(90 ) sin    
+  
+0tan(90 ) cot      
+  
+0cot(90 ) tan    
+Các tỉ số lượng giác của góc nhọn   Công thức 
+Tỉ số giữa cạnh đối và cạnh huyền được gọi là sin của góc  , kí hiệu sinα  sin AC
+BC   
+Tỉ số giữa cạnh kề và cạnh huyền được gọi là côsin của góc  , kí hiệu cos  cos AB
+BC   
+Tỉ số giữa cạnh đối và cạnh kề được gọi là tang của góc  , kí hiệu tanα  tan AC
+BC   
+Tỉ số giữa cạnh kề và cạnh đối được gọi là côtang của góc  , kí hiệu cotα  cot BC
+AC   
+ 
+
+PAGE 108
+Hình học 9 - Chương 4: Hệ thức lượng trong tam giác vuông  – Trắc nghiệm và tự luận 4 phần có lời giải       Cánh Diều 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 4 
+HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG  
+TRẮC NGHIỆM VÀ TỰ LUẬN TỔNG HỢP GỒM BỐN PHẦN 
+ 
+PHẦN I. Câu trắc nghiệm nhiều ph ương án l ựa chọn. Mỗi câu hỏi thí sinh chỉ chọn một ph ương 
+án. 
+Câu 1. Với mọi góc nhọn  , ta có: 
+ A.  cot 90 cos   .  B.  tan 90 cos   . 
+ C.  cot 90 sin   .  D.  
+2 2tan 90 cot    . 
+Câu 2. Khẳng định nào sau đây là đúng? Cho hai góc phụ nhau thì 
+ A. sin góc này bằng cos góc kia. B. sin hai góc bằng nhau. 
+ C. tan góc này bằng cot góc kia. D. Cả A, C đều đúng. 
+Câu 3. Cho góc nhọn  . Chọn khẳng định sai. 
+ A. 1cot tan  .  B. 2 2tan .cot 1   . 
+ C. 0 sin 1  .  D. 0 cot 1  . 
+Câu 4. Cho   và   là hai góc nhọn bất kỳ thoả mãn 90    . Khẳng định nào sau đây là đúng? 
+ A. tan sin  . B. tan cot  . C. tan cos  . D. tan tan  . 
+Câu 5. Cho   là góc ngọn bất kỳ. Chọn các khẳng định sau: 
+ tan .cot 1   .   
+ 
+sintan cos
+  . 
+ 
+coscot sin
+  .   
+ 
+2 2sin cos 1   . 
+Có bao nhiêu khẳng định đúng? 
+ A. 1. B. 2. C. 3. D. 4. 
+Câu 6. Tính giá trị biểu thức cot16 .cot 23 .cot 67 .cot 74B      . 
+ A. 0B  . B. 1B  . C. 1
+2B  . D. 1
+2B   . 
+Câu 7. Tính giá trị biểu thức 2025 2025 2025 2025 2025 2025tan 13 .tan 24 .tan 35 .tan 55 .tan 66 .tan 77B        . 
+ A. 0B  . B. 1B  . C. 1B   . D. 2B  . 
+Câu 8. Tính giá trị biểu thức tan10 .tan 20 .tan 30 .tan 40 .tan 50 .tan 60 .tan 7 0 .tan 80B          . 
+ A. 1B   . B. 1B  . C. 2B  . D. 2B   . 
+Câu 9. Tính giá trị biểu thức 
+o o
+o o
+sin 21 sin 58
+2cos32 2cos 69M   . 
+
+PAGE 117
+Hình học 9 - Chương 4: Hệ thức lượng trong tam giác vuông  – Trắc nghiệm và tự luận 4 phần có lời giải       Cánh Diều 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 10 
+PHẦN II. Câu trắc nghiệm đúng sai. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng ho ặc 
+sai. 
+Câu 61. Cho tam giác  ABC  vuông tại A , biết  8BC cm ,  o53B  .  
+                                                            
+  
+a)  o37C  . 
+b)  4,81AC cm  (kết quả làm tròn đến chữ số thập phân thứ hai). 
+c)  6,39AB cm  (kết quả làm tròn đến chữ số thập phân thứ hai). 
+d)
+ 
+Diện tích tam giác ABC  bằng  
+215,38 cm  (kết quả làm tròn đến chữ số thập phân thứ hai). 
+Câu 62. Cho tam giác  ABC  vuông tại A , biết    1, 2 , 15AB dm AC cm  . Gọi M  là trung điểm BC . 
+                                                            
+  
+a)  19, 2BC cm  (kết quả làm tròn đến chữ số thập phân thứ nhất). 
+b)  o38,66B   (kết quả làm tròn đến chữ số thập phân thứ hai). 
+c)  051,34C   (kết quả làm tròn đến chữ số thập phân thứ hai). 
+d)
+ 
+ 9,6AM cm . 
+Câu 63. Cho tam giác ABC  vuông t ại A , có AH  là đư ờng cao ( điểm H  thuộc cạnh BC ). Bi ết 
+   3 , 5AB cm BC cm  . 
+ 
+a)  16AC cm . 
+
+PAGE 126
+Hình học 9 - Chương 4: Hệ thức lượng trong tam giác vuông  – Trắc nghiệm và tự luận 4 phần có lời giải       Cánh Diều 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 19 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Mỗi câu hỏi thí sinh chỉ trả lời đáp án. 
+Câu 81. Cho tam giác ABC  vuông tại A . Hãy tính tan C  biết rằng tan 4B  . 
+Trả lời: ……………….. 
+Câu 82. Cho tam giác ABC  vuông t ại A . Bi ết  530 , tan 12AB cm B  . Đ ộ d ài AC  b ằng bao nhi êu 
+cm ?  
+Trả lời: ……………….. 
+Câu 83. Cho tam giác ABC  vuông tại A , 5AB cm , 5cot . 8B   Độ dài AC  bằng bao nhiêu cm ?  
+Trả lời: ……………….. 
+Câu 84. Trong một tam giác vuông, đường cao ứng với cạnh huyền chia tam giác thành hai phần có diện 
+tích bằng 254 cm  và 296 cm . Độ dài cạnh huyền bằng bao nhiêu cm ? 
+Trả lời: ……………….. 
+Câu 85. Cho tam giác ABC  có 16, 14AB AB   và  60B   . Độ dài cạnh BC  bằng bao nhiêu cm ?. 
+Trả lời: ……………….. 
+Câu 86. Với hình vẽ đã cho. Tính di ện tích tam giác OMN   (làm tròn k ết quả đến chữ số h àng đơn v ị 
+của centimet vuông) 
+ 
+NM
+O
+P
+60° 38°
+9cm
+ 
+Trả lời: ……………….. 
+Câu 87. Cho hình thang ABCD  sao cho  010 , 14 , 120AB AD cm BC cm A     và BC  vuông góc v ới 
+đường chéo BD . Chu vi của hình thang ABCD  bằng bao nhiêu centimet? 
+Trả lời: ……………….. 
+Câu 88. Cho t ứ giác ABCD , có   0 090 , 30 , 4 , 3 .A D C AB cm AD cm      Diện tích tứ giác ABCD  
+bằng bao nhiêu centimet vuông ? (kết quả làm tròn đến chữ số thập phân thứ nhất của centimet vuông). 
+Trả lời: ……………….. 
+Câu 89. Cho t ứ giác ABCD  có   90 , 40 , 4 , 3A D C AB cm AD cm       . Tính di ện tích tứ giác 
+ABCD  (làm tròn đến chữ số thập phân thứ nhất của centimet vuông). 
+Trả lời: ……………….. 
+
+PAGE 240
+Hình học 9 - Chương 4: Hệ thức lượng trong tam giác vuông  – Trắc nghiệm và tự luận 4 phần có lời giải       Cánh Diều 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 50 
+21
+F
+O
+D
+HE
+A
+B
+C
+ 
+a) Xét hai tam giác vuông HOC  và  tam giác FOE , ta có: 
+   o90CHO EFO   (giả thiết) 
+  HOC FOE  (đối đỉnh) 
+Do đó HOC FOE  ∽   (góc - góc) suy ra CH OC
+EF OE
+ 
+ 1  
+Ta lại có AD  là phân giác của góc BAC  nên AC OC
+AE OE    2  
+Từ   1  và  2  suy ra AC CH
+AE EF  
+b)  Ta có 1
+2EF AH  ( EF  là đường trung bình tam giác ABH ) 
+Từ câu a), ta có AC CH
+AE EF
+ 
+ hay 2 2
+AC CH
+AE EF , suy ra AC CH
+AB AH , do đó . .AC AH AB CH      3  
+Tam giác HAB  vuông tại H , ta có: .cosAH AB BAC  
+Tam giác HBC  vuông tại H , ta có: .cosCH BC ACB  
+Thay vào  3  ta được:   . .cos . .cosAC AB BAC AB BC ACB  hay   .cos .cosAC BAC BC ACB  
+ 

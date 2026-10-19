@@ -1,0 +1,46 @@
+{
+  "checks": [
+    "desktop: successful other-session revoke refreshes list and preserves current session",
+    "desktop: Phiên đăng nhập Tab/Shift+Tab trap and Escape",
+    "desktop: Đổi mật khẩu Tab/Shift+Tab trap and Escape",
+    "tablet: successful other-session revoke refreshes list and preserves current session",
+    "tablet: Phiên đăng nhập Tab/Shift+Tab trap and Escape",
+    "tablet: Đổi mật khẩu Tab/Shift+Tab trap and Escape",
+    "mobile: successful other-session revoke refreshes list and preserves current session",
+    "mobile: Phiên đăng nhập Tab/Shift+Tab trap and Escape",
+    "mobile: Đổi mật khẩu Tab/Shift+Tab trap and Escape"
+  ],
+  "accessibility": [
+    {
+      "size": "desktop",
+      "label": "Phiên đăng nhập",
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "label": "Đổi mật khẩu",
+      "violations": []
+    },
+    {
+      "size": "tablet",
+      "label": "Phiên đăng nhập",
+      "violations": []
+    },
+    {
+      "size": "tablet",
+      "label": "Đổi mật khẩu",
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "label": "Phiên đăng nhập",
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "label": "Đổi mật khẩu",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

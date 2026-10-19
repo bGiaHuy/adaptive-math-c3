@@ -1,0 +1,22 @@
+{
+  "status": "MANUAL_REVIEW_REQUIRED_NOT_IMPORTED",
+  "scope": "Các phạm vi dưới đây chưa được tự động chấp nhận thành câu hỏi hoàn chỉnh; số câu chưa đối chiếu không được suy từ số trang.",
+  "items": [
+    {"sourceId":1,"page":5,"questionNumber":"PHẦN I / 2","reason":"Phương án B cũng rút gọn thành phương trình tuyến tính hai ẩn; đáp án đỏ C chưa đảm bảo duy nhất.","action":"Giáo viên xác nhận/sửa nguồn trước xuất bản"},
+    {"sourceId":1,"pages":[10,12],"reason":"TF có đồ thị cần hình và đáp án từng ý; SA cần tìm lời giải liên kết."},
+    {"sourceId":2,"page":16,"questionNumber":"PHẦN I / 2","reason":"Nguồn tô đỏ phương án dùng liên từ và trong khi giải phương trình tích cần hoặc; không nhập mẫu này."},
+    {"sourceId":2,"pages":[23,30],"reason":"TF phân thức/tổng nghiệm; SA chưa liên kết đáp án."},
+    {"sourceId":3,"pages":[12,15],"reason":"Cần bảo toàn bố cục biểu thức/đồ thị và nối đáp án bài rơi tự do."},
+    {"sourceId":4,"page":5,"questionNumber":"PHẦN I / 2","reason":"Phương án A và D có thể cùng đúng theo cách diễn đạt; bỏ khỏi mẫu nhập."},
+    {"sourceId":4,"pages":[10,13],"reason":"TF phụ thuộc hình, SA chưa nối đáp án."},
+    {"sourceId":5,"page":7,"questionNumber":"PHẦN I / 4","reason":"Hình minh họa góc nội tiếp nhưng phương án đỏ C phủ nhận; mâu thuẫn hình/đáp án."},
+    {"sourceId":5,"pages":[16,21],"reason":"Cần hình gốc và lời giải/đáp án từng câu."},
+    {"sourceId":6,"page":203,"questionNumber":"PHẦN I / 1","reason":"Không có đánh dấu đáp án đỏ tại mẫu; chưa dùng suy luận riêng để thay đáp án nguồn."},
+    {"sourceId":6,"pages":[216,223],"reason":"Căn/phân số mất bố cục trong text; bài thực tế hình cần ảnh và đáp án."},
+    {"sourceId":7,"pages":[117,126],"reason":"Hình tam giác và quy tắc làm tròn nhiều mức chưa đối chiếu đầy đủ."},
+    {"sourceId":8,"page":2,"questionNumber":"9101 / SINGLE_CHOICE / 11","status":"IMPORTED_DRAFT_EDITORIAL_REVIEW","reason":"Giữ đáp án nguồn C; cách diễn đạt điều kiện tuổi và B/D cần rà soát trước xuất bản."},
+    {"sourceId":11,"pages":[1,2],"reason":"PDF scan: trang1 đủ3dạng, trang2 tự luận; cả2tr không có đáp án. Cần nguồn đáp án và OCR đối chiếu."},
+    {"sourceId":12,"pages":[1,2],"reason":"PDF scan: trang1 đủ3dạng, trang2 tự luận; cả2tr không có đáp án. Cần nguồn đáp án và OCR đối chiếu."},
+    {"sourceId":"SUPPLEMENT_HK2_HUNG_YEN","pages":"1–12","reason":"PDF mới tải, chưa đối chiếu câu hỏi/đáp án và chưa nhập."}
+  ]
+}

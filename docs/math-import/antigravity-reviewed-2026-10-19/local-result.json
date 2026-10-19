@@ -1,0 +1,457 @@
+{
+  "date": "2026-10-18T18:09:47.740Z",
+  "destination": "LOCAL",
+  "batchSha256": "968b4c514366b835f5298d50dea2c2715b5eae8c0e836e42ea2de4b69c38cb6f",
+  "reviewed": 26,
+  "additions": [
+    {
+      "externalId": "CAND-SLOT02-01",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT02-04",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT02-05",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT02-06",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-01",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-02",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-03",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT10-04",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-02",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-03",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-04",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT11-REPL01",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE"
+    },
+    {
+      "externalId": "CAND-SLOT17-01",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT17-02",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT17-03",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT17-REPL01",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT20-03",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT20-04",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT20-REPL01",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-01",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-02",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-03",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT22-05",
+      "skillCode": "SKILL-08",
+      "questionType": "SHORT_ANSWER"
+    },
+    {
+      "externalId": "CAND-SLOT13-01",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE"
+    },
+    {
+      "externalId": "CAND-SLOT13-05",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "TRUE_FALSE"
+    }
+  ],
+  "skipped": [
+    {
+      "externalId": "CAND-SLOT02-03",
+      "id": "12cbaf3b-c779-59bd-a330-5fab65ba7309",
+      "reason": "EXISTING_SOURCE_SEPARATE_REVIEW_REQUIRED"
+    }
+  ],
+  "newSkills": [
+    {
+      "code": "MATH9-TRIANGLE-CIRCLES",
+      "title": "Đường tròn ngoại tiếp và nội tiếp tam giác",
+      "chapter": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+      "grade": 9,
+      "orderIndex": 32
+    }
+  ],
+  "mode": "APPLY",
+  "result": {
+    "imported": 25,
+    "ids": [
+      "5ce1940b-5b50-5a24-a63e-f6e424367520",
+      "1f21466a-7cf1-50f2-afe7-edefd79b68cb",
+      "87bbfe2c-c1d6-5d66-a474-501bb11bbadc",
+      "e17d1ca2-7aaa-5f5a-a8c0-73d942ba3e1b",
+      "923d6db4-130d-5562-a224-fa6be3abd9e5",
+      "521199b1-9662-51e5-aed5-7c1913f14e98",
+      "6f3bd6e5-bede-5a30-a592-777ea54c90b8",
+      "ae2193b6-f324-5328-ab9f-bf8aefc14431",
+      "9f455f94-8f79-5861-ac66-f024958a80c5",
+      "a6b9988f-d612-5f99-a843-69a540d43f34",
+      "25fcb5ae-67c5-5516-a8bf-e4dce97f7b65",
+      "c7c3f136-d538-51b1-ae48-57c2c5968be9",
+      "6e80a9c8-157f-517e-a696-8672a564a83d",
+      "231eeae0-f3f2-5fe7-a133-a51db9c3b538",
+      "c5fb0c5f-8ef5-54eb-acc0-b1d9f8763043",
+      "56953721-67ab-59ef-a43e-f90ec9347cf6",
+      "bbcf690f-e1a4-5c45-a6d9-2652610a7af0",
+      "1e0a701a-81db-5948-ad3d-5ee156efe278",
+      "050edd54-1f11-5930-a610-35f6ca2ebb64",
+      "210bb718-a0ea-50a5-a865-df25141880ec",
+      "54463446-2b9a-5144-ade4-75cd25b38227",
+      "d8071b03-e548-5906-a68a-7c1e4d6b3496",
+      "7246704f-2d9c-58e2-ac52-961c80bb261d",
+      "f686c7f9-524f-58fc-a2d9-d93fc5e03b84",
+      "8a66e326-4628-5e23-a132-1e979a150a3b"
+    ]
+  },
+  "verified": [
+    {
+      "id": "5ce1940b-5b50-5a24-a63e-f6e424367520",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-LINEAR-EQUATIONS",
+        "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu"
+      }
+    },
+    {
+      "id": "1f21466a-7cf1-50f2-afe7-edefd79b68cb",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-LINEAR-EQUATIONS",
+        "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu"
+      }
+    },
+    {
+      "id": "87bbfe2c-c1d6-5d66-a474-501bb11bbadc",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-LINEAR-EQUATIONS",
+        "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu"
+      }
+    },
+    {
+      "id": "e17d1ca2-7aaa-5f5a-a8c0-73d942ba3e1b",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-LINEAR-EQUATIONS",
+        "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu"
+      }
+    },
+    {
+      "id": "923d6db4-130d-5562-a224-fa6be3abd9e5",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-CYCLIC-POLYGONS",
+        "title": "Góc nội tiếp, tứ giác nội tiếp và đa giác đều"
+      }
+    },
+    {
+      "id": "521199b1-9662-51e5-aed5-7c1913f14e98",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-CYCLIC-POLYGONS",
+        "title": "Góc nội tiếp, tứ giác nội tiếp và đa giác đều"
+      }
+    },
+    {
+      "id": "6f3bd6e5-bede-5a30-a592-777ea54c90b8",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-TRIANGLE-CIRCLES",
+        "title": "Đường tròn ngoại tiếp và nội tiếp tam giác"
+      }
+    },
+    {
+      "id": "ae2193b6-f324-5328-ab9f-bf8aefc14431",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-CYCLIC-POLYGONS",
+        "title": "Góc nội tiếp, tứ giác nội tiếp và đa giác đều"
+      }
+    },
+    {
+      "id": "9f455f94-8f79-5861-ac66-f024958a80c5",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "skill": {
+        "code": "MATH9-STATISTICS",
+        "title": "Thống kê và tần số tương đối"
+      }
+    },
+    {
+      "id": "a6b9988f-d612-5f99-a843-69a540d43f34",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-STATISTICS",
+        "title": "Thống kê và tần số tương đối"
+      }
+    },
+    {
+      "id": "25fcb5ae-67c5-5516-a8bf-e4dce97f7b65",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-STATISTICS",
+        "title": "Thống kê và tần số tương đối"
+      }
+    },
+    {
+      "id": "c7c3f136-d538-51b1-ae48-57c2c5968be9",
+      "status": "PUBLISHED",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-STATISTICS",
+        "title": "Thống kê và tần số tương đối"
+      }
+    },
+    {
+      "id": "6e80a9c8-157f-517e-a696-8672a564a83d",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "skill": {
+        "code": "SKILL-06",
+        "title": "Định lý Viète và ứng dụng"
+      }
+    },
+    {
+      "id": "231eeae0-f3f2-5fe7-a133-a51db9c3b538",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "SKILL-06",
+        "title": "Định lý Viète và ứng dụng"
+      }
+    },
+    {
+      "id": "c5fb0c5f-8ef5-54eb-acc0-b1d9f8763043",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "skill": {
+        "code": "SKILL-06",
+        "title": "Định lý Viète và ứng dụng"
+      }
+    },
+    {
+      "id": "56953721-67ab-59ef-a43e-f90ec9347cf6",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "SKILL-06",
+        "title": "Định lý Viète và ứng dụng"
+      }
+    },
+    {
+      "id": "bbcf690f-e1a4-5c45-a6d9-2652610a7af0",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-SOLIDS",
+        "title": "Hình trụ, hình nón và hình cầu"
+      }
+    },
+    {
+      "id": "1e0a701a-81db-5948-ad3d-5ee156efe278",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-SOLIDS",
+        "title": "Hình trụ, hình nón và hình cầu"
+      }
+    },
+    {
+      "id": "050edd54-1f11-5930-a610-35f6ca2ebb64",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-SOLIDS",
+        "title": "Hình trụ, hình nón và hình cầu"
+      }
+    },
+    {
+      "id": "210bb718-a0ea-50a5-a865-df25141880ec",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "skill": {
+        "code": "MATH9-TRIANGLE-CIRCLES",
+        "title": "Đường tròn ngoại tiếp và nội tiếp tam giác"
+      }
+    },
+    {
+      "id": "54463446-2b9a-5144-ade4-75cd25b38227",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-TRIANGLE-CIRCLES",
+        "title": "Đường tròn ngoại tiếp và nội tiếp tam giác"
+      }
+    },
+    {
+      "id": "d8071b03-e548-5906-a68a-7c1e4d6b3496",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-TRIANGLE-CIRCLES",
+        "title": "Đường tròn ngoại tiếp và nội tiếp tam giác"
+      }
+    },
+    {
+      "id": "7246704f-2d9c-58e2-ac52-961c80bb261d",
+      "status": "PUBLISHED",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "SKILL-08",
+        "title": "Đường tròn và góc nội tiếp"
+      }
+    },
+    {
+      "id": "f686c7f9-524f-58fc-a2d9-d93fc5e03b84",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "SKILL-04",
+        "title": "Giải bài toán bằng cách lập hệ phương trình"
+      }
+    },
+    {
+      "id": "8a66e326-4628-5e23-a132-1e979a150a3b",
+      "status": "PUBLISHED",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "skill": {
+        "code": "MATH9-LINEAR-EQUATIONS",
+        "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu"
+      }
+    }
+  ]
+}

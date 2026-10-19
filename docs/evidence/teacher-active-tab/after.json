@@ -1,0 +1,71 @@
+{
+  "checks": [
+    "desktop skills: selected tab visibility measured",
+    "desktop settings: selected tab visibility measured",
+    "tablet skills: selected tab visibility measured",
+    "tablet settings: selected tab visibility measured",
+    "mobile skills: selected tab visibility measured",
+    "mobile settings: selected tab visibility measured",
+    "small-phone skills: selected tab visibility measured",
+    "small-phone settings: selected tab visibility measured"
+  ],
+  "measurements": [
+    {
+      "size": "desktop",
+      "name": "skills",
+      "visible": true,
+      "scrollLeft": 0,
+      "scrollY": 0
+    },
+    {
+      "size": "desktop",
+      "name": "settings",
+      "visible": true,
+      "scrollLeft": 0,
+      "scrollY": 0
+    },
+    {
+      "size": "tablet",
+      "name": "skills",
+      "visible": true,
+      "scrollLeft": 0,
+      "scrollY": 0
+    },
+    {
+      "size": "tablet",
+      "name": "settings",
+      "visible": true,
+      "scrollLeft": 0,
+      "scrollY": 0
+    },
+    {
+      "size": "mobile",
+      "name": "skills",
+      "visible": true,
+      "scrollLeft": 105,
+      "scrollY": 0
+    },
+    {
+      "size": "mobile",
+      "name": "settings",
+      "visible": true,
+      "scrollLeft": 37,
+      "scrollY": 0
+    },
+    {
+      "size": "small-phone",
+      "name": "skills",
+      "visible": true,
+      "scrollLeft": 133,
+      "scrollY": 0
+    },
+    {
+      "size": "small-phone",
+      "name": "settings",
+      "visible": true,
+      "scrollLeft": 67,
+      "scrollY": 0
+    }
+  ],
+  "errors": []
+}

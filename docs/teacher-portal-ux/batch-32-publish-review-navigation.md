@@ -1,0 +1,4 @@
+# Batch32 — Điều hướng rà soát trước công bố
+Bổ sung bằng chứng cho workflow còn thiếu: kiểm tra→đề/analytics→kiểm tra lại. Không phát hiện cần sửa runtime trong scope này.
+verify-teacher-publish-review-navigation.mjs tại1440×900,820×1000,390×844: links mở đúng tabs và đóng overlay; mở lại require acknowledgment, không reuse checked state cũ; Escape returns focused opening button; no overflow/pageerror/POST/PATCH. Test ban đầu gọi click mà không focus trigger nên assertion return-focus vô nghĩa; sửa cách mở thành focus+click giống keyboard/click thực rồi rerun đạt, không sửa product để chiều test sai.
+Evidence teacher-publish-review-navigation/verification.json, mutations=[]; API intercepted fixture. Không chứng minh publish backend, đã có separate report-ux test publication failure/retry. Goal active; remaining documentation/baseline caveats vẫn phải đối chiếu, không gọi goal complete từ checks xanh.

@@ -1,0 +1,4 @@
+# Batch27 — Phản hồi chỉnh nhãn ngân hàng
+P1: lỗi save ở đầu trang, thiếu success/per-question status, giáo viên khó biết lựa chọn đã lưu chưa. Thêm feedback theo questionId: saving/saved/error; lỗi có retry giữ intended labels, persisted state cũ giữ nguyên khi fail. Giải thích controls read-only cho câu tác giả khác. Không đổi điều kiện quyền hoặc API.
+QuestionBankView.jsx; verify-teacher-bank-labels.mjs. Chrome fixture1440×900/820×1000/390×844 không overflow/pageerror; failed difficulty HARD giữ EASY, retry gửi lại đúng payload HARD rồi xác nhận; cả2 controls foreign-author disabled. Build đạt. Không ghi dữ liệu thật. Evidence teacher-bank-labels/verification.json và labels-*.png. Không có baseline cùng trạng thái lỗi, không tuyên bố before/after screenshot.
+Goal active; tiếp tục kiểm chứng accessibility và toàn bộ trạng thái thay đổi nhãn, không suy quyền backend từ disabled UI.

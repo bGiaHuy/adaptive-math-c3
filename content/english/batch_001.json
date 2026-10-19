@@ -1,0 +1,583 @@
+{
+  "batchId": "batch_001",
+  "topics": [
+    {
+      "id": "top-001",
+      "title": "Giới thiệu bản thân",
+      "description": "Introducing yourself"
+    },
+    {
+      "id": "top-004",
+      "title": "Sinh hoạt hằng ngày",
+      "description": "Daily routines"
+    },
+    {
+      "id": "top-013",
+      "title": "Văn học thiếu nhi (chủ đề bổ sung)",
+      "description": "Chủ đề bổ sung ngoài danh sách 12 chủ đề của đợt 2, dùng cho bài đọc văn học công cộng."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "les-001",
+      "topicId": "top-001",
+      "title": "Chào mừng! (Let's Learn English - Bài 1)",
+      "summary": "Hội thoại ngắn: Pete và Anna làm quen, đánh vần tên và Anna được chào mừng đến căn hộ mới ở số 1400 phố Irving. Luyện chào hỏi, giới thiệu tên và bảng chữ cái.",
+      "level": "A1",
+      "kind": "LISTENING",
+      "body": null,
+      "audioUrl": "/media/batch_001/voa_lle_lesson01_welcome.mp3",
+      "transcript": [
+        {
+          "id": "seg-001-01",
+          "startMs": 690,
+          "endMs": 7230,
+          "textEn": "Pete: Hi! Are you Anna? Anna: Yes! Hi there! Are you Pete? Pete: I am Pete. Anna: Nice to meet you.",
+          "textVi": "Pete: Chào! Bạn là Anna phải không? Anna: Vâng! Chào bạn! Bạn là Pete à? Pete: Tôi là Pete. Anna: Rất vui được gặp bạn.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-001-02",
+          "startMs": 7230,
+          "endMs": 9710,
+          "textEn": "Anna: Let's try that again.",
+          "textVi": "Anna: Thử lại lần nữa nhé.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-001-03",
+          "startMs": 10590,
+          "endMs": 13650,
+          "textEn": "Anna: I'm Anna. Nice to meet you. Pete: I'm Pete.",
+          "textVi": "Anna: Tôi là Anna. Rất vui được gặp bạn. Pete: Tôi là Pete.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-001-04",
+          "startMs": 14250,
+          "endMs": 19250,
+          "textEn": "Pete: \"Anna\". Is that A-N-A? Anna: No. A-N-N-A.",
+          "textVi": "Pete: \"Anna\". Đánh vần là A-N-A phải không? Anna: Không. Là A-N-N-A.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-001-05",
+          "startMs": 20050,
+          "endMs": 21650,
+          "textEn": "Pete: Well, Anna with two \"n's\" ...",
+          "textVi": "Pete: À, Anna với hai chữ \"n\" ...",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-001-06",
+          "startMs": 22450,
+          "endMs": 28110,
+          "textEn": "Pete: Welcome to ... 1400 Irving Street! Anna: My new apartment! Yes!",
+          "textVi": "Pete: Chào mừng đến ... số 1400 phố Irving! Anna: Căn hộ mới của tôi! Tuyệt!",
+          "alignmentVerified": false
+        }
+      ],
+      "sourceAttribution": "Source: VOA Learning English (learningenglish.voanews.com), Voice of America - public domain.",
+      "published": true,
+      "exercises": [
+        {
+          "id": "q-001-01",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Nghe đoạn hội thoại và chọn đáp án đúng.\nWhat is the man's name?",
+          "options": [
+            "Pete",
+            "Marsha",
+            "Paul",
+            "Tom"
+          ],
+          "correctAnswer": "Pete",
+          "acceptedAnswers": [],
+          "explanation": "Người đàn ông tự giới thiệu: \"I am Pete.\"",
+          "segmentId": "seg-001-01"
+        },
+        {
+          "id": "q-001-02",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn cách đánh vần đúng của tên Anna.\nHow does Anna spell her name?",
+          "options": [
+            "A-N-A",
+            "A-N-N-A",
+            "A-N-N-E",
+            "A-N-H-A"
+          ],
+          "correctAnswer": "A-N-N-A",
+          "acceptedAnswers": [],
+          "explanation": "Pete hỏi \"Is that A-N-A?\" và Anna trả lời \"No. A-N-N-A.\"",
+          "segmentId": "seg-001-04"
+        },
+        {
+          "id": "q-001-03",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn địa chỉ mà Pete chào mừng Anna.\nWhere does Pete welcome Anna?",
+          "options": [
+            "1400 Irving Street",
+            "1500 Irving Street",
+            "1400 Anna Street",
+            "555-8986"
+          ],
+          "correctAnswer": "1400 Irving Street",
+          "acceptedAnswers": [],
+          "explanation": "Pete nói: \"Welcome to ... 1400 Irving Street!\"",
+          "segmentId": "seg-001-06"
+        },
+        {
+          "id": "q-001-04",
+          "kind": "DICTATION",
+          "prompt": "Nghe và chép lại chính xác câu bạn nghe được.\nListen to the audio and write the sentence you hear (segment 0:10-0:14).",
+          "options": [],
+          "correctAnswer": "I'm Anna. Nice to meet you.",
+          "acceptedAnswers": [
+            "I'm Anna. Nice to meet you.",
+            "I'm Anna. Nice to meet you",
+            "I am Anna. Nice to meet you."
+          ],
+          "explanation": "Câu trong đoạn là: \"I'm Anna. Nice to meet you.\" Chấp nhận cả dạng viết đầy đủ \"I am Anna\".",
+          "segmentId": "seg-001-03"
+        }
+      ]
+    },
+    {
+      "id": "les-002",
+      "topicId": "top-004",
+      "title": "Tôi đây! (Let's Learn English - Bài 3)",
+      "summary": "Anna gọi điện cho bạn cùng phòng Marsha để hỏi đường đến siêu thị, nhưng lần đầu gọi nhầm số. Luyện nghe số điện thoại, địa chỉ và mẫu câu 'I am / you are'.",
+      "level": "A1",
+      "kind": "LISTENING",
+      "body": null,
+      "audioUrl": "/media/batch_001/voa_lle_lesson03_im_here.mp3",
+      "transcript": [
+        {
+          "id": "seg-002-01",
+          "startMs": 300,
+          "endMs": 10800,
+          "textEn": "Anna: I am in my new apartment! Great!",
+          "textVi": "Anna: Tôi đang ở trong căn hộ mới! Tuyệt!",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-02",
+          "startMs": 12260,
+          "endMs": 16720,
+          "textEn": "Anna: I live with Marsha. We're roommates.",
+          "textVi": "Anna: Tôi sống cùng Marsha. Chúng tôi là bạn cùng phòng.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-03",
+          "startMs": 16720,
+          "endMs": 22640,
+          "textEn": "Anna: I want to cook dinner. Oh! Hmmm. Is there a supermarket near here?",
+          "textVi": "Anna: Tôi muốn nấu bữa tối. Ồ! Hừm. Gần đây có siêu thị không nhỉ?",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-04",
+          "startMs": 26350,
+          "endMs": 34240,
+          "textEn": "Anna: Marsha knows. Marsha's work number is 555-8986.",
+          "textVi": "Anna: Marsha biết. Số điện thoại nơi làm việc của Marsha là 555-8986.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-05",
+          "startMs": 43390,
+          "endMs": 46590,
+          "textEn": "Man: Hello. Anna: Hello. Is this Marsha? It is Anna.",
+          "textVi": "Man: A-lô. Anna: A-lô. Có phải Marsha không ạ? Tôi là Anna.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-06",
+          "startMs": 46590,
+          "endMs": 49190,
+          "textEn": "Man: I am sorry. You have the wrong number.",
+          "textVi": "Man: Tôi rất tiếc. Bạn gọi nhầm số rồi.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-07",
+          "startMs": 49870,
+          "endMs": 53290,
+          "textEn": "Anna: Oh. Is this 555-8986?",
+          "textVi": "Anna: Ồ. Đây có phải 555-8986 không ạ?",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-08",
+          "startMs": 54130,
+          "endMs": 58370,
+          "textEn": "Man: No. This is 555-8689.",
+          "textVi": "Man: Không. Đây là 555-8689.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-09",
+          "startMs": 59310,
+          "endMs": 62270,
+          "textEn": "Anna: Oh. Excuse me! Man: Okay. 'Bye.",
+          "textVi": "Anna: Ồ. Xin lỗi! Man: Không sao. Tạm biệt.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-10",
+          "startMs": 63310,
+          "endMs": 65170,
+          "textEn": "Anna: One more time.",
+          "textVi": "Anna: Thử lại lần nữa.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-11",
+          "startMs": 66270,
+          "endMs": 69030,
+          "textEn": "Anna: 555-8986.",
+          "textVi": "Anna: 555-8986.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-12",
+          "startMs": 70310,
+          "endMs": 77280,
+          "textEn": "Anna: Please be Marsha. Marsha: Hello. This is Marsha.",
+          "textVi": "Anna: Làm ơn là Marsha. Marsha: A-lô. Marsha đây.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-13",
+          "startMs": 77280,
+          "endMs": 83140,
+          "textEn": "Anna: Yes, Marsha. I want to cook dinner. Marsha: Excuse me? Anna? Is that you?",
+          "textVi": "Anna: Vâng, Marsha. Tôi muốn nấu bữa tối. Marsha: Xin lỗi? Anna? Là em đó à?",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-14",
+          "startMs": 83460,
+          "endMs": 86900,
+          "textEn": "Anna: Oh, yes. I am here! Marsha: Good. You are there.",
+          "textVi": "Anna: Ồ, vâng. Em đây! Marsha: Tốt. Em ở đó.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-15",
+          "startMs": 87400,
+          "endMs": 91280,
+          "textEn": "Anna: I want to find a supermarket. Marsha: Oh, okay.",
+          "textVi": "Anna: Em muốn tìm một siêu thị. Marsha: Ồ, được.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-16",
+          "startMs": 92080,
+          "endMs": 98180,
+          "textEn": "Marsha: The supermarket is at 1500 Irving Street. It is near the apartment.",
+          "textVi": "Marsha: Siêu thị ở số 1500 phố Irving. Nó gần căn hộ.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-17",
+          "startMs": 98620,
+          "endMs": 101400,
+          "textEn": "Anna: Great! Goodbye! Marsha: Goodbye, Anna.",
+          "textVi": "Anna: Tuyệt! Tạm biệt! Marsha: Tạm biệt, Anna.",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-18",
+          "startMs": 101400,
+          "endMs": 111740,
+          "textEn": "Anna: There is a big supermarket on our street. And Marsha says I am a good cook!",
+          "textVi": "Anna: Có một siêu thị lớn trên phố của chúng tôi. Và Marsha nói tôi nấu ăn giỏi!",
+          "alignmentVerified": false
+        },
+        {
+          "id": "seg-002-19",
+          "startMs": 112640,
+          "endMs": 114920,
+          "textEn": "Anna: Until next time! Bye!",
+          "textVi": "Anna: Hẹn lần sau! Tạm biệt!",
+          "alignmentVerified": false
+        }
+      ],
+      "sourceAttribution": "Source: VOA Learning English (learningenglish.voanews.com), Voice of America - public domain.",
+      "published": true,
+      "exercises": [
+        {
+          "id": "q-002-01",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Nghe và cho biết Anna gọi điện cho ai.\nWho is Anna calling?",
+          "options": [
+            "Her teacher",
+            "Marsha, her roommate",
+            "Pete",
+            "A shop assistant"
+          ],
+          "correctAnswer": "Marsha, her roommate",
+          "acceptedAnswers": [],
+          "explanation": "Anna nói \"I want to cook dinner\" và cần hỏi Marsha, bạn cùng phòng của cô.",
+          "segmentId": "seg-002-03"
+        },
+        {
+          "id": "q-002-02",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn số điện thoại nơi làm việc của Marsha.\nWhat is Marsha's work number?",
+          "options": [
+            "555-8689",
+            "555-8986",
+            "555-8896",
+            "1500"
+          ],
+          "correctAnswer": "555-8986",
+          "acceptedAnswers": [],
+          "explanation": "Câu trong bài: \"Marsha's work number is 555-8986.\"",
+          "segmentId": "seg-002-04"
+        },
+        {
+          "id": "q-002-03",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn số mà Anna đã gọi nhầm.\nWhat number does Anna dial by mistake?",
+          "options": [
+            "555-8689",
+            "555-8986",
+            "555-8968",
+            "555-9868"
+          ],
+          "correctAnswer": "555-8689",
+          "acceptedAnswers": [],
+          "explanation": "Người đàn ông trả lời: \"No. This is 555-8689.\" - tức là Anna đã gọi nhầm số 555-8689.",
+          "segmentId": "seg-002-08"
+        },
+        {
+          "id": "q-002-04",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn vị trí của siêu thị.\nWhere is the supermarket?",
+          "options": [
+            "It is on the corner of the street",
+            "It is at 1500 Irving Street",
+            "It is in the apartment",
+            "It is at 1400 Irving Street"
+          ],
+          "correctAnswer": "It is at 1500 Irving Street",
+          "acceptedAnswers": [],
+          "explanation": "Marsha nói: \"The supermarket is at 1500 Irving Street. It is near the apartment.\"",
+          "segmentId": "seg-002-16"
+        }
+      ]
+    },
+    {
+      "id": "les-003",
+      "topicId": "top-001",
+      "title": "Từ vựng: chào hỏi, tên riêng và nơi ở",
+      "summary": "10 từ/cụm từ cốt lõi (hello, nice to meet you, welcome, apartment, roommate, wrong number, supermarket, street, cook dinner, near) kèm ví dụ nguyên văn từ bài nghe.",
+      "level": "A1",
+      "kind": "VOCABULARY",
+      "body": "Word list (from the two VOA conversations in this batch)\n\n1. hello / hi - a greeting used when you meet someone\n   \"Hello. Is this Marsha?\"\n2. Nice to meet you. - said when you meet someone for the first time\n   \"I'm Anna. Nice to meet you.\"\n3. Welcome (to) - said to greet someone who has just arrived\n   \"Welcome to ... 1400 Irving Street!\"\n4. apartment - a set of rooms to live in, inside a building\n   \"My new apartment! Yes!\"\n5. roommate - a person you share an apartment or a room with\n   \"I live with Marsha. We're roommates.\"\n6. wrong number - a telephone number that is not the one you wanted to call\n   \"I am sorry. You have the wrong number.\"\n7. supermarket - a large shop that sells food and other goods\n   \"The supermarket is at 1500 Irving Street.\"\n8. street - a road in a town, with houses or shops on both sides\n   \"There is a big supermarket on our street.\"\n9. to cook dinner - to prepare the evening meal\n   \"I want to cook dinner.\"\n10. near - close to something\n   \"It is near the apartment.\"\n\nNote: \"let's\" = \"let us\" (Let's try that again.), and \"n's\" is the plural of the letter n\n(Anna with two \"n's\" = A-N-N-A).\n\nBản dịch / Ghi chú tiếng Việt\nDanh sách từ (lấy từ hai hội thoại VOA trong gói này)\n\n1. hello / hi - lời chào khi gặp ai đó\n   \"A-lô. Có phải Marsha không ạ?\"\n2. Nice to meet you. - nói khi gặp ai lần đầu\n   \"Tôi là Anna. Rất vui được gặp bạn.\"\n3. Welcome (to) - nói để chào đón người vừa đến\n   \"Chào mừng đến ... số 1400 phố Irving!\"\n4. apartment - căn hộ, tập hợp các phòng để ở trong một toà nhà\n   \"Căn hộ mới của tôi! Tuyệt!\"\n5. roommate - bạn cùng phòng, người ở chung căn hộ\n   \"Tôi sống cùng Marsha. Chúng tôi là bạn cùng phòng.\"\n6. wrong number - số điện thoại gọi nhầm\n   \"Tôi rất tiếc. Bạn gọi nhầm số rồi.\"\n7. supermarket - siêu thị, cửa hàng lớn bán thực phẩm và hàng hoá\n   \"Siêu thị ở số 1500 phố Irving.\"\n8. street - con phố, đường trong thị trấn có nhà hoặc cửa hàng hai bên\n   \"Có một siêu thị lớn trên phố của chúng tôi.\"\n9. to cook dinner - nấu bữa tối\n   \"Tôi muốn nấu bữa tối.\"\n10. near - gần\n   \"Nó gần căn hộ.\"\n\nGhi chú: \"let's\" = \"let us\" (Let's try that again. = Thử lại lần nữa nhé.), và \"n's\" là dạng số nhiều\ncủa chữ cái n (Anna with two \"n's\" = A-N-N-A).",
+      "audioUrl": null,
+      "transcript": [],
+      "sourceAttribution": "Source: VOA Learning English (learningenglish.voanews.com), Voice of America - public domain.",
+      "published": true,
+      "exercises": [
+        {
+          "id": "q-003-01",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn từ có nghĩa: người ở chung căn hộ với bạn.\nWhich word means 'the person you share an apartment with'?",
+          "options": [
+            "neighbour",
+            "roommate",
+            "landlord",
+            "cook"
+          ],
+          "correctAnswer": "roommate",
+          "acceptedAnswers": [],
+          "explanation": "\"Roommate\" = bạn cùng phòng. Trong bài: \"I live with Marsha. We're roommates.\"",
+          "segmentId": null
+        },
+        {
+          "id": "q-003-02",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn từ còn thiếu trong lời chào.\nComplete the greeting: 'Hi! Are you Anna? - Yes! Hi ___! Are you Pete?'",
+          "options": [
+            "there",
+            "here",
+            "near",
+            "welcome"
+          ],
+          "correctAnswer": "there",
+          "acceptedAnswers": [],
+          "explanation": "Câu chào nguyên văn trong bài là \"Yes! Hi there!\" - \"Hi there!\" là cách chào thân mật.",
+          "segmentId": null
+        },
+        {
+          "id": "q-003-03",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn câu dùng khi gặp ai đó lần đầu.\nWhich sentence do you use when you meet someone for the first time?",
+          "options": [
+            "One more time.",
+            "Nice to meet you.",
+            "You have the wrong number.",
+            "Until next time!"
+          ],
+          "correctAnswer": "Nice to meet you.",
+          "acceptedAnswers": [],
+          "explanation": "\"Nice to meet you.\" là câu chuẩn khi gặp ai lần đầu; các câu còn lại dùng khi gọi nhầm số hoặc khi chia tay.",
+          "segmentId": null
+        }
+      ]
+    },
+    {
+      "id": "les-004",
+      "topicId": "top-001",
+      "title": "Ngữ pháp: động từ 'to be' ở thì hiện tại đơn",
+      "summary": "Bảng chia 'to be' (am/is/are) kèm dạng rút gọn, câu phủ định, câu hỏi và trả lời ngắn; toàn bộ ví dụ lấy từ bài nghe VOA trong gói.",
+      "level": "A1",
+      "kind": "GRAMMAR",
+      "body": "Grammar: the verb \"to be\" in the present simple\n\nForms\n  I am (I'm)          you are (you're)        he / she / it is (he's / she's / it's)\n  we are (we're)      they are (they're)\n\nExamples from the audio of this batch\n  - I am Pete.                        (the speaker is Pete)\n  - I'm Anna. Nice to meet you.\n  - I am in my new apartment!\n  - We're roommates.\n  - Is this Marsha? It is Anna.\n  - You are there.\n  - It is near the apartment.\n\nNegative\n  I am not Anna.        You are not (aren't) Marsha.        It is not (isn't) 555-8986.\n\nQuestion\n  Are you Pete?         Is this Marsha?        Is there a supermarket near here?\n\nShort answers\n  Yes, I am. / No, I am not.        Yes, it is. / No, it is not.\n\nNote: after \"to be\" we use the subject form, not the object form: \"It is Anna.\" (not \"It is Anna her\").\nThe question \"Is there ...?\" is used to ask if something exists.\n\nBản dịch / Ghi chú tiếng Việt\nNgữ pháp: động từ \"to be\" ở thì hiện tại đơn\n\nCác dạng\n  I am (I'm)          you are (you're)        he / she / it is (he's / she's / it's)\n  we are (we're)      they are (they're)\n\nVí dụ lấy từ phần audio của gói này\n  - I am Pete.                        (người nói là Pete)\n  - I'm Anna. Nice to meet you.\n  - I am in my new apartment!\n  - We're roommates.\n  - Is this Marsha? It is Anna.\n  - You are there.\n  - It is near the apartment.\n\nThể phủ định\n  I am not Anna.        You are not (aren't) Marsha.        It is not (isn't) 555-8986.\n\nCâu hỏi\n  Are you Pete?         Is this Marsha?        Is there a supermarket near here?\n\nTrả lời ngắn\n  Yes, I am. / No, I am not.        Yes, it is. / No, it is not.\n\nGhi chú: sau \"to be\" dùng đại từ làm chủ ngữ, không dùng tân ngữ: \"It is Anna.\" (không nói \"It is Anna her\").\nCâu hỏi \"Is there ...?\" dùng để hỏi xem có tồn tại thứ gì đó hay không.",
+      "audioUrl": null,
+      "transcript": [],
+      "sourceAttribution": "Source: VOA Learning English (learningenglish.voanews.com), Voice of America - public domain.",
+      "published": true,
+      "exercises": [
+        {
+          "id": "q-004-01",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn dạng đúng của động từ 'to be'.\nChoose the correct form: 'I ___ in my new apartment.'",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correctAnswer": "am",
+          "acceptedAnswers": [],
+          "explanation": "Chủ ngữ 'I' luôn đi với 'am': \"I am in my new apartment!\"",
+          "segmentId": null
+        },
+        {
+          "id": "q-004-02",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn dạng đúng của động từ 'to be'.\nChoose the correct form: 'We ___ roommates.'",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correctAnswer": "are",
+          "acceptedAnswers": [],
+          "explanation": "Chủ ngữ 'we' đi với 'are': \"We're roommates.\"",
+          "segmentId": null
+        },
+        {
+          "id": "q-004-03",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn dạng đúng để tạo câu hỏi.\nChoose the correct question form: '___ this Marsha?'",
+          "options": [
+            "Am",
+            "Is",
+            "Are",
+            "Do"
+          ],
+          "correctAnswer": "Is",
+          "acceptedAnswers": [],
+          "explanation": "Chủ ngữ 'this' (số ít) đi với 'is': \"Is this Marsha?\"",
+          "segmentId": null
+        },
+        {
+          "id": "q-004-04",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Chọn câu phủ định đúng.\nMake it negative: 'It is 555-8986.'",
+          "options": [
+            "It not is 555-8986.",
+            "It is not 555-8986.",
+            "It does not 555-8986.",
+            "It not 555-8986."
+          ],
+          "correctAnswer": "It is not 555-8986.",
+          "acceptedAnswers": [],
+          "explanation": "Phủ định của 'to be' là thêm 'not' sau động từ: \"It is not (isn't) 555-8986.\"",
+          "segmentId": null
+        }
+      ]
+    },
+    {
+      "id": "les-005",
+      "topicId": "top-013",
+      "title": "Đọc hiểu: Hoàng tử Hạnh phúc (trích đoạn)",
+      "summary": "Trích 5 đoạn đầu truyện 'The Happy Prince' của Oscar Wilde: bức tượng dát vàng trên cột cao, chú Én nhỏ ở lại vì yêu cây Sậy, và giọt lệ đầu tiên rơi trên má tượng.",
+      "level": "B1",
+      "kind": "READING",
+      "body": "HIGH above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.\n\nHe was very much admired indeed. \"He is as beautiful as a weathercock,\" remarked one of the Town Councillors who wished to gain a reputation for having artistic tastes; \"only not quite so useful,\" he added, fearing lest people should think him unpractical, which he really was not. \"Why can't you be like the Happy Prince?\" asked a sensible mother of her little boy who was crying for the moon. \"The Happy Prince never dreams of crying for anything.\" \"I am glad there is some one in the world who is quite happy,\" muttered a disappointed man as he gazed at the wonderful statue. \"He looks just like an angel,\" said the Charity Children as they came out of the cathedral in their bright scarlet cloaks and their clean white pinafores. \"How do you know?\" said the Mathematical Master, \"you have never seen one.\" \"Ah! but we have, in our dreams,\" answered the children; and the Mathematical Master frowned and looked very severe, for he did not approve of children dreaming.\n\nOne night there flew over the city a little Swallow. His friends had gone away to Egypt six weeks before, but he had stayed behind, for he was in love with the most beautiful Reed. He had met her early in the spring as he was flying down the river after a big yellow moth, and had been so attracted by her slender waist that he had stopped to talk to her. \"Shall I love you?\" said the Swallow, who liked to come to the point at once, and the Reed made him a low bow. So he flew round and round her, touching the water with his wings, and making silver ripples. This was his courtship, and it lasted all through the summer. \"It is a ridiculous attachment,\" twittered the other Swallows; \"she has no money, and far too many relations\"; and indeed the river was quite full of Reeds. Then, when the autumn came they all flew away. After they had gone he felt lonely, and began to tire of his lady-love. \"She has no conversation,\" he said, \"and I am afraid that she is a coquette, for she is always flirting with the wind.\" And certainly, whenever the wind blew, the Reed made the most graceful curtseys. \"I admit that she is domestic,\" he continued, \"but I love travelling, and my wife, consequently, should love travelling also.\" \"Will you come away with me?\" he said finally to her; but the Reed shook her head, she was so attached to her home. \"You have been trifling with me,\" he cried. \"I am off to the Pyramids. Good-bye!\" and he flew away.\n\nAll day long he flew, and at night-time he arrived at the city. \"Where shall I put up?\" he said; \"I hope the town has made preparations.\" Then he saw the statue on the tall column. \"I will put up there,\" he cried; \"it is a fine position, with plenty of fresh air.\" So he alighted just between the feet of the Happy Prince. \"I have a golden bedroom,\" he said softly to himself as he looked round, and he prepared to go to sleep; but just as he was putting his head under his wing a large drop of water fell on him. \"What a curious thing!\" he cried; \"there is not a single cloud in the sky, the stars are quite clear and bright, and yet it is raining. The climate in the north of Europe is really dreadful. The Reed used to like the rain, but that was merely her selfishness.\" Then another drop fell. \"What is the use of a statue if it cannot keep the rain off?\" he said; \"I must look for a good chimney-pot,\" and he determined to fly away.\n\nBut before he had opened his wings, a third drop fell, and he looked up, and saw—Ah! what did he see? The eyes of the Happy Prince were filled with tears, and tears were running down his golden cheeks. His face was so beautiful in the moonlight that the little Swallow was filled with pity.\n\nBản dịch / Ghi chú tiếng Việt\nCao trên thành phố, trên một cây cột cao, là tượng của Hoàng tử Hạnh phúc. Toàn thân tượng được dát những lá vàng mỏng, mắt là hai viên lam ngọc sáng, và một viên hồng ngọc lớn đỏ rực trên chuôi gươm.\n\nTượng được mọi người hết lòng ngưỡng mộ. \"Ngài đẹp như một con gà thời tiết,\" một vị Uỷ viên Hội đồng Thành phố nhận xét, người muốn nổi tiếng là có gu nghệ thuật; \"chỉ có điều không hữu dụng cho lắm,\" ông nói thêm, sợ người ta nghĩ mình thực dụng, điều mà thật ra ông không phải vậy. \"Sao con không thể giống Hoàng tử Hạnh phúc?\" một người mẹ hiểu biết hỏi cậu con trai nhỏ đang khóc đòi mặt trăng. \"Hoàng tử Hạnh phúc chưa bao giờ mơ đòi thứ gì cả.\" \"Ta mừng vì trên đời có người thật sự hạnh phúc,\" một người thất vọng lẩm bẩm khi ngắm bức tượng tuyệt đẹp. \"Ngài trông giống hệt một thiên thần,\" lũ trẻ của Hội Từ thiện nói khi chúng bước ra khỏi nhà thờ trong những chiếc áo choàng đỏ tươi và tạp dề trắng sạch sẽ. \"Sao các em biết?\" Thầy Toán nói, \"các em có thấy thiên thần bao giờ đâu.\" \"Ôi! Nhưng chúng em đã thấy, trong giấc mơ,\" bọn trẻ trả lời; và Thầy Toán nhíu mày, trông rất nghiêm khắc, vì ông không tán thành việc trẻ con mơ mộng.\n\nMột đêm nọ, có một chú Én nhỏ bay qua thành phố. Bạn bè chú đã đi đến Ai Cập từ sáu tuần trước, nhưng chú ở lại, vì chú đem lòng yêu cây Sậy xinh đẹp nhất. Chú gặp nàng vào đầu xuân khi đang bay xuôi theo dòng sông đuổi theo một con bướm vàng lớn, và bị vẻ eo thon của nàng hút hồn đến mức phải dừng lại bắt chuyện. \"Ta yêu nàng nhé?\" chú Én nói, vốn thích đi thẳng vào vấn đề, và cây Sậy cúi chào thật thấp. Thế là chú bay vòng quanh nàng, chạm cánh vào mặt nước, làm gợn lên những vòng bạc. Đó là cách chú tán tỉnh, và nó kéo dài suốt cả mùa hè. \"Thật là một mối tình nực cười,\" những chú Én khác ríu rít; \"nàng chẳng có tiền, mà họ hàng thì quá nhiều\"; và quả thật dòng sông đầy ắp Sậy. Rồi khi mùa thu đến, tất cả đều bay đi. Sau khi họ đi, chú thấy cô đơn và bắt đầu chán nàng. \"Nàng chẳng biết trò chuyện gì cả,\" chú nói, \"và ta e nàng là kẻ lả lơi, vì nàng luôn đùa cợt với gió.\" Và đúng thế, mỗi khi gió thổi, cây Sậy lại cúi chào duyên dáng nhất. \"Ta thừa nhận nàng là người của gia đình,\" chú tiếp, \"nhưng ta thích đi đây đi đó, và vì thế vợ ta cũng phải thích đi đây đó.\" \"Nàng đi cùng ta nhé?\" cuối cùng chú nói với nàng; nhưng cây Sậy lắc đầu, nàng quá gắn bó với mái nhà của mình. \"Nàng đã đùa giỡn với ta,\" chú kêu lên. \"Ta đi đến Kim Tự Tháp đây. Vĩnh biệt!\" và chú bay đi.\n\nChú bay suốt cả ngày, và đến đêm thì tới thành phố. \"Ta sẽ trú ở đâu đây?\" chú nói; \"ta hy vọng thành phố đã chuẩn bị sẵn.\" Rồi chú thấy bức tượng trên cây cột cao. \"Ta sẽ trú ở đó,\" chú kêu lên; \"đó là một vị trí đẹp, với đầy không khí trong lành.\" Thế là chú đậu xuống ngay giữa hai bàn chân của Hoàng tử Hạnh phúc. \"Ta có một phòng ngủ bằng vàng,\" chú khẽ nói với chính mình khi nhìn quanh, và chú chuẩn bị ngủ; nhưng vừa lúc chú rúc đầu dưới cánh thì một giọt nước lớn rơi trúng chú. \"Thật là lạ!\" chú kêu lên; \"trên trời không có một gợn mây, các ngôi sao sáng rõ, vậy mà lại mưa. Khí hậu ở phía bắc châu Âu thật đáng sợ. Cây Sậy vốn thích mưa, nhưng đó chỉ là sự ích kỷ của nàng.\" Rồi một giọt nữa rơi xuống. \"Bức tượng mà không che được mưa thì có ích gì?\" chú nói; \"ta phải tìm một ống khói tốt,\" và chú quyết định bay đi.\n\nNhưng trước khi chú mở cánh, giọt thứ ba rơi xuống, chú ngước lên và thấy — Ôi! chú thấy gì vậy? Đôi mắt của Hoàng tử Hạnh phúc đầy nước mắt, và những giọt lệ lăn dài trên đôi má vàng. Gương mặt ngài đẹp đến nỗi dưới ánh trăng, chú Én nhỏ thấy lòng tràn đầy thương xót.",
+      "audioUrl": null,
+      "transcript": [],
+      "sourceAttribution": "Text: The Happy Prince and Other Tales, Oscar Wilde (1888), Project Gutenberg eBook #902.",
+      "published": true,
+      "exercises": [
+        {
+          "id": "q-005-01",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Đọc đoạn 1 và chọn vị trí của bức tượng.\nWhere was the statue of the Happy Prince?",
+          "options": [
+            "In the middle of the market",
+            "High above the city, on a tall column",
+            "On the roof of the cathedral",
+            "Beside the river"
+          ],
+          "correctAnswer": "High above the city, on a tall column",
+          "acceptedAnswers": [],
+          "explanation": "Câu đầu tiên: \"HIGH above the city, on a tall column, stood the statue of the Happy Prince.\"",
+          "segmentId": null
+        },
+        {
+          "id": "q-005-02",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Đọc đoạn 1 và chọn chất liệu của đôi mắt tượng.\nWhat were the Prince's eyes made of?",
+          "options": [
+            "Two bright sapphires",
+            "Two thin leaves of gold",
+            "A large red ruby",
+            "Two silver ripples"
+          ],
+          "correctAnswer": "Two bright sapphires",
+          "acceptedAnswers": [],
+          "explanation": "\"for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.\"",
+          "segmentId": null
+        },
+        {
+          "id": "q-005-03",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Đọc đoạn 3 và chọn lý do chú Én ở lại.\nWhy did the little Swallow stay behind when his friends flew to Egypt?",
+          "options": [
+            "He was ill and could not fly",
+            "He was in love with the most beautiful Reed",
+            "He wanted to see the statue",
+            "He had lost his way"
+          ],
+          "correctAnswer": "He was in love with the most beautiful Reed",
+          "acceptedAnswers": [],
+          "explanation": "\"he had stayed behind, for he was in love with the most beautiful Reed.\"",
+          "segmentId": null
+        },
+        {
+          "id": "q-005-04",
+          "kind": "SINGLE_CHOICE",
+          "prompt": "Đọc đoạn cuối và chọn điều chú Én nhìn thấy.\nWhat did the Swallow see when he looked up after the third drop fell?",
+          "options": [
+            "A cloud in the sky",
+            "A good chimney-pot",
+            "The eyes of the Happy Prince filled with tears",
+            "The Reed making curtseys"
+          ],
+          "correctAnswer": "The eyes of the Happy Prince filled with tears",
+          "acceptedAnswers": [],
+          "explanation": "\"he looked up, and saw ... The eyes of the Happy Prince were filled with tears.\"",
+          "segmentId": null
+        }
+      ]
+    }
+  ]
+}

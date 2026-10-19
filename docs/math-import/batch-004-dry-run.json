@@ -1,0 +1,522 @@
+{
+  "batchId": "hai-phong-101",
+  "mode": "DRY_RUN",
+  "count": 22,
+  "counts": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 4,
+    "SHORT_ANSWER": 6
+  },
+  "approvedNewSkills": [
+    {
+      "code": "MATH9-STATISTICS",
+      "title": "Thống kê và tần số tương đối",
+      "chapter": "THỐNG KÊ VÀ XÁC SUẤT",
+      "grade": 9
+    },
+    {
+      "code": "MATH9-LINEAR-INEQUALITY",
+      "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn",
+      "chapter": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH",
+      "grade": 9
+    },
+    {
+      "code": "MATH9-SOLIDS",
+      "title": "Hình trụ, hình nón và hình cầu",
+      "chapter": "HÌNH KHỐI",
+      "grade": 9
+    },
+    {
+      "code": "MATH9-PROBABILITY",
+      "title": "Xác suất của biến cố",
+      "chapter": "THỐNG KÊ VÀ XÁC SUẤT",
+      "grade": 9
+    }
+  ],
+  "questions": [
+    {
+      "id": "6a6deb10-61db-5092-a119-a5c9d5d16ed7",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-1",
+      "skillCode": "SKILL-07",
+      "contentHash": "baf4e96d3aba6eda5a842f27706bb14e91fa5bea1248ff61968a6bbef67d4b43",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / SINGLE_CHOICE / 1",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-1",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "baf4e96d3aba6eda5a842f27706bb14e91fa5bea1248ff61968a6bbef67d4b43",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "c1f0a76b-406d-5636-a176-67d2b561a470",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-2",
+      "skillCode": "SKILL-08",
+      "contentHash": "c3e6d8c79636b5d2ab080bb2a5c034a7181aadc19ff63b209daaa77fd2a46068",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / SINGLE_CHOICE / 2",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-2",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "c3e6d8c79636b5d2ab080bb2a5c034a7181aadc19ff63b209daaa77fd2a46068",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "185a3d78-e92c-5b58-abd4-51829e07b4a4",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-3",
+      "skillCode": "SKILL-03",
+      "contentHash": "7a2a22db7268c5d42be5b34d205b92ab051b342d7c38610f5efdac85fd71e91d",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / SINGLE_CHOICE / 3",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-3",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "7a2a22db7268c5d42be5b34d205b92ab051b342d7c38610f5efdac85fd71e91d",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "0c473d10-a034-5c44-afce-9517682c988b",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-4",
+      "skillCode": "SKILL-06",
+      "contentHash": "cc0789e3c1a42ee851a1104371404c0be63be819612abf94f759e31dfdfc0402",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / SINGLE_CHOICE / 4",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-4",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "cc0789e3c1a42ee851a1104371404c0be63be819612abf94f759e31dfdfc0402",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "4d7396de-66af-5f13-ab01-fb02748f094f",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-5",
+      "skillCode": "SKILL-08",
+      "contentHash": "00939eae4ba2311f44394c410128d7c6ceb894de6ac39c18140e7f4895ce8b7d",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / SINGLE_CHOICE / 5",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-5",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "00939eae4ba2311f44394c410128d7c6ceb894de6ac39c18140e7f4895ce8b7d",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "180e3043-16d0-5911-a281-dc93895c84f1",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-6",
+      "skillCode": "SKILL-08",
+      "contentHash": "b8086cf9ff009a20dad914fc463be16b6e1b76cd054161d56613f2764824b2c5",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / SINGLE_CHOICE / 6",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-6",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "b8086cf9ff009a20dad914fc463be16b6e1b76cd054161d56613f2764824b2c5",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "8569d320-fe94-55d3-a568-ba2caa8680b7",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-7",
+      "skillCode": "MATH9-STATISTICS",
+      "contentHash": "a1f3dd9ed691ade088f9d42904a244143c49c1b2d7a002e4e2ac71e7ccab536a",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / SINGLE_CHOICE / 7",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-7",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "a1f3dd9ed691ade088f9d42904a244143c49c1b2d7a002e4e2ac71e7ccab536a",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "3e61e360-8c25-54e1-a592-7e66ff298d2e",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-8",
+      "skillCode": "SKILL-02",
+      "contentHash": "80334ea383c90e425990a05ddf95cbb8d6923a8ea85cade701be70bcffcb9f5d",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "101 / SINGLE_CHOICE / 8",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-8",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "80334ea383c90e425990a05ddf95cbb8d6923a8ea85cade701be70bcffcb9f5d",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "b5a2462f-a552-5a37-addf-15cd49524b1b",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-9",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "contentHash": "206cb43d4b09e030351a0753d163b619a8d98f7fd5f2e7611c88505ce039f3de",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "101 / SINGLE_CHOICE / 9",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-9",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "206cb43d4b09e030351a0753d163b619a8d98f7fd5f2e7611c88505ce039f3de",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "4a601d1f-658d-511b-ae2f-714a5c03af4d",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-10",
+      "skillCode": "MATH9-SOLIDS",
+      "contentHash": "2f4cae0ab73ad670d8d64b0bce9146f8f415116398fff244d9bdd2e9910e2c50",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "101 / SINGLE_CHOICE / 10",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-10",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "2f4cae0ab73ad670d8d64b0bce9146f8f415116398fff244d9bdd2e9910e2c50",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "ea71ed2e-42ef-587a-a312-d346b3b934fc",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-11",
+      "skillCode": "SKILL-05",
+      "contentHash": "0aae61d93077742d662471b40cab59d13db48c66338646f13626ca4f3b15d6bf",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "101 / SINGLE_CHOICE / 11",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-11",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "0aae61d93077742d662471b40cab59d13db48c66338646f13626ca4f3b15d6bf",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "1521959b-75b3-51d5-ab7e-fb41933f6bb3",
+      "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-12",
+      "skillCode": "SKILL-01",
+      "contentHash": "8b6a78aaa26cd46ce4ca339370b4069bf14fcc79276549c79dc090ad1a72b540",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "101 / SINGLE_CHOICE / 12",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SINGLE_CHOICE-12",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "8b6a78aaa26cd46ce4ca339370b4069bf14fcc79276549c79dc090ad1a72b540",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "d77a8eb3-0dfe-5597-a3a1-54a07639b0a4",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-1",
+      "skillCode": "MATH9-SOLIDS",
+      "contentHash": "fdc844a924b42dd28a1cd5aa3ac2d9fa885d6aa8a5ae37caac01ab420fc91c77",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "101 / TRUE_FALSE / 1",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-1",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "fdc844a924b42dd28a1cd5aa3ac2d9fa885d6aa8a5ae37caac01ab420fc91c77",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "59fc7c7e-7f5d-51c8-a47a-5565192bf6fe",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-2",
+      "skillCode": "MATH9-STATISTICS",
+      "contentHash": "52ffece56c2818c9f580a1fd3f5d3f860077cf941796fa88f33e3e114160f6d4",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "101 / TRUE_FALSE / 2",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-2",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "52ffece56c2818c9f580a1fd3f5d3f860077cf941796fa88f33e3e114160f6d4",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "713915cd-ce35-5d29-a6e4-f94ad926f02b",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-3",
+      "skillCode": "SKILL-04",
+      "contentHash": "f2b92f0dba973c2a641cca7003480e39a3ab08c9af77614e252adb43d8eddb99",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "101 / TRUE_FALSE / 3",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-3",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "f2b92f0dba973c2a641cca7003480e39a3ab08c9af77614e252adb43d8eddb99",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "a433f0e8-4fd7-5d08-a071-47c47157057c",
+      "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-4",
+      "skillCode": "SKILL-06",
+      "contentHash": "f0adbac3c5278c74738b73c3caf6f272186596551e342fe5183741d3e5d50d35",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "101 / TRUE_FALSE / 4",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-TRUE_FALSE-4",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "f0adbac3c5278c74738b73c3caf6f272186596551e342fe5183741d3e5d50d35",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "8a218011-80e1-55a6-aa53-b8d2f0fa3cfd",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-1",
+      "skillCode": "SKILL-08",
+      "contentHash": "ccd21ffe94c61328c2dd63ff38d3607d0bc7a142ec9582eef4185e4461425e22",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "101 / SHORT_ANSWER / 1",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-1",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "ccd21ffe94c61328c2dd63ff38d3607d0bc7a142ec9582eef4185e4461425e22",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "088f1dfa-44f7-5b9c-a8a9-94a191311319",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-2",
+      "skillCode": "SKILL-06",
+      "contentHash": "fd18ec341c91d246082761f66973e2e2faefc2720433ccc4c1c7e6fdad3a160d",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "101 / SHORT_ANSWER / 2",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-2",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "fd18ec341c91d246082761f66973e2e2faefc2720433ccc4c1c7e6fdad3a160d",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "d143e2fc-6628-5ba0-a333-5692206db51f",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-3",
+      "skillCode": "SKILL-05",
+      "contentHash": "4ff4682e7e7888204c3f368b620d489a9d972a16ee1109d66a442baa5222a69b",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "101 / SHORT_ANSWER / 3",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-3",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "4ff4682e7e7888204c3f368b620d489a9d972a16ee1109d66a442baa5222a69b",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "adebd289-67fb-5bf6-a188-8a95265b22ab",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-4",
+      "skillCode": "SKILL-08",
+      "contentHash": "c0111cb893aecd88c19880e74ea62fee025e8013856b8a875b13cc54d438f852",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "101 / SHORT_ANSWER / 4",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-4",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "c0111cb893aecd88c19880e74ea62fee025e8013856b8a875b13cc54d438f852",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "ee62d882-bded-552f-a3ce-eef80466fbf2",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-5",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "contentHash": "48b447e4ffd8abcaf2dc041317e5522a6700a0b5c2b51879ff168e2955502285",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "101 / SHORT_ANSWER / 5",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-5",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "48b447e4ffd8abcaf2dc041317e5522a6700a0b5c2b51879ff168e2955502285",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    },
+    {
+      "id": "51561094-71e1-5d33-a8dc-83c06a8bad7d",
+      "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-6",
+      "skillCode": "MATH9-PROBABILITY",
+      "contentHash": "2058f408a122877e9e37886bb82f899aa217455bbff6be6aa91a37c849d5ea29",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/02_Khao_sat_Hai_Phong_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "101 / SHORT_ANSWER / 6",
+        "url": "https://thcs.toanmath.com/2026/05/de-khao-sat-toan-9-nam-2025-2026-cum-chuyen-mon-so-24-hai-phong.html",
+        "author": "Cụm chuyên môn số 24 Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "hai-phong-2025-2026-101-SHORT_ANSWER-6",
+        "answerEvidence": {
+          "page": 9,
+          "column": "101"
+        },
+        "contentHash": "2058f408a122877e9e37886bb82f899aa217455bbff6be6aa91a37c849d5ea29",
+        "reviewNotes": "Đối chiếu ảnh trang nguồn và bảng đáp án mã101 trang9; giữ nguyên nội dung toán, không bổ sung lời giải."
+      }
+    }
+  ]
+}

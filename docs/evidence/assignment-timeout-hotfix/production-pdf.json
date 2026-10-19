@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-18T11:06:41.108Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "upload": 201,
+      "size": 1100162
+    },
+    {
+      "download": 200,
+      "byteIdentical": true
+    },
+    {
+      "pdf22QuestionAssignment": 201,
+      "assignmentId": "10d3821d-75db-4c37-8546-2e9054d36531"
+    }
+  ]
+}

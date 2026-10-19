@@ -1,0 +1,3710 @@
+[
+  {
+    "name": "overview",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1772,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 167
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 293
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "library",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1842,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Thư viện đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-overview",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1282,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 94,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Bài tập gần đây"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-assignments",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1981,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "students",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1352,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Danh sách học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 4
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "gradebook",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1364,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Sổ điểm lớp"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 20
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "skills",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 936,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Kết quả theo kỹ năng"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "bank",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1954,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-results",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2061,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Tình hình điểm số",
+      "Câu hỏi cần xem lại",
+      "Bài làm của học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 6
+      }
+    ],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 172
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-paper",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 9382,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nội dung đề và đáp án"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 172
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-settings",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Thiết lập bài giao"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 172
+      },
+      {
+        "text": "Lưu thiết lập",
+        "top": 693
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-analysis",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2956,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nên ôn lại kiến thức nào?",
+      "Tìm nguyên nhân theo từng câu"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 172
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "create-class",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1772,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách",
+      "Tạo lớp học"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo lớp và mã mời",
+        "top": 574
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-picker",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1478,
+    "viewport": 900,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-bank",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1320,
+    "viewport": 900,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-manual",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1615,
+    "viewport": 900,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-document",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1160,
+    "viewport": 900,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-json",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1160,
+    "viewport": 900,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-ai",
+    "size": "desktop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1478,
+    "viewport": 900,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 799
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "empty",
+    "size": "desktop",
+    "state": "empty",
+    "overflow": false,
+    "height": 991,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "error",
+    "size": "desktop",
+    "state": "error",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "loading",
+    "size": "desktop",
+    "state": "loading",
+    "overflow": false,
+    "height": 900,
+    "viewport": 900,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 167
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "overview",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1826,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 947,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 221
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 347
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "library",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1896,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Thư viện đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-overview",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1336,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 94,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Bài tập gần đây"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-assignments",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2035,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "students",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1406,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Danh sách học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 4
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "gradebook",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1418,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Sổ điểm lớp"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 20
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "skills",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 990,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Kết quả theo kỹ năng"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "bank",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2008,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-results",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 2115,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Tình hình điểm số",
+      "Câu hỏi cần xem lại",
+      "Bài làm của học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 6
+      }
+    ],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-paper",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 9436,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nội dung đề và đáp án"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-settings",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 946,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Thiết lập bài giao"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      },
+      {
+        "text": "Lưu thiết lập",
+        "top": 747
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-analysis",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 3029,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nên ôn lại kiến thức nào?",
+      "Tìm nguyên nhân theo từng câu"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "create-class",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1826,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách",
+      "Tạo lớp học"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo lớp và mã mời",
+        "top": 524
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-picker",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1532,
+    "viewport": 800,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 699
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-bank",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1374,
+    "viewport": 800,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 699
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-manual",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1669,
+    "viewport": 800,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 699
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-document",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1172,
+    "viewport": 800,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 699
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-json",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1202,
+    "viewport": 800,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 699
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-ai",
+    "size": "laptop",
+    "state": "populated",
+    "overflow": false,
+    "height": 1532,
+    "viewport": 800,
+    "helper": [
+      {
+        "width": 698,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 699
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "empty",
+    "size": "laptop",
+    "state": "empty",
+    "overflow": false,
+    "height": 1045,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "error",
+    "size": "laptop",
+    "state": "error",
+    "overflow": false,
+    "height": 800,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "loading",
+    "size": "laptop",
+    "state": "loading",
+    "overflow": false,
+    "height": 800,
+    "viewport": 800,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 221
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "overview",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2138,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1148,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 165
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 347
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "library",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 3179,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Thư viện đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-overview",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1336,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 94,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Bài tập gần đây"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-assignments",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 3318,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "students",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1406,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Danh sách học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 4
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "gradebook",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1418,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Sổ điểm lớp"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 20
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "skills",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1024,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Kết quả theo kỹ năng"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "bank",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2101,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 110.484375,
+        "summaryHeight": 109.484375,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-results",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2232,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Tình hình điểm số",
+      "Câu hỏi cần xem lại",
+      "Bài làm của học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 6
+      }
+    ],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-paper",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 9436,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390.78125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 390,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nội dung đề và đáp án"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-settings",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1024,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Thiết lập bài giao"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      },
+      {
+        "text": "Lưu thiết lập",
+        "top": 747
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-analysis",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 3184,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nên ôn lại kiến thức nào?",
+      "Tìm nguyên nhân theo từng câu"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 226
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "create-class",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 2138,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách",
+      "Tạo lớp học"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo lớp và mã mời",
+        "top": 636
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-picker",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1796,
+    "viewport": 1024,
+    "helper": [
+      {
+        "width": 712,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 938
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-bank",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1623,
+    "viewport": 1024,
+    "helper": [
+      {
+        "width": 712,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 938
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-manual",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1989,
+    "viewport": 1024,
+    "helper": [
+      {
+        "width": 712,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 938
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-document",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1295,
+    "viewport": 1024,
+    "helper": [
+      {
+        "width": 712,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 938
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-json",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1447,
+    "viewport": 1024,
+    "helper": [
+      {
+        "width": 712,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 938
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-ai",
+    "size": "tablet",
+    "state": "populated",
+    "overflow": false,
+    "height": 1796,
+    "viewport": 1024,
+    "helper": [
+      {
+        "width": 712,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 938
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "empty",
+    "size": "tablet",
+    "state": "empty",
+    "overflow": false,
+    "height": 1033,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "error",
+    "size": "tablet",
+    "state": "error",
+    "overflow": false,
+    "height": 1024,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "loading",
+    "size": "tablet",
+    "state": "loading",
+    "overflow": false,
+    "height": 1024,
+    "viewport": 1024,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 165
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "overview",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2615,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1343,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Lớp học của thầy cô",
+      "Các lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 285
+      },
+      {
+        "text": "Tạo lớp",
+        "top": 468
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "library",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2271,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Thư viện đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 263
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-overview",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1569,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 82,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Bài tập gần đây"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 263
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "class-assignments",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2520,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      },
+      {
+        "open": false,
+        "height": 32,
+        "summaryHeight": 32,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Toán 9A1"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 263
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "students",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1486,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Danh sách học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 4
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 263
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "gradebook",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1498,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Sổ điểm lớp"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 20
+      }
+    ],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 263
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "skills",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1229,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Toán 9A1",
+      "Kết quả theo kỹ năng"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Giao bài",
+        "top": 263
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "bank",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1981,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 131.96875,
+        "summaryHeight": 130.96875,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 131.96875,
+        "summaryHeight": 130.96875,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 155.765625,
+        "summaryHeight": 154.765625,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Ngân hàng câu hỏi",
+      "Ngân hàng câu hỏi Toán"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 263
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-results",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2948,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Tình hình điểm số",
+      "Câu hỏi cần xem lại",
+      "Bài làm của học sinh"
+    ],
+    "tables": [
+      {
+        "rows": 10,
+        "columns": 6
+      }
+    ],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 283
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-paper",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 9964,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": true,
+        "height": 402.734375,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 402.734375,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 425.125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 402.734375,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 402.734375,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 425.125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 402.734375,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 402.734375,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      },
+      {
+        "open": true,
+        "height": 425.125,
+        "summaryHeight": 52,
+        "marker": "disclosure-open"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nội dung đề và đáp án"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 283
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-settings",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1141,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Thiết lập bài giao"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 283
+      },
+      {
+        "text": "Lưu thiết lập",
+        "top": 922
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "report-analysis",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2996,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Hình học đường tròn · Bài 3",
+      "Nên ôn lại kiến thức nào?",
+      "Tìm nguyên nhân theo từng câu"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Kiểm tra & công bố",
+        "top": 283
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "create-class",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2615,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách",
+      "Tạo lớp học"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo lớp và mã mời",
+        "top": 594
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-picker",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1901,
+    "viewport": 844,
+    "helper": [
+      {
+        "width": 366,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 773
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-bank",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1882,
+    "viewport": 844,
+    "helper": [
+      {
+        "width": 366,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 773
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-manual",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 2102,
+    "viewport": 844,
+    "helper": [
+      {
+        "width": 366,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 773
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-document",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1320,
+    "viewport": 844,
+    "helper": [
+      {
+        "width": 366,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 773
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-json",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1560,
+    "viewport": 844,
+    "helper": [
+      {
+        "width": 366,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 773
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "composer-ai",
+    "size": "mobile",
+    "state": "populated",
+    "overflow": false,
+    "height": 1901,
+    "viewport": 844,
+    "helper": [
+      {
+        "width": 366,
+        "height": 19.1875
+      }
+    ],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      },
+      {
+        "open": false,
+        "height": 44,
+        "summaryHeight": 44,
+        "marker": "disclosure-closed"
+      }
+    ],
+    "headings": [
+      "Không gian soạn đề"
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tiếp tục ",
+        "top": 773
+      }
+    ],
+    "errors": []
+  },
+  {
+    "name": "empty",
+    "size": "mobile",
+    "state": "empty",
+    "overflow": false,
+    "height": 1311,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Bài giao gần đây",
+      "Cần theo dõi",
+      "Lớp phụ trách"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "error",
+    "size": "mobile",
+    "state": "error",
+    "overflow": false,
+    "height": 844,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Chưa thể tải không gian giảng dạy"
+    ],
+    "tables": [],
+    "primary": [],
+    "errors": []
+  },
+  {
+    "name": "loading",
+    "size": "mobile",
+    "state": "loading",
+    "overflow": false,
+    "height": 844,
+    "viewport": 844,
+    "helper": [],
+    "details": [
+      {
+        "open": false,
+        "height": 42,
+        "summaryHeight": 42,
+        "marker": "none"
+      }
+    ],
+    "headings": [
+      "Một ngày dạy học mới."
+    ],
+    "tables": [],
+    "primary": [
+      {
+        "text": "Tạo đề mới",
+        "top": 285
+      }
+    ],
+    "errors": []
+  }
+]

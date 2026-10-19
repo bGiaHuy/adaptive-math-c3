@@ -1,0 +1,265 @@
+{
+  "at": "2026-10-17T17:22:49.493Z",
+  "classId": "c03d6eaf-42cc-43ed-9434-ee2981f35300",
+  "assignmentId": "ae9299c7-e877-4fec-8ee8-6fe6f6266031",
+  "checks": [
+    "35 thành viên; giữ nguyên thành viên và bài làm gốc",
+    "30 bài mô phỏng chấm qua API; đối chiếu điểm độc lập cả 3 dạng câu",
+    "2 bản nháp khôi phục được; 2 học sinh chưa bắt đầu",
+    "Đề làm bài không lộ đáp án/lời giải",
+    "Chặn nộp lại và chặn học sinh đọc báo cáo giáo viên",
+    "Ghi nhận sự kiện rời tab; gửi lặp không tạo sự kiện trùng",
+    "Trình duyệt: báo cáo lớp, chi tiết 22 câu, lọc câu sai, mobile, đóng bằng Escape",
+    "Tìm học sinh, phân tích 22 câu và xem chi tiết phân bố đáp án",
+    "Đối chiếu tổng đúng/sai/trống mỗi câu = 31 bài nộp",
+    "Đăng nhập học sinh trên trình duyệt, tiếp tục bài nháp và khôi phục lựa chọn"
+  ],
+  "students": [
+    {
+      "username": "sim9a1_01",
+      "name": "Nguyễn Minh Anh (Mô phỏng)",
+      "ability": "Cần củng cố",
+      "state": "Đã nộp",
+      "score": 2.3
+    },
+    {
+      "username": "sim9a1_02",
+      "name": "Trần Gia Huy (Mô phỏng)",
+      "ability": "Cần củng cố",
+      "state": "Đã nộp",
+      "score": 2.3
+    },
+    {
+      "username": "sim9a1_03",
+      "name": "Lê Thu Hà (Mô phỏng)",
+      "ability": "Cần củng cố",
+      "state": "Đã nộp",
+      "score": 1.8
+    },
+    {
+      "username": "sim9a1_04",
+      "name": "Phạm Đức Anh (Mô phỏng)",
+      "ability": "Cần củng cố",
+      "state": "Đã nộp",
+      "score": 0.7
+    },
+    {
+      "username": "sim9a1_05",
+      "name": "Hoàng Ngọc Linh (Mô phỏng)",
+      "ability": "Cần củng cố",
+      "state": "Đã nộp",
+      "score": 0.5
+    },
+    {
+      "username": "sim9a1_06",
+      "name": "Vũ Quang Huy (Mô phỏng)",
+      "ability": "Cần củng cố",
+      "state": "Đã nộp",
+      "score": 1.9
+    },
+    {
+      "username": "sim9a1_07",
+      "name": "Đặng Bảo Ngọc (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 3.6
+    },
+    {
+      "username": "sim9a1_08",
+      "name": "Nguyễn Tuấn Kiệt (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 2.1
+    },
+    {
+      "username": "sim9a1_09",
+      "name": "Trần Khánh Vy (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 2.4
+    },
+    {
+      "username": "sim9a1_10",
+      "name": "Lê Thanh Tùng (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 2.8
+    },
+    {
+      "username": "sim9a1_11",
+      "name": "Phạm Hà My (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 4
+    },
+    {
+      "username": "sim9a1_12",
+      "name": "Hoàng Trung Hiếu (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 3.6
+    },
+    {
+      "username": "sim9a1_13",
+      "name": "Vũ Thảo Nguyên (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 2.8
+    },
+    {
+      "username": "sim9a1_14",
+      "name": "Đặng Minh Khang (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 1.9
+    },
+    {
+      "username": "sim9a1_15",
+      "name": "Nguyễn Phương Anh (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 3.8
+    },
+    {
+      "username": "sim9a1_16",
+      "name": "Trần Anh Khoa (Mô phỏng)",
+      "ability": "Trung bình",
+      "state": "Đã nộp",
+      "score": 3.9
+    },
+    {
+      "username": "sim9a1_17",
+      "name": "Lê Mai Chi (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 6.1
+    },
+    {
+      "username": "sim9a1_18",
+      "name": "Phạm Hoài Nam (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 5.9
+    },
+    {
+      "username": "sim9a1_19",
+      "name": "Hoàng Ngọc Mai (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 4
+    },
+    {
+      "username": "sim9a1_20",
+      "name": "Vũ Quốc Bảo (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 5.5
+    },
+    {
+      "username": "sim9a1_21",
+      "name": "Đặng Thanh Trúc (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 6.7
+    },
+    {
+      "username": "sim9a1_22",
+      "name": "Nguyễn Đình Phong (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 4.5
+    },
+    {
+      "username": "sim9a1_23",
+      "name": "Trần Yến Nhi (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 6.9
+    },
+    {
+      "username": "sim9a1_24",
+      "name": "Lê Đức Minh (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 6.3
+    },
+    {
+      "username": "sim9a1_25",
+      "name": "Phạm Bảo Châu (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 6
+    },
+    {
+      "username": "sim9a1_26",
+      "name": "Hoàng Nhật Minh (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 6.5
+    },
+    {
+      "username": "sim9a1_27",
+      "name": "Vũ Thu Trang (Mô phỏng)",
+      "ability": "Khá",
+      "state": "Đã nộp",
+      "score": 6.1
+    },
+    {
+      "username": "sim9a1_28",
+      "name": "Đặng Hoàng Long (Mô phỏng)",
+      "ability": "Tốt",
+      "state": "Đã nộp",
+      "score": 7.5
+    },
+    {
+      "username": "sim9a1_29",
+      "name": "Nguyễn Hải Yến (Mô phỏng)",
+      "ability": "Tốt",
+      "state": "Đã nộp",
+      "score": 7.7
+    },
+    {
+      "username": "sim9a1_30",
+      "name": "Trần Tiến Đạt (Mô phỏng)",
+      "ability": "Tốt",
+      "state": "Đã nộp",
+      "score": 7.4
+    },
+    {
+      "username": "sim9a1_31",
+      "name": "Lê Kim Ngân (Mô phỏng)",
+      "ability": "Tốt",
+      "state": "Đang làm"
+    },
+    {
+      "username": "sim9a1_32",
+      "name": "Phạm Việt Anh (Mô phỏng)",
+      "ability": "Tốt",
+      "state": "Đang làm"
+    },
+    {
+      "username": "sim9a1_33",
+      "name": "Hoàng Diệu Linh (Mô phỏng)",
+      "ability": "Tốt",
+      "state": "Chưa bắt đầu"
+    },
+    {
+      "username": "sim9a1_34",
+      "name": "Vũ Xuân Bách (Mô phỏng)",
+      "ability": "Tốt",
+      "state": "Chưa bắt đầu"
+    }
+  ],
+  "summary": {
+    "members": 35,
+    "submitted": 31,
+    "drafts": 2,
+    "notStarted": 2,
+    "min": 0.5,
+    "max": 7.7,
+    "averageSimulated": 4.25
+  },
+  "knownIssues": [
+    "Bài IN_PROGRESS vẫn hiện nút Bắt đầu làm bài ở danh sách học sinh; bấm vào khôi phục đúng bản nháp."
+  ]
+}

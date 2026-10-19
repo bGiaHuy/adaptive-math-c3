@@ -1,0 +1,11 @@
+{
+  "production": "https://adaptivemath-blush.vercel.app",
+  "sourceCommit": "85312edbfc75945e40bc819f9053c1c7d498accf",
+  "endpointCount": 98,
+  "productionMatrixChecks": 186,
+  "authLifecycleChecks": 20,
+  "isolatedTests": 191,
+  "productionUnhandledErrorsInAuditWindow": 0,
+  "result": "PASS_WITH_CONTENT_LIMITATIONS",
+  "shutdown": "pending; Windows shutdown.exe returns environment error 203; attempting normal UI shutdown without force"
+}

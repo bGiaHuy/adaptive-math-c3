@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "desktop: load failure/retry; truthful missing IP; revoke failure retains sessions; logout confirmation/cancel; empty state; Escape; no modal overflow",
+    "tablet: load failure/retry; truthful missing IP; revoke failure retains sessions; logout confirmation/cancel; empty state; Escape; no modal overflow",
+    "mobile: load failure/retry; truthful missing IP; revoke failure retains sessions; logout confirmation/cancel; empty state; Escape; no modal overflow"
+  ],
+  "errors": []
+}

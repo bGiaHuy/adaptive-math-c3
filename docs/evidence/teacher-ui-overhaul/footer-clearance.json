@@ -1,0 +1,30 @@
+[
+  {
+    "place": "initial",
+    "footer": {
+      "top": 614.4375,
+      "bottom": 750,
+      "left": 16,
+      "right": 374
+    },
+    "nav": {
+      "top": 761.40625,
+      "bottom": 844
+    },
+    "overflow": false
+  },
+  {
+    "place": "bottom",
+    "footer": {
+      "top": 614.4375,
+      "bottom": 750,
+      "left": 16,
+      "right": 374
+    },
+    "nav": {
+      "top": 761.40625,
+      "bottom": 844
+    },
+    "overflow": false
+  }
+]

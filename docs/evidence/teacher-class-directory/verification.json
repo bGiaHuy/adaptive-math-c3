@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "desktop: 23classes split10/10/3, search from lastpage reaches matching class; open/back preserves query and page3",
+    "tablet: 23classes split10/10/3, search from lastpage reaches matching class; open/back preserves query and page3",
+    "mobile: 23classes split10/10/3, search from lastpage reaches matching class; open/back preserves query and page3"
+  ],
+  "errors": []
+}

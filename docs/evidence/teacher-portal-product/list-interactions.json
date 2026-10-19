@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "library pagination, unaccented search, combined status filter",
+    "student pagination and search",
+    "gradebook pagination",
+    "bank pagination"
+  ],
+  "errors": []
+}

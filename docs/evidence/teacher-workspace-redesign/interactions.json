@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "size": "desktop",
+      "action": "direct results",
+      "passed": true
+    },
+    {
+      "size": "desktop",
+      "action": "direct paper",
+      "passed": true
+    },
+    {
+      "size": "desktop",
+      "action": "settings",
+      "passed": true
+    },
+    {
+      "size": "desktop",
+      "action": "reuse",
+      "passed": true
+    },
+    {
+      "size": "desktop",
+      "action": "delete cancelled",
+      "passed": true
+    },
+    {
+      "size": "desktop",
+      "action": "overview class/results",
+      "passed": true
+    },
+    {
+      "size": "laptop",
+      "action": "direct results",
+      "passed": true
+    },
+    {
+      "size": "laptop",
+      "action": "direct paper",
+      "passed": true
+    },
+    {
+      "size": "laptop",
+      "action": "settings",
+      "passed": true
+    },
+    {
+      "size": "laptop",
+      "action": "reuse",
+      "passed": true
+    },
+    {
+      "size": "laptop",
+      "action": "delete cancelled",
+      "passed": true
+    },
+    {
+      "size": "laptop",
+      "action": "overview class/results",
+      "passed": true
+    },
+    {
+      "size": "tablet",
+      "action": "direct results",
+      "passed": true
+    },
+    {
+      "size": "tablet",
+      "action": "direct paper",
+      "passed": true
+    },
+    {
+      "size": "tablet",
+      "action": "settings",
+      "passed": true
+    },
+    {
+      "size": "tablet",
+      "action": "reuse",
+      "passed": true
+    },
+    {
+      "size": "tablet",
+      "action": "delete cancelled",
+      "passed": true
+    },
+    {
+      "size": "tablet",
+      "action": "overview class/results",
+      "passed": true
+    },
+    {
+      "size": "mobile",
+      "action": "direct results",
+      "passed": true
+    },
+    {
+      "size": "mobile",
+      "action": "direct paper",
+      "passed": true
+    },
+    {
+      "size": "mobile",
+      "action": "settings",
+      "passed": true
+    },
+    {
+      "size": "mobile",
+      "action": "reuse",
+      "passed": true
+    },
+    {
+      "size": "mobile",
+      "action": "delete cancelled",
+      "passed": true
+    },
+    {
+      "size": "mobile",
+      "action": "overview class/results",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

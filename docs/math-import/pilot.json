@@ -1,0 +1,122 @@
+{
+  "batchId": "hung-yen-9101-pilot",
+  "questions": [
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-1",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn?",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$2x+3y^2=0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$0x-0y=3$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$3x+2y=6$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$xy-x=1$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-TRUE_FALSE-1",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho biểu thức $A=\\frac2{\\sqrt x+1}+\\frac1{\\sqrt x-2}-\\frac{\\sqrt x-5}{x-\\sqrt x-2}$. Xét đúng/sai các ý sau:",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / TRUE_FALSE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Điều kiện xác định là $x\\ge0;\\ x\\ne4$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Kết quả rút gọn bằng $\\frac2{\\sqrt x-1}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "Với $x=\\frac94$ thì $A=4$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Biết $A=\\sqrt x$ thì $x=m+n\\sqrt3$. Khi đó $m+n=6$.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-1",
+      "questionType": "SHORT_ANSWER",
+      "content": "Giá trị $A=3(\\sqrt5-2)-\\sqrt{45}$ bằng bao nhiêu?",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "9101 / SHORT_ANSWER / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "-6"
+        ],
+        "tolerance": 1e-09
+      }
+    }
+  ]
+}

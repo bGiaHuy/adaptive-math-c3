@@ -1,0 +1,293 @@
+{
+  "scope": "Rendered React with intercepted API fixtures; no real server mutations",
+  "results": [
+    {
+      "suite": "verify-assignment-report-ux",
+      "startedAt": "2026-10-18T03:49:20.331Z",
+      "finishedAt": "2026-10-18T03:49:29.043Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"19/31 below 5 = 61.3%; 10 rows per page\",\"Pagination reset, status/time filters, unaccented search, student drilldown retains context\",\"Overview question links open analytics; topics filter real questions; analysis paginated\",\"Review makes no write; explicit acknowledgment; failure stays recoverable; publish only changes published flag\",\"Mobile and tablet: no document overflow\",\"Admin observation has no publish action\",\"Empty report, missing score and invalid choice key block publication; immediate policy avoids redundant publish\"],\"errors\":[],\"accessibility\":[{\"view\":\"analytics\",\"violations\":[]},{\"view\":\"publish\",\"violations\":[]},{\"view\":\"results\",\"violations\":[]}]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-regrade-ux",
+      "startedAt": "2026-10-18T03:49:29.043Z",
+      "finishedAt": "2026-10-18T03:49:31.842Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"22 collapsed editors; jump navigation; submitted content locked; preview failure retains reason; preview performs no apply\",\"Impact filters/paging and three responsive viewports; apply failure keeps preview; explicit retry succeeds\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-composer-flow",
+      "startedAt": "2026-10-18T03:49:31.842Z",
+      "finishedAt": "2026-10-18T03:49:37.784Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Local draft is discoverable in library and resumes original content\",\"Invalid duration keeps teacher at settings with actionable error\",\"After-due publication explains missing deadline before review\",\"Valid settings reach review preserving title and questions\",\"Unapplied document answer survives reload under its draft key\",\"Replace cancel and upload failure preserve answers; successful replacement clears old answer sheet\",\"Failed assignment save retains draft; explicit retry publishes controlled fixture once and clears saved draft\"],\"errors\":[],\"writeCount\":4}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-draft-reuse",
+      "startedAt": "2026-10-18T03:49:37.784Z",
+      "finishedAt": "2026-10-18T03:49:41.982Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Reuse existing paper copies 22 questions, editable title and new receiving class without mutating original\",\"Leave, discover, resume and reload reused draft retains edited title and class; foreign and corrupted drafts do not appear\"],\"errors\":[],\"writes\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-manual-json",
+      "startedAt": "2026-10-18T03:49:41.982Z",
+      "finishedAt": "2026-10-18T03:49:45.264Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Short-answer preview matches typed accepted answers and added question\",\"Malformed JSON focuses visible error, retains input and previously selected question\",\"Valid JSON adds atomically; duplicate leaves existing two questions unchanged\",\"Reload retains selected manual/JSON questions and unapplied JSON; zero server writes\"],\"errors\":[],\"writes\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-generation",
+      "startedAt": "2026-10-18T03:49:45.264Z",
+      "finishedAt": "2026-10-18T03:49:47.777Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"AI appends a new question without removing the question currently being manually edited; manual draft remains editable\",\"Replacement requires explicit confirmation; cancellation makes no request; failure keeps both original questions\",\"Successful replacement yields 22 bank questions with one expanded preview\"],\"errors\":[],\"requests\":[\"/api/v1/assignments/ai-preview\",\"/api/v1/assignments/random-preview\",\"/api/v1/assignments/random-preview\"]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-class-management",
+      "startedAt": "2026-10-18T03:49:47.778Z",
+      "finishedAt": "2026-10-18T03:49:50.044Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Failed class creation retains fields; retry opens new class and preserves one-time invite across details loading\",\"Expired/exhausted labels; revoke confirmation/cancel without write; failed revoke retry keeps context and refreshes wrapped class response\",\"Class details failure has retry rather than endless loading; retry recovers members view\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-settings",
+      "startedAt": "2026-10-18T03:49:50.044Z",
+      "finishedAt": "2026-10-18T03:49:52.668Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Settings failure retains title and focuses error; retry saves title and refreshes report\",\"Close/reopen changes receiving status without publishing grades; report filter survives settings refresh\",\"Report CSV exports all 35 students rather than visible page\",\"Delete review/cancel sends no delete; failed delete error appears inside modal; retry removes assignment\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-keyboard",
+      "startedAt": "2026-10-18T03:49:52.669Z",
+      "finishedAt": "2026-10-18T03:49:54.662Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Create dialog traps Tab/Shift+Tab, Escape restores trigger and body scroll\",\"Delete dialog Escape restores exact trigger without mutation\",\"Source method radios support Home/End/arrows, selection follows focus with one tab stop\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-density",
+      "startedAt": "2026-10-18T03:49:54.663Z",
+      "finishedAt": "2026-10-18T03:50:00.982Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"bank desktop: responsive default, 20/page, next page, empty/reset and retained context\",\"analysis desktop: responsive default, 20/page, next page, empty/reset and retained context\",\"bank tablet: responsive default, 20/page, next page, empty/reset and retained context\",\"analysis tablet: responsive default, 20/page, next page, empty/reset and retained context\",\"bank mobile: responsive default, 20/page, next page, empty/reset and retained context\",\"analysis mobile: responsive default, 20/page, next page, empty/reset and retained context\",\"Bank load failure is distinct from empty; in-place retry recovers questions\"],\"measurements\":[{\"name\":\"bank\",\"size\":\"desktop\",\"height\":1893,\"rows\":10},{\"name\":\"analysis\",\"size\":\"desktop\",\"height\":2802,\"rows\":10},{\"name\":\"bank\",\"size\":\"tablet\",\"height\":1950,\"rows\":10},{\"name\":\"analysis\",\"size\":\"tablet\",\"height\":3133,\"rows\":10},{\"name\":\"bank\",\"size\":\"mobile\",\"height\":1802,\"rows\":5},{\"name\":\"analysis\",\"size\":\"mobile\",\"height\":3060,\"rows\":5}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-report-recovery",
+      "startedAt": "2026-10-18T03:50:00.982Z",
+      "finishedAt": "2026-10-18T03:50:05.960Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: direct report error retains route/tab; explicit retry recovers analytics\",\"tablet: direct report error retains route/tab; explicit retry recovers analytics\",\"mobile: direct report error retains route/tab; explicit retry recovers analytics\",\"Unknown report shows honest unavailable state and returns to usable list\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-partial-load",
+      "startedAt": "2026-10-18T03:50:05.961Z",
+      "finishedAt": "2026-10-18T03:50:11.490Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: c1 failure preserves c2 assignments; retry restores all36 and clears warning\",\"tablet: c1 failure preserves c2 assignments; retry restores all36 and clears warning\",\"mobile: c1 failure preserves c2 assignments; retry restores all36 and clears warning\",\"Incomplete class assignment data does not produce an empty or misleading gradebook\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-report-navigation",
+      "startedAt": "2026-10-18T03:50:11.491Z",
+      "finishedAt": "2026-10-18T03:50:13.703Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Gradebook score opens the selected student in the chosen assignment using exactly one report request\",\"Library report opens with a single request\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-report-race",
+      "startedAt": "2026-10-18T03:50:13.704Z",
+      "finishedAt": "2026-10-18T03:50:18.604Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: back during pending request remains in library after old response\",\"desktop: old report response cannot replace newer assignment\",\"tablet: back during pending request remains in library after old response\",\"tablet: old report response cannot replace newer assignment\",\"mobile: back during pending request remains in library after old response\",\"mobile: old report response cannot replace newer assignment\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-library-density",
+      "startedAt": "2026-10-18T03:50:18.605Z",
+      "finishedAt": "2026-10-18T03:50:23.844Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: responsive default, paging, size reset, unaccented search and paper/back retain filter and list view\",\"tablet: responsive default, paging, size reset, unaccented search and paper/back retain filter and list view\",\"mobile: responsive default, paging, size reset, unaccented search and paper/back retain filter and list view\",\"All36 assignments reachable at5/page, page8 retained after report/back\"],\"measurements\":[{\"size\":\"desktop\",\"height\":2214},{\"size\":\"tablet\",\"height\":2049},{\"size\":\"mobile\",\"height\":2584}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-mobile-overlays",
+      "startedAt": "2026-10-18T03:50:23.845Z",
+      "finishedAt": "2026-10-18T03:50:28.735Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"phone: final question clears bottom navigation; publish action receives hit test above nav; Escape restores scroll\",\"small-phone: final question clears bottom navigation; publish action receives hit test above nav; Escape restores scroll\",\"tablet: final question clears bottom navigation; publish action receives hit test above nav; Escape restores scroll\"],\"geometry\":[{\"size\":\"phone\",\"bottom\":624.03125,\"navTop\":761.40625,\"viewport\":844,\"covered\":false},{\"size\":\"small-phone\",\"bottom\":420.03125,\"navTop\":557.40625,\"viewport\":640,\"covered\":false},{\"size\":\"tablet\",\"bottom\":858.34375,\"navTop\":86,\"viewport\":1000,\"covered\":false}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-bank-labels",
+      "startedAt": "2026-10-18T03:50:28.735Z",
+      "finishedAt": "2026-10-18T03:50:32.265Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Skills failure leaves questions visible, disables only topic edits, retry recovers topics\",\"Failed label save keeps old difficulty; inline retry resends intended change and confirms success\",\"Foreign-author question controls remain disabled with an explanation\",\"Changing last filtered item clamps both displayed rows and pager, explains item leaving current filter\",\"Topic save uses backend-shaped response with nested skill; summary and selected topic update together\"],\"errors\":[],\"labelWrites\":[{\"skillId\":\"skill1\",\"difficulty\":\"HARD\"},{\"skillId\":\"skill1\",\"difficulty\":\"HARD\"},{\"skillId\":\"skill2\",\"difficulty\":\"HARD\"},{\"skillId\":\"skill3\",\"difficulty\":\"EASY\"}]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-question-roster",
+      "startedAt": "2026-10-18T03:50:32.266Z",
+      "finishedAt": "2026-10-18T03:50:37.207Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: roster10/page, next/search, correct student drilldown returns to same question/search and group resets search\",\"tablet: roster10/page, next/search, correct student drilldown returns to same question/search and group resets search\",\"mobile: roster10/page, next/search, correct student drilldown returns to same question/search and group resets search\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-publish-review-navigation",
+      "startedAt": "2026-10-18T03:50:37.208Z",
+      "finishedAt": "2026-10-18T03:50:42.052Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: review links open paper/analysis; reopened review requires acknowledgment; Escape restores trigger\",\"tablet: review links open paper/analysis; reopened review requires acknowledgment; Escape restores trigger\",\"mobile: review links open paper/analysis; reopened review requires acknowledgment; Escape restores trigger\"],\"mutations\":[],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-class-directory",
+      "startedAt": "2026-10-18T03:50:42.053Z",
+      "finishedAt": "2026-10-18T03:50:46.952Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: 23classes split10/10/3, search from lastpage reaches matching class; open/back preserves query and page3\",\"tablet: 23classes split10/10/3, search from lastpage reaches matching class; open/back preserves query and page3\",\"mobile: 23classes split10/10/3, search from lastpage reaches matching class; open/back preserves query and page3\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-overview-priority",
+      "startedAt": "2026-10-18T03:50:46.953Z",
+      "finishedAt": "2026-10-18T03:50:51.912Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: attention precedes recent in DOM and visual order; draft action opens paper\",\"tablet: attention precedes recent in DOM and visual order; draft action opens paper\",\"mobile: attention precedes recent in DOM and visual order; draft action opens paper\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-independent-loads",
+      "startedAt": "2026-10-18T03:50:51.913Z",
+      "finishedAt": "2026-10-18T03:50:53.485Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Retrying class details during pending gradebook does not invalidate gradebook response or leave spinner stuck\"],\"errors\":[],\"releasedReports\":19}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-paper-navigation",
+      "startedAt": "2026-10-18T03:50:53.485Z",
+      "finishedAt": "2026-10-18T03:50:58.385Z",
+      "code": 0,
+      "stdout": "{\"phase\":\"after\",\"measurements\":[{\"size\":\"desktop\",\"height\":2407},{\"size\":\"tablet\",\"height\":2407},{\"size\":\"mobile\",\"height\":2624}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-account",
+      "startedAt": "2026-10-18T03:50:58.385Z",
+      "finishedAt": "2026-10-18T03:51:00.971Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: Escape clears password fields and visibility before reopen; no password submission\",\"tablet: Escape clears password fields and visibility before reopen; no password submission\",\"mobile: Escape clears password fields and visibility before reopen; no password submission\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-sessions",
+      "startedAt": "2026-10-18T03:51:00.972Z",
+      "finishedAt": "2026-10-18T03:51:03.580Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: load failure/retry; truthful missing IP; revoke failure retains sessions; logout confirmation/cancel; empty state; Escape; no modal overflow\",\"tablet: load failure/retry; truthful missing IP; revoke failure retains sessions; logout confirmation/cancel; empty state; Escape; no modal overflow\",\"mobile: load failure/retry; truthful missing IP; revoke failure retains sessions; logout confirmation/cancel; empty state; Escape; no modal overflow\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-account-accessibility",
+      "startedAt": "2026-10-18T03:51:03.581Z",
+      "finishedAt": "2026-10-18T03:51:06.451Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: successful other-session revoke refreshes list and preserves current session\",\"desktop: Phiên đăng nhập Tab/Shift+Tab trap and Escape\",\"desktop: Đổi mật khẩu Tab/Shift+Tab trap and Escape\",\"tablet: successful other-session revoke refreshes list and preserves current session\",\"tablet: Phiên đăng nhập Tab/Shift+Tab trap and Escape\",\"tablet: Đổi mật khẩu Tab/Shift+Tab trap and Escape\",\"mobile: successful other-session revoke refreshes list and preserves current session\",\"mobile: Phiên đăng nhập Tab/Shift+Tab trap and Escape\",\"mobile: Đổi mật khẩu Tab/Shift+Tab trap and Escape\"],\"accessibility\":[{\"size\":\"desktop\",\"label\":\"Phiên đăng nhập\",\"violations\":[]},{\"size\":\"desktop\",\"label\":\"Đổi mật khẩu\",\"violations\":[]},{\"size\":\"tablet\",\"label\":\"Phiên đăng nhập\",\"violations\":[]},{\"size\":\"tablet\",\"label\":\"Đổi mật khẩu\",\"violations\":[]},{\"size\":\"mobile\",\"label\":\"Phiên đăng nhập\",\"violations\":[]},{\"size\":\"mobile\",\"label\":\"Đổi mật khẩu\",\"violations\":[]}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-composer-reachability",
+      "startedAt": "2026-10-18T03:51:06.451Z",
+      "finishedAt": "2026-10-18T03:51:09.872Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: explanation and add-question receive pointer hit after scrolling\",\"tablet: explanation and add-question receive pointer hit after scrolling\",\"mobile: explanation and add-question receive pointer hit after scrolling\",\"small-phone: explanation and add-question receive pointer hit after scrolling\"],\"geometry\":[{\"size\":\"desktop\",\"name\":\"explanation\",\"reachable\":true,\"x\":692,\"y\":623.28125,\"top\":579.28125,\"bottom\":667.28125},{\"size\":\"desktop\",\"name\":\"add-question\",\"reachable\":true,\"x\":355.828125,\"y\":703.28125,\"top\":681.28125,\"bottom\":725.28125},{\"size\":\"tablet\",\"name\":\"explanation\",\"reachable\":true,\"x\":308,\"y\":755.265625,\"top\":711.265625,\"bottom\":799.265625},{\"size\":\"tablet\",\"name\":\"add-question\",\"reachable\":true,\"x\":199.828125,\"y\":835.265625,\"top\":813.265625,\"bottom\":857.265625},{\"size\":\"mobile\",\"name\":\"explanation\",\"reachable\":true,\"x\":195,\"y\":324.046875,\"top\":280.046875,\"bottom\":368.046875},{\"size\":\"mobile\",\"name\":\"add-question\",\"reachable\":true,\"x\":103.828125,\"y\":324.046875,\"top\":302.046875,\"bottom\":346.046875},{\"size\":\"small-phone\",\"name\":\"explanation\",\"reachable\":true,\"x\":180,\"y\":222.046875,\"top\":178.046875,\"bottom\":266.046875},{\"size\":\"small-phone\",\"name\":\"add-question\",\"reachable\":true,\"x\":103.828125,\"y\":222.046875,\"top\":200.046875,\"bottom\":244.046875}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-session-logout",
+      "startedAt": "2026-10-18T03:51:09.872Z",
+      "finishedAt": "2026-10-18T03:51:17.820Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: current fixture logout clears teacher UI, dialog, URL context and body lock\",\"desktop: all fixture logout clears teacher UI, dialog, URL context and body lock\",\"tablet: current fixture logout clears teacher UI, dialog, URL context and body lock\",\"tablet: all fixture logout clears teacher UI, dialog, URL context and body lock\",\"mobile: current fixture logout clears teacher UI, dialog, URL context and body lock\",\"mobile: all fixture logout clears teacher UI, dialog, URL context and body lock\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-student-activity",
+      "startedAt": "2026-10-18T03:51:17.821Z",
+      "finishedAt": "2026-10-18T03:51:22.752Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: activity summary, 30 synthetic entries, unknown return preserved, close restores question/search\",\"tablet: activity summary, 30 synthetic entries, unknown return preserved, close restores question/search\",\"mobile: activity summary, 30 synthetic entries, unknown return preserved, close restores question/search\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-skills-empty",
+      "startedAt": "2026-10-18T03:51:22.752Z",
+      "finishedAt": "2026-10-18T03:51:27.596Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: empty skills view, no fake percentages, no horizontal overflow\",\"tablet: empty skills view, no fake percentages, no horizontal overflow\",\"mobile: empty skills view, no fake percentages, no horizontal overflow\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-pending-review",
+      "startedAt": "2026-10-18T03:51:27.596Z",
+      "finishedAt": "2026-10-18T03:51:32.516Z",
+      "code": 0,
+      "stdout": "{\"checks\":[{\"size\":\"desktop\",\"emptyText\":\"Chưa có câu được xác định cần ôn. Câu chờ chấm, không tính điểm hoặc cho điểm toàn bộ không nằm trong bộ lọc này.\",\"pendingCount\":22},{\"size\":\"tablet\",\"emptyText\":\"Chưa có câu được xác định cần ôn. Câu chờ chấm, không tính điểm hoặc cho điểm toàn bộ không nằm trong bộ lọc này.\",\"pendingCount\":22},{\"size\":\"mobile\",\"emptyText\":\"Chưa có câu được xác định cần ôn. Câu chờ chấm, không tính điểm hoặc cho điểm toàn bộ không nằm trong bộ lọc này.\",\"pendingCount\":22}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-mixed-review",
+      "startedAt": "2026-10-18T03:51:32.516Z",
+      "finishedAt": "2026-10-18T03:51:39.387Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: eight answer-state labels, four review matches, jump resets filter and focuses selected question\",\"tablet: eight answer-state labels, four review matches, jump resets filter and focuses selected question\",\"mobile: eight answer-state labels, four review matches, jump resets filter and focuses selected question\"],\"accessibility\":[{\"size\":\"desktop\",\"violations\":[]},{\"size\":\"tablet\",\"violations\":[]},{\"size\":\"mobile\",\"violations\":[]}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-invite-copy",
+      "startedAt": "2026-10-18T03:51:39.388Z",
+      "finishedAt": "2026-10-18T03:51:41.621Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"Failed class creation retains fields; retry opens new class and preserves one-time invite across details loading\",\"desktop: clipboard rejection retains code; retry copies exact code and clears error\",\"tablet: clipboard rejection retains code; retry copies exact code and clears error\",\"mobile: clipboard rejection retains code; retry copies exact code and clears error\"],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-bank-filter-density",
+      "startedAt": "2026-10-18T03:51:41.621Z",
+      "finishedAt": "2026-10-18T03:51:44.335Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\",\"tablet: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\",\"mobile: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\",\"small-phone: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\"],\"measurements\":[{\"size\":\"desktop\",\"filterHeight\":117.390625,\"firstQuestionTop\":546.96875},{\"size\":\"tablet\",\"filterHeight\":210.78125,\"firstQuestionTop\":636.359375},{\"size\":\"mobile\",\"filterHeight\":296.171875,\"firstQuestionTop\":768.234375},{\"size\":\"small-phone\",\"filterHeight\":296.171875,\"firstQuestionTop\":768.234375}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-bank-guidance",
+      "startedAt": "2026-10-18T03:51:44.336Z",
+      "finishedAt": "2026-10-18T03:51:50.991Z",
+      "code": 0,
+      "stdout": "{\"checks\":[\"desktop: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\",\"tablet: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\",\"mobile: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\",\"small-phone: combined type/difficulty filters, empty search/reset, responsive paging and no overflow\"],\"measurements\":[{\"size\":\"desktop\",\"filterHeight\":117.390625,\"firstQuestionTop\":546.96875},{\"size\":\"tablet\",\"filterHeight\":210.78125,\"firstQuestionTop\":640.359375},{\"size\":\"mobile\",\"filterHeight\":296.171875,\"firstQuestionTop\":768.234375},{\"size\":\"small-phone\",\"filterHeight\":296.171875,\"firstQuestionTop\":768.234375}],\"errors\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "suite": "verify-teacher-active-tab",
+      "startedAt": "2026-10-18T03:51:50.992Z",
+      "finishedAt": "2026-10-18T03:51:54.249Z",
+      "code": 0,
+      "stdout": "{\"measurements\":[{\"size\":\"desktop\",\"name\":\"skills\",\"visible\":true,\"scrollLeft\":0,\"scrollY\":0},{\"size\":\"desktop\",\"name\":\"settings\",\"visible\":true,\"scrollLeft\":0,\"scrollY\":0},{\"size\":\"tablet\",\"name\":\"skills\",\"visible\":true,\"scrollLeft\":0,\"scrollY\":0},{\"size\":\"tablet\",\"name\":\"settings\",\"visible\":true,\"scrollLeft\":0,\"scrollY\":0},{\"size\":\"mobile\",\"name\":\"skills\",\"visible\":true,\"scrollLeft\":105,\"scrollY\":0},{\"size\":\"mobile\",\"name\":\"settings\",\"visible\":true,\"scrollLeft\":37,\"scrollY\":0},{\"size\":\"small-phone\",\"name\":\"skills\",\"visible\":true,\"scrollLeft\":133,\"scrollY\":0},{\"size\":\"small-phone\",\"name\":\"settings\",\"visible\":true,\"scrollLeft\":67,\"scrollY\":0}],\"errors\":[]}\n",
+      "stderr": ""
+    }
+  ]
+}

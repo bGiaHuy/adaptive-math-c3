@@ -1,0 +1,5 @@
+# Batch15 — Tải bài giao lỗi một phần
+P1: Promise.all tải bài của nhiều lớp khiến một request thất bại chặn toàn bộ dữ liệu. Chuyển sang allSettled, giữ lớp/bài tải thành công, ghi rõ lớp lỗi và số liệu chưa đầy đủ, có retry. Số bài lớp lỗi hiện dấu gạch thay vì0; sổ điểm/kỹ năng chờ đủ bài để tránh kết luận sai. Không hiện missing-report khi dữ liệu danh sách chưa đủ. Không đổi API/quyền/nghiệp vụ chấm.
+Files: TeacherWorkspace.jsx; scripts/verify-teacher-partial-load.mjs.
+Chrome fixture1440×900/820×1000/390×844: c1 trả503 nhưng bài c2 vẫn dùng; retry đủ36 bài, cảnh báo biến mất; gradebook c1 không hiển thị empty sai. Không pageerror/overflow. Artifacts docs/evidence/teacher-partial-load/verification.json và partial-{desktop,tablet,mobile}.png. Build đạt trước điều chỉnh dấu gạch; kiểm tra browser sau đó đạt; cần build cuối/rerun kết hợp.
+Không có baseline cùng trạng thái, chưa khẳng định before/after trực quan. Dữ liệu fixture, không ghi thật. Tiếp tục review và coverage cuối, đặc biệt refresh lỗi khi đang có report mở và hồi quy tổng hợp.

@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "desktop: c1 failure preserves c2 assignments; retry restores all36 and clears warning",
+    "tablet: c1 failure preserves c2 assignments; retry restores all36 and clears warning",
+    "mobile: c1 failure preserves c2 assignments; retry restores all36 and clears warning",
+    "Incomplete class assignment data does not produce an empty or misleading gradebook"
+  ],
+  "errors": []
+}

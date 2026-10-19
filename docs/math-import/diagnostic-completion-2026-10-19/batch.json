@@ -1,0 +1,777 @@
+{
+  "batchId": "diagnostic-completion-2026-10-19",
+  "questions": [
+    {
+      "externalId": "QF-1",
+      "skillCode": "MATH9-QUADRATIC-FUNCTIONS",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "content": "Đỉnh của đồ thị hàm số $y=2x^2$ là điểm nào?",
+      "explanation": "Đồ thị hàm số $y=ax^2$ với $a\\ne0$ có đỉnh là gốc tọa độ $O(0;0)$.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$O(0;0)$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$A(0;2)$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$B(2;0)$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$C(1;2)$",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Nhớ đặc điểm đồ thị y=ax².",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "QF-2",
+      "skillCode": "MATH9-QUADRATIC-FUNCTIONS",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY",
+      "content": "Trục đối xứng của đồ thị hàm số $y=-3x^2$ là đường nào?",
+      "explanation": "Đồ thị $y=ax^2$ nhận trục tung $Oy$ làm trục đối xứng.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "Trục hoành $Ox$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "Trục tung $Oy$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "Đường thẳng $y=x$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "Đường thẳng $x=3$",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Nhớ trục đối xứng của parabol cơ bản.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "SOL-1",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Một hình trụ được tăng bán kính đáy lên gấp đôi, giữ nguyên chiều cao. Thể tích mới bằng bao nhiêu lần thể tích ban đầu?",
+      "explanation": "Vì $V=\\pi r^2h$, thay $r$ bởi $2r$ cho $V_{moi}=4V$.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "2 lần",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "4 lần",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "6 lần",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "8 lần",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Hiểu ảnh hưởng của bình phương bán kính đến thể tích.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "SOL-2",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Bán kính một hình cầu tăng gấp đôi. Thể tích hình cầu mới bằng bao nhiêu lần thể tích ban đầu?",
+      "explanation": "Từ $V=\\frac43\\pi r^3$, khi bán kính gấp đôi thì thể tích gấp $2^3=8$ lần.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "2 lần",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "4 lần",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "6 lần",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "8 lần",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải hệ số tỉ lệ trong công thức thể tích.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "MOD-1",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Một buổi biểu diễn bán 20 vé, gồm vé người lớn giá 60 nghìn đồng và vé trẻ em giá 40 nghìn đồng, thu 1000 nghìn đồng. Gọi $x,y$ lần lượt là số vé người lớn và trẻ em.",
+      "explanation": "Ba ý đầu diễn giải đúng tổng số vé và tổng tiền. Ý d sai vì hệ số giá vé người lớn và trẻ em bị đảo.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$x+y=20$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "$60x+40y=1000$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "Số vé trẻ em được biểu diễn bởi $20-x$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "Tổng tiền bán vé được biểu diễn bởi $40x+60y$ (nghìn đồng).",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "MOD-2",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Một cửa hàng bán 30 quyển gồm vở giá 8 nghìn đồng và sổ giá 12 nghìn đồng, thu 280 nghìn đồng. Gọi $x,y$ lần lượt là số vở và số sổ.",
+      "explanation": "a, c và d đúng theo số lượng và đơn giá. b sai vì đã đổi đơn giá của hai loại.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$x+y=30$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "$12x+8y=280$.",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "Số vở có thể biểu diễn bởi $30-y$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "$8x+12y=280$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "RAD-1",
+      "skillCode": "SKILL-02",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Cho $P=\\dfrac{\\sqrt{x}+2}{\\sqrt{x}-2}$ với $x\\ge0$, $x\\ne4$.",
+      "explanation": "a: (3+2)/(3-2)=5. b: tách tử thành $(\\sqrt{x}-2)+4$. c: tại 0 thì P=-1. d: mẫu âm nên phần cộng thêm ở b âm.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Tại $x=9$, giá trị của $P$ bằng 5.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "$P=1+\\dfrac4{\\sqrt{x}-2}$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "Tại $x=0$, giá trị của $P$ bằng 1.",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "Với $0\\le x<4$, ta có $P<1$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "RAD-2",
+      "skillCode": "SKILL-02",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Cho $Q=\\sqrt{(x-3)^2}$ với $x$ là số thực.",
+      "explanation": "Căn bậc hai số học của bình phương bằng giá trị tuyệt đối. Khi x<3 phải lấy 3-x, nên c sai. Tại x=1 được |1-3|=2.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$Q=|x-3|$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "Nếu $x\\ge3$ thì $Q=x-3$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "Nếu $x<3$ thì $Q=x-3$.",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "Tại $x=1$, giá trị của $Q$ bằng 2.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "CIR-1",
+      "skillCode": "SKILL-08",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Tam giác $ABC$ nội tiếp đường tròn tâm $O$, đường kính $AB=10$ cm; $AC=6$ cm. Điểm $C$ khác $A,B$.",
+      "explanation": "Góc nội tiếp chắn nửa đường tròn là góc vuông. Pitago cho BC=√(100-36)=8. Bán kính OC=AB/2=5, không phải 10.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Góc $ACB$ bằng $90^\\circ$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "$BC=8$ cm.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "$OC=10$ cm.",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "$AC^2+BC^2=AB^2$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "CIR-2",
+      "skillCode": "SKILL-08",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Từ điểm $T$ ngoài đường tròn tâm $O$ bán kính 5 cm, kẻ tiếp tuyến $TA$ tại $A$. Biết $OT=13$ cm.",
+      "explanation": "Bán kính vuông góc với tiếp tuyến tại tiếp điểm, nên tam giác vuông tại A. Pitago cho TA=√(169-25)=12.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$OA$ vuông góc với $TA$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "Tam giác $OAT$ vuông tại $T$.",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "$TA=12$ cm.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "$OA^2+TA^2=OT^2$.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "STA-1",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Điểm kiểm tra của một nhóm học sinh chỉ gồm các điểm 6, 7, 8, 9; tần số tương ứng là 4, 6, 8, 2.",
+      "explanation": "Tổng tần số 4+6+8+2=20. Điểm 8: 8/20=40%. Ít nhất 8: (8+2)/20=50%. Tần số 4 khác 2.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Nhóm có 20 học sinh.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "Tần số tương đối của điểm 8 là 40%.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "Tỉ lệ học sinh đạt ít nhất 8 điểm là 50%.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "Điểm 6 và điểm 9 có tần số bằng nhau.",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "STA-2",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "TRUE_FALSE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM",
+      "content": "Số sách đọc trong tháng của một nhóm học sinh chỉ gồm 0, 1, 2, 3 quyển; tần số tương ứng là 3, 5, 9, 3.",
+      "explanation": "Tổng 20 học sinh. Mức 2: 9/20=45%; ít nhất 2: (9+3)/20=60%; mức 0: 3/20=15%.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Nhóm có 20 học sinh.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "b",
+          "content": "Tần số tương đối của mức 2 quyển là 45%.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "c",
+          "content": "Tỉ lệ học sinh đọc ít nhất 2 quyển là 45%.",
+          "isCorrect": false,
+          "cognitiveLevel": "UNDERSTANDING"
+        },
+        {
+          "key": "d",
+          "content": "Tỉ lệ học sinh không đọc quyển nào là 15%.",
+          "isCorrect": true,
+          "cognitiveLevel": "UNDERSTANDING"
+        }
+      ],
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Diễn giải dữ kiện và quan hệ đã học, kiểm tra trực tiếp từng mệnh đề; không yêu cầu xây dựng chiến lược giải mới.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "INE-1",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "content": "Hai dịch vụ vận chuyển tính phí: A thu cố định 300000 đồng và thêm 12000 đồng/km; B thu 18000 đồng/km, không có phí cố định. Quãng đường $x$ là số nguyên dương (km). Giá trị lớn nhất của $x$ để B rẻ hơn A là bao nhiêu?",
+      "explanation": "Điều kiện $18000x<300000+12000x$ tương đương $x<50$. Vì x nguyên dương, lớn nhất là 49. Tại 50 hai giá bằng nhau nên không được chọn.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "49"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Tự lập bất phương trình từ chi phí, xử lý bất đẳng thức nghiêm và điều kiện nguyên.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "INE-2",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "content": "Mua vở: 5 quyển đầu giá 50000 đồng/quyển; từ quyển thứ 6 trở đi giá 40000 đồng/quyển. Phí giao hàng cố định 30000 đồng cho mỗi đơn. Với ngân sách 650000 đồng, có thể mua tối đa bao nhiêu quyển trong một đơn?",
+      "explanation": "Mua 5 quyển hết 280000 đồng nên xét n>5. Tổng phí (nghìn đồng) là $250+40(n-5)+30=40n+80$. Điều kiện $40n+80\\le650$ cho $n\\le14.25$. Tối đa 14 quyển, phí 640000; 15 quyển hết 680000.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "14"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Mô hình chi phí theo bậc, lựa chọn miền phù hợp và làm tròn xuống theo điều kiện ngân sách.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "PRO-1",
+      "skillCode": "MATH9-PROBABILITY",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "content": "Hộp có 8 sản phẩm phân biệt, trong đó 3 lỗi và 5 đạt. Chọn ngẫu nhiên đồng thời 2 sản phẩm, mọi cặp đều đồng khả năng. Tính xác suất chọn đúng một sản phẩm lỗi; làm tròn đến hàng phần trăm (nhập số thập phân, không nhập phần trăm).",
+      "explanation": "Có 8×7/2=28 cặp. Cặp có đúng một lỗi: 3×5=15. Xác suất 15/28≈0.535714, làm tròn được 0.54.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "0.54"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Xây dựng không gian mẫu cặp không thứ tự và đếm biến cố đúng một lỗi.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "PRO-2",
+      "skillCode": "MATH9-PROBABILITY",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD",
+      "content": "Có 10 thẻ ghi các số từ 1 đến 10. Rút ngẫu nhiên đồng thời 2 thẻ khác nhau, mọi cặp đều đồng khả năng. Tính xác suất tổng hai số chia hết cho 3; làm tròn đến hàng phần trăm (nhập số thập phân).",
+      "explanation": "Có 45 cặp. Nhóm dư 0 có 3 số; dư 1 có 4; dư 2 có 3. Tổng chia hết cho 3 khi lấy hai số dư 0 (3 cặp), hoặc một dư 1 và một dư 2 (12 cặp). Xác suất 15/45=1/3≈0.33.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "0.33"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Phân nhóm theo số dư, đếm hai trường hợp rời nhau và đối chiếu không gian mẫu.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "OPT-1",
+      "skillCode": "SKILL-02",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "content": "Với $0\\le x\\le9$, tìm giá trị lớn nhất của $P=\\sqrt{x}+\\sqrt{9-x}-\\dfrac14\\sqrt{x(9-x)}$.",
+      "explanation": "Đặt $s=\\sqrt{x}+\\sqrt{9-x}$, khi đó $3\\le s\\le3\\sqrt2$ và $\\sqrt{x(9-x)}=(s^2-9)/2$. Suy ra $P=25/8-(s-4)^2/8\\le25/8$. Dấu bằng tại $x=(9+4\\sqrt2)/2$ hoặc $x=(9-4\\sqrt2)/2$, đều thuộc [0;9], cho s=4. Vậy giá trị lớn nhất là 3.125.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "3.125"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Phát hiện ẩn phụ không được gợi ý, xác lập miền, biến đổi cực trị và chứng minh điều kiện đạt dấu bằng.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "OPT-2",
+      "skillCode": "SKILL-02",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "content": "Với $0\\le x\\le16$, tìm giá trị lớn nhất của $P=\\sqrt{x}+\\sqrt{16-x}-\\dfrac15\\sqrt{x(16-x)}$.",
+      "explanation": "Đặt $s=\\sqrt{x}+\\sqrt{16-x}$, ta có $4\\le s\\le4\\sqrt2$ và $\\sqrt{x(16-x)}=(s^2-16)/2$. Khi đó $P=41/10-(s-5)^2/10\\le41/10$. Dấu bằng tại $x=(16+5\\sqrt7)/2$ hoặc $x=(16-5\\sqrt7)/2$, đều thuộc miền xác định và cho s=5. Kết quả 4.1.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "4.1"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Ẩn phụ, kiểm soát miền và điều kiện dấu bằng trong bài cực trị căn thức không có chỉ dẫn.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "GEO-1",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "content": "Hình vuông $ABCD$ cạnh 6 cm nội tiếp đường tròn tâm $O$. Điểm $P$ di động trên đường tròn, khác bốn đỉnh. Tìm giá trị lớn nhất của $PA\\cdot PB\\cdot PC\\cdot PD$ (đơn vị $\\mathrm{cm}^4$).",
+      "explanation": "Gọi bán kính là R, khoảng cách từ P đến AC và BD lần lượt là u,v. Hai đường kính AC,BD vuông góc nên $u^2+v^2=R^2$. Do góc APC và BPD vuông, công thức diện tích tam giác cho $PA\\cdot PC=2Ru$ và $PB\\cdot PD=2Rv$. Tích cần tìm là $4R^2uv\\le2R^2(u^2+v^2)=2R^4=a^4/2$. Dấu bằng khi u=v, đạt tại trung điểm một cung nhỏ giữa hai đỉnh kề nhau. Với a=6, kết quả là 648.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "648"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Kết hợp góc nội tiếp, hai cách tính diện tích, hai đường kính vuông góc, bất đẳng thức và chứng minh cấu hình đạt cực trị.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    },
+    {
+      "externalId": "GEO-2",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SHORT_ANSWER",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD",
+      "content": "Hình vuông $ABCD$ cạnh 8 cm nội tiếp đường tròn tâm $O$. Điểm $P$ di động trên đường tròn, khác bốn đỉnh. Tìm giá trị lớn nhất của $PA\\cdot PB\\cdot PC\\cdot PD$ (đơn vị $\\mathrm{cm}^4$).",
+      "explanation": "Gọi bán kính là R, khoảng cách từ P đến AC và BD lần lượt là u,v. Hai đường kính AC,BD vuông góc nên $u^2+v^2=R^2$. Do góc APC và BPD vuông, công thức diện tích tam giác cho $PA\\cdot PC=2Ru$ và $PB\\cdot PD=2Rv$. Tích cần tìm là $4R^2uv\\le2R^2(u^2+v^2)=2R^4=a^4/2$. Dấu bằng khi u=v, đạt tại trung điểm một cung nhỏ giữa hai đỉnh kề nhau. Với a=8, kết quả là 2048.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "2048"
+        ],
+        "tolerance": 1e-9
+      },
+      "source": {
+        "kind": "ORIGINAL_AUTHORED",
+        "author": "Codex AI",
+        "reviewStatus": "VERIFIED",
+        "humanApproved": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "rationale": "Kết hợp góc nội tiếp, hai cách tính diện tích, hai đường kính vuông góc, bất đẳng thức và chứng minh cấu hình đạt cực trị.",
+          "difficultyBasis": "Phân mức biên tập theo yêu cầu tư duy của ma trận dự án Toán 9; chưa hiệu chuẩn thực nghiệm, không phải ma trận quốc gia."
+        },
+        "provenance": "Tự soạn bổ sung; không trích từ PDF hoặc gán cho tác giả tài liệu."
+      }
+    }
+  ]
+}

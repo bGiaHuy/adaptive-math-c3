@@ -1,0 +1,49 @@
+{
+  "checks": [
+    "desktop: eight answer-state labels, four review matches, jump resets filter and focuses selected question",
+    "tablet: eight answer-state labels, four review matches, jump resets filter and focuses selected question",
+    "mobile: eight answer-state labels, four review matches, jump resets filter and focuses selected question"
+  ],
+  "accessibility": [
+    {
+      "size": "desktop",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".exam-result-nav > p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "size": "tablet",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".exam-result-nav > p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "size": "mobile",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".exam-result-header > div > p"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

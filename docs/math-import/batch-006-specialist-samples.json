@@ -1,0 +1,887 @@
+{
+  "batchId": "specialist-samples-7-sources",
+  "questions": [
+    {
+      "externalId": "specialist-1-SC-1",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình nào sau đây không phải phương trình bậc nhất hai ẩn?",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$2025x-2026y+2027=0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac12y-\\frac{2026}{2027}=0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\frac12x-2y=0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$2x+y^2-2=0$",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-1-SC-5",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình $x-3y+1=0$ nhận cặp số nào sau đây là nghiệm?",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "(1;−1)",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "(−1;0)",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "(2;−1)",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$(0;-\\frac13)$",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 5",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-1-SC-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình nào dưới đây nhận cặp số (−2;4) làm nghiệm?",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x-2y=0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$2x+y=0$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$x-y=2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$x+2y+1=0$",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/01_Phuong_trinh_he_hai_an.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-he-hai-phuong-trinh-bac-nhat-hai-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-1.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-2-SC-3",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho $(x+2)(5-2x)=0$. Giá trị x nào sau đây là nghiệm?",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "x = −2",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "x = 2",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "x = 1",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "x = −1",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 16,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-2-SC-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho $(\\frac x2-1)(1-3x)=0$. Giá trị x nào sau đây là nghiệm?",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "x = −2",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "x = 4",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "x = 3",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$x=\\frac13$",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 16,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-2-SC-8",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Tìm m để $(m-5x)(1-3x)=0$ có nghiệm x = 1.",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "m = −5",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "m = 5",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "m = −2",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "m = 2",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "PHẦN I / 8",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-phuong-trinh-va-bat-phuong-trinh-bac-nhat-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 16,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-2.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-3-SC-1",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Giá trị của hàm số $y=f(x)=-7x^2$ tại $x_0=-2$ là:",
+      "skillCode": "SKILL-05",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "28",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "14",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "21",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "−28",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+        "page": 8,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 8,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-3-SC-2",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Giá trị của hàm số $y=f(x)=\\frac45x^2$ tại $x_0=-5$ là:",
+      "skillCode": "SKILL-05",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "20",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "10",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "4",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "−20",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+        "page": 8,
+        "questionNumber": "PHẦN I / 2",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 8,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-3-SC-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Điểm A(−2;−1) thuộc đồ thị hàm số nào?",
+      "skillCode": "SKILL-05",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$y=3x^2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$y=-3x^2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$y=\\frac14x^2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$y=-\\frac14x^2$",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/03_Ham_so_phuong_trinh_bac_hai.pdf",
+        "page": 8,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-ham-so-y-ax2-a-%E2%89%A0-0-phuong-trinh-bac-hai-mot-an-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 8,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-3.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-4-SC-1",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho (O;R), điểm M bất kỳ biết OM = R. Chọn khẳng định đúng:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "M nằm ngoài (O;R).",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "M nằm trên (O;R).",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "M nằm trong (O;R).",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "M không thuộc (O;R).",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-4-SC-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trên mặt phẳng Oxy, xác định vị trí điểm A(−1;−1) với đường tròn tâm gốc tọa độ O, bán kính R = 2.",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "A nằm ngoài đường tròn.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "A nằm trên đường tròn.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "A nằm trong đường tròn.",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "Không kết luận được.",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-4-SC-5",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trên mặt phẳng Oxy, xác định vị trí điểm A(−3;−4) với đường tròn tâm gốc tọa độ O, bán kính R = 3.",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "A nằm ngoài (O;3).",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "A nằm trên (O;3).",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "A nằm trong (O;3).",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "Không kết luận được.",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/04_Duong_tron.pdf",
+        "page": 5,
+        "questionNumber": "PHẦN I / 5",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 5,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-4.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-5-SC-1",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Góc nội tiếp nhỏ hơn hoặc bằng 90° có số đo:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "Bằng nửa số đo góc ở tâm cùng chắn một cung.",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "Bằng số đo góc ở tâm cùng chắn một cung.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "Bằng số đo cung bị chắn.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "Bằng nửa số đo cung lớn.",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 7,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 7,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-5-SC-2",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Góc nội tiếp chắn nửa đường tròn bằng bao nhiêu độ?",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$45^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$90^\\circ$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$60^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$120^\\circ$",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 7,
+        "questionNumber": "PHẦN I / 2",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 7,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-5-SC-3",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Khẳng định nào sau đây sai?",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "Trong một đường tròn, góc nội tiếp chắn nửa đường tròn là góc vuông.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "Trong một đường tròn, hai góc nội tiếp bằng nhau chắn hai cung bằng nhau.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "Trong một đường tròn, hai góc nội tiếp cùng chắn một cung thì bằng nhau.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "Trong một đường tròn, hai góc nội tiếp bằng nhau thì cùng chắn một cung.",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 7,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2026/07/tu-luan-va-trac-nghiem-duong-tron-ngoai-tiep-va-duong-tron-noi-tiep-toan-9-knttvcs.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 7,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-5.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-6-SC-3",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho a,b là hai số không âm. Khẳng định nào sau đây đúng?",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\sqrt{ab}=a\\sqrt b$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\sqrt a\\sqrt b=b\\sqrt a$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\sqrt{ab}=\\sqrt a\\cdot\\sqrt b$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\sqrt{ab}=\\frac{\\sqrt a}{\\sqrt b}$",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+        "page": 203,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 203,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-6-SC-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho a không âm, b,c dương. Khẳng định nào sau đây sai?",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\sqrt{\\frac{ac}b}=\\frac{\\sqrt{ac}}{\\sqrt b}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac{\\sqrt{ab}}{\\sqrt c}=\\sqrt{\\frac{ab}c}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\sqrt a\\sqrt b\\sqrt c=\\sqrt{abc}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\frac{\\sqrt a}{\\sqrt{bc}}=\\frac{\\sqrt{ab}}{\\sqrt c}$",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+        "page": 203,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 203,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-6-SC-6",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho số thực a. Khẳng định nào sau đây sai?",
+      "skillCode": "MATH9-CUBE-ROOTS",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "Với $a\\ge0,b\\ge0$, nếu $a<b$ thì $\\sqrt a<\\sqrt b$.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "Với $a\\ge0,b\\ge0$, nếu $\\sqrt a<\\sqrt b$ thì $a<b$.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "Nếu $a<b$ thì $\\sqrt[3]a>\\sqrt[3]b$.",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "Nếu $\\sqrt[3]a<\\sqrt[3]b$ thì $a<b$.",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/06_Can_thuc_Canh_Dieu.pdf",
+        "page": 203,
+        "questionNumber": "PHẦN I / 6",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-can-thuc-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 203,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-6.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-7-SC-1",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Với mọi góc nhọn $\\alpha$, ta có:",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\cot(90^\\circ-\\alpha)=\\cos\\alpha$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\tan(90^\\circ-\\alpha)=\\cos\\alpha$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\cot(90^\\circ-\\alpha)=\\sin\\alpha$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\tan^2(90^\\circ-\\alpha)=\\cot^2\\alpha$",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "questionNumber": "PHẦN I / 1",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 108,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-7-SC-3",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho góc nhọn $\\alpha$. Chọn khẳng định sai:",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\cot\\alpha=\\frac1{\\tan\\alpha}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\tan^2\\alpha\\cdot\\cot^2\\alpha=1$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$0<\\sin\\alpha<1$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$0<\\cot\\alpha<1$",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "questionNumber": "PHẦN I / 3",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 108,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    },
+    {
+      "externalId": "specialist-7-SC-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hai góc nhọn $\\alpha+\\beta=90^\\circ$. Khẳng định nào đúng?",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\tan\\alpha=\\sin\\beta$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\tan\\alpha=\\cot\\beta$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\tan\\alpha=\\cos\\beta$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\tan\\alpha=\\tan\\beta$",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/07_Luong_giac_Canh_Dieu.pdf",
+        "page": 108,
+        "questionNumber": "PHẦN I / 4",
+        "url": "https://thcs.toanmath.com/2025/09/tu-luan-va-trac-nghiem-he-thuc-luong-trong-tam-giac-vuong-toan-9-canh-dieu.html",
+        "author": "Trương Ngọc Vỹ",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "page": 108,
+        "encoding": "Phương án đúng được nguồn tô đỏ; đối chiếu ảnh supplement-source-7.png"
+      },
+      "reviewNotes": "Mẫu chuyên đề: đối chiếu công thức, từng phương án và phương án đỏ. Không suy diễn từ thứ tự văn bản hay màu tiêu đề."
+    }
+  ]
+}

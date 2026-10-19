@@ -1,0 +1,2870 @@
+{
+  "batchId": "thpt-phuloc-source-54-v1",
+  "questions": [
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q01",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 1 · phần I · bản gốc](/math-import-assets/thpt-question-ee4d1d8f3fe8e3e0bebfcc6f457b543268e1c7d7cddc2fc817785c3988f4af97.png)",
+      "explanation": "Hệ số của i và j lần lượt là 3 và −9 nên tọa độ vectơ là (3; −9).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(3; -9)$"
+        },
+        {
+          "key": "B",
+          "content": "$(3; 9)$"
+        },
+        {
+          "key": "C",
+          "content": "$(9; 3)$"
+        },
+        {
+          "key": "D",
+          "content": "$(-9; 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-ee4d1d8f3fe8e3e0bebfcc6f457b543268e1c7d7cddc2fc817785c3988f4af97.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q02",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 2 · phần I · bản gốc](/math-import-assets/thpt-question-ee5ca9011dc4a5a0686210627efa5ffddd5998e5d13fba71276a527e473da957.png)",
+      "explanation": "Các phần tử thuộc A nhưng không thuộc B là 0 và 1.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$A \\setminus B = \\{0\\}$"
+        },
+        {
+          "key": "B",
+          "content": "$A \\setminus B = \\{1; 2\\}$"
+        },
+        {
+          "key": "C",
+          "content": "$A \\setminus B = \\{1; 5\\}$"
+        },
+        {
+          "key": "D",
+          "content": "$A \\setminus B = \\{0; 1\\}$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-ee5ca9011dc4a5a0686210627efa5ffddd5998e5d13fba71276a527e473da957.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q03",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 3 · phần I · bản gốc](/math-import-assets/thpt-question-db344d5e3479a2fd5b95571a977e825a40f9fc5ebdbdb5f6722924e4f27b3429.png)",
+      "explanation": "Phủ định của mệnh đề với mọi là tồn tại; phủ định của > 0 là ≤ 0.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\forall x \\in \\mathbb{R}, x^2 + 5x + 10 \\le 0$"
+        },
+        {
+          "key": "B",
+          "content": "$\\forall x \\in \\mathbb{R}, x^2 + 5x + 10 < 0$"
+        },
+        {
+          "key": "C",
+          "content": "$\\exists x \\in \\mathbb{R}, x^2 + 5x + 10 < 0$"
+        },
+        {
+          "key": "D",
+          "content": "$\\exists x \\in \\mathbb{R}, x^2 + 5x + 10 \\le 0$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "3",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-db344d5e3479a2fd5b95571a977e825a40f9fc5ebdbdb5f6722924e4f27b3429.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q04",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 4 · phần I · bản gốc](/math-import-assets/thpt-question-485ed739981c0b963e85a278cda6246984e3419b968e5fa6df271f4ae6cc27de.png)",
+      "explanation": "Sai số tuyệt đối là giá trị tuyệt đối của hiệu giữa số gần đúng và số đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\Delta_a = |\\overline{a}+a|$"
+        },
+        {
+          "key": "B",
+          "content": "$\\Delta_a = \\overline{a} + a$"
+        },
+        {
+          "key": "C",
+          "content": "$\\Delta_a = \\overline{a}-a$"
+        },
+        {
+          "key": "D",
+          "content": "$\\Delta_a = |a - \\overline{a}|$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "4",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-485ed739981c0b963e85a278cda6246984e3419b968e5fa6df271f4ae6cc27de.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q05",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 5 · phần I · bản gốc](/math-import-assets/thpt-question-984f3fa0896d069a373ff7b3a46495744647a3ac52ef1e236cfa385058c65a88.png)",
+      "explanation": "Nhận xét ăn phở rất ngon mang tính chủ quan, không có giá trị đúng/sai xác định.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$2 + 8 = 6$"
+        },
+        {
+          "key": "B",
+          "content": "Số 18 chia hết cho 6."
+        },
+        {
+          "key": "C",
+          "content": "Ăn phở rất ngon!"
+        },
+        {
+          "key": "D",
+          "content": "Việt Nam có 54 dân tộc."
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-984f3fa0896d069a373ff7b3a46495744647a3ac52ef1e236cfa385058c65a88.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q06",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 6 · phần I · bản gốc](/math-import-assets/thpt-question-c7264eb4642aa444af979edc68002b774a785bc6ead6653d114e0e601fa40b2a.png)",
+      "explanation": "Các số tự nhiên không lớn hơn 5 là 0, 1, 2, 3, 4, 5.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$A = \\{0; 1; 2; 3; 4; 5\\}$"
+        },
+        {
+          "key": "B",
+          "content": "$A = \\{1; 2; 3; 4; 5\\}$"
+        },
+        {
+          "key": "C",
+          "content": "$A = \\{1; 2; 3; 4\\}$"
+        },
+        {
+          "key": "D",
+          "content": "$A = \\{0; 1; 2; 3; 4\\}$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "6",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-c7264eb4642aa444af979edc68002b774a785bc6ead6653d114e0e601fa40b2a.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q07",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 7 · phần I · bản gốc](/math-import-assets/thpt-question-85cae5c11124056f0a598bf9a951184aabc15d85a839cd0b76dbafa479963d62.png)",
+      "explanation": "Thay N(2; −2) vào 2x − y được 6 > 5. Các điểm còn lại cho 5, 1, −3 nên không thỏa.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$N(2; -2)$"
+        },
+        {
+          "key": "B",
+          "content": "$M(2; -1)$"
+        },
+        {
+          "key": "C",
+          "content": "$P(1; 1)$"
+        },
+        {
+          "key": "D",
+          "content": "$Q(-1; 1)$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-85cae5c11124056f0a598bf9a951184aabc15d85a839cd0b76dbafa479963d62.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q08",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 8 · phần I · bản gốc](/math-import-assets/thpt-question-8f66a1d6f58d826e21a1396d4fd450adc7fa84e75d69f68fccbb490c8149daea.png)",
+      "explanation": "Sĩ số 40 học sinh là số đếm chính xác; các số đo và số ước lượng ở phương án khác là số gần đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "Dân số xã Phú Lộc khoảng 50929 người."
+        },
+        {
+          "key": "B",
+          "content": "Khoảng cách từ nhà em đến trường là 1,2 km."
+        },
+        {
+          "key": "C",
+          "content": "Cân một túi gạo cho kết quả là 5,2 kg."
+        },
+        {
+          "key": "D",
+          "content": "Sĩ số của lớp em là 40 bạn."
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-8f66a1d6f58d826e21a1396d4fd450adc7fa84e75d69f68fccbb490c8149daea.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q09",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 9 · phần I · bản gốc](/math-import-assets/thpt-question-0b4443f69a3af3cbbd2446f432239379e051988afd6d4ecc3861476075cc30d9.png)",
+      "explanation": "Đuôi vectơ ở (1; 0), đầu ở (3; 3), nên tọa độ vectơ là (3 − 1; 3 − 0) = (2; 3).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(3; 3)$"
+        },
+        {
+          "key": "B",
+          "content": "$(3; 2)$"
+        },
+        {
+          "key": "C",
+          "content": "$(2; 3)$"
+        },
+        {
+          "key": "D",
+          "content": "$(3; -2)$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-0b4443f69a3af3cbbd2446f432239379e051988afd6d4ecc3861476075cc30d9.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q10",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 10 · phần I · bản gốc](/math-import-assets/thpt-question-f46651acffbbe0f7881eb965eb3417f4972942cc557c3b26755ce8e6dc7f32f1.png)",
+      "explanation": "Chỉ B gồm hai bất phương trình bậc nhất hai ẩn. A chứa xy, C chứa x², D có phương trình thay cho bất phương trình.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\begin{cases}x+2xy>2024\\\\2x-y<2025\\end{cases}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\begin{cases} x + y > 2024 \\\\ 2x - y < 2025 \\end{cases}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\begin{cases} x^2 + y > 2024 \\\\ 2x - y < 2025 \\end{cases}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\begin{cases}x+y>2024\\\\2x-y=2025\\end{cases}$"
+        }
+      ],
+      "correctOption": "B",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "10",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-f46651acffbbe0f7881eb965eb3417f4972942cc557c3b26755ce8e6dc7f32f1.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q11",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 11 · phần I · bản gốc](/math-import-assets/thpt-question-4414a823335e5f07862930dc061f7a5a19e1de80520b67ca14adf9d513e232e6.png)",
+      "explanation": "Định lí côsin: a² = b² + c² − 2bc cos A.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$a^2 = b^2 + c^2 - 2bc \\cos A$"
+        },
+        {
+          "key": "B",
+          "content": "$\\dfrac{a}{\\sin A} = R$"
+        },
+        {
+          "key": "C",
+          "content": "$b^2 = a^2 + c^2 + 2ac \\cos B$"
+        },
+        {
+          "key": "D",
+          "content": "$S = \\dfrac{abc}{R}$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-4414a823335e5f07862930dc061f7a5a19e1de80520b67ca14adf9d513e232e6.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q12",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 12 · phần I · bản gốc](/math-import-assets/thpt-question-544398ef1b6f1b993a4182955faeb44228ea54a2546c992b5d2e3e2a7195736c.png)",
+      "explanation": "Đổi thứ tự các số hạng rồi dùng quy tắc đa giác: AB + BC + CD + DA là vectơ không.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\vec{BA}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\vec{BD}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\vec{0}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\vec{AC}$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "12",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-544398ef1b6f1b993a4182955faeb44228ea54a2546c992b5d2e3e2a7195736c.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q13",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T03",
+      "questionType": "TRUE_FALSE",
+      "content": "![Câu 1 · phần II · bản gốc](/math-import-assets/thpt-question-e230a3ea11e9a511bdb14c9e9ee9eb50f7a586d5f4ebc6f1b69beadc2b13af22.png)",
+      "explanation": "a) Sai: giá trị nhỏ nhất là 3,4, không thuộc Tây Nguyên. b) Đúng: tổng 28,2 chia 6 bằng 4,7. c) Đúng: 6,5 − 3,4 = 3,1. d) Đúng: cộng cùng một hằng số không làm thay đổi độ lệch chuẩn.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Vùng kinh tế Tây Nguyên có mức thu nhập bình quân thấp nhất trong 6 vùng.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Thu nhập trung bình của các vùng là 4,7 triệu đồng/tháng.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Khoảng biến thiên của mẫu số liệu thu nhập giữa các vùng là 3,1 triệu đồng.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Nếu tất cả các vùng đều có thu nhập tăng thêm 1 triệu đồng/tháng thì độ lệch chuẩn của mẫu số liệu mới sẽ không thay đổi so với số liệu ban đầu.",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "II",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-e230a3ea11e9a511bdb14c9e9ee9eb50f7a586d5f4ebc6f1b69beadc2b13af22.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q14",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T01",
+      "questionType": "TRUE_FALSE",
+      "content": "![Câu 2 · phần II · bản gốc](/math-import-assets/thpt-question-2cf8516cb1c87db331db519c947acf4c36566249223f3e22e303d775f215d5d2.png)",
+      "explanation": "a) Sai: O nằm trên BD. b) Đúng: O là trung điểm AC nên OA = −AC/2. c) Đúng: cả hai vế bằng BD. d) Đúng: độ dài BD = √(4² + 3²) = 5.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$\\vec{OB}$ không cùng phương với $\\vec{BD}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "$\\vec{OA} = -\\dfrac{1}{2}\\vec{AC}$.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "$\\vec{BA} + \\vec{BC} = \\vec{BO} + \\vec{OD}$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "$|\\vec{BA} + \\vec{BC}| = 5$.",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "II",
+        "questionNumber": "2",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-2cf8516cb1c87db331db519c947acf4c36566249223f3e22e303d775f215d5d2.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q15",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 1 · phần III · bản gốc](/math-import-assets/thpt-question-bcceac78051bf28d6faae476248be94193af095d3876f57b2736b0a6ff27b514.png)",
+      "explanation": "Trung bình lượng mưa là (120 + 150 + 180 + 200 + 250)/5 = 180.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "180"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-bcceac78051bf28d6faae476248be94193af095d3876f57b2736b0a6ff27b514.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q16",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 2 · phần III · bản gốc](/math-import-assets/thpt-question-c192ec059407c170f964fb36ca5127458435f104c2ae51cbed0800eb58210c77.png)",
+      "explanation": "Vì AC = AB + AD nên 2AB − AC = AB − AD. Hai vectơ AB, AD vuông góc, cùng độ dài 3√2 nên độ dài hiệu là √(18 + 18) = 6.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "6"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "2",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-c192ec059407c170f964fb36ca5127458435f104c2ae51cbed0800eb58210c77.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q17",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T03",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 3 · phần III · bản gốc](/math-import-assets/thpt-question-e0a6a38bd68235a11803ce09d7b4224f2b774fdce9618a87074b518a309ae074.png)",
+      "explanation": "Từ A(120; −50) đến B(180; 30) trong 2 giờ, vận tốc là (30; 40). Sau thêm 3 giờ, C = (270; 150). Do đó x − 2y = 270 − 300 = −30.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "-30"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "3",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-e0a6a38bd68235a11803ce09d7b4224f2b774fdce9618a87074b518a309ae074.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-026-Q18",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T03",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 4 · phần III · bản gốc](/math-import-assets/thpt-question-6a0fefae6617f395a47df7f0df74f03dd5a2bb4f09adc16bdd2e9b99e2a6fbdc.png)",
+      "explanation": "Giá trị lớn nhất 65, nhỏ nhất 43; khoảng biến thiên bằng 22.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "22"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-026",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "4",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "94879d072a05eb874a7bfa4eb4eb7637d343f04ffce660a9182fbe590f1458a3",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-6a0fefae6617f395a47df7f0df74f03dd5a2bb4f09adc16bdd2e9b99e2a6fbdc.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q01",
+      "grade": 11,
+      "skillCode": "KNTT-11-C04-T05",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 1 · phần I · bản gốc](/math-import-assets/thpt-question-e09362e5d310e7a447178d4576b7852e35079614906304efa748ab8dd5e803a3.png)",
+      "explanation": "Phép chiếu song song của hình tròn nói chung là một elip, không nhất thiết là hình tròn. Do đó C là khẳng định sai.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "Hình biểu diễn của hình tam giác (vuông, cân, đều) trong không gian là hình tam giác."
+        },
+        {
+          "key": "B",
+          "content": "Hình biểu diễn của hình bình hành (hình vuông, hình thoi, hình chữ nhật) trong không gian là hình bình hành."
+        },
+        {
+          "key": "C",
+          "content": "Hình biểu diễn của hình tròn trong không gian là hình tròn."
+        },
+        {
+          "key": "D",
+          "content": "Hình biểu diễn của hai đường thẳng song song trong không gian là hai đường thẳng song song."
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-e09362e5d310e7a447178d4576b7852e35079614906304efa748ab8dd5e803a3.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q02",
+      "grade": 11,
+      "skillCode": "KNTT-11-C04-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 2 · phần I · bản gốc](/math-import-assets/thpt-question-efde20524034798f2cc7e15607b3cc0e5836f2d97493fd1c144c05988c36b99d.png)",
+      "explanation": "Đường thẳng nằm trong mặt phẳng được kí hiệu a ⊂ (P). Kí hiệu a ∈ (P) không đúng quan hệ này.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$a \\subset (P)$"
+        },
+        {
+          "key": "B",
+          "content": "$a \\in (P)$"
+        },
+        {
+          "key": "C",
+          "content": "$H \\in (P)$"
+        },
+        {
+          "key": "D",
+          "content": "$H \\in a$"
+        }
+      ],
+      "correctOption": "B",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-efde20524034798f2cc7e15607b3cc0e5836f2d97493fd1c144c05988c36b99d.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q03",
+      "grade": 11,
+      "skillCode": "KNTT-11-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 3 · phần I · bản gốc](/math-import-assets/thpt-question-b932abfc36c1be7f73640cbda3d3ce4de35b42ea825f383b04cdd666d188ad6b.png)",
+      "explanation": "1/5 > 1/10 > 1/15, nên dãy ở D giảm.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\dfrac{1}{9}; \\dfrac{1}{6}; \\dfrac{1}{3}$"
+        },
+        {
+          "key": "B",
+          "content": "$7; 7; 7$"
+        },
+        {
+          "key": "C",
+          "content": "$3; 0; 9$"
+        },
+        {
+          "key": "D",
+          "content": "$\\dfrac{1}{5}; \\dfrac{1}{10}; \\dfrac{1}{15}$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "3",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-b932abfc36c1be7f73640cbda3d3ce4de35b42ea825f383b04cdd666d188ad6b.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q04",
+      "grade": 11,
+      "skillCode": "KNTT-11-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 4 · phần I · bản gốc](/math-import-assets/thpt-question-2731dead429da6a66c50318ac894aa8ec4f7a68664119215aba06c6445ad77f0.png)",
+      "explanation": "Các nhóm trước 12 giây có tổng tần số 2 + 4 + 7 = 13.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$6$"
+        },
+        {
+          "key": "B",
+          "content": "$7$"
+        },
+        {
+          "key": "C",
+          "content": "$13$"
+        },
+        {
+          "key": "D",
+          "content": "$17$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "4",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-2731dead429da6a66c50318ac894aa8ec4f7a68664119215aba06c6445ad77f0.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q05",
+      "grade": 11,
+      "skillCode": "KNTT-11-C05-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 5 · phần I · bản gốc](/math-import-assets/thpt-question-8b32045e0da80aceb81c7cc01bfe93f34120926995e7227ee4ccd8a240591ac1.png)",
+      "explanation": "Đa thức liên tục tại 1; giới hạn bằng 2 − 3 + 1 = 0.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$1$"
+        },
+        {
+          "key": "B",
+          "content": "$0$"
+        },
+        {
+          "key": "C",
+          "content": "$2$"
+        },
+        {
+          "key": "D",
+          "content": "$+\\infty$"
+        }
+      ],
+      "correctOption": "B",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-8b32045e0da80aceb81c7cc01bfe93f34120926995e7227ee4ccd8a240591ac1.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q06",
+      "grade": 11,
+      "skillCode": "KNTT-11-C02-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 6 · phần I · bản gốc](/math-import-assets/thpt-question-5aa406064f71818813d79b89e356eee58829d639f327d63b0f12a9042360ca44.png)",
+      "explanation": "Với uₙ = 7n + 2, số hạng đầu u₁ = 9.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$2$"
+        },
+        {
+          "key": "B",
+          "content": "$5$"
+        },
+        {
+          "key": "C",
+          "content": "$7$"
+        },
+        {
+          "key": "D",
+          "content": "$9$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "6",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-5aa406064f71818813d79b89e356eee58829d639f327d63b0f12a9042360ca44.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q07",
+      "grade": 11,
+      "skillCode": "KNTT-11-C01-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 7 · phần I · bản gốc](/math-import-assets/thpt-question-fda570287c345f00daed8084a6d826231112da7cd88528d4d268838ae0ff7de3.png)",
+      "explanation": "cos(−x) = cos x trên miền xác định đối xứng nên hàm cos là hàm chẵn.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$y = \\sin x$"
+        },
+        {
+          "key": "B",
+          "content": "$y = \\cot x$"
+        },
+        {
+          "key": "C",
+          "content": "$y = \\tan x$"
+        },
+        {
+          "key": "D",
+          "content": "$y = \\cos x$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-fda570287c345f00daed8084a6d826231112da7cd88528d4d268838ae0ff7de3.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q08",
+      "grade": 11,
+      "skillCode": "KNTT-11-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 8 · phần I · bản gốc](/math-import-assets/thpt-question-e0cec0ea27be0da194e15dabc7ed2b83b28c5e805525c16b1e4c7565093a6793.png)",
+      "explanation": "15° = 15π/180 = π/12 radian.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\dfrac{\\pi}{15}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\dfrac{\\pi}{6}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\dfrac{\\pi}{12}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\dfrac{\\pi}{8}$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-e0cec0ea27be0da194e15dabc7ed2b83b28c5e805525c16b1e4c7565093a6793.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q09",
+      "grade": 11,
+      "skillCode": "KNTT-11-C04-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 9 · phần I · bản gốc](/math-import-assets/thpt-question-edfac9ef07aaaf9f09db43859dcba7af4379f19906e03b42f45ba13d06ee999a.png)",
+      "explanation": "M, N là trung điểm SA, SB nên MN song song AB. Trong hình bình hành, AB song song CD; do đó MN song song CD.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$MN \\parallel CD$"
+        },
+        {
+          "key": "B",
+          "content": "$MN \\parallel AD$"
+        },
+        {
+          "key": "C",
+          "content": "$MG \\parallel BC$"
+        },
+        {
+          "key": "D",
+          "content": "$NG \\parallel AD$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-edfac9ef07aaaf9f09db43859dcba7af4379f19906e03b42f45ba13d06ee999a.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q10",
+      "grade": 11,
+      "skillCode": "KNTT-11-C01-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 10 · phần I · bản gốc](/math-import-assets/thpt-question-8e07939b16b51f446fd1d76d66a86d4423d0898a3e77443ad8f6c1d8f61e95e0.png)",
+      "explanation": "Công thức cộng: sin(a + b) = sin a cos b + cos a sin b.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\sin(a + b)$"
+        },
+        {
+          "key": "B",
+          "content": "$\\cos(a + b)$"
+        },
+        {
+          "key": "C",
+          "content": "$\\sin(a - b)$"
+        },
+        {
+          "key": "D",
+          "content": "$\\cos(a - b)$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "10",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-8e07939b16b51f446fd1d76d66a86d4423d0898a3e77443ad8f6c1d8f61e95e0.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q11",
+      "grade": 11,
+      "skillCode": "KNTT-11-C01-T04",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 11 · phần I · bản gốc](/math-import-assets/thpt-question-99484fb89aefe9cd424fe31bd8890c23866ccfb2a16de25d2495d55d9e9463ad.png)",
+      "explanation": "sin x = 0 khi và chỉ khi x = kπ, k là số nguyên.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$x = k\\pi \\; (k \\in \\mathbb{Z})$"
+        },
+        {
+          "key": "B",
+          "content": "$x = \\dfrac{\\pi}{2} + k2\\pi \\; (k \\in \\mathbb{Z})$"
+        },
+        {
+          "key": "C",
+          "content": "$x = \\dfrac{\\pi}{2}+k\\pi\\;(k\\in\\mathbb{Z})$"
+        },
+        {
+          "key": "D",
+          "content": "$x = -\\dfrac{\\pi}{2} + k2\\pi \\; (k \\in \\mathbb{Z})$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-99484fb89aefe9cd424fe31bd8890c23866ccfb2a16de25d2495d55d9e9463ad.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q12",
+      "grade": 11,
+      "skillCode": "KNTT-11-C03-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 12 · phần I · bản gốc](/math-import-assets/thpt-question-8f7f3defdf3ff46170f7d9dbd3f6518bdb4d7b6ed5126ae129c8c94ca851c91e.png)",
+      "explanation": "Nhóm [40; 50) có tần số lớn nhất bằng 15 nên là nhóm chứa mốt.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$45$"
+        },
+        {
+          "key": "B",
+          "content": "$55$"
+        },
+        {
+          "key": "C",
+          "content": "$[50; 60)$"
+        },
+        {
+          "key": "D",
+          "content": "$[40; 50)$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "12",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-8f7f3defdf3ff46170f7d9dbd3f6518bdb4d7b6ed5126ae129c8c94ca851c91e.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q13",
+      "grade": 11,
+      "skillCode": "KNTT-11-C04-T04",
+      "questionType": "TRUE_FALSE",
+      "content": "![Câu 1 · phần II · bản gốc](/math-import-assets/thpt-question-6d812a730294e357da56e9af4030e28f5d4b5233a22008bee81bfb03a9af127c.png)",
+      "explanation": "a) Đúng: S, O cùng thuộc (SAC), (SBD). b) Sai: đường trung bình MO của tam giác SAC song song SC. c) Đúng: MN song song BC và MO song song SC nên (MNO) song song (SBC). d) Đúng: MO song song SC và không nằm trong (SBC).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$SO$ là giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "$MO \\parallel SB$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "$(MNO) \\parallel (SBC)$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "$MO \\parallel (SBC)$.",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "II",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-6d812a730294e357da56e9af4030e28f5d4b5233a22008bee81bfb03a9af127c.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q14",
+      "grade": 11,
+      "skillCode": "KNTT-11-C05-T03",
+      "questionType": "TRUE_FALSE",
+      "content": "![Câu 2 · phần II · bản gốc](/math-import-assets/thpt-question-5e814a855ec0107b84a436206b86c4df3b1a4b1e36b12341e304470122023bf3.png)",
+      "explanation": "a) Đúng: nhánh x² + 1 liên tục quanh 2. b) Sai: f(0) = 1. c) Sai: giới hạn bên phải bằng 1. d) Đúng: giới hạn trái bằng −1 khác giới hạn phải bằng 1.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Hàm số $y = f(x)$ liên tục tại $x = 2$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "$f(0) = 2$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "$\\lim_{x \\to 0^+} f(x) = -1$.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "Hàm số $y = f(x)$ gián đoạn tại $x = 0$.",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "II",
+        "questionNumber": "2",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-5e814a855ec0107b84a436206b86c4df3b1a4b1e36b12341e304470122023bf3.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q15",
+      "grade": 11,
+      "skillCode": "KNTT-11-C02-T03",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 1 · phần III · bản gốc](/math-import-assets/thpt-question-d4d912802ca966e35874083d329f2a9e1bb14c9aea5e91a5a9d6f2f6dd2f6367.png)",
+      "explanation": "Cấp số nhân có u₅ = u₁q⁴ = 2 × 3⁴ = 162.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "162"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-d4d912802ca966e35874083d329f2a9e1bb14c9aea5e91a5a9d6f2f6dd2f6367.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q16",
+      "grade": 11,
+      "skillCode": "KNTT-11-C05-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 2 · phần III · bản gốc](/math-import-assets/thpt-question-84cbffaeb3a3f52f3b33826ff78155762fa2f89632424468990b97547f210fea.png)",
+      "explanation": "Chia tử và mẫu cho n²: giới hạn bằng 1/7. Do 1/a = 1/7 nên a = 7.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "7"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "2",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-84cbffaeb3a3f52f3b33826ff78155762fa2f89632424468990b97547f210fea.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q17",
+      "grade": 11,
+      "skillCode": "KNTT-11-C01-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 3 · phần III · bản gốc](/math-import-assets/thpt-question-40ee4dd1382255e96a7e876f1493d47970040d921d84d840bfae6b5a57cc8593.png)",
+      "explanation": "Dùng sin u − sin v = 2 sin((u − v)/2) cos((u + v)/2): a = −1/8, b = 3/16; 4a + 8b = −1/2 + 3/2 = 1.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "1"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "3",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-40ee4dd1382255e96a7e876f1493d47970040d921d84d840bfae6b5a57cc8593.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-126-Q18",
+      "grade": 11,
+      "skillCode": "KNTT-11-C03-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 4 · phần III · bản gốc (1/2)](/math-import-assets/thpt-question-57e29c7b041eb6351a158b2275b5541a4da3aaa970b395be58638003b8151f53.png)\n![Câu 4 · phần III · bản gốc (2/2)](/math-import-assets/thpt-question-5f49dd2e9fadf650694db8b66ce8d7bf58d2c2dd475b7510c634a86c5735d752.png)",
+      "explanation": "Trung điểm các nhóm là 2, 6, 10, 14, 18. Trung bình bằng (2×2 + 6×4 + 10×7 + 14×4 + 18×3)/20 = 10,4.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "10.4",
+          "10,4"
+        ],
+        "instructions": "Nhập số thập phân (làm tròn 1 chữ số)",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-126",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "4",
+        "sourcePages": [
+          2,
+          3
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "aa443bc85ee29d1ebe108bd22df02dff9bae361152b3507451e10efd115f5188",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-57e29c7b041eb6351a158b2275b5541a4da3aaa970b395be58638003b8151f53.png",
+          "thpt-question-5f49dd2e9fadf650694db8b66ce8d7bf58d2c2dd475b7510c634a86c5735d752.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q01",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 1 · phần I · bản gốc](/math-import-assets/thpt-question-367c456c48861d61645e7a1600e50fd2a7477ef771fd5a3cdba1a34b583c7897.png)",
+      "explanation": "Hai mặt đối diện hình hộp bằng nhau và cùng hướng tương ứng: B’D’ = BD.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\vec{A'C'}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\vec{DB}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\vec{BD}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\vec{D'B'}$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-367c456c48861d61645e7a1600e50fd2a7477ef771fd5a3cdba1a34b583c7897.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q02",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 2 · phần I · bản gốc](/math-import-assets/thpt-question-7ffac270c8c0a89a9882ea8984a9793c87ab0370c3c51bbb83ff8705538f9857.png)",
+      "explanation": "Cộng ba vectơ cạnh xuất phát từ A’ theo quy tắc hình hộp được vectơ đường chéo A’C.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\vec{C'A}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\vec{AC'}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\vec{A'C}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\vec{CA'}$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-7ffac270c8c0a89a9882ea8984a9793c87ab0370c3c51bbb83ff8705538f9857.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q03",
+      "grade": 12,
+      "skillCode": "KNTT-12-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 3 · phần I · bản gốc](/math-import-assets/thpt-question-b6dc47153038ed1963d61e779ca9419efa4d3019ac347473f45917c6e91a5ce7.png)",
+      "explanation": "Đạo hàm đổi dấu + sang − tại −1 và − sang + tại 1. Tại 0 không đổi dấu. Hàm số có hai điểm cực trị.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$3$"
+        },
+        {
+          "key": "B",
+          "content": "$1$"
+        },
+        {
+          "key": "C",
+          "content": "$2$"
+        },
+        {
+          "key": "D",
+          "content": "$0$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "3",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-b6dc47153038ed1963d61e779ca9419efa4d3019ac347473f45917c6e91a5ce7.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q04",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 4 · phần I · bản gốc](/math-import-assets/thpt-question-ad69a35621bda99bd32404022ced58ad191a381c12957e1c57aa4c2d40d4810c.png)",
+      "explanation": "Quy tắc ba điểm: AB + BC = AC; phép cộng vectơ có tính giao hoán.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\vec{BC} + \\vec{AB} = \\vec{AC}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\vec{AB} + \\vec{BD} = \\vec{DA}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\vec{AB} - \\vec{AD} = \\vec{BD}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\vec{AC} - \\vec{CB} = \\vec{AB}$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "4",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-ad69a35621bda99bd32404022ced58ad191a381c12957e1c57aa4c2d40d4810c.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q05",
+      "grade": 12,
+      "skillCode": "KNTT-12-C01-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 5 · phần I · bản gốc](/math-import-assets/thpt-question-dc8976a43e5425086625503ab6faecb38167ca223f5a85ff504a43560778b9c1.png)",
+      "explanation": "Mẫu số bằng 0 tại x = 2, trong khi tử bằng 8 khác 0, nên tiệm cận đứng là x = 2.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$x = 2$"
+        },
+        {
+          "key": "B",
+          "content": "$x = 3$"
+        },
+        {
+          "key": "C",
+          "content": "$y = 3$"
+        },
+        {
+          "key": "D",
+          "content": "$y = 2$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-dc8976a43e5425086625503ab6faecb38167ca223f5a85ff504a43560778b9c1.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q06",
+      "grade": 12,
+      "skillCode": "KNTT-12-C01-T04",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 6 · phần I · bản gốc (1/2)](/math-import-assets/thpt-question-5e48271104d4dee1e33a7d28ae84e4a654adff3ccd4327c315dfe190ee60512f.png)\n![Câu 6 · phần I · bản gốc (2/2)](/math-import-assets/thpt-question-7aba45f2fa1e84026f12bbc551e3ee067c439d21913ba01ea4969ebd701dc802.png)",
+      "explanation": "Đồ thị có tiệm cận đứng x = −1, ngang y = 1, đi qua (0; −1) và (1; 0). Phương án A thỏa các đặc điểm này.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$y = \\dfrac{x - 1}{x + 1}$"
+        },
+        {
+          "key": "B",
+          "content": "$y=\\dfrac{x^2+3x+1}{x+3}$"
+        },
+        {
+          "key": "C",
+          "content": "$y = x^3 - 3x^2$"
+        },
+        {
+          "key": "D",
+          "content": "$y=\\dfrac{-2x+1}{2x+2}$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "6",
+        "sourcePages": [
+          1,
+          2
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-5e48271104d4dee1e33a7d28ae84e4a654adff3ccd4327c315dfe190ee60512f.png",
+          "thpt-question-7aba45f2fa1e84026f12bbc551e3ee067c439d21913ba01ea4969ebd701dc802.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q07",
+      "grade": 12,
+      "skillCode": "KNTT-12-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 7 · phần I · bản gốc](/math-import-assets/thpt-question-8344557739fb6d135274780f30fcbe1f0bc6965558db47dc21b785071bd138ec.png)",
+      "explanation": "Giá trị đại diện của nhóm [155; 160) là trung điểm (155 + 160)/2 = 157,5.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$160$"
+        },
+        {
+          "key": "B",
+          "content": "$157{,}5$"
+        },
+        {
+          "key": "C",
+          "content": "$162{,}5$"
+        },
+        {
+          "key": "D",
+          "content": "$168{,}5$"
+        }
+      ],
+      "correctOption": "B",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-8344557739fb6d135274780f30fcbe1f0bc6965558db47dc21b785071bd138ec.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q08",
+      "grade": 12,
+      "skillCode": "KNTT-12-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 8 · phần I · bản gốc](/math-import-assets/thpt-question-f71d47d1ac23b3e3bb8e019435a29d26f058fa7545e4bd65916b4c643c5d76b8.png)",
+      "explanation": "Khoảng biến thiên của mẫu ghép nhóm là 5 − 2 = 3.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$10$"
+        },
+        {
+          "key": "B",
+          "content": "$2{,}25$"
+        },
+        {
+          "key": "C",
+          "content": "$3$"
+        },
+        {
+          "key": "D",
+          "content": "$2{,}5$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-f71d47d1ac23b3e3bb8e019435a29d26f058fa7545e4bd65916b4c643c5d76b8.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q09",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 9 · phần I · bản gốc](/math-import-assets/thpt-question-2785c4d4d1fefef3337ddca5d2ad1a5b847eb6aa58a77bb398628a571d8626aa.png)",
+      "explanation": "b − a = (−2 − (−1); 0 − 3; 3 − (−2)) = (−1; −3; 5).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(-1;-3;5)$"
+        },
+        {
+          "key": "B",
+          "content": "$(-3;3;1)$"
+        },
+        {
+          "key": "C",
+          "content": "$(1; 3; -5)$"
+        },
+        {
+          "key": "D",
+          "content": "$(1; -3; 1)$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-2785c4d4d1fefef3337ddca5d2ad1a5b847eb6aa58a77bb398628a571d8626aa.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q10",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 10 · phần I · bản gốc](/math-import-assets/thpt-question-eb66daddf430e5c6f8b920ef1552d79bac624ccceb4a589267ec0da85e55462f.png)",
+      "explanation": "Các hệ số của i, j, k lần lượt là 1, −2, −1 nên u = (1; −2; −1).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\vec{u} = (1; 2; 1)$"
+        },
+        {
+          "key": "B",
+          "content": "$\\vec{u} = (-1; 2; 1)$"
+        },
+        {
+          "key": "C",
+          "content": "$\\vec{u} = (1; -2; 1)$"
+        },
+        {
+          "key": "D",
+          "content": "$\\vec{u} = (1; -2; -1)$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "10",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-eb66daddf430e5c6f8b920ef1552d79bac624ccceb4a589267ec0da85e55462f.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q11",
+      "grade": 12,
+      "skillCode": "KNTT-12-C03-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 11 · phần I · bản gốc](/math-import-assets/thpt-question-991d17143da754463edbb94c8f23e2058b17d071b3bff2216f104dd5c2949440.png)",
+      "explanation": "D sai: nếu độ lệch chuẩn là 0,5 thì phương sai là 0,25, nhỏ hơn độ lệch chuẩn. A, B, C là các tính chất đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "Phương sai luôn luôn là số không âm."
+        },
+        {
+          "key": "B",
+          "content": "Phương sai là bình phương của độ lệch chuẩn."
+        },
+        {
+          "key": "C",
+          "content": "Phương sai càng lớn thì độ phân tán của các giá trị quanh số trung bình càng lớn."
+        },
+        {
+          "key": "D",
+          "content": "Phương sai luôn luôn lớn hơn độ lệch chuẩn."
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-991d17143da754463edbb94c8f23e2058b17d071b3bff2216f104dd5c2949440.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q12",
+      "grade": 12,
+      "skillCode": "KNTT-12-C01-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "![Câu 12 · phần I · bản gốc (1/2)](/math-import-assets/thpt-question-ce3556432191b3a53a51d960c877b9d398c199d52a6c982d142d40eb89eacfc7.png)\n![Câu 12 · phần I · bản gốc (2/2)](/math-import-assets/thpt-question-1f8bab72acac5a55dffc9090af0e8e66105de7e5b6fbac5dcdbf03d88c65fa03.png)",
+      "explanation": "Từ đồ thị trên đoạn đã cho, giá trị lớn nhất 4 và nhỏ nhất −3. Tổng bằng 1.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$7$"
+        },
+        {
+          "key": "B",
+          "content": "$1$"
+        },
+        {
+          "key": "C",
+          "content": "$3$"
+        },
+        {
+          "key": "D",
+          "content": "$5$"
+        }
+      ],
+      "correctOption": "B",
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "I",
+        "questionNumber": "12",
+        "sourcePages": [
+          2,
+          3
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-ce3556432191b3a53a51d960c877b9d398c199d52a6c982d142d40eb89eacfc7.png",
+          "thpt-question-1f8bab72acac5a55dffc9090af0e8e66105de7e5b6fbac5dcdbf03d88c65fa03.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q13",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T03",
+      "questionType": "TRUE_FALSE",
+      "content": "![Câu 1 · phần II · bản gốc](/math-import-assets/thpt-question-06fdad28f80925d3ab64d0a5e48fb4d4f65583cecfde93c7fd4787ffd75a4481.png)",
+      "explanation": "a) Đúng: C’ = (2; 3; 4). b) Sai: tâm hộp là (1; 1,5; 2). c) Sai: AC’ = (2; 3; 4), CD’ = (−2; 0; 4), tích vô hướng bằng 12. d) Sai: chu vi AB’D’ bằng √20 + 5 + √13 ≈ 13,078 < 13,5.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Tọa độ của véc-tơ $\\vec{AC'}$ là $(2; 3; 4)$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Tâm của hình hộp chữ nhật $ABCD.A'B'C'D'$ có tọa độ là $(0; 0; 0)$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "Tích vô hướng $\\vec{AC'}\\cdot\\vec{CD'}$ bằng $16$.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "Chu vi tam giác $AB'D'$ lớn hơn $13{,}5$.",
+          "isCorrect": false
+        }
+      ],
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "II",
+        "questionNumber": "1",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-06fdad28f80925d3ab64d0a5e48fb4d4f65583cecfde93c7fd4787ffd75a4481.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q14",
+      "grade": 12,
+      "skillCode": "KNTT-12-C01-T04",
+      "questionType": "TRUE_FALSE",
+      "content": "![Câu 2 · phần II · bản gốc](/math-import-assets/thpt-question-fd77718edb32f52f98468fd07971dacf88b1ad8101624f21a74ef12af52ecf7b.png)",
+      "explanation": "Viết y = 3 − 4/(x + 2). a) Sai: f(0) = 1. b) Sai: hàm không xác định tại −2 nên không đồng biến trên toàn R. c) Đúng: đạo hàm 4/(x + 2)² > 0 trên mỗi khoảng xác định, không có cực trị. d) Đúng: hai tiệm cận x = −2, y = 3 cắt nhau tại (−2; 3).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Đồ thị $(C)$ đi qua điểm $A(0; 2)$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Hàm số luôn đồng biến trên $\\mathbb{R}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "Hàm số không có cực trị.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Điểm $I(-2; 3)$ là giao điểm của các đường tiệm cận của đồ thị $(C)$.",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "II",
+        "questionNumber": "2",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-fd77718edb32f52f98468fd07971dacf88b1ad8101624f21a74ef12af52ecf7b.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q15",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 1 · phần III · bản gốc](/math-import-assets/thpt-question-937d8aebb6581ef05dff89833fe97a6053bb2792eee648accc189b0d77242d19.png)",
+      "explanation": "Vì −DA = AD, tích cần tính là AB·(AB + AD) = |AB|² + |AB||AD|cos 60° = 4 + 2 = 6.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "6"
+        ],
+        "instructions": "Nhập số nguyên",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "1",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-937d8aebb6581ef05dff89833fe97a6053bb2792eee648accc189b0d77242d19.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q16",
+      "grade": 12,
+      "skillCode": "KNTT-12-C03-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 2 · phần III · bản gốc](/math-import-assets/thpt-question-a665bb606d735a8ef8a759eae369cb972769ef0bdf25a1de799a53b2124b3a05.png)",
+      "explanation": "Có 100 số liệu. Q₁ = 4 + 2(25 − 12)/20 = 5,3; Q₃ = 8 + 2(75 − 69)/21 = 60/7. Q₃ − Q₁ = 229/70 ≈ 3,2714286, làm tròn hai chữ số được 3,27.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "3.27",
+          "3,27"
+        ],
+        "instructions": "Nhập số thập phân (làm tròn 2 chữ số)",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "2",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-a665bb606d735a8ef8a759eae369cb972769ef0bdf25a1de799a53b2124b3a05.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q17",
+      "grade": 12,
+      "skillCode": "KNTT-12-C02-T03",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 3 · phần III · bản gốc](/math-import-assets/thpt-question-13875d4de284dd4dd0791516236ff2578af767ef2bebf61c1874fab387761643.png)",
+      "explanation": "Đối xứng M(3; 3; −2) qua Oy được N(−3; 3; 2). MN = √(6² + 0² + (−4)²) = √52 ≈ 7,2 khi làm tròn một chữ số.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "7.2",
+          "7,2"
+        ],
+        "instructions": "Nhập số thập phân (làm tròn 1 chữ số)",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "3",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-13875d4de284dd4dd0791516236ff2578af767ef2bebf61c1874fab387761643.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    },
+    {
+      "externalId": "THPT-12-CUOI_HK1-227-Q18",
+      "grade": 12,
+      "skillCode": "KNTT-12-C01-T05",
+      "questionType": "SHORT_ANSWER",
+      "content": "![Câu 4 · phần III · bản gốc](/math-import-assets/thpt-question-8ae2656cd860d8c15dbd02a04a76ac9c1bf88e1a9931d5be33ec170fba9860b9.png)",
+      "explanation": "Đặt t = CM thuộc [0; 9]. Chi phí triệu đồng C(t) = 30(9 − t) + 50√(t² + 36). C’(t) = −30 + 50t/√(t² + 36), triệt tiêu tại t = 4,5 và đổi dấu âm sang dương. Chi phí nhỏ nhất bằng 30×4,5 + 50×7,5 = 510 triệu đồng.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "510"
+        ],
+        "instructions": "Nhập số nguyên (triệu đồng)",
+        "tolerance": 1e-9
+      },
+      "source": {
+        "paperId": "THPT-12-CUOI_HK1-227",
+        "originalExamCode": "132",
+        "part": "III",
+        "questionNumber": "4",
+        "sourcePages": [
+          4
+        ],
+        "answerPages": [
+          9,
+          10
+        ],
+        "pdfSha256": "2e697c91dd1db63e49eb00b6836b664cd657bdf93c12052338b8c4cc1d0d1d51",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-12-nam-2025-2026-truong-thpt-phu-loc-hue.html",
+        "immutableImages": [
+          "thpt-question-8ae2656cd860d8c15dbd02a04a76ac9c1bf88e1a9931d5be33ec170fba9860b9.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-phuloc-source-54-v1"
+      }
+    }
+  ]
+}

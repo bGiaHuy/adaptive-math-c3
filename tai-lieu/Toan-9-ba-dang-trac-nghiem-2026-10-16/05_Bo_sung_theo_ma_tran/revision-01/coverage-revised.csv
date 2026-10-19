@@ -1,0 +1,11 @@
+﻿slot,name,totalCandidates,fullyMatchedCandidates,partiallyMatchedCandidates,lackingEvidenceCandidates,approvedCount,independentSourcesCount,targetStatus,auditSummary
+2,"Phương trình quy về bậc nhất (TN, Nhận biết)",6,6,0,0,0,2,REACHED_PROVISIONAL_TARGET_GE_5,"Đạt 6 ứng viên khớp chuyên đề, dạng câu và mức nhận thức (chờ hội đồng duyệt nhãn)."
+10,"Tứ giác nội tiếp, đa giác đều (TN, Thông hiểu)",6,6,0,0,0,4,REACHED_PROVISIONAL_TARGET_GE_5,"Đạt 6 ứng viên khớp chuyên đề, dạng câu và mức nhận thức (chờ hội đồng duyệt nhãn)."
+11,"Thống kê, tần số tương đối (TN, Nhận biết)",5,5,0,0,0,4,REACHED_PROVISIONAL_TARGET_GE_5,"Đạt 5 ứng viên khớp chuyên đề, dạng câu và mức nhận thức (chờ hội đồng duyệt nhãn)."
+13,"Mô hình hóa bằng pt và hệ (Đ/S 4 ý, Thông hiểu)",5,0,5,0,0,5,PENDING_TF_AGGREGATION_RULE,"Cả 5 câu Đúng/Sai đều có phân bố đa mức (REM-UND-APP). Mức câu chính để null, chưa tính khớp đủ điều kiện cho đến khi có quy tắc gộp."
+14,"Biến đổi căn thức (Đ/S 4 ý, Thông hiểu)",5,0,5,0,0,5,PENDING_TF_AGGREGATION_RULE,"Cả 5 câu Đúng/Sai đều có phân bố đa mức (REM-UND-APP). Mức câu chính để null, chưa tính khớp đủ điều kiện cho đến khi có quy tắc gộp."
+15,"Quan hệ hình học đường tròn (Đ/S 4 ý, Thông hiểu)",5,0,5,0,0,5,PENDING_TF_AGGREGATION_RULE,"Cả 5 câu Đúng/Sai đều có phân bố đa mức (REM-UND-APP). Mức câu chính để null, chưa tính khớp đủ điều kiện cho đến khi có quy tắc gộp."
+16,"Đọc và phân tích dữ liệu (Đ/S 4 ý, Thông hiểu)",5,0,5,0,0,5,PENDING_TF_AGGREGATION_RULE,"Cả 5 câu Đúng/Sai đều có phân bố đa mức (REM-UND-APP). Mức câu chính để null, chưa tính khớp đủ điều kiện cho đến khi có quy tắc gộp."
+17,"Viète và ứng dụng (Ngắn, Vận dụng)",5,5,0,0,0,5,REACHED_PROVISIONAL_TARGET_GE_5,"Đạt 5 ứng viên khớp chuyên đề, dạng câu và mức nhận thức (chờ hội đồng duyệt nhãn)."
+20,"Diện tích, thể tích thực tiễn (Ngắn, Vận dụng)",5,5,0,0,0,3,REACHED_PROVISIONAL_TARGET_GE_5,"Đạt 5 ứng viên khớp chuyên đề, dạng câu và mức nhận thức (chờ hội đồng duyệt nhãn)."
+22,"Hình học nội tiếp tổng hợp (Ngắn, Vận dụng cao)",5,0,5,0,0,3,SHORTAGE_LEVEL_MISMATCH,"Thiếu hụt hoàn toàn: 0/5 câu đạt ADVANCED_APPLYING. Các ứng viên chỉ đạt Thông hiểu hoặc Vận dụng cơ bản, không đạt chỉ tiêu."

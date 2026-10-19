@@ -1,0 +1,924 @@
+{
+  "at": "2026-10-17T07:53:24.980Z",
+  "username": "qa_entry_1792223604532",
+  "attemptId": "a3d22326-fc06-4421-a8aa-d1bd1795ca73",
+  "types": [
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "TRUE_FALSE",
+    "TRUE_FALSE",
+    "TRUE_FALSE",
+    "TRUE_FALSE",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER"
+  ],
+  "result": {
+    "attemptId": "a3d22326-fc06-4421-a8aa-d1bd1795ca73",
+    "status": "COMPLETED",
+    "finalTheta": 2.1815764106291957,
+    "standardError": 1.0751689557498256,
+    "scorePercentage": 100,
+    "correctCount": 22,
+    "totalAnswered": 22,
+    "skillsEvaluated": [
+      {
+        "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+        "title": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "masteryScore": 98.86568770863488,
+        "evidenceCount": 2,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+        "title": "Căn bậc hai và căn thức cơ bản",
+        "masteryScore": 99,
+        "evidenceCount": 7,
+        "status": "STRONG"
+      },
+      {
+        "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "title": "Đường tròn và góc nội tiếp",
+        "masteryScore": 99,
+        "evidenceCount": 6,
+        "status": "STRONG"
+      },
+      {
+        "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "masteryScore": 99,
+        "evidenceCount": 3,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "title": "Biến đổi và tính toán với căn thức",
+        "masteryScore": 98.96414670009331,
+        "evidenceCount": 4,
+        "status": "INSUFFICIENT_DATA"
+      }
+    ],
+    "alreadySubmitted": false,
+    "parameterStatus": "PROVISIONAL"
+  },
+  "detail": {
+    "attemptId": "a3d22326-fc06-4421-a8aa-d1bd1795ca73",
+    "status": "COMPLETED",
+    "finalTheta": 2.1815764106291957,
+    "standardError": 1.0751689557498256,
+    "startedAt": "2026-10-17T07:53:24.605Z",
+    "completedAt": "2026-10-17T07:53:24.940Z",
+    "totalAnswered": 22,
+    "scorePercentage": 100,
+    "correctCount": 22,
+    "parameterStatus": "PROVISIONAL",
+    "answers": [
+      {
+        "questionId": "537c477f-0c05-5687-a04e-745394220f71",
+        "content": "Phương trình nào dưới đây nhận cặp số (−2;4) làm nghiệm?",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 0.345126600739561,
+        "options": [
+          {
+            "key": "A",
+            "content": "$x-2y=0$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$2x+y=0$",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "$x-y=2$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$x+2y+1=0$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "ba9f3bb7-87da-4dba-9c87-b0864fccfea0",
+        "content": "Tính giá trị của \\sqrt{16}",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Vì 4^2 = 16 nên \\sqrt{16} = 4.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 0.5530421306174967,
+        "options": [
+          {
+            "key": "A",
+            "content": "2",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "4",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "8",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "ee6bf22c-ab63-4d1e-acea-4fc9f122dfff",
+        "content": "Tìm $x$ biết $x^2 - 4 = 0$",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Phương trình tương đương $(x-2)(x+2) = 0 \\Leftrightarrow x = \\pm 2$",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "C",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 0.9091697622188957,
+        "options": [
+          {
+            "key": "A",
+            "content": "$x = 2$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$x = -2$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$x = \\pm 2$",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "content": "$x = 4$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "fc5b9562-f6ea-5529-a54f-93a60c05d553",
+        "content": "Hai tiếp tuyến tại A và B của đường tròn $(O;R)$ cắt nhau tại M. Nếu $MA=R\\sqrt3$ thì $\\widehat{AOB}$ bằng:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.140326584721424,
+        "options": [
+          {
+            "key": "A",
+            "content": "$45^\\circ$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$120^\\circ$",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "$60^\\circ$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$90^\\circ$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "8b9e9a16-0cad-51ff-afe4-13439960225b",
+        "content": "Cho tam giác ABC vuông tại A, khẳng định nào sau đây sai?",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": "C",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.202402086695213,
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\sin B=\\cos C$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$\\tan B=\\cot C$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$\\sin B=\\tan C$",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "content": "$\\frac{AB}{AC}=\\frac{\\cos B}{\\cos C}$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "185a3d78-e92c-5b58-abd4-51829e07b4a4",
+        "content": "Hệ phương trình $\\begin{cases}2x+3y-5=0\\\\x-y-2=0\\end{cases}$ có nghiệm $(x;y)$. Khi đó $x+y$ bằng:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.357870013702078,
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\frac{13}5$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$\\frac{12}5$",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "$-\\frac{12}5$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$-\\frac{13}5$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "490eff99-7817-43ce-a4c9-fccb8cbafc46",
+        "content": "Căn bậc hai số học của 81 là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Theo định nghĩa, căn bậc hai số học của số dương a là số không âm x sao cho x^2 = a. Do đó căn bậc hai số học của 81 là 9.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.401684224038214,
+        "options": [
+          {
+            "key": "A",
+            "content": "-9",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "9",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "\\pm 9",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "81",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "d871afe4-e509-4630-8183-7e5a50ca525f",
+        "content": "Tính giá trị của \\sqrt{16}",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Vì 4^2 = 16 nên \\sqrt{16} = 4.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.442424560175476,
+        "options": [
+          {
+            "key": "A",
+            "content": "2",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "4",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "8",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "501196ba-b5ca-4561-923b-86f4ce4bb5b8",
+        "content": "Tính giá trị của \\sqrt{16}",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Vì 4^2 = 16 nên \\sqrt{16} = 4.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.480518092866964,
+        "options": [
+          {
+            "key": "A",
+            "content": "2",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "4",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "8",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "667f0044-f4bf-5b7d-ac4d-bd15ea432edd",
+        "content": "Cho hai đường tròn (O; 5 cm) và (O′; 5 cm) cắt nhau tại A và B. Biết OO′ = 8 cm. Độ dài dây cung AB là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.516306154282394,
+        "options": [
+          {
+            "key": "A",
+            "content": "6 cm",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "7 cm",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "5 cm",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "8 cm",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "1daf6ec9-6cad-45dd-8efe-340bdc1507e8",
+        "content": "Tính giá trị của \\sqrt{16}",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Vì 4^2 = 16 nên \\sqrt{16} = 4.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.550066240745374,
+        "options": [
+          {
+            "key": "A",
+            "content": "2",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "4",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "8",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "8e595d11-e716-49ef-b9a6-cbbe1b2101e3",
+        "content": "Tính giá trị của \\sqrt{16}",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Vì 4^2 = 16 nên \\sqrt{16} = 4.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.582027262890114,
+        "options": [
+          {
+            "key": "A",
+            "content": "2",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "4",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "8",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "84b9177a-427d-51c8-a228-5aacb8db996f",
+        "content": "Tam giác ABC vuông tại A, AB = 5 cm, $\\widehat{ACB}=40^\\circ$. Đường tròn tâm I đường kính AB cắt BC ở M. Xét các khẳng định:",
+        "questionType": "TRUE_FALSE",
+        "statements": [
+          {
+            "key": "a",
+            "content": "$AM\\perp BC$.",
+            "isCorrect": true
+          },
+          {
+            "key": "b",
+            "content": "Đường tròn đường kính AC đi qua M.",
+            "isCorrect": true
+          },
+          {
+            "key": "c",
+            "content": "Độ dài cung nhỏ BM là $\\frac{10}9$ cm.",
+            "isCorrect": false
+          },
+          {
+            "key": "d",
+            "content": "Diện tích đường tròn $(I,IA)$ bằng $\\frac{25}2\\pi$ cm².",
+            "isCorrect": false
+          }
+        ],
+        "shortAnswer": null,
+        "response": {
+          "trueFalseAnswers": {
+            "a": true,
+            "b": true,
+            "c": false,
+            "d": false
+          }
+        },
+        "gradingDetails": {
+          "a": true,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.642351474810146,
+        "options": []
+      },
+      {
+        "questionId": "ad5d9dc9-6c3b-5970-a4f3-8af65d1dc167",
+        "content": "Cho biểu thức $A=\\frac2{\\sqrt x+1}+\\frac1{\\sqrt x-2}-\\frac{\\sqrt x-5}{x-\\sqrt x-2}$. Xét đúng/sai các ý sau:",
+        "questionType": "TRUE_FALSE",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Điều kiện xác định là $x\\ge0;\\ x\\ne4$.",
+            "isCorrect": true
+          },
+          {
+            "key": "b",
+            "content": "Kết quả rút gọn bằng $\\frac2{\\sqrt x-1}$.",
+            "isCorrect": false
+          },
+          {
+            "key": "c",
+            "content": "Với $x=\\frac94$ thì $A=4$.",
+            "isCorrect": true
+          },
+          {
+            "key": "d",
+            "content": "Biết $A=\\sqrt x$ thì $x=m+n\\sqrt3$. Khi đó $m+n=6$.",
+            "isCorrect": true
+          }
+        ],
+        "shortAnswer": null,
+        "response": {
+          "trueFalseAnswers": {
+            "a": true,
+            "b": false,
+            "c": true,
+            "d": true
+          }
+        },
+        "gradingDetails": {
+          "a": true,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.783373000261477,
+        "options": []
+      },
+      {
+        "questionId": "a93f87da-da58-53b4-a68a-5221c6738dee",
+        "content": "Cho $A=\\frac{\\sqrt x-3}{\\sqrt x+3}$ và $B=\\frac3{\\sqrt x+3}+\\frac{3\\sqrt x+27}{x-9}$. Xét các khẳng định:",
+        "questionType": "TRUE_FALSE",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Giá trị $P=A\\cdot B$ tại $x=3$ là 1.",
+            "isCorrect": false
+          },
+          {
+            "key": "b",
+            "content": "Rút gọn $B=\\frac6{\\sqrt x-3}$.",
+            "isCorrect": true
+          },
+          {
+            "key": "c",
+            "content": "Điều kiện để B không âm là $x\\ge9$.",
+            "isCorrect": false
+          },
+          {
+            "key": "d",
+            "content": "Điều kiện xác định A,B là $x\\ge0,\\ x\\ne9$.",
+            "isCorrect": true
+          }
+        ],
+        "shortAnswer": null,
+        "response": {
+          "trueFalseAnswers": {
+            "a": false,
+            "b": true,
+            "c": false,
+            "d": true
+          }
+        },
+        "gradingDetails": {
+          "a": true,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.829917932901935,
+        "options": []
+      },
+      {
+        "questionId": "16d1670f-a1d1-5d8c-a744-8939a6d8b5d6",
+        "content": "Cho đường tròn (O,R), điểm A ngoài đường tròn sao cho OA = 2R. Từ A kẻ tiếp tuyến AB (B là tiếp điểm), H là hình chiếu của B lên AO. Xét đúng/sai:",
+        "questionType": "TRUE_FALSE",
+        "statements": [
+          {
+            "key": "a",
+            "content": "$OH\\cdot OA=4R^2$.",
+            "isCorrect": false
+          },
+          {
+            "key": "b",
+            "content": "Kéo dài BH cắt (O) tại C thì AC là tiếp tuyến của (O).",
+            "isCorrect": true
+          },
+          {
+            "key": "c",
+            "content": "BC là dây cung chung của đường tròn đường kính AO và (O).",
+            "isCorrect": true
+          },
+          {
+            "key": "d",
+            "content": "Tam giác ABC là tam giác đều.",
+            "isCorrect": true
+          }
+        ],
+        "shortAnswer": null,
+        "response": {
+          "trueFalseAnswers": {
+            "a": false,
+            "b": true,
+            "c": true,
+            "d": true
+          }
+        },
+        "gradingDetails": {
+          "a": true,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.873347478078764,
+        "options": []
+      },
+      {
+        "questionId": "2e78872c-db35-5c70-aa19-6d3093a005bb",
+        "content": "Tính $A=\\frac{\\sqrt5-5}{1-\\sqrt5}-\\sqrt{(2-\\sqrt5)^2}$.",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "2"
+          ]
+        },
+        "response": {
+          "shortAnswer": "2"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.899821980351219,
+        "options": []
+      },
+      {
+        "questionId": "adebd289-67fb-5bf6-a188-8a95265b22ab",
+        "content": "Hình vuông ABCD cạnh 40. Vẽ cung BD tâm A bán kính AB và cung AC tâm B bán kính BA. Đường tròn (O;r) tiếp xúc hai cung AC,BD tại P,Q và tiếp xúc cạnh AB tại R. Tính PQ.\n\n![Hình nguồn](/math-import-assets/hai-phong-101-square.png)",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "24"
+          ]
+        },
+        "response": {
+          "shortAnswer": "24"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.925166267740281,
+        "options": []
+      },
+      {
+        "questionId": "2ce52c88-9678-5c04-acc3-e601a0214b13",
+        "content": "Cho $a$ là số thực. Giá trị nhỏ nhất của $P=a^2-a+\\frac2{a^2+1}+2024$ bằng bao nhiêu?",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "2025"
+          ]
+        },
+        "response": {
+          "shortAnswer": "2025"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.129332413980237,
+        "options": []
+      },
+      {
+        "questionId": "c58186d3-1e10-5d58-a70e-f56822a8b1b7",
+        "content": "Giá trị $\\frac{\\cos^2 25^\\circ+\\cos^2 65^\\circ+2}{2\\tan20^\\circ\\cdot\\tan70^\\circ-1}$ bằng bao nhiêu?",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "3"
+          ]
+        },
+        "response": {
+          "shortAnswer": "3"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.147253013692334,
+        "options": []
+      },
+      {
+        "questionId": "8a218011-80e1-55a6-aa53-b8d2f0fa3cfd",
+        "content": "Cho nửa đường tròn tâm P đường kính AB. R thuộc đoạn PB; đường qua R vuông góc AB cắt nửa đường tròn tại S. PR = 10 cm, PB = 2RS. (O;R) tiếp xúc PA, PQ và nửa đường tròn tại N như hình. Tính bán kính R, làm tròn đến hàng phần trăm.\n\n![Hình nguồn](/math-import-assets/hai-phong-101-semicircle.png)",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "4.78"
+          ]
+        },
+        "response": {
+          "shortAnswer": "4.78"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.164657357389373,
+        "options": []
+      },
+      {
+        "questionId": "8b5cae24-2e7c-5ed5-abca-f1fb5717993a",
+        "content": "Thiết bị chiếu sáng B gắn trên tường AB, cao 2,95 m, góc chiếu $\\widehat{DBC}=25^\\circ$. Vùng sáng bắt đầu C cách chân tường A 1,88 m. Tính độ dài CD (m); làm tròn góc đến độ, độ dài đến chữ số thập phân thứ nhất.\n\n![Hình nguồn](/math-import-assets/quan-toan-901-light.png)",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "2.8"
+          ]
+        },
+        "response": {
+          "shortAnswer": "2.8"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.181576410629196,
+        "options": []
+      }
+    ]
+  },
+  "randomCounts": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 4,
+    "SHORT_ANSWER": 6
+  }
+}

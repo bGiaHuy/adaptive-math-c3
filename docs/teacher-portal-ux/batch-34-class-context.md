@@ -1,0 +1,3 @@
+# Batch34 — Giữ ngữ cảnh danh sách lớp
+P1: mở lớp unmount TeacherClassDirectory làm mất page/query/grade. Đưa controls lên TeacherWorkspace, thay local effects reset bằng explicit resets chỉ khi đổi query/grade. Open/back giữ lựa chọn.
+TeacherClassDirectory.jsx, TeacherWorkspace.jsx, verify-teacher-class-directory.mjs. Fixture23classes ở3viewport:10/10/3; mở lớp từpage3→back vẫnpage3; tìm9A23→mở/back giữ query và1kếtquả; no pageerror/overflow. Build đạt. Evidence teacher-class-directory/verification.json. Không thay API/quyền, không real writes. Goalactive; state preservation không được suy thành toàn bộ usability đã đạt.

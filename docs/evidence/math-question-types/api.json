@@ -1,0 +1,250 @@
+{
+  "at": "2026-10-17T06:57:30.404Z",
+  "checks": [
+    "take strips answers and grading rules",
+    "draft resume preserves timer",
+    "result blocked before submit",
+    "TF partial credit",
+    "student bank forbidden",
+    "cross-class teacher forbidden",
+    "late draft forbidden",
+    "imported DRAFT sources unchanged"
+  ],
+  "credentials": {
+    "teacherEmail": "qa_mixed_t_mvc1nvol@adaptivemath.local",
+    "studentUsername": "qa_mixed_s_mvc1nvol",
+    "studentEmail": "qa_mixed_s_mvc1nvol@adaptivemath.local",
+    "password": "P@ssword123!"
+  },
+  "classroom": {
+    "id": "34487aad-8c83-4925-aefd-05e33465e844",
+    "name": "QA Toán 9 — ba dạng",
+    "grade": 9,
+    "academicYear": "2026-2027",
+    "createdAt": "2026-10-17T06:57:30.540Z",
+    "inviteCode": "T4QMV5WY",
+    "codeExpiresAt": "2026-11-16T06:57:30.539Z"
+  },
+  "assignment": {
+    "id": "03efd291-60d9-4eb6-80b0-73a3c0bd5c57",
+    "classId": "34487aad-8c83-4925-aefd-05e33465e844",
+    "title": "QA Đề Hưng Yên — ba dạng",
+    "description": null,
+    "durationMinutes": 45,
+    "dueDate": null,
+    "status": "PUBLISHED",
+    "questionCount": 3,
+    "createdAt": "2026-10-17T06:57:30.561Z"
+  },
+  "submission": {
+    "message": "Nộp bài thi thành công",
+    "submissionId": "11b81b3d-48df-486d-8297-c06fbe73b66b",
+    "score": 9.2,
+    "correctCount": 2,
+    "totalQuestions": 3,
+    "submittedAt": "2026-10-17T06:57:30.612Z"
+  },
+  "result": {
+    "result": {
+      "submissionId": "11b81b3d-48df-486d-8297-c06fbe73b66b",
+      "assignmentTitle": "QA Đề Hưng Yên — ba dạng",
+      "className": "QA Toán 9 — ba dạng",
+      "score": 9.2,
+      "correctCount": 2,
+      "totalQuestions": 3,
+      "submittedAt": "2026-10-17T06:57:30.612Z",
+      "timeSpentSeconds": 180,
+      "questions": [
+        {
+          "id": "f1cc6003-e09c-52f5-ad7b-e571f5d7c2a1",
+          "orderIndex": 1,
+          "content": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn?",
+          "cognitiveLevel": "REMEMBERING",
+          "skillTitle": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "explanation": null,
+          "questionType": "SINGLE_CHOICE",
+          "statements": null,
+          "shortAnswer": null,
+          "response": {},
+          "gradingDetails": {},
+          "pointsAwarded": 1,
+          "studentSelectedKey": "C",
+          "isCorrect": true,
+          "correctOptionKey": "C",
+          "options": [
+            {
+              "key": "A",
+              "content": "$2x+3y^2=0$",
+              "isCorrect": false
+            },
+            {
+              "key": "B",
+              "content": "$0x-0y=3$",
+              "isCorrect": false
+            },
+            {
+              "key": "C",
+              "content": "$3x+2y=6$",
+              "isCorrect": true
+            },
+            {
+              "key": "D",
+              "content": "$xy-x=1$",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "ad5d9dc9-6c3b-5970-a4f3-8af65d1dc167",
+          "orderIndex": 2,
+          "content": "Cho biểu thức $A=\\frac2{\\sqrt x+1}+\\frac1{\\sqrt x-2}-\\frac{\\sqrt x-5}{x-\\sqrt x-2}$. Xét đúng/sai các ý sau:",
+          "cognitiveLevel": "REMEMBERING",
+          "skillTitle": "Biến đổi và tính toán với căn thức",
+          "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "explanation": null,
+          "questionType": "TRUE_FALSE",
+          "statements": [
+            {
+              "key": "a",
+              "content": "Điều kiện xác định là $x\\ge0;\\ x\\ne4$.",
+              "isCorrect": true
+            },
+            {
+              "key": "b",
+              "content": "Kết quả rút gọn bằng $\\frac2{\\sqrt x-1}$.",
+              "isCorrect": false
+            },
+            {
+              "key": "c",
+              "content": "Với $x=\\frac94$ thì $A=4$.",
+              "isCorrect": true
+            },
+            {
+              "key": "d",
+              "content": "Biết $A=\\sqrt x$ thì $x=m+n\\sqrt3$. Khi đó $m+n=6$.",
+              "isCorrect": true
+            }
+          ],
+          "shortAnswer": null,
+          "response": {
+            "trueFalseAnswers": {
+              "a": true,
+              "b": false,
+              "c": true,
+              "d": false
+            }
+          },
+          "gradingDetails": {
+            "a": true,
+            "b": true,
+            "c": true,
+            "d": false
+          },
+          "pointsAwarded": 0.75,
+          "studentSelectedKey": null,
+          "isCorrect": false,
+          "correctOptionKey": "",
+          "options": []
+        },
+        {
+          "id": "1bcd1c30-d82c-50fa-a237-295f2b4d49e8",
+          "orderIndex": 3,
+          "content": "Giá trị $A=3(\\sqrt5-2)-\\sqrt{45}$ bằng bao nhiêu?",
+          "cognitiveLevel": "REMEMBERING",
+          "skillTitle": "Biến đổi và tính toán với căn thức",
+          "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "explanation": null,
+          "questionType": "SHORT_ANSWER",
+          "statements": null,
+          "shortAnswer": {
+            "mode": "NUMERIC",
+            "tolerance": 1e-9,
+            "acceptedAnswers": [
+              "-6"
+            ]
+          },
+          "response": {
+            "shortAnswer": "-6"
+          },
+          "gradingDetails": {},
+          "pointsAwarded": 1,
+          "studentSelectedKey": null,
+          "isCorrect": true,
+          "correctOptionKey": "",
+          "options": []
+        }
+      ]
+    }
+  },
+  "scoreboard": {
+    "assignment": {
+      "id": "03efd291-60d9-4eb6-80b0-73a3c0bd5c57",
+      "title": "QA Đề Hưng Yên — ba dạng",
+      "description": null,
+      "durationMinutes": 45,
+      "dueDate": null,
+      "status": "PUBLISHED",
+      "totalStudents": 1,
+      "submittedCount": 1,
+      "averageScore": 9.2
+    },
+    "roster": [
+      {
+        "studentId": "233d0d8a-0ecf-4d85-9971-887a2da8af14",
+        "fullName": "QA Học sinh ba dạng",
+        "username": "qa_mixed_s_mvc1nvol",
+        "email": "qa_mixed_s_mvc1nvol@adaptivemath.local",
+        "isSubmitted": true,
+        "score": 9.2,
+        "correctCount": 2,
+        "totalQuestions": 3,
+        "timeSpentSeconds": 180,
+        "submittedAt": "2026-10-17T06:57:30.612Z"
+      }
+    ],
+    "questionAnalytics": [
+      {
+        "questionId": "f1cc6003-e09c-52f5-ad7b-e571f5d7c2a1",
+        "orderIndex": 1,
+        "content": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn?",
+        "cognitiveLevel": "REMEMBERING",
+        "skillTitle": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+        "correctOptionKey": "C",
+        "totalAnswers": 1,
+        "correctAnswers": 1,
+        "accuracyPercentage": 100
+      },
+      {
+        "questionId": "ad5d9dc9-6c3b-5970-a4f3-8af65d1dc167",
+        "orderIndex": 2,
+        "content": "Cho biểu thức $A=\\frac2{\\sqrt x+1}+\\frac1{\\sqrt x-2}-\\frac{\\sqrt x-5}{x-\\sqrt x-2}$. Xét đúng/sai các ý sau:",
+        "cognitiveLevel": "REMEMBERING",
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "correctOptionKey": "",
+        "totalAnswers": 1,
+        "correctAnswers": 0,
+        "accuracyPercentage": 0
+      },
+      {
+        "questionId": "1bcd1c30-d82c-50fa-a237-295f2b4d49e8",
+        "orderIndex": 3,
+        "content": "Giá trị $A=3(\\sqrt5-2)-\\sqrt{45}$ bằng bao nhiêu?",
+        "cognitiveLevel": "REMEMBERING",
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+        "correctOptionKey": "",
+        "totalAnswers": 1,
+        "correctAnswers": 1,
+        "accuracyPercentage": 100
+      }
+    ]
+  },
+  "questionIds": [
+    "f1cc6003-e09c-52f5-ad7b-e571f5d7c2a1",
+    "ad5d9dc9-6c3b-5970-a4f3-8af65d1dc167",
+    "1bcd1c30-d82c-50fa-a237-295f2b4d49e8"
+  ]
+}

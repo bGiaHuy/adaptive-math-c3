@@ -1,0 +1,155 @@
+PAGE 1
+Mã đề thi 9101 - Trang 1/ 4 
+ 
+SỞ GIÁO DỤC VÀ ĐÀO TẠO 
+HƯNG YÊN 
+  
+ĐỀ CHÍNH THỨC 
+(Đề có 4 trang) 
+KHẢO SÁT CHẤT LƯỢNG CUỐI HỌC KỲ I LỚP 9 THCS 
+NĂM HỌC 2025-2026 
+Môn: TOÁN 
+Thời gian làm bài 90 phút, không kể thời gian phát đề 
+Họ tên thí sinh: .........................................................................................................  
+Số báo danh: ..............................................................................................................  
+ 
+Mã đề: 9101 
+ 
+ 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.  Thí sinh trả lời từ câu 1 đến câu 26.    
+Mỗi câu hỏi thí sinh chỉ chọn một phương án. 
+Câu 1: Phương trình nào sau đây là phương trình bậc nhất hai ẩn? 
+    A. 22x 3y 0+=      B. 0x 0y 3−=      C. 3x 2y 6+=      D. xy x 1−=  
+Câu 2: Hệ phương trình 3x 2y 5
+x 2y 1
++=
+ −= −
+ có nghiệm duy nhất ( )00x ;y . Giá trị của 2
+002026y x−  bằng: 
+    A. 2025     B. 2026     C. 2025−      D. 2024 
+Câu 3: Điều kiện xác định của phương trình 1 2x 1
+x x2
+− = −  là: 
+    A. x2≠  và x0≠      B. x2≠  hoặc x0≠      C. x0≠      D. x2≠  
+Câu 4: Diện tích hình quạt tròn cung 30° của một đường tròn có bán kính 4 cm bằng: 
+    A. 22 cm15
+π      B. 22 cm3
+π      C. 24 cm3
+π      D. 24 cm15
+π  
+Câu 5: Gọi d  là khoảng cách giữa 2  tâm của (O, R) và ( O' , r) với 0 < r < R. (O) và ( O' ) tiếp 
+xúc trong khi: 
+    A. dRr>+      B. dRr= +      C. dRr= −      D. RrdRr−< < +  
+Câu 6: Hai tiếp tuyến tại A  và B của đường tròn (O;R)  cắt nhau tại M . Nếu MA R 3=  thì 
+AOB  bằng: 
+    A. 45°      B. 120°      C. 60°      D. 90° 
+Câu 7: 3 125−  có kết quả là: 
+    A. 25     B. 5−      C. 25−      D. 5  
+Câu 8: Giải bất phương trình x2 x2 3x 132
+++ + +>  ta được nghiệm là:  
+    A. 4x 17
+−>      B. 6x 11
+−>      C. 6x 7
+−>      D. 6x 5<  
+Câu 9: Cho tam giác ABC vuông tại A, kẻ đường cao AH (H thuộc BC). Biết HB = 3 cm, HC = 12 cm. 
+Độ dài đoạn AH bằng: 
+    A. 8 cm     B. 6 cm  
+    C. 4 cm     D. 5 cm 
+Câu 10: Trên mặt một chiếc đồng hồ có vạch chia như hình vẽ.        
+Góc tạo bởi kim giờ và kim phút tại thời điểm 3 giờ có số đo bằng: 
+    A. o45      B. o180   
+    C. o90      D. o270  
+
+
+PAGE 3
+Mã đề thi 9101 - Trang 3/ 4 
+Câu 20: Bác An có số tiền là 1 tỉ đồng, bác gửi vào hai ngân hàng A và B, biết lãi suất của ngân 
+hàng A là 6,5% một năm, lãi suất ngân hàng B là 7% một năm. Sau một năm bác An thu được cả 
+tiền gốc và lãi là 1,067 tỉ đồng. Hỏi bác An gửi vào ngân hàng A bao nhiêu triệu đồng? 
+    A. 400 triệu đồng     B. 500 triệu đồng     C. 600 triệu đồng     D. 700 triệu đồng 
+Câu 21: Nghiệm của phương trình 12 0x1 x 2−=−+  là: 
+    A. x4=      B. x4= −      C. x0=      D. Vô nghiệm 
+Câu 22: Viết nghiệm tổng quát của phương trình: 2x + y = 4− ? 
+    A. ( )x;  2x  4−−  với x ∈   tuỳ ý.     B. ( )x;  2x + 4  với x ∈   tuỳ ý. 
+    C. ( )x;  2x  4−  với x ∈   tuỳ ý.     D. ( )x; 2x + 4−  với x ∈   tuỳ ý. 
+Câu 23: Sau khi rút gọn biểu thức 22
+5 35 3
++
+−+
+ là phân số tối giản a
+b
+ (a,b ,b 0)∈> , thì giá 
+trị ab+ là: 
+    A. 21     B. 22     C. 16     D. 31 
+Câu 24: Cho ab>  khi đó bất đẳng nào sau đây là bất đẳng thức đúng? 
+    A. 3a 2 3b 1− + <− −      B. 2a 2 2b 3−> −      C. 3a 3 3b 3+ >− +      D. 2a 5 2b 5+< +  
+Câu 25: Một khu vườn hình chữ nhật có chu vi bằng 48m . Nếu tăng chiều rộng lên bốn lần và 
+tăng chiều dài lên ba lần thì chu vi của khu vườn sẽ là 162m . Gọi chiều dài và chiều rộng của khu 
+vườn hình chữ nhật lần lượt là ( )xm  và ( )ym ( )0 y x 24<<< . Biểu thức thể hiện chu vi của 
+khu vườn sau khi thay đổi là: 
+    A. ( )2 x y 162+=      B. ( )2 x y 24+=      C. ( )2 3x 4y 162+=      D. ( )2 4x 3y 162+=  
+Câu 26: Cho hai đường tròn (O; 5 cm) và ( O' ; 5 cm) cắt nhau tại A và B. Biết OO'  = 8 cm. Độ 
+dài dây cung AB là:  
+    A. 6cm      B. 7cm      C. 5cm      D. 8cm  
+PHẦN II. Câu trắc nghiệm đúng sai. Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d)    
+ở mỗi câu, thí sinh chọn đúng hoặc sai. 
+Câu 1: Cho biểu thức 2 1 x5A
+x1 x2x x2
+−= +−
++ − −−
+ 
+    a) Điều kiện xác định của biểu thức A là x 0; x 4≥≠ . 
+    b) Kết quả rút gọn của biểu thức A bằng 2
+x1−
+. 
+    c) Với 9x 4=  thì A = 4. 
+    d) Biết Ax=  thì x m n3= + . Khi đó giá trị của m + n = 6. 
+Câu 2: Cho đường tròn (O, R) và một điểm A nằm ngoài đường tròn sao cho OA = 2R. Từ A kẻ 
+tiếp tuyến AB với (O) (B là tiếp điểm), gọi H là hình chiếu của B lên AO. 
+    a) OH.OA = 4R2. 
+    b) Kéo dài BH cắt (O) tại C thì AC là tiếp tiếp tuyến của (O). 
+    c) BC là dây cung chung của đường tròn đường kính AO và (O). 
+    d) Tam giác ABC là tam giác đều. 
+
+PAGE 4
+Mã đề thi 9101 - Trang 4/ 4 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Thí sinh trả lời từ câu 1 đến câu 6. 
+Câu 1: Giá trị biểu thức sau ( )A 3 5 2 45= −−  bằng bao nhiêu? 
+Câu 2: Giá trị nguyên dương lớn nhất của x bằng bao nhiêu thì biểu thức 2x 1M
+x2
+−=
+−
+ đạt giá trị 
+nguyên? 
+Câu 3: Cho hình vẽ, tính diện tích phần tô màu xám theo đơn vị cm2, biết OA = 20 cm, OC = 5 cm, 
+AOB 135= ° . (lấy 3,14π ≈ , kết quả làm tròn đến hàng đơn vị) 
+ 
+Câu 4: Cho a là số thực. Giá trị nhỏ nhất của biểu thức 2
+2
+2P a a 2024
+a1
+= −+ +
++
+ bằng bao nhiêu? 
+Câu 5: Giá trị của biểu thức 
+22cos 25 cos 65 2
+2 tan 20 .tan 70 1
+°°+ +
+° °−  bằng bao nhiêu? 
+Câu 6: Lớp 9A phát động quyên góp tiền ủng hộ đồng bào miền Trung chịu ảnh hưởng bởi bão 
+lũ và thiên tai với mức tối thiểu 20 nghìn đồng và tối đa 50 nghìn đồng một học sinh. Sau khi 
+quyên góp được tổng số tiền là 1,7 triệu đồng. Biết rằng lớp 9A có 40 học sinh và tất cả học sinh 
+của lớp ủng hộ ở hai mức tối thiểu và tối đa. Vậy số học sinh ủng hộ ở mức tối đa là bao nhiêu 
+học sinh? 
+ 
+-------------- HẾT --------------- 
+ - Thí sinh không được sử dụng tài liệu; 
+- Cán bộ coi thi không giải thích gì thêm. 
+ 
+ 
+
+PAGE 6
+ 
+ 
+Xem thêm: ĐỀ THI HK1 TOÁN 9 
+https://thcs.toanmath.com/de-thi-hk1-toan-9  

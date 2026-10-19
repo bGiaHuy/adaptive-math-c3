@@ -1,0 +1,217 @@
+PAGE 1
+Đại số 9 - Chương 2: PT và BPT bậc nhất một ẩn  – Tự luận và trắc nghiệm 4 phần có lời giải                             
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 2 
+PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN 
+ 
+BÀI 4 
+PHƯƠNG TRÌNH QUY VỀ PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN 
+ 
+1. Phương trình tích 
+ Để giải giải ph ương tr ình     0  0, 0ax b cx d a b    
+ 
+ta có giải hai ph ương tr ình bậc nhất: 
+0ax b   và 0cx d  . Sau đó lấy tất cả các nghiệm của chúng.. 
+2. Phương trình chứa ẩn ở mẫu 
+ Đối với phương tr ình chứa ẩn ở mẫu, ta thường đặt điều kiện cho ẩn để tất cả các mẫu thức trong 
+phương trình đều khác 0  và gọi đó được gọi là điều kiện xác định (viết tắc là ĐKXĐ) của phương trình. 
+ Để giải phương trình chứa ẩn ở mẫu, ta có thể làm như sau: 
+  Bước 1: Tìm điều kiện xác định của phương trình. 
+  Bước 2: Quy đồng mẫu hai vế của phương trình rồi khử mẫu. 
+  Bước 3: Giải phương trình vừa nhận được. 
+  Bước 4: Kết luận nghiệm: Trong các giá trị của ẩn t ìm được ở bước 3, các giá trị thỏa m ãn điều 
+kiện xác định chính là các nghiệm của phương trình đã cho. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 16
+Đại số 9 - Chương 2: PT và BPT bậc nhất một ẩn  – Tự luận và trắc nghiệm 4 phần có lời giải                             
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 16 
+PHẦN B 
+TRẮC NGHIỆM VÀ TỰ LUẬN TỔNG HỢP GỒM BỐN PHẦN 
+ 
+PHẦN I. Câu trắc nghiệm nhiều ph ương án l ựa chọn. Mỗi câu hỏi thí sinh chỉ chọn một ph ương 
+án. 
+Câu 1. Phương trình tích có dạng là: 
+ A.     0ax b cx d      B.    0ax b cx d    
+ C.     0ax b cx d      D.     0ax b cx d     
+Câu 2. Để giải phương trình tích     0ax b cx d  
+ 
+ta giải : 
+ A. ax b cx d     B.   0ax b cx d     
+ C.     0ax b cx d      D. 0ax b   và 0cx d   
+Câu 3. Cho phương tr ình   2 5 2 0x x   . Giá tr ị x  nào sau đây là nghiệm của p hương tr ình đ ã 
+cho? 
+ A. 2x    B. 2x    C. 1x   D. 1x    
+Câu 4. Cho phương tr ình  1 1 3 02
+x x      
+. Giá tr ị x  nào sau đây là nghiệm của p hương tr ình đ ã 
+cho? 
+ A. 2x    B. 4x    C. 3x   D. 1
+3x   
+Câu 5. Cho phương trình    2 1 1 5 0x x   . Giá trị x  nào sau đây không phải là nghiệm của phương 
+trình? 
+ A. 1
+2x    B. 1
+5x     
+ C. 2x    D. Cả ba đáp án A, B, C  
+Câu 6. Cho phương trình    3 2 3 1 0x x x    . Giá tr ị x  nào sau đây không ph ải là nghiệm của 
+phương trình? 
+ A. 3x    B. 2x    C. 1
+3x   D. 0x    
+Câu 7. Giá trị 2
+3x   là nghiệm của phương trình nào sau đây? 
+ A.   3 1 1 2 0x x    B.    3 2 1 2 0x x     C.   3 2 1 2 0x x    D.   2 3 1 2 0x x     
+Câu 8. Tìm tham số m  để phương trình   5 1 3 0m x x    có nghiệm 1x  . 
+ A.  5m   . B. 5m   .  C. 2m   . D. 2m  . 
+
+PAGE 23
+Đại số 9 - Chương 2: PT và BPT bậc nhất một ẩn  – Tự luận và trắc nghiệm 4 phần có lời giải                             
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 23 
+PHẦN II. Câu trắc nghiệm đúng sai. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc 
+sai. 
+Câu 71. Cho phương trình sau: ( 2025)(2026 ) 0x x     1  
+a) 2025x   là nghiệm của phương trình  1 . 
+b) Phương trình  1  xác định khi 2025x   và 2026x  . 
+c) Phương trình  1  có hai nghiệm là 2025x   và 2026x  .. 
+d) Tổng các nghiệm của phương trình  1  bằng 4051. 
+Câu 72. Cho phương trình sau:   3 4 12 1 0 2 5
+x xx       
+  1  
+a) 0x   là nghiệm của phương trình  1 . 
+b) Rút gọn phương trình  1  ta được:   2 1 18 13 0x x   . 
+c) Phương trình  1  có hai nghiệm là 1
+2x    và 13
+18x   . 
+d) Tổng các nghiệm của phương trình  1  bằng 2
+9 . 
+Câu 73. Cho phương trình sau: 1 3 04 7
+x xx      
+  1  
+a) 1x    không phải là nghiệm của phương trình  1 . 
+b) Rút gọn phương trình  1  ta được: 14 4 028
+xx     
+. 
+c) Phương trình  1  có hai nghiệm là 0x   và 2
+7x   . 
+d) Tổng các nghiệm của phương trình  1  bằng 2
+7 . 
+Câu 74. Cho phương trình sau: 1 5 1 32 0 7 3 4
+x xx          
+  1  
+a) 0x   là nghiệm của phương trình  1 . 
+b) Rút gọn phương trình  1  ta được:   14 1 13 23 0x x   . 
+c) Phương trình  1  có hai nghiệm là 1
+14x   và 23
+13x   . 
+d) Tích các nghiệm của phương trình  1  bằng 23
+182 . 
+Câu 75. Cho phương trình sau:    2 5 33 2 0 3 6
+x xx      
+ 
+  1  
+a) 1x   là nghiệm của phương trình  1 . 
+
+PAGE 30
+Đại số 9 - Chương 2: PT và BPT bậc nhất một ẩn  – Tự luận và trắc nghiệm 4 phần có lời giải                             
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 30 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Mỗi câu hỏi thí sinh chỉ trả lời đáp án. 
+Câu 101. Tích các nghiệm của phương trình (5 1)(4 2 ) 0x x    bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 102. Tổng các nghiệm của phương trình ( 2)(3 )(2 8) 0x x x     bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 103. Tổng các nghiệm của phương trình  
+2 32 6 1 0 2
+xx       
+ bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 104. Tổng các nghiệm của phương trình 2(3 9)( 4 5) 0x x x      bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 105. Tích các nghiệm của phương trình   2 4 2 3 0x x    bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 106. Tích các nghiệm của phương trình   
+2 31 5 2 1 0x x x x       bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 107. Tích các nghiệm của phương trình 23 8 0x x   bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 108. Tổng các nghiệm của phương trình  2 5 4 2 2 5 02
+x x x       
+ bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 109. Tổng các nghiệm của phương trình   2 3 2 2 3x x x     bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 110. Tổng các nghiệm của phương trình   2 1 3 4 2x x x     bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 111. Phương trình sau:    
+2 2 3( 9) ( )9 –1x x x x     có bao nhiêu nghiệm? 
+Trả lời: ……………….. 
+Câu 112. Tổng các nghiệm của phương trình   
+22 3 4 4 4x x x x      bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 113. Biết phương trình 7 7 2
+1 3
+x
+x
+   có nghiệm ax b  , với ,a b là số thực và a
+b  là phân số tối giản. 
+Giá trị của a b  bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 114. Biết phương trình 2 1
+1 3 7x x   có nghiệm ax b , với ,a b là số thực và a
+b  là phân số tối giản. 
+Giá trị của 2025a b  bằng bao nhiêu? 
+Trả lời: ……………….. 
+
+PAGE 431
+Đại số 9 - Chương 2: PT và BPT bậc nhất một ẩn  – Tự luận và trắc nghiệm 4 phần có lời giải                             
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 21 
+Câu 150. Cho bất phương trình  
+2 29 4 3m x m x      1  với m  là tham số. 
+a) Giải bất phương trình  1  khi 1m   . 
+b) Tìm điều kiện của tham số m  để bất phương trình  1  không phải là bất phương trình bậc nhất một ẩn. 
+Lời giải 
+a) Thay 1m    vào bất phương trình  1 , ta có:  
+5 1 3
+8 1
+1
+8
+x x
+x
+x
+ 
+
+
+  
+Vậy nghiệm của bất phương trình là: 1
+8x   
+b)  
+2 29 4 3m x m x    hay  
+2 29 1 0m x m    
+Để bất phương trình  1  không phải bất phương trình bậc nhất một ẩn thì  
+29 1 0m    
+hay    3 1 3 1 0m m  
+ 
+do đó 3 1 0m    hoặc 3 1 0m    
+suy ra 1
+3m   hoặc 1
+3m    
+Vậy 1
+3m   và 1
+3m    thì bất phương trình đã cho không phải là bất phương trình bậc nhất một ẩn. 
+ 

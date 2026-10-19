@@ -1,0 +1,200 @@
+PAGE 1
+Đại số 9 - Chương 1: Phương trình và HPT bậc nhất hai ẩn  – Tự luận và trắc nghiệm 4 phần                        KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 1 
+PHƯƠNG TRÌNH VÀ HỆ PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN 
+ 
+BÀI 1 
+KHÁI NIỆM PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN 
+ 
+1. Phương trình bậc nhất hai ẩn 
+ Phương trình bậc nhất hai ẩn ,x y  là hệ thức dạng: ax by c  , trong đó a b c, ,  là các số cho trước   
+( 0a   hoặc 0b  ). 
+ Nếu tại 0x x  và 0y y , ta có 0 0ax by c   là khẳng định đúng thì cặp số 0 0( ; )x y  được gọi là một 
+nghiệm của phương trình ax by c   . 
+Chú ý:   
+  Mỗi phương trình bậc nhất hai ẩn đều có vô số nghiệm. 
+  Trong mặt phẳng tọa độ, tập hợp các điểm có tọa độ  ;x y  thỏa mãn phương trình bậc nhất hai ẩn 
+ax by c   là một đường thẳng . Đường thẳng đó gọi là đường thẳng ax by c  . 
+2. Hệ hai phương trình bậc nhất hai ẩn 
+ Một cặp gồm hai phương tr ình b ậc nhất hai ẩn ax by c   và a x b y c     đư ợc gọi l à m ột hệ 
+phương trình bậc nhất hai ẩn. Ta thường viết hệ phương trình đó dưới dạng: ax by c
+a x b y c
+ 
+    
+   *  
+ Mỗi cặp số x y0 0( ; )  được gọi l à m ột nghiệm của  h ệ  *  n ếu nó đồng thời l à nghi ệm của cả hai 
+phương trình của hệ  * . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 5
+Đại số 9 - Chương 1: Phương trình và HPT bậc nhất hai ẩn  – Tự luận và trắc nghiệm 4 phần                        KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 5
+PHẦN B 
+TRẮC NGHIỆM VÀ TỰ LUẬN GỒM BỐN PHẦN 
+ 
+PHẦN I. Câu trắc nghiệm nhiều ph ương án l ựa chọn. Mỗi câu hỏi thí sinh chỉ chọn một ph ương 
+án. 
+Câu 1. Phương trình nào sau đây không phải phương trình bậc nhất hai ẩn? 
+ A. 2025 2026 2027 0x y    B. 1 2026 02 2027y    
+ C. 1 2 02 x y    D. 22 2 0x y    
+Câu 2. Phương trình nào sau đây là phương trình bậc nhất hai ẩn? 
+ A. 22 2 0x   . B. 3 1 5( 2)y y   .  C. 2 1 02
+yx    . D. 23 0x y  . 
+Câu 3. Cặp số 11 ; 2
+    
+ là nghiệm của phương trình bậc nhất hai ẩn nào sau đây? 
+ A. 2 1 0x    B. 2 1 0y    C. 2 1 0x y    D. 2 3 0x y    
+Câu 4. Phương trình nào dưới đây nhận cặp số ( 2;4)  làm nghiệm  
+ A. 2 0x y  . B. 2 0x y  . C. 2x y  . D. 2 1 0x y   . 
+Câu 5. Phương trình 3 1 0x y   nhận cặp số nào sau đây là nghiệm? 
+ A.  1; 1  B.  1;0  C.  2; 1  D. 10; 3
+    
+ 
+Câu 6. Phương trình 5 7 0x y    nhận cặp số nào sau đây làm nghiệm? 
+ A. (0;1). B. ( 1;2) . C. (3; 2). D. (2; 4). 
+Câu 7. Phương  trình 5 4 8x y   nhận cặp số nào sau đây là nghiệm? 
+ A. ( 2;1) . B. ( 1;0) . C. (1,5;3). D. (4; 3) . 
+Câu 8. Trong các cặp số ( 2;1);(0;2);( 1 ;0);(1,5;3);(4; 3)    có bao nhiêu c ặp số không l à nghiệm của 
+phương trình 3 5 3x y   . 
+ A. 1. B. 3 . C. 2 . D. 4 . 
+Câu 9. Cho phương trình ax by c    với 0, 0a b  . Nghiệm của phương trình được biểu diễn bởi: 
+ A. 
+x
+a cy x b b
+   
+
+. B. 
+x
+a cy x b b
+   
+
+. C. 
+x
+cy b
+ 
+
+. D. 
+x
+cy b
+  
+
+. 
+Câu 10. Cho phương trình 2 1x y  , nghiệm tổng quát của phương trình là: 
+ A.  ;2 1x x   với x    tùy ý. B.  ;2 1x x   với x    tùy ý.  
+ C.  ;2 1x x   với x    tùy ý. D.  ;2 1x x   với x    tùy ý.  
+
+PAGE 10
+Đại số 9 - Chương 1: Phương trình và HPT bậc nhất hai ẩn  – Tự luận và trắc nghiệm 4 phần                        KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 10 
+PHẦN II. Câu trắc nghiệm đúng sai. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc 
+sai. 
+Câu 31. Cho phương trình 3 2x y     1 .  
+a) Cặp số  0; 2  là một nghiệm của phương trình  1 . 
+b) Cặp số  2; 4  không phải là nghiệm của phương trình  1 . 
+c) Nghiệm của phương trình  1  là:  ;3 2x x   với x    tùy ý. 
+d) Trong mặt phẳng tọa độ Oxy , đường thẳng 3 2x y     có đồ thị như sau: 
+ 
+Câu 32. Cho phương trình 2 1x y    1  .  
+a) Cặp số  1;3  không phải là nghiệm của phương trình  1 . 
+b) Cặp số  2;3  là một nghiệm của phương trình  1 . 
+c) Nghiệm của phương trình  1  là:  ; 2 1x x   với x    tùy ý. 
+d) Trong mặt phẳng tọa độ Oxy , đường thẳng 3 2x y     có đồ thị như sau: 
+ 
+Câu 33. Cho hai phương trình 3 5 7x y    và  2 4x y   và cặp số  1; 2 .  
+a) Cặp số  1; 2  là một nghiệm của phương trình3 5 7x y   . 
+b) Cặp số  1; 2  không phải là nghiệm của phương trình 2 4x y  . 
+c) Cặp số  1; 2  không phải là nghiệm của hệ phương trình 3 5 7
+2 4
+x y
+x y
+  
+  
+. 
+
+PAGE 12
+Đại số 9 - Chương 1: Phương trình và HPT bậc nhất hai ẩn  – Tự luận và trắc nghiệm 4 phần                        KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 12 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Mỗi câu hỏi thí sinh chỉ trả lời đáp án. 
+Câu 36. Để phương trình  1 4 0x y m m      ( m  là tham số)  nhận cặp số  1;3  là nghiệm thì giá 
+trị m  bằng bao nhiêu?  
+Trả lời: ……………….. 
+Câu 37. Để phương trình 22 ( 2) 5x m y    ( m  là tham số)  nhận cặp số ( 10; 1)   là nghiệm thì giá trị 
+dương m  bằng bao nhiêu?  
+Trả lời: ……………….. 
+Câu 38. Để phương trình 1. 3 1m x y     ( m  là tham số)  nhận cặp số (1;1) là nghiệm thì giá trị m  
+bằng bao nhiêu?  
+Trả lời: ……………….. 
+Câu 39. Để phương trình    2 3 1 2 6m x m y m      ( m  là tham số)  nhận cặp số  0;0  là nghiệm 
+thì giá trị m  bằng bao nhiêu?  
+Trả lời: ……………….. 
+Câu 40. Biết hai phương trình 5ax y   và  4 9x by   nhận cặp số  16; 11  làm nghiệm chung. Tính 
+giá trị của a b . 
+Trả lời: ……………….. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 294
+Đại số 9 - Chương 1: Phương trình và HPT bậc nhất hai ẩn  – Trắc nghiệm 4 phần có lời giải                          KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 39 
+Giải hệ phương trình trên tìm được: 500
+300
+x
+y
+
+ 
+ (thỏa điều kiện) 
+Vậy số sản phẩm tổ 1 làm được là 500 (sản phẩm) và số sản phẩm tổ 2 làm được là 300 (sản phẩm) 
+Câu 60. Một máy giặt và một tivi có giá tổng cộng 28690 000 đồng. Sau khi giảm giá 10% cho một máy 
+giặt và 15% cho m ột tivi, tổng số tiền mua hai sản phẩm n ày chỉ còn lại 24961000 đồng. Tính giá ti ền 
+mỗi sản phẩm trước khi giảm giá. 
+Lời giải 
+Gọi giá tiền của máy giặt và ti vi là ,x y (ngàn đồng)  0 , 28690x y   
+Vì giảm giá 10% cho một máy giặt v à 15% cho m ột tivi, tổng số tiền mua hai sản phẩm n ày chỉ còn lại 
+24961000 đồng nên ta có phương trình : 0,9 0,85 24961x y  (1) 
+Và một máy giặt và một tivi có giá tổng cộng 28690 000 đồng nên ta có phương trình:  28690 2x y  .  
+Từ (1),(2) ta có hệ : 28690
+0,9 0,85 24961
+x y
+x y
+ 
+    
+Giải hệ phương trình trên tìm được: 11490
+17200
+x
+y
+
+ 
+ (thỏa điều kiện) 
+Vậy giá tiền 1 máy giặt , 1 ti vi lần lượt là 11490000 đồng, 17200000 đồng 
+ 

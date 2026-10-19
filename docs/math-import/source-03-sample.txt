@@ -1,0 +1,176 @@
+PAGE 1
+Đại số 9 - Chương 6: Hàm số y = ax2. Phương trình bậc hai một ẩn  – Tự luận và trắc nghiệm 4 phần            KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 6 
+HÀM SỐ 2  ( 0)y ax a   
+PHƯƠNG TRÌNH BẬC HAI MỘT ẨN 
+ 
+BÀI 18 
+HÀM SỐ 2  ( 0)y ax a   
+ 
+1. Hàm số 2  ( 0)y ax a   
+ Hàm số 2  ( 0)y ax a   xác định với mọi giá trị x  thuộc  . 
+2. Đồ thị của hàm số 2  ( 0)y ax a   
+ Cách vẽ đồ thị hàm số 2  ( 0)y ax a  : 
+   Lập bảng ghi một số cặp giá trị của x  và y . 
+   Trong mặt phẳng toạ độ Oxy , biểu diễn các cặp điểm  ;x y  trong bảng giá trị trên và nối chúng 
+lại để được một đường cong là đồ thị của hàm số 2  ( 0)y ax a  . 
+ Đồ thị của hàm số 2  ( 0)y ax a   là một đường cong, gọi là đường parabol, có các tính chất sau: 
+   Có đỉnh là gốc toạ độ O ; 
+   Có trục đối xứng là Oy ; 
+   Nằm phía trên trục hoành nếu 0a   và nằm phía dưới trục hoành nếu 0a  . 
+ 
+Nhận xét: 
+  Khi vẽ đồ thị hàm số 2  ( 0)y ax a  , ta cần xác định tối thiểu 5 điểm thuộc đồ thị là gốc toạ độ O  
+và hai cặp điểm đối xứng với nhau qua trục tung Oy . 
+  Do đồ thị hàm số 2  ( 0)y ax a   nhận trục tung Oy  là trục đối xứng nên ta có thể lập bảng giá trị 
+của hàm số này với những giá trị x  không âm và v ẽ phần đồ thị t ương ứng ở bên phải trục tung, sau đó 
+lấy đối xứng phần đồ thị đã vẽ qua trục tung ta sẽ được đồ thị của hàm số đã cho. 
+
+PAGE 8
+Đại số 9 - Chương 6: Hàm số y = ax2. Phương trình bậc hai một ẩn  – Tự luận và trắc nghiệm 4 phần            KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 8
+PHẦN B 
+TRẮC NGHIỆM VÀ TỰ LUẬN GỒM BỐN PHẦN 
+ 
+PHẦN I. Câu trắc nghiệm nhiều p hương án l ựa chọn. Mỗi câu hỏi thí sinh chỉ chọn một ph ương 
+án. 
+Câu 1. Giá trị của hàm số 2( ) 7y f x x    tại 0 2x    là: 
+ A. 28 . B. 14. C. 21. D. 28 . 
+Câu 2. Giá trị của hàm số 24( ) 5y f x x   tại 0 5x    là  
+ A. 20 . B. 10 . C. 4 . D. 20 . 
+Câu 3. Cho hàm số 21
+9y x  có đồ thị  P . Điểm nào sau đây thuộc đồ thị  P ? 
+ A. 11 ;3A 
+  
+. B. 11; 9B     
+. C. 11 ;9C    
+. D.  3; 3D   . 
+Câu 4. Điểm  2; 1A    thuộc đồ thị hàm số nào sau đây? 
+ A. 23y x . B. 23y x  . C. 21
+4y x . D. 21
+4y x  . 
+Câu 5. Trong các đi ểm (1 ; 2); ( 1 ; 1); (10; 200); ( 10; 10)A B C D      có bao nhiêu đi ểm thuộc đồ thị 
+hàm số 2y x  . 
+ A. 1. B. 4 . C. 3 . D. 2 . 
+Câu 6. Cho hàm số 24y x  có đồ thị  P . Điểm  01;M y  thuộc đồ thị  P  thì giá tr ị 0y  bằng bao 
+nhiêu? 
+ A. 0 4y  . B. 0 4y   . C. 0
+1
+4y  . D. 0
+1
+4y   . 
+Câu 7. Cho hàm số 21
+16y x   có đồ thị  P . Điểm  0; 4M x   thuộc đồ thị  P  thì giá tr ị 0x  bằng 
+bao nhiêu? 
+ A. 0 8x   . B. 0 8x  . C. 0 8x    và 0 8x  . D. 0 4x    và 0 4x  . 
+Câu 8. Điểm thuộc đồ thị hàm số 22
+5y x   có hoành độ bằng 2
+2  thì có tung độ bằng bao nhiêu? 
+ A. 1
+5 . B. 1
+5 . C. 5 2
+4 . D. 5 2
+4 . 
+Câu 9. Điểm thuộc đồ thị hàm số 21
+25y x  có tung độ bằng 2  thì có hoành độ bằng bao nhiêu? 
+ A. 5 2 .  B. 5 2 .  
+
+PAGE 12
+Đại số 9 - Chương 6: Hàm số y = ax2. Phương trình bậc hai một ẩn  – Tự luận và trắc nghiệm 4 phần            KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 12 
+PHẦN II. Câu trắc nghiệm đúng sai. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc 
+sai. 
+Câu 21. Cho hàm số 21
+6y x    có đồ thị ( )P . 
+a) Đồ thị hàm số ( )P  nằm phía dưới trục hoành. 
+b) Đồ thị hàm số ( )P  nhận gốc tọa độ O  là điểm thấp nhất. 
+c) Đồ thị hàm số ( )P  nhận Oy  làm trục đối xứng. 
+d) Cho hai đi ểm 11; 6A    
+ và 22; 3B     
+. Khi đó đi ểm 11; 6A    
+ thu ộc đồ thị h àm s ố ( )P  và 
+22; 3B     
+ không đồ thị hàm số ( )P . 
+Câu 22. Cho hàm số 2( ) 3y f x x    có đồ thị ( )P . 
+a) Đồ thị hàm số ( )P  nằm phía trên trục hoành. 
+b) Đồ thị hàm số ( )P  nhận gốc tọa độ O  là điểm thấp nhất. 
+c) 6 2 6 3 2f       
+ 
+d) Có 2  điểm trên  P  cách đều hai trục tọa độ. 
+Câu 23. Cho hàm số 21( ) 5y f x x     có đồ thị ( )P . 
+a)   42 5f    
+b) Đồ thị hàm số ( )P  nằm phía dưới trục Ox . 
+c) Có 1 điểm trên  P  có tung độ bằng 2 . 
+d) Gọi 0 0( ; )M x y  là điểm thuộc parabol  P  (khác gốc tọa độ O ) có tung độ gấp năm lần hoành độ. Khi 
+đó 0 0 150x y  . 
+Câu 24. Cho parabol 21( ) : 2P y x   , đường thẳng ( ) :d y x  và điểm  2; 2M   
+a) Điểm M  thuộc đường thẳng ( )d . 
+b) Điểm M  không thuộc parabol ( )P . 
+c) Phương trình hoành độ giao điểm của parabol ( )P  và đường thẳng ( )d  là 21
+2 x x . 
+d) Gọi ,A B  là tọa độ giao điểm của parabol ( )P  và  đường thẳng ( )d , khi đó  0;0A  và  2; 2B . 
+Câu 25. Cho parabol 2( ) : 3P y x   , đường thẳng ( ) : 4d x y    và điểm  1; 3M    
+a) Parabol ( )P  nằm phía dưới trục hoành. 
+b) Điểm M  thuộc parabol ( )P . 
+
+PAGE 15
+Đại số 9 - Chương 6: Hàm số y = ax2. Phương trình bậc hai một ẩn  – Tự luận và trắc nghiệm 4 phần            KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 15 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Mỗi câu hỏi thí sinh chỉ trả lời đáp án. 
+Câu 31. Trong Vật lí, qu ãng đường S  (tính b ằng mét) của một vật r ơi tự do đ ược cho bởi công thức 
+24,9S t , trong đó t  là th ời gian r ơi (tính b ằng giây). Hỏi sau bao nhi êu giây thì v ật sẽ chạm đất nếu 
+được thả rơi tự do từ độ cao 122,5 mét? 
+Trả lời: ……………….. 
+Câu 32. Bạn Minh Hiền thả một vật r ơi tự do ở độ cao so với mặt đất  550 m . Quãng đường chuyển 
+động S  (mét) của vật rơi tự do phụ thuộc v ào thời gian t  (giây) theo công th ức 26S t . Sau khi vật rơi 
+được 8  giây thì vật cách mặt đất bao nhiêu mét? 
+ 
+Trả lời: ……………….. 
+Câu 33. Thả một viên đá rơi t ự do vào một hố sâu  4500 m . Quãng đường chuyển động S  (mét) của 
+viên đá rơi tự do phụ thuộc vào thời gian t  (giây) theo công thức 25S t . Hỏi sau bao nhiêu giây thì viên 
+đá chạm đáy hố? 
+ 
+Trả lời: ……………….. 
+Câu 34. Một khách du lịch ch ơi trò Bungee t ừ một tháp với độ cao 312,5  mét so v ới mặt đất. Qu ãng 
+đường chuyển động S  (đơn vị tính bằng mét) của ng ười rơi phụ thuộc vào thời gian t  (đơn vị tính bằng 
+giây) được cho bởi công thức: 26,5.S t . Sau khoảng thời gian bao nhiêu giây thì du khách cách m ặt đất 
+150  mét? 
+ 
+Trả lời: ……………….. 
+
+PAGE 398
+Đại số 9 - Chương 6: Hàm số y = ax2. Phương trình bậc hai một ẩn  – Trắc nghiệm 4 phần có lời giải            KNTTVCS 
+https://www.facebook.com/truongngocvy8/                                                                          Trương Ngọc Vỹ  0978 333 093 Trang 53 
+Câu 90. Lúc 7  giờ một ca nô chạy xuôi d òng từ bến A  đến bến B  dài 30 km . Ca nô ngh ỉ tại B  30  
+phút. Sau đó, ca nô ngược dòng với vận tốc riêng không đổi từ B  về A  lúc 11 giờ 30  phút. Tính vận tốc 
+riêng của ca nô biết vận tốc dòng nước là 4 /km h . 
+Lời giải 
+Gọi vận tốc riêng của ca nô là x   /km h . ĐK: 4x  . Đổi 30  phút 1
+2  giờ. 
+Vận tốc của ca nô khi xuôi dòng là  4 /x km h   
+Vận tốc của ca nô khi ngược dòng là  4 /x km h   
+Thời gian ca nô xuôi dòng từ bến A  đến bến B  là 30
+4x   (giờ) 
+Thời gian ca nô ngược dòng từ B  và A  là 30
+4x   (giờ) 
+Tổng thời gian ca nô đi, về và nghỉ là 11 giờ 30  phút 7  giờ 4  giờ 30  phút 9
+2  giờ. 
+Ta có phương trình: 
+ 
+2
+30 30 1 9
+4 4 2 2
+15 16 0
+x x
+x x
+   
+  
+ 
+Giải phương trình trên ta được 1 16x   (nhận), 2 1x    (loại) 
+Vậy vận tốc riêng của ca nô là  16 /km h  
+ 
+ 
+ 
+ 
+ 

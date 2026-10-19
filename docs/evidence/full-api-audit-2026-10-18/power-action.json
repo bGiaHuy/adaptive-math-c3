@@ -1,0 +1,6 @@
+{
+  "forced": false,
+  "method": "Stop-Computer",
+  "status": "shutdown_requested",
+  "at": "2026-10-19T00:30:00.5599901+07:00"
+}

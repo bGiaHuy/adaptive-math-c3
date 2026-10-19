@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "Reuse existing paper copies 22 questions, editable title and new receiving class without mutating original",
+    "Leave, discover, resume and reload reused draft retains edited title and class; foreign and corrupted drafts do not appear"
+  ],
+  "errors": [],
+  "writes": [],
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      820,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ]
+}

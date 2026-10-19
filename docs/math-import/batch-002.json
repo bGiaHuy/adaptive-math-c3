@@ -1,0 +1,1265 @@
+{
+  "batchId": "hung-yen-9101-batch-002",
+  "questions": [
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-2",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hệ phương trình $\\begin{cases}3x+2y=5\\\\x-2y=-1\\end{cases}$ có nghiệm duy nhất $(x_0;y_0)$. Giá trị của $2026y_0^2-x_0$ bằng:",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "2025",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "2026",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "−2025",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "2024",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-3",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Điều kiện xác định của phương trình $\\frac{1-2x}{x}=\\frac{1}{x-2}$ là:",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x\\ne2$ và $x\\ne0$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$x\\ne2$ hoặc $x\\ne0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$x\\ne0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$x\\ne2$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-4",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Diện tích hình quạt tròn cung $30^\\circ$ của một đường tròn có bán kính 4 cm bằng:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\frac{2\\pi}{15}\\,cm^2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac{2\\pi}{3}\\,cm^2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\frac{4\\pi}{3}\\,cm^2$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\frac{4\\pi}{15}\\,cm^2$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-5",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Gọi $d$ là khoảng cách giữa hai tâm của $(O,R)$ và $(O\\prime,r)$ với $0<r<R$. Hai đường tròn tiếp xúc trong khi:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 5",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$d>R+r$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$d=R+r$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$d=R-r$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$R-r<d<R+r$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-6",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hai tiếp tuyến tại A và B của đường tròn $(O;R)$ cắt nhau tại M. Nếu $MA=R\\sqrt3$ thì $\\widehat{AOB}$ bằng:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 6",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$45^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$120^\\circ$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$60^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$90^\\circ$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-7",
+      "questionType": "SINGLE_CHOICE",
+      "content": "$\\sqrt[3]{-125}$ có kết quả là:",
+      "skillCode": "MATH9-CUBE-ROOTS",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 7",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "25",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "−5",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "−25",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-8",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Giải bất phương trình $\\frac{x+2}{3}+3x+1>\\frac{x+2}{2}$ ta được nghiệm là:",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 8",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x>\\frac{-4}{17}$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$x>\\frac{-6}{11}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$x>\\frac{-6}{7}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$x<\\frac{6}{5}$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-9",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tam giác ABC vuông tại A, kẻ đường cao AH (H thuộc BC). Biết HB = 3 cm, HC = 12 cm. Độ dài đoạn AH bằng:",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 9",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "8 cm",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "6 cm",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "4 cm",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "5 cm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-10",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trên mặt một chiếc đồng hồ có vạch chia như hình vẽ. Góc tạo bởi kim giờ và kim phút tại thời điểm 3 giờ có số đo bằng:\n\n![Đồng hồ nguồn](/math-import-assets/hung-yen-9101-clock.png)",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "9101 / SINGLE_CHOICE / 10",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$45^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$180^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$90^\\circ$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$270^\\circ$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-11",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Theo nội dung đề: người đủ 16 tuổi trở lên được điều khiển xe gắn máy. Gọi x là số tuổi người đủ điều kiện điều khiển xe gắn máy. Chọn khẳng định sai trong các khẳng định sau:",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 11",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn. Câu được giữ theo đáp án chính thức C; cách diễn đạt tập nghiệm với B/D cần giáo viên rà soát trước xuất bản.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x\\ge16$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$x>16$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$x<16$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$x=16$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-12",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình $(2x-3)^2=6x-9$ có hai nghiệm là $x=a$, $x=b$. Tích $2ab$ bằng:",
+      "skillCode": "SKILL-05",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 12",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "−9",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "12",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "9",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "−12",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-13",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Nghiệm của phương trình $(x-2026)(x+2025)=0$ là:",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 13",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x=-2026;\\ x=2025$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$x=2026;\\ x=-2025$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$x=-2026;\\ x=-2025$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$x=2026;\\ x=2025$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-14",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tam giác ABC vuông tại A, khẳng định nào sau đây sai?",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 14",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\sin B=\\cos C$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\tan B=\\cot C$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\sin B=\\tan C$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\frac{AB}{AC}=\\frac{\\cos B}{\\cos C}$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-15",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Tỉ số giữa độ dài cung $n^\\circ$ và độ dài đường tròn (có cùng bán kính) bằng:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 15",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\frac n{180}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac n{90}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\frac n{360}$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\frac n{120}$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-16",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong các khẳng định sau, khẳng định nào sai?",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 16",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$\\sqrt{\\frac{4a}{-3}}=\\frac{-2\\sqrt{3a}}{3}$ với $a<0$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\sqrt{\\frac{4a}{3b}}=\\frac{2\\sqrt{3ab}}{3b}$ với $a>b>0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\sqrt{\\frac37}=\\frac{\\sqrt{21}}7$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\sqrt{\\frac{50}6}=\\frac{5\\sqrt3}3$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-17",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho đường tròn tâm O, hai tiếp tuyến tại A và B (A ≠ B) cắt nhau tại M. Khẳng định nào sau đây sai?",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 17",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "MA + MB = AB.",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "MO vuông góc với AB.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "MO là tia phân giác của góc AMB.",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "MA = MB.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-18",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Một học sinh có tầm mắt cao 1,6 m đứng trên sân thượng của một căn nhà cao 25 m nhìn thấy một chiếc xe đứng yên ở C với góc nghiêng xuống $38^\\circ$ (như hình). Xe cách căn nhà bao nhiêu mét, làm tròn đến hàng đơn vị?\n\n![Hình nguồn](/math-import-assets/hung-yen-9101-house.png)",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 18",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "21 m",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "50 m",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "34 m",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "32 m",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-19",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hệ phương trình $\\begin{cases}2(x+2)-3(y+1)=9\\\\3(x+1)+2(y-1)=0\\end{cases}$ có nghiệm là:",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9101 / SINGLE_CHOICE / 19",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$(x;y)=(-2;3)$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$(x;y)=(2;-3)$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$(x;y)=(1;-2)$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$(x;y)=(-1;2)$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-20",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Bác An gửi 1 tỉ đồng vào hai ngân hàng A và B, lãi suất A là 6,5% một năm, B là 7% một năm. Sau một năm thu được cả gốc và lãi là 1,067 tỉ đồng. Bác An gửi ngân hàng A bao nhiêu triệu đồng?",
+      "skillCode": "SKILL-04",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / SINGLE_CHOICE / 20",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "400 triệu đồng",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "500 triệu đồng",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "600 triệu đồng",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "700 triệu đồng",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-21",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Nghiệm của phương trình $\\frac1{x-1}-\\frac2{x+2}=0$ là:",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / SINGLE_CHOICE / 21",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "x = 4",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "x = −4",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "x = 0",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "Vô nghiệm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-22",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Viết nghiệm tổng quát của phương trình $-2x+y=4$ (với $x\\in\\mathbb R$ tùy ý):",
+      "skillCode": "SKILL-03",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / SINGLE_CHOICE / 22",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$(x;-2x-4)$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$(x;2x+4)$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$(x;2x-4)$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$(x;-2x+4)$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-23",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Sau khi rút gọn $\\frac2{5-\\sqrt3}+\\frac2{5+\\sqrt3}$ là phân số tối giản $\\frac ab$ ($a,b\\in\\mathbb Z,b>0$), giá trị $a+b$ là:",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / SINGLE_CHOICE / 23",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "21",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "22",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "16",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "31",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-24",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho $a>b$, bất đẳng thức nào sau đây đúng?",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / SINGLE_CHOICE / 24",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$-3a+2<-3b-1$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$2a-2>2b-3$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$3a+3>-3b+3$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$2a+5<2b+5$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-25",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Một khu vườn hình chữ nhật có chu vi 48 m. Nếu tăng chiều rộng lên bốn lần và chiều dài lên ba lần thì chu vi là 162 m. Gọi chiều dài, chiều rộng ban đầu là x m, y m (0 < y < x < 24). Biểu thức thể hiện chu vi sau thay đổi là:",
+      "skillCode": "SKILL-04",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / SINGLE_CHOICE / 25",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$2(x+y)=162$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$2(x+y)=24$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$2(3x+4y)=162$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$2(4x+3y)=162$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SINGLE_CHOICE-26",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hai đường tròn (O; 5 cm) và (O′; 5 cm) cắt nhau tại A và B. Biết OO′ = 8 cm. Độ dài dây cung AB là:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / SINGLE_CHOICE / 26",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "6 cm",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "7 cm",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "5 cm",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "8 cm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-TRUE_FALSE-2",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho đường tròn (O,R), điểm A ngoài đường tròn sao cho OA = 2R. Từ A kẻ tiếp tuyến AB (B là tiếp điểm), H là hình chiếu của B lên AO. Xét đúng/sai:",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9101 / TRUE_FALSE / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$OH\\cdot OA=4R^2$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Kéo dài BH cắt (O) tại C thì AC là tiếp tuyến của (O).",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "BC là dây cung chung của đường tròn đường kính AO và (O).",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Tam giác ABC là tam giác đều.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-2",
+      "questionType": "SHORT_ANSWER",
+      "content": "Giá trị nguyên dương lớn nhất của $x$ để $M=\\frac{2\\sqrt x-1}{\\sqrt x-2}$ đạt giá trị nguyên là bao nhiêu?",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "9101 / SHORT_ANSWER / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "25"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-3",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho hình vẽ, tính diện tích phần tô xám theo $cm^2$, biết OA = 20 cm, OC = 5 cm, $\\widehat{AOB}=135^\\circ$. Lấy $\\pi\\approx3,14$, làm tròn đến hàng đơn vị.\n\n![Hình nguồn](/math-import-assets/hung-yen-9101-sector.png)",
+      "skillCode": "SKILL-08",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "9101 / SHORT_ANSWER / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "442"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-4",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho $a$ là số thực. Giá trị nhỏ nhất của $P=a^2-a+\\frac2{a^2+1}+2024$ bằng bao nhiêu?",
+      "skillCode": "SKILL-02",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "9101 / SHORT_ANSWER / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "2025"
+        ],
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-5",
+      "questionType": "SHORT_ANSWER",
+      "content": "Giá trị $\\frac{\\cos^2 25^\\circ+\\cos^2 65^\\circ+2}{2\\tan20^\\circ\\cdot\\tan70^\\circ-1}$ bằng bao nhiêu?",
+      "skillCode": "SKILL-07",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "9101 / SHORT_ANSWER / 5",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "3"
+        ],
+        "tolerance": 1e-09
+      }
+    }
+  ]
+}

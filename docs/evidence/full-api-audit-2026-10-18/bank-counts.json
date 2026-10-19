@@ -1,0 +1,1170 @@
+{
+  "at": "2026-10-18T11:12:39.958Z",
+  "databaseIdentityVerified": true,
+  "skills": [
+    {
+      "id": "6d6b2181-8dfa-41f4-a340-cdbd024fceea",
+      "code": "SKILL-01",
+      "title": "Căn bậc hai và căn thức cơ bản"
+    },
+    {
+      "id": "e929ae2a-c3d1-4708-99a1-e7ee84295f9a",
+      "code": "SKILL-02",
+      "title": "Biến đổi và tính toán với căn thức"
+    },
+    {
+      "id": "7e2ede9a-8b02-48b9-b7c7-1e26c7f81348",
+      "code": "SKILL-03",
+      "title": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình"
+    },
+    {
+      "id": "8d8de0e7-e506-443e-ae83-3102a72db9ed",
+      "code": "SKILL-04",
+      "title": "Giải bài toán bằng cách lập hệ phương trình"
+    },
+    {
+      "id": "4ff7c0fd-34db-485f-bd67-07171e0f8d1b",
+      "code": "SKILL-05",
+      "title": "Phương trình bậc hai một ẩn"
+    },
+    {
+      "id": "cebb1c9d-2ce5-4e93-bd02-d915b571aa57",
+      "code": "SKILL-06",
+      "title": "Định lý Viète và ứng dụng"
+    },
+    {
+      "id": "81655756-67c0-47a5-9b2c-169e5a78163a",
+      "code": "SKILL-07",
+      "title": "Tỉ số lượng giác của góc nhọn"
+    },
+    {
+      "id": "311b931e-b6b4-416d-b8e4-ef1fd43c20ac",
+      "code": "SKILL-08",
+      "title": "Đường tròn và góc nội tiếp"
+    },
+    {
+      "id": "60c852f7-4b63-436b-87cf-f9777be4e939",
+      "code": "9-C1-B2",
+      "title": "Phương trình bậc nhất hai ẩn và hệ phương trình"
+    },
+    {
+      "id": "2504009a-a687-43fa-b8b0-025a4d3124a7",
+      "code": "9-C1-B3",
+      "title": "Giải hệ hai phương trình bậc nhất hai ẩn"
+    },
+    {
+      "id": "dcf477e9-24fe-4757-a23f-117ef1b3994a",
+      "code": "9-C1-B4",
+      "title": "Giải bài toán bằng cách lập hệ phương trình"
+    },
+    {
+      "id": "33831624-f0d9-45fc-811a-f9f94178636e",
+      "code": "9-C1-B1",
+      "title": "Phương trình quy về phương trình bậc nhất một ẩn"
+    },
+    {
+      "id": "2133057a-8697-4fe2-a413-bb2c88e97c96",
+      "code": "9-C2-B1",
+      "title": "Bất đẳng thức và tính chất"
+    },
+    {
+      "id": "fda5a3f3-0365-453c-9fd7-4fe4f1195b14",
+      "code": "9-C2-B2",
+      "title": "Bất phương trình bậc nhất một ẩn"
+    },
+    {
+      "id": "5f27bac7-1c9f-4d16-b249-8fd2ae6ffe20",
+      "code": "9-C3-B1",
+      "title": "Căn bậc hai và căn bậc ba"
+    },
+    {
+      "id": "946a55f4-05a2-42dc-a568-9201e30ab01a",
+      "code": "9-C3-B2",
+      "title": "Biến đổi và phép tính với căn thức"
+    },
+    {
+      "id": "bf8c10f6-8a92-4161-8891-a985f371c5c2",
+      "code": "9-C4-B1",
+      "title": "Tỉ số lượng giác của góc nhọn"
+    },
+    {
+      "id": "f92b389d-191e-468e-9744-e66a5040d000",
+      "code": "9-C4-B2",
+      "title": "Hệ thức giữa cạnh và góc trong tam giác vuông"
+    },
+    {
+      "id": "891aeff6-aa94-4a84-94bd-a4d9b2038fd2",
+      "code": "9-C5-B1",
+      "title": "Đường tròn và vị trí tương đối"
+    },
+    {
+      "id": "ee1ca38b-1a2c-49cb-ac3d-a61a51306949",
+      "code": "9-C5-B2",
+      "title": "Tiếp tuyến của đường tròn"
+    },
+    {
+      "id": "e128eb94-c96b-455a-aee4-0970e097b8e2",
+      "code": "9-C5-B3",
+      "title": "Góc ở tâm, góc nội tiếp và cung"
+    },
+    {
+      "id": "65012395-ae68-430c-b594-d0d56947c79d",
+      "code": "9-C5-B4",
+      "title": "Độ dài đường tròn, cung và diện tích hình quạt"
+    },
+    {
+      "id": "e6146a9e-938e-4a63-9dd8-dffea980bdca",
+      "code": "9-C6-B1",
+      "title": "Hàm số $y=ax^2$ và đồ thị"
+    },
+    {
+      "id": "bc80b5d4-ebd4-47d5-8b77-102d6034a44f",
+      "code": "9-C6-B2",
+      "title": "Phương trình bậc hai một ẩn"
+    },
+    {
+      "id": "236cf1eb-0958-46c4-837b-f1a599ee351f",
+      "code": "9-C6-B3",
+      "title": "Định lí Viète và ứng dụng"
+    },
+    {
+      "id": "0c35e970-96fb-4a05-84ce-fb9cbfd5b8aa",
+      "code": "9-C7-B1",
+      "title": "Tần số, tần số tương đối và biểu đồ"
+    },
+    {
+      "id": "f94ae91a-eda1-40b0-85b0-7220ebacc319",
+      "code": "9-C8-B1",
+      "title": "Xác suất của biến cố"
+    },
+    {
+      "id": "d2d9afc8-70bd-4899-80a4-e44069ad47ac",
+      "code": "9-C9-B1",
+      "title": "Tứ giác nội tiếp"
+    },
+    {
+      "id": "3277428b-c535-4c20-b77c-7566cc2016a4",
+      "code": "9-C9-B2",
+      "title": "Đa giác đều và phép quay"
+    },
+    {
+      "id": "98e75ed0-ccb9-4288-9091-f33cb91762fc",
+      "code": "9-C10-B1",
+      "title": "Hình trụ"
+    },
+    {
+      "id": "4ef713d5-0f24-42ea-bf81-a7a99be4f655",
+      "code": "9-C10-B2",
+      "title": "Hình nón"
+    },
+    {
+      "id": "5e6778d6-a13f-4f34-8b0b-f8b88f7c6df7",
+      "code": "9-C10-B3",
+      "title": "Hình cầu"
+    },
+    {
+      "id": "c60a21de-6ea0-4638-b17c-28c5a3bdb4b8",
+      "code": "MATH9-LINEAR-EQUATIONS",
+      "title": "Phương trình bậc nhất, phương trình tích và phương trình chứa ẩn ở mẫu"
+    },
+    {
+      "id": "1fc30aa7-27d6-4232-9232-5b21769cffec",
+      "code": "MATH9-CUBE-ROOTS",
+      "title": "Căn bậc ba"
+    },
+    {
+      "id": "5ef556b6-c91e-4103-9f20-cdb9fd5e9916",
+      "code": "MATH9-LINEAR-INEQUALITY",
+      "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn"
+    },
+    {
+      "id": "d7ad3caf-51b8-497c-ac22-c07171b68bdd",
+      "code": "MATH9-STATISTICS",
+      "title": "Thống kê và tần số tương đối"
+    },
+    {
+      "id": "4cdefaf4-e03c-4afb-aa68-a6c56371ab0c",
+      "code": "MATH9-SOLIDS",
+      "title": "Hình trụ, hình nón và hình cầu"
+    },
+    {
+      "id": "f3b380b9-d8b3-47ba-81ab-6e9137e73109",
+      "code": "MATH9-PROBABILITY",
+      "title": "Xác suất của biến cố"
+    }
+  ],
+  "groups": [
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "33831624-f0d9-45fc-811a-f9f94178636e",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "ee1ca38b-1a2c-49cb-ac3d-a61a51306949",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "311b931e-b6b4-416d-b8e4-ef1fd43c20ac",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "33831624-f0d9-45fc-811a-f9f94178636e",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "e929ae2a-c3d1-4708-99a1-e7ee84295f9a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "60c852f7-4b63-436b-87cf-f9777be4e939",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "891aeff6-aa94-4a84-94bd-a4d9b2038fd2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 7
+      },
+      "skillId": "6d6b2181-8dfa-41f4-a340-cdbd024fceea",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "ee1ca38b-1a2c-49cb-ac3d-a61a51306949",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "236cf1eb-0958-46c4-837b-f1a599ee351f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e6146a9e-938e-4a63-9dd8-dffea980bdca",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e128eb94-c96b-455a-aee4-0970e097b8e2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2504009a-a687-43fa-b8b0-025a4d3124a7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "65012395-ae68-430c-b594-d0d56947c79d",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f92b389d-191e-468e-9744-e66a5040d000",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5f27bac7-1c9f-4d16-b249-8fd2ae6ffe20",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e6146a9e-938e-4a63-9dd8-dffea980bdca",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bf8c10f6-8a92-4161-8891-a985f371c5c2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "60c852f7-4b63-436b-87cf-f9777be4e939",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5e6778d6-a13f-4f34-8b0b-f8b88f7c6df7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e6146a9e-938e-4a63-9dd8-dffea980bdca",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "98e75ed0-ccb9-4288-9091-f33cb91762fc",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5f27bac7-1c9f-4d16-b249-8fd2ae6ffe20",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "946a55f4-05a2-42dc-a568-9201e30ab01a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e128eb94-c96b-455a-aee4-0970e097b8e2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5e6778d6-a13f-4f34-8b0b-f8b88f7c6df7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "dcf477e9-24fe-4757-a23f-117ef1b3994a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bf8c10f6-8a92-4161-8891-a985f371c5c2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "3277428b-c535-4c20-b77c-7566cc2016a4",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "946a55f4-05a2-42dc-a568-9201e30ab01a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "dcf477e9-24fe-4757-a23f-117ef1b3994a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 6
+      },
+      "skillId": "6d6b2181-8dfa-41f4-a340-cdbd024fceea",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f92b389d-191e-468e-9744-e66a5040d000",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "891aeff6-aa94-4a84-94bd-a4d9b2038fd2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "d2d9afc8-70bd-4899-80a4-e44069ad47ac",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bc80b5d4-ebd4-47d5-8b77-102d6034a44f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "cebb1c9d-2ce5-4e93-bd02-d915b571aa57",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "fda5a3f3-0365-453c-9fd7-4fe4f1195b14",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2133057a-8697-4fe2-a413-bb2c88e97c96",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5f27bac7-1c9f-4d16-b249-8fd2ae6ffe20",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f94ae91a-eda1-40b0-85b0-7220ebacc319",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f94ae91a-eda1-40b0-85b0-7220ebacc319",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "fda5a3f3-0365-453c-9fd7-4fe4f1195b14",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2504009a-a687-43fa-b8b0-025a4d3124a7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2504009a-a687-43fa-b8b0-025a4d3124a7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "0c35e970-96fb-4a05-84ce-fb9cbfd5b8aa",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "6d6b2181-8dfa-41f4-a340-cdbd024fceea",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "8d8de0e7-e506-443e-ae83-3102a72db9ed",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "0c35e970-96fb-4a05-84ce-fb9cbfd5b8aa",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "65012395-ae68-430c-b594-d0d56947c79d",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "3277428b-c535-4c20-b77c-7566cc2016a4",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bc80b5d4-ebd4-47d5-8b77-102d6034a44f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "891aeff6-aa94-4a84-94bd-a4d9b2038fd2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e128eb94-c96b-455a-aee4-0970e097b8e2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "946a55f4-05a2-42dc-a568-9201e30ab01a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "60c852f7-4b63-436b-87cf-f9777be4e939",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f94ae91a-eda1-40b0-85b0-7220ebacc319",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "236cf1eb-0958-46c4-837b-f1a599ee351f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e128eb94-c96b-455a-aee4-0970e097b8e2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "e929ae2a-c3d1-4708-99a1-e7ee84295f9a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5e6778d6-a13f-4f34-8b0b-f8b88f7c6df7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "e6146a9e-938e-4a63-9dd8-dffea980bdca",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2133057a-8697-4fe2-a413-bb2c88e97c96",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "33831624-f0d9-45fc-811a-f9f94178636e",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "dcf477e9-24fe-4757-a23f-117ef1b3994a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "60c852f7-4b63-436b-87cf-f9777be4e939",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "fda5a3f3-0365-453c-9fd7-4fe4f1195b14",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bf8c10f6-8a92-4161-8891-a985f371c5c2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bf8c10f6-8a92-4161-8891-a985f371c5c2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "891aeff6-aa94-4a84-94bd-a4d9b2038fd2",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "81655756-67c0-47a5-9b2c-169e5a78163a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "236cf1eb-0958-46c4-837b-f1a599ee351f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "3277428b-c535-4c20-b77c-7566cc2016a4",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "65012395-ae68-430c-b594-d0d56947c79d",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "81655756-67c0-47a5-9b2c-169e5a78163a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bc80b5d4-ebd4-47d5-8b77-102d6034a44f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "98e75ed0-ccb9-4288-9091-f33cb91762fc",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "4ef713d5-0f24-42ea-bf81-a7a99be4f655",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "4ef713d5-0f24-42ea-bf81-a7a99be4f655",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "fda5a3f3-0365-453c-9fd7-4fe4f1195b14",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "d2d9afc8-70bd-4899-80a4-e44069ad47ac",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "dcf477e9-24fe-4757-a23f-117ef1b3994a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2133057a-8697-4fe2-a413-bb2c88e97c96",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f92b389d-191e-468e-9744-e66a5040d000",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "bc80b5d4-ebd4-47d5-8b77-102d6034a44f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5f27bac7-1c9f-4d16-b249-8fd2ae6ffe20",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2504009a-a687-43fa-b8b0-025a4d3124a7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "4ef713d5-0f24-42ea-bf81-a7a99be4f655",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "2133057a-8697-4fe2-a413-bb2c88e97c96",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "236cf1eb-0958-46c4-837b-f1a599ee351f",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f92b389d-191e-468e-9744-e66a5040d000",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "ee1ca38b-1a2c-49cb-ac3d-a61a51306949",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "65012395-ae68-430c-b594-d0d56947c79d",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "4ef713d5-0f24-42ea-bf81-a7a99be4f655",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "946a55f4-05a2-42dc-a568-9201e30ab01a",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "d2d9afc8-70bd-4899-80a4-e44069ad47ac",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "0c35e970-96fb-4a05-84ce-fb9cbfd5b8aa",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "0c35e970-96fb-4a05-84ce-fb9cbfd5b8aa",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "33831624-f0d9-45fc-811a-f9f94178636e",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "d2d9afc8-70bd-4899-80a4-e44069ad47ac",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "f94ae91a-eda1-40b0-85b0-7220ebacc319",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 1
+      },
+      "skillId": "4ff7c0fd-34db-485f-bd67-07171e0f8d1b",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "5e6778d6-a13f-4f34-8b0b-f8b88f7c6df7",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "REMEMBERING",
+      "difficulty": "EASY"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "98e75ed0-ccb9-4288-9091-f33cb91762fc",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "3277428b-c535-4c20-b77c-7566cc2016a4",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    },
+    {
+      "_count": {
+        "_all": 2
+      },
+      "skillId": "7e2ede9a-8b02-48b9-b7c7-1e26c7f81348",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "UNDERSTANDING",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "ee1ca38b-1a2c-49cb-ac3d-a61a51306949",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "difficulty": "VERY_HARD"
+    },
+    {
+      "_count": {
+        "_all": 4
+      },
+      "skillId": "98e75ed0-ccb9-4288-9091-f33cb91762fc",
+      "questionType": "SINGLE_CHOICE",
+      "cognitiveLevel": "APPLYING",
+      "difficulty": "HARD"
+    }
+  ]
+}

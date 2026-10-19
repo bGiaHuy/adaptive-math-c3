@@ -1,0 +1,570 @@
+{
+  "batchId": "quan-toan-901",
+  "mode": "DRY_RUN",
+  "count": 22,
+  "counts": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 4,
+    "SHORT_ANSWER": 6
+  },
+  "approvedNewSkills": [
+    {
+      "code": "MATH9-LINEAR-INEQUALITY",
+      "title": "Bất đẳng thức và bất phương trình bậc nhất một ẩn",
+      "chapter": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH",
+      "grade": 9
+    }
+  ],
+  "questions": [
+    {
+      "id": "a42b294e-a2f1-526a-ae62-127610491dc1",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-1",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "contentHash": "57ca2098c63f1ec4662082571660b6b04903a3121e32934252b939680d992ccb",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-1",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "57ca2098c63f1ec4662082571660b6b04903a3121e32934252b939680d992ccb",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "719cc841-4bf4-5251-aadb-67de5a4faef8",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-2",
+      "skillCode": "SKILL-08",
+      "contentHash": "6a695f296d6fe54db443e84d962aac710651c4206609a6a82dd8b30d30728303",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-2",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "6a695f296d6fe54db443e84d962aac710651c4206609a6a82dd8b30d30728303",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "b3d2153b-f1a2-5349-aab9-805dcb0e9bc1",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-3",
+      "skillCode": "SKILL-07",
+      "contentHash": "5e6d7168020b1f5282de591fd0ec949beb7863a57b17c25f0dd1e02c0139ca36",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-3",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "5e6d7168020b1f5282de591fd0ec949beb7863a57b17c25f0dd1e02c0139ca36",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "0e33a411-8cbe-5137-ad23-fedef465d8d0",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-4",
+      "skillCode": "SKILL-01",
+      "contentHash": "07b2e2fd7abc26949d5c6133df29d2b26f70f0f217f5001a063b0b34b2289bdd",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-4",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "07b2e2fd7abc26949d5c6133df29d2b26f70f0f217f5001a063b0b34b2289bdd",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "44fff239-da36-570f-a6d6-91443ad38e12",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-5",
+      "skillCode": "SKILL-03",
+      "contentHash": "90dcb5b409f1847710b333c950f0162c8b890d8f273952a596445ac5a1fda724",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 5",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-5",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "90dcb5b409f1847710b333c950f0162c8b890d8f273952a596445ac5a1fda724",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "b3501a21-1b15-51b3-a493-1b6b527a3e96",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-6",
+      "skillCode": "SKILL-07",
+      "contentHash": "86b7ff5d8cb76bdaffb6be47db42cb47220b6bb6e07309085e6fda781e9b84f9",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 6",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-6",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "86b7ff5d8cb76bdaffb6be47db42cb47220b6bb6e07309085e6fda781e9b84f9",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "acf6ff75-fd6f-5eb1-a1f9-7747a19fa324",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-7",
+      "skillCode": "SKILL-08",
+      "contentHash": "04107ca9bab7721429e048d79ce87378e9fd9bae40e49d73d029b522ba77f85d",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 7",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-7",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "04107ca9bab7721429e048d79ce87378e9fd9bae40e49d73d029b522ba77f85d",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "4c04b51f-c548-564e-a5c6-e89e4a720884",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-8",
+      "skillCode": "SKILL-08",
+      "contentHash": "43b3655478cf60340cd1de512d1227dd69c915a2077000b46de44682f6b93886",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 8",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-8",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "43b3655478cf60340cd1de512d1227dd69c915a2077000b46de44682f6b93886",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "7694afc6-9402-5016-a2eb-e5f4fb1e777c",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-9",
+      "skillCode": "SKILL-03",
+      "contentHash": "e875153eb93716f3b10031aa15e3fd89b542a2f457d07486330d35446a7cd290",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 9",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-9",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "e875153eb93716f3b10031aa15e3fd89b542a2f457d07486330d35446a7cd290",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "946178ae-283c-56d2-af05-013826c462cc",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-10",
+      "skillCode": "SKILL-01",
+      "contentHash": "fcfc07d3aa3ef4f577cedf470a2a5998f32a42f198b652dd025e5062b3309ae0",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 10",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-10",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "fcfc07d3aa3ef4f577cedf470a2a5998f32a42f198b652dd025e5062b3309ae0",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "68f17c79-7487-5677-a752-8bd33ac99bac",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-11",
+      "skillCode": "SKILL-08",
+      "contentHash": "773069dabcf175a7491b5c680972b7e3eea486ab956390b6a9d19b4b48589c7c",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 11",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-11",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "773069dabcf175a7491b5c680972b7e3eea486ab956390b6a9d19b4b48589c7c",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "5f6f2bff-224b-54fc-a1fe-66d434aa41b8",
+      "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-12",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "contentHash": "f1f9dc0ee2ce9019152113b7ec08781d2b9c5a0bf19c6134cb0aa1259d155575",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SINGLE_CHOICE / 12",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SINGLE_CHOICE-12",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "f1f9dc0ee2ce9019152113b7ec08781d2b9c5a0bf19c6134cb0aa1259d155575",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "c467d2f4-4898-59a0-ad63-6603da18e7ab",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-1",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "contentHash": "af0563cb8a92b1ed10c60cc299e68cb562f4ee8046d0b5e1bb8cbfe3794c2463",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-1",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "af0563cb8a92b1ed10c60cc299e68cb562f4ee8046d0b5e1bb8cbfe3794c2463",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "a93f87da-da58-53b4-a68a-5221c6738dee",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-2",
+      "skillCode": "SKILL-02",
+      "contentHash": "6e7a87e6820c5c7a3b370fc1d714f49a8c6c4524d536657cc1bfe3c1c291f13f",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-2",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "6e7a87e6820c5c7a3b370fc1d714f49a8c6c4524d536657cc1bfe3c1c291f13f",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "a73f32a6-3925-594b-af4b-acbcb70ef00b",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-3",
+      "skillCode": "SKILL-04",
+      "contentHash": "b926e903eda40b3951eb5cdaad45b3b53b46ad5dd8e9878e7f001fa60515ac1a",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-3",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "b926e903eda40b3951eb5cdaad45b3b53b46ad5dd8e9878e7f001fa60515ac1a",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "84b9177a-427d-51c8-a228-5aacb8db996f",
+      "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-4",
+      "skillCode": "SKILL-08",
+      "contentHash": "26a880e068a3779d1d732bcc9658f9e41107f1dd0c4512b84b825005abb31c5a",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / TRUE_FALSE / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-TRUE_FALSE-4",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "26a880e068a3779d1d732bcc9658f9e41107f1dd0c4512b84b825005abb31c5a",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "faaa523d-f4f8-5ee8-a100-1742c35d3767",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-1",
+      "skillCode": "SKILL-08",
+      "contentHash": "69946d2f0d4d8cc3f5c8fa38efa2434090bd5f2cc60c5b3fb7b55eaf4ee6ca0c",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "901 / SHORT_ANSWER / 1",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-1",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "69946d2f0d4d8cc3f5c8fa38efa2434090bd5f2cc60c5b3fb7b55eaf4ee6ca0c",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "722bbbb1-8020-5c29-a7ed-225f84811d4a",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-2",
+      "skillCode": "SKILL-02",
+      "contentHash": "d84b2bb35566fa29cc3143998a14cc590ac8d3f52d3b46c0ea0bcbb35c936af9",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 2",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-2",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "d84b2bb35566fa29cc3143998a14cc590ac8d3f52d3b46c0ea0bcbb35c936af9",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "9f4d7b0c-f92d-5362-a038-c2910c559c68",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-3",
+      "skillCode": "SKILL-07",
+      "contentHash": "978b76c95faa1ba8195543f2d8681339096bb3a0a0898d7a074510d33e84dbdc",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 3",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-3",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "978b76c95faa1ba8195543f2d8681339096bb3a0a0898d7a074510d33e84dbdc",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "2e78872c-db35-5c70-aa19-6d3093a005bb",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-4",
+      "skillCode": "SKILL-02",
+      "contentHash": "5e4133a8964e66af4b8f372e00d79a77e4b2c3fb80dcb37872cb9c9cfc5d2cf0",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 4",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-4",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "5e4133a8964e66af4b8f372e00d79a77e4b2c3fb80dcb37872cb9c9cfc5d2cf0",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "87ed6d43-c57a-54fd-a74d-657b787e441c",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-5",
+      "skillCode": "MATH9-LINEAR-INEQUALITY",
+      "contentHash": "fbe71d5899ecab2733c3870a0cad4a5fa81f1d53da64cdeb3c6b64a40494e517",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 5",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-5",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "fbe71d5899ecab2733c3870a0cad4a5fa81f1d53da64cdeb3c6b64a40494e517",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    },
+    {
+      "id": "8b5cae24-2e7c-5ed5-abca-f1fb5717993a",
+      "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-6",
+      "skillCode": "SKILL-07",
+      "contentHash": "8dce57a2fa7ad6d98a9c65a98826a756d775b7547dbdeb2fab4457545c5abf75",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/03_HK1_Quan_Toan_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "901 / SHORT_ANSWER / 6",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ki-1-toan-9-nam-2025-2026-truong-thcs-quan-toan-hai-phong.html",
+        "author": "Trường THCS Quán Toan Hải Phòng",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED",
+        "externalId": "quan-toan-2025-2026-901-SHORT_ANSWER-6",
+        "answerEvidence": {
+          "pages": [
+            5,
+            6
+          ],
+          "row": "901 (hàng đầu tiên)"
+        },
+        "contentHash": "8dce57a2fa7ad6d98a9c65a98826a756d775b7547dbdeb2fab4457545c5abf75",
+        "reviewNotes": "Đối chiếu ảnh mã901 trang1–2 với bảng đáp án tách đôi trang5–6. Không nhập mã903 trùng nội dung đảo thứ tự."
+      }
+    }
+  ]
+}

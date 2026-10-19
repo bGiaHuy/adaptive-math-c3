@@ -1,0 +1,5 @@
+# Batch25 — Điều hướng đề và đáp án
+P1: authoritative paper render mở toàn bộ22 câu tạo chiều cao9379px desktop/tablet,10376px mobile, khó tới câu cần rà. Giữ tất cả câu, mặc định mở câu đầu, có chọn nhanh theo số/type, mở/thu gọn tất cả. Khi chọn câu mở disclosure và focus summary, giữ math/answerKey/lời giải nguyên vẹn. Không đổi điểm/câu/đáp án hay quyền.
+TeacherWorkspace.jsx, teacher-foundation.css; verify-teacher-paper-navigation.mjs.
+Trước và sau đã capture riêng before/after tại1440×900,820×1000,390×844, cùngfixture22 câu. Sau2407/2407/2624px. Test22 câu tồn tại, jump câu22 mở đúng, collapse0open/expand22open; không overflow/pageerror. Ảnh after-mobile đã xem; bottom nav cố định ở viewport được fullpage capture ghi nhận, không suy screenshot dài là nav nằm giữa document flow.
+Evidence docs/evidence/teacher-paper-navigation/{before,after}.json và before/after-{desktop,tablet,mobile}.png. Build và regrade regression đạt. No real writes. Đây là bằng chứng cho riêng paper, goal tổng thể còn final review/coverage.

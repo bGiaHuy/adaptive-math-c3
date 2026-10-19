@@ -1,0 +1,32 @@
+import puppeteer from 'puppeteer-core';
+import fs from 'node:fs';
+import {makeTeacherPortalFixture} from '../tests/fixtures/teacher-portal-fixture.mjs';
+const phase=process.argv[2]||'states',out='docs/evidence/ux-structural';fs.mkdirSync(out,{recursive:true});const fixture=makeTeacherPortalFixture();
+const b=await puppeteer.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,pipe:true,args:['--no-sandbox']});const report=[];let state='populated',errors=[];
+try{const p=await b.newPage();p.on('pageerror',e=>errors.push(e.message));await p.emulateMediaFeatures([{name:'prefers-reduced-motion',value:'reduce'}]);await p.setRequestInterception(true);
+p.on('request',async r=>{if(!r.url().includes('/api/'))return r.continue();const path=new URL(r.url()).pathname;let body={},status=200;
+if(path.endsWith('/auth/me'))body={user:{id:'teacher-portal-fixture',role:'TEACHER',fullName:'Giáo viên kiểm thử'}};
+else if(state==='error'&&path.endsWith('/classrooms')){status=503;body={message:'Không thể tải dữ liệu lớp học. Thử lại.'};}
+else if(path.endsWith('/classrooms')){if(state==='loading')await new Promise(ok=>setTimeout(ok,1500));body={classrooms:state==='empty'?[]:fixture.classes};}
+else if(path.endsWith('/submissions'))body=fixture.assignmentReport(path.split('/').at(-2));
+else if(path.endsWith('/assignments'))body={assignments:state==='empty'?[]:fixture.assignments.filter(a=>a.classId===path.split('/').at(-2))};
+else if(path.includes('/curriculum/skills'))body={chapters:[{chapter:'Toán 9',skills:[1,2,3].map(i=>({id:`skill${i}`,title:['Căn bậc hai','Phương trình bậc hai','Đường tròn'][i-1]}))}]};
+else if(path.endsWith('/admin/questions'))body=state==='sparse'?fixture.bank.slice(0,1):state==='empty'?[]:state==='long'?fixture.bank.map(q=>({...q,content:q.content+' '+('Giải thích điều kiện xác định của biểu thức và chứng minh kết quả bằng phép biến đổi tương đương. ').repeat(12)})):fixture.bank;
+else if(/\/classrooms\/c\d$/.test(path))body={classroom:fixture.details(path.split('/').at(-1))};
+else if(r.method()!=='GET'){status=400;body={message:'Audit chỉ đọc, chưa thực hiện thao tác này.'};}
+await r.respond({status,contentType:'application/json',body:JSON.stringify(body)});});
+const cases=[];
+async function capture(name,size){await p.evaluate(()=>scrollTo(0,0));const metrics=await p.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth,height:document.documentElement.scrollHeight,viewport:innerHeight,helper:[...document.querySelectorAll('#teacher-title-hint')].map(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height})),details:[...document.querySelectorAll('details')].slice(0,10).map(e=>({open:e.open,height:e.getBoundingClientRect().height,summaryHeight:e.querySelector('summary')?.getBoundingClientRect().height,marker:e.querySelector('summary')?getComputedStyle(e.querySelector('summary')).listStyleType:null})),headings:[...document.querySelectorAll('h1,h2')].slice(0,5).map(e=>e.textContent),tables:[...document.querySelectorAll('table')].map(t=>({rows:t.tBodies[0]?.rows.length||0,columns:t.tHead?.rows[0]?.cells.length||0})),primary:[...document.querySelectorAll('.teacher-workspace button.tw-primary')].filter(e=>e.getClientRects().length).map(e=>({text:e.textContent,top:Math.round(e.getBoundingClientRect().top)}))}));report.push({name,size,state,...metrics,errors:[...errors]});if(phase==='states'){await p.addScriptTag({path:'node_modules/axe-core/axe.min.js'});const a=await p.evaluate(async()=>{const r=await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}});return r.violations.map(v=>({id:v.id,impact:v.impact,count:v.nodes.length}));});report.at(-1).axe=a;}await p.screenshot({path:`${out}/${phase}-${name}-${size}.png`});}
+for(const [size,width,height]of[['desktop',1440,900],['laptop',1280,800],['tablet',768,1024],['mobile',390,844]]){await p.setViewport({width,height});for(const [name,route]of cases){state='populated';await p.goto('http://127.0.0.1:3000/#/'+route,{waitUntil:'networkidle2'});await p.waitForSelector('.teacher-workspace');await p.waitForFunction(()=>!document.querySelector('.tw-loading'));if(['students','gradebook'].includes(name))await p.waitForSelector('.tw-student-list');await new Promise(ok=>setTimeout(ok,150));await capture(name,size);}
+if(phase==='states'){for(const sample of ['sparse','long']){state=sample;await p.goto('http://127.0.0.1:3000/#/teacher-bank',{waitUntil:'networkidle2'});await p.reload({waitUntil:'networkidle2'});await capture('bank-'+sample,size);await p.click('.question-bank-workspace details summary');await capture('bank-'+sample+'-expanded',size);}state='populated';}if(phase==='states'){await p.goto('http://127.0.0.1:3000/#/teacher-overview',{waitUntil:'networkidle2'});await p.evaluate(()=>[...document.querySelectorAll('button')].find(b=>b.textContent.trim()==='Tạo đề mới').click());await p.waitForSelector('.tec-method-picker');await p.evaluate(()=>scrollTo(0,document.documentElement.scrollHeight));const clearance=await p.evaluate(()=>{const footer=document.querySelector('.tw-editor-footer')?.getBoundingClientRect();return {footerTop:footer?.top,footerBottom:footer?.bottom,viewport:innerHeight,bottom:scrollY+innerHeight>=document.documentElement.scrollHeight-2};});report.push({name:'composer-bottom-clearance',size,...clearance});await p.screenshot({path:out+'/'+phase+'-composer-bottom-'+size+'.png'});await p.focus('#teacher-exam-title');await p.keyboard.press('Tab');report.push({name:'composer-keyboard',size,focus:await p.evaluate(()=>({tag:document.activeElement.tagName,text:document.activeElement.textContent?.slice(0,100),outline:getComputedStyle(document.activeElement).outlineStyle}))});}state='empty';await p.goto('http://127.0.0.1:3000/#/teacher-overview',{waitUntil:'networkidle2'});await p.reload({waitUntil:'networkidle2'});await capture('empty',size);
+state='error';await p.reload({waitUntil:'networkidle2'});await capture('error',size);
+state='loading';await p.reload({waitUntil:'domcontentloaded'});await p.waitForSelector('.tw-loading');await capture('loading',size);state='populated';}
+fs.writeFileSync(`${out}/${phase}.json`,JSON.stringify(report,null,2));console.log(JSON.stringify({screens:report.length,overflow:report.filter(r=>r.overflow).map(r=>r.name+':'+r.size),errors:[...new Set(errors)],long:report.filter(r=>r.height>r.viewport*3).map(r=>({name:r.name,size:r.size,height:r.height}))}));
+}finally{await b.close();}
+
+
+
+
+
+
+

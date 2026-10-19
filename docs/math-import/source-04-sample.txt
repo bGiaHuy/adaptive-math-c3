@@ -1,0 +1,177 @@
+PAGE 1
+Hình học 9 - Chương 5: Đường tròn  – Tự luận và trắc nghiệm 4 phần                            Trương Ngọc Vỹ  0978 333 093 
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 1
+CHƯƠNG 5 
+ĐƯỜNG TRÒN 
+ 
+BÀI 13 
+MỞ ĐẦU VỀ ĐƯỜNG TRÒN 
+ 
+1. Đường tròn 
+ Đường tròn tâm O  bán kính R  (với 0R  ) , kí hiệu là:  ;O R  hình gồm tất cả các điểm cách điểm 
+O  một khoảng R ,  
+ 
+  Khi không cần để ý đến bán kính ta kí hiệu đường tròn tâm O  là  O  
+  Nếu A  là một điểm của đường tròn  O  thì ta viết  A O . Khi đó, ta còn nói đường tròn  O  đi 
+qua điểm A , hay điểm A  nằm trên đường tròn  O . 
+Nhận xét:  
+  Điểm M  nằm trên đường tròn  O nếu OM R . 
+  Điểm M  nằm trong đường tròn  O nếu OM R . 
+  Điểm M  nằm ngoài đường tròn  O nếu OM R . 
+ 
+  Hình tròn tâm O  bán kính R  là hình gồm các điểm nằm trên và nằm tròn đường tròn  ;O R . 
+  Đoạn thẳng AB  trong hình vẽ bên dưới gọi là đường kính của đường tròn ( )O . 
+ 
+ 
+
+PAGE 5
+Hình học 9 - Chương 5: Đường tròn  – Tự luận và trắc nghiệm 4 phần                            Trương Ngọc Vỹ  0978 333 093 
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 5
+PHẦN B 
+TRẮC NGHIỆM VÀ TỰ LUẬN GỒM BỐN PHẦN 
+ 
+PHẦN I. Câu trắc nghiệm nhiều ph ương án l ựa chọn. M ỗi câu hỏi thí sinh chỉ chọn một ph ương 
+án. 
+Câu 1. Cho đường tròn ( ; )O R  và điểm M  bất kỳ, biết rằng OM R . Chọn khẳng định đúng? 
+ A. Điểm M  nằm ngoài đường tròn ( ; )O R . B. Điểm M  nằm trên đường tròn ( ; )O R . 
+ C. Điểm M  nằm trong đường tròn ( ; )O R . D. Điểm M  không thuộc đường tròn ( ; )O R . 
+Câu 2. Cho đường tròn ( ; )O R  và điểm M  bất kỳ, biết rằng OM R . Chọn khẳng định đúng? 
+ A. Điểm M  nằm ngoài đường tròn ( ; )O R . B. Điểm M  nằm trên đường tròn ( ; )O R . 
+ C. Điểm M  nằm trong đường tròn ( ; )O R . D. Điểm M  không thuộc đường tròn ( ; )O R . 
+Câu 3. Cho đường tròn ( ; )O R  và điểm M  bất kỳ, biết rằng OM R . Chọn khẳng định đúng? 
+ A. Điểm M  nằm ngoài đường tròn ( ; )O R . B. Điểm M  nằm trên đường tròn ( ; )O R . 
+ C. Điểm M  nằm trong đường tròn ( ; )O R . D. Điểm M  không thuộc đường tròn ( ; )O R . 
+Câu 4. Trên mặt phẳng toạ độ Oxy , xác định vị trí tương đối của điểm ( 1; 1)A    và đường tròn tâm là 
+gốc toạ độ O , bán kính 2R  . 
+ A. Điểm A  nằm ngoài đường tròn. B. Điểm A  nằm trên đường tròn. 
+ C. Điểm A  nằm trong đường tròn. D. Không kết luận được. 
+Câu 5. Trên mặt phẳng toạ độ Oxy , xác định vị trí tương đối của điểm ( 3; 4)A    và đường tròn tâm là 
+gốc toạ độ O , bán kính 3R  . 
+ A. Điểm A  nằm ngoài đường tròn ( ;3)O . B. Điểm A  nằm trên đường tròn ( ;3)O . 
+ C. Điểm A  nằm trong đường tròn ( ;3)O . D. Không kết luận được. 
+Câu 6. Cho đường tròn  ;O R  và năm điểm M , N , P , H , K  như hình vẽ .  
+ 
+Nhận xét nào sau đây sai? 
+ A. ON R   B. OP R  
+ C. Có 4 điểm nằm trên đường tròn  ;O R . D. OM OH OK R   . 
+Câu 7. Cho đư ờng tr òn ( )O , bán kính 5cm  và b ốn điểm A , B , C , D  th ỏa m ãn 3cmOA  , 
+4cmOB  , 7cmOC  , 5cmOD  . Trong 4 đi ểm A , B , C , D  có bao nhiêu đi ểm ở trong đ ường tròn 
+( )O . 
+
+PAGE 10
+Hình học 9 - Chương 5: Đường tròn  – Tự luận và trắc nghiệm 4 phần                            Trương Ngọc Vỹ  0978 333 093 
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 10 
+PHẦN II. Câu trắc nghiệm đúng sai. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc 
+sai. 
+Câu 23. Cho đường tròn  ;O R  và hai điểm M , N  sao cho M  nằm trong và N  nằm ngoài  ;O R .  
+ 
+a) Điểm M  nằm trên trong  ;O R . 
+b) Điểm N  nằm ngoài  ;O R . 
+c) OM ON  
+d)  MON ONM  
+Câu 24. Cho đường tròn  ;O R  và dây AB  khác đường kính. Gọi M  là trung điểm của AB . 
+ 
+a) OAB  là tam giác vuông cân. 
+b) Đường thẳng OM  là đường trung trực của đoạn thẳng AB . 
+c) Khoảng cách từ điểm O  đến đường thẳng AB  bằng OM . 
+d) Biết 5cmR  , 8cmAB  . Khi đó, khoảng cách từ điểm O  đến đường thẳng AB  bằng 2cm . 
+Câu 25. Cho đường tròn  ;O R , đường thẳng d  đi qua O  và điểm A  thuộc ( )O  nhưng không thu ộc 
+d . Gọi B  là điểm đối xứng với A  qua ;d  C  và D  lần lượt là điểm đối xứng của A  và B  qua O . 
+a) OB OD R   
+b) Ba điểm B , C  và D  không cùng thuộc  ;O R . 
+c) Tứ giác ABCD  là hình bình hành. 
+d) Điểm C  và điểm D  đối xứng với nhau qua đường thẳng d . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 13
+Hình học 9 - Chương 5: Đường tròn  – Tự luận và trắc nghiệm 4 phần                            Trương Ngọc Vỹ  0978 333 093 
+https://www.facebook.com/truongngocvy8/                                                                              Trương Ngọc Vỹ  0978 333 093 Trang 13 
+PHẦN III. Câu trắc nghiệm trả lời ngắn. Mỗi câu hỏi thí sinh chỉ trả lời đáp án. 
+Câu 29. Cho ΔABC  vuông t ại A  có 6 , 8AB cm AC cm     . Hỏi bán kính đ ường tròn đi qua ba điểm 
+, ,A B C     bằng bao nhiêu centimet? 
+Trả lời: ……………….. 
+Câu 30. Cho hình vuông ABCD  c ạnh  3 2 cm . H ỏi bán kính c ủa đ ường tr òn đi qua b ốn điểm 
+, , ,A B C D      bằng bao nhiêu centimet? 
+Trả lời: ……………….. 
+Câu 31. Cho hình chữ nhật ABCD  có 4 , 3AB cm BC cm  . Hỏi bán kính đ ường tròn đi qua bốn đỉnh 
+, , ,A B C D  bằng bao nhiêu centimet? 
+Trả lời: ……………….. 
+Câu 32. Cho hình vuông ABCD  có 4AB cm . Gọi ,M N  lần lượt là trung đi ểm của ,AB BC . Gọi E  
+là giao điểm của CM  và DN . Biết bán kính đường tròn đi qua bốn điểm , , ,A D E M  bằng  a cm  , với 
+a   . Giá trị của a  bằng bao nhiêu? 
+Trả lời: ……………….. 
+Câu 33. Cho tam giác ABC  có các đường cao ,BD CE  và 2026BC mm . Bán kính đường tròn đi qua 
+bốn điểm bốn điểm , , ,B E D C  bằng bao nhiêu milimet? 
+Trả lời: ……………….. 
+Câu 34. Cho tam giác đều ABC có cạnh bằng 20cm  và , ,AM BN CP  là các đường trung tuyến. Hỏi bán 
+kính đường tròn đi qua bốn đỉnh , , ,B P N C  bằng bao nhiêu centimet? 
+Trả lời: ……………….. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 459
+Hình học 9 - Chương 5: Đường tròn  – Trắc nghiệm 4 phần có lời giải                                 Trương Ngọc Vỹ  0978 333 093 
+https://www.facebook.com/truongngocvy8/                                                                           Trang 39 
+Diện tích hình quạt tròn tạo bởi cung BC  là: 2 2 2
+1
+60 25. . .5360 360 6
+nS R cm         . 
+Diện tích ΔBOC  đều cạnh R  là 
+2
+23 25 3
+4 4
+ΔBOC
+RS cm     
+Diện tích hình viên phân giới hạn bởi cung nhỏ BC  và dây BC  là 
+2
+2 1
+25 25 3 2,36 4
+ΔBOCS S S cm       . 
+Câu 60. Cho ΔABC  vuông tại A , đường cao AH . Vẽ đường tròn  I  đường kính BH  cắt AB  tại D , 
+vẽ đường tròn  K  đường kính HC  cắt AC  tại E . 
+a) Chứng minh ADHE  là hình chữ nhật. 
+b) Chứng minh rằng . .AD AB AE AC   
+c) Giả sử 3 , 5AB cm BC cm     . Tính DE  và diện tích tứ giác DEKI . 
+Lời giải 
+ 
+CB I KH
+E
+D
+A
+ 
+a) Chứng minh ΔBDH  vuông tại D HD AB   
+Chứng minh ΔHEC  vuông tại E HE AC   
+Tứ giác ADHE  có ba góc vuông nên là hình chữ nhật. 
+b) Chứng minh  
+2 .AH ADΔADH ΔAHB g g AH AB AD AB AH       ∽  1  
+Chứng minh  
+2 .AH AEΔAEH ΔAHC g g AH AE AC AC AH       ∽  2  
+Từ      
+21 , 2 . . AD AB AE AC AH      . 
+c) Áp dụng Pythagore tính được 4AC cm  . 
+Tính 1 1 . 2. 4 8. .2 2 5 5
+ΔABC
+AB ACS AH BC AB AC AH cm DE BC            . 
+Tính diện tích 21 3. 4. 62 2ΔABC AB AC cm       . 
+Chỉ ra , ,DBI DHI DAE DHE EHK ECKS S S S S S        nên 21 6 32 2
+DEKI ABCS S cm     
+ 

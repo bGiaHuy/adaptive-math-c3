@@ -1,0 +1,1817 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q01",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 1,
+      "originalItemNumber": 1,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q01-1.png"
+      ],
+      "imageHashes": [
+        "ee4d1d8f3fe8e3e0bebfcc6f457b543268e1c7d7cddc2fc817785c3988f4af97"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q02",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 2,
+      "originalItemNumber": 2,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q02-1.png"
+      ],
+      "imageHashes": [
+        "ee5ca9011dc4a5a0686210627efa5ffddd5998e5d13fba71276a527e473da957"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q03",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 3,
+      "originalItemNumber": 3,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q03-1.png"
+      ],
+      "imageHashes": [
+        "db344d5e3479a2fd5b95571a977e825a40f9fc5ebdbdb5f6722924e4f27b3429"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q04",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 4,
+      "originalItemNumber": 4,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q04-1.png"
+      ],
+      "imageHashes": [
+        "485ed739981c0b963e85a278cda6246984e3419b968e5fa6df271f4ae6cc27de"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q05",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 5,
+      "originalItemNumber": 5,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q05-1.png"
+      ],
+      "imageHashes": [
+        "984f3fa0896d069a373ff7b3a46495744647a3ac52ef1e236cfa385058c65a88"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q06",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 6,
+      "originalItemNumber": 6,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q06-1.png"
+      ],
+      "imageHashes": [
+        "c7264eb4642aa444af979edc68002b774a785bc6ead6653d114e0e601fa40b2a"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q07",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 7,
+      "originalItemNumber": 7,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q07-1.png"
+      ],
+      "imageHashes": [
+        "85cae5c11124056f0a598bf9a951184aabc15d85a839cd0b76dbafa479963d62"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q08",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 8,
+      "originalItemNumber": 8,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q08-1.png"
+      ],
+      "imageHashes": [
+        "8f66a1d6f58d826e21a1396d4fd450adc7fa84e75d69f68fccbb490c8149daea"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q09",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 9,
+      "originalItemNumber": 9,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q09-1.png"
+      ],
+      "imageHashes": [
+        "0b4443f69a3af3cbbd2446f432239379e051988afd6d4ecc3861476075cc30d9"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q10",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 10,
+      "originalItemNumber": 10,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q10-1.png"
+      ],
+      "imageHashes": [
+        "f46651acffbbe0f7881eb965eb3417f4972942cc557c3b26755ce8e6dc7f32f1"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q11",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 11,
+      "originalItemNumber": 11,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q11-1.png"
+      ],
+      "imageHashes": [
+        "4414a823335e5f07862930dc061f7a5a19e1de80520b67ca14adf9d513e232e6"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q12",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 12,
+      "originalItemNumber": 12,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q12-1.png"
+      ],
+      "imageHashes": [
+        "544398ef1b6f1b993a4182955faeb44228ea54a2546c992b5d2e3e2a7195736c"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q13",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 13,
+      "originalItemNumber": 1,
+      "part": "II",
+      "originalType": "TRUE_FALSE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q13-1.png"
+      ],
+      "imageHashes": [
+        "e230a3ea11e9a511bdb14c9e9ee9eb50f7a586d5f4ebc6f1b69beadc2b13af22"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q14",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 14,
+      "originalItemNumber": 2,
+      "part": "II",
+      "originalType": "TRUE_FALSE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q14-1.png"
+      ],
+      "imageHashes": [
+        "2cf8516cb1c87db331db519c947acf4c36566249223f3e22e303d775f215d5d2"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q15",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 15,
+      "originalItemNumber": 1,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q15-1.png"
+      ],
+      "imageHashes": [
+        "bcceac78051bf28d6faae476248be94193af095d3876f57b2736b0a6ff27b514"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q16",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 16,
+      "originalItemNumber": 2,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q16-1.png"
+      ],
+      "imageHashes": [
+        "c192ec059407c170f964fb36ca5127458435f104c2ae51cbed0800eb58210c77"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q17",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 17,
+      "originalItemNumber": 3,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q17-1.png"
+      ],
+      "imageHashes": [
+        "e0a6a38bd68235a11803ce09d7b4224f2b774fdce9618a87074b518a309ae074"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q18",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 18,
+      "originalItemNumber": 4,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q18-1.png"
+      ],
+      "imageHashes": [
+        "6a0fefae6617f395a47df7f0df74f03dd5a2bb4f09adc16bdd2e9b99e2a6fbdc"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q19",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 19,
+      "originalItemNumber": 1,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q19-1.png"
+      ],
+      "imageHashes": [
+        "1a378c7289dcf24e083a25ae4dad6205196efd534cabd12ed301d512107cc6d2"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q20",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 20,
+      "originalItemNumber": 2,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q20-1.png"
+      ],
+      "imageHashes": [
+        "5d6b75547d88345822096eb5434bb9413bc9fa08642b24b3b9cbd07eb307588c"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q21",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 21,
+      "originalItemNumber": 3,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q21-1.png"
+      ],
+      "imageHashes": [
+        "45f8ebb48922f98638b95414099bfe043f993e7243cedf67426b89c6eb7fc57a"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-Q22",
+      "paperId": "THPT-10-CUOI_HK1-026",
+      "grade": 10,
+      "orderIndex": 22,
+      "originalItemNumber": 4,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "images": [
+        "THPT-10-CUOI_HK1-026-Q22-1.png"
+      ],
+      "imageHashes": [
+        "90bc9d97b12bca2e8c98a9695854e0dadb80e30a177ea1326363240a5e0a656d"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q01",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 1,
+      "originalItemNumber": 1,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q01-1.png"
+      ],
+      "imageHashes": [
+        "e09362e5d310e7a447178d4576b7852e35079614906304efa748ab8dd5e803a3"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q02",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 2,
+      "originalItemNumber": 2,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q02-1.png"
+      ],
+      "imageHashes": [
+        "efde20524034798f2cc7e15607b3cc0e5836f2d97493fd1c144c05988c36b99d"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q03",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 3,
+      "originalItemNumber": 3,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q03-1.png"
+      ],
+      "imageHashes": [
+        "b932abfc36c1be7f73640cbda3d3ce4de35b42ea825f383b04cdd666d188ad6b"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q04",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 4,
+      "originalItemNumber": 4,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q04-1.png"
+      ],
+      "imageHashes": [
+        "2731dead429da6a66c50318ac894aa8ec4f7a68664119215aba06c6445ad77f0"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q05",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 5,
+      "originalItemNumber": 5,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q05-1.png"
+      ],
+      "imageHashes": [
+        "8b32045e0da80aceb81c7cc01bfe93f34120926995e7227ee4ccd8a240591ac1"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q06",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 6,
+      "originalItemNumber": 6,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q06-1.png"
+      ],
+      "imageHashes": [
+        "5aa406064f71818813d79b89e356eee58829d639f327d63b0f12a9042360ca44"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q07",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 7,
+      "originalItemNumber": 7,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q07-1.png"
+      ],
+      "imageHashes": [
+        "fda570287c345f00daed8084a6d826231112da7cd88528d4d268838ae0ff7de3"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q08",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 8,
+      "originalItemNumber": 8,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q08-1.png"
+      ],
+      "imageHashes": [
+        "e0cec0ea27be0da194e15dabc7ed2b83b28c5e805525c16b1e4c7565093a6793"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q09",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 9,
+      "originalItemNumber": 9,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q09-1.png"
+      ],
+      "imageHashes": [
+        "edfac9ef07aaaf9f09db43859dcba7af4379f19906e03b42f45ba13d06ee999a"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q10",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 10,
+      "originalItemNumber": 10,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q10-1.png"
+      ],
+      "imageHashes": [
+        "8e07939b16b51f446fd1d76d66a86d4423d0898a3e77443ad8f6c1d8f61e95e0"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q11",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 11,
+      "originalItemNumber": 11,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q11-1.png"
+      ],
+      "imageHashes": [
+        "99484fb89aefe9cd424fe31bd8890c23866ccfb2a16de25d2495d55d9e9463ad"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q12",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 12,
+      "originalItemNumber": 12,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q12-1.png"
+      ],
+      "imageHashes": [
+        "8f7f3defdf3ff46170f7d9dbd3f6518bdb4d7b6ed5126ae129c8c94ca851c91e"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q13",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 13,
+      "originalItemNumber": 1,
+      "part": "II",
+      "originalType": "TRUE_FALSE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q13-1.png"
+      ],
+      "imageHashes": [
+        "6d812a730294e357da56e9af4030e28f5d4b5233a22008bee81bfb03a9af127c"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q14",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 14,
+      "originalItemNumber": 2,
+      "part": "II",
+      "originalType": "TRUE_FALSE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q14-1.png"
+      ],
+      "imageHashes": [
+        "5e814a855ec0107b84a436206b86c4df3b1a4b1e36b12341e304470122023bf3"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q15",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 15,
+      "originalItemNumber": 1,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q15-1.png"
+      ],
+      "imageHashes": [
+        "d4d912802ca966e35874083d329f2a9e1bb14c9aea5e91a5a9d6f2f6dd2f6367"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q16",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 16,
+      "originalItemNumber": 2,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q16-1.png"
+      ],
+      "imageHashes": [
+        "84cbffaeb3a3f52f3b33826ff78155762fa2f89632424468990b97547f210fea"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q17",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 17,
+      "originalItemNumber": 3,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q17-1.png"
+      ],
+      "imageHashes": [
+        "40ee4dd1382255e96a7e876f1493d47970040d921d84d840bfae6b5a57cc8593"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q18",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 18,
+      "originalItemNumber": 4,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q18-1.png",
+        "THPT-11-CUOI_HK1-126-Q18-2.png"
+      ],
+      "imageHashes": [
+        "57e29c7b041eb6351a158b2275b5541a4da3aaa970b395be58638003b8151f53",
+        "5f49dd2e9fadf650694db8b66ce8d7bf58d2c2dd475b7510c634a86c5735d752"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q19",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 19,
+      "originalItemNumber": 1,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q19-1.png"
+      ],
+      "imageHashes": [
+        "420d8e0bd4a8bd8721819a96d8254119811a9ee4da3e136d3a10db63ed09002b"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q20",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 20,
+      "originalItemNumber": 2,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q20-1.png"
+      ],
+      "imageHashes": [
+        "bca876af6741b7e6b3bd6b571ba6d68c16f9aff38e6236672c5876de16532e05"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q21",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 21,
+      "originalItemNumber": 3,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q21-1.png"
+      ],
+      "imageHashes": [
+        "d595ff462aed34f60e787ec8e2a3bcd34b6a6049f7601193822e3cf64af73e70"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-126-Q22",
+      "paperId": "THPT-11-CUOI_HK1-126",
+      "grade": 11,
+      "orderIndex": 22,
+      "originalItemNumber": 4,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "images": [
+        "THPT-11-CUOI_HK1-126-Q22-1.png"
+      ],
+      "imageHashes": [
+        "a88975c8bd947e0db60607fc314635e3219752c6829e571c9f4bdec94786fad2"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q01",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 1,
+      "originalItemNumber": 1,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q01-1.png"
+      ],
+      "imageHashes": [
+        "367c456c48861d61645e7a1600e50fd2a7477ef771fd5a3cdba1a34b583c7897"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q02",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 2,
+      "originalItemNumber": 2,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q02-1.png"
+      ],
+      "imageHashes": [
+        "7ffac270c8c0a89a9882ea8984a9793c87ab0370c3c51bbb83ff8705538f9857"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q03",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 3,
+      "originalItemNumber": 3,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q03-1.png"
+      ],
+      "imageHashes": [
+        "b6dc47153038ed1963d61e779ca9419efa4d3019ac347473f45917c6e91a5ce7"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q04",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 4,
+      "originalItemNumber": 4,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q04-1.png"
+      ],
+      "imageHashes": [
+        "ad69a35621bda99bd32404022ced58ad191a381c12957e1c57aa4c2d40d4810c"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q05",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 5,
+      "originalItemNumber": 5,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q05-1.png"
+      ],
+      "imageHashes": [
+        "dc8976a43e5425086625503ab6faecb38167ca223f5a85ff504a43560778b9c1"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q06",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 6,
+      "originalItemNumber": 6,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q06-1.png",
+        "THPT-12-CUOI_HK1-227-Q06-2.png"
+      ],
+      "imageHashes": [
+        "5e48271104d4dee1e33a7d28ae84e4a654adff3ccd4327c315dfe190ee60512f",
+        "7aba45f2fa1e84026f12bbc551e3ee067c439d21913ba01ea4969ebd701dc802"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q07",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 7,
+      "originalItemNumber": 7,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q07-1.png"
+      ],
+      "imageHashes": [
+        "8344557739fb6d135274780f30fcbe1f0bc6965558db47dc21b785071bd138ec"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q08",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 8,
+      "originalItemNumber": 8,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q08-1.png"
+      ],
+      "imageHashes": [
+        "f71d47d1ac23b3e3bb8e019435a29d26f058fa7545e4bd65916b4c643c5d76b8"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q09",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 9,
+      "originalItemNumber": 9,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q09-1.png"
+      ],
+      "imageHashes": [
+        "2785c4d4d1fefef3337ddca5d2ad1a5b847eb6aa58a77bb398628a571d8626aa"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q10",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 10,
+      "originalItemNumber": 10,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q10-1.png"
+      ],
+      "imageHashes": [
+        "eb66daddf430e5c6f8b920ef1552d79bac624ccceb4a589267ec0da85e55462f"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q11",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 11,
+      "originalItemNumber": 11,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q11-1.png"
+      ],
+      "imageHashes": [
+        "991d17143da754463edbb94c8f23e2058b17d071b3bff2216f104dd5c2949440"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q12",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 12,
+      "originalItemNumber": 12,
+      "part": "I",
+      "originalType": "SINGLE_CHOICE",
+      "examCode": "132",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q12-1.png",
+        "THPT-12-CUOI_HK1-227-Q12-2.png"
+      ],
+      "imageHashes": [
+        "ce3556432191b3a53a51d960c877b9d398c199d52a6c982d142d40eb89eacfc7",
+        "1f8bab72acac5a55dffc9090af0e8e66105de7e5b6fbac5dcdbf03d88c65fa03"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q13",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 13,
+      "originalItemNumber": 1,
+      "part": "II",
+      "originalType": "TRUE_FALSE",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q13-1.png"
+      ],
+      "imageHashes": [
+        "06fdad28f80925d3ab64d0a5e48fb4d4f65583cecfde93c7fd4787ffd75a4481"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q14",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 14,
+      "originalItemNumber": 2,
+      "part": "II",
+      "originalType": "TRUE_FALSE",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q14-1.png"
+      ],
+      "imageHashes": [
+        "fd77718edb32f52f98468fd07971dacf88b1ad8101624f21a74ef12af52ecf7b"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q15",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 15,
+      "originalItemNumber": 1,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q15-1.png"
+      ],
+      "imageHashes": [
+        "937d8aebb6581ef05dff89833fe97a6053bb2792eee648accc189b0d77242d19"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q16",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 16,
+      "originalItemNumber": 2,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q16-1.png"
+      ],
+      "imageHashes": [
+        "a665bb606d735a8ef8a759eae369cb972769ef0bdf25a1de799a53b2124b3a05"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q17",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 17,
+      "originalItemNumber": 3,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        3
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q17-1.png"
+      ],
+      "imageHashes": [
+        "13875d4de284dd4dd0791516236ff2578af767ef2bebf61c1874fab387761643"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q18",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 18,
+      "originalItemNumber": 4,
+      "part": "III",
+      "originalType": "SHORT_ANSWER",
+      "examCode": "132",
+      "sourcePages": [
+        4
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q18-1.png"
+      ],
+      "imageHashes": [
+        "8ae2656cd860d8c15dbd02a04a76ac9c1bf88e1a9931d5be33ec170fba9860b9"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q19",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 19,
+      "originalItemNumber": 1,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        4
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q19-1.png"
+      ],
+      "imageHashes": [
+        "a941c169fd1f95258aceb6aa2c2acf7038a7d51e30caab32788a173725af4be9"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q20",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 20,
+      "originalItemNumber": 2,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        4
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q20-1.png"
+      ],
+      "imageHashes": [
+        "f12a6c5e007401cf86cf3ce5726511fef163aa9e24e77509b9e2c094e5f4c9fb"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q21",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 21,
+      "originalItemNumber": 3,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        4
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q21-1.png"
+      ],
+      "imageHashes": [
+        "d418332222c1ed0ebfaffb5d7c32cd4cd1d56d6cf4ba63f1237c282cc1eb7802"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-227-Q22",
+      "paperId": "THPT-12-CUOI_HK1-227",
+      "grade": 12,
+      "orderIndex": 22,
+      "originalItemNumber": 4,
+      "part": "IV",
+      "originalType": "ESSAY",
+      "examCode": "132",
+      "sourcePages": [
+        4
+      ],
+      "answerPages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "images": [
+        "THPT-12-CUOI_HK1-227-Q22-1.png"
+      ],
+      "imageHashes": [
+        "7dd9405089d225d92bcb32bd06b4646295da9419b5d69824b4c38cca47b9dbc6"
+      ],
+      "reviewStatus": "SOURCE_EXCERPT",
+      "automaticGrading": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Bạn hãy tìm và tải bổ sung đề, chuyên đề Toán lớp 9 cho dự án Adaptive Math.
+
+Thư mục dự án:
+C:\Users\Administrator\Documents\Codespace\Adaptive Learning\Adaptive Math
+Thư mục tài liệu:
+C:\Users\Administrator\Documents\Codespace\Adaptive Learning\Adaptive Math\tai-lieu\Toan-9-ba-dang-trac-nghiem-2026-10-16
+
+1. Đọc README.md, DANH-MUC.csv, nguon.json và toàn bộ danh mục trong 03_Bo_sung để biết tài liệu đã có. Đọc collect.py và check.py trước khi sử dụng.
+2. Tận dụng logic tải PDF của collect.py và logic kiểm tra văn bản của check.py. Lưu ý collect.py hiện chỉ tải danh sách URL cố định, không tự tìm kiếm web; chạy lại nguyên bản sẽ ghi đè nguon.json. check.py cũng ghi lại danh mục và ZIP. Không chạy nguyên bản nếu có nguy cơ ghi đè dữ liệu hiện có. Tạo phiên bản bổ sung riêng, có main guard, nhận danh sách nguồn và thư mục đầu ra, giữ nguyên các tệp gốc. Không import trực tiếp collect.py vì có mã thực thi ở cấp module. Không đoán ngày tháng hoặc chuyển domain theo quy tắc cứng trong tool cũ: lấy URL PDF thật từ trang nguồn và xác minh nội dung tải về.
+3. Tìm trên web tài liệu Toán 9 GDPT 2018, ưu tiên Kết Nối Tri Thức, sau đó Chân Trời Sáng Tạo và Cánh Diều. Cần ba dạng: (a) nhiều lựa chọn: một câu chính, các phương án A/B/C/D; (b) đúng/sai: một câu chính có bốn ý a/b/c/d; (c) trả lời ngắn: một câu độc lập, có đáp án ngắn. Ưu tiên bộ có đủ cả ba dạng và đáp án/lời giải; tài liệu chỉ có một hoặc hai dạng vẫn nhận nhưng ghi rõ, không đánh dấu đủ ba dạng.
+4. Ưu tiên bổ sung thống kê, xác suất, hình trụ/hình nón/hình cầu; căn thức và lượng giác Kết Nối Tri Thức; đề giữa kỳ II, cuối kỳ II, đề tổng hợp cả năm và ôn vào lớp 10. Tìm tối thiểu 15 tài liệu mới không trùng nếu có đủ nguồn công khai phù hợp. Không dùng đề lớp 10/11/12 thay cho lớp 9; phân biệt đề đầu năm ôn lớp 8 với đề kiểm tra kiến thức lớp 9.
+5. Chỉ tải tệp công khai, không vượt đăng nhập/trả phí. Không mua tài liệu hay đăng ký tài khoản. Giữ bản gốc, tên tác giả và nguồn. Kiểm tra chữ ký PDF, khả năng mở, số trang và SHA-256; so URL và hash với tất cả file hiện có để tránh trùng. Giới hạn tải đồng thời tối đa 4 và ghi lỗi tải.
+6. Lưu tệp mới tại 03_Bo_sung_Antigravity/Chuyen_de hoặc 03_Bo_sung_Antigravity/De_tong_hop. Xuất danh-muc-bo-sung.csv (UTF-8 BOM) và nguon-bo-sung.json: tên tài liệu, chủ đề, lớp, bộ sách, trường/tác giả, năm học, URL trang nguồn, URL tải, đường dẫn local, số trang, dung lượng, SHA-256, dạng câu hỏi thực có, trang PDF chứa từng dạng, tình trạng đáp án và mức xác minh.
+7. Kiểm tra tiêu đề và nội dung thực trong PDF; số trang là thứ tự PDF tính từ 1. PDF scan không có text phải xem ảnh hoặc OCR rồi xác minh; chưa đọc được thì ghi CHUA_XAC_MINH. Không lấy việc không trích xuất được chữ làm bằng chứng tài liệu thiếu dạng câu hỏi. Ghi riêng lỗi OCR/công thức và tài liệu thiếu đáp án. Không tuyên bố đã thẩm định toán học toàn bộ lời giải nếu chưa làm.
+8. Kết thúc bằng BAO-CAO.md: số file mới, tổng số trang, nhóm kiến thức bổ sung, file đủ ba dạng, file chưa xác minh, nguồn bị chặn và đề xuất tài liệu nên nhập trước. Giữ nguyên danh mục và ZIP cũ; nếu cần đóng gói, tạo ZIP bổ sung riêng.
+
+Phạm vi chỉ tìm, tải, phân loại và kiểm tra tài liệu. Không sửa mã ứng dụng, không thay đổi database, không nhập hay xuất bản câu hỏi vào hệ thống. Khi báo cáo, cung cấp đường dẫn thư mục và danh mục kết quả.

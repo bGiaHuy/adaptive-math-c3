@@ -1,0 +1,746 @@
+{
+  "at": "2026-10-17T07:46:57.050Z",
+  "username": "qa_mixed_s_mvc1nvol",
+  "attemptId": "023a8802-1a6e-4683-8ec3-662882484aa2",
+  "types": [
+    "SINGLE_CHOICE",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SHORT_ANSWER",
+    "SINGLE_CHOICE",
+    "SHORT_ANSWER",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE",
+    "SINGLE_CHOICE"
+  ],
+  "result": {
+    "attemptId": "023a8802-1a6e-4683-8ec3-662882484aa2",
+    "status": "COMPLETED",
+    "finalTheta": 2.6720629980342196,
+    "standardError": 0.9965458678368583,
+    "scorePercentage": 100,
+    "correctCount": 18,
+    "totalAnswered": 18,
+    "skillsEvaluated": [
+      {
+        "skillId": "5bda7816-8aff-440e-96e5-08443d2d47f3",
+        "title": "Giải bài toán bằng cách lập hệ phương trình",
+        "masteryScore": 99,
+        "evidenceCount": 4,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "5bd4a453-fb44-446a-ace0-1357a033df1e",
+        "title": "Căn bậc hai và căn thức cơ bản",
+        "masteryScore": 99,
+        "evidenceCount": 3,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "6e303ca9-7895-470b-9964-d5ae9d3cf33d",
+        "title": "Phương trình bậc hai một ẩn",
+        "masteryScore": 97.44909544292935,
+        "evidenceCount": 2,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "e3bc56d6-7997-4da1-bfae-4ce5cb89c7b0",
+        "title": "Biến đổi và tính toán với căn thức",
+        "masteryScore": 97.44909544292935,
+        "evidenceCount": 2,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "1c90aecf-5364-4c78-9a68-4a478b12ac20",
+        "title": "Tỉ số lượng giác của góc nhọn",
+        "masteryScore": 99,
+        "evidenceCount": 3,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "e8a4d459-eb09-406b-8596-4c3dbb484859",
+        "title": "Định lý Viète và ứng dụng",
+        "masteryScore": 94.502174168159,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "efaf9a31-a71b-4445-9830-52162b34dd46",
+        "title": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "masteryScore": 99,
+        "evidenceCount": 2,
+        "status": "INSUFFICIENT_DATA"
+      },
+      {
+        "skillId": "230d4a89-d3a0-4c20-a9db-e520fad23fb3",
+        "title": "Đường tròn và góc nội tiếp",
+        "masteryScore": 98.26055157287014,
+        "evidenceCount": 1,
+        "status": "INSUFFICIENT_DATA"
+      }
+    ],
+    "alreadySubmitted": false,
+    "parameterStatus": "PROVISIONAL"
+  },
+  "detail": {
+    "attemptId": "023a8802-1a6e-4683-8ec3-662882484aa2",
+    "status": "COMPLETED",
+    "finalTheta": 2.6720629980342196,
+    "standardError": 0.9965458678368583,
+    "startedAt": "2026-10-17T07:46:17.105Z",
+    "completedAt": "2026-10-17T07:46:57.009Z",
+    "totalAnswered": 18,
+    "scorePercentage": 100,
+    "correctCount": 18,
+    "parameterStatus": "PROVISIONAL",
+    "answers": [
+      {
+        "questionId": "6fe68091-6262-5c90-aef5-3cb3e92d1ca2",
+        "content": "Lớp 9A có 40 học sinh, mỗi em ủng hộ đồng bào miền Trung ở mức 20 nghìn đồng hoặc 50 nghìn đồng, tổng 1,7 triệu đồng. Có bao nhiêu học sinh ủng hộ ở mức 50 nghìn đồng?",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "30"
+          ]
+        },
+        "response": {
+          "shortAnswer": "30"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Giải bài toán bằng cách lập hệ phương trình",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 6,
+        "thetaAfter": 0.4307283421998785,
+        "options": []
+      },
+      {
+        "questionId": "e6da9233-a667-5c43-a335-0d6d69df0c51",
+        "content": "Bác An gửi 1 tỉ đồng vào hai ngân hàng A và B, lãi suất A là 6,5% một năm, B là 7% một năm. Sau một năm thu được cả gốc và lãi là 1,067 tỉ đồng. Bác An gửi ngân hàng A bao nhiêu triệu đồng?",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Giải bài toán bằng cách lập hệ phương trình",
+        "selectedOptionKey": "C",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 7,
+        "thetaAfter": 1.179509120308578,
+        "options": [
+          {
+            "key": "A",
+            "content": "400 triệu đồng",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "500 triệu đồng",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "600 triệu đồng",
+            "isCorrect": true
+          },
+          {
+            "key": "D",
+            "content": "700 triệu đồng",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "a73f32a6-3925-594b-af4b-acbcb70ef00b",
+        "content": "Ô tô đi AB với 60 km/h, tiếp BC với 50 km/h. Tổng AB,BC = 190 km; thời gian đi AB ít hơn BC 30 phút. Gọi x,y giờ là thời gian đi AB,BC. Xét các khẳng định:",
+        "questionType": "TRUE_FALSE",
+        "statements": [
+          {
+            "key": "a",
+            "content": "Thời gian đi AB là 1,5 giờ.",
+            "isCorrect": true
+          },
+          {
+            "key": "b",
+            "content": "Điều kiện $x,y\\in\\mathbb N,\\ y>0,5$.",
+            "isCorrect": false
+          },
+          {
+            "key": "c",
+            "content": "AB dài 60x km, BC dài 50y km.",
+            "isCorrect": true
+          },
+          {
+            "key": "d",
+            "content": "Phương trình liên hệ thời gian là y − x = 30.",
+            "isCorrect": false
+          }
+        ],
+        "shortAnswer": null,
+        "response": {
+          "trueFalseAnswers": {
+            "a": true,
+            "b": false,
+            "c": true,
+            "d": false
+          }
+        },
+        "gradingDetails": {
+          "a": true,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Giải bài toán bằng cách lập hệ phương trình",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 11,
+        "thetaAfter": 1.302572906383184,
+        "options": []
+      },
+      {
+        "questionId": "c9c147f9-dcc0-4a53-8ab6-18e13ecd9966",
+        "content": "Căn bậc hai số học của 25 là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Căn bậc hai số học của 25 là 5.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.356029411685779,
+        "options": [
+          {
+            "key": "A",
+            "content": "-5",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "5",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "\\pm 5",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "25",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "d143e2fc-6628-5ba0-a333-5692206db51f",
+        "content": "Đại lý có 500 điện thoại. Giá 22000000 đồng/chiếc (gồm 10% VAT) thì bán hết trong tháng. Mỗi lần tăng 1100000 đồng/chiếc thì bán ít hơn 25 chiếc. Hàng còn lại được thanh lý 11000000 đồng/chiếc (gồm 10% VAT). Tính tổng tiền lớn nhất sau khấu trừ 10% VAT, đơn vị tỉ đồng, làm tròn đến hàng phần trăm.",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "10.63"
+          ]
+        },
+        "response": {
+          "shortAnswer": "10.63"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Phương trình bậc hai một ẩn",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 1.771740774120832,
+        "options": []
+      },
+      {
+        "questionId": "722bbbb1-8020-5c29-a7ed-225f84811d4a",
+        "content": "Cho $x\\ge16$. Tìm giá trị lớn nhất $A=\\frac{\\sqrt{x-16}}{3x}$, làm tròn đến chữ số thập phân thứ hai.",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "0.04"
+          ]
+        },
+        "response": {
+          "shortAnswer": "0.04"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.027853604306834,
+        "options": []
+      },
+      {
+        "questionId": "c58186d3-1e10-5d58-a70e-f56822a8b1b7",
+        "content": "Giá trị $\\frac{\\cos^2 25^\\circ+\\cos^2 65^\\circ+2}{2\\tan20^\\circ\\cdot\\tan70^\\circ-1}$ bằng bao nhiêu?",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "3"
+          ]
+        },
+        "response": {
+          "shortAnswer": "3"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.049549551656126,
+        "options": []
+      },
+      {
+        "questionId": "088f1dfa-44f7-5b9c-a8a9-94a191311319",
+        "content": "Phương trình $x^2-4x+1=0$ có hai nghiệm $x_1>x_2$. $P=\\sqrt{x_1^4-14x_1+7}+11x_2$ được biểu diễn dưới dạng $a+b\\sqrt c$, a,b nguyên, c nguyên tố. Tính $T=a+bc$.",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "5"
+          ]
+        },
+        "response": {
+          "shortAnswer": "5"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Định lý Viète và ứng dụng",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.22943073880807,
+        "options": []
+      },
+      {
+        "questionId": "44fff239-da36-570f-a6d6-91443ad38e12",
+        "content": "Hệ phương trình $\\begin{cases}2x+y=-3\\\\x+3y=1\\end{cases}$ có nghiệm là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.266648313874725,
+        "options": [
+          {
+            "key": "A",
+            "content": "(−2;1)",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "(2;1)",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "(−2;−1)",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "(2;−1)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "faaa523d-f4f8-5ee8-a100-1742c35d3767",
+        "content": "Mặt đĩa CD có dạng vành khuyên giới hạn bởi hai đường tròn bán kính 1,5 cm và 5 cm. Diện tích bao nhiêu cm²? Lấy π = 3,14, làm tròn đến hàng đơn vị.\n\n![Đĩa CD nguồn](/math-import-assets/quan-toan-901-disc.png)",
+        "questionType": "SHORT_ANSWER",
+        "statements": null,
+        "shortAnswer": {
+          "mode": "NUMERIC",
+          "tolerance": 1e-9,
+          "acceptedAnswers": [
+            "71"
+          ]
+        },
+        "response": {
+          "shortAnswer": "71"
+        },
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": null,
+        "skillTitle": "Đường tròn và góc nội tiếp",
+        "selectedOptionKey": null,
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.313415452359918,
+        "options": []
+      },
+      {
+        "questionId": "9c144baa-21b4-409f-8e9c-509cb8908b8f",
+        "content": "Phương trình bậc nhất 2x - 4 = 0 có nghiệm là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "2x - 4 = 0 <=> 2x = 4 <=> x = 2.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.346043530381635,
+        "options": [
+          {
+            "key": "A",
+            "content": "x = 2",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "x = -2",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "x = 4",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "x = 0",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "4d512a13-3f0c-4a6c-b654-d5ec01f05850",
+        "content": "Tập nghiệm của phương trình bậc hai $x^2 - 5x + 6 = 0$ là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Ta có $\\Delta = (-5)^2 - 4(1)(6) = 25 - 24 = 1 > 0$. Nghiệm là $x_1 = \\frac{5 + 1}{2} = 3$ và $x_2 = \\frac{5 - 1}{2} = 2$.",
+        "skillTitle": "Phương trình bậc hai một ẩn",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.377064791007085,
+        "options": [
+          {
+            "key": "A",
+            "content": "$S = \\{2;\\; 3\\}$",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "$S = \\{-2;\\; -3\\}$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$S = \\{-1;\\; -6\\}$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$S = \\{1;\\; 6\\}$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "47d9c982-fe08-40ac-bb07-cf12383567f8",
+        "content": "Trục căn thức ở mẫu của biểu thức \\frac{6}{\\sqrt{3}} ta được:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Nhân cả tử và mẫu với $\\sqrt{3}$, ta có: $\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$.",
+        "skillTitle": "Biến đổi và tính toán với căn thức",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.406637779823234,
+        "options": [
+          {
+            "key": "A",
+            "content": "2\\sqrt{3}",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "3\\sqrt{2}",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "\\sqrt{3}",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "6\\sqrt{3}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "f2e825a3-be2c-448c-90c2-bc8e9fd82e93",
+        "content": "Trong tam giác $ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$ và cạnh huyền $BC = 12$ cm. Độ dài cạnh $AB$ là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Ta có $\\sin C = \\frac{AB}{BC} \\implies AB = BC \\times \\sin 30^\\circ = 12 \\times \\frac{1}{2} = 6\\text{ cm}$.",
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.434898040659058,
+        "options": [
+          {
+            "key": "A",
+            "content": "$6$ cm",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "$6\\sqrt{3}$ cm",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$8$ cm",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$4$ cm",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "dc6b9a1b-bf60-4533-ac17-7832b3967b29",
+        "content": "Nghiệm của hệ phương trình $\\begin{cases} 2x + y = 5 \\\\ x - y = 1 \\end{cases}$ là cặp số $(x; y)$:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Cộng hai vế ta được: $(2x+y) + (x-y) = 5+1 \\iff 3x = 6 \\iff x = 2$. Thay $x = 2$ vào $x - y = 1 \\implies y = 1$. Vậy nghiệm là $(2; 1)$.",
+        "skillTitle": "Phương trình bậc nhất 2 ẩn và Giải hệ phương trình",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.461962436777113,
+        "options": [
+          {
+            "key": "A",
+            "content": "$(2;\\; 1)$",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "$(1;\\; 2)$",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "$(3;\\; -1)$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$(2;\\; 3)$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "a723c67b-0657-4761-99d8-e76560747ee6",
+        "content": "Tam giác ABC vuông tại A có AB = 3cm, AC = 4cm. Độ dài cạnh BC là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Áp dụng định lý Pythagoras: BC = \\sqrt{AB^2 + AC^2} = \\sqrt{9 + 16} = 5cm.",
+        "skillTitle": "Căn bậc hai và căn thức cơ bản",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.539027591734677,
+        "options": [
+          {
+            "key": "A",
+            "content": "5cm",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "7cm",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "6cm",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "25cm",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "9d9a7be2-de13-4ef8-b28d-13cb1ee8e2da",
+        "content": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6$ cm, $AC = 8$ cm. Giá trị $\\sin B$ bằng:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Áp dụng định lý Pythagoras: $BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Tỉ số $\\sin B = \\frac{\\text{đối}}{\\text{huyền}} = \\frac{AC}{BC} = \\frac{8}{10} = \\frac{4}{5}$.",
+        "skillTitle": "Tỉ số lượng giác của góc nhọn",
+        "selectedOptionKey": "B",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.608634665944233,
+        "options": [
+          {
+            "key": "A",
+            "content": "$\\frac{3}{5}$",
+            "isCorrect": false
+          },
+          {
+            "key": "B",
+            "content": "$\\frac{4}{5}$",
+            "isCorrect": true
+          },
+          {
+            "key": "C",
+            "content": "$\\frac{3}{4}$",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "$\\frac{4}{3}$",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": "6c0e7b78-e7d9-4197-b1b0-2c30034e1d49",
+        "content": "Hai bạn An và Bình có tổng cộng 50 viên bi. Biết số bi của An nhiều hơn số bi của Bình 10 viên. Số bi của An là:",
+        "questionType": "SINGLE_CHOICE",
+        "statements": null,
+        "shortAnswer": null,
+        "response": {},
+        "gradingDetails": {},
+        "pointsAwarded": 1,
+        "explanation": "Gọi số bi của An là x, Bình là y (x, y > 0). Ta có hệ: $\\begin{cases} x + y = 50 \\\\ x - y = 10 \\end{cases}$. Cộng 2 phương trình: $2x = 60 \\implies x = 30$. An có 30 viên bi.",
+        "skillTitle": "Giải bài toán bằng cách lập hệ phương trình",
+        "selectedOptionKey": "A",
+        "isCorrect": true,
+        "isTimeout": false,
+        "timeSpentSeconds": 10,
+        "thetaAfter": 2.67206299803422,
+        "options": [
+          {
+            "key": "A",
+            "content": "30 viên",
+            "isCorrect": true
+          },
+          {
+            "key": "B",
+            "content": "20 viên",
+            "isCorrect": false
+          },
+          {
+            "key": "C",
+            "content": "35 viên",
+            "isCorrect": false
+          },
+          {
+            "key": "D",
+            "content": "25 viên",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "randomCounts": {
+    "SINGLE_CHOICE": 12,
+    "TRUE_FALSE": 4,
+    "SHORT_ANSWER": 6
+  }
+}

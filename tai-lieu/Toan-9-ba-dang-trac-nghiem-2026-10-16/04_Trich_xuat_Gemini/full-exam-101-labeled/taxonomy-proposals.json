@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-17",
+  "status": "PROPOSED",
+  "databaseImpact": "NONE_YET (Đề xuất ghi nhận độc lập, chưa chỉnh sửa Prisma schema hay database seed)",
+  "rationale": "Qua việc phân loại 22 câu hỏi Mã đề 101 theo Chương trình GDPT 2018, nhận thấy danh mục 18 mã kỹ năng hiện hành (8 mã pilot SKILL-01..08 và 10 mã diagnostic blueprint) có một số khoảng trống khiến một số câu hỏi phải gán vào mã kỹ năng cha có phạm vi quá rộng. Dưới đây là 4 đề xuất bổ sung mã chuyên đề/kỹ năng để phản ánh chính xác cấu trúc bài thi và yêu cầu cần đạt.",
+  "proposals": [
+    {
+      "proposedCode": "MATH9-CIRCLE-RELATIONS",
+      "title": "Vị trí tương đối của hai đường tròn",
+      "chapter": "ĐƯỜNG TRÒN",
+      "strand": "GEOMETRY",
+      "curriculumLearningOutcome": "Nhận biết và giải thích được vị trí tương đối của hai đường tròn (cắt nhau, tiếp xúc trong, tiếp xúc ngoài, không giao nhau) dựa trên hệ thức giữa khoảng cách nối tâm d và các bán kính R1, R2.",
+      "mappedCurrentSkill": "SKILL-08 (Đường tròn và góc nội tiếp)",
+      "questionsInExam101": ["SRC009-P001-Q002"],
+      "justification": "SKILL-08 hiện gộp cả đường tròn, góc ở tâm, góc nội tiếp và vị trí tương đối. Việc tách riêng giúp đánh giá chính xác năng lực hình học vị trí tương đối mà không làm nhiễu kỹ năng góc nội tiếp."
+    },
+    {
+      "proposedCode": "MATH9-CIRCULAR-SECTOR",
+      "title": "Độ dài cung tròn, diện tích hình quạt tròn và hình vành khuyên",
+      "chapter": "ĐƯỜNG TRÒN",
+      "strand": "GEOMETRY",
+      "curriculumLearningOutcome": "Tính được độ dài cung tròn, diện tích hình quạt tròn và diện tích hình vành khuyên từ các dữ kiện bán kính và số đo góc ở tâm.",
+      "mappedCurrentSkill": "SKILL-08 (Đường tròn và góc nội tiếp)",
+      "questionsInExam101": ["SRC009-P001-Q006"],
+      "justification": "Câu hỏi tính diện tích hình quạt tròn (R=9cm, n=40°) là bài toán tính toán đo lường thuần túy, không liên quan đến góc nội tiếp hay chứng minh hình học."
+    },
+    {
+      "proposedCode": "MATH9-PARABOLA-INTERSECTION",
+      "title": "Sự tương giao giữa parabol y = ax² và đường thẳng",
+      "chapter": "HÀM SỐ BẬC HAI VÀ PHƯƠNG TRÌNH BẬC HAI",
+      "strand": "ALGEBRA",
+      "curriculumLearningOutcome": "Tìm tọa độ giao điểm, biện luận số giao điểm và tính toán các biểu thức đối xứng liên quan đến tọa độ giao điểm giữa parabol y = ax² và đường thẳng y = mx + n.",
+      "mappedCurrentSkill": "MATH9-QUADRATIC-FUNCTIONS (Hàm số y = ax² và đồ thị)",
+      "questionsInExam101": ["SRC009-P003-Q004"],
+      "justification": "Câu 4 Phần II kiểm tra phương trình hoành độ giao điểm, định lý Viète và tích tung độ y1y2. Đây là mảng kiến thức tương giao liên kết giữa đồ thị và phương trình bậc hai, rất quan trọng trong các kỳ thi vào 10."
+    },
+    {
+      "proposedCode": "MATH9-ALGEBRA-REDUCTION",
+      "title": "Kỹ thuật hạ bậc đa thức và rút gọn căn thức liên hệ nghiệm phương trình",
+      "chapter": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+      "strand": "ALGEBRA",
+      "curriculumLearningOutcome": "Vận dụng tính chất nghiệm của phương trình bậc hai (x² = ax + b) để hạ bậc đa thức dưới dấu căn thức, nhận dạng bình phương đúng và rút gọn biểu thức chứa nghiệm.",
+      "mappedCurrentSkill": "SKILL-02 (Biến đổi và tính toán với căn thức)",
+      "questionsInExam101": ["SRC009-P003-III-Q002"],
+      "justification": "Câu 2 Phần III là dạng toán phân hóa vận dụng cao, kết hợp giữa hạ bậc x1^4 -> 56x1 - 15 và đưa về hằng đẳng thức dưới căn (7 + 3căn(3))^2. Gán vào SKILL-02 thông thường không làm nổi bật được độ phân hóa cao của kỹ thuật này."
+    }
+  ]
+}

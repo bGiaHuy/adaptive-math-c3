@@ -1,0 +1,594 @@
+{
+  "results": [
+    {
+      "mode": "competency",
+      "width": 1440,
+      "overflow": false,
+      "content": 651,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "competency",
+      "width": 768,
+      "overflow": false,
+      "content": 651,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "competency",
+      "width": 390,
+      "overflow": false,
+      "content": 606,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "mistakes",
+      "width": 1440,
+      "overflow": false,
+      "content": 320,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "mistakes",
+      "width": 768,
+      "overflow": false,
+      "content": 320,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "mistakes",
+      "width": 390,
+      "overflow": false,
+      "content": 275,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "exam-composer",
+      "width": 1440,
+      "overflow": false,
+      "content": 852,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "exam-composer",
+      "width": 768,
+      "overflow": false,
+      "content": 778,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "exam-composer",
+      "width": 390,
+      "overflow": false,
+      "content": 575,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "library",
+      "width": 1440,
+      "overflow": false,
+      "content": 968,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "library",
+      "width": 768,
+      "overflow": false,
+      "content": 894,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "library",
+      "width": 390,
+      "overflow": false,
+      "content": 922,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "classes",
+      "width": 1440,
+      "overflow": false,
+      "content": 401,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "classes",
+      "width": 768,
+      "overflow": false,
+      "content": 296,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "classes",
+      "width": 390,
+      "overflow": false,
+      "content": 324,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-results",
+      "width": 1440,
+      "overflow": false,
+      "content": 2191,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-results",
+      "width": 768,
+      "overflow": false,
+      "content": 2117,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-results",
+      "width": 390,
+      "overflow": false,
+      "content": 2145,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-analytics",
+      "width": 1440,
+      "overflow": false,
+      "content": 1733,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-analytics",
+      "width": 768,
+      "overflow": false,
+      "content": 1659,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-analytics",
+      "width": 390,
+      "overflow": false,
+      "content": 1687,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-paper",
+      "width": 1440,
+      "overflow": false,
+      "content": 1279,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-paper",
+      "width": 768,
+      "overflow": false,
+      "content": 1205,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-paper",
+      "width": 390,
+      "overflow": false,
+      "content": 1233,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-settings",
+      "width": 1440,
+      "overflow": false,
+      "content": 643,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-settings",
+      "width": 768,
+      "overflow": false,
+      "content": 569,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "report-settings",
+      "width": 390,
+      "overflow": false,
+      "content": 597,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-overview",
+      "width": 1440,
+      "overflow": false,
+      "content": 566,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-overview",
+      "width": 768,
+      "overflow": false,
+      "content": 566,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-overview",
+      "width": 390,
+      "overflow": false,
+      "content": 521,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-users",
+      "width": 1440,
+      "overflow": false,
+      "content": 800,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-users",
+      "width": 768,
+      "overflow": false,
+      "content": 800,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-users",
+      "width": 390,
+      "overflow": false,
+      "content": 755,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-classrooms",
+      "width": 1440,
+      "overflow": false,
+      "content": 581,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-classrooms",
+      "width": 768,
+      "overflow": false,
+      "content": 581,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-classrooms",
+      "width": 390,
+      "overflow": false,
+      "content": 536,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-questions",
+      "width": 1440,
+      "overflow": false,
+      "content": 607,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-questions",
+      "width": 768,
+      "overflow": false,
+      "content": 607,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-questions",
+      "width": 390,
+      "overflow": false,
+      "content": 562,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-audit",
+      "width": 1440,
+      "overflow": false,
+      "content": 560,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-audit",
+      "width": 768,
+      "overflow": false,
+      "content": 560,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "admin-audit",
+      "width": 390,
+      "overflow": false,
+      "content": 515,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "missions",
+      "width": 1440,
+      "overflow": false,
+      "content": 594,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "missions",
+      "width": 768,
+      "overflow": false,
+      "content": 594,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "missions",
+      "width": 390,
+      "overflow": false,
+      "content": 549,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "learning-path",
+      "width": 1440,
+      "overflow": false,
+      "content": 648,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "learning-path",
+      "width": 768,
+      "overflow": false,
+      "content": 648,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "learning-path",
+      "width": 390,
+      "overflow": false,
+      "content": 603,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "review",
+      "width": 1440,
+      "overflow": false,
+      "content": 729,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "review",
+      "width": 768,
+      "overflow": false,
+      "content": 729,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "review",
+      "width": 390,
+      "overflow": false,
+      "content": 684,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "student-classroom",
+      "width": 1440,
+      "overflow": false,
+      "content": 752,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "student-classroom",
+      "width": 768,
+      "overflow": false,
+      "content": 752,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "student-classroom",
+      "width": 390,
+      "overflow": false,
+      "content": 707,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "pending",
+      "width": 1440,
+      "overflow": false,
+      "content": 1111,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "pending",
+      "width": 768,
+      "overflow": false,
+      "content": 1111,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "pending",
+      "width": 390,
+      "overflow": false,
+      "content": 1066,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "onboarding",
+      "width": 1440,
+      "overflow": false,
+      "content": 491,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "onboarding",
+      "width": 768,
+      "overflow": false,
+      "content": 491,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "onboarding",
+      "width": 390,
+      "overflow": false,
+      "content": 446,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "sessions",
+      "width": 1440,
+      "overflow": false,
+      "content": 421,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "sessions",
+      "width": 768,
+      "overflow": false,
+      "content": 421,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "sessions",
+      "width": 390,
+      "overflow": false,
+      "content": 376,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "password",
+      "width": 1440,
+      "overflow": false,
+      "content": 258,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "password",
+      "width": 768,
+      "overflow": false,
+      "content": 258,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "password",
+      "width": 390,
+      "overflow": false,
+      "content": 213,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "legal",
+      "width": 1440,
+      "overflow": false,
+      "content": 1750,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "legal",
+      "width": 768,
+      "overflow": false,
+      "content": 1750,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "legal",
+      "width": 390,
+      "overflow": false,
+      "content": 1705,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "student-result",
+      "width": 1440,
+      "overflow": false,
+      "content": 1329,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "student-result",
+      "width": 768,
+      "overflow": false,
+      "content": 1329,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "student-result",
+      "width": 390,
+      "overflow": false,
+      "content": 1095,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "not-found",
+      "width": 1440,
+      "overflow": false,
+      "content": 273,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "not-found",
+      "width": 768,
+      "overflow": false,
+      "content": 273,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "not-found",
+      "width": 390,
+      "overflow": false,
+      "content": 228,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "loading",
+      "width": 1440,
+      "overflow": false,
+      "content": 165,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "loading",
+      "width": 768,
+      "overflow": false,
+      "content": 165,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "loading",
+      "width": 390,
+      "overflow": false,
+      "content": 120,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "curriculum",
+      "width": 1440,
+      "overflow": false,
+      "content": 1769,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "curriculum",
+      "width": 768,
+      "overflow": false,
+      "content": 1769,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    },
+    {
+      "mode": "curriculum",
+      "width": 390,
+      "overflow": false,
+      "content": 1724,
+      "font": "Poppins, \"Be Vietnam Pro\", sans-serif"
+    }
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "mode": "library",
+      "violations": []
+    },
+    {
+      "mode": "report-paper",
+      "violations": []
+    },
+    {
+      "mode": "missions",
+      "violations": []
+    },
+    {
+      "mode": "review",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    "Library search filters records",
+    "All three question types visible; boxed choices, truth circles, short answer and question editing retained"
+  ]
+}

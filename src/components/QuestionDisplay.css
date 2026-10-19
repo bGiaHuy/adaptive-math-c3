@@ -1,0 +1,30 @@
+/* Shared academic content hierarchy; colors for bank keys and student grading stay contextual. */
+.question-display{min-width:0;scroll-margin-top:100px}
+.qd-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:20px}
+.teacher-workspace .qd-heading h3{margin:0;font-size:16px;line-height:1.5;font-weight:650}
+.teacher-workspace .qd-heading p{margin:4px 0 0;font-size:12px;line-height:1.6;color:#63758a}
+.teacher-workspace .qd-edit{margin-left:auto;flex-shrink:0;min-height:40px;border:1px solid #e0ddea;border-radius:6px;background:#faf9fc;color:#655879;font-size:12px;padding:8px 12px}
+.teacher-workspace .qd-edit:hover{background:#f1eef6;border-color:#a69ab9}
+.question-display .qd-prompt{display:block;max-width:100%;font-size:16px;line-height:1.85;color:#172b3a;overflow-wrap:anywhere}
+.qd-topic{font-size:12px;color:#63758a;line-height:1.6;margin-bottom:10px}
+.qd-prompt .math-block-container{display:block;overflow-x:auto;max-width:100%}
+.qd-answers{margin-top:20px;min-width:0}
+.qd-answer-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.question-display .qd-answer-heading h4,.question-display .qd-solution h4{margin:0;font-size:12px;font-weight:600;color:#63758a}
+.qd-answer-heading small{font-size:11px;color:#63758a}
+.qd-answers .math-response-result{margin:0;gap:8px}
+/* Read-only answer boxes retain the requested green fill and black outline. */
+.qd-paper .math-answer-key .math-key-short{display:block;padding:0;background:transparent;border:0;border-radius:0}
+.qd-paper .math-key-short>strong{display:none}
+.qd-paper .math-key-value{display:inline-block;min-width:88px;max-width:100%;box-sizing:border-box;padding:10px 18px;border:2px solid #000;border-radius:6px;background:#bbf7d0;color:#14532d;text-align:center;font-size:22px;line-height:1.5;font-weight:650}
+.qd-paper .math-answer-key .math-key-choice,.qd-paper .math-answer-key .math-key-statement{border:1px solid #94a3b8;border-radius:6px;background:#fff;padding:12px 14px}
+.qd-paper .math-answer-key .math-key-choice.is-key{background:#bbf7d0;color:#14532d;border:2px solid #000;padding:11px 13px}
+.qd-paper .math-truth-circle{background:#bbf7d0;color:#14532d;border:2px solid #000}
+.qd-solution{margin-top:20px;line-height:1.8;overflow-wrap:anywhere;min-width:0}
+.qd-solution h4{margin-bottom:8px!important}
+.qd-solution>summary{min-height:44px;cursor:pointer;color:#176f59;font-size:13px;font-weight:600}
+.qd-empty-solution{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:16px;color:#63758a;font-size:12px;line-height:1.6}
+.teacher-workspace .qd-empty-solution button{border:0;background:transparent;min-height:36px;padding:4px 0;color:#655879;font-size:12px;text-decoration:underline;text-underline-offset:3px}
+.teacher-workspace .qd-paper{padding:22px 24px!important;max-width:1040px;box-sizing:border-box}
+.question-display :is(button,summary):focus-visible{outline:3px solid #137960;outline-offset:3px}
+@media(max-width:650px){.teacher-workspace .qd-paper{padding:18px 16px!important}.qd-heading{gap:8px;margin-bottom:16px}.teacher-workspace .qd-edit{max-width:140px;font-size:11px}.question-display .qd-prompt{font-size:15px}}

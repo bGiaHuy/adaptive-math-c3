@@ -1,0 +1,2141 @@
+{
+  "batchId": "antigravity-reviewed-2026-10-19",
+  "questions": [
+    {
+      "externalId": "CAND-SLOT02-01",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình tích có dạng là:",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING",
+      "explanation": "Phương án B là tích hai nhân tử bằng 0; các phương án còn lại là tổng hoặc hiệu.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "CHUYEN_DE / I / 1",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT02-01",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "topic": "Phương trình quy về phương trình bậc nhất một ẩn",
+          "primarySkillCode": "MATH9-LINEAR-EQUATIONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Nhận biết được dạng phương trình tích qua cấu trúc đại số.",
+          "cognitiveLevel": "REMEMBERING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Phương án B là tích hai nhân tử bằng 0; các phương án còn lại là tổng hoặc hiệu.",
+          "evidence": {
+            "sourceId": "SRC002",
+            "relativePath": "01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+            "questionPages": [
+              16
+            ],
+            "answerPages": [
+              101
+            ],
+            "referenceSection": "Phần I - Câu 1"
+          },
+          "difficulty": "EASY",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Nhận biết cấu trúc phương trình tích.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Phương trình tích có dạng là:",
+          "answer": {
+            "correctOption": "B"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT02-01_p016_CHUYEN_DE_I_Q1.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "B"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$(ax + b) - (cx + d) = 0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$(ax - b)(cx - d) = 0$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$(ax - b) + (cx - d) = 0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$(ax + b) + (cx + d) = 0$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT02-03",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho phương trình $(x + 2)(5 - 2x) = 0$. Giá trị $x$ nào sau đây là nghiệm của phương trình đã cho?",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING",
+      "explanation": "Hai nghiệm là -2 và 5/2. Trong bốn lựa chọn chỉ A: x=-2 thỏa mãn.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 16,
+        "questionNumber": "CHUYEN_DE / I / 3",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT02-03",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "topic": "Phương trình quy về phương trình bậc nhất một ẩn",
+          "primarySkillCode": "MATH9-LINEAR-EQUATIONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Nhận biết nghiệm của phương trình tích bằng cách thay trực tiếp.",
+          "cognitiveLevel": "REMEMBERING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Hai nghiệm là -2 và 5/2. Trong bốn lựa chọn chỉ A: x=-2 thỏa mãn.",
+          "evidence": {
+            "sourceId": "SRC002",
+            "relativePath": "01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+            "questionPages": [
+              16
+            ],
+            "answerPages": [
+              101
+            ],
+            "referenceSection": "Phần I - Câu 3"
+          },
+          "difficulty": "EASY",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Tìm nghiệm trực tiếp, mức Nhận biết.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho phương trình $(x + 2)(5 - 2x) = 0$. Giá trị $x$ nào sau đây là nghiệm của phương trình đã cho?",
+          "answer": {
+            "correctOption": "A"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT02-03_p016_CHUYEN_DE_I_Q3.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "A"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x = -2$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$x = 2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$x = 1$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$x = -1$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT02-04",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Điều kiện xác định của phương trình $\\frac{x}{3}-\\frac12+\\frac{x-1}{4}=0$ là",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING",
+      "explanation": "Các mẫu số 3, 2, 4 đều là hằng số khác 0 nên phương trình xác định với mọi số thực.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+        "page": 20,
+        "questionNumber": "CHUYEN_DE / I / 45",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT02-04",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "topic": "Phương trình quy về phương trình bậc nhất một ẩn",
+          "primarySkillCode": "MATH9-LINEAR-EQUATIONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Nhận biết điều kiện xác định của phương trình đại số bậc nhất.",
+          "cognitiveLevel": "REMEMBERING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Các mẫu số 3, 2, 4 đều là hằng số khác 0 nên phương trình xác định với mọi số thực.",
+          "evidence": {
+            "sourceId": "SRC002",
+            "relativePath": "01_Chuyen_de/02_Phuong_trinh_bat_phuong_trinh.pdf",
+            "questionPages": [
+              20
+            ],
+            "answerPages": [
+              117
+            ],
+            "referenceSection": "Phần I - Câu 45"
+          },
+          "difficulty": "EASY",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "ĐKXĐ không chứa ẩn ở mẫu, mức Nhận biết.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Điều kiện xác định của phương trình: $\\frac{x}{3} - \\frac{x - 1}{2} + \\frac{1}{4} = 0$ là",
+          "answer": {
+            "correctOption": "D"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT02-04_p020_CHUYEN_DE_I_Q45.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "D"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x \\ne 0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$x \\ne 1$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$x \\ne -1$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "mọi $x \\in \\mathbb{R}$",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT02-05",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Điều kiện xác định của phương trình $\\frac{1}{x-2}+\\frac{2}{x+2}=\\frac{3}{(x-2)(x+2)}$ là",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING",
+      "explanation": "Các mẫu khác 0 khi x khác 2 và -2. Chọn C.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/Chuyen_de/14_Phuong_trinh_he_bac_nhat_Canh_Dieu.pdf",
+        "page": 21,
+        "questionNumber": "CHUYEN_DE / I / 56",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT02-05",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "topic": "Phương trình chứa ẩn ở mẫu quy về phương trình bậc nhất",
+          "primarySkillCode": "MATH9-LINEAR-EQUATIONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu.",
+          "cognitiveLevel": "REMEMBERING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Các mẫu khác 0 khi x khác 2 và -2. Chọn C.",
+          "evidence": {
+            "sourceId": "SRC014",
+            "relativePath": "03_Bo_sung_Antigravity/Chuyen_de/14_Phuong_trinh_he_bac_nhat_Canh_Dieu.pdf",
+            "questionPages": [
+              21
+            ],
+            "answerPages": [
+              126
+            ],
+            "referenceSection": "Phần I - Câu 56"
+          },
+          "difficulty": "EASY",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "ĐKXĐ hai nhị thức đơn giản.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Điều kiện xác định của phương trình: $\\frac{x + 1}{x - 2} = \\frac{x - 2}{(x - 2)(x + 2)} + 3$ là",
+          "answer": {
+            "correctOption": "C"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT02-05_p021_CHUYEN_DE_I_Q56.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "C"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x \\ne -2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$x \\ne 2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$x \\ne -2 \\text{ và } x \\ne 2$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "mọi $x \\in \\mathbb{R}$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT02-06",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình nào sau đây có chứa ẩn ở mẫu?",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING",
+      "explanation": "Chỉ phương án C có x ở mẫu; các mẫu còn lại là hằng số.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/Chuyen_de/14_Phuong_trinh_he_bac_nhat_Canh_Dieu.pdf",
+        "page": 21,
+        "questionNumber": "CHUYEN_DE / I / 59",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT02-06",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "topic": "Phương trình chứa ẩn ở mẫu quy về phương trình bậc nhất",
+          "primarySkillCode": "MATH9-LINEAR-EQUATIONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Nhận dạng được phương trình có chứa ẩn ở mẫu thức.",
+          "cognitiveLevel": "REMEMBERING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Chỉ phương án C có x ở mẫu; các mẫu còn lại là hằng số.",
+          "evidence": {
+            "sourceId": "SRC014",
+            "relativePath": "03_Bo_sung_Antigravity/Chuyen_de/14_Phuong_trinh_he_bac_nhat_Canh_Dieu.pdf",
+            "questionPages": [
+              21
+            ],
+            "answerPages": [
+              127
+            ],
+            "referenceSection": "Phần I - Câu 59"
+          },
+          "difficulty": "EASY",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Nhận diện trực quan mức Nhận biết.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Phương trình nào sau đây có chứa ẩn ở mẫu?",
+          "answer": {
+            "correctOption": "C"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT02-06_p021_CHUYEN_DE_I_Q59.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "C"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$x-\\frac{2x}{2025}=0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac12x-\\frac13=0$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$\\frac{x-2026}{x}=0$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "$\\frac{2x-1}{2025}=0$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT10-01",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{BAD} = x$ và $\\widehat{BCD} = 2x$. Giá trị của $x$ bằng (đơn vị: độ).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Hai góc đối của tứ giác nội tiếp có tổng 180 độ: x+2x=180 nên x=60 độ.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / I / 5",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT10-01",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Tứ giác nội tiếp đường tròn",
+          "primarySkillCode": "MATH9-CYCLIC-POLYGONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Vận dụng tính chất tổng hai góc đối của tứ giác nội tiếp để tính góc.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Hai góc đối của tứ giác nội tiếp có tổng 180 độ: x+2x=180 nên x=60 độ.",
+          "evidence": {
+            "sourceId": "SRC012",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+            "questionPages": [
+              1
+            ],
+            "answerPages": [
+              33
+            ],
+            "referenceSection": "Phần I - Câu 5"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Thông hiểu tính chất góc đối tứ giác nội tiếp.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{BAD} = x$ và $\\widehat{BCD} = 2x$. Giá trị của $x$ bằng (đơn vị: độ).",
+          "answer": {
+            "correctOption": "A"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT10-01_p001_101_I_Q5.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "A"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$60^\\circ$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$30^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$50^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$40^\\circ$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT10-02",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho $ABCD$ là hình vuông cạnh $a$. Khi đó, bán kính đường tròn ngoại tiếp hình vuông bằng",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Đường chéo hình vuông bằng $a\\sqrt2$ là đường kính, nên bán kính bằng $a\\sqrt2/2$.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / I / 6",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT10-02",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Đa giác đều và đường tròn",
+          "primarySkillCode": "MATH9-CYCLIC-POLYGONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Hiểu mối liên hệ giữa cạnh đa giác đều và bán kính đường tròn ngoại tiếp.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Đường chéo hình vuông bằng $a\\sqrt2$ là đường kính, nên bán kính bằng $a\\sqrt2/2$.",
+          "evidence": {
+            "sourceId": "SRC012",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+            "questionPages": [
+              1
+            ],
+            "answerPages": [
+              33
+            ],
+            "referenceSection": "Phần I - Câu 6"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Thông hiểu mối quan hệ đường tròn ngoại tiếp hình vuông.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho $ABCD$ là hình vuông cạnh $a$. Khi đó, bán kính đường tròn ngoại tiếp hình vuông bằng",
+          "answer": {
+            "correctOption": "B"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT10-02_p001_101_I_Q6.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "B"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$a\\sqrt{2}$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$\\frac{a\\sqrt{2}}{2}$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$a$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$2a$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT10-03",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Tam giác đều $ABC$ ngoại tiếp đường tròn $(I; 3\\text{ cm})$. Diện tích tam giác $ABC$ là:",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "Với tam giác đều, $r=a\\sqrt3/6$. Do r=3 nên $a=6\\sqrt3$ và diện tích $a^2\\sqrt3/4=27\\sqrt3$. Chọn B.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/10_On_thi_vao_10_Cum_2_Hai_Phong_2026_2027.pdf",
+        "page": 2,
+        "questionNumber": "401 / I / 9",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT10-03",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Đa giác đều và đường tròn nội tiếp",
+          "primarySkillCode": "MATH9-TRIANGLE-CIRCLES",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Tính diện tích đa giác đều từ bán kính đường tròn nội tiếp.",
+          "cognitiveLevel": "APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Với tam giác đều, $r=a\\sqrt3/6$. Do r=3 nên $a=6\\sqrt3$ và diện tích $a^2\\sqrt3/4=27\\sqrt3$. Chọn B.",
+          "evidence": {
+            "sourceId": "SRC010",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/10_On_thi_vao_10_Cum_2_Hai_Phong_2026_2027.pdf",
+            "questionPages": [
+              2
+            ],
+            "answerPages": [
+              9
+            ],
+            "referenceSection": "Phần I - Câu 9"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Thông hiểu đa giác đều.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Tam giác đều $ABC$ ngoại tiếp đường tròn $(I; 3\\text{ cm})$. Diện tích tam giác $ABC$ là:",
+          "answer": {
+            "correctOption": "B"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT10-03_p002_401_I_Q9.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "B"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$3\\sqrt{3}\\text{ cm}^2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "$27\\sqrt{3}\\text{ cm}^2$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "C",
+          "content": "$81\\sqrt{3}\\text{ cm}^2$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$9\\sqrt{3}\\text{ cm}^2$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT10-04",
+      "skillCode": "MATH9-CYCLIC-POLYGONS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong một tứ giác nội tiếp, tổng số đo của hai góc đối nhau bằng",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING",
+      "explanation": "Tổng hai góc đối của tứ giác nội tiếp là 180 độ. Đây là câu nhắc lại tính chất, không gắn mức thông hiểu để lấp ma trận.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 162,
+        "questionNumber": "CHUYEN_DE / I / 4",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT10-04",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Tứ giác nội tiếp đường tròn",
+          "primarySkillCode": "MATH9-CYCLIC-POLYGONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Hiểu định lý tổng hai góc đối của tứ giác nội tiếp.",
+          "cognitiveLevel": "REMEMBERING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Tổng hai góc đối của tứ giác nội tiếp là 180 độ. Đây là câu nhắc lại tính chất, không gắn mức thông hiểu để lấp ma trận.",
+          "evidence": {
+            "sourceId": "SRC005",
+            "relativePath": "01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+            "questionPages": [
+              162
+            ],
+            "answerPages": [
+              214
+            ],
+            "referenceSection": "Phần I - Câu 4"
+          },
+          "difficulty": "EASY",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Định lý cơ bản.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Trong một tứ giác nội tiếp, tổng số đo của hai góc đối nhau bằng",
+          "answer": {
+            "correctOption": "A"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT10-04_p162_CHUYEN_DE_I_Q4.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "A"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "$180^\\circ$",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "$90^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "$360^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "$120^\\circ$",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT11-02",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Bạn Bình thống kê điểm bài thi thử môn Toán của 35 học sinh lớp 9A và ghi lại trong bảng sau. Tần số xuất hiện của điểm 7 là: $\\begin{array}{c|rrrrrrrr}\\text{Diem}&3&4&5&6&7&8&9&10\\\\hline\\text{Tan so}&3&3&4&5&6&7&5&2\\end{array}$",
+      "difficulty": "EASY",
+      "cognitiveLevel": "REMEMBERING",
+      "explanation": "Cột điểm 7 có tần số 6. Chọn A.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung/01_HK2_Hung_Yen_2025_2026.pdf",
+        "page": 2,
+        "questionNumber": "9201 / I / 9",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT11-02",
+        "classification": {
+          "knowledgeStrand": "Thống kê và xác suất",
+          "chapter": "MỘT SỐ YẾU TỐ THỐNG KÊ",
+          "topic": "Tần số và tần số tương đối",
+          "primarySkillCode": "MATH9-STATISTICS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Đọc bảng tần số để tìm tần số của một giá trị trong mẫu số liệu.",
+          "cognitiveLevel": "REMEMBERING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Cột điểm 7 có tần số 6. Chọn A.",
+          "evidence": {
+            "sourceId": "SRC003_HY",
+            "relativePath": "03_Bo_sung/01_HK2_Hung_Yen_2025_2026.pdf",
+            "questionPages": [
+              2
+            ],
+            "answerPages": [
+              6
+            ],
+            "referenceSection": "Phần I - Câu 9"
+          },
+          "difficulty": "EASY",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Đọc bảng thống kê mức Nhận biết.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Bạn Bình thống kê điểm bài thi thử môn Toán của 35 học sinh lớp 9A và ghi lại trong bảng sau. Tần số xuất hiện của điểm 7 là\n\n| Điểm | 5 | 6 | 7 | 8 | 9 |\n|---|---:|---:|---:|---:|---:|\n| Tần số | 8 | 7 | 5 | 9 | 6 |",
+          "answer": {
+            "correctOption": "C"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT11-02_p002_9201_I_Q9.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "C"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "6",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "B",
+          "content": "5",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "8",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT11-03",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Kết quả làm bài thi 100 câu trắc nghiệm Tiếng Anh trên Internet của 45 học sinh với thang điểm 1000 được ghi lại như sau: có 15 học sinh được 580 điểm; 16 học sinh được 650 điểm; 5 học sinh được 750 điểm; còn lại là số học sinh được 800 điểm. Tần số tương đối của học sinh đạt được 800 điểm là",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Số học sinh đạt 800 điểm là 45-15-16-5=9; tần số tương đối 9/45=20%. Chọn C.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung/01_HK2_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9201 / I / 26",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT11-03",
+        "classification": {
+          "knowledgeStrand": "Thống kê và xác suất",
+          "chapter": "MỘT SỐ YẾU TỐ THỐNG KÊ",
+          "topic": "Tần số và tần số tương đối",
+          "primarySkillCode": "MATH9-STATISTICS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Tính tần số tương đối từ dữ liệu thống kê mô tả.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Số học sinh đạt 800 điểm là 45-15-16-5=9; tần số tương đối 9/45=20%. Chọn C.",
+          "evidence": {
+            "sourceId": "SRC003_HY",
+            "relativePath": "03_Bo_sung/01_HK2_Hung_Yen_2025_2026.pdf",
+            "questionPages": [
+              3
+            ],
+            "answerPages": [
+              6
+            ],
+            "referenceSection": "Phần I - Câu 26"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Tính tần số tương đối cơ bản.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Kết quả làm bài thi 100 câu trắc nghiệm Tiếng Anh trên Internet của 45 học sinh với thang điểm 1000 được ghi lại như sau: có 15 học sinh được 580 điểm; 16 học sinh được 650 điểm; 5 học sinh được 750 điểm; còn lại là số học sinh được 800 điểm. Tần số tương đối của học sinh đạt được 800 điểm là",
+          "answer": {
+            "correctOption": "C"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT11-03_p003_9201_I_Q26.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "C"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "11%",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "80%",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "20%",
+          "isCorrect": true
+        },
+        {
+          "optionKey": "D",
+          "content": "9%",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT11-04",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong một đợt kiểm tra sức khỏe, lớp 9B có 40 học sinh, trong đó có 8 bạn bị cận thị. Tần số tương đối của số học sinh bị cận thị trong lớp là (kết quả làm tròn đến hàng phần trăm):",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Tần số tương đối là 8/40=0,20 (tương đương 20%). Chọn D.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+        "page": 1,
+        "questionNumber": "101 / I / 8",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT11-04",
+        "classification": {
+          "knowledgeStrand": "Thống kê và xác suất",
+          "chapter": "MỘT SỐ YẾU TỐ THỐNG KÊ",
+          "topic": "Tần số và tần số tương đối",
+          "primarySkillCode": "MATH9-STATISTICS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Tính tần số tương đối dưới dạng số thập phân.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Tần số tương đối là 8/40=0,20 (tương đương 20%). Chọn D.",
+          "evidence": {
+            "sourceId": "SRC012",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+            "questionPages": [
+              1
+            ],
+            "answerPages": [
+              33
+            ],
+            "referenceSection": "Phần I - Câu 8"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Tính tần số tương đối cơ bản.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Trong một đợt kiểm tra sức khỏe, lớp 9B có 40 học sinh, trong đó có 8 bạn bị cận thị. Tần số tương đối của số học sinh bị cận thị trong lớp là (kết quả làm tròn đến hàng phần trăm):",
+          "answer": {
+            "correctOption": "D"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT11-04_p001_101_I_Q8.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "D"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "0,80",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "0,25",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "0,02",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "0,20",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT11-REPL01",
+      "skillCode": "MATH9-STATISTICS",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Bảng tần số tương đối sau cho biết kết quả tập luyện của một vận động viên bắn súng: $\\begin{array}{c|rrrr}\\text{Diem}&7&8&9&10\\\\hline\\text{Tan so tuong doi}&5\\%&15\\%&55\\%&x\\%\\end{array}$. Giá trị của x là",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Tổng tần số tương đối bằng 100%, nên x=100-5-15-55=25. Chọn D.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/09_HK2_Chu_Van_An_Gia_Lai_2025_2026.pdf",
+        "page": 18,
+        "questionNumber": "902 / I / 7",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT11-REPL01",
+        "classification": {
+          "knowledgeStrand": "Một số yếu tố Thống kê và Xác suất",
+          "chapter": "TẦN SỐ VÀ TẦN SỐ TƯƠNG ĐỐI",
+          "topic": "Bảng tần số tương đối và biểu đồ tần số tương đối",
+          "primarySkillCode": "MATH9-STATISTICS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Hiểu và sử dụng tính chất tổng tần số tương đối bằng 100% để tìm tần số tương đối còn thiếu.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": "REMEMBERING",
+          "classificationOrigin": "SOURCE_SPECIFICATION",
+          "rationale": "Tổng tần số tương đối bằng 100%, nên x=100-5-15-55=25. Chọn D.",
+          "evidence": {
+            "sourceId": "SRC027",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/09_HK2_Chu_Van_An_Gia_Lai_2025_2026.pdf",
+            "questionPages": [
+              18
+            ],
+            "answerPages": [
+              20
+            ],
+            "referenceSection": "Phần I - Câu 7"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Một phép trừ cơ bản 100 - 75 = 25.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Bảng tần số tương đối sau cho biết kết quả tập luyện của một vận động viên bắn súng:\n\n| Điểm | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|\n| Tần số tương đối | $5\\%$ | $15\\%$ | $55\\%$ | $x\\%$ |\n\nGiá trị của $x$ là",
+          "answer": {
+            "correctOption": "D"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT11-REPL01_p018_902_I_Q7.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "correctOption": "D"
+          },
+          "changesReviewed": true
+        }
+      },
+      "options": [
+        {
+          "optionKey": "A",
+          "content": "22",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "B",
+          "content": "23",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "C",
+          "content": "24",
+          "isCorrect": false
+        },
+        {
+          "optionKey": "D",
+          "content": "25",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT17-01",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho phương trình $x^2-4x+2=0$ có hai nghiệm $x_1,x_2$ với $x_1>x_2$. Khi đó $A=\\sqrt{2x_1^4+24x_1+10}-7x_1$ có dạng $a\\sqrt b+c$ với b là số nguyên tố; a,c là các số nguyên. Hãy tính $a^2-2bc$.",
+      "difficulty": "VERY_HARD",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "explanation": "$x_1=2+\\sqrt2$. Khi đó $2x_1^4+24x_1+10=194+120\\sqrt2=(12+5\\sqrt2)^2$. Do đó $A=-2-2\\sqrt2$, suy ra a=-2, b=2, c=-2 và $a^2-2bc=12$.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/PDF/19_KS_Cum_18_Hai_Phong_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "901 / III / 4",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT17-01",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "HÀM SỐ VÀ PHƯƠNG TRÌNH BẬC HAI",
+          "topic": "Định lý Viète và ứng dụng",
+          "primarySkillCode": "SKILL-06",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Vận dụng kỹ thuật hạ bậc và định lý Viète để tính giá trị biểu thức nghiệm.",
+          "cognitiveLevel": "ADVANCED_APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "$x_1=2+\\sqrt2$. Khi đó $2x_1^4+24x_1+10=194+120\\sqrt2=(12+5\\sqrt2)^2$. Do đó $A=-2-2\\sqrt2$, suy ra a=-2, b=2, c=-2 và $a^2-2bc=12$.",
+          "evidence": {
+            "sourceId": "SRC019",
+            "relativePath": "05_Bo_sung_theo_ma_tran/PDF/19_KS_Cum_18_Hai_Phong_2025_2026.pdf",
+            "questionPages": [
+              4
+            ],
+            "answerPages": [
+              9
+            ],
+            "referenceSection": "Phần III - Câu 4"
+          },
+          "difficulty": "VERY_HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Kỹ thuật hạ bậc nghiệm phương trình bậc hai.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho phương trình $x^2 - 4x + 2 = 0$ có hai nghiệm $x_1, x_2$ với $x_1 > x_2$. Khi đó giá trị của biểu thức $A = x_1^3 - 4x_1^2 + 6x_1 + 2x_2$ bằng bao nhiêu?",
+          "answer": {
+            "value": "24",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT17-01_p004_901_III_Q4.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "24",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "12"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT17-02",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho phương trình $x^2-3x+1=0$ có hai nghiệm $x_1,x_2$ ($x_1>x_2$). Tính $P=\\sqrt{2x_1^2+x_1+5}-x_2$ ta được $P=a\\sqrt5+b$ ($a,b\\in\\mathbb Z$). Tính $a-2b$.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "Ta có $x_1=(3+\\sqrt5)/2$ và $\\sqrt{2x_1^2+x_1+5}=(7+\\sqrt5)/2$. Suy ra $P=2+\\sqrt5$, a=1,b=2 nên a-2b=-3.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/10_On_thi_vao_10_Cum_2_Hai_Phong_2026_2027.pdf",
+        "page": 3,
+        "questionNumber": "401 / III / 17",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT17-02",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "HÀM SỐ VÀ PHƯƠNG TRÌNH BẬC HAI",
+          "topic": "Định lý Viète và ứng dụng",
+          "primarySkillCode": "SKILL-06",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Vận dụng hệ thức Viète và biến đổi đại số để tính giá trị biểu thức nghiệm.",
+          "cognitiveLevel": "APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Ta có $x_1=(3+\\sqrt5)/2$ và $\\sqrt{2x_1^2+x_1+5}=(7+\\sqrt5)/2$. Suy ra $P=2+\\sqrt5$, a=1,b=2 nên a-2b=-3.",
+          "evidence": {
+            "sourceId": "SRC010",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/10_On_thi_vao_10_Cum_2_Hai_Phong_2026_2027.pdf",
+            "questionPages": [
+              3
+            ],
+            "answerPages": [
+              9
+            ],
+            "referenceSection": "Phần III - Câu 17"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Tính toán nghiệm Viète.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho phương trình $x^2 - 3x + 1 = 0$ có hai nghiệm $(x_1 > x_2)$. Tính $P = x_1^2 + 2x_2 - 3x_1$.",
+          "answer": {
+            "value": "-3",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT17-02_p003_401_III_Q17.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "-3",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "-3"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT17-03",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER",
+      "content": "cho phương trình $x^2 - 3x - 7 = 0$ có nghiệm $x_1, x_2, x_1 > x_2$. Biết $\\sqrt{x_1^3 + 8x_1 + 16} + 4x_2$ có dạng $a + b\\sqrt{c}$. Tính $T = a + b + c$.",
+      "difficulty": "VERY_HARD",
+      "cognitiveLevel": "ADVANCED_APPLYING",
+      "explanation": "Từ $x_1^2=3x_1+7$ suy ra $x_1^3=16x_1+21$. Biểu thức dưới căn bằng $24x_1+37=73+12\\sqrt{37}=(6+\\sqrt{37})^2$. Cộng $4x_2$ được $12-\\sqrt{37}$, do đó a=-1,b=37,c=12 và T=48.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "101 / III / 5",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT17-03",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "HÀM SỐ VÀ PHƯƠNG TRÌNH BẬC HAI",
+          "topic": "Định lý Viète và ứng dụng",
+          "primarySkillCode": "SKILL-06",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Biến đổi đa thức bậc cao của nghiệm và tính giá trị biểu thức qua Viète.",
+          "cognitiveLevel": "ADVANCED_APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Từ $x_1^2=3x_1+7$ suy ra $x_1^3=16x_1+21$. Biểu thức dưới căn bằng $24x_1+37=73+12\\sqrt{37}=(6+\\sqrt{37})^2$. Cộng $4x_2$ được $12-\\sqrt{37}$, do đó a=-1,b=37,c=12 và T=48.",
+          "evidence": {
+            "sourceId": "SRC012",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/12_KS_Cum_4_Hai_Phong_2025_2026.pdf",
+            "questionPages": [
+              3
+            ],
+            "answerPages": [
+              34
+            ],
+            "referenceSection": "Phần III - Câu 5"
+          },
+          "difficulty": "VERY_HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Biến đổi căn bậc ba phức hợp.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "cho phương trình $x^2 - 3x - 7 = 0$ có nghiệm $x_1, x_2, x_1 > x_2$. Biết $\\sqrt{x_1^3 + 8x_1 + 16} + 4x_2$ có dạng $a + b\\sqrt{c}$. Tính $T = a + b + c$.",
+          "answer": {
+            "value": "48",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT17-03_p003_101_III_Q5.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "48",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "48"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT17-REPL01",
+      "skillCode": "SKILL-06",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho phương trình $x^2 - 7x + 5 = 0$ có hai nghiệm $x_1, x_2$. Tính giá trị của biểu thức $A = x_1^2 + x_2^2$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Theo Viète S=7,P=5 nên tổng bình phương hai nghiệm là S²-2P=49-10=39. Không gắn mức vận dụng cho thao tác công thức trực tiếp.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/09_HK2_Chu_Van_An_Gia_Lai_2025_2026.pdf",
+        "page": 18,
+        "questionNumber": "902 / III / 15",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT17-REPL01",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "HÀM SỐ y = ax^2 (a != 0). PHƯƠNG TRÌNH BẬC HAI MỘT ẨN",
+          "topic": "Phương trình bậc hai một ẩn và định lí Viète",
+          "primarySkillCode": "SKILL-06",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Ứng dụng định lí Viète để tính giá trị biểu thức đối xứng giữa các nghiệm.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": "APPLYING",
+          "classificationOrigin": "SOURCE_SPECIFICATION",
+          "rationale": "Theo Viète S=7,P=5 nên tổng bình phương hai nghiệm là S²-2P=49-10=39. Không gắn mức vận dụng cho thao tác công thức trực tiếp.",
+          "evidence": {
+            "sourceId": "SRC027",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/09_HK2_Chu_Van_An_Gia_Lai_2025_2026.pdf",
+            "questionPages": [
+              18
+            ],
+            "answerPages": [
+              20
+            ],
+            "referenceSection": "Phần III - Câu 15"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Biến đổi biểu thức đối xứng x1^2+x2^2 = (x1+x2)^2 - 2x1x2.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho phương trình $x^2 - 7x + 5 = 0$ có hai nghiệm $x_1, x_2$. Tính giá trị của biểu thức $A = x_1^2 + x_2^2$.",
+          "answer": {
+            "value": "39"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT17-REPL01_p018_902_III_Q15.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "39"
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "39"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT20-03",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER",
+      "content": "Một lọ thuốc hình trụ có chiều cao 15 cm và bán kính đáy bằng 8 cm. Nhà sản xuất phủ kín mặt xung quanh của lọ thuốc bằng giấy in các thông tin về loại thuốc ấy. Hãy tính diện tích phần giấy cần dùng cho lọ thuốc đó, biết độ dày của giấy in vỏ lọ thuốc không đáng kể (lấy $\\pi=3{,}14$ và kết quả làm tròn đến hàng đơn vị của centimét vuông).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Giấy chỉ phủ mặt xung quanh. Diện tích $2\\pi rh=2\\cdot3{,}14\\cdot8\\cdot15=753{,}6$, làm tròn được 754 cm².",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/Chuyen_de/08_Hinh_khoi_thuc_tien_KNTT.pdf",
+        "page": 32,
+        "questionNumber": "CHUYEN_DE / III / 92",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT20-03",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "HÌNH KHỐI TRONG THỰC TIỄN",
+          "topic": "Hình trụ",
+          "primarySkillCode": "MATH9-SOLIDS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Vận dụng công thức diện tích toàn phần hình trụ trong tình huống sản xuất thực tế.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Giấy chỉ phủ mặt xung quanh. Diện tích $2\\pi rh=2\\cdot3{,}14\\cdot8\\cdot15=753{,}6$, làm tròn được 754 cm².",
+          "evidence": {
+            "sourceId": "SRC008_KNTT",
+            "relativePath": "03_Bo_sung_Antigravity/Chuyen_de/08_Hinh_khoi_thuc_tien_KNTT.pdf",
+            "questionPages": [
+              32
+            ],
+            "answerPages": [
+              117
+            ],
+            "referenceSection": "Phần III - Câu 92"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Tính diện tích toàn phần hình trụ thực tế.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Một lọ thuốc hình trụ có chiều cao 15cm và bán kính đáy bằng 8cm . Nhà sản xuất phủ kín mặt ngoài của lọ (cả hai đáy và xung quanh). Tính diện tích cần phủ (lấy $\\pi \\approx 3{,}14$ và làm tròn đến hàng đơn vị).",
+          "answer": {
+            "value": "1156",
+            "tolerance": 1.0
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT20-03_p032_CHUYEN_DE_III_Q92.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "1156",
+            "tolerance": 1.0
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "754"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT20-04",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER",
+      "content": "Một bể nước hình trụ có chiều cao 2,5 m và diện tích đáy là 4,8 m2. Một vòi nước được đặt phía trên miệng bể và chảy được 4.800 lít nước mỗi giờ. Hỏi vòi nước chảy sau bao nhiêu giờ thì đầy bể (Biết ban đầu bể cạn nước, bỏ qua bề dày của thành bể và 1 m3 = 1000 lít)",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "Thể tích bể là 2,5×4,8=12 m³=12000 lít. Thời gian chảy đầy là 12000/4800=2,5 giờ.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/Chuyen_de/08_Hinh_khoi_thuc_tien_KNTT.pdf",
+        "page": 32,
+        "questionNumber": "CHUYEN_DE / III / 94",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT20-04",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "HÌNH KHỐI TRONG THỰC TIỄN",
+          "topic": "Hình trụ",
+          "primarySkillCode": "MATH9-SOLIDS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Tính thể tích hình trụ và giải quyết bài toán thời gian lưu lượng thực tế.",
+          "cognitiveLevel": "APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Thể tích bể là 2,5×4,8=12 m³=12000 lít. Thời gian chảy đầy là 12000/4800=2,5 giờ.",
+          "evidence": {
+            "sourceId": "SRC008_KNTT",
+            "relativePath": "03_Bo_sung_Antigravity/Chuyen_de/08_Hinh_khoi_thuc_tien_KNTT.pdf",
+            "questionPages": [
+              32
+            ],
+            "answerPages": [
+              118
+            ],
+            "referenceSection": "Phần III - Câu 94"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Bài toán thực tế thể tích và lưu lượng.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Một bể nước hình trụ có chiều cao 2,5 m và diện tích đáy là 4,8 m2. Một vòi nước được đặt phía trên miệng bể và chảy được 4.800 lít nước mỗi giờ. Hỏi vòi nước chảy sau bao nhiêu giờ thì đầy bể (Biết ban đầu bể cạn nước, bỏ qua bề dày của thành bể và 1 m3 = 1000 lít)",
+          "answer": {
+            "value": "2.5",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT20-04_p032_CHUYEN_DE_III_Q94.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "2.5",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "2.5"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT20-REPL01",
+      "skillCode": "MATH9-SOLIDS",
+      "questionType": "SHORT_ANSWER",
+      "content": "Một lon nước ngọt hình trụ có đường kính đáy là $6{,}4\\text{ cm}$, chiều cao là $12\\text{ cm}$. Hỏi lon nước đó chứa được bao nhiêu ml nước ngọt? (Kết quả làm tròn đến chữ số thập phân thứ hai, lấy $\\pi \\approx 3{,}14$).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Bán kính 3,2 cm. Thể tích 3,14×3,2²×12=385,8432 cm³, bằng 385,8432 ml; làm tròn hai chữ số thập phân: 385,84 ml.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/09_HK2_Chu_Van_An_Gia_Lai_2025_2026.pdf",
+        "page": 19,
+        "questionNumber": "902 / III / 18",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT20-REPL01",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "topic": "Hình trụ. Hình nón. Hình cầu",
+          "primarySkillCode": "MATH9-SOLIDS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Giải quyết bài toán thực tế tính dung tích vật chứa hình trụ.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": "APPLYING",
+          "classificationOrigin": "SOURCE_SPECIFICATION",
+          "rationale": "Bán kính 3,2 cm. Thể tích 3,14×3,2²×12=385,8432 cm³, bằng 385,8432 ml; làm tròn hai chữ số thập phân: 385,84 ml.",
+          "evidence": {
+            "sourceId": "SRC027",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/09_HK2_Chu_Van_An_Gia_Lai_2025_2026.pdf",
+            "questionPages": [
+              19
+            ],
+            "answerPages": [
+              20
+            ],
+            "referenceSection": "Phần III - Câu 18"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Áp dụng công thức V = pi*r^2*h và đổi đơn vị cm^3 sang ml, làm tròn thập phân.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Một lon nước ngọt hình trụ có đường kính đáy là $6{,}4\\text{ cm}$, chiều cao là $12\\text{ cm}$. Hỏi lon nước đó chứa được bao nhiêu ml nước ngọt? (Kết quả làm tròn đến chữ số thập phân thứ hai, lấy $\\pi \\approx 3{,}14$).",
+          "answer": {
+            "value": "385,84"
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT20-REPL01_p019_902_III_Q18.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "385,84"
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "385.84"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT22-01",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho đường tròn $(O; R)$ đi qua ba đỉnh của tam giác $ABC$ có $\\widehat{C} = 45^\\circ$ và $AB = 10\\sqrt{2}\\text{ cm}$. Bán kính đường tròn $(O)$ bằng bao nhiêu centimet?",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "explanation": "Góc nội tiếp 45 độ chắn cung 90 độ, nên dây $AB=R\\sqrt2=10\\sqrt2$. Suy ra R=10 cm.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 21,
+        "questionNumber": "CHUYEN_DE / III / 44",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT22-01",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Đường tròn ngoại tiếp tam giác",
+          "primarySkillCode": "MATH9-TRIANGLE-CIRCLES",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Vận dụng mối liên hệ giữa góc nội tiếp và góc ở tâm để tính bán kính đường tròn.",
+          "cognitiveLevel": "UNDERSTANDING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Góc nội tiếp 45 độ chắn cung 90 độ, nên dây $AB=R\\sqrt2=10\\sqrt2$. Suy ra R=10 cm.",
+          "evidence": {
+            "sourceId": "SRC005",
+            "relativePath": "01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+            "questionPages": [
+              21
+            ],
+            "answerPages": [
+              72
+            ],
+            "referenceSection": "Phần III - Câu 44"
+          },
+          "difficulty": "MEDIUM",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Tính bán kính từ góc 45 độ mức Thông hiểu.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho đường tròn $(O; R)$ đi qua ba đỉnh của tam giác $ABC$ có $\\widehat{C} = 45^\\circ$ và $AB = 10\\sqrt{2}\\text{ cm}$. Bán kính đường tròn $(O)$ bằng bao nhiêu centimet?",
+          "answer": {
+            "value": "10",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT22-01_p021_CHUYEN_DE_III_Q44.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "10",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "10"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT22-02",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho tam giác $ABC$ có $AB = 5\\text{ cm}, AC = 3\\text{ cm}$ đường cao $AH$. Vẽ đường tròn $(O)$ đường kính $AD$ đi qua ba đỉnh của tam giác $ABC$. Khi đó tích $AH \\cdot AD$ bằng bao nhiêu centimet vuông?",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "Gọi AD là đường kính. Hai tam giác AHB và ACD đồng dạng (góc vuông và góc nội tiếp cùng chắn cung AB), suy ra AH/AC=AB/AD nên AH.AD=AB.AC=15 cm².",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 21,
+        "questionNumber": "CHUYEN_DE / III / 45",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT22-02",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Đường tròn ngoại tiếp tam giác",
+          "primarySkillCode": "MATH9-TRIANGLE-CIRCLES",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Vận dụng tam giác đồng dạng để chứng minh hệ thức $AB \\cdot AC = AH \\cdot 2R$.",
+          "cognitiveLevel": "APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Gọi AD là đường kính. Hai tam giác AHB và ACD đồng dạng (góc vuông và góc nội tiếp cùng chắn cung AB), suy ra AH/AC=AB/AD nên AH.AD=AB.AC=15 cm².",
+          "evidence": {
+            "sourceId": "SRC005",
+            "relativePath": "01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+            "questionPages": [
+              21
+            ],
+            "answerPages": [
+              73
+            ],
+            "referenceSection": "Phần III - Câu 45"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Bổ đề đồng dạng quen thuộc.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho tam giác $ABC$ có $AB = 5\\text{ cm}, AC = 3\\text{ cm}$ đường cao $AH$. Vẽ đường tròn $(O)$ đường kính $AD$ đi qua ba đỉnh của tam giác $ABC$. Khi đó tích $AH \\cdot AD$ bằng bao nhiêu centimet vuông?",
+          "answer": {
+            "value": "15",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT22-02_p021_CHUYEN_DE_III_Q45.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "15",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "15"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT22-03",
+      "skillCode": "MATH9-TRIANGLE-CIRCLES",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho đường tròn $(O; R)$ đi qua ba đỉnh của tam giác $ABC$. Kẻ đường cao $AH$ của tam giác $ABC$ ($H \\in BC$). Biết $R = 5\\text{ cm}$ và $AH = 8\\text{ cm}$, khi đó $AB \\cdot AC$ bằng bao nhiêu centimét vuông?",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "Theo hệ thức AB.AC=2R.AH, tích cần tìm bằng 2×5×8=80 cm².",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+        "page": 21,
+        "questionNumber": "CHUYEN_DE / III / 46",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT22-03",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Đường tròn ngoại tiếp tam giác",
+          "primarySkillCode": "MATH9-TRIANGLE-CIRCLES",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Áp dụng hệ thức $AB \\cdot AC = 2R \\cdot AH$ để tính tích hai cạnh tam giác.",
+          "cognitiveLevel": "APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Theo hệ thức AB.AC=2R.AH, tích cần tìm bằng 2×5×8=80 cm².",
+          "evidence": {
+            "sourceId": "SRC005",
+            "relativePath": "01_Chuyen_de/05_Ngoai_tiep_noi_tiep.pdf",
+            "questionPages": [
+              21
+            ],
+            "answerPages": [
+              73
+            ],
+            "referenceSection": "Phần III - Câu 46"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Thế số bổ đề quen thuộc.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho đường tròn $(O; R)$ đi qua ba đỉnh của tam giác $ABC$. Kẻ đường cao $AH$ của tam giác $ABC$ ($H \\in BC$). Biết $R = 5\\text{ cm}$ và $AH = 8\\text{ cm}$, khi đó $AB \\cdot AC$ bằng bao nhiêu centimét vuông?",
+          "answer": {
+            "value": "80",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT22-03_p021_CHUYEN_DE_III_Q46.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "80",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "80"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT22-05",
+      "skillCode": "SKILL-08",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho hai đường tròn đồng tâm O, có bán kính lần lượt là R = 4 và r = 2. Dây MN của đường tròn lớn cắt đường tròn nhỏ tại hai điểm A và B (A nằm giữa M và B, MN không đi qua tâm). Gọi BC là đường kính của đường tròn nhỏ. Tính giá trị biểu thức: $AC^2 + AM^2 + AN^2$.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "Đặt khoảng cách từ O đến dây MN là h, H là chân đường vuông góc. Khi đó AC²=4h²; HM²=16-h², HA²=4-h² và AM²+AN²=2(HM²+HA²)=40-4h². Tổng bằng 40.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung/01_HK2_Hung_Yen_2025_2026.pdf",
+        "page": 3,
+        "questionNumber": "9201 / III / 3",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT22-05",
+        "classification": {
+          "knowledgeStrand": "Hình học và Đo lường",
+          "chapter": "ĐƯỜNG TRÒN",
+          "topic": "Đường kính và dây cung của đường tròn",
+          "primarySkillCode": "SKILL-08",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Vận dụng tính chất đối xứng của hai đường tròn đồng tâm và định lý Pythagoras để tính tổng bình phương đoạn thẳng.",
+          "cognitiveLevel": "APPLYING",
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Đặt khoảng cách từ O đến dây MN là h, H là chân đường vuông góc. Khi đó AC²=4h²; HM²=16-h², HA²=4-h² và AM²+AN²=2(HM²+HA²)=40-4h². Tổng bằng 40.",
+          "evidence": {
+            "sourceId": "SRC003_HY",
+            "relativePath": "03_Bo_sung/01_HK2_Hung_Yen_2025_2026.pdf",
+            "questionPages": [
+              3
+            ],
+            "answerPages": [
+              6
+            ],
+            "referenceSection": "Phần III - Câu 3"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Đường tròn đồng tâm và định lý Pythagoras.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho hai đường tròn đồng tâm O, có bán kính lần lượt là R = 4 và r = 2. Dây MN của đường tròn lớn cắt đường tròn nhỏ tại hai điểm A và B (A nằm giữa M và B, MN không đi qua tâm). Gọi BC là đường kính của đường tròn nhỏ. Tính giá trị biểu thức: $AC^2 + AM^2 + AN^2$.",
+          "answer": {
+            "value": "40",
+            "tolerance": 0.01
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT22-05_p003_9201_III_Q3.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "value": "40",
+            "tolerance": 0.01
+          },
+          "changesReviewed": true
+        }
+      },
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "40"
+        ],
+        "tolerance": 0
+      }
+    },
+    {
+      "externalId": "CAND-SLOT13-01",
+      "skillCode": "SKILL-04",
+      "questionType": "TRUE_FALSE",
+      "content": "Theo kế hoạch hai tổ sản xuất 600 sản phẩm trong một thời gian nhất định. Do áp dụng kĩ thuật mới nên tổ I đã vượt mức $18\\%$ và tổ II đã vượt mức $21\\%$. Vì vậy trong thời gian quy định họ đã hoàn thành vượt mức 120 sản phẩm. Gọi $x, y$ lần lượt là số sản phẩm của tổ I và tổ II theo kế hoạch ($x, y \\in \\mathbb{N}^*$, $x, y < 600$).",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "a đúng vì tổng kế hoạch là 600. b sai: phần tăng thêm phải là 0,18x và 0,21(600-x). c đúng theo tổng tăng 120. Giải phương trình được x=200, tổ II=400; d đúng.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/De_tong_hop/10_On_thi_vao_10_Cum_2_Hai_Phong_2026_2027.pdf",
+        "page": 2,
+        "questionNumber": "401 / II / 14",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT13-01",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "topic": "Giải bài toán bằng cách lập hệ phương trình bậc nhất hai ẩn",
+          "primarySkillCode": "SKILL-04",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Mô hình hóa và giải quyết bài toán thực tế sản xuất bằng hệ phương trình.",
+          "cognitiveLevel": "APPLYING",
+          "statementLevelDistribution": {
+            "UNDERSTANDING": 2,
+            "APPLYING": 2
+          },
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "a đúng vì tổng kế hoạch là 600. b sai: phần tăng thêm phải là 0,18x và 0,21(600-x). c đúng theo tổng tăng 120. Giải phương trình được x=200, tổ II=400; d đúng.",
+          "evidence": {
+            "sourceId": "SRC010",
+            "relativePath": "03_Bo_sung_Antigravity/De_tong_hop/10_On_thi_vao_10_Cum_2_Hai_Phong_2026_2027.pdf",
+            "questionPages": [
+              2
+            ],
+            "answerPages": [
+              9
+            ],
+            "referenceSection": "Phần II - Câu 14"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Bài toán thực tế hệ phương trình.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Theo kế hoạch hai tổ sản xuất 600 sản phẩm trong một thời gian nhất định. Do áp dụng kĩ thuật mới nên tổ I đã vượt mức $18\\%$ và tổ II đã vượt mức $21\\%$. Vì vậy trong thời gian quy định họ đã hoàn thành vượt mức 120 sản phẩm. Gọi $x, y$ lần lượt là số sản phẩm của tổ I và tổ II theo kế hoạch ($x, y \\in \\mathbb{N}^*$, $x, y < 600$).",
+          "answer": {
+            "a": true,
+            "b": true,
+            "c": false,
+            "d": true
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT13-01_p002_p003_401_II_Q14.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "a": true,
+            "b": true,
+            "c": false,
+            "d": true
+          },
+          "changesReviewed": true
+        }
+      },
+      "statements": [
+        {
+          "key": "a",
+          "content": "Số sản phẩm của tổ II theo kế hoạch là $600-x$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Số sản phẩm tăng thêm của tổ I là $\\frac{118}{100}x$, số sản phẩm tăng thêm của tổ II là $\\frac{121}{100}(600-x)$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "Theo đề bài ta có phương trình $\\frac{18}{100}x+\\frac{21}{100}(600-x)=120$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Theo kế hoạch số sản phẩm được giao của tổ II nhiều hơn tổ I là 200 sản phẩm.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "externalId": "CAND-SLOT13-05",
+      "skillCode": "MATH9-LINEAR-EQUATIONS",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho phương trình sau: $(1 - 3x)^2 + 9x^2 - 1 = 0$ (1)",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "explanation": "Phương trình tương đương $18x^2-6x=6x(3x-1)=0$, nghiệm 0 và 1/3. a đúng, b sai, c đúng, d đúng.",
+      "status": "PUBLISHED",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/03_Bo_sung_Antigravity/Chuyen_de/14_Phuong_trinh_he_bac_nhat_Canh_Dieu.pdf",
+        "page": 25,
+        "questionNumber": "CHUYEN_DE / II / 81",
+        "reviewStatus": "VERIFIED",
+        "externalId": "CAND-SLOT13-05",
+        "classification": {
+          "knowledgeStrand": "Đại số và một số yếu tố giải tích",
+          "chapter": "PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH",
+          "topic": "Phương trình quy về phương trình bậc nhất một ẩn",
+          "primarySkillCode": "MATH9-LINEAR-EQUATIONS",
+          "secondarySkillCodes": [],
+          "learningOutcome": "Biến đổi phương trình đại số về dạng tích để giải và đánh giá nghiệm.",
+          "cognitiveLevel": "APPLYING",
+          "statementLevelDistribution": {
+            "REMEMBERING": 1,
+            "UNDERSTANDING": 2,
+            "APPLYING": 1
+          },
+          "sourceLevel": null,
+          "classificationOrigin": "MODEL_PROPOSED",
+          "rationale": "Phương trình tương đương $18x^2-6x=6x(3x-1)=0$, nghiệm 0 và 1/3. a đúng, b sai, c đúng, d đúng.",
+          "evidence": {
+            "sourceId": "SRC014",
+            "relativePath": "03_Bo_sung_Antigravity/Chuyen_de/14_Phuong_trinh_he_bac_nhat_Canh_Dieu.pdf",
+            "questionPages": [
+              25
+            ],
+            "answerPages": [
+              145
+            ],
+            "referenceSection": "Phần II - Câu 81"
+          },
+          "difficulty": "HARD",
+          "difficultyStatus": "PROVISIONAL",
+          "difficultyRationale": "Biến đổi phương trình tích.",
+          "calibrationStatus": "UNCALIBRATED",
+          "labelReviewStatus": "AI_REVIEWED",
+          "status": "REVIEWED",
+          "reviewerType": "AI_ASSISTANT",
+          "humanApproved": false
+        },
+        "originalExtraction": {
+          "stem": "Cho phương trình sau: $(1 - 3x)^2 + 9x^2 - 1 = 0$ (1)",
+          "answer": {
+            "a": true,
+            "b": false,
+            "c": true,
+            "d": true
+          }
+        },
+        "review": {
+          "date": "2026-10-19",
+          "kind": "AI_SOURCE_AND_MATH_REVIEW",
+          "humanApproved": false,
+          "proof": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/05_Bo_sung_theo_ma_tran/revision-03/proofs/CAND-SLOT13-05_p025_CHUYEN_DE_II_Q81.png",
+          "explanationOrigin": "MODEL_GENERATED",
+          "sourceAnswerPreserved": {
+            "a": true,
+            "b": false,
+            "c": true,
+            "d": true
+          },
+          "changesReviewed": true
+        }
+      },
+      "statements": [
+        {
+          "key": "a",
+          "content": "Phương trình (1) xác định mọi $x\\in\\mathbb R$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Phương trình (1) biến đổi thành tích như sau: $9x(1+3x)=0$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "Tích các nghiệm của phương trình (1) bằng 0.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Các nghiệm của phương trình (1) là nghiệm của phương trình $3x^2-x=0$.",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

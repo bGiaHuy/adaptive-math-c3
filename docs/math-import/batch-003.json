@@ -1,0 +1,34 @@
+{
+  "batchId": "hung-yen-9101-batch-003",
+  "questions": [
+    {
+      "externalId": "hung-yen-2025-2026-9101-SHORT_ANSWER-6",
+      "questionType": "SHORT_ANSWER",
+      "content": "Lớp 9A có 40 học sinh, mỗi em ủng hộ đồng bào miền Trung ở mức 20 nghìn đồng hoặc 50 nghìn đồng, tổng 1,7 triệu đồng. Có bao nhiêu học sinh ủng hộ ở mức 50 nghìn đồng?",
+      "skillCode": "SKILL-04",
+      "status": "DRAFT",
+      "source": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 4,
+        "questionNumber": "9101 / SHORT_ANSWER / 6",
+        "url": "https://thcs.toanmath.com/2026/01/de-cuoi-hoc-ky-1-toan-9-nam-2025-2026-so-gddt-hung-yen.html",
+        "author": "Sở GDĐT Hưng Yên",
+        "year": "2025-2026",
+        "reviewStatus": "VERIFIED"
+      },
+      "answerEvidence": {
+        "file": "tai-lieu/Toan-9-ba-dang-trac-nghiem-2026-10-16/02_De_tong_hop/01_HK1_Hung_Yen_2025_2026.pdf",
+        "page": 5,
+        "column": "9101"
+      },
+      "reviewNotes": "Nội dung, công thức và đáp án được đối chiếu trực quan trang PDF. Không bổ sung lời giải chưa có trong nguồn.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "30"
+        ],
+        "tolerance": 1e-09
+      }
+    }
+  ]
+}
