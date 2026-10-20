@@ -42,14 +42,6 @@ export default function Navbar({
           </div>
           <div className="landing-nav-actions">
             <button
-              type="button"
-              className="btn-nav-link"
-              onClick={onOpenLegal}
-              style={{ fontSize: '0.82rem', color: '#64748b' }}
-            >
-              Điều khoản & Bảo mật (Draft)
-            </button>
-            <button
               className="btn-nav-link"
               onClick={() => onNavigate('register', { mode: 'login' })}
             >
