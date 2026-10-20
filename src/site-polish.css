@@ -187,3 +187,10 @@ input,select,textarea{font-size:max(16px,1em)}
 .diagnostic-intro-card .btn-start-diagnostic:hover{background:#076b53;box-shadow:none;transform:none}
 .diagnostic-intro-card .btn-start-diagnostic:active{background:#065a46;box-shadow:none;transform:none}
 .diagnostic-intro-card .btn-start-diagnostic:focus-visible{outline:3px solid #507264;outline-offset:3px}
+
+/* Session recovery never blocks the public introduction. */
+.session-notice{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 16px;padding:8px 24px;background:#eef3ed;color:#263a2e;border-bottom:1px solid #bdcdbd;font-size:14px;line-height:1.5}
+.session-notice button,.session-recovery button{min-height:44px;padding:8px 16px;border:1px solid #526e5b;border-radius:8px;background:#fff;color:#263a2e;cursor:pointer;font:inherit}
+.session-notice button:focus-visible,.session-recovery button:focus-visible{outline:3px solid #507264;outline-offset:3px}
+.session-recovery{max-width:680px;margin:12vh auto;padding:28px;color:#263a2e;line-height:1.6}
+.session-recovery button{margin:8px 12px 0 0}

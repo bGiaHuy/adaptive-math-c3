@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense, lazy } from 'react';
+import React, { useState, useEffect, useRef, Suspense, lazy } from 'react';
 import LandingPage from './components/LandingPage';
 import RegisterPage from './components/RegisterPage';
 import Sidebar from './components/Sidebar';
@@ -42,6 +42,7 @@ export default function App() {
   const [isBootstrapping, setIsBootstrapping] = useState(true);
   const [sessionError,setSessionError]=useState('');
   const [sessionRetry,setSessionRetry]=useState(0);
+  const sessionController = useRef(null);
   const [showSessionModal, setShowSessionModal] = useState(false);
   const [showLegalModal, setShowLegalModal] = useState(false);
   const [showPasswordModal, setShowPasswordModal] = useState(false);
@@ -89,6 +90,7 @@ export default function App() {
   useEffect(() => {
     let isMounted = true;
     const controller = new AbortController();
+    sessionController.current = controller;
 
     const bootstrapSession = async () => {
       setIsBootstrapping(true);
@@ -96,6 +98,7 @@ export default function App() {
       try {
         setIsBootstrapping(true);setSessionError('');
         const data = await authApi.getMe({ signal: controller.signal });
+        if (controller.signal.aborted) return;
         if (!data?.user?.id) throw new Error('Invalid session response');
         if (isMounted && data.user) {
           setCurrentUser(data.user);
@@ -122,7 +125,7 @@ export default function App() {
           }
         }
       } catch (error) {
-        if (isMounted) {
+        if (isMounted && !controller.signal.aborted) {
           if (error.status === 401) {
             setCurrentUser(null);
             setCurrentView('landing');
@@ -131,7 +134,7 @@ export default function App() {
           }
         }
       } finally {
-        if (isMounted) {
+        if (isMounted && sessionController.current === controller) {
           setIsBootstrapping(false);
         }
       }
@@ -159,6 +162,10 @@ export default function App() {
 
   // Handler: Start Register or Login
   const handleStartAuth = (mode = 'signup') => {
+    sessionController.current?.abort();
+    sessionController.current = null;
+    setIsBootstrapping(false);
+    setSessionError('');
     setAuthMode(mode);
     setCurrentView('register');
   };
@@ -269,11 +276,12 @@ export default function App() {
   };
 
   // Bootstrapping Splash with dynamic rotating circular spinner
-  if (isBootstrapping) {
-    return <main className="session-recovery" role="status" aria-live="polite"><h1>Đang kết nối AdaptiveMath…</h1><p>Đang kiểm tra phiên đăng nhập. Nếu máy chủ phản hồi chậm, bạn sẽ có thể thử lại.</p></main>;
+  const publicLanding = currentView === 'landing' && !readRoute(window.location).tab;
+  if (isBootstrapping && !publicLanding) {
+    return <main className="session-recovery"><div role="status" aria-live="polite"><h1>Đang mở phiên học của bạn…</h1><p>Máy chủ có thể cần khoảng một phút để khởi động sau thời gian không sử dụng.</p></div><button type="button" onClick={()=>{sessionController.current?.abort();setSessionRetry(value=>value+1);}}>Thử kết nối lại</button><button type="button" onClick={()=>{sessionController.current?.abort();sessionController.current=null;setIsBootstrapping(false);setSessionError('');leaveUnknownUrl('landing');}}>Xem trang giới thiệu</button></main>;
   }
 
-  if(sessionError){return <main className="session-recovery" role="alert"><h1>Đang khôi phục phiên của bạn</h1><p>{sessionError}</p><button type="button" onClick={()=>setSessionRetry(value=>value+1)}>Thử lại</button></main>;}
+  if(sessionError&&!publicLanding){return <main className="session-recovery" role="alert"><h1>Đang khôi phục phiên của bạn</h1><p>{sessionError}</p><button type="button" onClick={()=>setSessionRetry(value=>value+1)}>Thử lại</button><button type="button" onClick={()=>handleStartAuth('login')}>Đăng nhập lại</button></main>;}
 
   if (unknownUrl) {
     return (
@@ -289,15 +297,16 @@ export default function App() {
   if (currentView === 'landing') {
     return (
       <>
+        {(isBootstrapping || sessionError) && <aside className="session-notice" aria-live="polite"><span>{sessionError || 'Đang kiểm tra phiên đăng nhập. Bạn vẫn có thể xem trang giới thiệu hoặc đăng nhập.'}</span>{sessionError && <button type="button" onClick={()=>setSessionRetry(value=>value+1)}>Thử kết nối lại</button>}</aside>}
         <LandingPage
           onStartRegistration={() => handleStartAuth('signup')}
           onLogin={() => handleStartAuth('login')}
           onOpenLegal={() => setShowLegalModal(true)}
         />
-        <LegalNoticeModal
+        <Suspense fallback={null}><LegalNoticeModal
           isOpen={showLegalModal}
           onClose={() => setShowLegalModal(false)}
-        />
+        /></Suspense>
       </>
     );
   }

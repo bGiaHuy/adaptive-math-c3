@@ -194,8 +194,8 @@ export const apiClient = {
 // ==============================================================================
 
 export const authApi = {
-  getMe: (options) => apiClient.get('/auth/me', { timeoutMs: 15000, maxRetries: 0, ...options }),
-  login: (identifier, password) => apiClient.post('/auth/login', { identifier, password }),
+  getMe: (options) => apiClient.get('/auth/me', { timeoutMs: 75000, maxRetries: 0, ...options }),
+  login: (identifier, password) => apiClient.post('/auth/login', { identifier, password }, { timeoutMs: 75000 }),
   registerStudent: (data) => apiClient.post('/auth/register/student', data),
   registerTeacher: (data) => apiClient.post('/auth/register/teacher', data),
   logout: () => apiClient.post('/auth/logout'),
