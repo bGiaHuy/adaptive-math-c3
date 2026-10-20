@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các câu dưới đây, câu nào là mệnh đề toán học?",
+      "explanation": "Mệnh đề toán học là một khẳng định có tính đúng hoặc sai liên quan đến kiến thức toán học.\n- Câu A và D là câu cảm thán, không phải mệnh đề.\n- Câu C là câu hỏi, không phải mệnh đề.\n- Câu B \"7 là một số nguyên tố\" là một khẳng định toán học có tính đúng sai rõ ràng (là mệnh đề đúng).\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mệnh đề đảo của mệnh đề $A \\Rightarrow B$ là mệnh đề nào?",
+      "explanation": "Theo định nghĩa, mệnh đề đảo của mệnh đề kéo theo $A \\Rightarrow B$ là mệnh đề $B \\Rightarrow A$.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{-1; 2; 3; 5; 7; 9\\}$ và $B = \\{1; 2; 3; 4; 9\\}$. Khi đó giao của hai tập hợp là:",
+      "explanation": "Giao của hai tập hợp $A$ và $B$ là tập hợp gồm các phần tử vừa thuộc $A$ vừa thuộc $B$.\nCác phần tử chung của $A$ và $B$ là $2, 3, 9$.\nVậy $A \\cap B = \\{2; 3; 9\\}$. Do đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn có dạng tổng quát $ax + by > c$ (hoặc $\\ge, <, \\le$) với $a$ và $b$ không đồng thời bằng 0.\n- Phương án A và C chứa $x^2$ (bậc hai).\n- Phương án B chứa ba ẩn $x, y, z$.\n- Phương án D là $2x - y > 1$ có đúng hai ẩn $x, y$ bậc một.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các cặp số sau, cặp nào không là nghiệm của hệ bất phương trình $\\begin{cases} x + y - 2 \\le 0 \\\\ 2x - 3y + 2 > 0 \\end{cases}$?",
+      "explanation": "Thay các cặp số vào hệ bất phương trình:\n- Với $(-1; -1)$: $-1 - 1 - 2 = -4 \\le 0$ (đúng) và $2(-1) - 3(-1) + 2 = 3 > 0$ (đúng).\n- Với $(-1; 1)$: $2(-1) - 3(1) + 2 = -2 - 3 + 2 = -3 > 0$ là mệnh đề SAI! Do đó $(-1; 1)$ không phải là nghiệm của hệ.\n- Với $(1; 1)$: $1 + 1 - 2 = 0 \\le 0$ (đúng) và $2(1) - 3(1) + 2 = 1 > 0$ (đúng).\n- Với $(0; 0)$: $0 + 0 - 2 = -2 \\le 0$ (đúng) và $2(0) - 3(0) + 2 = 2 > 0$ (đúng).\nVậy cặp số không là nghiệm của hệ là $(-1; 1)$. Do đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $0^\\circ < \\alpha < 180^\\circ$. Trong các đẳng thức sau, đẳng thức nào đúng?",
+      "explanation": "Theo tính chất giá trị lượng giác của hai góc bù nhau:\n$$\\sin(180^\\circ - \\alpha) = \\sin\\alpha.$$\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$. Biết $BC = a, AC = b, AB = c$. Đẳng thức nào sau đây đúng?",
+      "explanation": "Theo định lí côsin trong tam giác $ABC$ đối với cạnh $c = AB$:\n$$c^2 = a^2 + b^2 - 2ab\\cos C.$$\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$. Biết $BC = a, AC = b, AB = c$; $R, S$ lần lượt là bán kính đường tròn ngoại tiếp và diện tích tam giác $ABC$. Mệnh đề nào dưới đây sai?",
+      "explanation": "Công thức diện tích tam giác theo bán kính đường tròn ngoại tiếp là $S = \\frac{abc}{4R}$.\nDo đó công thức $S = \\frac{abc}{2R}$ ở phương án A là SAI.\nVậy đáp án cần chọn là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{x \\in \\mathbb{N}^* \\mid x \\le 4\\}$ và $B = \\{x = 2n \\mid n \\in \\mathbb{N}, n \\le 3\\}$.",
+      "explanation": "Liệt kê các phần tử của hai tập hợp:\n- $A = \\{x \\in \\mathbb{N}^* \\mid x \\le 4\\} = \\{1; 2; 3; 4\\}$.\n- $B = \\{x = 2n \\mid n \\in \\mathbb{N}, n \\le 3\\}$: với $n \\in \\{0; 1; 2; 3\\} \\implies B = \\{0; 2; 4; 6\\}$.\nXét từng mệnh đề:\n- a) $B = \\{0; 2; 4; 6\\}$ là ĐÚNG.\n- b) $A \\setminus B = \\{1; 2; 3; 4\\} \\setminus \\{0; 2; 4; 6\\} = \\{1; 3\\}$ là ĐÚNG.\n- c) $A \\cup B = \\{0; 1; 2; 3; 4; 6\\}$. Mệnh đề c ghi thiếu $0$ và $3$ nên là SAI.\n- d) $A \\cap B = \\{1; 2; 3; 4\\} \\cap \\{0; 2; 4; 6\\} = \\{2; 4\\}$ là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-1.png",
+          "sha256": "4efdcc0684a8453089bdc30ae28c1a0381fde7006022bdf351d8c042b8514c95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình:\n$$\\begin{cases} x + y \\le 4 & (1) \\\\ x + 3y \\le 6 & (2) \\\\ x \\ge 0 & (3) \\\\ y \\ge 0 & (4) \\end{cases}$$",
+      "explanation": "Xét từng mệnh đề:\n- a) Thay $M(1; 1)$ vào (1): $1 + 1 = 2 \\le 4$ (đúng). Mệnh đề a ĐÚNG.\n- b) Thay $N(2; 0)$ vào hệ:\n+ $2 + 0 = 2 \\le 4$ (thỏa mãn)\n+ $2 + 3(0) = 2 \\le 6$ (thỏa mãn)\n+ $2 \\ge 0$ và $0 \\ge 0$ (thỏa mãn).\nVậy $N(2; 0)$ thuộc miền nghiệm của hệ. Mệnh đề b khẳng định $N$ không thuộc là SAI.\n- c) Giao điểm của hai đường thẳng $x + y = 4$ và $x + 3y = 6$ là nghiệm của hệ, giải ra được $(3; 1)$.\nMiền nghiệm của hệ là hình tứ giác có bốn đỉnh: $(0; 0), (4; 0), (3; 1), (0; 2)$ kể cả bờ. Mệnh đề c ĐÚNG.\n- d) Tính giá trị của $F(x; y) = 2x + 3y$ tại các đỉnh của miền nghiệm:\n+ $F(0; 0) = 0$.\n+ $F(4; 0) = 2(4) + 3(0) = 8$.\n+ $F(3; 1) = 2(3) + 3(1) = 9$.\n+ $F(0; 2) = 2(0) + 3(2) = 6$.\nVậy giá trị lớn nhất của $F(x; y)$ bằng $9$ (đạt được tại đỉnh $(3; 1)$), không phải bằng $8$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-2.png",
+          "sha256": "359d8452207a50fee31b4052c22b59e69f3012a72a9ecda55e8d0d51d4b34ede"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A \\subset \\mathbb{R}$, biết $A = (-\\infty; 1986) \\cup (2027; +\\infty)$. Phần bù của $A$ trong $\\mathbb{R}$ chứa bao nhiêu số tự nhiên?",
+      "explanation": "Phần bù của tập hợp $A$ trong $\\mathbb{R}$ là:\n$$C_\\mathbb{R}(A) = \\mathbb{R} \\setminus A = [1986; 2027].$$\nCác số tự nhiên thuộc đoạn $[1986; 2027]$ là:\n$$1986, 1987, \\dots, 2027.$$\nSố lượng các số tự nhiên là:\n$$2027 - 1986 + 1 = 42.$$\nVậy phần bù chứa đúng 42 số tự nhiên.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-2.png",
+          "sha256": "359d8452207a50fee31b4052c22b59e69f3012a72a9ecda55e8d0d51d4b34ede"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-022-M0101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-022 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\tan\\alpha = 3$. Tính giá trị của biểu thức $A = \\frac{3\\sin\\alpha + 4\\cos\\alpha}{2\\sin\\alpha - 5\\cos\\alpha}$.",
+      "explanation": "Vì $\\tan\\alpha = 3$ xác định nên $\\cos\\alpha \\ne 0$.\nChia cả tử và mẫu của biểu thức $A$ cho $\\cos\\alpha$:\n$$A = \\frac{3\\frac{\\sin\\alpha}{\\cos\\alpha} + 4}{2\\frac{\\sin\\alpha}{\\cos\\alpha} - 5} = \\frac{3\\tan\\alpha + 4}{2\\tan\\alpha - 5}.$$\nThay $\\tan\\alpha = 3$ vào biểu thức:\n$$A = \\frac{3(3) + 4}{2(3) - 5} = \\frac{9 + 4}{6 - 5} = \\frac{13}{1} = 13.$$\nVậy giá trị của biểu thức $A$ bằng 13.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-022-page-2.png",
+          "sha256": "359d8452207a50fee31b4052c22b59e69f3012a72a9ecda55e8d0d51d4b34ede"
+        }
+      ]
+    }
+  ]
+}

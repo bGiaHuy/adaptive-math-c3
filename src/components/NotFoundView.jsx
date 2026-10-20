@@ -65,7 +65,7 @@ export default function NotFoundView({ onNavigateHome, onNavigateDashboard, isLo
           marginBottom: '28px'
         }}
       >
-        Đường dẫn bạn truy cập có thể đã đổi tên, bị xóa hoặc không tồn tại trong sơ đồ môn học Toán THCS.
+        Đường dẫn bạn truy cập có thể đã đổi tên, bị xóa hoặc không tồn tại trong sơ đồ môn học Toán THPT.
       </p>
 
       <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>

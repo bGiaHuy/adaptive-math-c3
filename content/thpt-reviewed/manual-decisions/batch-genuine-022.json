@@ -1,0 +1,496 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $AC = 5, BC = 3, \\widehat{C} = 120^\\circ$. Độ dài cạnh $AB$ bằng bao nhiêu?",
+      "explanation": "Áp dụng định lí côsin trong tam giác $ABC$:\n$$AB^2 = AC^2 + BC^2 - 2 \\cdot AC \\cdot BC \\cdot \\cos C = 5^2 + 3^2 - 2 \\cdot 5 \\cdot 3 \\cdot \\cos 120^\\circ$$\n$$= 25 + 9 - 30 \\cdot \\left(-\\dfrac{1}{2}\\right) = 34 + 15 = 49.$$\nSuy ra $AB = \\sqrt{49} = 7$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Bảng xét dấu của tam thức bậc hai $f(x) = ax^2 + bx + c$ ($a \\ne 0$) như sau:\n\n| $x$ | $-\\infty$ | | $-\\dfrac{4}{3}$ | | $2$ | | $+\\infty$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| $f(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |\n\nKhẳng định nào sau đây là đúng?",
+      "explanation": "Dựa vào bảng xét dấu của tam thức bậc hai, ta thấy $f(x) < 0$ khi và chỉ khi $x \\in \\left(-\\dfrac{4}{3}; 2\\right)$. Do đó khẳng định ở đáp án D là đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho mệnh đề $P\\colon$ \"$\\forall x \\in \\mathbb{R},\\, x^2 \\le 3$\". Mệnh đề phủ định của mệnh đề $P$ là",
+      "explanation": "Phủ định của lượng từ với mọi $\\forall$ là lượng từ tồn tại $\\exists$, phủ định của bất đẳng thức $x^2 \\le 3$ là $x^2 > 3$.\nVậy mệnh đề phủ định là $\\overline{P}\\colon$ \"$\\exists x \\in \\mathbb{R},\\, x^2 > 3$\".",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây không phải là bất phương trình bậc nhất hai ẩn $x, y$?",
+      "explanation": "Bất phương trình $x - 3y \\ge x^2$ chứa hạng tử bậc hai $x^2$, do đó không phải là bất phương trình bậc nhất hai ẩn.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho hình vuông $ABCD$, tính $\\cos(\\vec{AB}, \\vec{CA})$.",
+      "explanation": "Trong hình vuông $ABCD$, góc giữa đường thẳng $AB$ và đường chéo $AC$ là $45^\\circ$, tức là $(\\vec{AB}, \\vec{AC}) = 45^\\circ$.\nVì $\\vec{CA} = -\\vec{AC}$ nên:\n$$(\\vec{AB}, \\vec{CA}) = 180^\\circ - (\\vec{AB}, \\vec{AC}) = 180^\\circ - 45^\\circ = 135^\\circ.$$\nDo đó $\\cos(\\vec{AB}, \\vec{CA}) = \\cos 135^\\circ = -\\dfrac{\\sqrt{2}}{2}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = x^2 - 2x + 4$ có đồ thị là parabol $(P)$. Mệnh đề nào dưới đây là đúng?",
+      "explanation": "Hàm số bậc hai $y = x^2 - 2x + 4$ có các hệ số $a = 1 > 0, b = -2$.\nHoành độ đỉnh là $x_I = -\\dfrac{b}{2a} = -\\dfrac{-2}{2 \\cdot 1} = 1$.\nVì $a > 0$ nên hàm số nghịch biến trên khoảng $(-\\infty; 1)$ và đồng biến trên khoảng $(1; +\\infty)$.\nVậy mệnh đề D đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác đều $ABC$ có cạnh bằng $a$. Tính tích vô hướng $\\vec{AB} \\cdot \\vec{AC}$.",
+      "explanation": "Tam giác $ABC$ đều cạnh $a$ nên góc $\\widehat{A} = 60^\\circ$.\nTích vô hướng:\n$$\\vec{AB} \\cdot \\vec{AC} = |\\vec{AB}| \\cdot |\\vec{AC}| \\cdot \\cos(\\vec{AB}, \\vec{AC}) = a \\cdot a \\cdot \\cos 60^\\circ = \\dfrac{a^2}{2}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Tìm tập nghiệm của bất phương trình $2x^2 - 5x + 3 \\le 0$.",
+      "explanation": "Tam thức bậc hai $2x^2 - 5x + 3 = 0$ có $a = 2 > 0$ và hai nghiệm phân biệt là $x_1 = 1, x_2 = \\dfrac{3}{2}$.\nĐể $2x^2 - 5x + 3 \\le 0$ thì $x$ thuộc đoạn giữa hai nghiệm: $S = \\left[1; \\dfrac{3}{2}\\right]$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Hàm số nào dưới đây có bảng xét dấu như hình sau?\n\n| $x$ | $-\\infty$ | | $-1$ | | $2$ | | $+\\infty$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| $f(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |",
+      "explanation": "Từ bảng xét dấu, $f(x) = 0$ tại hai nghiệm $x = -1$ và $x = 2$. Hệ số $a > 0$ vì $f(x) > 0$ ở hai khoảng ngoài cùng $(-\\infty; -1)$ và $(2; +\\infty)$.\nTam thức bậc hai có dạng $f(x) = a(x + 1)(x - 2) = a(x^2 - x - 2)$.\nVới $a = 1 > 0$, ta được hàm số $f(x) = x^2 - x - 2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-1.png",
+          "sha256": "a996981999eb50815d683697e011667e04e982dc2624ba5acd0348271f6f18f2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\sqrt{x^2 + x - 1} = \\sqrt{3x^2 - 2x}$ thuộc tập nào sau đây?",
+      "explanation": "Bình phương hai vế phương trình:\n$$x^2 + x - 1 = 3x^2 - 2x \\Leftrightarrow 2x^2 - 3x + 1 = 0 \\Leftrightarrow x = 1 \\quad\\text{hay}\\quad x = \\dfrac{1}{2}.$$\nThử lại vào phương trình ban đầu:\n- Với $x = 1$: vế trái $\\sqrt{1^2 + 1 - 1} = 1$, vế phải $\\sqrt{3(1)^2 - 2(1)} = 1$ (thỏa mãn).\n- Với $x = \\dfrac{1}{2}$: $x^2 + x - 1 = \\dfrac{1}{4} + \\dfrac{1}{2} - 1 = -\\dfrac{1}{4} < 0$ (loại).\nVậy phương trình có nghiệm duy nhất $x = 1$.\nGiá trị $x = 1$ thuộc khoảng $\\left(\\dfrac{1}{2}; 3\\right)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho hình bình hành $ABCD$. Mệnh đề nào sau đây sai?",
+      "explanation": "Theo quy tắc hình bình hành, tổng hai vectơ chung gốc tạo thành hai cạnh kề bằng vectơ đường chéo xuất phát từ đỉnh đó: $\\vec{AB} + \\vec{AD} = \\vec{AC}$. Do đó mệnh đề $\\vec{AB} + \\vec{AC} = \\vec{AD}$ là sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho $\\alpha$ là góc tù. Điều khẳng định nào sau đây là đúng?",
+      "explanation": "Với góc tù $\\alpha \\in (90^\\circ; 180^\\circ)$, điểm biểu diễn góc $\\alpha$ trên nửa đường tròn đơn vị có hoành độ âm ($\\cos\\alpha < 0$) và tung độ dương ($\\sin\\alpha > 0$).\nDo đó $\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} < 0$. Khẳng định C đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q013",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\dfrac{x + 1}{x - 1}$ là:",
+      "explanation": "Điều kiện xác định của hàm số phân thức là mẫu số khác 0:\n$$x - 1 \\ne 0 \\Leftrightarrow x \\ne 1.$$\nVậy tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{1\\}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q014",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cặp số $(x; y)$ nào sau đây không là nghiệm của hệ bất phương trình $\\begin{cases} 2x + 3y - 1 < 0 \\\\ 3x - y + 4 \\ge 0 \\end{cases}$?",
+      "explanation": "Thay cặp số $(x; y) = (3; 1)$ vào bất phương trình thứ nhất:\n$$2(3) + 3(1) - 1 = 8 < 0 \\text{ (sai)}.$$\nDo đó cặp số $(3; 1)$ không là nghiệm của hệ bất phương trình.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q015",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau, có bao nhiêu câu là mệnh đề toán học?\na) Hãy đi nhanh lên!\nb) Hà Nội là thủ đô của Việt Nam.\nc) $5 + 7 + 4 = 15$.\nd) $x > 3$.",
+      "explanation": "Xét từng câu:\n- a) \"Hãy đi nhanh lên!\" là câu cầu khiến, không phải mệnh đề.\n- b) \"Hà Nội là thủ đô của Việt Nam\" là mệnh đề xã hội/địa lí, không phải mệnh đề toán học.\n- c) \"$5 + 7 + 4 = 15$\" là một khẳng định về toán học có tính đúng sai xác định (đây là mệnh đề toán học sai).\n- d) \"$x > 3$\" là mệnh đề chứa biến, tính đúng sai phụ thuộc vào giá trị của biến $x$ nên không phải là mệnh đề toán học.\nVậy chỉ có 1 câu là mệnh đề toán học (câu c).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-I-Q016",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho parabol $(P)\\colon y = 3x^2 - 2x + 1$. Điểm nào sau đây là đỉnh của $(P)$?",
+      "explanation": "Tọa độ đỉnh của parabol $(P)\\colon y = 3x^2 - 2x + 1$ là:\n$$x_I = -\\dfrac{b}{2a} = -\\dfrac{-2}{2 \\cdot 3} = \\dfrac{1}{3}.$$\n$$y_I = 3\\left(\\dfrac{1}{3}\\right)^2 - 2\\left(\\dfrac{1}{3}\\right) + 1 = \\dfrac{1}{3} - \\dfrac{2}{3} + 1 = \\dfrac{2}{3}.$$\nVậy đỉnh của parabol là $I\\left(\\dfrac{1}{3}; \\dfrac{2}{3}\\right)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Một chiếc cổng hình parabol, người ta muốn thiết kế một cái cửa hình chữ nhật được tô màu như hình vẽ dưới đây:\n\n![Cổng parabol và cửa chữ nhật](/math-import-assets/thpt-figure-033-p2-part2-q1-gate.png)\n\nBiết cổng cao $4\\text{ m}$, rộng $8\\text{ m}$, cửa rộng bằng một nửa chiều rộng của cổng và cách đều hai chân cổng. Một người đứng dưới cổng cách $B$ một khoảng $1\\text{ m}$ và đo được chiều cao của cổng tại chỗ đó là $h$. Khi đó:",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ có gốc $O$ là trung điểm chân cổng $AB$, trục $Oy$ hướng lên trên trùng với trục đối xứng của parabol.\nKhi đó đỉnh cổng là $(0; 4)$, chân cổng là $A(-4; 0)$ và $B(4; 0)$.\n- a) Parabol có bề lõm quay xuống nên $a < 0$. Do đó khẳng định a SAI.\n- b) Cửa rộng bằng một nửa chiều rộng của cổng: $\\dfrac{8}{2} = 4\\text{ m}$. Khẳng định b ĐÚNG.\n- c) Phương trình parabol $(P)\\colon y = ax^2 + 4$. Đi qua $(4; 0) \\Rightarrow a(4^2) + 4 = 0 \\Leftrightarrow a = -0{,}25$.\nVậy $y = -0{,}25x^2 + 4$.\nNgười đứng cách $B(4; 0)$ khoảng $1\\text{ m}$ ứng với $x = 4 - 1 = 3$.\nChiều cao tại đó là $h = y(3) = -0{,}25(3^2) + 4 = 1{,}75\\text{ m} \\ne 2{,}75\\text{ m}$. Khẳng định c SAI.\n- d) Cửa rộng $4\\text{ m}$ cách đều hai bên nên có hoành độ hai mép là $x = -2$ và $x = 2$.\nChiều cao của cửa là $y(2) = -0{,}25(2^2) + 4 = 3\\text{ m}$.\nDiện tích cửa: $S = 4 \\times 3 = 12\\text{ m}^2$.\nGiá tiền sơn: $12 \\times 160000 = 1920000$ đồng. Khẳng định d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-2.png",
+          "sha256": "1a7585441ddf689c1f789c715afbad6dafdedc3ca7a5e9ee2e793b3ea8d2e4bf"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ vuông tại $A$ có $AB = a, BC = 2a$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Tam giác $ABC$ vuông tại $A$ có $AB = a, BC = 2a$:\n- a) $\\sin\\widehat{ACB} = \\dfrac{AB}{BC} = \\dfrac{a}{2a} = \\dfrac{1}{2} \\Rightarrow \\widehat{ACB} = 30^\\circ$. Khẳng định a SAI.\n- b) $\\widehat{ABC} = 90^\\circ - 30^\\circ = 60^\\circ$. Tích vô hướng $\\vec{BA} \\cdot \\vec{BC} = BA \\cdot BC \\cdot \\cos 60^\\circ = a \\cdot 2a \\cdot \\dfrac{1}{2} = a^2$. Khẳng định b ĐÚNG.\n- c) Ta có $AC = \\sqrt{(2a)^2 - a^2} = a\\sqrt{3}$. Góc giữa $\\vec{BC}$ và $\\vec{CA}$ là góc bù với $\\widehat{C}$: $(\\vec{BC}, \\vec{CA}) = 180^\\circ - 30^\\circ = 150^\\circ$.\nSuy ra $\\vec{BC} \\cdot \\vec{CA} = 2a \\cdot a\\sqrt{3} \\cdot \\cos 150^\\circ = 2\\sqrt{3}a^2 \\cdot \\left(-\\dfrac{\\sqrt{3}}{2}\\right) = -3a^2 \\ne 3a^2$. Khẳng định c SAI.\n- d) $\\vec{AB} \\cdot \\vec{BC} = -\\vec{BA} \\cdot \\vec{BC} = -a^2$.\n$\\vec{BC} \\cdot \\vec{CA} = -3a^2$.\n$\\vec{CA} \\cdot \\vec{AB} = 0$ (vì tam giác vuông tại $A$).\nTổng ba tích vô hướng là $(-a^2) + (-3a^2) + 0 = -4a^2$. Khẳng định d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-3.png",
+          "sha256": "9be02a0c28f4a8e417dca111ce7d717d09d9b8f51682b4f63f343e8e0e094209"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Một công ty du lịch thông báo giá tiền chuyến tham quan của một đoàn khách du lịch như sau: 80 khách đầu tiên có giá là 500000 đồng/người. Nếu có nhiều hơn 80 khách đăng kí thì cứ thêm 1 người, chi phí sẽ giảm 5000 đồng/người cho cả đoàn khách du lịch. Số người của đoàn khách du lịch nhiều nhất là bao nhiêu thì công ty không bị lỗ? Biết rằng chi phí thực sự cho chuyến tham quan là 40480000 đồng.",
+      "explanation": "Gọi $x$ là số người vượt quá 80 người ($x \\in \\mathbb{N}^*$).\nTổng số người của đoàn khách là $80 + x$.\nGiá vé mỗi người phải trả khi đó là $500000 - 5000x$ (đồng).\nTổng doanh thu thu được từ đoàn khách là:\n$$R(x) = (80 + x)(500000 - 5000x) = 5000(80 + x)(100 - x)$$\n(đơn vị: đồng).\nĐể công ty không bị lỗ, doanh thu phải không nhỏ hơn chi phí thực sự:\n$$5000(80 + x)(100 - x) \\ge 40480000$$\n$$\\Leftrightarrow (80 + x)(100 - x) \\ge 8096$$\n$$\\Leftrightarrow 8000 + 20x - x^2 \\ge 8096 \\Leftrightarrow x^2 - 20x + 96 \\le 0$$\n$$\\Leftrightarrow (x - 8)(x - 12) \\le 0 \\Leftrightarrow 8 \\le x \\le 12.$$\nDo đó số người đăng kí thêm nhiều nhất là $x = 12$.\nSố người của đoàn khách nhiều nhất để không bị lỗ là $80 + 12 = 92$ người.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-3.png",
+          "sha256": "9be02a0c28f4a8e417dca111ce7d717d09d9b8f51682b4f63f343e8e0e094209"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có góc $\\widehat{BAC} = 60^\\circ$ và cạnh $BC = \\sqrt{3}$. Tính bán kính của đường tròn ngoại tiếp tam giác $ABC$.",
+      "explanation": "Theo định lí sin trong tam giác $ABC$:\n$$\\dfrac{BC}{\\sin A} = 2R \\Rightarrow R = \\dfrac{BC}{2\\sin A} = \\dfrac{\\sqrt{3}}{2\\sin 60^\\circ} = \\dfrac{\\sqrt{3}}{2 \\cdot \\frac{\\sqrt{3}}{2}} = 1.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-3.png",
+          "sha256": "9be02a0c28f4a8e417dca111ce7d717d09d9b8f51682b4f63f343e8e0e094209"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = -x^2 + 2x + 3$.\na) Lập bảng biến thiên và vẽ đồ thị $(P)$ của hàm số.\nb) Tìm các giá trị của $x$ để $y > 0$ và $y < 0$.",
+      "explanation": "a) Xét hàm số $y = -x^2 + 2x + 3$ có $a = -1, b = 2, c = 3$:\n- Tọa độ đỉnh: $x_I = -\\dfrac{b}{2a} = 1$, $y_I = -(1)^2 + 2(1) + 3 = 4 \\Rightarrow I(1; 4)$.\n- Trục đối xứng: $x = 1$.\n- Vì $a = -1 < 0$ nên parabol có bề lõm quay xuống dưới. Hàm số đồng biến trên khoảng $(-\\infty; 1)$ và nghịch biến trên khoảng $(1; +\\infty)$.\n- Đồ thị cắt trục tung tại $(0; 3)$, cắt trục hoành tại hai điểm $(-1; 0)$ và $(3; 0)$. Điểm đối xứng với $(0; 3)$ qua trục đối xứng là $(2; 3)$.\n\nb) Tìm $x$ để $y > 0$ và $y < 0$:\nTam thức bậc hai $-x^2 + 2x + 3 = 0$ có hai nghiệm là $x = -1$ và $x = 3$. Hệ số $a = -1 < 0$.\nTheo quy tắc xét dấu của tam thức bậc hai:\n- Để $y > 0$ thì $x \\in (-1; 3)$.\n- Để $y < 0$ thì $x \\in (-\\infty; -1) \\cup (3; +\\infty)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-3.png",
+          "sha256": "9be02a0c28f4a8e417dca111ce7d717d09d9b8f51682b4f63f343e8e0e094209"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-033-M1001-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-033.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Đoàn Thượng Hải Phòng",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ với $I, J, K$ lần lượt được xác định bởi $\\vec{IB} = 2\\vec{IC}$; $\\vec{JC} = -\\dfrac{1}{2}\\vec{JA}$; $\\vec{KA} = -\\vec{KB}$. Chứng minh ba điểm $I, J, K$ thẳng hàng.",
+      "explanation": "Ta phân tích các vectơ $\\vec{IJ}$ và $\\vec{IK}$ theo hai vectơ không cùng phương $\\vec{AB}$ và $\\vec{AC}$:\n1) Biểu diễn $\\vec{IJ}$:\nTừ $\\vec{IB} = 2\\vec{IC} \\Leftrightarrow \\vec{IB} = 2(\\vec{IB} + \\vec{BC}) \\Leftrightarrow \\vec{IB} = -2\\vec{BC} \\Leftrightarrow \\vec{IC} = -\\vec{BC}$.\nTừ $\\vec{JC} = -\\dfrac{1}{2}\\vec{JA} \\Leftrightarrow 2\\vec{JC} + \\vec{JA} = \\vec{0} \\Leftrightarrow 2\\vec{JC} + (\\vec{JC} + \\vec{CA}) = \\vec{0} \\Leftrightarrow 3\\vec{JC} = -\\vec{CA} = \\vec{AC} \\Leftrightarrow \\vec{CJ} = -\\dfrac{1}{3}\\vec{AC}$.\nDo đó:\n$$\\vec{IJ} = \\vec{IC} + \\vec{CJ} = -\\vec{BC} - \\dfrac{1}{3}\\vec{AC} = -(\\vec{AC} - \\vec{AB}) - \\dfrac{1}{3}\\vec{AC} = \\vec{AB} - \\dfrac{4}{3}\\vec{AC}.$$\n2) Biểu diễn $\\vec{IK}$:\nVì $\\vec{KA} = -\\vec{KB}$ nên $K$ là trung điểm của đoạn thẳng $AB$, suy ra $\\vec{BK} = -\\dfrac{1}{2}\\vec{AB}$.\nDo đó:\n$$\\vec{IK} = \\vec{IB} + \\vec{BK} = -2\\vec{BC} - \\dfrac{1}{2}\\vec{AB} = -2(\\vec{AC} - \\vec{AB}) - \\dfrac{1}{2}\\vec{AB} = \\dfrac{3}{2}\\vec{AB} - 2\\vec{AC} = \\dfrac{3}{2}\\left(\\vec{AB} - \\dfrac{4}{3}\\vec{AC}\\right).$$\n3) Kết luận:\nTừ hai kết quả trên, ta có:\n$$\\vec{IK} = \\dfrac{3}{2}\\vec{IJ} \\Leftrightarrow \\vec{IJ} = \\dfrac{2}{3}\\vec{IK}.$$\nHai vectơ $\\vec{IJ}$ và $\\vec{IK}$ cùng phương và có chung điểm đầu $I$. Vậy ba điểm $I, J, K$ thẳng hàng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-3.png",
+          "sha256": "9be02a0c28f4a8e417dca111ce7d717d09d9b8f51682b4f63f343e8e0e094209"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-4.png",
+          "sha256": "75da8f0f7e323ae0e9b3a954401982cc2cbd807dd20d8bba607e0edfa215dbae"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-033-page-5.png",
+          "sha256": "b33c78a611f4128e74b7f109ebae4565ad6d5c49e9a888f4ec6a5b0f369ad799"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "batchId": "thpt-ttt101-reviewed-18-v1",
+  "batchSha256": "aaf0d2723feabedfe8bd492a4f8af7def58c008cf770d7be40b3fbcfda51a033",
+  "mode": "DRY_RUN",
+  "ownerId": "1762cc0a-1d6d-46bb-b36c-768ccc75f642",
+  "status": "DRAFT",
+  "peerReviewed": false,
+  "questions": 18,
+  "existing": 0,
+  "toImport": 18,
+  "assignmentDigestBefore": "f8eeb7a90356a63a75fdb1ec90af8b82dab6b46b40638763ba3e75e9abf7502a",
+  "priorQuestionDigest": "9c86ce8413d791749a522c32bfc4090cf59420ffe3c0012b8bdbae1797190b5f"
+}

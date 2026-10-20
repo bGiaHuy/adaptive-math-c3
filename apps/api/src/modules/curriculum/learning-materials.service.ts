@@ -21,6 +21,31 @@ export class LearningMaterialsService {
     catch { throw new ServiceUnavailableException('Chưa tải được các câu trích từ đề gốc.'); }
   }
 
+  bulkReview() {
+    try { const {summary,items}=JSON.parse(fs.readFileSync(path.join(this.root,'content/thpt-materials/bulk-review.json'),'utf8'));return {summary,items}; }
+    catch { throw new ServiceUnavailableException('Chưa tải được các câu đang rà soát.'); }
+  }
+
+  bulkAsset(id: string) {
+    if(!/^[a-f0-9]{64}$/.test(id))throw new NotFoundException();
+    const manifest=JSON.parse(fs.readFileSync(path.join(this.root,'content/thpt-materials/bulk-review.json'),'utf8'));
+    const asset=manifest.assets[id];
+    if(!asset||!/^batch-\d+$/.test(asset.batch)||!/^assets\/[A-Za-z0-9_.-]+\.(png|jpe?g|webp)$/i.test(asset.path))throw new NotFoundException();
+    const file=path.join(this.root,'outputs/thpt-extracted-batches',asset.batch,asset.path);
+    if(!fs.existsSync(file))throw new NotFoundException();return file;
+  }
+
+  questionIndex(id: string) {
+    const paper = this.paper(id);
+    let item: any;
+    try { item = JSON.parse(fs.readFileSync(path.join(this.root, 'content/thpt-materials/source-index.json'), 'utf8')).items.find((row: any) => row.paperId === id); }
+    catch { throw new ServiceUnavailableException('Chưa tải được mục lục câu hỏi.'); }
+    // Exclude collections, uncertain boundaries and missing front text layers.
+    const usable = item?.extractionStatus === 'TEXT_BOUNDARY_DETECTED' && item.markers[0]?.page <= 2;
+    const markers = usable ? item.markers.filter((m: any) => Number.isInteger(m.page) && m.page >= 1 && m.page <= paper.pageCount && Number.isInteger(m.number) && m.number > 0) : [];
+    return { paperId: id, status: markers.length ? 'AUTOMATIC_INDEX' : 'READ_ORIGINAL', examCode: item?.firstExamCode || null, items: markers.map((m: any, index: number) => ({ id: index + 1, number: m.number, page: m.page })), automaticGrading: false };
+  }
+
   questionImage(id: string, segment: number) {
     const question = this.questions().items.find((q: any) => q.id === id);
     if (!question || !Number.isInteger(segment) || segment < 1 || segment > question.images.length) throw new NotFoundException('Không tìm thấy ảnh câu hỏi.');

@@ -1,0 +1,421 @@
+{
+  "batchId": "batch-genuine-078",
+  "reviewedAt": "2026-10-20T13:08:00.000Z",
+  "reviewer": "Antigravity Automated Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Giao tuyến của $(SAB)$ và $(SCD)$ là",
+      "explanation": "Hai mặt phẳng $(SAB)$ và $(SCD)$ có điểm chung $S$ và lần lượt chứa hai đường thẳng song song là $AB$ và $CD$ ($AB \\parallel CD$).\nDo đó, giao tuyến của hai mặt phẳng là đường thẳng đi qua $S$ và song song với $AB$ (và $CD$).\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây là sai?",
+      "explanation": "Công thức cộng đúng đối với sin của một hiệu là:\n$$\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b.$$\nDo đó khẳng định C viết dấu cộng là sai.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $I, J, E, F$ lần lượt là trung điểm của $SA, SB, SC, SD$ (tham khảo hình bên). Trong các mặt phẳng sau, mặt phẳng nào song song với mặt phẳng $(IJEF)$?\n\n![Hình chóp và thiết diện song song](/math-import-assets/THPT-11-CUOI_HK1-147-p1-img1.jpeg)",
+      "explanation": "Trong các tam giác $SAB$ và $SBC$, $IJ$ và $JE$ lần lượt là các đường trung bình nên $IJ \\parallel AB$ và $JE \\parallel BC$.\nVì $IJ \\parallel AB \\subset (ABCD)$ và $JE \\parallel BC \\subset (ABCD)$, với $IJ, JE$ cắt nhau tại $J$, nên mặt phẳng $(IJEF)$ song song với mặt phẳng đáy $(ABCD)$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\tan x - 1 = 0$ là:",
+      "explanation": "Ta có $\\tan x - 1 = 0 \\Leftrightarrow \\tan x = 1 \\Leftrightarrow x = \\frac{\\pi}{4} + k\\pi \\quad (k \\in \\mathbb{Z})$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác $S.ABCD$. Gọi $M, N$ lần lượt là trung điểm của $SA$ và $SC$ (có hình vẽ sau). Mệnh đề nào sau đây đúng?\n\n![Hình chóp MN](/math-import-assets/THPT-11-CUOI_HK1-147-p1-img2.jpeg)",
+      "explanation": "Xét tam giác $SAC$, $M$ là trung điểm của $SA$ và $N$ là trung điểm của $SC$.\nDo đó $MN$ là đường trung bình của tam giác $SAC$, suy ra $MN \\parallel AC$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai hàm số $f(x), g(x)$ thỏa $\\lim_{x \\to 2} f(x) = 7$ và $\\lim_{x \\to 2} g(x) = 8$. Giá trị của $\\lim_{x \\to 2} [2f(x) - g(x)]$ bằng",
+      "explanation": "Áp dụng quy tắc tính giới hạn của hiệu và tích với hằng số:\n$$\\lim_{x \\to 2} [2f(x) - g(x)] = 2 \\lim_{x \\to 2} f(x) - \\lim_{x \\to 2} g(x) = 2(7) - 8 = 14 - 8 = 6.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $y = \\cos x$ là hàm số:",
+      "explanation": "Theo lý thuyết lượng giác, hàm số $y = \\cos x$ là hàm số chẵn (vì $\\cos(-x) = \\cos x$) và tuần hoàn với chu kì $T = 2\\pi$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Công thức nào sau đây là đúng với cấp số cộng có số hạng đầu $u_1$, công sai $d$, $n \\ge 2$?",
+      "explanation": "Số hạng tổng quát của cấp số cộng có số hạng đầu $u_1$ và công sai $d$ là $u_n = u_1 + (n - 1)d$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân có $u_1 = 1, q = 3$. Số hạng thứ 3 của cấp số nhân là",
+      "explanation": "Số hạng thứ 3 của cấp số nhân là:\n$$u_3 = u_1 \\cdot q^2 = 1 \\cdot 3^2 = 9.$$\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p1.png",
+          "sha256": "3656c19e900a368dcae4c1abceb57498df9f6f180c75084ed7d96ab0aa607c8c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $y = \\frac{1}{x^2 + 1}$ liên tục trên tập nào sau đây?",
+      "explanation": "Vì $x^2 + 1 \\ge 1 > 0$ với mọi $x \\in \\mathbb{R}$, nên hàm số phân thức hữu tỉ $y = \\frac{1}{x^2 + 1}$ xác định và liên tục trên toàn bộ tập số thực $\\mathbb{R}$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p2.png",
+          "sha256": "0315a81a357ed82282a24a21e5cc2a7ad33dcb7394d5c755cea755f0ebbb3240"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây sai?",
+      "explanation": "Vì $\\frac{5}{3} > 1$ nên $\\lim_{n \\to +\\infty} \\left(\\frac{5}{3}\\right)^n = +\\infty \\ne 0$.\nDo đó khẳng định C là sai.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p2.png",
+          "sha256": "0315a81a357ed82282a24a21e5cc2a7ad33dcb7394d5c755cea755f0ebbb3240"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khi khảo sát về tiền điện của một số hộ gia đình trong xóm thu được bảng số liệu ghép nhóm. Độ dài của nhóm $[400; 450)$ bằng",
+      "explanation": "Độ dài của nhóm $[a; b)$ được tính bằng hiệu $b - a$.\nVới nhóm $[400; 450)$, độ dài là $450 - 400 = 50$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p2.png",
+          "sha256": "0315a81a357ed82282a24a21e5cc2a7ad33dcb7394d5c755cea755f0ebbb3240"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\frac{-9x + 3}{3x + 2}$ và $g(x) = \\frac{4x - 1}{2x + 3}$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Theo đáp án chính thức của trường (Mã 1101, Câu 13. II1): a) Đúng, b) Sai, c) Sai, d) Đúng (Đ-S-S-Đ).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p2.png",
+          "sha256": "0315a81a357ed82282a24a21e5cc2a7ad33dcb7394d5c755cea755f0ebbb3240"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M, N$ lần lượt là trung điểm các cạnh $AB$ và $CD$, $P$ là trung điểm cạnh $SA$ (tham khảo hình vẽ). Xét tính đúng sai của các khẳng định sau:\n\n![Hình chóp](/math-import-assets/THPT-11-CUOI_HK1-147-p2-img1.jpeg)",
+      "explanation": "Theo đáp án chính thức của trường (Mã 1101, Câu 14. II2): a) Đúng, b) Đúng, c) Đúng, d) Sai (Đ-Đ-Đ-S).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p2.png",
+          "sha256": "0315a81a357ed82282a24a21e5cc2a7ad33dcb7394d5c755cea755f0ebbb3240"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\sin x$ và $g(x) = \\cos 2x$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Theo đáp án chính thức của trường (Mã 1101, Câu 15. II3): a) Sai, b) Đúng, c) Sai, d) Sai (S-Đ-S-S).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p2.png",
+          "sha256": "0315a81a357ed82282a24a21e5cc2a7ad33dcb7394d5c755cea755f0ebbb3240"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty sản xuất giày ước tính chi phí và doanh thu... (tham khảo đề thi). Tính giá trị theo yêu cầu.",
+      "explanation": "Theo đáp án chấm máy chính thức của trường THPT Ngô Gia Tự (Mã đề 1101, Câu 16. III1):\nKết quả là 2630.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p2.png",
+          "sha256": "0315a81a357ed82282a24a21e5cc2a7ad33dcb7394d5c755cea755f0ebbb3240"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Để chuẩn bị cho cuộc thi ĐakLak Marathon, Bình bắt đầu luyện tập chạy bộ. Bạn thực hiện chương trình tập luyện bằng việc chạy 3 km vào ngày đầu tiên và sau mỗi ngày, bạn chạy tăng thêm 200 m so với ngày trước đó. Tính tổng quãng đường (km) mà Bình chạy được sau 30 ngày.",
+      "explanation": "Quãng đường chạy mỗi ngày của Bình lập thành một cấp số cộng với số hạng đầu $u_1 = 3\\text{ km}$ và công sai $d = 200\\text{ m} = 0{,}2\\text{ km}$.\nTổng quãng đường Bình chạy được sau $n = 30$ ngày là:\n$$S_{30} = \\frac{30}{2} [2u_1 + (30 - 1)d] = 15 [2(3) + 29(0{,}2)] = 15 [6 + 5{,}8] = 15 \\cdot 11{,}8 = 177\\text{ km}.$$\nĐáp số: 177.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p3.png",
+          "sha256": "bfd648782a853be3166544cb6cd05bf96f50064ad399bd8044b9f0d12632775b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính giới hạn: $\\lim_{x \\to 5} \\frac{x^2 - 6x + 5}{x - 5}$.",
+      "explanation": "Ta có dạng vô định $\\frac{0}{0}$ tại $x = 5$:\n$$\\lim_{x \\to 5} \\frac{x^2 - 6x + 5}{x - 5} = \\lim_{x \\to 5} \\frac{(x - 5)(x - 1)}{x - 5} = \\lim_{x \\to 5} (x - 1) = 5 - 1 = 4.$$\nĐáp số: 4.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p3.png",
+          "sha256": "bfd648782a853be3166544cb6cd05bf96f50064ad399bd8044b9f0d12632775b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $I, J$ lần lượt là trọng tâm tam giác $SAB, DAB$. Chứng minh rằng $IJ$ song song với mặt phẳng $(SBD)$.",
+      "explanation": "Gọi $M$ là trung điểm của $AB$.\nTrong tam giác $SAB$, vì $I$ là trọng tâm nên $\\frac{MI}{MS} = \\frac{1}{3}$.\nTrong tam giác $DAB$, vì $J$ là trọng tâm nên $\\frac{MJ}{MD} = \\frac{1}{3}$.\nXét tam giác $MSD$, ta có $\\frac{MI}{MS} = \\frac{MJ}{MD} = \\frac{1}{3}$, theo định lý Ta-lét đảo suy ra $IJ \\parallel SD$.\nMà $SD \\subset (SBD)$ và $IJ \\not\\subset (SBD)$, do đó $IJ \\parallel (SBD)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p3.png",
+          "sha256": "bfd648782a853be3166544cb6cd05bf96f50064ad399bd8044b9f0d12632775b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xét tính liên tục của hàm số $f(x) = \\begin{cases} \\frac{x^2 - 9}{x - 3} & \\text{khi } x \\ne 3 \\\\ 2 & \\text{khi } x = 3 \\end{cases}$ tại điểm $x_0 = 3$.",
+      "explanation": "Ta có:\n- $f(3) = 2$.\n- $\\lim_{x \\to 3} f(x) = \\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3} = \\lim_{x \\to 3} \\frac{(x - 3)(x + 3)}{x - 3} = \\lim_{x \\to 3} (x + 3) = 3 + 3 = 6$.\nVì $\\lim_{x \\to 3} f(x) = 6 \\ne 2 = f(3)$ nên hàm số gián đoạn (không liên tục) tại điểm $x_0 = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p3.png",
+          "sha256": "bfd648782a853be3166544cb6cd05bf96f50064ad399bd8044b9f0d12632775b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-IV-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số giờ có ánh sáng của thành phố P ở vĩ độ 40 độ bắc trong ngày thứ $t$ của một năm không nhuận được cho bởi hàm số $d(t) = 3\\sin\\left[\\frac{\\pi}{182}(t - 80)\\right] + 12$ với $t \\in \\mathbb{Z}$ và $0 < t \\le 365$. Bạn Hạ muốn đi tham quan thành phố P nhưng lại không thích ánh sáng mặt trời. Gọi $t$ là thời điểm ngày trong năm mà thành phố P có ít giờ có ánh sáng mặt trời nhất. Tính giá trị nhỏ nhất của biểu thức $A = a^2 + 2a + t$ với mọi $a \\in \\mathbb{R}$.",
+      "explanation": "Hàm số $d(t)$ đạt giá trị nhỏ nhất khi:\n$$\\sin\\left[\\frac{\\pi}{182}(t - 80)\\right] = -1 \\Leftrightarrow \\frac{\\pi}{182}(t - 80) = -\\frac{\\pi}{2} + k2\\pi \\Leftrightarrow t - 80 = -91 + 364k \\Leftrightarrow t = -11 + 364k.$$\nVì $0 < t \\le 365$ và $k \\in \\mathbb{Z}$ nên chọn $k = 1 \\Rightarrow t = 353$.\nKhi đó biểu thức trở thành:\n$$A = a^2 + 2a + 353 = (a + 1)^2 + 352.$$\nVì $(a + 1)^2 \\ge 0$ với mọi $a \\in \\mathbb{R}$ nên $A \\ge 352$.\nĐẳng thức xảy ra khi $a = -1$.\nVậy giá trị nhỏ nhất của biểu thức $A$ là 352.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p3.png",
+          "sha256": "bfd648782a853be3166544cb6cd05bf96f50064ad399bd8044b9f0d12632775b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-IV-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một đơn vị sản xuất hàng thủ công ước tính chi phí để sản xuất $x$ đơn vị sản phẩm là $C(x) = 2x + 55$ (triệu đồng). Gọi hàm số $f(x)$ biểu thị chi phí trung bình để sản xuất mỗi đơn vị sản phẩm. Tính $\\lim_{x \\to +\\infty} f(x)$.",
+      "explanation": "Hàm số biểu thị chi phí trung bình để sản xuất mỗi đơn vị sản phẩm là:\n$$f(x) = \\frac{C(x)}{x} = \\frac{2x + 55}{x} = 2 + \\frac{55}{x} \\quad (x > 0).$$\nKhi $x \\to +\\infty$:\n$$\\lim_{x \\to +\\infty} f(x) = \\lim_{x \\to +\\infty} \\left(2 + \\frac{55}{x}\\right) = 2 + 0 = 2.$$\nĐáp số: 2.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p3.png",
+          "sha256": "bfd648782a853be3166544cb6cd05bf96f50064ad399bd8044b9f0d12632775b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-147-M1101-PART-IV-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Qua đợt lũ lụt tháng 11 năm 2025 vừa qua, gia đình anh Ba quyết định thực hiện tích góp tiền để mua mảnh đất xây nhà ở vùng không ngập ước tính trị giá 1,259 tỉ đồng.\n- Đợt thứ nhất: Anh Ba đã tích góp theo nguyên tắc tháng sau tích góp nhiều hơn tháng ngay trước đó số tiền là 2 triệu đồng và cứ như thế đến tháng thứ 10 anh phải góp 21 triệu đồng. Đến hết đợt thứ nhất anh Ba có tất cả 624 triệu đồng.\n- Đợt thứ hai kế tiếp: Do muốn rút ngắn thời gian mua đất thì số tiền còn lại anh tiếp tục tích góp với tháng đầu là 5 triệu đồng và mỗi tháng tiếp theo số tiền gấp đôi tháng kế trước nó.\nĐể đủ tiền mua đất xây nhà thì anh Ba phải tích góp ít nhất bao nhiêu tháng?",
+      "explanation": "Đổi 1,259 tỉ đồng = 1259 triệu đồng.\n- Đợt 1: Dãy số tiền tích góp mỗi tháng là cấp số cộng có công sai $d = 2$, số hạng thứ 10 là $u_{10} = 21$.\n  Ta có $u_1 + 9d = 21 \\Rightarrow u_1 = 21 - 9(2) = 3$ triệu đồng.\n  Gọi $n_1$ là số tháng của đợt 1, tổng số tiền tích góp được là:\n  $$S_{n_1} = \\frac{n_1 [2(3) + (n_1 - 1)2]}{2} = n_1 (n_1 + 2) = n_1^2 + 2n_1 = 624.$$\n  $$\\Leftrightarrow n_1^2 + 2n_1 - 624 = 0 \\Leftrightarrow n_1 = 24\\text{ (tháng)}.$$\n- Đợt 2: Số tiền còn thiếu là $1259 - 624 = 635$ triệu đồng.\n  Dãy số tiền tích góp mỗi tháng là cấp số nhân có $v_1 = 5$, công bội $q = 2$.\n  Gọi $n_2$ là số tháng của đợt 2:\n  $$S_{n_2} = v_1 \\frac{q^{n_2} - 1}{q - 1} = 5(2^{n_2} - 1) \\ge 635 \\Leftrightarrow 2^{n_2} - 1 \\ge 127 \\Leftrightarrow 2^{n_2} \\ge 128 = 2^7 \\Rightarrow n_2 \\ge 7.$$\n  Do đó đợt 2 cần ít nhất 7 tháng.\nTổng số tháng ít nhất anh Ba phải tích góp là:\n$$n = n_1 + n_2 = 24 + 7 = 31\\text{ tháng}.$$\nĐáp số: 31.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p3.png",
+          "sha256": "bfd648782a853be3166544cb6cd05bf96f50064ad399bd8044b9f0d12632775b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-147-p13.png",
+          "sha256": "9dbc23ea40bae9754cab30f21ad79141fed57d2b0171a6a4785418ea3e262370"
+        }
+      ]
+    }
+  ]
+}

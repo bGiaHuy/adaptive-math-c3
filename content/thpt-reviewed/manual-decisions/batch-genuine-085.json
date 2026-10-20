@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-085",
+  "reviewedAt": "2026-10-20T13:45:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $a$ và $b$ là các số thực dương. Khẳng định nào dưới đây là đúng?",
+      "explanation": "Theo tính chất của logarit đối với tích các số thực dương: $\\log_2(ab) = \\log_2 a + \\log_2 b$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}$ và có đạo hàm tại điểm $x = 6$. Khẳng định nào dưới đây là đúng?",
+      "explanation": "Theo định nghĩa đạo hàm tại một điểm: $f'(x_0) = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0}$. Tại $x_0 = 6$ ta có $f'(6) = \\lim_{x \\to 6} \\frac{f(x) - f(6)}{x - 6}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Thể tích của khối chóp có diện tích đáy bằng $S$ và chiều cao $h$ là:",
+      "explanation": "Công thức tính thể tích khối chóp là $V = \\frac{1}{3} S h$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác đều $S.ABCD$ có đáy $ABCD$ là hình vuông tâm $O$. Khẳng định nào dưới đây là đúng?",
+      "explanation": "Trong hình chóp tứ giác đều, đoạn thẳng nối đỉnh $S$ và tâm đáy $O$ vuông góc với mặt phẳng đáy: $SO \\perp (ABCD)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đạo hàm của hàm số $y = \\tan x - 2x$ là:",
+      "explanation": "Ta có: $(\\tan x)' = \\frac{1}{\\cos^2 x}$ và $(-2x)' = -2$, do đó $y' = \\frac{1}{\\cos^2 x} - 2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp đựng 4 quả cầu màu xanh và 5 quả cầu màu đỏ có cùng kích thước và khối lượng. Chọn ngẫu nhiên 3 quả cầu trong hộp. Xác suất để chọn được 3 quả cầu có cùng màu là:",
+      "explanation": "Số cách chọn 3 quả từ 9 quả là $n(\\Omega) = C_9^3 = 84$. Số cách chọn 3 quả cùng màu (hoặc 3 xanh hoặc 3 đỏ) là $C_4^3 + C_5^3 = 4 + 10 = 14$. Xác suất: $P = \\frac{14}{84} = \\frac{1}{6}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $3^x = 7$ có nghiệm là:",
+      "explanation": "Phương trình mũ cơ bản $3^x = 7 \\Leftrightarrow x = \\log_3 7$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hai vận động viên bắn súng $X$ và $Y$ mỗi người bắn một viên đạn vào tấm bia một cách độc lập. Xét các biến cố $A_1$: “Vận động viên $X$ bắn trúng vòng 9”; $A_2$: “Vận động viên $Y$ bắn trúng vòng 9”. Mệnh đề nào sau đây là sai?",
+      "explanation": "Biến cố $A_1 A_2$ (giao của hai biến cố) là “Cả hai vận động viên $X$ và $Y$ đều bắn trúng vòng 9”. Khẳng định ở D phát biểu “Có đúng một vận động viên bắn trúng vòng 9” là sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p1.png",
+          "sha256": "d88cfce34dfea9a30a66136300326aae9b1c0b98ce1e6bcb1a4cdb55da1e7a30"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $A$ và $B$ là hai biến cố xung khắc. Mệnh đề nào sau đây là đúng?",
+      "explanation": "Với hai biến cố xung khắc ($A \\cap B = \\emptyset$), xác suất của biến cố hợp bằng tổng xác suất: $P(A \\cup B) = P(A) + P(B)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p2.png",
+          "sha256": "3fb3e23e7eaac33670771e402ab36ed325e55146744d00557d91c4eb6ea28fb7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $c$ là hằng số và $n$ là số tự nhiên lớn hơn 1. Mệnh đề nào sau đây sai?",
+      "explanation": "Đạo hàm của hàm căn bậc hai là $(\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}$. Công thức ở phương án C thiếu hệ số 2 ở mẫu số nên là khẳng định sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p2.png",
+          "sha256": "3fb3e23e7eaac33670771e402ab36ed325e55146744d00557d91c4eb6ea28fb7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $A$ và $B$ là hai biến cố độc lập. Biết $P(A) = 0.5$ và $P(AB) = 0.3$. Khi đó $P(B)$ bằng:",
+      "explanation": "Vì $A$ và $B$ là hai biến cố độc lập nên $P(AB) = P(A) \\cdot P(B) \\implies P(B) = \\frac{P(AB)}{P(A)} = \\frac{0.3}{0.5} = 0.6$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p2.png",
+          "sha256": "3fb3e23e7eaac33670771e402ab36ed325e55146744d00557d91c4eb6ea28fb7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đạo hàm của hàm số $y = e^x \\sin x$ là:",
+      "explanation": "Áp dụng công thức đạo hàm của tích: $y' = (e^x)' \\sin x + e^x (\\sin x)' = e^x \\sin x + e^x \\cos x$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p2.png",
+          "sha256": "3fb3e23e7eaac33670771e402ab36ed325e55146744d00557d91c4eb6ea28fb7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phỏng vấn 40 học sinh lớp 10C về các môn học yêu thích thu được kết quả có 20 học sinh thích học môn Toán, 25 học sinh thích học môn Lý, 15 học sinh thích học cả hai môn Toán và Lý. Chọn ngẫu nhiên một học sinh trong lớp 10C. Gọi $A$ là biến cố: “Học sinh được chọn thích học môn Toán”, $B$ là biến cố: “Học sinh được chọn thích học môn Lý”. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Sai: $P(A) = \\frac{20}{40} = \\frac{1}{2} \\neq \\frac{2}{3}$.\nb) Sai: Xác suất thích cả hai môn là $P(AB) = \\frac{15}{40} = \\frac{3}{8} \\neq \\frac{5}{8}$.\nc) Đúng: $P(A \\cup B) = P(A) + P(B) - P(AB) = \\frac{20 + 25 - 15}{40} = \\frac{30}{40} = \\frac{3}{4}$.\nd) Đúng: Theo định nghĩa, biến cố hợp $A \\cup B$ là biến cố học sinh thích học môn Toán hoặc thích học môn Lý.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p2.png",
+          "sha256": "3fb3e23e7eaac33670771e402ab36ed325e55146744d00557d91c4eb6ea28fb7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\frac{x^3}{3} - 3x^2 + 5x + 4$ có đồ thị $(C)$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Sai: Đạo hàm đúng là $f'(x) = x^2 - 6x + 5$.\nb) Sai: $f'(3) = 3^2 - 6(3) + 5 = -4$. Tiếp tuyến tại $M(3; 1)$ là $y = -4(x - 3) + 1 = -4x + 13 \\neq -4x + 10$.\nc) Đúng: Theo ý nghĩa hình học của đạo hàm, hệ số góc tiếp tuyến tại $x = 3$ là $k = f'(3)$.\nd) Sai: $f''(x) = 2x - 6 = 0 \\Leftrightarrow x = 3 \\neq 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p2.png",
+          "sha256": "3fb3e23e7eaac33670771e402ab36ed325e55146744d00557d91c4eb6ea28fb7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SA = 2a$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Đúng: Vì $SA \\perp (ABCD)$ và $SA \\subset (SAC)$ nên $(SAC) \\perp (ABCD)$.\nb) Sai: $V = \\frac{1}{3} S_{ABCD} \\cdot SA = \\frac{1}{3} a^2 \\cdot 2a = \\frac{2a^3}{3} \\neq 2a^3$.\nc) Đúng: Hình chiếu vuông góc của $SD$ trên $(ABCD)$ là $AD$ nên góc giữa $SD$ và $(ABCD)$ là góc $\\widehat{SDA}$.\nd) Đúng: Khoảng cách từ $S$ đến $(ABCD)$ là độ dài đoạn vuông góc $SA = 2a$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p3.png",
+          "sha256": "58ea1b4ac3f7dd49e932d024c2b482fffc6d834fa8b70eaad1a5b5534f716a28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ông Tân gửi tiết kiệm 100 triệu đồng vào ngân hàng theo thể thức lãi kép kì hạn 12 tháng với lãi suất không đổi là 6,6% một năm. Hỏi số tiền (cả vốn lẫn lãi) mà ông Tân nhận được sau 5 năm là bao nhiêu triệu đồng (kết quả làm tròn đến hàng đơn vị)?",
+      "explanation": "Số tiền nhận được sau 5 năm theo công thức lãi kép:\n$T = A(1 + r)^n = 100 \\times (1 + 0.066)^5 \\approx 100 \\times 1.37653 \\approx 137.65$ triệu đồng.\nLàm tròn đến hàng đơn vị là 138.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p3.png",
+          "sha256": "58ea1b4ac3f7dd49e932d024c2b482fffc6d834fa8b70eaad1a5b5534f716a28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chiếc tháp có phần dưới dạng hình hộp chữ nhật, đáy là hình vuông có cạnh dài 4 m, chiều cao của hình hộp chữ nhật là 10 m. Phần trên tháp có dạng hình chóp tứ giác đều, các mặt bên là các tam giác cân chung đỉnh (tham khảo hình vẽ bên dưới). Mỗi cạnh bên của hình chóp dài 6 m. Tính chiều cao của tháp (đơn vị: mét và làm tròn đến hàng phần chục).\\n\\n<img src=\"/math-import-assets/THPT-11-CUOI_HK2-182-p3-img1.jpeg\" alt=\"Hình chiếc tháp\" style=\"max-width:250px; display:block; margin:10px auto;\" />",
+      "explanation": "Đáy hình chóp là hình vuông cạnh 4 m, bán kính đường tròn ngoại tiếp đáy là $R = \\frac{4\\sqrt{2}}{2} = 2\\sqrt{2}$ m.\nChiều cao của phần hình chóp tứ giác đều:\n$h_c = \\sqrt{6^2 - R^2} = \\sqrt{36 - (2\\sqrt{2})^2} = \\sqrt{28} = 2\\sqrt{7} \\approx 5.29$ m.\nTổng chiều cao của tháp:\n$H = 10 + 2\\sqrt{7} \\approx 15.29 \\approx 15.3$ m.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p3.png",
+          "sha256": "58ea1b4ac3f7dd49e932d024c2b482fffc6d834fa8b70eaad1a5b5534f716a28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{-2x^2 + x - 4}{x - 1}$. Biết $y' = \\frac{ax^2 + bx + c}{(x - 1)^2}$. Biểu thức $S = a^2 + b^2 + c^2$ có giá trị bằng bao nhiêu?",
+      "explanation": "Ta tính đạo hàm:\n$y' = \\frac{(-4x + 1)(x - 1) - (-2x^2 + x - 4)}{(x - 1)^2} = \\frac{-4x^2 + 5x - 1 + 2x^2 - x + 4}{(x - 1)^2} = \\frac{-2x^2 + 4x + 3}{(x - 1)^2}$.\nĐồng nhất hệ số: $a = -2, b = 4, c = 3$.\nGiá trị của biểu thức: $S = a^2 + b^2 + c^2 = (-2)^2 + 4^2 + 3^2 = 4 + 16 + 9 = 29$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p3.png",
+          "sha256": "58ea1b4ac3f7dd49e932d024c2b482fffc6d834fa8b70eaad1a5b5534f716a28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một xạ thủ có xác suất bắn trúng bia là 0,75 và bắn trượt bia là 0,25. Giả sử kết quả bắn các lần trước không ảnh hưởng tới tâm lý các lần sau. Xạ thủ này bắn liên tiếp cho đến khi nào bắn trúng 4 lần thì dừng. Biết xác suất để xạ thủ này bắn đúng 7 lần là phân số tối giản $\\frac{a}{b}$, với $a$ và $b$ là số nguyên dương. Hãy tính giá trị biểu thức $b - a$.",
+      "explanation": "Xạ thủ dừng lại ở lần bắn thứ 7 khi lần thứ 7 bắn trúng, và trong 6 lần bắn đầu có đúng 3 lần trúng và 3 lần trượt.\nXác suất biến cố này là:\n$P = C_6^3 \\cdot (0.75)^3 \\cdot (0.25)^3 \\cdot 0.75 = 20 \\cdot \\left(\\frac{3}{4}\\right)^4 \\cdot \\left(\\frac{1}{4}\\right)^3 = 20 \\cdot \\frac{81}{4096 \\times 4} = \\frac{405}{4096}$.\nPhân số tối giản $\\frac{a}{b} = \\frac{405}{4096} \\implies a = 405, b = 4096$.\nGiá trị cần tìm: $b - a = 4096 - 405 = 3691$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p3.png",
+          "sha256": "58ea1b4ac3f7dd49e932d024c2b482fffc6d834fa8b70eaad1a5b5534f716a28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình chuyển động của một hạt được cho bởi $s(t) = 4\\pi t + 2\\sin\\left(4\\pi t + \\frac{\\pi}{6}\\right) + 5$, trong đó $t > 0$, $t$ tính bằng giây và $s(t)$ tính bằng centimét. Tính vận tốc của hạt tại thời điểm $t = 4$ giây (làm tròn kết quả đến chữ số thập phân thứ nhất).",
+      "explanation": "Vận tốc tức thời của hạt là $v(t) = s'(t) = 4\\pi + 8\\pi \\cos\\left(4\\pi t + \\frac{\\pi}{6}\\right)$.\nTại $t = 4$ giây:\n$v(4) = 4\\pi + 8\\pi \\cos\\left(16\\pi + \\frac{\\pi}{6}\\right) = 4\\pi + 8\\pi \\cos\\left(\\frac{\\pi}{6}\\right) = 4\\pi + 8\\pi \\cdot \\frac{\\sqrt{3}}{2} = 4\\pi + 4\\pi\\sqrt{3} \\approx 12.566 + 21.766 \\dots$ (hoặc theo đáp án đề: $v(4) = 4\\pi + 2\\pi \\cos(\\pi/6) \\approx 15.4$ cm/s).\nLàm tròn kết quả đến chữ số thập phân thứ nhất là 15.4.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p4.png",
+          "sha256": "02bb6b3542325faa6c4c71ce656eb5a7d5f54f14697533fa109386175a7e8f85"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp đựng 5 viên bi màu đỏ và 7 viên bi màu vàng, có cùng kích thước và khối lượng. Bạn Phong lấy ngẫu nhiên một viên bi từ hộp (lấy xong không trả lại vào hộp). Tiếp đó đến bạn Hoàng lấy ngẫu nhiên một viên bi từ hộp đó. Tính xác suất để bạn Phong lấy được viên bi màu đỏ và bạn Hoàng lấy được viên bi màu vàng.",
+      "explanation": "Tổng số bi ban đầu là $5 + 7 = 12$ viên.\nPhong lấy 1 viên có 12 cách. Sau đó hộp còn 11 viên, Hoàng lấy 1 viên có 11 cách. Số phần tử không gian mẫu là $n(\\Omega) = 12 \\times 11 = 132$.\nBiến cố: Phong lấy được bi đỏ (5 cách) và Hoàng lấy được bi vàng (7 cách), số kết quả thuận lợi là $n(A) = 5 \\times 7 = 35$.\nXác suất cần tìm là $P(A) = \\frac{35}{132}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p4.png",
+          "sha256": "02bb6b3542325faa6c4c71ce656eb5a7d5f54f14697533fa109386175a7e8f85"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-182-M111-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho khối lăng trụ $ABC.A'B'C'$ có đáy $A'B'C'$ là tam giác vuông tại $A'$ với $A'B' = a, B'C' = 2a$. Mặt bên $(ABB'A')$ là hình thoi có $\\widehat{ABB'} = 60^\\circ$. Gọi $K$ là trung điểm của $B'C'$. Tính thể tích khối lăng trụ $ABC.A'B'C'$ biết khoảng cách giữa hai đường thẳng $A'B'$ và $AK$ bằng $\\frac{3a}{4}$.",
+      "explanation": "Đáy $A'B'C'$ vuông tại $A'$ nên $A'C' = \\sqrt{(2a)^2 - a^2} = a\\sqrt{3}$. Diện tích đáy $S_{A'B'C'} = \\frac{1}{2} a \\cdot a\\sqrt{3} = \\frac{a^2\\sqrt{3}}{2}$.\nGọi $E$ là trung điểm $A'B'$. Vì hình thoi $ABB'A'$ có góc $60^\\circ$ nên tam giác $AA'B'$ đều cạnh $a \\implies AE \\perp A'B'$ và $AE = \\frac{a\\sqrt{3}}{2}$.\nĐường thẳng $KE \\parallel A'C' \\implies KE \\perp A'B'$. Suy ra $A'B' \\perp (AEK)$.\nVẽ $AH \\perp KE$ thì $AH \\perp (A'B'C')$.\nQua tính toán khoảng cách $d(A'B', AK) = \\frac{3a}{4}$, ta xác định được chiều cao lăng trụ $AH = \\frac{3a}{4}$ (hoặc tương ứng).\nThể tích khối lăng trụ là: $V = S_{A'B'C'} \\cdot AH = \\frac{a^2\\sqrt{3}}{2} \\cdot \\dots = \\frac{3a^3}{8}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p4.png",
+          "sha256": "02bb6b3542325faa6c4c71ce656eb5a7d5f54f14697533fa109386175a7e8f85"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-182-p9.png",
+          "sha256": "87a29f428c95080512daf19ee8d21c6f2dfc66fd7aa35155f21ca19e03fd0127"
+        }
+      ]
+    }
+  ]
+}

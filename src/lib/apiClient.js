@@ -210,6 +210,9 @@ export const authApi = {
 export const curriculumApi = {
   getMaterials: () => apiClient.get('/curriculum/materials'),
   getMaterialQuestions: () => apiClient.get('/curriculum/materials/questions'),
+  getBulkQuestionReview: () => apiClient.get('/curriculum/materials/bulk-review'),
+  bulkQuestionAssetUrl: id => `${DEFAULT_BASE_URL}/curriculum/materials/bulk-review/assets/${encodeURIComponent(id)}`,
+  getMaterialQuestionIndex: id => apiClient.get(`/curriculum/materials/${encodeURIComponent(id)}/question-index`),
   materialQuestionImageUrl: (id, segment, version = '') => `${DEFAULT_BASE_URL}/curriculum/materials/questions/${encodeURIComponent(id)}/images/${segment}${version ? `?v=${encodeURIComponent(version)}` : ''}`,
   materialFileUrl: id => `${DEFAULT_BASE_URL}/curriculum/materials/${encodeURIComponent(id)}/file`,
   materialPageUrl: (id, page) => `${DEFAULT_BASE_URL}/curriculum/materials/${encodeURIComponent(id)}/pages/${page}`,
@@ -227,7 +230,7 @@ export const studentApi = {
   reviewSummary:()=>apiClient.get('/student/review/summary'),
   reviewQueue:()=>apiClient.get('/student/review/queue'),
   reviewEnroll:id=>apiClient.post(`/student/review/enroll/${encodeURIComponent(id)}`,{}),
-  reviewReveal:(id,answer)=>apiClient.post(`/student/review/cards/${encodeURIComponent(id)}/reveal`,{answer}),
+  reviewReveal:(id,answer)=>apiClient.post(`/student/review/cards/${encodeURIComponent(id)}/reveal`,typeof answer==='string'?{answer}:answer),
   reviewRate:(id,rating)=>apiClient.post(`/student/review/logs/${encodeURIComponent(id)}`,{rating}),
   reviewFeedback:(reviewId,reason)=>apiClient.post('/student/review/feedback',{reviewId,reason}),
   tutorHistory:id=>apiClient.get('/student/review/tutor/'+encodeURIComponent(id)),
@@ -251,7 +254,7 @@ export const studentApi = {
 export const diagnosticApi = {
   getLatestState: () => apiClient.get('/diagnostic/latest'),
   abandonCurrentAttempt: () => apiClient.post('/diagnostic/abandon-current', {}),
-  startAttempt: () => apiClient.post('/diagnostic/start'),
+  startAttempt: () => apiClient.post('/diagnostic/start', undefined, { timeoutMs: 210000, maxRetries: 0 }),
   answerQuestion: (data) => apiClient.post('/diagnostic/answer', data),
   saveDraft: (data) => apiClient.post('/diagnostic/draft', data),
   submitAttempt: (attemptId) => apiClient.post(`/diagnostic/submit/${attemptId}`),
@@ -277,7 +280,7 @@ export const assignmentApi = {
   updateSettings: (classId, id, data) => apiClient.post(`/classrooms/${classId}/assignments/${id}/settings`, data),
   regrade: (classId, id, data) => apiClient.post(`/classrooms/${classId}/assignments/${id}/regrade`, data),
   recordActivity: (id, data) => apiClient.post(`/assignments/${id}/activity`, data),
-  aiPreview: (data) => apiClient.post('/assignments/ai-preview', data),
+  aiPreview: (data) => apiClient.post('/assignments/ai-preview', data, { timeoutMs: 330000, maxRetries: 0 }),
   randomPreview: (data) => apiClient.post('/assignments/random-preview', data),
   getQuestionBank: (filters = {}) => {
     const params = new URLSearchParams(Object.entries(filters).filter(([, value]) => value !== undefined && value !== ''));
@@ -293,7 +296,7 @@ export const assignmentApi = {
   getAssignmentForTaking: (assignmentId) => apiClient.get(`/assignments/${assignmentId}/take`),
   submitAssignment: (assignmentId, data) => apiClient.post(`/assignments/${assignmentId}/submit`, data),
   getAssignmentResult: (assignmentId) => apiClient.get(`/assignments/${assignmentId}/result`),
-  getSampleExamTemplate: () => apiClient.get('/assignments/sample-template')
+  getSampleExamTemplate: (grade = 10) => apiClient.get(`/assignments/sample-template?grade=${grade}`)
 };
 
 export const adminApi = {

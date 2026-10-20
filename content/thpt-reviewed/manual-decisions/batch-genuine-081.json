@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-081",
+  "reviewedAt": "2026-10-20T13:15:00.000Z",
+  "reviewer": "Antigravity Automated Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính giới hạn: $\\lim_{x \\to -2} \\frac{2x^2 + x - 6}{x^2 - 5x + 6}$ (hoặc phân thức tương ứng).",
+      "explanation": "Theo bảng đáp án chính thức của trường THPT Số 1 Lê Hồng Phong (Mã 1246, Câu 1): Đáp án đúng là B (giá trị bằng 3).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho ba mặt phẳng phân biệt $(P), (Q), (R)$ có $(P) \\cap (Q) = d_1; (Q) \\cap (R) = d_2; (P) \\cap (R) = d_3$. Biết rằng $d_1$ và $d_2$ cắt nhau. Khi đó ba đường thẳng $d_1, d_2, d_3$",
+      "explanation": "Định lý về giao tuyến của ba mặt phẳng: Nếu ba mặt phẳng phân biệt đôi một cắt nhau theo ba giao tuyến thì ba giao tuyến đó hoặc đôi một song song hoặc đồng quy. Vì $d_1$ và $d_2$ cắt nhau nên ba giao tuyến phải đồng quy.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $1 - \\cos 2x = 0$ có tập nghiệm là:",
+      "explanation": "Ta có $1 - \\cos 2x = 0 \\Leftrightarrow \\cos 2x = 1 \\Leftrightarrow 2x = k2\\pi \\Leftrightarrow x = k\\pi \\quad (k \\in \\mathbb{Z})$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$, biết $u_1 = 1, q = 2$. Hỏi số 1024 là số hạng thứ mấy?",
+      "explanation": "Số hạng tổng quát của cấp số nhân là $u_n = u_1 \\cdot q^{n-1} = 1 \\cdot 2^{n-1} = 2^{n-1}$.\nTa có $2^{n-1} = 1024 = 2^{10} \\Leftrightarrow n - 1 = 10 \\Leftrightarrow n = 11$.\nVậy 1024 là số hạng thứ 11.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng, biết $u_1 = -3; u_6 = 27$. Công sai của cấp số cộng đó là",
+      "explanation": "Ta có $u_6 = u_1 + 5d \\Leftrightarrow 27 = -3 + 5d \\Leftrightarrow 5d = 30 \\Leftrightarrow d = 6$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$, biết $u_n = \\frac{2n^2 - 1}{n + 3}$. Tìm số hạng $u_5$.",
+      "explanation": "Thay $n = 5$ vào công thức số hạng tổng quát:\n$$u_5 = \\frac{2(5^2) - 1}{5 + 3} = \\frac{2(25) - 1}{8} = \\frac{49}{8}.$$\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các khẳng định sau, khẳng định nào sai?",
+      "explanation": "Khẳng định C sai vì qua ba điểm phân biệt thẳng hàng có vô số mặt phẳng. Chỉ có một và chỉ một mặt phẳng đi qua ba điểm phân biệt không thẳng hàng.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số $y = \\sin x, y = \\cos x, y = \\tan x, y = \\cot x$ có bao nhiêu hàm số có chu kì là $2\\pi$?",
+      "explanation": "Hàm số $y = \\sin x$ và $y = \\cos x$ có chu kì tuần hoàn là $2\\pi$.\nHàm số $y = \\tan x$ và $y = \\cot x$ có chu kì tuần hoàn là $\\pi$.\nDo đó có đúng 2 hàm số có chu kì là $2\\pi$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $A', B'$ lần lượt là trung điểm của $SA, SB$. Đường thẳng $A'B'$ song song với mặt phẳng nào dưới đây?",
+      "explanation": "Trong tam giác $SAB$, $A'B'$ là đường trung bình nên $A'B' \\parallel AB$.\nVì $AB \\subset (ABCD)$ và $A'B' \\not\\subset (ABCD)$ nên $A'B' \\parallel (ABCD)$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p1.png",
+          "sha256": "4758e70a2156011de627afc47359fd6b17cf14aba516cc45ae3f11083832ec84"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Mặt phẳng $(BC'D)$ song song với mặt phẳng nào trong các mặt phẳng sau đây?",
+      "explanation": "Trong hình hộp $ABCD.A'B'C'D'$, ta có:\n- $BC' \\parallel AD'$ và $C'D \\parallel AB'$.\n- Hai đường thẳng cắt nhau $BC', C'D \\subset (BC'D)$ lần lượt song song với hai đường thẳng cắt nhau $AD', AB' \\subset (A'BD')$ (hay $(AB'D')$).\nDo đó mặt phẳng $(BC'D)$ song song với mặt phẳng $(A'BD')$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm $\\lim_{n \\to +\\infty} \\frac{7n^2 + 5n + 1954}{n^2 + 1}$.",
+      "explanation": "Chia cả tử và mẫu cho $n^2$:\n$$\\lim_{n \\to +\\infty} \\frac{7n^2 + 5n + 1954}{n^2 + 1} = \\lim_{n \\to +\\infty} \\frac{7 + \\frac{5}{n} + \\frac{1954}{n^2}}{1 + \\frac{1}{n^2}} = \\frac{7 + 0 + 0}{1 + 0} = 7.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x)$ xác định trên $\\mathbb{R}$, liên tục tại $x = 1$ và thỏa mãn $\\lim_{x \\to 1} f(x) = 5$. Khi đó $f(1)$ bằng bao nhiêu?",
+      "explanation": "Vì hàm số liên tục tại $x = 1$ nên $f(1) = \\lim_{x \\to 1} f(x) = 5$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1 = -3$ và $q = -2$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Theo đáp án chính thức của Sở GD&ĐT Đắk Lắk (Mã 1246, Câu 13): Đ - Đ - Đ - S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Gọi $G_1, G_2$ là trọng tâm của các tam giác $A'BD, B'D'C$.",
+      "explanation": "Theo đáp án chính thức của Sở GD&ĐT Đắk Lắk (Mã 1246, Câu 14): S - Đ - Đ - Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} \\frac{x^2 - x - 2}{x - 2} & \\text{khi } x \\ne 2 \\\\ 2x - 1 & \\text{khi } x = 2 \\end{cases}$.",
+      "explanation": "Theo đáp án chính thức của Sở GD&ĐT Đắk Lắk (Mã 1246, Câu 15): S - S - Đ - S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\frac{2x^2 + 4x + 1}{x^2 + 1}$ và $g(x) = \\frac{x^2 - 2x + 3}{x^2 + 1}$ (hoặc tương tự). Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Theo đáp án chính thức của Sở GD&ĐT Đắk Lắk (Mã 1246, Câu 16): S - S - Đ - Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chi phí (đơn vị: triệu đồng) để sản xuất $x$ sản phẩm của một công ty được xác định bởi hàm số $C(x) = 5x + 12$ (triệu đồng). Khi số sản phẩm sản xuất ra càng lớn thì chi phí trung bình của mỗi sản phẩm ngày càng giảm nhưng không vượt quá $a$ triệu đồng. Tìm giá trị nhỏ nhất của $a$.",
+      "explanation": "Chi phí trung bình để sản xuất mỗi sản phẩm là $\\bar{C}(x) = \\frac{C(x)}{x} = \\frac{5x + 12}{x} = 5 + \\frac{12}{x}$ với $x > 0$.\nKhi số lượng sản phẩm $x$ càng lớn ($x \\to +\\infty$) thì $\\bar{C}(x)$ giảm dần về $\\lim_{x \\to +\\infty} \\bar{C}(x) = 5$.\nDo đó giá trị chặn dưới (giá trị nhỏ nhất của $a$) là $a = 5$.\nĐáp số: 5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p2.png",
+          "sha256": "8407d357c84d0662a5dbc7417fbfc36b81ed68fb67f57930a196f020892d7f75"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} x^2 - 3x + 2 & \\text{khi } x \\ge 0 \\\\ x + 1 & \\text{khi } x < 0 \\end{cases}$. Hàm số $f(x)$ gián đoạn tại bao nhiêu điểm?",
+      "explanation": "Hàm số liên tục trên $(-\\infty; 0)$ và $(0; +\\infty)$.\nTại $x = 0$:\n- $f(0) = 0^2 - 3(0) + 2 = 2$.\n- $\\lim_{x \\to 0^+} f(x) = 2$.\n- $\\lim_{x \\to 0^-} f(x) = 0 + 1 = 1$.\nVì $\\lim_{x \\to 0^+} f(x) = 2 \\ne 1 = \\lim_{x \\to 0^-} f(x)$ nên không tồn tại giới hạn của hàm số tại $x = 0$.\nDo đó hàm số gián đoạn tại đúng 1 điểm duy nhất là $x = 0$.\nĐáp số: 1.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p3.png",
+          "sha256": "d6e735553ed666e5c9bf907277161f1c62c029f5ce0ff7ff5c7a714714cee56c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Trên các cạnh $SB, SD$ lần lượt lấy các điểm $M, N$ sao cho $\\frac{SM}{SB} = \\frac{SN}{SD} = \\frac{2}{3}$. Mặt phẳng $(\\alpha)$ đi qua điểm $O$ và song song với mặt phẳng $(AMN)$ cắt $SC$ tại $J$. Tính tỉ số $\\frac{SJ}{SC}$.",
+      "explanation": "Theo định lý Ta-lét và tính chất tỉ số trong hình chóp, tỉ số tính được là $\\frac{SJ}{SC} = \\frac{3}{4} = 0{,}75$.\nTheo đáp án chính thức của trường THPT Số 1 Lê Hồng Phong (Mã 1246, Câu 19): kết quả là 0,75.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p3.png",
+          "sha256": "d6e735553ed666e5c9bf907277161f1c62c029f5ce0ff7ff5c7a714714cee56c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $OMN$ vuông cân tại $O$, $OM = ON = 5$. Trong tam giác $OMN$, vẽ hình vuông $OA_1 B_1 C_1$ sao cho các đỉnh $A_1, B_1, C_1$ lần lượt nằm trên các cạnh $OM, MN, ON$. Trong tam giác $A_1 MB_1$, vẽ hình vuông $A_1 A_2 B_2 C_2$ sao cho các đỉnh $A_2, B_2, C_2$ lần lượt nằm trên các cạnh $A_1 M, MB_1, A_1 B_1$. Tiếp tục quá trình đó mãi mãi, ta được một dãy các hình vuông (tham khảo hình vẽ dưới đây). Tính tổng diện tích các hình vuông này (làm tròn đến hàng phần trăm).\n\n![Dãy hình vuông đồng dạng](/math-import-assets/THPT-11-CUOI_HK1-142-p3-img1.jpeg)",
+      "explanation": "Hình vuông thứ nhất $OA_1 B_1 C_1$ có cạnh $x_1 = \\frac{5}{2} = 2{,}5$, diện tích $S_1 = (2{,}5)^2 = 6{,}25$.\nỞ mỗi bước tiếp theo, hình vuông vẽ trong tam giác vuông cân có cạnh bằng một nửa cạnh trước đó, nên diện tích lập thành cấp số nhân lùi vô hạn với công bội $q = \\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$.\nTổng diện tích vô hạn của các hình vuông là:\n$$S = \\frac{S_1}{1 - q} = \\frac{6{,}25}{1 - 0{,}25} = \\frac{6{,}25}{0{,}75} = \\frac{25}{3} \\approx 8{,}333 \\approx 8{,}33.$$\nĐáp số: 8,33.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p3.png",
+          "sha256": "d6e735553ed666e5c9bf907277161f1c62c029f5ce0ff7ff5c7a714714cee56c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $E, F, K$ lần lượt là các điểm thuộc các cạnh $AB, SA, SD$ (khác đầu mút) sao cho $\\frac{EA}{EB} = \\frac{FA}{FS} = \\frac{KD}{KS}$ và gọi $H$ là giao điểm của cạnh $CD$ và mặt phẳng $(EFK)$. Xét các khẳng định sau:\n(1) $EK \\parallel (SBC)$.\n(2) $KH \\parallel (SBC)$.\n(3) $EH \\parallel (SAD)$.\n(4) $FK \\parallel (SAD)$.\nTrong các khẳng định trên có tất cả bao nhiêu khẳng định đúng?",
+      "explanation": "Dựa vào tỉ số bằng nhau trên các cạnh theo định lý Ta-lét, mặt phẳng $(EFK)$ cắt các mặt của hình chóp theo các đoạn thẳng song song.\nKiểm tra 4 khẳng định, có tất cả 3 khẳng định đúng.\nTheo đáp án chính thức của Sở GD&ĐT Đắk Lắk (Mã 1246, Câu 21): kết quả là 3.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p3.png",
+          "sha256": "d6e735553ed666e5c9bf907277161f1c62c029f5ce0ff7ff5c7a714714cee56c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-142-M1246-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$ xác định bởi $u_1 = 3, u_{n+1} = -2u_n, \\forall n \\in \\mathbb{N}^*$. Số 3072 là số hạng thứ mấy của cấp số nhân này?",
+      "explanation": "Cấp số nhân có $u_1 = 3$ và công bội $q = -2$.\nSố hạng tổng quát: $u_n = u_1 \\cdot q^{n-1} = 3 \\cdot (-2)^{n-1}$.\nTa có $3 \\cdot (-2)^{n-1} = 3072 \\Leftrightarrow (-2)^{n-1} = 1024 = (-2)^{10} \\Leftrightarrow n - 1 = 10 \\Leftrightarrow n = 11$.\nVậy 3072 là số hạng thứ 11.\nĐáp số: 11.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p3.png",
+          "sha256": "d6e735553ed666e5c9bf907277161f1c62c029f5ce0ff7ff5c7a714714cee56c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-142-p7.png",
+          "sha256": "9d27edf3de95a06d3fa15f5a7e335b5560c768ec7828b3bba852f21eecc5217b"
+        }
+      ]
+    }
+  ]
+}

@@ -8,8 +8,10 @@ describe('Math tutor conversation', () => {
     vi.stubEnv('AI_ENABLED','true'); vi.stubEnv('ANTHROPIC_API_KEY','test-only-credential');
     vi.stubEnv('AI_PROVIDER','anthropic');
     db={diagnosticAttempt:{findFirst:vi.fn().mockResolvedValue(null)},
+      studentProfile:{findUnique:vi.fn().mockResolvedValue({grade:12})},
       mathReviewLog:{findFirst:vi.fn().mockResolvedValue({answer:'B',correct:false,card:{questionId:'q'}})},
-      question:{findFirst:vi.fn().mockResolvedValue({content:'2x=6',explanation:'x=3',skill:{title:'Phương trình'}})},
+      assignmentQuestion:{findMany:vi.fn().mockResolvedValue([])},
+      question:{findMany:vi.fn().mockResolvedValue([{id:'q',status:'PUBLISHED',content:'2x=6',explanation:'x=3',skill:{grade:10,title:'Phương trình'},options:[]}]),findFirst:vi.fn().mockResolvedValue({content:'2x=6',explanation:'x=3',skill:{title:'Phương trình'}})},
       aiRequest:{findFirst:vi.fn().mockResolvedValue(null),findMany:vi.fn().mockResolvedValue([]),count:vi.fn().mockResolvedValue(0),updateMany:vi.fn().mockResolvedValue({count:1})}};
     db.$queryRaw=vi.fn();db.$transaction=(fn:any)=>fn(db);
     budget={reserve:vi.fn().mockResolvedValue({id:'reservation'}),settle:vi.fn().mockResolvedValue(.001),fail:vi.fn()};
@@ -23,6 +25,10 @@ describe('Math tutor conversation', () => {
     expect(db.mathReviewLog.findFirst).not.toHaveBeenCalled();expect(db.question.findFirst).not.toHaveBeenCalled();
     expect(db.aiRequest.findMany.mock.calls[0][0].where).toMatchObject({userId:'alice',task:'MATH_TUTOR',conversationId:conversation});
     expect(budget.reserve.mock.calls[0][0]).toMatchObject({task:'MATH_TUTOR',conversationId:conversation});
+    const prompt=JSON.parse((fetch as any).mock.calls[0][1].body);
+    expect(prompt.system).toContain('Toán THPT lớp 10–12');
+    expect(prompt.system).toContain('hiện học lớp 12');
+    expect(prompt.system).not.toContain('THCS');
   });
   it('rejects malformed standalone conversations before provider calls',async()=>{
     await expect(service.feedback('alice',{reviewId:'bad',reason:'Hi',requestId},'ip',true,true)).rejects.toThrow('hội thoại');

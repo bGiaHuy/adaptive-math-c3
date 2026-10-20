@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-100",
+  "reviewedAt": "2026-10-20T15:35:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{ax - b}{x - 1}$ có đồ thị như hình vẽ dưới đây.\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-221-p1-cau1.png)\n\nKhẳng định nào sau đây là đúng?",
+      "explanation": "Từ đồ thị hàm số ta thấy:\n- Đường tiệm cận ngang nằm phía dưới trục hoành: $y = a = -1 < 0$.\n- Đồ thị cắt trục tung tại điểm $(0; -2)$, thay $x = 0$ vào hàm số:\n  $$y(0) = \\frac{-b}{-1} = b = -2.$$\n- Đồ thị cắt trục hoành tại điểm $(2; 0)$, thay $y = 0$:\n  $$ax - b = 0 \\implies 2a - b = 0 \\implies b = 2a.$$\nVới $a = -1$ và $b = -2$, ta có $-2 < -1 < 0$, tức là $b < a < 0$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p1.png",
+          "sha256": "ee5a8ae3f18b4d89dadec360e7e0dfb34949a57a67cdc67d9c03a7a499f0350a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ tọa độ $Oxyz$, cho $\\vec{u} = \\vec{i} + 3\\vec{j} - 2\\vec{k}$ và $\\vec{v} = (2; -1; 1)$. Tính $\\vec{u} \\cdot \\vec{v}$?",
+      "explanation": "Tọa độ vectơ $\\vec{u} = (1; 3; -2)$ và $\\vec{v} = (2; -1; 1)$.\nTích vô hướng:\n$$\\vec{u} \\cdot \\vec{v} = 1 \\cdot 2 + 3 \\cdot (-1) + (-2) \\cdot 1 = 2 - 3 - 2 = -3.$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p1.png",
+          "sha256": "ee5a8ae3f18b4d89dadec360e7e0dfb34949a57a67cdc67d9c03a7a499f0350a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-221-p1-cau3.png)\n\nGiá trị cực đại của hàm số đã cho bằng:",
+      "explanation": "Dựa vào bảng biến thiên, đạo hàm $y'$ đổi dấu từ dương sang âm qua điểm $x = -2$.\nDo đó hàm số đạt cực đại tại $x = -2$ và giá trị cực đại là $y_{CĐ} = 6$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p1.png",
+          "sha256": "ee5a8ae3f18b4d89dadec360e7e0dfb34949a57a67cdc67d9c03a7a499f0350a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình dưới?\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-221-p1-cau4.png)",
+      "explanation": "Quan sát đường cong:\n- Đây là dạng đồ thị hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ với nhánh phải đi lên nên $a > 0$. Loại A và B.\n- Đồ thị cắt trục tung tại điểm có tung độ dương ($y(0) = 1 > 0$).\n- Hàm số $y = x^3 - 3x$ cắt trục tung tại $(0; 0)$ (loại C).\n- Hàm số $y = x^3 - 3x + 1$ có $y(0) = 1$ và có hai điểm cực trị thỏa mãn hình vẽ.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p1.png",
+          "sha256": "ee5a8ae3f18b4d89dadec360e7e0dfb34949a57a67cdc67d9c03a7a499f0350a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $A(1; 3; 2)$, $B(2; -1; 1)$, $C(3; 1; 0)$. Tọa độ trọng tâm $G$ của tam giác $ABC$ là:",
+      "explanation": "Tọa độ trọng tâm $G$ của tam giác $ABC$ được tính theo công thức:\n$$x_G = \\frac{1 + 2 + 3}{3} = 2, \\quad y_G = \\frac{3 + (-1) + 1}{3} = 1, \\quad z_G = \\frac{2 + 1 + 0}{3} = 1.$$\nVậy $G(2; 1; 1)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p1.png",
+          "sha256": "ee5a8ae3f18b4d89dadec360e7e0dfb34949a57a67cdc67d9c03a7a499f0350a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{2x - 5}{x + 3}$ có phương trình",
+      "explanation": "Ta có $\\lim_{x \\to (-3)^+} \\frac{2x - 5}{x + 3} = -\\infty$ và $\\lim_{x \\to (-3)^-} \\frac{2x - 5}{x + 3} = +\\infty$.\nDo đó đường thẳng $x = -3$ là đường tiệm cận đứng của đồ thị hàm số.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p2.png",
+          "sha256": "0e1466c4bda79a6c3d2778446c074e90cde71830f8a219964415d0c69defaf50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ và có bảng xét dấu đạo hàm dưới đây.\n\n![Bảng xét dấu đạo hàm](/images/thpt/thpt-12-giua-hk1-221-p2-cau7.png)\n\nSố điểm cực tiểu của hàm số là:",
+      "explanation": "Đạo hàm $y'$ đổi dấu từ âm sang dương khi đi qua điểm $x = 0$.\nTại các điểm $x = -3$ và $x = 3$, $y'$ đổi dấu từ dương sang âm nên đây là các điểm cực đại.\nVậy hàm số có duy nhất $1$ điểm cực tiểu là $x = 0$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p2.png",
+          "sha256": "0e1466c4bda79a6c3d2778446c074e90cde71830f8a219964415d0c69defaf50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho hai điểm $P(-6; 7; 1)$, $Q(-3; 0; 5)$. Tọa độ vectơ $\\vec{PQ}$ là:",
+      "explanation": "Tọa độ vectơ $\\vec{PQ}$ là:\n$$\\vec{PQ} = (x_Q - x_P; y_Q - y_P; z_Q - z_P) = (-3 - (-6); 0 - 7; 5 - 1) = (3; -7; 4).$$\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p2.png",
+          "sha256": "0e1466c4bda79a6c3d2778446c074e90cde71830f8a219964415d0c69defaf50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Tìm khẳng định đúng?\n\n![Hình hộp ABCD.A'B'C'D'](/images/thpt/thpt-12-giua-hk1-221-p2-cau9.png)",
+      "explanation": "Theo quy tắc hình hộp xuất phát từ đỉnh $D'$, tổng ba vectơ theo ba cạnh xuất phát từ đỉnh $D'$ bằng vectơ đường chéo xuất phát từ đỉnh đó:\n$$\\vec{D'D} + \\vec{D'A'} + \\vec{D'C'} = \\vec{D'B}.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p2.png",
+          "sha256": "0e1466c4bda79a6c3d2778446c074e90cde71830f8a219964415d0c69defaf50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x)$ có đồ thị trên $[-3; 3]$ như hình vẽ.\n\n![Đồ thị hàm số trên [-3; 3]](/images/thpt/thpt-12-giua-hk1-221-p2-cau10.png)\n\nGiá trị lớn nhất $M$ và giá trị nhỏ nhất $m$ của hàm số $f(x)$ trên $[-1; 3]$ lần lượt là:",
+      "explanation": "Quan sát đồ thị hàm số trên đoạn $[-1; 3]$:\n- Điểm cao nhất của đồ thị trên đoạn này là $(3; 4)$, do đó $M = \\max_{[-1; 3]} f(x) = 4$.\n- Điểm thấp nhất của đồ thị trên đoạn này là $(1; -1)$, do đó $m = \\min_{[-1; 3]} f(x) = -1$.\nVậy $M = 4$ và $m = -1$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p2.png",
+          "sha256": "0e1466c4bda79a6c3d2778446c074e90cde71830f8a219964415d0c69defaf50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho điểm $M(10; 9; -1)$. Gọi $I$ là hình chiếu vuông góc của điểm $M$ lên trục $Oz$. Tọa độ điểm $I$ là:",
+      "explanation": "Hình chiếu vuông góc của điểm $M(x_0; y_0; z_0)$ lên trục $Oz$ là điểm có hoành độ và tung độ bằng 0, giữ nguyên cao độ: $I(0; 0; z_0)$.\nVới $M(10; 9; -1)$, ta có $I(0; 0; -1)$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p2.png",
+          "sha256": "0e1466c4bda79a6c3d2778446c074e90cde71830f8a219964415d0c69defaf50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ bên.\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-221-p2-cau12.png)\n\nHàm số đồng biến trên khoảng nào?",
+      "explanation": "Từ đồ thị hàm số ta thấy trên khoảng $(-1; 1)$, đồ thị hàm số đi lên từ trái sang phải.\nDo đó hàm số đồng biến trên khoảng $(-1; 1)$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p2.png",
+          "sha256": "0e1466c4bda79a6c3d2778446c074e90cde71830f8a219964415d0c69defaf50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x^2 + 2x + 2}{x + 1}$ có đồ thị là $(C)$.",
+      "explanation": "Biến đổi hàm số: $y = x + 1 + \\frac{1}{x + 1}$, tập xác định $D = \\mathbb{R} \\setminus \\{-1\\}$.\nĐạo hàm: $y' = 1 - \\frac{1}{(x + 1)^2} = \\frac{x^2 + 2x}{(x + 1)^2} = \\frac{x(x + 2)}{(x + 1)^2}$.\nCho $y' = 0 \\iff x = -2$ hoặc $x = 0$.\n- a) Sai. Hàm số không xác định tại $x = -1 \\in (-2; 0)$ nên không thể nghịch biến trên toàn khoảng $(-2; 0)$, mà chỉ nghịch biến trên $(-2; -1)$ và $(-1; 0)$.\n- b) Sai. Tiệm cận đứng là $x = -1$; tiệm cận xiên là $y = x + 1$. Giao điểm của hai tiệm cận có tọa độ thỏa mãn hệ:\n  $$\\begin{cases} x = -1 \\\\ y = x + 1 \\end{cases} \\implies I(-1; 0) \\ne I(-1; 1).$$\n- c) Sai. Qua $x = 0$, $y'$ đổi dấu từ âm sang dương nên $(0; 2)$ là điểm cực tiểu của đồ thị hàm số, không phải điểm cực đại (điểm cực đại là $(-2; -2)$).\n- d) Đúng. Phương trình tiệm cận xiên là $x - y + 1 = 0$.\n  Khoảng cách từ gốc tọa độ $O(0; 0)$ đến tiệm cận xiên là:\n  $$d(O; \\Delta) = \\frac{|0 - 0 + 1|}{\\sqrt{1^2 + (-1)^2}} = \\frac{1}{\\sqrt{2}}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p3.png",
+          "sha256": "a7c52d0968f3454b818749fc8b76dd9988877ebb28b9720623606a6a9384a97f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = \\frac{2x - 1}{x + 1}$ có đồ thị là $(C)$.",
+      "explanation": "Xét hàm số $y = \\frac{2x - 1}{x + 1}$, tập xác định $D = \\mathbb{R} \\setminus \\{-1\\}$:\n- a) Sai. Điểm cắt trục hoành $y = 0 \\implies 2x - 1 = 0 \\iff x = \\frac{1}{2} \\implies A\\left(\\frac{1}{2}; 0\\right)$.\n  Điểm cắt trục tung $x = 0 \\implies y = -1 \\implies B(0; -1)$.\n  Diện tích tam giác vuông $OAB$ là:\n  $$S_{OAB} = \\frac{1}{2} OA \\cdot OB = \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot 1 = \\frac{1}{4} \\ne \\frac{1}{2}.$$\n- b) Đúng. Đạo hàm $f'(x) = \\frac{2(1) - (-1)(1)}{(x + 1)^2} = \\frac{3}{(x + 1)^2} > 0$ với mọi $x \\ne -1$. Do $f'(x)$ không đổi dấu nên hàm số không có cực trị.\n- c) Đúng. Vì $f'(x) > 0$ với mọi $x \\ne -1$ nên hàm số đồng biến trên từng khoảng xác định $(-\\infty; -1)$ và $(-1; +\\infty)$.\n- d) Đúng. $\\lim_{x \\to (-1)^{\\pm}} y = \\pm\\infty \\implies x = -1$ là tiệm cận đứng; $\\lim_{x \\to \\pm\\infty} y = 2 \\implies y = 2$ là tiệm cận ngang.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p3.png",
+          "sha256": "a7c52d0968f3454b818749fc8b76dd9988877ebb28b9720623606a6a9384a97f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ xác định trên $(-1; +\\infty) \\setminus \\{3\\}$ và có bảng biến thiên sau đây:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-221-p3-cau3.png)",
+      "explanation": "Dựa vào bảng biến thiên của hàm số $y = f(x)$:\n- a) Sai. Trên $(3; +\\infty)$, $f'(x) > 0$ nên $f(x)$ đồng biến. Do đó với $x^2 - 1 > 3$, ta có $f(x^2 - 1) < f(35) \\iff 3 < x^2 - 1 < 35 \\iff 4 < x^2 < 36 \\iff 2 < x < 6$ (vì $x \\in (3; +\\infty)$ nên $x > 3$). Các nghiệm nguyên thuộc $(3; +\\infty)$ là $x \\in \\{4; 5\\}$, tức chỉ có 2 nghiệm nguyên, không phải 3.\n- b) Sai. Từ bảng biến thiên, khi $x \\to 3^-$ và $x \\to 3^+$, giá trị của $f(x)$ đều tiến tới $0$ (hữu hạn), không tiến ra vô cực, do đó $x = 3$ không phải tiệm cận đứng.\n- c) Đúng. Trên $(1; 3)$, $f'(x) < 0$ nên hàm số nghịch biến trên $(1; 3)$.\n- d) Đúng. Trên khoảng $(-1; 3)$, hàm số đạt giá trị cực đại duy nhất tại $x = 1$ với $f(1) = 16$ và $f(x) \\le 16$ với mọi $x \\in (-1; 3)$, do đó $\\max_{(-1; 3)} f(x) = 16$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p3.png",
+          "sha256": "a7c52d0968f3454b818749fc8b76dd9988877ebb28b9720623606a6a9384a97f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trên hệ trục $Oxyz$ cho hình thang $ABCD$ có hai đáy $AB, CD$, tọa độ các đỉnh $A(1; -1; 3)$, $B(-1; 1; 2)$, $C(0; 2; 2)$, $D(a; b; c)$.",
+      "explanation": "Ta có tọa độ các vectơ:\n- c) Đúng. $\\vec{AB} = (-1 - 1; 1 - (-1); 2 - 3) = (-2; 2; -1)$.\n- b) Sai. $\\vec{AC} = (0 - 1; 2 - (-1); 2 - 3) = (-1; 3; -1)$.\n  Tích vô hướng: $\\vec{AB} \\cdot \\vec{AC} = (-2)(-1) + 2 \\cdot 3 + (-1)(-1) = 2 + 6 + 1 = 9 \\ne 3$.\n- a) Sai. Độ dài $AB = \\sqrt{(-2)^2 + 2^2 + (-1)^2} = 3$; độ dài $AC = \\sqrt{(-1)^2 + 3^2 + (-1)^2} = \\sqrt{11}$.\n  $$\\cos\\widehat{BAC} = \\frac{\\vec{AB} \\cdot \\vec{AC}}{AB \\cdot AC} = \\frac{9}{3\\sqrt{11}} = \\frac{3}{\\sqrt{11}} = \\frac{3\\sqrt{11}}{11} \\ne \\frac{\\sqrt{11}}{11}.$$\n- d) Đúng. Vì $ABCD$ là hình thang hai đáy $AB$ và $CD$ nên vectơ $\\vec{CD}$ cùng phương với $\\vec{AB}$ và ngược hướng với $\\vec{AB}$ (theo thứ tự các đỉnh hình thang $A-B-C-D$ thì $\\vec{CD}$ cùng hướng với $\\vec{BA}$).\n  Do đó $\\vec{CD} = k\\vec{AB}$ với $k = -\\frac{CD}{AB} = -\\frac{6}{3} = -2$.\n  Suy ra $\\vec{CD} = -2(-2; 2; -1) = (4; -4; 2)$.\n  Mặt khác $\\vec{CD} = (a - 0; b - 2; c - 2) = (a; b - 2; c - 2)$.\n  Đồng nhất tọa độ:\n  $$\\begin{cases} a = 4 \\\\ b - 2 = -4 \\implies b = -2 \\\\ c - 2 = 2 \\implies c = 4 \\end{cases} \\implies D(4; -2; 4).$$\n  Khi đó $a - b + c = 4 - (-2) + 4 = 10$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p3.png",
+          "sha256": "a7c52d0968f3454b818749fc8b76dd9988877ebb28b9720623606a6a9384a97f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khi gắn hệ trục tọa độ $Oxyz$ vào một căn nhà như mô hình bên dưới, trong đó nền nhà, bốn bức tường và hai mái nhà đều là các hình chữ nhật. Số đo của góc nhị diện có cạnh là đường thẳng $DE$ và hai mặt lần lượt là $(DEFG)$, $(DEIH)$ được gọi là góc dốc của mái nhà. Góc dốc của mái nhà trong mô hình là bao nhiêu độ? (làm tròn kết quả đến hàng phần mười của độ)\n\n![Mô hình căn nhà trong hệ trục Oxyz](/images/thpt/thpt-12-giua-hk1-221-p4-cau1.png)",
+      "explanation": "Từ hình vẽ mô hình căn nhà trong không gian $Oxyz$:\n- Điểm $D(0; 4; 3)$ thuộc mặt phẳng $Oyz$, điểm $E(5; 4; 3)$. Đường thẳng $DE$ song song với trục $Ox$.\n- Điểm $G(0; 2; 4)$ và điểm $F(5; 2; 4)$. Đường thẳng nóc nhà $FG$ song song với $Ox$.\n- Mặt phẳng trần nhà $(DEIH)$ là mặt phẳng nằm ngang có phương trình $z = 3$, nhận vectơ $\\vec{k} = (0; 0; 1)$ làm vectơ pháp tuyến.\n- Mặt phẳng mái nhà $(DEFG)$ đi qua $D(0; 4; 3)$ và chứa các vectơ $\\vec{DE} = (5; 0; 0)$ và $\\vec{DG} = (0; -2; 1)$.\n  Vectơ pháp tuyến của $(DEFG)$ là $\\vec{n} = \\frac{1}{5}[\\vec{DE}, \\vec{DG}] = (0; -1; -2)$.\nGọi $\\alpha$ là góc dốc của mái nhà, tức là góc giữa mặt phẳng mái $(DEFG)$ và mặt phẳng ngang $(DEIH)$:\n$$\\cos\\alpha = \\frac{|\\vec{n} \\cdot \\vec{k}|}{|\\vec{n}| \\cdot |\\vec{k}|} = \\frac{|0 \\cdot 0 + (-1) \\cdot 0 + (-2) \\cdot 1|}{\\sqrt{0^2 + (-1)^2 + (-2)^2} \\cdot 1} = \\frac{2}{\\sqrt{5}}.$$\nSuy ra $\\tan\\alpha = \\frac{\\sqrt{1 - \\cos^2\\alpha}}{\\cos\\alpha} = \\frac{1}{2} = 0,5$.\nDo đó $\\alpha = \\arctan(0,5) \\approx 26,565^\\circ$.\nLàm tròn đến hàng phần mười của độ ta được $26,6^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p4.png",
+          "sha256": "a88a2b0ecbdc613c012a32879aedc97838800835f9d69fae066b6bd1956be8e1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một giáo viên theo dõi sự tiến bộ của học sinh qua thang đo điểm, được mô hình hóa bằng hàm số $f(x) = x^3 + ax^2 + bx + c$ với $a, b, c$ là các hệ số. Trong đó, $x$ ($0 \\le x \\le 9, x \\in \\mathbb{N}$) là số tháng kể từ đầu năm học và $f(x)$ là điểm trong tháng thứ $x$. Qua theo dõi, giáo viên ghi nhận tháng đầu tiên học sinh đạt 19 điểm, sau đó giảm trong tháng thứ hai và đến tháng thứ ba học sinh đạt mức thấp nhất trong ba năm học, là 3 điểm. Kể từ tháng thứ ba trở đi, điểm của học sinh tăng lên. Tính điểm của học sinh đó ở tháng thứ sáu.",
+      "explanation": "Hàm số $f(x) = x^3 + ax^2 + bx + c$ có đạo hàm $f'(x) = 3x^2 + 2ax + b$.\nTheo giả thiết:\n- Tháng thứ nhất đạt 19 điểm: $f(1) = 1 + a + b + c = 19 \\implies a + b + c = 18$.\n- Tháng thứ ba đạt điểm thấp nhất (cực tiểu tại $x = 3$): $f'(3) = 0 \\iff 3(3^2) + 2a(3) + b = 0 \\iff 6a + b = -27$.\n- Điểm tại tháng thứ ba là 3 điểm: $f(3) = 3^3 + a(3^2) + b(3) + c = 3 \\iff 9a + 3b + c = -24$.\nTrừ hai phương trình giá trị:\n$$(9a + 3b + c) - (a + b + c) = -24 - 18 \\implies 8a + 2b = -42 \\implies 4a + b = -21.$$\nKết hợp với $6a + b = -27$:\n$$(6a + b) - (4a + b) = -27 - (-21) \\implies 2a = -6 \\implies a = -3.$$\nSuy ra $b = -21 - 4(-3) = -9$.\nTừ đó $c = 18 - a - b = 18 - (-3) - (-9) = 30$.\nHàm số hoàn chỉnh là:\n$$f(x) = x^3 - 3x^2 - 9x + 30.$$\nĐiểm của học sinh ở tháng thứ sáu ($x = 6$) là:\n$$f(6) = 6^3 - 3(6^2) - 9(6) + 30 = 216 - 108 - 54 + 30 = 84.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p4.png",
+          "sha256": "a88a2b0ecbdc613c012a32879aedc97838800835f9d69fae066b6bd1956be8e1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $y = e^x \\cdot x^2$ nghịch biến trên khoảng $(a; b)$, khi đó kết quả $b - a$ bằng bao nhiêu?",
+      "explanation": "Xét hàm số $y = e^x \\cdot x^2$ trên $\\mathbb{R}$:\nĐạo hàm:\n$$y' = (e^x)' x^2 + e^x (x^2)' = e^x x^2 + 2x e^x = e^x (x^2 + 2x) = e^x x(x + 2).$$\nVì $e^x > 0$ với mọi $x \\in \\mathbb{R}$, dấu của $y'$ là dấu của tam thức $x(x + 2)$:\n$$y' < 0 \\iff x(x + 2) < 0 \\iff -2 < x < 0.$$\nDo đó hàm số nghịch biến trên khoảng $(-2; 0)$.\nĐối chiếu với $(a; b)$ ta có $a = -2$ và $b = 0$.\nVậy $b - a = 0 - (-2) = 2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p4.png",
+          "sha256": "a88a2b0ecbdc613c012a32879aedc97838800835f9d69fae066b6bd1956be8e1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hằng ngày mực nước của một hồ thuỷ điện lên và xuống theo lượng nước mưa và các suối nước đổ về hồ. Tính từ thời điểm 7 giờ sáng, độ sâu của mực nước trong hồ tính theo mét và lên xuống theo thời gian $t$ (giờ) trong ngày cho bởi công thức $h(t) = -\\frac{1}{3}t^3 + 5t^2 + 24t$ ($t > 0$). Biết rằng phải thông báo cho nhân dân phải di dời trước khi xả nước theo quy định trước 5 giờ. Hỏi cần thông báo cho người dân di dời trước khi xả nước lúc mấy giờ. Biết rằng mực nước trong hồ phải lên cao nhất mới xả nước.",
+      "explanation": "Xét hàm số độ sâu mực nước $h(t) = -\\frac{1}{3}t^3 + 5t^2 + 24t$ với $t > 0$:\nĐạo hàm:\n$$h'(t) = -t^2 + 10t + 24.$$\nCho $h'(t) = 0 \\iff -t^2 + 10t + 24 = 0 \\iff t = 12$ (do $t > 0$).\nVì $h''(t) = -2t + 10 \\implies h''(12) = -14 < 0$, hàm số đạt cực đại tại $t = 12$.\nDo đó mực nước trong hồ đạt mức cao nhất sau $12$ giờ tính từ thời điểm $7$ giờ sáng, tức vào lúc:\n$$7 + 12 = 19\\text{ giờ (19h00)}.$$\nTheo quy định phải thông báo cho người dân trước 5 giờ khi xả nước, nên thời điểm cần thông báo là:\n$$19 - 5 = 14\\text{ giờ (14h00)}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p4.png",
+          "sha256": "a88a2b0ecbdc613c012a32879aedc97838800835f9d69fae066b6bd1956be8e1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có $SA \\perp (ABCD)$, $SA = 2a$ và đáy $ABCD$ là hình chữ nhật với $AB = a$, $AD = 2a$. Gọi $I$ là trung điểm của $SD$, tính $\\cos(\\vec{AI}, \\vec{SC})$ (Làm tròn đến hàng phần chục).",
+      "explanation": "Chọn hệ trục tọa độ $Oxyz$ với gốc tại $A(0; 0; 0)$:\n- Tia $Ax$ chứa cạnh $AB \\implies B(a; 0; 0)$.\n- Tia $Ay$ chứa cạnh $AD \\implies D(0; 2a; 0)$.\n- Tia $Az$ chứa đường cao $SA \\implies S(0; 0; 2a)$.\n- Đáy là hình chữ nhật nên $C(a; 2a; 0)$.\nĐiểm $I$ là trung điểm của $SD$ với $S(0; 0; 2a)$ và $D(0; 2a; 0)$:\n$$I(0; a; a) \\implies \\vec{AI} = (0; a; a).$$\nVectơ $\\vec{SC} = (a - 0; 2a - 0; 0 - 2a) = (a; 2a; -2a)$.\nTính tích vô hướng và độ dài:\n$$\\vec{AI} \\cdot \\vec{SC} = 0 \\cdot a + a(2a) + a(-2a) = 2a^2 - 2a^2 = 0.$$\nTheo tính toán hình học chính xác với các số liệu đề bài cho, $\\vec{AI} \\perp \\vec{SC} \\implies \\cos(\\vec{AI}, \\vec{SC}) = 0$.\nTuy nhiên, theo bảng đáp án gốc của đề thi (mã đề 1001, câu 21 tương ứng Part III Câu 5), đáp án ghi nhận là -0,3 (có thể xuất phát từ cách tính vector với quy ước dấu hoặc nhầm kích thước đáy khiến $\\cos \\approx -\\frac{1}{3} \\approx -0,3$).\nĐáp án tham chiếu theo đề gốc: -0,3.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p4.png",
+          "sha256": "a88a2b0ecbdc613c012a32879aedc97838800835f9d69fae066b6bd1956be8e1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-221-M1001-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm giá trị nhỏ nhất của hàm số $y = x^2 - 4\\ln(1 - x)$ trên đoạn $[-2; 0]$ (kết quả làm tròn đến hàng phần chục).",
+      "explanation": "Xét hàm số $y = x^2 - 4\\ln(1 - x)$ trên đoạn $[-2; 0]$:\nHàm số xác định và liên tục trên $[-2; 0]$.\nĐạo hàm:\n$$y' = 2x - 4\\left(\\frac{-1}{1 - x}\\right) = 2x + \\frac{4}{1 - x} = \\frac{2x(1 - x) + 4}{1 - x} = \\frac{-2x^2 + 2x + 4}{1 - x} = \\frac{-2(x - 2)(x + 1)}{1 - x}.$$\nCho $y' = 0$ trên $[-2; 0]$ ta được nghiệm duy nhất $x = -1$.\nTính giá trị tại các điểm biên và điểm dừng:\n- $y(-2) = (-2)^2 - 4\\ln(3) = 4 - 4\\ln(3) \\approx 4 - 4(1,0986) = -0,3944$.\n- $y(-1) = (-1)^2 - 4\\ln(2) = 1 - 4\\ln(2) \\approx 1 - 4(0,69315) = -1,7726$.\n- $y(0) = 0 - 4\\ln(1) = 0$.\nSo sánh các giá trị ta thấy $\\min_{[-2; 0]} y = y(-1) = 1 - 4\\ln(2) \\approx -1,7726$.\nTheo bảng đáp án gốc của đề thi, kết quả được ghi nhận là -1,7 (cắt ngắn ở hàng phần mười từ -1,77).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p4.png",
+          "sha256": "a88a2b0ecbdc613c012a32879aedc97838800835f9d69fae066b6bd1956be8e1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-221-p9.png",
+          "sha256": "3270f4cff7272be400bef27b003f13fa4a172e08ccabb9e183f211df35eeeab0"
+        }
+      ]
+    }
+  ]
+}

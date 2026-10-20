@@ -1,0 +1,511 @@
+{
+  "batchId": "batch-genuine-076",
+  "reviewedAt": "2026-10-20T13:02:00.000Z",
+  "reviewer": "Antigravity Automated Reviewer",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị của hàm số $y = -x^3 + 3x^2 + 5$ có hai điểm cực trị $A$ và $B$. Độ dài đoạn $AB$ là",
+      "explanation": "Ta có $y' = -3x^2 + 6x = -3x(x - 2)$.\n$y' = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$.\n- Với $x = 0 \\Rightarrow y = 5$, ta có điểm cực trị $A(0; 5)$.\n- Với $x = 2 \\Rightarrow y = -8 + 12 + 5 = 9$, ta có điểm cực trị $B(2; 9)$.\nĐộ dài đoạn thẳng $AB$ là:\n$$AB = \\sqrt{(2 - 0)^2 + (9 - 5)^2} = \\sqrt{2^2 + 4^2} = \\sqrt{4 + 16} = \\sqrt{20} = 2\\sqrt{5}.$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p1.png",
+          "sha256": "cb95342f6e30691d4edb7499541bc431de563091edc194b1600f9a6b9da5432d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ và có bảng xét dấu của đạo hàm như sau:\n\n![Bảng xét dấu f'(x)](/math-import-assets/THPT-12-GIUA_HK1-213-p1-img1.png)\n\nHàm số đã cho có bao nhiêu điểm cực tiểu?",
+      "explanation": "Điểm cực tiểu là điểm mà tại đó đạo hàm $f'(x)$ đổi dấu từ âm $(-)$ sang dương $(+)$ khi đi qua điểm đó.\nQuan sát bảng xét dấu đạo hàm:\n- Tại $x_1$: $f'(x)$ đổi dấu từ $-$ sang $+$, đây là điểm cực tiểu thứ nhất.\n- Tại $x_2$: $f'(x)$ đổi dấu từ $+$ sang $-$, đây là điểm cực đại.\n- Tại $x_3$: $f'(x)$ đổi dấu từ $-$ sang $+$, đây là điểm cực tiểu thứ hai.\nVậy hàm số có đúng 2 điểm cực tiểu.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p1.png",
+          "sha256": "cb95342f6e30691d4edb7499541bc431de563091edc194b1600f9a6b9da5432d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị lớn nhất của hàm số $y = x^2 e^x$ trên $[-3; 2]$ bằng",
+      "explanation": "Ta có $y' = 2x e^x + x^2 e^x = (x^2 + 2x)e^x = x(x + 2)e^x$.\nVì $e^x > 0, \\forall x$ nên $y' = 0 \\Leftrightarrow x = 0$ hoặc $x = -2$. Cả hai nghiệm đều thuộc $[-3; 2]$.\nTính các giá trị:\n- $y(-3) = 9e^{-3} \\approx 0{,}448$\n- $y(-2) = 4e^{-2} \\approx 0{,}541$\n- $y(0) = 0$\n- $y(2) = 4e^2 \\approx 29{,}556$\nSo sánh các giá trị trên đoạn $[-3; 2]$, giá trị lớn nhất là $y(2) = 4e^2$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p1.png",
+          "sha256": "cb95342f6e30691d4edb7499541bc431de563091edc194b1600f9a6b9da5432d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ bên. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?\n\n![Đồ thị hàm số](/math-import-assets/THPT-12-GIUA_HK1-213-p1-img2.png)",
+      "explanation": "Quan sát đồ thị hàm số, trên khoảng $(0; 1)$, đồ thị đi xuống từ trái sang phải, do đó hàm số nghịch biến trên khoảng $(0; 1)$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p1.png",
+          "sha256": "cb95342f6e30691d4edb7499541bc431de563091edc194b1600f9a6b9da5432d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ xác định và liên tục trên $\\mathbb{R} \\setminus \\{2\\}$ và có đồ thị như hình vẽ.\n\n![Đồ thị hàm số](/math-import-assets/THPT-12-GIUA_HK1-213-p1-img3.jpeg)\n\nTiệm cận đứng của đồ thị hàm số là đường thẳng có phương trình",
+      "explanation": "Đồ thị hàm số có đường tiệm cận đứng là đường thẳng vuông góc với trục hoành đi qua điểm không xác định $x = 2$, tức là $x = 2$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p1.png",
+          "sha256": "cb95342f6e30691d4edb7499541bc431de563091edc194b1600f9a6b9da5432d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tiệm cận ngang của đồ thị hàm số $y = \\frac{3x + 1}{x - 2}$ là đường thẳng có phương trình là",
+      "explanation": "Ta có $\\lim_{x \\to \\pm\\infty} y = \\lim_{x \\to \\pm\\infty} \\frac{3x + 1}{x - 2} = 3$.\nDo đó đường tiệm cận ngang của đồ thị hàm số là đường thẳng $y = 3$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p2.png",
+          "sha256": "ff616bae67d31af9123aa8541a5ccd2e03129a95805b179cec396659971b53ef"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số dân của một thị trấn sau $t$ năm kể từ năm 2000 được mô tả bởi công thức $N(t) = \\frac{25t + 10}{t + 5}$, $t \\ge 0$, trong đó $N(t)$ được tính bằng nghìn người. Đạo hàm của hàm số $N(t)$ biểu thị tốc độ tăng dân số của thị trấn. Khi đó tốc độ tăng dân số được dự kiến vào năm 2015 thuộc khoảng nào sau đây?",
+      "explanation": "Năm 2015 ứng với $t = 2015 - 2000 = 15$.\nĐạo hàm của hàm số $N(t)$ là:\n$$N'(t) = \\frac{25(t + 5) - (25t + 10)}{(t + 5)^2} = \\frac{125 - 10}{(t + 5)^2} = \\frac{115}{(t + 5)^2}.$$\nTại $t = 15$:\n$$N'(15) = \\frac{115}{(15 + 5)^2} = \\frac{115}{20^2} = \\frac{115}{400} = 0{,}2875.$$\nGiá trị $0{,}2875$ thuộc khoảng $\\left(0; \\frac{1}{2}\\right)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p2.png",
+          "sha256": "ff616bae67d31af9123aa8541a5ccd2e03129a95805b179cec396659971b53ef"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = ax^3 + bx^2 + cx + d$ ($a, b, c, d \\in \\mathbb{R}$) có đồ thị như hình vẽ. Tọa độ giao điểm của đồ thị hàm số đã cho và trục tung là\n\n![Đồ thị hàm số bậc ba](/math-import-assets/THPT-12-GIUA_HK1-213-p2-img1.png)",
+      "explanation": "Giao điểm của đồ thị hàm số và trục tung là điểm có hoành độ $x = 0$.\nQuan sát trên trục $Oy$, đồ thị cắt trục tung tại điểm có tung độ bằng $-2$.\nDo đó tọa độ giao điểm là $(0; -2)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p2.png",
+          "sha256": "ff616bae67d31af9123aa8541a5ccd2e03129a95805b179cec396659971b53ef"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số có đồ thị như hình vẽ bên. Điểm cực đại của đồ thị hàm số là\n\n![Đồ thị hàm số](/math-import-assets/THPT-12-GIUA_HK1-213-p2-img2.png)",
+      "explanation": "Điểm cực đại của đồ thị hàm số là điểm thuộc mặt phẳng tọa độ có tọa độ $(x_{CĐ}; y_{CĐ})$.\nQuan sát đỉnh cao nhất của đường cong lồi trên hình vẽ, điểm này có hoành độ $x = 1$ và tung độ $y = 2$, tức là điểm $(1; 2)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p2.png",
+          "sha256": "ff616bae67d31af9123aa8541a5ccd2e03129a95805b179cec396659971b53ef"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biết đồ thị hàm số $y = \\frac{x^2 + 4x + 1}{x - 2}$ có tiệm cận xiên là đường thẳng $y = ax + b$. Tính $a + b$.",
+      "explanation": "Thực hiện phép chia đa thức tử cho mẫu:\n$$\\frac{x^2 + 4x + 1}{x - 2} = \\frac{x(x - 2) + 6x + 1}{x - 2} = x + \\frac{6(x - 2) + 13}{x - 2} = x + 6 + \\frac{13}{x - 2}.$$\nDo $\\lim_{x \\to \\pm\\infty} \\frac{13}{x - 2} = 0$ nên tiệm cận xiên của đồ thị hàm số là đường thẳng $y = x + 6$.\nSuy ra $a = 1, b = 6 \\Rightarrow a + b = 1 + 6 = 7$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p2.png",
+          "sha256": "ff616bae67d31af9123aa8541a5ccd2e03129a95805b179cec396659971b53ef"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{ax^2 + bx + c}{mx + n}$ có đồ thị như hình bên dưới. Khẳng định nào sau đây là đúng?\n\n![Đồ thị hàm phân thức](/math-import-assets/THPT-12-GIUA_HK1-213-p2-img3.png)",
+      "explanation": "Tâm đối xứng của đồ thị hàm phân thức hữu tỉ bậc hai trên bậc nhất là giao điểm của đường tiệm cận đứng và đường tiệm cận xiên.\nQuan sát hình vẽ:\n- Tiệm cận đứng là đường thẳng $x = \\frac{1}{2}$.\n- Tiệm cận xiên đi qua điểm có tọa độ ứng với giao điểm tại $x = \\frac{1}{2}$, tung độ tương ứng là $y = \\frac{3}{2}$.\nDo đó tâm đối xứng của đồ thị hàm số là điểm $\\left(\\frac{1}{2}; \\frac{3}{2}\\right)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p2.png",
+          "sha256": "ff616bae67d31af9123aa8541a5ccd2e03129a95805b179cec396659971b53ef"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có $\\lim_{x \\to +\\infty} f(x) = 1$ và $\\lim_{x \\to -\\infty} f(x) = -1$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Theo định nghĩa đường tiệm cận ngang:\n- Vì $\\lim_{x \\to +\\infty} f(x) = 1$ nên $y = 1$ là một đường tiệm cận ngang.\n- Vì $\\lim_{x \\to -\\infty} f(x) = -1$ nên $y = -1$ là một đường tiệm cận ngang khác.\nVậy đồ thị hàm số đã cho có hai đường tiệm cận ngang là $y = 1$ và $y = -1$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p3.png",
+          "sha256": "c3e9dcb36d5f86886096562cda6853be9ae9370978938e411953b7e8e3cc212a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q013",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ và có bảng xét dấu của đạo hàm như sau:\n\n![Bảng xét dấu f'(x)](/math-import-assets/THPT-12-GIUA_HK1-213-p3-img1.png)\n\nHàm số $y = f(x)$ đồng biến trên khoảng nào sau đây?",
+      "explanation": "Hàm số đồng biến trên khoảng mà đạo hàm $f'(x) > 0$.\nTừ bảng xét dấu, $f'(x) > 0$ trên các khoảng $(-\\infty; -1)$ và $(1; 2)$.\nTrong các phương án đã cho, khoảng $(1; 2)$ làm hàm số đồng biến.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p3.png",
+          "sha256": "c3e9dcb36d5f86886096562cda6853be9ae9370978938e411953b7e8e3cc212a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q014",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong 8 phút đầu kể từ khi xuất phát, độ cao $h$ (tính bằng mét) của khinh khí cầu vào thời điểm $t$ (phút) được cho bởi công thức $h(t) = 6t^3 - 81t^2 + 324t$. Trong khoảng thời gian nào, khinh khí cầu giảm dần độ cao?",
+      "explanation": "Khinh khí cầu giảm dần độ cao khi và chỉ khi hàm số $h(t)$ nghịch biến, tức là $h'(t) < 0$.\nTa có:\n$$h'(t) = 18t^2 - 162t + 324 = 18(t^2 - 9t + 18) = 18(t - 3)(t - 6).$$\nCho $h'(t) < 0 \\Leftrightarrow 3 < t < 6$.\nVậy trong khoảng thời gian $(3; 6)$ phút, khinh khí cầu giảm dần độ cao.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p3.png",
+          "sha256": "c3e9dcb36d5f86886096562cda6853be9ae9370978938e411953b7e8e3cc212a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q015",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Để doanh thu cao nhất trong mùa hè năm 2024, Ban quản lý bể bơi thành phố tiến hành thăm dò dư luận. Qua thăm dò dư luận cho thấy số khách đến bơi thay đổi phụ thuộc vào giá vé $x$ theo hàm cầu là: $y(x) = -\\frac{1}{50}x + 1300$, với $x$ là giá mỗi vé bơi (đơn vị đồng). Tính doanh thu cao nhất của bể bơi đó (đơn vị đồng).",
+      "explanation": "Doanh thu thu được khi bán vé với giá $x$ là hàm số:\n$$R(x) = x \\cdot y(x) = x\\left(-\\frac{1}{50}x + 1300\\right) = -\\frac{1}{50}x^2 + 1300x.$$\nĐây là tam thức bậc hai có hệ số $a = -\\frac{1}{50} < 0$, đạt giá trị lớn nhất tại đỉnh parabol:\n$$x = -\\frac{b}{2a} = -\\frac{1300}{2 \\cdot \\left(-\\frac{1}{50}\\right)} = \\frac{1300}{\\frac{1}{25}} = 1300 \\cdot 25 = 32500\\text{ (đồng)}.$$\nDoanh thu lớn nhất tương ứng là:\n$$R_{\\max} = R(32500) = -\\frac{1}{50}(32500)^2 + 1300(32500) = -21125000 + 42250000 = 21125000\\text{ (đồng)}.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p3.png",
+          "sha256": "c3e9dcb36d5f86886096562cda6853be9ae9370978938e411953b7e8e3cc212a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q016",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}$ và đồ thị hàm số $y = f'(x)$ là đường cong trong hình vẽ dưới. Hàm số $y = f(x)$ đã cho nghịch biến trên khoảng nào dưới đây?\n\n![Đồ thị đạo hàm f'(x)](/math-import-assets/THPT-12-GIUA_HK1-213-p3-img2.png)",
+      "explanation": "Hàm số $y = f(x)$ nghịch biến trên khoảng mà $f'(x) < 0$ (tức là phần đồ thị của $y = f'(x)$ nằm phía dưới trục hoành $Ox$).\nQuan sát hình vẽ đồ thị của hàm số đạo hàm $y = f'(x)$:\n- Với $x > -1$, đường cong $y = f'(x)$ nằm hoàn toàn phía dưới trục hoành, nghĩa là $f'(x) < 0, \\forall x \\in (-1; +\\infty)$.\nDo đó hàm số $y = f(x)$ nghịch biến trên khoảng $(-1; +\\infty)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p3.png",
+          "sha256": "c3e9dcb36d5f86886096562cda6853be9ae9370978938e411953b7e8e3cc212a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q017",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giả sử chi phí để sản xuất $x$ sản phẩm của một nhà máy A được cho bởi hàm số $C(x) = 0{,}2x^2 + 10x + 5$ (triệu đồng). Khi đó chi phí trung bình để sản xuất một đơn vị sản phẩm là $f(x) = \\frac{C(x)}{x}$. Số lượng sản phẩm cần sản xuất là bao nhiêu để chi phí trung bình là thấp nhất?",
+      "explanation": "Hàm chi phí trung bình là:\n$$f(x) = \\frac{C(x)}{x} = \\frac{0{,}2x^2 + 10x + 5}{x} = 0{,}2x + 10 + \\frac{5}{x} \\quad (x > 0).$$\nÁp dụng bất đẳng thức Cauchy cho hai số dương $0{,}2x$ và $\\frac{5}{x}$:\n$$0{,}2x + \\frac{5}{x} \\ge 2\\sqrt{0{,}2x \\cdot \\frac{5}{x}} = 2\\sqrt{1} = 2.$$\nĐẳng thức xảy ra khi và chỉ khi:\n$$0{,}2x = \\frac{5}{x} \\Leftrightarrow x^2 = \\frac{5}{0{,}2} = 25 \\Leftrightarrow x = 5\\text{ (vì } x > 0\\text{)}.$$\nVậy cần sản xuất 5 sản phẩm để chi phí trung bình là thấp nhất.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p3.png",
+          "sha256": "c3e9dcb36d5f86886096562cda6853be9ae9370978938e411953b7e8e3cc212a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q018",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x^2$ trên $[-1; 1]$ là:",
+      "explanation": "Ta có $y' = 3x^2 - 6x = 3x(x - 2)$.\n$y' = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$ (loại vì $2 \\notin [-1; 1]$).\nTính giá trị tại các điểm:\n- $y(-1) = (-1)^3 - 3(-1)^2 = -1 - 3 = -4$\n- $y(0) = 0$\n- $y(1) = 1^3 - 3(1)^2 = 1 - 3 = -2$\nSo sánh các giá trị, giá trị nhỏ nhất trên đoạn $[-1; 1]$ là $-4$ tại $x = -1$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p4.png",
+          "sha256": "f9261dff11a11a93add976895e6a1b77e1dedff86cc4ab2a92f5f9b83f2f340e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q019",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị của hàm số nào dưới đây có dạng như đường cong hình dưới?\n\n![Đồ thị hàm số phân thức](/math-import-assets/THPT-12-GIUA_HK1-213-p4-img1.png)",
+      "explanation": "Quan sát đồ thị hình vẽ:\n- Đồ thị có tiệm cận đứng là $x = -1$. Trong các phương án, chỉ có phương án D có mẫu số $x + 1$ triệt tiêu tại $x = -1$.\n- Kiểm tra với hàm số $y = \\frac{x^2 + 1}{x + 1}$: giao điểm với trục tung là $(0; 1)$, phù hợp hoàn toàn với hình vẽ.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p4.png",
+          "sha256": "f9261dff11a11a93add976895e6a1b77e1dedff86cc4ab2a92f5f9b83f2f340e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q020",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có $f'(x) = x(x - 1)$. Nhận xét nào sau đây là sai?",
+      "explanation": "Ta xét dấu của $f'(x) = x(x - 1)$:\n- $f'(x) > 0 \\Leftrightarrow x \\in (-\\infty; 0) \\cup (1; +\\infty)$: hàm số đồng biến trên từng khoảng $(-\\infty; 0)$ và $(1; +\\infty)$ (phương án C đúng).\n- $f'(x) < 0 \\Leftrightarrow x \\in (0; 1)$: hàm số nghịch biến trên khoảng $(0; 1)$ (phương án D đúng).\n- $f'(x)$ đổi dấu khi qua $x = 0$ và $x = 1$ nên hàm số đạt cực trị tại hai điểm này (phương án B đúng).\n- Phương án A khẳng định hàm số đồng biến trên $(-\\infty; 3)$ là sai vì trên khoảng $(0; 1) \\subset (-\\infty; 3)$ hàm số nghịch biến.\nĐáp án chọn là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p4.png",
+          "sha256": "f9261dff11a11a93add976895e6a1b77e1dedff86cc4ab2a92f5f9b83f2f340e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q021",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x)$ liên tục trên $[-1; 5]$ và có đồ thị trên đoạn $[-1; 5]$ như hình vẽ bên dưới. Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[-1; 5]$ bằng\n\n![Đồ thị hàm số trên [-1; 5]](/math-import-assets/THPT-12-GIUA_HK1-213-p4-img2.png)",
+      "explanation": "Giá trị lớn nhất của hàm số là tung độ của điểm cao nhất của đồ thị trên đoạn $[-1; 5]$.\nQuan sát đồ thị hình vẽ, điểm cao nhất đạt được có tung độ $y = 3$ (tại $x = -1$ hoặc các đỉnh lồi tương ứng).\nVậy giá trị lớn nhất của hàm số trên đoạn $[-1; 5]$ bằng 3.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p4.png",
+          "sha256": "f9261dff11a11a93add976895e6a1b77e1dedff86cc4ab2a92f5f9b83f2f340e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q022",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/math-import-assets/THPT-12-GIUA_HK1-213-p4-img3.png)\n\nHàm số đã cho đạt cực đại tại",
+      "explanation": "Điểm cực đại của hàm số là giá trị $x$ mà tại đó đạo hàm $f'(x)$ đổi dấu từ dương sang âm, hoặc mũi tên chiều biến thiên của $y$ đi lên rồi đi xuống.\nTừ bảng biến thiên, tại $x = 1$, $f'(x)$ đổi dấu từ $+$ sang $-$ và $y$ đạt giá trị cực đại bằng 2.\nDo đó hàm số đạt cực đại tại $x = 1$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p4.png",
+          "sha256": "f9261dff11a11a93add976895e6a1b77e1dedff86cc4ab2a92f5f9b83f2f340e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q023",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ liên tục trên $[-2; 4]$ và có bảng biến thiên như sau:\n\n![Bảng biến thiên trên [-2; 4]](/math-import-assets/THPT-12-GIUA_HK1-213-p5-img1.png)\n\nGọi $M, m$ lần lượt là giá trị lớn nhất, giá trị nhỏ nhất của $f(x)$ trên đoạn $[-2; 4]$. Tính $2M - m^2$.",
+      "explanation": "Từ bảng biến thiên của hàm số trên đoạn $[-2; 4]$:\n- Điểm cao nhất có giá trị $M = 2$ (tại $x = -2$).\n- Điểm thấp nhất có giá trị $m = -3$ (tại $x = 1$).\nKhi đó:\n$$2M - m^2 = 2(2) - (-3)^2 = 4 - 9 = -5.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p5.png",
+          "sha256": "3d7391290130d20c9f9ffc3ec45df55edbb7d8f136166816d7fded1844efb7ed"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-I-Q024",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $y = -x^3 + 3x^2 - 1$ có đồ thị nào sau đây?\n\n![Các đồ thị lựa chọn](/math-import-assets/THPT-12-GIUA_HK1-213-p5-img2.png)",
+      "explanation": "Hàm số bậc ba $y = -x^3 + 3x^2 - 1$ có:\n- Hệ số $a = -1 < 0$ nên nhánh phải ngoài cùng đi xuống (loại Hình 1 và Hình 3).\n- Đạo hàm $y' = -3x^2 + 6x = -3x(x - 2) = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$.\n  + Tại $x = 0 \\Rightarrow y = -1$ (điểm cực tiểu $(0; -1)$).\n  + Tại $x = 2 \\Rightarrow y = -8 + 12 - 1 = 3$ (điểm cực đại $(2; 3)$).\nQuan sát Hình 2, đồ thị có điểm cực tiểu tại $(0; -1)$ và cực đại tại $(2; 3)$, nhánh ngoài cùng đi xuống.\nVậy đồ thị đúng là Hình 2.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p5.png",
+          "sha256": "3d7391290130d20c9f9ffc3ec45df55edbb7d8f136166816d7fded1844efb7ed"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Công ty X chuyên sản xuất một loại sản phẩm, bộ phận sản xuất ước tính rằng với $x$ sản phẩm được sản xuất trong một tháng thì tổng chi phí sẽ là $C(x) = 8x^2 + 40x + 1400$ (nghìn đồng) và mỗi sản phẩm công ty bán với giá $P(x) = 1400 - 2x$ (nghìn đồng). Các mệnh đề sau đúng hay sai?",
+      "explanation": "Theo hướng dẫn chấm chính thức của trường (Mã 1251, câu 25): A-Đ, B-Đ, C-S, D-S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p5.png",
+          "sha256": "3d7391290130d20c9f9ffc3ec45df55edbb7d8f136166816d7fded1844efb7ed"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x^2 - 2x + 3}{x - 1}$ có đồ thị là $(C)$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Theo hướng dẫn chấm chính thức của trường (Mã 1251, câu 26): A-S, B-Đ, C-S, D-Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p5.png",
+          "sha256": "3d7391290130d20c9f9ffc3ec45df55edbb7d8f136166816d7fded1844efb7ed"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = x^3 - 3x + 1$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Theo hướng dẫn chấm chính thức của trường (Mã 1251, câu 27): A-Đ, B-S, C-Đ, D-S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p5.png",
+          "sha256": "3d7391290130d20c9f9ffc3ec45df55edbb7d8f136166816d7fded1844efb7ed"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-213-M1251-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ là hàm đa thức có bảng biến thiên của hàm số như sau:\n\n![Bảng biến thiên](/math-import-assets/THPT-12-GIUA_HK1-213-p6-img1.png)\n\nCác mệnh đề sau đúng hay sai?",
+      "explanation": "Theo hướng dẫn chấm chính thức của trường (Mã 1251, câu 28): A-S, B-Đ, C-Đ, D-Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p5.png",
+          "sha256": "3d7391290130d20c9f9ffc3ec45df55edbb7d8f136166816d7fded1844efb7ed"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-213-p7.png",
+          "sha256": "a8c14240d1a3a6a616050a5230115ff748b021921de0c612246e5f72ef9162a3"
+        }
+      ]
+    }
+  ]
+}

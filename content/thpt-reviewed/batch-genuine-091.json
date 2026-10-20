@@ -1,0 +1,630 @@
+[
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q001",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/THPT-12-GIUA_HK1-209-q1.png)\n\nGiá trị cực đại của hàm số $y=f(x)$ bằng",
+    "options": [
+      {
+        "id": "A",
+        "text": "1."
+      },
+      {
+        "id": "B",
+        "text": "5."
+      },
+      {
+        "id": "C",
+        "text": "0."
+      },
+      {
+        "id": "D",
+        "text": "-3."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Dựa vào bảng biến thiên, hàm số đạt cực đại tại $x = 0$ và giá trị cực đại tương ứng là $y_{\\text{CĐ}} = 0$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p1.png",
+        "page": 1,
+        "sha256": "43cc0dfd52957abe03b9f541ae6a034b00c402df7189c3da82a400ae100a3a99"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q002",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y=f(x)$ liên tục và có bảng biến thiên trên đoạn $[-1;3]$ như hình vẽ bên dưới.\n\n![Bảng biến thiên](/images/thpt/THPT-12-GIUA_HK1-209-q2.png)\n\nGiá trị lớn nhất của hàm số trên đoạn $[-1;3]$ bằng",
+    "options": [
+      {
+        "id": "A",
+        "text": "4."
+      },
+      {
+        "id": "B",
+        "text": "5."
+      },
+      {
+        "id": "C",
+        "text": "1."
+      },
+      {
+        "id": "D",
+        "text": "0."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Từ bảng biến thiên của hàm số trên đoạn $[-1; 3]$, ta thấy giá trị cao nhất mà hàm số đạt được là $y = 5$ tại điểm $x = 2$. Do đó $\\max_{[-1; 3]} f(x) = 5$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p1.png",
+        "page": 1,
+        "sha256": "43cc0dfd52957abe03b9f541ae6a034b00c402df7189c3da82a400ae100a3a99"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q003",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$ và có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/THPT-12-GIUA_HK1-209-q3.png)\n\nHàm số $y=f(x)$ nghịch biến trên khoảng nào dưới đây?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\infty; 0)$."
+      },
+      {
+        "id": "B",
+        "text": "$(-1; 0)$."
+      },
+      {
+        "id": "C",
+        "text": "$(-1; 1)$."
+      },
+      {
+        "id": "D",
+        "text": "$(0; 1)$."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dựa vào bảng biến thiên, đạo hàm $y' < 0$ trên khoảng $(-1; 1)$, do đó hàm số nghịch biến trên khoảng $(-1; 1)$ cũng như trên mọi khoảng con của nó, cụ thể là $(-1; 0)$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p1.png",
+        "page": 1,
+        "sha256": "43cc0dfd52957abe03b9f541ae6a034b00c402df7189c3da82a400ae100a3a99"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q004",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ sau:\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-209-q4.png)\n\nĐiểm cực đại của đồ thị hàm số đã cho là:",
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-2; -1)$."
+      },
+      {
+        "id": "B",
+        "text": "$(1; 2)$."
+      },
+      {
+        "id": "C",
+        "text": "$(-1; -2)$."
+      },
+      {
+        "id": "D",
+        "text": "$(2; 1)$."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Quan sát đồ thị hàm số (hàm phân thức bậc hai trên bậc nhất với 2 nhánh), ta thấy điểm nhô lên cao nhất của nhánh bên trái có tọa độ $(-1; -2)$. Đây là điểm cực đại của đồ thị hàm số.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p1.png",
+        "page": 1,
+        "sha256": "43cc0dfd52957abe03b9f541ae6a034b00c402df7189c3da82a400ae100a3a99"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p2.png",
+        "page": 2,
+        "sha256": "21ffdf24986be409559ced094acbf75c75fffe26111050f154f280915c48f729"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q005",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $f(x)$ liên tục trên $[-1; 5]$ và có đồ thị trên đoạn $[-1; 5]$ như hình vẽ bên dưới.\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-209-q5.png)\n\nGiá trị nhỏ nhất của hàm số $f(x)$ trên đoạn $[-1; 5]$ bằng",
+    "options": [
+      {
+        "id": "A",
+        "text": "2."
+      },
+      {
+        "id": "B",
+        "text": "-2."
+      },
+      {
+        "id": "C",
+        "text": "1."
+      },
+      {
+        "id": "D",
+        "text": "3."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dựa vào đồ thị trên đoạn $[-1; 5]$, điểm thấp nhất của đồ thị có tung độ là $-2$ (đạt được tại $x = 1$). Do đó giá trị nhỏ nhất của hàm số là $-2$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p2.png",
+        "page": 2,
+        "sha256": "21ffdf24986be409559ced094acbf75c75fffe26111050f154f280915c48f729"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q006",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{2x - 5}{4 - x}$ có phương trình là",
+    "options": [
+      {
+        "id": "A",
+        "text": "$x = 4$; $y = -2$."
+      },
+      {
+        "id": "B",
+        "text": "$x = 4$; $y = \\frac{1}{2}$."
+      },
+      {
+        "id": "C",
+        "text": "$x = 4$; $y = 5$."
+      },
+      {
+        "id": "D",
+        "text": "$x = -4$; $y = -2$."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hàm số $y = \\frac{2x - 5}{-x + 4}$ có:\n- Tiệm cận đứng: nghiệm của mẫu $-x + 4 = 0 \\Leftrightarrow x = 4$.\n- Tiệm cận ngang: $y = \\lim_{x \\to \\pm\\infty} \\frac{2x - 5}{-x + 4} = -2$.\nVậy tiệm cận đứng là $x = 4$ và tiệm cận ngang là $y = -2$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p2.png",
+        "page": 2,
+        "sha256": "21ffdf24986be409559ced094acbf75c75fffe26111050f154f280915c48f729"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q007",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y=f(x)$ liên tục và có đồ thị như hình vẽ.\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-209-q7.png)\n\nĐường tiệm cận ngang của đồ thị có phương trình nào sau đây?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$x = 1$."
+      },
+      {
+        "id": "B",
+        "text": "$x = -1$."
+      },
+      {
+        "id": "C",
+        "text": "$y = 1$."
+      },
+      {
+        "id": "D",
+        "text": "$y = -1$."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Từ đồ thị hàm số, đường tiệm cận ngang là đường thẳng nằm ngang mà hai nhánh đồ thị tiến sát tới khi $x \\to \\pm\\infty$, cắt trục tung tại điểm $(0; 1)$, có phương trình $y = 1$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p2.png",
+        "page": 2,
+        "sha256": "21ffdf24986be409559ced094acbf75c75fffe26111050f154f280915c48f729"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q008",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Hàm số nào dưới đây có đồ thị như hình vẽ sau?\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-209-q8.png)",
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = x^3 - 3x + 2$."
+      },
+      {
+        "id": "B",
+        "text": "$y = \\frac{x^2 - 4x + 5}{x - 2}$."
+      },
+      {
+        "id": "C",
+        "text": "$y = \\frac{x}{x - 1}$."
+      },
+      {
+        "id": "D",
+        "text": "$y = -x^3 + 3x - 1$."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Đồ thị là hình hyperbol vuông góc của hàm phân thức bậc nhất trên bậc nhất $y = \\frac{ax+b}{cx+d}$.\n- Tiệm cận đứng: $x = 1$.\n- Tiệm cận ngang: $y = 1$.\n- Đi qua gốc tọa độ $(0; 0)$.\nKiểm tra $y = \\frac{x}{x - 1}$: có tiệm cận đứng $x = 1$, tiệm cận ngang $y = 1$ và đi qua $(0; 0)$. Do đó đáp án là C.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p2.png",
+        "page": 2,
+        "sha256": "21ffdf24986be409559ced094acbf75c75fffe26111050f154f280915c48f729"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p3.png",
+        "page": 3,
+        "sha256": "afcbdf009bbe301602d52c136dac534ab42bedd5f7f7a7255d1393f652f2951d"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q009",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Đường cong như hình vẽ dưới đây là đồ thị của hàm số nào?\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-209-q9.png)",
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = \\frac{1}{3}x^3 - x^2 - 4$."
+      },
+      {
+        "id": "B",
+        "text": "$y = -\\frac{1}{3}x^3 + 3x^2 - 1$."
+      },
+      {
+        "id": "C",
+        "text": "$y = \\frac{x^2 - 2x - 3}{x - 1}$."
+      },
+      {
+        "id": "D",
+        "text": "$y = \\frac{-x^2 + 2x - 2}{x - 1}$."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Đồ thị có tiệm cận đứng $x = 1$ và tiệm cận xiên $y = -x + 1$.\nHàm số $y = \\frac{-x^2 + 2x - 2}{x - 1} = -x + 1 - \\frac{1}{x - 1}$ có:\n- Tiệm cận đứng $x = 1$.\n- Tiệm cận xiên $y = -x + 1$.\n- Giao điểm với trục tung là $(0; 2)$.\nKhớp hoàn toàn với hình vẽ, chọn D.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p3.png",
+        "page": 3,
+        "sha256": "afcbdf009bbe301602d52c136dac534ab42bedd5f7f7a7255d1393f652f2951d"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q010",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y = f(x) = ax^3 + bx^2 + cx + d$ ($a \\neq 0$) có đồ thị như hình vẽ dưới đây.\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-209-q10.png)\n\nHàm số $y=f(x)$ đồng biến trên khoảng nào dưới đây?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$(-\\infty; 0)$."
+      },
+      {
+        "id": "B",
+        "text": "$(-1; 2)$."
+      },
+      {
+        "id": "C",
+        "text": "$(2; +\\infty)$."
+      },
+      {
+        "id": "D",
+        "text": "$(0; 2)$."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Đồ thị hàm số đi lên từ trái sang phải trên khoảng $(0; 2)$, do đó hàm số $y = f(x)$ đồng biến trên khoảng $(0; 2)$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p3.png",
+        "page": 3,
+        "sha256": "afcbdf009bbe301602d52c136dac534ab42bedd5f7f7a7255d1393f652f2951d"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q011",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y = \\frac{2x^2 - 3x - 1}{x - 2}$. Tiệm cận xiên của đồ thị hàm số là đường thẳng:",
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = 2x + 3$."
+      },
+      {
+        "id": "B",
+        "text": "$y = 2x - 1$."
+      },
+      {
+        "id": "C",
+        "text": "$y = 2x - 3$."
+      },
+      {
+        "id": "D",
+        "text": "$y = 2x + 1$."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Chia tử thức cho mẫu thức:\n$$\\frac{2x^2 - 3x - 1}{x - 2} = \\frac{(2x + 1)(x - 2) + 1}{x - 2} = 2x + 1 + \\frac{1}{x - 2}$$\nVì $\\lim_{x \\to \\pm\\infty} \\frac{1}{x - 2} = 0$, nên đường thẳng $y = 2x + 1$ là tiệm cận xiên của đồ thị hàm số.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p3.png",
+        "page": 3,
+        "sha256": "afcbdf009bbe301602d52c136dac534ab42bedd5f7f7a7255d1393f652f2951d"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-I-Q012",
+    "type": "MULTIPLE_CHOICE",
+    "prompt": "Cho hàm số $y=f(x)$ liên tục và có bảng biến thiên như hình vẽ\n\n![Bảng biến thiên](/images/thpt/THPT-12-GIUA_HK1-209-q12.png)\n\nĐường tiệm cận đứng của đồ thị có phương trình nào sau đây?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$x = 1$."
+      },
+      {
+        "id": "B",
+        "text": "$x = 2$."
+      },
+      {
+        "id": "C",
+        "text": "$y = 2$."
+      },
+      {
+        "id": "D",
+        "text": "$y = 1$."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Từ bảng biến thiên, ta thấy $\\lim_{x \\to 2^-} f(x) = -\\infty$ (hoặc $+\\infty$), nên đường thẳng $x = 2$ là tiệm cận đứng của đồ thị hàm số.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p3.png",
+        "page": 3,
+        "sha256": "afcbdf009bbe301602d52c136dac534ab42bedd5f7f7a7255d1393f652f2951d"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-II-Q001",
+    "type": "TRUE_FALSE",
+    "prompt": "Cho hàm số $y = \\frac{ax+b}{cx-1}$ có đồ thị như hình vẽ sau:\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-209-part2-q1.png)",
+    "statements": [
+      {
+        "id": "a",
+        "text": "Hàm số đã cho đồng biến trên các khoảng $(-\\infty; 1)$ và $(1; +\\infty)$.",
+        "isCorrect": false,
+        "explanation": "Dựa vào đồ thị, đồ thị đi xuống từ trái sang phải trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$, do đó hàm số nghịch biến trên các khoảng này, mệnh đề này sai."
+      },
+      {
+        "id": "b",
+        "text": "Hàm số $y = f(x) = \\frac{2x+1}{x-1}$.",
+        "isCorrect": true,
+        "explanation": "Từ đồ thị:\n- Tiệm cận đứng $x = 1 \\Rightarrow cx - 1 = 0 \\Leftrightarrow x = \\frac{1}{c} = 1 \\Rightarrow c = 1$.\n- Tiệm cận ngang $y = 2 \\Rightarrow \\frac{a}{c} = 2 \\Rightarrow a = 2$.\n- Đồ thị cắt trục tung tại $(0; -1) \\Rightarrow \\frac{b}{-1} = -1 \\Rightarrow b = 1$.\nVậy $y = \\frac{2x+1}{x-1}$, mệnh đề này đúng."
+      },
+      {
+        "id": "c",
+        "text": "$c = -1$.",
+        "isCorrect": false,
+        "explanation": "Từ tiệm cận đứng $x = 1$, ta có $c = 1 \\neq -1$, mệnh đề này sai."
+      },
+      {
+        "id": "d",
+        "text": "Hàm số $y = f(x)$ không có cực trị.",
+        "isCorrect": true,
+        "explanation": "Hàm số phân thức hữu tỉ bậc nhất trên bậc nhất $y = \\frac{2x+1}{x-1}$ có đạo hàm $y' = \\frac{-3}{(x-1)^2} < 0$ với mọi $x \\neq 1$, nên hàm số không có điểm cực trị, mệnh đề này đúng."
+      }
+    ],
+    "explanation": "a) Sai: Đồ thị hàm số đi xuống từ trái sang phải trên từng khoảng xác định, nên hàm số nghịch biến chứ không đồng biến.\nb) Đúng: Dựa vào tiệm cận đứng $x = 1$, tiệm cận ngang $y = 2$, giao trục tung tại $(0; -1)$, ta xác định được hàm số là $y = \\frac{2x+1}{x-1}$.\nc) Sai: Ta có $c = 1 \\neq -1$.\nd) Đúng: Hàm số phân thức bậc nhất trên bậc nhất không có cực trị.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p3.png",
+        "page": 3,
+        "sha256": "afcbdf009bbe301602d52c136dac534ab42bedd5f7f7a7255d1393f652f2951d"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p4.png",
+        "page": 4,
+        "sha256": "ad5f83c9d035d6ed98616b178ed64e669a0bb42b8c224e9cd74356d83e3e8ebb"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-II-Q002",
+    "type": "TRUE_FALSE",
+    "prompt": "Cho hàm số $(C): y = f(x) = \\frac{2x^2 + 3x - 5}{x + 3}$.",
+    "statements": [
+      {
+        "id": "a",
+        "text": "Đồ thị $(C)$ của hàm số không có đường tiệm cận ngang.",
+        "isCorrect": true,
+        "explanation": "Bậc của tử thức (bậc 2) lớn hơn bậc của mẫu thức (bậc 1) nên $\\lim_{x \\to \\pm\\infty} f(x) = \\pm\\infty$, đồ thị $(C)$ không có đường tiệm cận ngang. Mệnh đề đúng."
+      },
+      {
+        "id": "b",
+        "text": "Giao của 2 đường tiệm cận là $I(-3; 3)$.",
+        "isCorrect": false,
+        "explanation": "Tiệm cận đứng là $x = -3$, tiệm cận xiên là $y = 2x - 3$. Khi $x = -3$ thì $y = 2(-3) - 3 = -9$. Giao điểm là $I(-3; -9) \\neq (-3; 3)$. Mệnh đề sai."
+      },
+      {
+        "id": "c",
+        "text": "Phương trình đường tiệm cận xiên của $(C)$ có phương trình $y = 2x - 3$.",
+        "isCorrect": true,
+        "explanation": "Ta có $f(x) = 2x - 3 + \\frac{4}{x + 3}$. Do đó đường thẳng $y = 2x - 3$ là tiệm cận xiên của $(C)$. Mệnh đề đúng."
+      },
+      {
+        "id": "d",
+        "text": "Đường tiệm cận đứng của $(C)$ có phương trình $x = 3$.",
+        "isCorrect": false,
+        "explanation": "Mẫu thức triệt tiêu tại $x = -3$ (và tử tại $-3$ bằng $4 \\neq 0$), nên tiệm cận đứng là $x = -3$, không phải $x = 3$. Mệnh đề sai."
+      }
+    ],
+    "explanation": "Ta có $y = \\frac{2x^2 + 3x - 5}{x + 3} = 2x - 3 + \\frac{4}{x + 3}$.\na) Đúng: Đồ thị không có tiệm cận ngang vì bậc tử lớn hơn bậc mẫu.\nb) Sai: Tiệm cận đứng $x = -3$, tiệm cận xiên $y = 2x - 3$ cắt nhau tại điểm $I(-3; -9)$.\nc) Đúng: Tiệm cận xiên có phương trình $y = 2x - 3$.\nd) Sai: Tiệm cận đứng có phương trình $x = -3$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p4.png",
+        "page": 4,
+        "sha256": "ad5f83c9d035d6ed98616b178ed64e669a0bb42b8c224e9cd74356d83e3e8ebb"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-III-Q001",
+    "type": "SHORT_ANSWER",
+    "prompt": "Hàm số $y = \\frac{x^2 - x + 1}{x - 1}$ có giá trị cực đại và giá trị cực tiểu lần lượt là $a$ và $b$. Tính $a + 5b$.",
+    "correctAnswer": "14",
+    "explanation": "Ta biến đổi hàm số:\n$$y = x + \\frac{1}{x - 1} = (x - 1) + \\frac{1}{x - 1} + 1$$\nĐạo hàm:\n$$y' = 1 - \\frac{1}{(x - 1)^2} = \\frac{(x - 1)^2 - 1}{(x - 1)^2} = \\frac{x(x - 2)}{(x - 1)^2}$$\n$y' = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$.\nBảng biến thiên cho thấy:\n- Hàm số đạt cực đại tại $x = 0$, giá trị cực đại $a = y(0) = -1$.\n- Hàm số đạt cực tiểu tại $x = 2$, giá trị cực tiểu $b = y(2) = 3$.\nTính giá trị biểu thức:\n$$a + 5b = -1 + 5(3) = 14$$",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p4.png",
+        "page": 4,
+        "sha256": "ad5f83c9d035d6ed98616b178ed64e669a0bb42b8c224e9cd74356d83e3e8ebb"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-III-Q002",
+    "type": "SHORT_ANSWER",
+    "prompt": "Một hình chóp cụt lục giác đều có thể tích là $\\frac{7\\sqrt{6}}{2}$, cạnh đáy lớn có độ dài gấp hai lần cạnh đáy nhỏ. Khi trải phẳng hình chóp cụt lục giác đều trên một mặt phẳng thì đáy lớn nội tiếp trong 1 đường tròn (như hình vẽ).\n\n![Hình chóp cụt và khai triển](/images/thpt/THPT-12-GIUA_HK1-209-part3-q2-a.png)\n\n![Khai triển trên mặt phẳng](/images/thpt/THPT-12-GIUA_HK1-209-part3-q2-b.png)\n\nTính độ dài cạnh đáy nhỏ của hình chóp cụt lục giác đều biết đường tròn ngoại tiếp đáy lớn có bán kính đạt giá trị nhỏ nhất (kết quả làm tròn đến hàng phần trăm).",
+    "correctAnswer": "1.07",
+    "explanation": "Gọi cạnh đáy nhỏ là $x$, cạnh đáy lớn là $2x$. Thể tích khối chóp cụt lục giác đều là $V = \\frac{1}{3}h(S_1 + S_2 + \\sqrt{S_1 S_2}) = \\frac{7\\sqrt{6}}{2}$.\nTừ điều kiện trải phẳng trên mặt phẳng sao cho bán kính đường tròn ngoại tiếp đạt giá trị nhỏ nhất, thiết lập hàm số biểu diễn bán kính và tìm điểm cực tiểu ta thu được độ dài cạnh đáy nhỏ $x \\approx 1{,}07$.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p4.png",
+        "page": 4,
+        "sha256": "ad5f83c9d035d6ed98616b178ed64e669a0bb42b8c224e9cd74356d83e3e8ebb"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-III-Q003",
+    "type": "SHORT_ANSWER",
+    "prompt": "Nhà ông An ở gần bờ kênh ông dự định thiết kế một ao nuôi vịt như sau: ông bắc một chiếc cầu thứ nhất từ nhà tại điểm $A$ đến điểm $M$ trên bờ kênh. Tại điểm $M$ ông rào một ao hình tròn có đường kính bằng $MC$ và bắc thêm một cây cầu thứ hai từ $M$ đến một điểm $D$ trên bờ ao. Hằng ngày ông đi từ nhà ra kênh trên cái cầu thứ nhất rồi từ đó đi qua cái cầu thứ 2 rồi đi theo cung tròn của cái ao đến chuồng vịt tại $C$ để cho vịt ăn.\n\n![Mô hình bài toán ông An](/images/thpt/THPT-12-GIUA_HK1-209-part3-q3.png)\n\nHỏi độ dài của cây cầu thứ nhất là bao nhiêu km biết ông đi quãng đường dài nhất với góc $\\widehat{AMD} = 120^\\circ$ và nhà ông cách bờ kênh $200\\text{ m}$, $HC = 1\\text{ km}$ (kết quả làm tròn đến hàng phần trăm)?",
+    "correctAnswer": "0.37",
+    "explanation": "Đặt khoảng cách từ $H$ đến $M$ là $x$ ($0 \\le x \\le 1$). Ta có $AM = \\sqrt{0{,}2^2 + x^2}$.\nĐường kính ao là $MC = 1 - x$, bán kính $R = \\frac{1-x}{2}$.\nVới góc $\\widehat{AMD} = 120^\\circ$, độ dài đường đi $S(x) = AM + MD + s_{\\text{cung } DC}$ đạt giá trị lớn nhất khi $x \\approx 0{,}31$ km.\nKhi đó độ dài cây cầu thứ nhất $AM = \\sqrt{0{,}2^2 + x^2} \\approx 0{,}37$ km.",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p4.png",
+        "page": 4,
+        "sha256": "ad5f83c9d035d6ed98616b178ed64e669a0bb42b8c224e9cd74356d83e3e8ebb"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p5.png",
+        "page": 5,
+        "sha256": "9d66b7b08b1e92f5dfb04e7343baf97290059fc923aa572053bf358f9ca4029e"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  },
+  {
+    "id": "THPT-12-GIUA_HK1-209-M101-PART-III-Q004",
+    "type": "SHORT_ANSWER",
+    "prompt": "Một nhà máy A chuyên sản xuất một loại sản phẩm cho nhà máy B, nhà máy A chỉ bán sản phẩm cho nhà máy B và nhà máy B cam kết thu mua hết số sản phẩm mà nhà máy A sản xuất được. Nhà máy A có khả năng sản xuất được tối đa là 200 tấn sản phẩm trong 1 tháng. Nếu bán ra $x$ tấn sản phẩm cho nhà máy B thì giá bán mỗi tấn sản phẩm là $45 - 0{,}0002x^2$ triệu đồng. Trong một tháng nhà máy A phải chi phí cho nhân công và chi cho khấu hao máy móc một lượng cố định là 150 triệu đồng, ngoài ra khi sản xuất mỗi tấn sản phẩm thì nhà máy phải chi phí thêm cho mua nguyên liệu là 34 triệu đồng. Biết rằng nhà máy A phải nộp $6\\%$ doanh thu cho cơ quan thuế. Tính lợi nhuận sau thuế (lợi nhuận sau khi đã trừ tiền thuế) lớn nhất thu được trong 1 tháng của nhà máy A (đơn vị tính là triệu đồng và kết quả làm tròn đến hàng đơn vị).",
+    "correctAnswer": "521",
+    "explanation": "Doanh thu bán $x$ tấn sản phẩm:\n$$R(x) = x(45 - 0{,}0002x^2) = 45x - 0{,}0002x^3$$\nTổng chi phí sản xuất:\n$$C(x) = 150 + 34x$$\nDoanh thu sau khi trừ $6\\%$ tiền thuế:\n$$R_{\\text{sau thuế}}(x) = 0{,}94 R(x) = 0{,}94(45x - 0{,}0002x^3) = 42{,}3x - 0{,}000188x^3$$\nLợi nhuận sau thuế của nhà máy A:\n$$P(x) = R_{\\text{sau thuế}}(x) - C(x) = 8{,}3x - 0{,}000188x^3 - 150$$\nXét hàm số $P(x)$ trên đoạn $[0; 200]$:\n$$P'(x) = 8{,}3 - 0{,}000564x^2 = 0 \\Leftrightarrow x = \\sqrt{\\frac{8{,}3}{0{,}000564}} \\approx 121{,}31 \\in [0; 200]$$\nGiá trị cực đại của lợi nhuận sau thuế:\n$$P(121{,}31) \\approx 8{,}3(121{,}31) - 0{,}000188(121{,}31)^3 - 150 \\approx 521{,}25 \\approx 521\\text{ triệu đồng}$$",
+    "evidence": [
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p5.png",
+        "page": 5,
+        "sha256": "9d66b7b08b1e92f5dfb04e7343baf97290059fc923aa572053bf358f9ca4029e"
+      },
+      {
+        "path": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-209-p11.png",
+        "page": 11,
+        "sha256": "29fdd5983db200b32ee6d40613c3f426187d6e4f9bef7a07bf91f0b17ce812dd"
+      }
+    ]
+  }
+]

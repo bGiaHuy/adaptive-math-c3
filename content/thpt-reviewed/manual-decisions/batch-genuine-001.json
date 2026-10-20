@@ -1,0 +1,602 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Cho hàm số bậc hai $y = f(x)$ có đồ thị như hình vẽ. Trục đối xứng của đồ thị đã cho có phương trình là:\n\n![Đồ thị hàm số bậc hai](/math-import-assets/thpt-figure-86b51c35af5ccf84720321ada7cc56c704d6ae75e9b598ec69161d88577f5131.png)",
+      "explanation": "Quan sát đồ thị hàm số bậc hai, parabol có bề lõm quay lên trên và đỉnh là điểm $I(2; -3)$. Trục đối xứng của parabol là đường thẳng đi qua đỉnh $I$ và vuông góc với trục hoành (song song với trục tung $Oy$), có phương trình là $x = 2$. Do đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Phương trình tổng quát của đường thẳng đi qua điểm $A(1; -2)$ và có vectơ pháp tuyến $\\vec{n} = (2; 1)$ là:",
+      "explanation": "Phương trình tổng quát của đường thẳng đi qua điểm $A(x_0; y_0) = (1; -2)$ và nhận $\\vec{n} = (A; B) = (2; 1)$ làm vectơ pháp tuyến có dạng:\n$A(x - x_0) + B(y - y_0) = 0 \\Leftrightarrow 2(x - 1) + 1(y - (-2)) = 0 \\Leftrightarrow 2x - 2 + y + 2 = 0 \\Leftrightarrow 2x + y = 0$.\nVậy phương trình tổng quát là $2x + y = 0$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Trong các biểu thức dưới đây, biểu thức nào là một tam thức bậc hai?",
+      "explanation": "Tam thức bậc hai đối với biến $x$ là đa thức có dạng $f(x) = ax^2 + bx + c$ trong đó $a, b, c$ là các hệ số thực và $a \\ne 0$.\n- $f(x) = 3x^2 - 4x + 1$ có $a = 3 \\ne 0, b = -4, c = 1$ nên là tam thức bậc hai (phương án A đúng).\n- Phương án B là đa thức bậc bốn trùng phương.\n- Phương án C là đa thức bậc ba.\n- Phương án D là nhị thức bậc nhất.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, cho đường thẳng $d: 3x - 4y + 7 = 0$. Một vectơ pháp tuyến của đường thẳng $d$ là:",
+      "explanation": "Đường thẳng $d$ có phương trình tổng quát dạng $ax + by + c = 0$ nhận vectơ $\\vec{n} = (a; b)$ làm vectơ pháp tuyến. Với $d: 3x - 4y + 7 = 0$, ta có $a = 3, b = -4$. Do đó một vectơ pháp tuyến của $d$ là $\\vec{n} = (3; -4)$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Cho đường thẳng $\\Delta: x - 2y + 4 = 0$. Điểm nào sau đây thuộc đường thẳng $\\Delta$?",
+      "explanation": "Thay tọa độ các điểm vào phương trình đường thẳng $\\Delta: x - 2y + 4 = 0$:\n- Với $Q(0; 2)$: $0 - 2(2) + 4 = 0$ (thỏa mãn), suy ra $Q(0; 2) \\in \\Delta$.\n- Với $N(-2; 0)$: $-2 - 2(0) + 4 = 2 \\ne 0$.\n- Với $M(1; -2)$: $1 - 2(-2) + 4 = 9 \\ne 0$.\n- Với $P(2; 0)$: $2 - 2(0) + 4 = 6 \\ne 0$.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Tọa độ đỉnh $I$ của hàm số bậc hai $y = -2x^2 + 1$ là:",
+      "explanation": "Hàm số bậc hai $y = ax^2 + bx + c$ có tọa độ đỉnh là $I\\left(-\\frac{b}{2a}; -\\frac{\\Delta}{4a}\\right)$. Với $y = -2x^2 + 1$, các hệ số là $a = -2, b = 0, c = 1$. Hoành độ đỉnh là $x_I = -\\frac{0}{2(-2)} = 0$, tung độ đỉnh là $y_I = -2(0)^2 + 1 = 1$. Vậy đỉnh của parabol là $I(0; 1)$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Cho đường tròn $(C)$ có phương trình: $(x - 3)^2 + (y + 1)^2 = 25$. Bán kính của đường tròn $(C)$ là:",
+      "explanation": "Phương trình đường tròn tổng quát có dạng $(x - a)^2 + (y - b)^2 = R^2$ với tâm $I(a; b)$ và bán kính $R > 0$. Phương trình đã cho là $(x - 3)^2 + (y + 1)^2 = 25$, suy ra $R^2 = 25 \\Rightarrow R = \\sqrt{25} = 5$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Trong các phương trình sau, phương trình nào là phương trình của hàm số bậc hai?",
+      "explanation": "Hàm số bậc hai theo biến $x$ có phương trình dạng $y = ax^2 + bx + c$ với điều kiện $a \\ne 0$. Trong các phương trình đã cho:\n- $y = x^2 - 2x - 1$ có $a = 1 \\ne 0, b = -2, c = -1$ nên là hàm số bậc hai (phương án A đúng).\n- $y = 4x - 1$ và $y = 3 - 2x$ là hàm số bậc nhất.\n- $y = x^4 - 3x$ là hàm số bậc bốn.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Tâm $I$ của đường tròn $(C): (x + 2)^2 + (y - 4)^2 = 9$ có tọa độ là:",
+      "explanation": "Đường tròn có phương trình $(x - a)^2 + (y - b)^2 = R^2$ có tâm là $I(a; b)$. Biến đổi phương trình đường tròn: $(x - (-2))^2 + (y - 4)^2 = 3^2$, suy ra tọa độ tâm là $I(-2; 4)$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Đường thẳng đi qua hai điểm $I(0; 6)$ và $J(2; 5)$ có phương trình là:",
+      "explanation": "Đường thẳng đi qua hai điểm $I(0; 6)$ và $J(2; 5)$ nhận vectơ $\\vec{JI} = (0 - 2; 6 - 5) = (-2; 1)$ làm một vectơ chỉ phương. Phương trình tham số của đường thẳng đi qua điểm $J(2; 5)$ với vectơ chỉ phương $\\vec{u} = (-2; 1)$ là $\\begin{cases} x = 2 - 2t \\\\ y = 5 + t \\end{cases}$. Khi $t = 1$, ta có $x = 2 - 2(1) = 0$ và $y = 5 + 1 = 6$, trùng với điểm $I(0; 6)$. Do đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Cho Elip có phương trình $\\frac{x^2}{100} + \\frac{y^2}{36} = 1$. Tìm tọa độ các tiêu điểm:",
+      "explanation": "Phương trình chính tắc của elip là $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ ($a > b > 0$). Ở đây $a^2 = 100 \\Rightarrow a = 10$ và $b^2 = 36 \\Rightarrow b = 6$. Do $a > b$, hai tiêu điểm nằm trên trục hoành $Ox$. Tiêu cự $2c$ được xác định qua hệ thức $c^2 = a^2 - b^2 = 100 - 36 = 64 \\Rightarrow c = 8$. Vậy tọa độ hai tiêu điểm là $F_1(-8; 0)$ và $F_2(8; 0)$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p1.png",
+          "sha256": "2fa623615d6d10432e53a8ca8bea37d59930b0a822b903d59366120c6eded4c5"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-084-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-084.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "A",
+      "sourceExamName": "Mã đề A",
+      "independentlyReasoned": true,
+      "content": "Gieo một đồng xu cân đối, đồng chất liên tiếp hai lần. Tính xác suất để cả hai lần gieo đều được mặt sấp?",
+      "explanation": "Không gian mẫu khi gieo một đồng xu cân đối hai lần liên tiếp là $\\Omega = \\{SS, SN, NS, NN\\}$, suy ra số phần tử không gian mẫu là $n(\\Omega) = 4$. Biến cố $A$: \"Cả hai lần gieo đều được mặt sấp\" chỉ gồm duy nhất một kết quả thuận lợi là $A = \\{SS\\}$, nên $n(A) = 1$. Vì các kết quả đồng khả năng, xác suất của biến cố là $P(A) = \\frac{n(A)}{n(\\Omega)} = \\frac{1}{4}$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-084-p2.png",
+          "sha256": "f1e587baeaa55acf1ef1943a6701d7a2c67dd96e653361a852ce9996214482a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Hệ nào sau đây không phải hệ bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn là hệ gồm hai hay nhiều bất phương trình bậc nhất đối với hai ẩn $x, y$. Ở phương án B, bất phương trình thứ nhất là $x^2 - 2y > 0$ có chứa ẩn $x$ ở bậc 2, do đó hệ này không phải là hệ bất phương trình bậc nhất hai ẩn. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau, câu nào là mệnh đề",
+      "explanation": "Mệnh đề toán học là một câu khẳng định có tính đúng hoặc sai rõ ràng. Câu A là câu hỏi, câu B là câu cảm thán, câu D là nhận định mang tính cảm tính chủ quan không xác định được tính đúng sai khách quan. Câu C là câu khẳng định đúng về mặt địa lý, do đó là một mệnh đề. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{0; 1; 2; 3; 4\\}$ và $B = \\{-2; -1; 0; 1\\}$. Giao của hai tập hợp $A$ và $B$ là:",
+      "explanation": "Giao của hai tập hợp $A$ và $B$, ký hiệu $A \\cap B$, là tập hợp các phần tử thuộc cả $A$ và $B$. Liệt kê các phần tử chung của $A$ và $B$, ta thấy chỉ có 0 và 1. Do đó $A \\cap B = \\{0; 1\\}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho $90^\\circ < \\alpha < 180^\\circ$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Với góc tù $90^\\circ < \\alpha < 180^\\circ$, điểm biểu diễn $M$ của góc $\\alpha$ trên nửa đường tròn đơn vị thuộc góc phần tư thứ II, có hoành độ âm ($x_M < 0$) và tung độ dương ($y_M > 0$). Do đó:\n- $\\sin\\alpha = y_M > 0$ (phương án A sai).\n- $\\cos\\alpha = x_M < 0$ (phương án C sai).\n- $\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha} < 0$ (phương án D ĐÚNG).\n- $\\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha} < 0$ (phương án B sai).\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho $\\Delta ABC$, gọi $r, R$ lần lượt là bán kính đường tròn nội tiếp và ngoại tiếp $\\Delta ABC$, $p$ là nửa chu vi. Đặt $AB = c, AC = b, BC = a$. Diện tích $\\Delta ABC$ được tính theo công thức nào?",
+      "explanation": "Theo các công thức tính diện tích tam giác: $S = p \\cdot r = \\frac{abc}{4R} = \\frac{1}{2}bc\\sin A = \\frac{1}{2}ac\\sin B = \\sqrt{p(p-a)(p-b)(p-c)}$. Phương án A là công thức đúng $S = p \\cdot r$. (Phương án B sai vì mẫu phải là $4R$; C sai vì góc giữa $a$ và $c$ là góc $B$; D thiếu thừa số $p$ bên trong căn). Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho bất phương trình $x + y + 1 > 0$. Điểm nào dưới đây không thuộc miền nghiệm của bất phương trình trên?",
+      "explanation": "Thay tọa độ từng điểm vào vế trái $f(x, y) = x + y + 1$:\n- Với $C(0; -1)$: $f(0, -1) = 0 + (-1) + 1 = 0 \\ngtr 0$, do đó điểm $C(0; -1)$ không thỏa mãn bất phương trình và không thuộc miền nghiệm.\n- Với $B(2; 0)$: $2 + 0 + 1 = 3 > 0$ (thuộc miền nghiệm).\n- Với $D(2; 1)$: $2 + 1 + 1 = 4 > 0$ (thuộc miền nghiệm).\n- Với $A(1; 1)$: $1 + 1 + 1 = 3 > 0$ (thuộc miền nghiệm).\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Với mỗi góc $\\alpha$ ($0^\\circ \\le \\alpha \\le 180^\\circ$), xác định môt điểm $M(x_0; y_0)$ duy nhất nằm trên nửa đường tròn đơn vị sao cho $\\widehat{xOM} = \\alpha$. Khẳng định nào sau đây là sai?",
+      "explanation": "Theo định nghĩa các giá trị lượng giác trên nửa đường tròn đơn vị:\n- $\\sin\\alpha = y_0$, $\\cos\\alpha = x_0$.\n- $\\tan\\alpha = \\frac{y_0}{x_0}$ với $x_0 \\ne 0$ (tức $\\alpha \\ne 90^\\circ$).\n- $\\cot\\alpha = \\frac{x_0}{y_0}$ với điều kiện $y_0 \\ne 0$ (tức $\\alpha \\ne 0^\\circ$ và $\\alpha \\ne 180^\\circ$).\nKhẳng định D thiếu điều kiện $y_0 \\ne 0$, do đó khi $y_0 = 0$ phân số không xác định. Khẳng định D là sai. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Tam giác $ABC$ có $AB = 5, BC = 7, CA = 8$. Số đo góc $\\widehat{A}$ bằng bao nhiêu?",
+      "explanation": "Áp dụng hệ quả của định lí cosin trong tam giác $ABC$:\n$\\cos A = \\frac{AB^2 + AC^2 - BC^2}{2 \\cdot AB \\cdot AC} = \\frac{5^2 + 8^2 - 7^2}{2 \\cdot 5 \\cdot 8} = \\frac{25 + 64 - 49}{80} = \\frac{40}{80} = \\frac{1}{2}$.\nVì $0^\\circ < \\widehat{A} < 180^\\circ$ và $\\cos A = \\frac{1}{2}$, ta suy ra $\\widehat{A} = 60^\\circ$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 8,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho 2 tập hợp $A = (-2; 5)$; $B = [0; 9]$. Tìm $A \\cap B$.",
+      "explanation": "Giao của hai tập hợp $A$ và $B$ là tập hợp tất cả các số thực $x$ thỏa mãn đồng thời $-2 < x < 5$ và $0 \\le x \\le 9$. Kết hợp hai điều kiện ta được $0 \\le x < 5$, tức nửa khoảng $[0; 5)$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p8.png",
+          "sha256": "9ae635c1340d8315087b89f06873e6cc1ae3f30ab55ea927156f29b032ac5b53"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 9,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Hình vẽ nào sau đây (phần không bị gạch) minh họa cho tập hợp $(1; 4]$?",
+      "explanation": "Tập hợp $(1; 4]$ biểu diễn nửa khoảng gồm các số thực $x$ thỏa mãn $1 < x \\le 4$. Trên trục số:\n- Tại điểm 1 không lấy nên dùng dấu ngoặc tròn $($ mở về phía số 4.\n- Tại điểm 4 lấy nên dùng dấu ngoặc vuông $]$ đóng lại.\n- Toàn bộ phần nằm ngoài nửa khoảng $(1; 4]$ bị gạch bỏ.\nĐối chiếu 4 hình vẽ:\n- Hình A biểu diễn $[1; 4)$.\n- Hình B biểu diễn $(1; 4]$.\n- Hình C biểu diễn $[1; 4]$.\n- Hình D biểu diễn $(1; 4)$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 9,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Nửa mặt phẳng không bị gạch bỏ (bao gồm cả đường thẳng) ở hình vẽ bên là miền nghiệm của bất phương trình nào trong các bất phương trình sau?\n\n![Hình vẽ biểu diễn miền nghiệm](/math-import-assets/thpt-figure-d13d5d5c03a458ac53595369b169bf261cd865db3f40b3316f23e7c058add210.png)",
+      "explanation": "Đường thẳng bờ đi qua hai điểm $(2; 0)$ và $(0; -1)$ có phương trình đoạn chắn là $\\frac{x}{2} + \\frac{y}{-1} = 1 \\Leftrightarrow -x + 2y = -2$.\nQuan sát hình vẽ trong đề, gốc tọa độ $O(0; 0)$ nằm ở nửa mặt phẳng phía trên và bị gạch bỏ, nghĩa là $O(0; 0)$ không thuộc miền nghiệm.\nThay $O(0; 0)$ vào vế trái ta có: $-0 + 2(0) = 0 > -2$.\nVì phần không bị gạch bỏ (bao gồm cả đường thẳng bờ) không chứa gốc tọa độ $O(0; 0)$, các điểm thuộc miền nghiệm phải thỏa mãn $-x + 2y \\le -2$.\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 9,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho $0^\\circ \\le x \\le 180^\\circ$. Khẳng định nào sau đây đúng?",
+      "explanation": "Theo tính chất giá trị lượng giác của hai góc bù nhau ($x$ và $180^\\circ - x$):\n- $\\sin(180^\\circ - x) = \\sin x$ (phương án C ĐÚNG).\n- $\\cos(180^\\circ - x) = -\\cos x$ (phương án D sai).\n- $\\tan(180^\\circ - x) = -\\tan x$ với $x \\ne 90^\\circ$ (phương án B sai).\n- $\\cot(180^\\circ - x) = -\\cot x$ với $x \\ne 0^\\circ, 180^\\circ$ (phương án A sai).\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 9,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{2, 4, 6, 8\\}$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Xét tính đúng sai của từng mệnh đề:\n- a) Đúng: Tập hợp rỗng $\\emptyset$ là tập con của mọi tập hợp, do đó $\\emptyset \\subset A$.\n- b) Đúng: Số 2 là một phần tử thuộc tập $A$, tức $2 \\in A$.\n- c) Sai: Tập $A$ có 4 phần tử nên số tập con gồm đúng 1 phần tử là $C_4^1 = 4$ (không phải 8).\n- d) Sai: Với $k = 0$, ta có $n = 2(0) = 0 \\in \\mathbb{N}$, nhưng $0 \\notin A$. Tập ${n \\in \\mathbb{N} \\mid n = 2k, 0 \\le k \\le 4, k \\in \\mathbb{N}} = \\{0; 2; 4; 6; 8\\} \\ne A$.\nKết luận: a-Đ, b-Đ, c-S, d-S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 9,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có các cạnh $a = 7, b = 9, c = 12$. Khi đó",
+      "explanation": "Tính toán các yếu tố của tam giác $ABC$ với $a = 7, b = 9, c = 12$:\n- Nửa chu vi: $p = \\frac{a+b+c}{2} = \\frac{7+9+12}{2} = 14$. Mệnh đề b ĐÚNG.\n- Diện tích theo công thức Heron:\n  $S = \\sqrt{p(p-a)(p-b)(p-c)} = \\sqrt{14(14-7)(14-9)(14-12)} = \\sqrt{14 \\cdot 7 \\cdot 5 \\cdot 2} = \\sqrt{980} = 14\\sqrt{5}$. Mệnh đề a ĐÚNG.\n- Bán kính đường tròn nội tiếp: $r = \\frac{S}{p} = \\frac{14\\sqrt{5}}{14} = \\sqrt{5} \\ne \\sqrt{3}$. Mệnh đề c SAI.\n- Bán kính đường tròn ngoại tiếp: $R = \\frac{abc}{4S} = \\frac{7 \\cdot 9 \\cdot 12}{4 \\cdot 14\\sqrt{5}} = \\frac{756}{56\\sqrt{5}} = \\frac{27}{2\\sqrt{5}} = \\frac{27\\sqrt{5}}{10} \\ne \\frac{54\\sqrt{5}}{5}$. Mệnh đề d SAI.\nKết luận: a-Đ, b-Đ, c-S, d-S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 9,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $BC = 8, \\widehat{B} = 45^\\circ, \\widehat{C} = 75^\\circ$. Tính độ dài $AC$ (làm tròn kết quả đến hàng phần trăm).",
+      "explanation": "Trong tam giác $ABC$, tổng ba góc bằng $180^\\circ$ nên $\\widehat{A} = 180^\\circ - (45^\\circ + 75^\\circ) = 60^\\circ$.\nÁp dụng định lí sin trong tam giác $ABC$:\n$\\frac{AC}{\\sin B} = \\frac{BC}{\\sin A} \\Rightarrow AC = \\frac{BC \\cdot \\sin B}{\\sin A} = \\frac{8 \\cdot \\sin 45^\\circ}{\\sin 60^\\circ} = \\frac{8 \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{3}}{2}} = \\frac{8\\sqrt{6}}{3} \\approx 6{,}532 \\approx 6{,}53$.\nĐáp số: 6,53.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 9,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Cho $\\cos x = \\frac{4}{5}$ với $0^\\circ \\le x \\le 180^\\circ$. Giá trị $\\sin x$ bằng bao nhiêu?",
+      "explanation": "Áp dụng hệ thức cơ bản $\\sin^2 x + \\cos^2 x = 1$:\n$\\sin^2 x = 1 - \\cos^2 x = 1 - \\left(\\frac{4}{5}\\right)^2 = 1 - \\frac{16}{25} = \\frac{9}{25}$.\nVì $0^\\circ \\le x \\le 180^\\circ$ nên $\\sin x \\ge 0$, do đó $\\sin x = \\sqrt{\\frac{9}{25}} = \\frac{3}{5} = 0{,}6$.\nĐáp số: 0,6.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": "9-10",
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Mẹ cho bạn An 200 nghìn đồng để mua vở và bút bi cho năm học mới. Khi đến nhà sách loại vở mà An hay dùng có giá 7 nghìn đồng một quyển, loại bút bi An hay dùng có giá 4,5 nghìn đồng một cây. Gọi $x$ và $y$ ($x, y \\in \\mathbb{N}$) lần lượt là số quyển vở và số bút bi bạn An mua. Khi đó $x$ và $y$ thỏa mãn bất phương trình $ax + 9y \\le b$. Biểu thức $5a + b$ có giá trị là bao nhiêu?",
+      "explanation": "Số tiền bạn An mua $x$ quyển vở và $y$ cây bút bi là $7x + 4{,}5y$ (nghìn đồng).\nVì tổng số tiền không vượt quá 200 nghìn đồng nên ta có bất phương trình:\n$7x + 4{,}5y \\le 200$.\nNhân cả hai vế của bất phương trình với 2 để thu được hệ số 9 ở biến $y$:\n$14x + 9y \\le 400$.\nĐồng nhất với bất phương trình $ax + 9y \\le b$, ta được $a = 14$ và $b = 400$.\nKhi đó giá trị biểu thức $5a + b = 5(14) + 400 = 70 + 400 = 470$.\nĐáp số: 470.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p9.png",
+          "sha256": "fdaa79d393bd09d1122f20a4b351c3ae6026f557a440c4e699f071adc283a28b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p10.png",
+          "sha256": "3a968423173d824bba34e535962b68877bcd0f04dbaad4b28aa63cc0e8b1c7fb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 10,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Lớp 10A1 có 46 học sinh chuẩn bị cho hội diễn văn nghệ chào mừng ngày nhà giáo Việt Nam 20/11. Trong danh sách đăng kí tham gia tiết mục nhảy và tiết mục hát, có 26 học sinh tham gia tiết mục nhảy, 10 học sinh tham gia cả hai tiết mục. Hỏi có bao nhiêu học sinh trong lớp tham gia tiết mục hát? Biết rằng lớp 10A1 có 4 bạn Kiệt, Hạ, Toàn, Thiện không hòa nhập nên không tham gia tiết mục nào.",
+      "explanation": "Tổng số học sinh lớp là 46, có 4 bạn không tham gia tiết mục nào, nên số học sinh tham gia ít nhất một trong hai tiết mục là $46 - 4 = 42$ học sinh.\nGọi $A$ là tập hợp các học sinh tham gia tiết mục nhảy và $B$ là tập hợp các học sinh tham gia tiết mục hát.\nTheo đề bài: $|A| = 26$, $|A \\cap B| = 10$, và $|A \\cup B| = 42$.\nÁp dụng công thức số phần tử hợp của hai tập hợp:\n$|A \\cup B| = |A| + |B| - |A \\cap B| \\Leftrightarrow 42 = 26 + |B| - 10 \\Leftrightarrow 42 = 16 + |B| \\Rightarrow |B| = 26$.\nVậy có 26 học sinh tham gia tiết mục hát.\nĐáp số: 26.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p10.png",
+          "sha256": "3a968423173d824bba34e535962b68877bcd0f04dbaad4b28aa63cc0e8b1c7fb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 10,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "a) Viết mệnh đề phủ định của mệnh đề $P$: \"$\\exists x \\in \\mathbb{N} \\mid x^2 - 3x + 2 = 0$\".\nb) Cho hai tập hợp $A = [-1; 3)$ và $B = (2; 6)$. Tìm $A \\cup B$.",
+      "explanation": "a) Mệnh đề phủ định của mệnh đề chứa lượng từ tồn tại $\\exists$ là mệnh đề chứa lượng từ với mọi $\\forall$ và phủ định khẳng định. Mệnh đề $P$: \"$\\exists x \\in \\mathbb{N} \\mid x^2 - 3x + 2 = 0$\" có mệnh đề phủ định là $\\overline{P}$: \"$\\forall x \\in \\mathbb{N}, x^2 - 3x + 2 \\ne 0$\".\nb) Cho hai tập hợp $A = [-1; 3)$ và $B = (2; 6)$. Hợp của hai tập hợp $A \\cup B$ là tập gồm các phần tử thuộc $A$ hoặc thuộc $B$. Vì $-1 \\le 2 < 3 < 6$, hợp của hai khoảng là $A \\cup B = [-1; 6)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p10.png",
+          "sha256": "3a968423173d824bba34e535962b68877bcd0f04dbaad4b28aa63cc0e8b1c7fb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 10,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Để gây quỹ tổ chức Đêm hội trăng rằm cho các em thiếu nhi mồ côi, có hoàn cảnh khó khăn, Câu Lạc Bộ thiện nguyện trường THPT Nguyễn Thái Bình tổ chức dự án “Trăng Sáng - Lòng Vàng” bán bánh trung thu gồm hai loại: bánh trung thu thập cẩm và bánh trung thu sầu riêng. Giá mỗi chiếc bánh trung thu thập cẩm là 60 nghìn đồng và bánh trung thu sầu riêng là 70 nghìn đồng; với số vốn ban đầu không vượt quá 10,5 triệu đồng. Loại bánh trung thu thập cẩm mang lại lợi nhuận 7 nghìn đồng cho mỗi cái bánh bán được và loại bánh trung thu sầu riêng mang lại lợi nhuận 8 nghìn đồng mỗi cái bánh bán được. Câu Lạc Bộ ước tính rằng tổng nhu cầu sẽ không vượt quá 160 cái bánh. Tìm số lượng mỗi loại bánh mà Câu Lạc Bộ bán được để lợi nhuận thu được là lớn nhất.",
+      "explanation": "Gọi $x, y$ lần lượt là số bánh trung thu thập cẩm và sầu riêng bán được ($x, y \\in \\mathbb{N}$). Đổi 10,5 triệu đồng = 10 500 nghìn đồng.\nTheo đề bài, các điều kiện ràng buộc là:\n1. Số vốn không vượt quá 10 500 nghìn đồng: $60x + 70y \\le 10500 \\Leftrightarrow 6x + 7y \\le 1050$.\n2. Tổng số bánh không vượt quá 160: $x + y \\le 160$.\n3. Điều kiện không âm: $x \\ge 0, y \\ge 0$.\nTa có hệ bất phương trình:\n$\\begin{cases} 6x + 7y \\le 1050 \\\\ x + y \\le 160 \\\\ x \\ge 0 \\\\ y \\ge 0 \\end{cases}$\nMiền nghiệm của hệ là miền tứ giác $OACB$ (kể cả biên) với:\n- $O(0; 0)$\n- $A(160; 0)$\n- $B(0; 150)$\n- $C(70; 90)$ là giao điểm của hai đường thẳng $x + y = 160$ và $6x + 7y = 1050$.\nHàm lợi nhuận cần đạt cực đại: $F(x, y) = 7x + 8y$ (nghìn đồng).\nTính giá trị của $F(x, y)$ tại các đỉnh của miền nghiệm:\n- $F(0, 0) = 0$\n- $F(160, 0) = 7(160) + 8(0) = 1120$ nghìn đồng\n- $F(0, 150) = 7(0) + 8(150) = 1200$ nghìn đồng\n- $F(70, 90) = 7(70) + 8(90) = 490 + 720 = 1210$ nghìn đồng.\nVậy lợi nhuận thu được lớn nhất là 1 210 nghìn đồng (tức 1 210 000 đồng) khi Câu Lạc Bộ bán 70 chiếc bánh thập cẩm và 90 chiếc bánh sầu riêng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p10.png",
+          "sha256": "3a968423173d824bba34e535962b68877bcd0f04dbaad4b28aa63cc0e8b1c7fb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-003-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-003.pdf",
+      "pdfPage": 10,
+      "sourceExamCode": "Đề số 1",
+      "sourceExamName": "Đề số 1",
+      "independentlyReasoned": true,
+      "content": "Từ hai vị trí $A$ và $B$ của một tòa nhà, người ta quan sát đỉnh $C$ của ngọn núi. Biết rằng độ cao $AB = 70\\text{ m}$, phương nhìn $AC$ tạo với phương nằm ngang góc $30^\\circ$, phương nhìn $BC$ tạo với phương nằm ngang góc $60^\\circ$. Tính chiều cao ngọn núi so với mặt đất.\n\n![Hình vẽ bài toán đo chiều cao ngọn núi](/math-import-assets/thpt-figure-a8c3d72a5fe3d301ae59b2b429166103b8ca37a4cee928fd46f761908d342e1a.png)",
+      "explanation": "Theo hình vẽ minh họa trong đề thi:\n- Vị trí $B$ nằm ở chân tòa nhà (trên mặt đất), vị trí $A$ nằm thẳng đứng phía trên $B$, khoảng cách $AB = 70\\text{ m}$.\n- Gọi $H$ là hình chiếu vuông góc của đỉnh núi $C$ xuống mặt đất (đường thẳng nằm ngang qua chân tòa nhà $B$), và $K$ là hình chiếu vuông góc của $C$ lên đường thẳng nằm ngang qua $A$.\n- Gọi $d = BH = AK$ là khoảng cách theo phương nằm ngang từ tòa nhà đến đỉnh núi.\n- Từ điểm $B$, góc nâng lên đỉnh $C$ là $60^\\circ$, suy ra chiều cao ngọn núi so với mặt đất là $h = CH = d \\cdot \\tan 60^\\circ = d\\sqrt{3}$.\n- Từ điểm $A$, góc nâng lên đỉnh $C$ so với phương ngang là $30^\\circ$, suy ra độ cao của $C$ so với vị trí $A$ là $CK = d \\cdot \\tan 30^\\circ = \\frac{d}{\\sqrt{3}}$.\n- Ta có $CH - CK = HK = AB = 70\\text{ m}$.\nDo đó:\n$d\\sqrt{3} - \\frac{d}{\\sqrt{3}} = 70 \\Leftrightarrow d\\left(\\frac{3 - 1}{\\sqrt{3}}\\right) = 70 \\Leftrightarrow d \\cdot \\frac{2}{\\sqrt{3}} = 70 \\Leftrightarrow d = 35\\sqrt{3}\\text{ m}$.\nChiều cao của ngọn núi so với mặt đất là:\n$h = CH = d\\sqrt{3} = 35\\sqrt{3} \\cdot \\sqrt{3} = 35 \\cdot 3 = 105\\text{ m}$.\nĐáp số: $105\\text{ m}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-003-p10.png",
+          "sha256": "3a968423173d824bba34e535962b68877bcd0f04dbaad4b28aa63cc0e8b1c7fb"
+        }
+      ]
+    }
+  ]
+}

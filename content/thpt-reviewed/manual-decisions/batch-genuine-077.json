@@ -1,0 +1,439 @@
+{
+  "batchId": "batch-genuine-077",
+  "reviewedAt": "2026-10-20T13:05:00.000Z",
+  "reviewer": "Antigravity Automated Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị dưới đây là đồ thị của hàm số nào trong các hàm số sau:\n\n![Đồ thị hàm số mũ](/math-import-assets/THPT-11-GIUA_HK2-167-p1-img1.png)",
+      "explanation": "Đồ thị hàm số đi qua điểm $(0; 1)$ và $(1; 0{,}5)$, nằm hoàn toàn phía trên trục hoành $Ox$, có đường tiệm cận ngang là trục $Ox$, và nghịch biến trên $\\mathbb{R}$.\nDo đó đây là hàm số mũ cơ số $0 < a < 1$, cụ thể là $y = \\left(\\frac{1}{2}\\right)^x$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p1.png",
+          "sha256": "f925dd6ffefa3b9ab5e026e30124d276a9a741b1660075b9b69354c72d58b468"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AB$ và $A'C'$ bằng bao nhiêu?\n\n![Hình lập phương](/math-import-assets/THPT-11-GIUA_HK2-167-p1-img2.png)",
+      "explanation": "Vì $A'B'C'D'$ là hình vuông nên $A'C' \\parallel AC$.\nDo đó góc giữa $AB$ và $A'C'$ bằng góc giữa $AB$ và $AC$, chính là $\\widehat{BAC}$.\nVì đáy $ABCD$ là hình vuông nên tam giác $ABC$ vuông cân tại $B$, suy ra $\\widehat{BAC} = 45^\\circ$.\nVậy $(AB, A'C') = 45^\\circ$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p1.png",
+          "sha256": "f925dd6ffefa3b9ab5e026e30124d276a9a741b1660075b9b69354c72d58b468"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tập xác định của hàm số $y = \\log_2(x - 3)^2$.",
+      "explanation": "Hàm số $y = \\log_2(x - 3)^2$ xác định khi và chỉ khi:\n$$(x - 3)^2 > 0 \\Leftrightarrow x - 3 \\ne 0 \\Leftrightarrow x \\ne 3.$$\nVậy tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{3\\}$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p1.png",
+          "sha256": "f925dd6ffefa3b9ab5e026e30124d276a9a741b1660075b9b69354c72d58b468"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với số thực dương $a$ bất kì, giá trị của $\\log_2(2a)$ bằng:",
+      "explanation": "Áp dụng công thức lôgarit của một tích:\n$$\\log_2(2a) = \\log_2 2 + \\log_2 a = 1 + \\log_2 a.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p1.png",
+          "sha256": "f925dd6ffefa3b9ab5e026e30124d276a9a741b1660075b9b69354c72d58b468"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $0{,}1^{2x} = 100$ có nghiệm",
+      "explanation": "Ta có $0{,}1 = 10^{-1}$ và $100 = 10^2$.\nPhương trình tương đương:\n$$(10^{-1})^{2x} = 10^2 \\Leftrightarrow 10^{-2x} = 10^2 \\Leftrightarrow -2x = 2 \\Leftrightarrow x = -1.$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p1.png",
+          "sha256": "f925dd6ffefa3b9ab5e026e30124d276a9a741b1660075b9b69354c72d58b468"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian, cho đường thẳng $d$ và điểm $O$. Có bao nhiêu đường thẳng đi qua $O$ và vuông góc với đường thẳng $d$?",
+      "explanation": "Trong không gian, qua điểm $O$ có duy nhất một mặt phẳng $(P)$ vuông góc với đường thẳng $d$. Mọi đường thẳng đi qua $O$ và nằm trong mặt phẳng $(P)$ đều vuông góc với $d$. Vì trong $(P)$ có vô số đường thẳng đi qua $O$ nên có vô số đường thẳng đi qua $O$ và vuông góc với $d$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p1.png",
+          "sha256": "f925dd6ffefa3b9ab5e026e30124d276a9a741b1660075b9b69354c72d58b468"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABC$ có đáy là tam giác vuông tại $B$, $SA \\perp (ABC)$. Gọi $H, K$ lần lượt là hình chiếu của điểm $A$ trên cạnh $SB$ và $SC$. Chọn mệnh đề sai trong các mệnh đề sau:",
+      "explanation": "- Ta có $BC \\perp AB$ và $BC \\perp SA \\Rightarrow BC \\perp (SAB) \\Rightarrow BC \\perp AH$. Kết hợp $AH \\perp SB \\Rightarrow AH \\perp (SBC)$ (mệnh đề B, C đúng).\n- Do $AH \\perp (SBC) \\Rightarrow AH \\perp SC$. Lại có $AK \\perp SC \\Rightarrow SC \\perp (AHK)$ (mệnh đề D đúng).\n- Mệnh đề A khẳng định $AK \\perp (SBC)$ là sai vì $AH \\perp (SBC)$, nếu $AK \\perp (SBC)$ thì $AH \\parallel AK$ (mâu thuẫn vì cắt nhau tại $A$).\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p1.png",
+          "sha256": "f925dd6ffefa3b9ab5e026e30124d276a9a741b1660075b9b69354c72d58b468"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đặt $a = \\log_2 3, b = \\log_5 3$. Nếu biểu diễn $\\log_6 45 = \\frac{a + b}{b(a + p)}$ hoặc $\\frac{a(m + nb)}{b(a + p)}$ thì $m + n + p$ bằng:",
+      "explanation": "Đổi cơ số theo 3:\n$\\log_3 2 = \\frac{1}{a}, \\log_3 5 = \\frac{1}{b}$.\nTa có $\\log_6 45 = \\frac{\\log_3 45}{\\log_3 6} = \\frac{\\log_3(3^2 \\cdot 5)}{\\log_3(2 \\cdot 3)} = \\frac{2 + \\log_3 5}{1 + \\log_3 2} = \\frac{2 + \\frac{1}{b}}{1 + \\frac{1}{a}} = \\frac{\\frac{2b + 1}{b}}{\\frac{a + 1}{a}} = \\frac{a(2b + 1)}{b(a + 1)} = \\frac{a(1 + 2b)}{b(a + 1)}$.\nSo sánh với $\\frac{a(m + nb)}{b(a + p)}$, ta được $m = 1, n = 2, p = 1$.\nSuy ra $m + n + p = 1 + 2 + 1 = 4$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $a > 0, m, n \\in \\mathbb{R}$. Khẳng định nào sau đây đúng?",
+      "explanation": "Theo tính chất lũy thừa: $(a^m)^n = a^{m \\cdot n} = a^{n \\cdot m} = (a^n)^m$.\nDo đó khẳng định B là đúng.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số nghiệm nguyên của bất phương trình $\\log_{\\frac{1}{2}}(4x - 9) > \\log_{\\frac{1}{2}}(x + 10)$ là",
+      "explanation": "Điều kiện: $4x - 9 > 0 \\Leftrightarrow x > \\frac{9}{4} = 2{,}25$.\nVì cơ số $0 < \\frac{1}{2} < 1$ nên bất phương trình đảo chiều:\n$$4x - 9 < x + 10 \\Leftrightarrow 3x < 19 \\Leftrightarrow x < \\frac{19}{3} \\approx 6{,}33.$$\nKết hợp điều kiện: $\\frac{9}{4} < x < \\frac{19}{3}$.\nCác giá trị nguyên của $x$ thỏa mãn là: $x \\in \\{3, 4, 5, 6\\}$.\nVậy có đúng 4 nghiệm nguyên.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian cho đường thẳng $a$ không nằm trong mặt phẳng $(P)$, đường thẳng $a$ được gọi là vuông góc mặt phẳng $(P)$ nếu",
+      "explanation": "Định nghĩa: Một đường thẳng được gọi là vuông góc với một mặt phẳng nếu nó vuông góc với mọi đường thẳng nằm trong mặt phẳng đó.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Rút gọn biểu thức $a = (a^{\\sqrt{2} + 1})^{\\sqrt{2} - 1}$ ($a > 0$) ta được kết quả là",
+      "explanation": "Áp dụng quy tắc lũy thừa của lũy thừa:\n$$(a^{\\sqrt{2} + 1})^{\\sqrt{2} - 1} = a^{(\\sqrt{2} + 1)(\\sqrt{2} - 1)} = a^{2 - 1} = a^1 = a.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $2a$, $SA \\perp (ABCD)$, $SA = 2\\sqrt{3}a$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Theo hướng dẫn chấm chính thức của trường (Mã 119): a) Đúng, b) Sai, c) Đúng, d) Đúng (Đ-S-Đ-Đ).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Theo hướng dẫn chấm chính thức của trường (Mã 119): a) Đúng, b) Đúng, c) Đúng, d) Sai (Đ-Đ-Đ-S).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong một phòng thí nghiệm, người ta nuôi một loại vi khuẩn. Lúc đầu có 300 con vi khuẩn. Sau một giờ, số vi khuẩn là 705 con. Số lượng vi khuẩn sau $x$ giờ là $f(x) = C e^{kx}$. Hỏi sau ít nhất bao lâu số vi khuẩn sẽ vượt 10000 con? (đơn vị giờ, kết quả phép tính đến phần trăm).",
+      "explanation": "Tại thời điểm ban đầu $x = 0$: $f(0) = C = 300$.\nSau 1 giờ: $f(1) = 300 e^k = 705 \\Rightarrow e^k = \\frac{705}{300} = 2{,}35 \\Rightarrow k = \\ln 2{,}35$.\nSố lượng vi khuẩn sau $x$ giờ: $f(x) = 300 (2{,}35)^x$.\nĐể số vi khuẩn vượt 10000 con:\n$$300 (2{,}35)^x > 10000 \\Leftrightarrow (2{,}35)^x > \\frac{100}{3} \\Leftrightarrow x > \\log_{2{,}35}\\left(\\frac{100}{3}\\right) = \\frac{\\ln(100/3)}{\\ln 2{,}35} \\approx \\frac{3{,}50656}{0{,}854415} \\approx 4{,}104 \\approx 4{,}11\\text{ giờ}.$$\nĐáp số: 4,11.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có tất cả các cạnh đều bằng nhau. Gọi $I$ và $J$ lần lượt là trung điểm của $SC$ và $BC$. Tính giá trị $\\cos(IJ, CD)$.",
+      "explanation": "Trong tam giác $SBC$, $IJ$ là đường trung bình nên $IJ \\parallel SB$ và $IJ = \\frac{1}{2}SB$.\nLại có đáy $ABCD$ là hình vuông (vì tất cả các cạnh đều bằng nhau) nên $CD \\parallel AB$.\nDo đó $(IJ, CD) = (SB, AB) = \\widehat{SBA}$.\nVì tam giác $SAB$ là tam giác đều (các cạnh bằng nhau) nên $\\widehat{SBA} = 60^\\circ$.\nSuy ra $\\cos(IJ, CD) = \\cos 60^\\circ = \\frac{1}{2} = 0{,}5$.\nĐáp số: 0,5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p2.png",
+          "sha256": "5aedd5fdd4e560e8c6d9016e4eafbc1b35b77b9836ff9a93fa4d2ca5f200272e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ông An gửi vào ngân hàng 200 triệu đồng theo hình thức lãi kép với lãi suất ngân hàng là 6%/năm. Giả sử qua các năm thì lãi suất không thay đổi và ông An không gửi thêm tiền vào mỗi năm. Hỏi sau 3 năm ông An có số tiền cả gốc và lãi bằng bao nhiêu triệu (kết quả làm tròn đến hàng đơn vị)?",
+      "explanation": "Số tiền cả gốc và lãi ông An nhận được sau 3 năm là:\n$$A = 200 \\cdot (1 + 0{,}06)^3 = 200 \\cdot (1{,}06)^3 = 200 \\cdot 1{,}191016 = 238{,}2032\\text{ triệu đồng}.$$\nLàm tròn đến hàng đơn vị: 238 triệu đồng.\nĐáp số: 238.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $a = \\log_2 12 - 2\\log_2 3$ (hoặc $\\log_2 12 - \\dots$). Tính $a$?",
+      "explanation": "Theo đáp án chính thức của trường THPT Nguyễn Trường Tộ: $a = 1$.\nĐáp số: 1.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Rút gọn biểu thức $A = \\frac{a^{\\frac{5}{3}} \\cdot a^{\\frac{7}{3}}}{a^4 \\cdot a^{-2}}$ với $a > 0$.",
+      "explanation": "Ta có:\nTử số: $a^{\\frac{5}{3}} \\cdot a^{\\frac{7}{3}} = a^{\\frac{5}{3} + \\frac{7}{3}} = a^{\\frac{12}{3}} = a^4$.\nMẫu số: $a^4 \\cdot a^{-2} = a^{4 - 2} = a^2$.\nDo đó:\n$$A = \\frac{a^4}{a^2} = a^{4 - 2} = a^2.$$\nĐáp số: $a^2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với mọi số thực $a$ dương khác 1, tính $\\log_a \\sqrt[3]{a}$.",
+      "explanation": "Ta có $\\sqrt[3]{a} = a^{\\frac{1}{3}}$.\nKhi đó:\n$$\\log_a \\sqrt[3]{a} = \\log_a (a^{\\frac{1}{3}}) = \\frac{1}{3} \\log_a a = \\frac{1}{3}.$$\nĐáp số: $\\frac{1}{3}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải phương trình $\\log_3(x^2 + 4) + \\log_{\\frac{1}{3}}(2x + 3) = 0$.",
+      "explanation": "Điều kiện:\n$$\\begin{cases} x^2 + 4 > 0 \\text{ (luôn đúng)} \\\\ 2x + 3 > 0 \\Leftrightarrow x > -\\frac{3}{2} \\end{cases}$$\nPhương trình tương đương:\n$$\\log_3(x^2 + 4) - \\log_3(2x + 3) = 0 \\Leftrightarrow \\log_3(x^2 + 4) = \\log_3(2x + 3)$$\n$$\\Leftrightarrow x^2 + 4 = 2x + 3 \\Leftrightarrow x^2 - 2x + 1 = 0 \\Leftrightarrow (x - 1)^2 = 0 \\Leftrightarrow x = 1.$$\nGiá trị $x = 1$ thỏa mãn điều kiện $x > -\\frac{3}{2}$.\nVậy phương trình có nghiệm duy nhất $x = 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-IV-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\log_{2026 - 2a} x$ với $a$ là tham số. Có bao nhiêu số tự nhiên $a$ để hàm số đã cho đồng biến trên khoảng $(0; +\\infty)$?",
+      "explanation": "Hàm số $y = \\log_{2026 - 2a} x$ đồng biến trên $(0; +\\infty)$ khi và chỉ khi cơ số lớn hơn 1:\n$$2026 - 2a > 1 \\Leftrightarrow 2a < 2025 \\Leftrightarrow a < 1012{,}5.$$\nVì $a$ là số tự nhiên nên $a \\in \\{0, 1, 2, \\ldots, 1012\\}$.\nSố lượng giá trị thỏa mãn là $1012 - 0 + 1 = 1013$ số.\nĐáp số: 1013.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-IV-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Năm 2025, một hãng công nghệ có 31 triệu người dùng phần mềm của họ. Hãng đặt kế hoạch, trong 3 năm tiếp theo, mỗi năm số lượng người dùng phần mềm tăng 8% so với năm trước đó và từ năm thứ 4 trở đi, số lượng người dùng phần mềm sẽ tăng 5% so với năm trước đó. Theo kế hoạch đó, hỏi bắt đầu từ năm nào thì số lượng người dùng phần mềm của hãng sẽ vượt quá 57 triệu người? (Kết quả làm tròn đến hàng đơn vị).",
+      "explanation": "Số lượng người dùng sau 3 năm đầu (cuối năm 2028):\n$$A_3 = 31 \\cdot (1 + 0{,}08)^3 = 31 \\cdot (1{,}08)^3 \\approx 39{,}05\\text{ triệu người}.$$\nTừ năm 2029 trở đi, gọi $n$ là số năm tăng trưởng 5% để vượt quá 57 triệu người:\n$$39{,}05 \\cdot (1 + 0{,}05)^n > 57 \\Leftrightarrow (1{,}05)^n > \\frac{57}{39{,}05} \\Leftrightarrow n > \\log_{1{,}05}\\left(\\frac{57}{39{,}05}\\right) \\approx 7{,}75.$$\nDo đó cần ít nhất $n = 8$ năm nữa kể từ năm 2028.\nNăm đạt mốc là: $2028 + 8 = 2036$.\nVậy bắt đầu từ năm 2036 thì số lượng người dùng sẽ vượt quá 57 triệu người.\nĐáp số: 2036.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-167-M119-PART-IV-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông cân tại $B$, cạnh bên $SA$ vuông góc với đáy. Gọi $H$ là hình chiếu của $A$ trên $SB$. Biết $SA = \\sqrt{3}a, AB = a$. Tính độ dài đoạn thẳng $HC$ theo $a$.\n\n![Hình vẽ bài toán không gian](/math-import-assets/THPT-11-GIUA_HK2-167-M119-PART-IV-Q006-sol-fig1.png)",
+      "explanation": "Ta có $BC \\perp AB$ và $BC \\perp SA \\Rightarrow BC \\perp (SAB) \\Rightarrow BC \\perp AH$.\nLại có $AH \\perp SB$, suy ra $AH \\perp (SBC) \\Rightarrow AH \\perp HC$.\nDo đó tam giác $AHC$ vuông tại $H$.\n- Trong tam giác vuông $SAB$ có đường cao $AH$:\n$$\\frac{1}{AH^2} = \\frac{1}{SA^2} + \\frac{1}{AB^2} = \\frac{1}{3a^2} + \\frac{1}{a^2} = \\frac{4}{3a^2} \\Rightarrow AH^2 = \\frac{3a^2}{4}.$$\n- Đáy $ABC$ vuông cân tại $B$ nên $BC = AB = a$, suy ra:\n$$AC^2 = AB^2 + BC^2 = a^2 + a^2 = 2a^2.$$\n- Áp dụng định lý Pytago trong tam giác vuông $AHC$:\n$$HC = \\sqrt{AC^2 - AH^2} = \\sqrt{2a^2 - \\frac{3a^2}{4}} = \\sqrt{\\frac{5a^2}{4}} = \\frac{\\sqrt{5}}{2}a.$$\nĐáp số: $\\frac{\\sqrt{5}}{2}a$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p3.png",
+          "sha256": "7a33eef4ab38fcafbb771e52679e8be5c7b6b9106c6eaa4b7137b889487ec029"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-167-p7.png",
+          "sha256": "bbf085dc58f34e4fe2dd8d07517898056d66b43c1eb077e12e056e7d78c22125"
+        }
+      ]
+    }
+  ]
+}

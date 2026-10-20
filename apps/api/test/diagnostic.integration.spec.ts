@@ -65,7 +65,7 @@ describe('Diagnostic CAT/IRT and Student Mastery Integration', () => {
     const startRes = await request(app.getHttpServer())
       .post('/api/v1/diagnostic/start')
       .set('Cookie', studentCookie)
-      .send({ grade: 9 })
+      .send({ grade: 10 })
       .expect(201);
 
     expect(startRes.body.attemptId).toBeDefined();
@@ -131,7 +131,7 @@ describe('Diagnostic CAT/IRT and Student Mastery Integration', () => {
       .set('Cookie', studentCookie)
       .expect(200);
 
-    expect(pathRes.body.grade).toBe(9);
+    expect(pathRes.body.grade).toBe(10);
     expect(pathRes.body.modules.length).toBeGreaterThan(0);
   });
 });

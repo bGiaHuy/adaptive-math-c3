@@ -26,10 +26,10 @@ describe('Math learning loop with real persistence and access control', () => {
       users.push(reg.body.id);
       const login = await request(app.getHttpServer()).post('/api/v1/auth/login').send({ identifier: username, password: 'MathQaStrong123!' }).expect(200);
       cookies.push(login.headers['set-cookie'][0].split(';')[0]);
-      await db.studentProfile.upsert({ where: { userId: users[i] }, update: { grade: 8 }, create: { userId: users[i], grade: 8, targetGoal: 'Ôn thi cuối kỳ', dailyMinutes: 30 } });
+      await db.studentProfile.upsert({ where: { userId: users[i] }, update: { grade: 11 }, create: { userId: users[i], grade: 11, targetGoal: 'Ôn thi cuối kỳ', dailyMinutes: 30 } });
     }
     for (let s = 0; s < 2; s++) {
-      const skill = await db.skillNode.create({ data: { code: `math_qa_${suffix}_${s}`, title: `QA Skill ${s}`, chapter: 'QA', grade: 8, orderIndex: s + 1 } });
+      const skill = await db.skillNode.create({ data: { code: `math_qa_${suffix}_${s}`, title: `QA Skill ${s}`, chapter: 'QA', grade: 11, orderIndex: s + 1 } });
       skills.push(skill.id);
       for (let i = 0; i < 12; i++) await db.question.create({ data: { skillId: skill.id, authorId: admin!.id,
         cognitiveLevel: Object.values(CognitiveLevel)[Math.floor(i / 3)], status: 'PUBLISHED', content: `QA ${s}: ${i}+1=?`, explanation: `Answer ${i+1}`,
@@ -46,12 +46,12 @@ describe('Math learning loop with real persistence and access control', () => {
   const get = (user: number, path: string) => request(app.getHttpServer()).get(`/api/v1/${path}`).set('Cookie', cookies[user]);
   const post = (user: number, path: string, body = {}) => request(app.getHttpServer()).post(`/api/v1/${path}`).set('Cookie', cookies[user]).send(body);
   it('keeps diagnostics grade-scoped, rejects forged questions, resumes deterministically and submits atomically', async () => {
-    // Grade 8 practice remains supported; the comprehensive diagnostic requires its grade-9 matrix.
-    await post(0, 'diagnostic/start').expect(400);
-    await db.studentProfile.update({ where: { userId: users[0] }, data: { grade: 9 } });
+    // The API rejects unsupported grades; the assessment stays scoped to the chosen THPT grade.
+    await request(app.getHttpServer()).patch('/api/v1/student/onboarding').set('Cookie', cookies[0]).send({ grade: 9 }).expect(400);
+    await request(app.getHttpServer()).patch('/api/v1/student/onboarding').set('Cookie', cookies[0]).send({ grade: 10 }).expect(200);
     const start = (await post(0, 'diagnostic/start').expect(201)).body;
-    expect(start.questions).toHaveLength(22);
-    expect(start.questions.map((q: any) => q.questionType)).toEqual([...Array(12).fill('SINGLE_CHOICE'),...Array(4).fill('TRUE_FALSE'),...Array(6).fill('SHORT_ANSWER')]);
+    expect(start.questions).toHaveLength(18);
+    expect(start.questions.map((q: any) => q.questionType)).toEqual([...Array(12).fill('SINGLE_CHOICE'),...Array(2).fill('TRUE_FALSE'),...Array(4).fill('SHORT_ANSWER')]);
     expect(new Set(start.questions.map((q: any) => q.id)).size).toBe(start.questions.length);
     expect(start.currentQuestion.id).toBe(start.questions[0].id);
     expect(start.currentQuestion).not.toHaveProperty('explanation'); expect(start.currentQuestion.options[0]).not.toHaveProperty('isCorrect');

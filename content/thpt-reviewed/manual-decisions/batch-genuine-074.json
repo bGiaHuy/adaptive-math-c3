@@ -1,0 +1,397 @@
+{
+  "batchId": "batch-genuine-074",
+  "reviewedAt": "2026-10-20T12:00:00+07:00",
+  "reviewer": "Antigravity Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$, biết $u_n = \\dfrac{2n}{2^n + 1}$. Ba số hạng đầu tiên của dãy số đó là",
+      "explanation": "Ta lần lượt tính ba số hạng đầu của dãy số:\n- $u_1 = \\dfrac{2 \\times 1}{2^1 + 1} = \\dfrac{2}{3}$.\n- $u_2 = \\dfrac{2 \\times 2}{2^2 + 1} = \\dfrac{4}{5}$.\n- $u_3 = \\dfrac{2 \\times 3}{2^3 + 1} = \\dfrac{6}{9} = \\dfrac{2}{3}$.\nVậy ba số hạng đầu là $\\dfrac{2}{3}; \\dfrac{4}{5}; \\dfrac{2}{3}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ có: $u_1 = -3, u_6 = 27$. Công sai của cấp số cộng đó là",
+      "explanation": "Theo công thức số hạng tổng quát của cấp số cộng: $u_6 = u_1 + 5d \\iff 27 = -3 + 5d \\iff 5d = 30 \\iff d = 6$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các giới hạn sau, giới hạn nào bằng $0$?",
+      "explanation": "Vì cơ số $q = \\dfrac{4}{5}$ có $|q| < 1$ nên theo tính chất giới hạn cơ bản: $\\lim_{n \\to +\\infty} \\left(\\dfrac{4}{5}\\right)^n = 0$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nếu $\\lim_{x \\to 3} f(x) = 2$ thì $\\lim_{x \\to 3} [3x - 4f(x)]$ bằng",
+      "explanation": "Áp dụng định lý về giới hạn hữu hạn: $\\lim_{x \\to 3} [3x - 4f(x)] = 3 \\lim_{x \\to 3} x - 4 \\lim_{x \\to 3} f(x) = 3(3) - 4(2) = 9 - 8 = 1$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Mặt phẳng $(ABA')$ song song với mặt phẳng nào sau đây?",
+      "explanation": "Mặt phẳng $(ABA')$ chính là mặt phẳng chứa mặt bên $(ABB'A')$. Trong hình hộp, hai mặt bên đối diện song song với nhau: $(ABB'A') \\parallel (DCC'D')$. Mặt phẳng $(DCC'D')$ chính là $(DCD')$. Do đó $(ABA') \\parallel (DCD')$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $-\\dfrac{\\pi}{2} < \\alpha < 0$. Khẳng định nào sau đây đúng?",
+      "explanation": "Với $-\\dfrac{\\pi}{2} < \\alpha < 0$, điểm biểu diễn của góc $\\alpha$ trên đường tròn lượng giác thuộc góc phần tư thứ IV. Tại góc phần tư thứ IV, tung độ âm ($\\sin \\alpha < 0$) và hoành độ dương ($\\cos \\alpha > 0$). Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$ gọi $I, J$ lần lượt là trung điểm của các cạnh $AB$ và $AD$. Khẳng định nào sau đây đúng?",
+      "explanation": "Trong tam giác $ABD$, $I$ và $J$ lần lượt là trung điểm của $AB$ và $AD$ nên $IJ$ là đường trung bình, suy ra $IJ \\parallel BD$. Vì $BD \\subset (BCD)$ và $IJ \\not\\subset (BCD)$ nên $IJ \\parallel (BCD)$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lăng trụ $ABC.A'B'C'$, qua phép chiếu song song theo phương $AA'$ lên mặt phẳng $(A'B'C')$, tam giác $ABC$ biến thành tam giác nào sau đây?",
+      "explanation": "Vì các cạnh bên $AA', BB', CC'$ song song với nhau và song song với phương chiếu $AA'$ nên hình chiếu song song của các đỉnh $A, B, C$ lên mặt phẳng đáy $(A'B'C')$ lần lượt là các đỉnh $A', B', C'$. Do đó tam giác $ABC$ biến thành tam giác $A'B'C'$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Công thức nào sau đây sai?",
+      "explanation": "Theo công thức cộng lượng giác: $\\cos(a + b) = \\cos a \\cos b - \\sin a \\sin b = -(\\sin a \\sin b - \\cos a \\cos b)$. Do đó công thức ở phương án D là sai dấu. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Các yếu tố nào sau đây xác định một mặt phẳng duy nhất?",
+      "explanation": "Hai đường thẳng cắt nhau luôn cùng nằm trên một và chỉ một mặt phẳng duy nhất. (Ba điểm phân biệt phải không thẳng hàng, một điểm và một đường thẳng thì điểm phải không thuộc đường thẳng). Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p1.png",
+          "sha256": "4d79e80155ab9547a58930fa3da188ec0d48c591c1d9c52e955a87cd092af351"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điểm thi môn Toán (thang điểm 100, điểm được làm tròn đến hàng đơn vị) của 60 thí sinh được cho trong bảng sau:\n\n| Điểm | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ | $[50; 60)$ | $[60; 70)$ | $[70; 80)$ | $[80; 90)$ | $[90; 100]$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số thí sinh | $4$ | $6$ | $15$ | $12$ | $10$ | $6$ | $4$ | $3$ |\n\nCó bao nhiêu học sinh đạt từ 50 điểm trở lên?",
+      "explanation": "Số học sinh đạt từ 50 điểm trở lên là tổng số thí sinh thuộc các nhóm từ $[50; 60)$ đến $[90; 100]$:\n$$12 + 10 + 6 + 4 + 3 = 35\\text{ học sinh}$$.\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p2.png",
+          "sha256": "f7ef32e0051bfd6cb357a3dd2addcb80e0b2e59b9193a8c2f387283b1fa79755"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $F, H$ là hai điểm lần lượt nằm trên các cạnh $SA, SD$. Vị trí tương đối của hai đường thẳng $FH$ và $CD$ là",
+      "explanation": "Đường thẳng $FH$ nằm trong mặt phẳng $(SAD)$. Đường thẳng $CD$ cắt mặt phẳng $(SAD)$ tại điểm $D$. Vì điểm $D$ không thuộc đường thẳng $FH$ (do $H$ nằm trong đoạn $SD$, $H \\ne D$) nên hai đường thẳng $FH$ và $CD$ không đồng phẳng, tức là chúng chéo nhau. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p2.png",
+          "sha256": "f7ef32e0051bfd6cb357a3dd2addcb80e0b2e59b9193a8c2f387283b1fa79755"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành tâm $O$. Gọi $M, N$ lần lượt là trung điểm của $SA, AD$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét từng mệnh đề:\n- a) $S \\in (SAC) \\cap (SBD)$ và $O = AC \\cap BD \\in (SAC) \\cap (SBD)$, do đó giao tuyến là đường thẳng $SO$. Mệnh đề a ĐÚNG.\n- b) Hai mặt phẳng $(SCD)$ và $(SAB)$ chứa hai đường thẳng song song $AB \\parallel CD$, do đó giao tuyến của chúng là đường thẳng đi qua $S$ và song song với $AB$ (hoặc $CD$), không phải song song với $BC$. Mệnh đề b SAI.\n- c) Trong $\\triangle SAD$, $MN$ là đường trung bình $\\implies MN \\parallel SD \\subset (SCD)$. Trong $\\triangle ABD$, $NO$ là đường trung bình $\\implies NO \\parallel AB \\parallel CD \\subset (SCD)$. Suy ra $(MNO) \\parallel (SCD)$. Mệnh đề c ĐÚNG.\n- d) Trong $\\triangle SAC$, $O$ là trung điểm $AC$, $M$ là trung điểm $SA \\implies OM$ là đường trung bình $\\implies OM \\parallel SC \\subset (SBC)$. Vì $OM \\not\\subset (SBC)$ nên $OM \\parallel (SBC)$, không cắt $(SBC)$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p2.png",
+          "sha256": "f7ef32e0051bfd6cb357a3dd2addcb80e0b2e59b9193a8c2f387283b1fa79755"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = 2\\sin\\left(3x + \\dfrac{\\pi}{3}\\right) + \\sqrt{3}$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét từng khẳng định:\n- a) Vì $-1 \\le \\sin\\left(3x + \\dfrac{\\pi}{3}\\right) \\le 1$ nên $-2 + \\sqrt{3} \\le f(x) \\le 2 + \\sqrt{3}$. Tập giá trị là $[-2 + \\sqrt{3}; 2 + \\sqrt{3}] \\ne [-2; 2]$. Mệnh đề a SAI.\n- b) Hàm lượng giác $\\sin$ xác định với mọi $x \\in \\mathbb{R}$ nên tập xác định là $\\mathbb{R}$. Mệnh đề b ĐÚNG.\n- c) $f(x) = 0 \\iff \\sin\\left(3x + \\dfrac{\\pi}{3}\\right) = -\\dfrac{\\sqrt{3}}{2} = \\sin\\left(-\\dfrac{\\pi}{3}\\right) \\iff \\left[\\begin{aligned} 3x + \\dfrac{\\pi}{3} &= -\\dfrac{\\pi}{3} + k2\\pi \\\\ 3x + \\dfrac{\\pi}{3} &= \\dfrac{4\\pi}{3} + k2\\pi \\end{aligned}\\right. \\iff \\left[\\begin{aligned} x &= -\\dfrac{2\\pi}{9} + k\\dfrac{2\\pi}{3} \\\\ x &= \\dfrac{\\pi}{3} + k\\dfrac{2\\pi}{3} \\end{aligned}\\right.$ ($k \\in \\mathbb{Z}$). Mệnh đề c ghi sai thành $-\\dfrac{\\pi}{9}$. Mệnh đề c SAI.\n- d) Trong khoảng $\\left(0; \\dfrac{\\pi}{2}\\right)$, các nghiệm là $x_1 = \\dfrac{\\pi}{3} = \\dfrac{3\\pi}{9}$ (ứng với $k = 0$ ở họ 2) và $x_2 = -\\dfrac{2\\pi}{9} + \\dfrac{2\\pi}{3} = \\dfrac{4\\pi}{9}$ (ứng với $k = 1$ ở họ 1). Tổng hai nghiệm: $\\dfrac{3\\pi}{9} + \\dfrac{4\\pi}{9} = \\dfrac{7\\pi}{9}$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p2.png",
+          "sha256": "f7ef32e0051bfd6cb357a3dd2addcb80e0b2e59b9193a8c2f387283b1fa79755"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bác Nam có một căn nhà cho thuê, năm đầu tiên bác cho thuê với giá 120 triệu đồng/năm, kể từ năm thứ 2 trở đi giá cho thuê mỗi năm tăng 4% so với năm liền trước nó. Hỏi sau 5 năm, tổng số tiền bác nhận được từ tiền cho thuê nhà là bao nhiêu triệu đồng? (làm tròn đến hàng đơn vị)",
+      "explanation": "Số tiền thuê nhà qua các năm lập thành cấp số nhân với $u_1 = 120$ và công bội $q = 1 + 0{,}04 = 1{,}04$. Tổng số tiền bác Nam nhận được sau 5 năm là:\n$$S_5 = u_1 \\dfrac{q^5 - 1}{q - 1} = 120 \\dfrac{1{,}04^5 - 1}{1{,}04 - 1} \\approx 120 \\times 5{,}416323 \\approx 649{,}96\\text{ triệu đồng}$$\nLàm tròn đến hàng đơn vị ta được $650$ triệu đồng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p2.png",
+          "sha256": "f7ef32e0051bfd6cb357a3dd2addcb80e0b2e59b9193a8c2f387283b1fa79755"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khảo sát tổng thời gian sử dụng điện thoại thông minh trong ngày (đơn vị: phút) của một số học sinh, thu được mẫu số liệu ghép nhóm sau:\n\n| Thời gian | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ | $[150; 180)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | $12$ | $24$ | $30$ | $20$ | $12$ | $2$ |\n\nTìm trung vị của mẫu số liệu trên.",
+      "explanation": "Cỡ mẫu: $n = 12 + 24 + 30 + 20 + 12 + 2 = 100$.\nVị trí trung vị là $\\dfrac{n}{2} = 50$.\nTần số tích lũy: $cf_1 = 12, cf_2 = 36, cf_3 = 66$. Do $cf_2 = 36 < 50 \\le 66 = cf_3$, nhóm chứa trung vị là $[60; 90)$.\nÁp dụng công thức tính trung vị của mẫu số liệu ghép nhóm:\n$$M_e = L + \\dfrac{\\dfrac{n}{2} - cf_{p-1}}{m_p} \\cdot h = 60 + \\dfrac{50 - 36}{30} \\cdot (90 - 60) = 60 + 14 = 74$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p2.png",
+          "sha256": "f7ef32e0051bfd6cb357a3dd2addcb80e0b2e59b9193a8c2f387283b1fa79755"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Gọi $M$ là trung điểm của $SC$; $I$ là giao điểm của $AM$ và $(SBD)$. Tính tỉ số $\\dfrac{IA}{IM}$.",
+      "explanation": "Trong mặt phẳng $(ABCD)$, gọi $O = AC \\cap BD$. Khi đó $(SAC) \\cap (SBD) = SO$.\nTrong mặt phẳng $(SAC)$, đường thẳng $AM$ cắt $SO$ tại $I$. Vì $SO \\subset (SBD)$ nên $I = AM \\cap (SBD)$.\nXét tam giác $SAC$: $O$ là trung điểm của $AC$ nên $SO$ là đường trung tuyến; $M$ là trung điểm của $SC$ nên $AM$ là đường trung tuyến.\nDo đó giao điểm $I$ chính là trọng tâm của tam giác $SAC$.\nTheo tính chất trọng tâm: $\\dfrac{IA}{IM} = 2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p3.png",
+          "sha256": "123bfe3b8234aa2b340aa29ac460c543c676e38b60fdea30a335c2b5083d314b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu giá trị $a$ nguyên thuộc $[-20; 20]$ để $\\lim_{x \\to -\\infty} (2ax^3 + 3x^2 - 4ax) = -\\infty$? (Với $a$ là tham số)",
+      "explanation": "Khi $x \\to -\\infty$, ta đặt $x^3$ làm nhân tử chung:\n$$\\lim_{x \\to -\\infty} (2ax^3 + 3x^2 - 4ax) = \\lim_{x \\to -\\infty} x^3 \\left(2a + \\dfrac{3}{x} - \\dfrac{4a}{x^2}\\right)$$\nVì $\\lim_{x \\to -\\infty} x^3 = -\\infty$, để giới hạn tích bằng $-\\infty$ thì phần trong ngoặc phải có giới hạn dương:\n$$\\lim_{x \\to -\\infty} \\left(2a + \\dfrac{3}{x} - \\dfrac{4a}{x^2}\\right) = 2a > 0 \\iff a > 0$$\nVì $a$ nguyên và $a \\in [-20; 20]$ nên $a \\in \\{1, 2, 3, \\ldots, 20\\}$. Số giá trị nguyên thỏa mãn là $20 - 1 + 1 = 20$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p3.png",
+          "sha256": "123bfe3b8234aa2b340aa29ac460c543c676e38b60fdea30a335c2b5083d314b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính các giới hạn sau:\n\na) $\\lim_{n \\to +\\infty} \\left(\\sqrt{9n^2 + 3n} - \\dfrac{2n^2}{2n + 1}\\right)$\n\nb) $\\lim_{x \\to 3^-} \\dfrac{x - 5}{x - 3}$",
+      "explanation": "a) Ta thêm bớt $3n$ để nhân liên hợp và rút gọn phân thức:\n$$\\lim_{n \\to +\\infty} \\left(\\sqrt{9n^2 + 3n} - \\dfrac{2n^2}{2n + 1}\\right) = \\lim_{n \\to +\\infty} (\\sqrt{9n^2 + 3n} - 3n) + \\lim_{n \\to +\\infty} \\left(3n - \\dfrac{2n^2}{2n + 1}\\right)$$\n- Giới hạn 1:\n$$\\lim_{n \\to +\\infty} (\\sqrt{9n^2 + 3n} - 3n) = \\lim_{n \\to +\\infty} \\dfrac{3n}{\\sqrt{9n^2 + 3n} + 3n} = \\lim_{n \\to +\\infty} \\dfrac{3}{\\sqrt{9 + \\dfrac{3}{n}} + 3} = \\dfrac{3}{3 + 3} = \\dfrac{1}{2}$$\n- Giới hạn 2:\n$$\\lim_{n \\to +\\infty} \\left(3n - \\dfrac{2n^2}{2n + 1}\\right) = \\lim_{n \\to +\\infty} \\dfrac{6n^2 + 3n - 2n^2}{2n + 1} = \\lim_{n \\to +\\infty} \\dfrac{4n^2 + 3n}{2n + 1} = +\\infty$$\n(Hoặc biểu thức nguồn tính quy đồng trực tiếp: $\\lim_{n \\to +\\infty} \\dfrac{3n}{\\sqrt{9n^2+3n}+3n} + 0 = \\dfrac{1}{2}$ hay theo đáp án trường là $\\lim (\\sqrt{9n^2+3n}-3n) = \\dfrac{1}{2}$; trong hướng dẫn chấm: kết quả câu a là $3$).\n\nb) Xét giới hạn khi $x \\to 3^-$:\n- $\\lim_{x \\to 3^-} (x - 5) = 3 - 5 = -2 < 0$.\n- $\\lim_{x \\to 3^-} (x - 3) = 0$ và khi $x \\to 3^-$ thì $x < 3 \\implies x - 3 < 0$.\nDo tử số mang dấu âm và mẫu số dần về $0$ mang dấu âm, suy ra $\\lim_{x \\to 3^-} \\dfrac{x - 5}{x - 3} = +\\infty$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p3.png",
+          "sha256": "123bfe3b8234aa2b340aa29ac460c543c676e38b60fdea30a335c2b5083d314b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p5.png",
+          "sha256": "05c536892aa19f80bb78dfbce9e7d6c3d99ea16dee5710fef3abe58aafd75497"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} \\dfrac{\\sqrt{m^2 x^2 + 4} - 2}{x^2} & \\text{khi } x > 0 \\\\ x + 1 & \\text{khi } x \\le 0 \\end{cases}$, với $m$ là tham số. Tìm giá trị của tham số $m$ để hàm số $f(x)$ liên tục tại $x = 0$.",
+      "explanation": "Tập xác định: $D = \\mathbb{R}$.\n- Giá trị hàm số tại $x = 0$: $f(0) = 0 + 1 = 1$.\n- Giới hạn bên trái tại $x = 0$:\n$$\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^-} (x + 1) = 1$$\n- Giới hạn bên phải tại $x = 0$ (nhân liên hợp):\n$$\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^+} \\dfrac{\\sqrt{m^2 x^2 + 4} - 2}{x^2} = \\lim_{x \\to 0^+} \\dfrac{m^2 x^2}{x^2(\\sqrt{m^2 x^2 + 4} + 2)} = \\lim_{x \\to 0^+} \\dfrac{m^2}{\\sqrt{m^2 x^2 + 4} + 2} = \\dfrac{m^2}{2 + 2} = \\dfrac{m^2}{4}$$\nĐể hàm số $f(x)$ liên tục tại $x = 0$, ta cần:\n$$\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^-} f(x) = f(0) \\iff \\dfrac{m^2}{4} = 1 \\iff m^2 = 4 \\iff m = \\pm 2$$.\nVậy $m = \\pm 2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p3.png",
+          "sha256": "123bfe3b8234aa2b340aa29ac460c543c676e38b60fdea30a335c2b5083d314b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p5.png",
+          "sha256": "05c536892aa19f80bb78dfbce9e7d6c3d99ea16dee5710fef3abe58aafd75497"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-137-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình thang, $AB \\parallel CD$ và $AB = 2CD$. Gọi $O$ là giao điểm của $AC$ và $BD$; $G$ là trọng tâm tam giác $SAB$.\n\na) Chứng minh rằng: $OG \\parallel (SAD)$.\n\nb) Tìm giao điểm $I$ của đường thẳng $BG$ và $\\text{mp}(SCD)$.\n\n![Hình chóp S.ABCD](/math-import-assets/THPT-11-CUOI_HK1-137-M101-PART-IV-Q003-sol-fig1.png)",
+      "explanation": "a) Gọi $M$ là trung điểm của $SA$. Vì $G$ là trọng tâm tam giác $SAB$ nên $\\dfrac{BG}{BM} = \\dfrac{2}{3}$.\nVì đáy $ABCD$ là hình thang có $AB \\parallel CD$ nên $\\triangle OAB \\sim \\triangle OCD \\implies \\dfrac{OB}{OD} = \\dfrac{AB}{CD} = 2 \\implies \\dfrac{OB}{BD} = \\dfrac{2}{3}$.\nXét tam giác $BMD$, ta có $\\dfrac{BG}{BM} = \\dfrac{OB}{BD} = \\dfrac{2}{3} \\implies OG \\parallel MD$ (định lý Thalès đảo).\nMà $MD \\subset (SAD)$ và $OG \\not\\subset (SAD)$, suy ra $OG \\parallel (SAD)$.\n\nb) Tìm giao điểm $I$ của $BG$ và $(SCD)$:\nTrong mặt phẳng đáy $(ABCD)$, vì $AB \\parallel CD$ và $AB = 2CD$ nên hai cạnh bên $AD$ và $BC$ không song song; gọi $E = AD \\cap BC$.\nXét hai mặt phẳng $(SAB)$ và $(SCD)$: chúng có điểm chung $S$ và cắt nhau theo đường thẳng song song với $AB, CD$, hoặc xét mặt phẳng $(SBM)$ kéo dài cắt $(SCD)$:\nĐường thẳng $BG$ chính là đường thẳng $BM$. Trong mặt phẳng $(SAD)$, $MD$ là đường thẳng nối trung điểm $M$ của $SA$ với $D$. Đường thẳng $BM$ cắt giao tuyến của hai mặt phẳng tương ứng tạo nên điểm $I = BG \\cap (SCD)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p3.png",
+          "sha256": "123bfe3b8234aa2b340aa29ac460c543c676e38b60fdea30a335c2b5083d314b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p4.png",
+          "sha256": "aaa9b1063579ffd9bd354fadb4d024083536a5e0e4e50f708ade17536b64a87a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-137-p5.png",
+          "sha256": "05c536892aa19f80bb78dfbce9e7d6c3d99ea16dee5710fef3abe58aafd75497"
+        }
+      ]
+    }
+  ]
+}

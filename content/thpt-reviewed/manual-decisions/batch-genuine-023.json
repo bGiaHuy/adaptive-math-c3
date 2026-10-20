@@ -1,0 +1,474 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Khi sử dụng máy tính bỏ túi với 10 chữ số thập phân ta được: $\\sqrt[3]{7} = 1{,}912931183...$ Giá trị gần đúng của $\\sqrt[3]{7}$ chính xác đến hàng phần nghìn là:",
+      "explanation": "Chữ số ở hàng phần nghìn là chữ số thập phân thứ ba, ở đây là 2. Chữ số ngay sau nó là 9 (thỏa mãn $\\ge 5$), do đó ta làm tròn tăng thêm 1 đơn vị lên thành $1{,}913$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho $\\vec{u} = -2\\vec{i} + \\vec{j}$. Tìm tọa độ của vectơ $\\vec{u}$.",
+      "explanation": "Theo định nghĩa tọa độ của một vectơ trong mặt phẳng $Oxy$, nếu $\\vec{u} = x\\vec{i} + y\\vec{j}$ thì tọa độ của $\\vec{u}$ là $(x; y)$. Với $\\vec{u} = -2\\vec{i} + \\vec{j}$ ta có $\\vec{u} = (-2; 1)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho 3 điểm phân biệt $A, B, C$. Trong các khẳng định sau, khẳng định nào sai?",
+      "explanation": "Xét từng khẳng định:\n- Khẳng định A: $\\vec{CA} - \\vec{CB} = \\vec{BA}$ (đúng theo quy tắc trừ hai vectơ chung gốc).\n- Khẳng định B: $\\vec{CB} + \\vec{AC} = \\vec{AC} + \\vec{CB} = \\vec{AB} \\ne \\vec{BA}$ (sai).\n- Khẳng định C: $\\vec{CA} + \\vec{BC} = \\vec{BC} + \\vec{CA} = \\vec{BA}$ (đúng).\n- Khẳng định D: $\\vec{AC} + \\vec{CB} = \\vec{AB}$ (đúng theo quy tắc 3 điểm).\nDo đó khẳng định B là khẳng định sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho lục giác đều $ABCDEF$ có tâm $O$. Vectơ $\\vec{OB}$ bằng vectơ nào sau đây?\n\n![Lục giác đều ABCDEF tâm O](/math-import-assets/thpt-figure-035-p1-q4-hexagon.png)",
+      "explanation": "Trong lục giác đều $ABCDEF$ tâm $O$, đoạn thẳng $FA$ song song và có độ dài bằng $OB$. Chiều từ $F$ đến $A$ cùng chiều với chiều từ $O$ đến $B$. Do đó $\\vec{OB} = \\vec{FA}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $X = \\{1; 2; 3; 6; 8; 9\\}$ và $Y = \\{1; 2; 4; 5; 6\\}$. Mệnh đề nào sau đây đúng?",
+      "explanation": "Hợp của hai tập hợp $X$ và $Y$ gồm tất cả các phần tử thuộc $X$ hoặc thuộc $Y$:\n$$X \\cup Y = \\{1; 2; 3; 4; 5; 6; 8; 9\\}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Xác định mốt của mẫu số liệu sau: $76\\quad 94\\quad 78\\quad 82\\quad 78\\quad 86\\quad 90\\quad 90\\quad 78$.",
+      "explanation": "Trong mẫu số liệu trên, giá trị 78 xuất hiện 3 lần, các giá trị khác xuất hiện ít hơn (90 xuất hiện 2 lần, các giá trị khác xuất hiện 1 lần). Vì vậy mốt của mẫu số liệu là $M_o = 78$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Điểm nào sau đây thuộc miền nghiệm của hệ bất phương trình $\\begin{cases} 2x - 5y - 1 > 0 \\\\ 2x + y + 5 > 0 \\\\ x + y + 1 < 0 \\end{cases}$?",
+      "explanation": "Thay tọa độ điểm $(0; -2)$ vào hệ bất phương trình:\n$$\\begin{cases} 2(0) - 5(-2) - 1 = 9 > 0 \\\\ 2(0) + (-2) + 5 = 3 > 0 \\\\ 0 + (-2) + 1 = -1 < 0 \\end{cases}$$\nCả 3 bất phương trình đều được thỏa mãn. Do đó điểm $(0; -2)$ thuộc miền nghiệm của hệ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cặp vectơ nào sau đây là cặp vectơ cùng hướng?\n\n![Tam giác ABC với đoạn thẳng MN](/math-import-assets/thpt-figure-035-p1-q8-triangle.png)",
+      "explanation": "Đoạn thẳng $MN$ song song với cạnh đáy $BC$. Hai vectơ $\\vec{MN}$ và $\\vec{BC}$ cùng phương và cùng chiều từ trái sang phải, do đó $\\vec{MN}$ và $\\vec{BC}$ là cặp vectơ cùng hướng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-1.png",
+          "sha256": "d4bbfe8bf53a623c5c0064150f7b74f3e8251bf2c1b63aec76172e9c1e5de797"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Tam giác $ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 45^\\circ$ và $AB = 5$. Tính độ dài cạnh $AC$.",
+      "explanation": "Áp dụng định lí sin trong tam giác $ABC$:\n$$\\dfrac{AC}{\\sin B} = \\dfrac{AB}{\\sin C} \\Rightarrow AC = AB \\cdot \\dfrac{\\sin B}{\\sin C} = 5 \\cdot \\dfrac{\\sin 60^\\circ}{\\sin 45^\\circ} = 5 \\cdot \\dfrac{\\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{2}}{2}} = \\dfrac{5\\sqrt{6}}{2}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Giá trị của biểu thức $B = \\cos 0^\\circ + \\cos 20^\\circ + \\cos 40^\\circ + \\dots + \\cos 160^\\circ + \\cos 180^\\circ$ bằng:",
+      "explanation": "Sử dụng tính chất hai góc bù nhau $\\cos(180^\\circ - x) = -\\cos x \\Leftrightarrow \\cos x + \\cos(180^\\circ - x) = 0$:\n$$B = (\\cos 0^\\circ + \\cos 180^\\circ) + (\\cos 20^\\circ + \\cos 160^\\circ) + (\\cos 40^\\circ + \\cos 140^\\circ) + (\\cos 60^\\circ + \\cos 120^\\circ) + (\\cos 80^\\circ + \\cos 100^\\circ) + \\cos 90^\\circ$$\n$$= 0 + 0 + 0 + 0 + 0 + 0 = 0.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề nào sau đây là mệnh đề sai?",
+      "explanation": "Số 7 là số nguyên lẻ, khi chia cho 2 dư 1 nên không chia hết cho 2. Khẳng định \"7 chia hết cho 2\" là mệnh đề sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho hai vectơ $\\vec{a}$ và $\\vec{b}$ đều khác vectơ $\\vec{0}$. Khẳng định nào sau đây đúng?",
+      "explanation": "Theo định nghĩa, tích vô hướng của hai vectơ $\\vec{a}$ và $\\vec{b}$ là một số, kí hiệu là $\\vec{a} \\cdot \\vec{b}$, được xác định bởi công thức $\\vec{a} \\cdot \\vec{b} = |\\vec{a}| \\cdot |\\vec{b}| \\cdot \\cos(\\vec{a}, \\vec{b})$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Mẫu số liệu sau cho biết chiều cao (đơn vị cm) của các bạn trong tổ:\n$$163\\quad 159\\quad 172\\quad 167\\quad 165\\quad 160\\quad 168\\quad 170\\quad 161\\quad 162$$\nKhi đó:",
+      "explanation": "Sắp xếp mẫu số liệu theo thứ tự không giảm:\n$$159\\quad 160\\quad 161\\quad 162\\quad 163\\quad 165\\quad 167\\quad 168\\quad 170\\quad 172$$\n- a) Số trung bình $\\bar{x} = \\dfrac{1647}{10} = 164{,}7$. Phương sai là $s^2 = \\dfrac{180{,}1}{10} = 18{,}01 \\ne 17{,}6$. Khẳng định a SAI.\n- b) Nửa dưới là $\\{159; 160; 161; 162; 163\\} \\Rightarrow Q_1 = 161$. Nửa trên là $\\{165; 167; 168; 170; 172\\} \\Rightarrow Q_3 = 168$. Khoảng tứ phân vị $\\Delta_Q = Q_3 - Q_1 = 168 - 161 = 7$. Khẳng định b ĐÚNG.\n- c) Trung vị là $M_e = \\dfrac{163 + 165}{2} = 164$. Khẳng định c ĐÚNG.\n- d) Khoảng biến thiên $R = 172 - 159 = 13 \\ne 12$. Khẳng định d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác vuông $ABC$ có các cạnh góc vuông là $AB = 1, AC = 2$; $I$ là trung điểm của đoạn thẳng $AB$. Khi đó:",
+      "explanation": "Xét tam giác $ABC$ vuông tại $A$ có $AB = 1, AC = 2$, $I$ là trung điểm $AB$:\n- a) Vì $I$ là trung điểm $AB$ nên $\\vec{CA} + \\vec{CB} = 2\\vec{CI}$. Suy ra $\\vec{CA} + \\vec{CB} + \\vec{IC} = 2\\vec{CI} - \\vec{CI} = \\vec{CI}$. Trong tam giác vuông $CAI$ có $AC = 2, AI = \\dfrac{1}{2} \\Rightarrow CI = \\sqrt{2^2 + (0{,}5)^2} = \\dfrac{\\sqrt{17}}{2}$. Khẳng định a ĐÚNG.\n- b) $I$ là trung điểm đoạn thẳng $AB$ nên $\\vec{IA} + \\vec{IB} = \\vec{0}$. Khẳng định b ĐÚNG.\n- c) Điểm $I$ nằm giữa $A$ và $B$. Vectơ $\\vec{IA}$ hướng từ $I$ đến $A$, vectơ $\\vec{AB}$ hướng từ $A$ đến $B$. Do đó $\\vec{IA}$ và $\\vec{AB}$ ngược hướng. Khẳng định c ĐÚNG.\n- d) Quy tắc trung điểm là $\\vec{CA} + \\vec{CB} = 2\\vec{CI} = -2\\vec{IC} \\ne 2\\vec{IC}$. Khẳng định d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ với $A(-2; 5)$, $B(-4; -2)$, $C(1; 5)$. Khi đó:",
+      "explanation": "Tọa độ các điểm $A(-2; 5), B(-4; -2), C(1; 5)$:\n- a) $AB = \\sqrt{(-4 - (-2))^2 + (-2 - 5)^2} = \\sqrt{(-2)^2 + (-7)^2} = \\sqrt{53}$. Khẳng định a ĐÚNG.\n- b) $\\vec{AB} = (-2; -7) \\Rightarrow 2\\vec{AB} = (-4; -14)$. $\\vec{AC} = (3; 0)$. Suy ra $\\vec{u} = 2\\vec{AB} + \\vec{AC} = (-1; -14) \\ne (-1; 14)$. Khẳng định b SAI.\n- c) Trọng tâm $G\\left(-\\dfrac{5}{3}; \\dfrac{8}{3}\\right) \\Rightarrow \\vec{CG} = \\left(-\\dfrac{8}{3}; -\\dfrac{7}{3}\\right)$. Khi đó $\\vec{AB} \\cdot \\vec{CG} = \\dfrac{65}{3}$, $|\\vec{AB}| = \\sqrt{53}$, $|\\vec{CG}| = \\dfrac{\\sqrt{113}}{3}$. Suy ra $\\cos(\\vec{AB}, \\vec{CG}) = \\dfrac{65}{\\sqrt{53 \\times 113}} \\approx 0{,}8399 < 0{,}84$. Khẳng định c SAI.\n- d) Trung điểm $M$ của $BC$: $x_M = \\dfrac{-4 + 1}{2} = -\\dfrac{3}{2}$, $y_M = \\dfrac{-2 + 5}{2} = \\dfrac{3}{2} \\Rightarrow M\\left(-\\dfrac{3}{2}; \\dfrac{3}{2}\\right)$. Khẳng định d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-7.png",
+          "sha256": "26937e8f7c2a021e961cea4ffc31f3ef70eaedf5c2af9d976f76abf322d0e7bc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Thống kê số cuốn sách mỗi bạn đã đọc trong năm 2024, An thu được kết quả như bảng sau:\n\n| Số cuốn sách | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |\n| Số bạn | 3 | 5 | 15 | 10 | 7 | 3 | 8 |\n\nHỏi trong năm 2024, trung bình mỗi bạn đọc bao nhiêu cuốn sách? (Kết quả làm tròn đến hàng phần trăm)",
+      "explanation": "Cỡ mẫu $n = 3 + 5 + 15 + 10 + 7 + 3 + 8 = 51$.\nTổng số cuốn sách đọc được là:\n$$1(3) + 2(5) + 3(15) + 4(10) + 5(7) + 6(3) + 7(8) = 3 + 10 + 45 + 40 + 35 + 18 + 56 = 207.$$\nSố cuốn sách trung bình mỗi bạn đọc được là:\n$$\\bar{x} = \\dfrac{207}{51} \\approx 4{,}0588... \\approx 4{,}06.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-8.png",
+          "sha256": "c9ef0ad698ab07524750c872271cb3fcc9b9d6c674e9e145bd7ca973146e4b92"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho các tập hợp $A = \\{x \\in \\mathbb{Q}\\colon (x - 2)(3x - 4)(x - \\sqrt{5}) = 0\\}$ và $B = \\{x \\in \\mathbb{R}\\colon (2 - x)(3x^2 - 2x - 1) = 0\\}$. Tính số phần tử của tập hợp $A \\cup B$.",
+      "explanation": "- Xét tập $A$: phương trình $(x - 2)(3x - 4)(x - \\sqrt{5}) = 0$ có các nghiệm $x = 2 \\in \\mathbb{Q}$, $x = \\dfrac{4}{3} \\in \\mathbb{Q}$, $x = \\sqrt{5} \\notin \\mathbb{Q}$. Do đó $A = \\left\\{2; \\dfrac{4}{3}\\right\\}$.\n- Xét tập $B$: phương trình $(2 - x)(3x^2 - 2x - 1) = 0$ có các nghiệm $x = 2 \\in \\mathbb{R}$, $x = 1 \\in \\mathbb{R}$, $x = -\\dfrac{1}{3} \\in \\mathbb{R}$. Do đó $B = \\left\\{2; 1; -\\dfrac{1}{3}\\right\\}$.\n- Hợp của hai tập hợp:\n$$A \\cup B = \\left\\{2; \\dfrac{4}{3}; 1; -\\dfrac{1}{3}\\right\\}.$$\nSố phần tử của tập $A \\cup B$ là 4.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-2.png",
+          "sha256": "9f6e1698e1663df08b2ae5d9d52c67e553381fa048782653973e28b0696ae392"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-8.png",
+          "sha256": "c9ef0ad698ab07524750c872271cb3fcc9b9d6c674e9e145bd7ca973146e4b92"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Cho ba lực $\\vec{F}_1, \\vec{F}_2, \\vec{F}$ cùng tác động đến vật tại vị trí $M$. Hãy tìm cường độ của lực $\\vec{F}$ biết $|\\vec{F}_1| = 20\\text{ N}$, $|\\vec{F}_2| = 30\\text{ N}$ và $\\vec{F}_1$ hợp với $\\vec{F}_2$ một góc $120^\\circ$; vật ở trạng thái cân bằng. (Kết quả làm tròn đến hàng phần chục)",
+      "explanation": "Vì vật ở trạng thái cân bằng nên tổng ba lực bằng vectơ-không:\n$$\\vec{F}_1 + \\vec{F}_2 + \\vec{F} = \\vec{0} \\Rightarrow \\vec{F} = -(\\vec{F}_1 + \\vec{F}_2).$$\nBình phương vô hướng hai vế:\n$$|\\vec{F}|^2 = |\\vec{F}_1 + \\vec{F}_2|^2 = |\\vec{F}_1|^2 + |\\vec{F}_2|^2 + 2|\\vec{F}_1||\\vec{F}_2|\\cos 120^\\circ$$\n$$= 20^2 + 30^2 + 2 \\cdot 20 \\cdot 30 \\cdot \\left(-\\dfrac{1}{2}\\right) = 400 + 900 - 600 = 700.$$\nSuy ra cường độ của lực $\\vec{F}$ là:\n$$|\\vec{F}| = \\sqrt{700} = 10\\sqrt{7} \\approx 26{,}4575...\\text{ N} \\approx 26{,}5\\text{ N}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-3.png",
+          "sha256": "cb8847f1128dbfb5de8c4eb7a0fc2a9ab987c281397dfd50f5830376d7f90dd2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-8.png",
+          "sha256": "c9ef0ad698ab07524750c872271cb3fcc9b9d6c674e9e145bd7ca973146e4b92"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$ cho hai vectơ $\\vec{a} = (-4; 3)$ và $\\vec{b} = (-1; 7)$. Tính cosin góc giữa hai vectơ $\\vec{a}$ và $\\vec{b}$ (làm tròn kết quả đến hàng phần trăm).",
+      "explanation": "Tích vô hướng của hai vectơ là:\n$$\\vec{a} \\cdot \\vec{b} = (-4)(-1) + 3(7) = 4 + 21 = 25.$$\nĐộ dài của hai vectơ là:\n$$|\\vec{a}| = \\sqrt{(-4)^2 + 3^2} = 5,$$\n$$|\\vec{b}| = \\sqrt{(-1)^2 + 7^2} = \\sqrt{50} = 5\\sqrt{2}.$$\nCosin góc giữa hai vectơ $\\vec{a}$ và $\\vec{b}$ là:\n$$\\cos(\\vec{a}, \\vec{b}) = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| \\cdot |\\vec{b}|} = \\dfrac{25}{5 \\cdot 5\\sqrt{2}} = \\dfrac{\\sqrt{2}}{2} \\approx 0{,}7071... \\approx 0{,}71.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-3.png",
+          "sha256": "cb8847f1128dbfb5de8c4eb7a0fc2a9ab987c281397dfd50f5830376d7f90dd2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-8.png",
+          "sha256": "c9ef0ad698ab07524750c872271cb3fcc9b9d6c674e9e145bd7ca973146e4b92"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Sự chuyển động của máy bay được thể hiện trên mặt phẳng tọa độ như sau: Máy bay khởi hành với vận tốc và hướng không đổi từ vị trí điểm $A(4; 8)$ đến vị trí điểm $B$ trong 2 giờ. Biết rằng 30 phút tiếp theo vị trí của máy bay ở vị trí điểm $C(-11; 13)$. Tìm tọa độ điểm $B$.",
+      "explanation": "Vì máy bay bay với vận tốc và hướng không đổi nên quãng đường tỉ lệ thuận với thời gian:\n- Thời gian bay từ $A$ đến $B$ là $t_{AB} = 2\\text{ giờ} = 120\\text{ phút}$.\n- Thời gian bay từ $B$ đến $C$ là $t_{BC} = 30\\text{ phút}$.\n- Tổng thời gian bay từ $A$ đến $C$ là $t_{AC} = 120 + 30 = 150\\text{ phút}$.\nDo đó:\n$$\\vec{AB} = \\dfrac{120}{150}\\vec{AC} = \\dfrac{4}{5}\\vec{AC}.$$\nTa có $A(4; 8)$ và $C(-11; 13) \\Rightarrow \\vec{AC} = (-11 - 4; 13 - 8) = (-15; 5)$.\nGọi $B(x; y)$, ta có $\\vec{AB} = (x - 4; y - 8)$.\nTừ $\\vec{AB} = \\dfrac{4}{5}\\vec{AC}$, suy ra:\n$$\\begin{cases} x - 4 = \\dfrac{4}{5}(-15) = -12 \\\\ y - 8 = \\dfrac{4}{5}(5) = 4 \\end{cases} \\Leftrightarrow \\begin{cases} x = -8 \\\\ y = 12. \\end{cases}$$\nVậy tọa độ điểm $B$ là $B(-8; 12)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-3.png",
+          "sha256": "cb8847f1128dbfb5de8c4eb7a0fc2a9ab987c281397dfd50f5830376d7f90dd2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-8.png",
+          "sha256": "c9ef0ad698ab07524750c872271cb3fcc9b9d6c674e9e145bd7ca973146e4b92"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-035-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-035.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Ngô Gia Tự",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho tam giác $ABC$ có $A(-1; 5), B(2; 3)$ và trọng tâm $G\\left(\\dfrac{1}{3}; 2\\right)$.\na) Tìm tọa độ chân đường cao $H$ hạ từ $A$ xuống $BC$.\nb) Tìm tọa độ điểm $M$ trên trục hoành sao cho chu vi tam giác $AMB$ nhỏ nhất.",
+      "explanation": "Xác định tọa độ đỉnh $C$:\nVì $G$ là trọng tâm tam giác $ABC$ nên:\n$$\\begin{cases} x_C = 3x_G - x_A - x_B = 3\\left(\\dfrac{1}{3}\\right) - (-1) - 2 = 0 \\\\ y_C = 3y_G - y_A - y_B = 3(2) - 5 - 3 = -2 \\end{cases} \\Rightarrow C(0; -2).$$\n\na) Tìm tọa độ chân đường cao $H(x; y)$ trên $BC$:\nTa có $\\vec{BC} = (0 - 2; -2 - 3) = (-2; -5)$, $\\vec{AH} = (x + 1; y - 5)$, $\\vec{BH} = (x - 2; y - 3)$.\n- Vì $AH \\perp BC$ nên $\\vec{AH} \\cdot \\vec{BC} = 0 \\Leftrightarrow -2(x + 1) - 5(y - 5) = 0 \\Leftrightarrow 2x + 5y = 23$ (1).\n- Vì $H \\in BC$ nên $\\vec{BH}$ cùng phương $\\vec{BC} \\Leftrightarrow \\dfrac{x - 2}{-2} = \\dfrac{y - 3}{-5} \\Leftrightarrow 5x - 2y = 4$ (2).\nTừ (1) và (2) ta có hệ phương trình, giải ra được $x = \\dfrac{66}{29}, y = \\dfrac{107}{29}$.\nVậy chân đường cao là $H\\left(\\dfrac{66}{29}; \\dfrac{107}{29}\\right)$.\n\nb) Tìm điểm $M(x; 0) \\in Ox$ để chu vi tam giác $AMB$ nhỏ nhất:\nChu vi tam giác $AMB$ là $AB + MA + MB$. Vì đoạn $AB$ cố định nên chu vi nhỏ nhất khi $MA + MB$ nhỏ nhất.\nVì $y_A = 5 > 0$ và $y_B = 3 > 0$ nên hai điểm $A, B$ nằm cùng phía đối với trục hoành $Ox$.\nLấy $A'$ đối xứng với $A$ qua $Ox \\Rightarrow A'(-1; -5)$.\nKhi đó $MA = MA'$, suy ra $MA + MB = MA' + MB \\ge A'B$.\nDấu đẳng thức xảy ra khi $M = A'B \\cap Ox$.\nĐường thẳng $A'B$ đi qua $B(2; 3)$ có vectơ chỉ phương $\\vec{A'B} = (3; 8)$, vectơ pháp tuyến $\\vec{n} = (8; -3)$:\n$$8(x - 2) - 3(y - 3) = 0 \\Leftrightarrow 8x - 3y - 7 = 0.$$\nCho $y = 0$, ta được $8x - 7 = 0 \\Leftrightarrow x = \\dfrac{7}{8}$.\nVậy điểm cần tìm là $M\\left(\\dfrac{7}{8}; 0\\right)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-3.png",
+          "sha256": "cb8847f1128dbfb5de8c4eb7a0fc2a9ab987c281397dfd50f5830376d7f90dd2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-8.png",
+          "sha256": "c9ef0ad698ab07524750c872271cb3fcc9b9d6c674e9e145bd7ca973146e4b92"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-035-page-9.png",
+          "sha256": "af584740de3704d048d376b57a93c1734b60d1f888bb035c63507b806f26aff6"
+        }
+      ]
+    }
+  ]
+}

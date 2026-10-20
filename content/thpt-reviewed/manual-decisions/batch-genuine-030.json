@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mệnh đề phủ định của mệnh đề: “$\\forall x \\in \\mathbb{N}: x^2 > x - 1$” là:",
+      "explanation": "Phủ định của mệnh đề “$\\forall x \\in X, P(x)$” là mệnh đề “$\\exists x \\in X, \\overline{P(x)}$”.\nPhủ định của bất đẳng thức $x^2 > x - 1$ là $x^2 \\le x - 1$.\nVậy mệnh đề phủ định là “$\\exists x \\in \\mathbb{N}: x^2 \\le x - 1$”.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-1.png",
+          "sha256": "b86ed6b04c0c9728585fb405efeda3d674782953d00d7ff8d77e48e6e1cfda21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $90^\\circ < a < 180^\\circ$. Trong các khẳng định sau, khẳng định nào đúng?",
+      "explanation": "Với góc tù $a$ ($90^\\circ < a < 180^\\circ$), điểm biểu diễn góc $a$ trên nửa đường tròn đơn vị có hoành độ âm và tung độ dương.\nDo đó:\n- $\\sin a > 0$\n- $\\cos a < 0$\n- $\\tan a = \\frac{\\sin a}{\\cos a} < 0$\n- $\\cot a = \\frac{\\cos a}{\\sin a} < 0$.\nVậy khẳng định đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-1.png",
+          "sha256": "b86ed6b04c0c9728585fb405efeda3d674782953d00d7ff8d77e48e6e1cfda21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phần gạch chéo trong hình vẽ dưới đây (không bao gồm đường thẳng $d$) là miền nghiệm của bất phương trình bậc nhất hai ẩn nào dưới đây?\n\n![Hình vẽ](/math-import-assets/thpt-figure-024-p1-q3-region.png)",
+      "explanation": "Đường thẳng bờ $d$ đi qua hai điểm $(2; 0)$ và $(0; -1)$, có phương trình là $\\frac{x}{2} + \\frac{y}{-1} = 1 \\iff x - 2y = 2$.\nTrong bốn phương án đã cho, chỉ có phương án D có đường thẳng bờ tương ứng là $x - 2y = 2$.\nDo đó đáp án đúng theo đề bài là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-1.png",
+          "sha256": "b86ed6b04c0c9728585fb405efeda3d674782953d00d7ff8d77e48e6e1cfda21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $AB = 2, AC = 1$ và $\\widehat{A} = 60^\\circ$. Độ dài cạnh $BC$ bằng:",
+      "explanation": "Áp dụng định lí côsin trong tam giác $ABC$:\n$$BC^2 = AB^2 + AC^2 - 2AB \\cdot AC \\cos A = 2^2 + 1^2 - 2 \\cdot 2 \\cdot 1 \\cdot \\cos 60^\\circ = 4 + 1 - 4 \\cdot \\frac{1}{2} = 3.$$\nSuy ra $BC = \\sqrt{3}$.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-1.png",
+          "sha256": "b86ed6b04c0c9728585fb405efeda3d674782953d00d7ff8d77e48e6e1cfda21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của hệ bất phương trình $\\begin{cases} 2x - y + 2 > 0 \\\\ x + 2y > 3 \\end{cases}$ là phần mặt phẳng chứa điểm nào dưới đây?",
+      "explanation": "Thay tọa độ các điểm vào hệ bất phương trình:\n- Với $(-1; 2)$: $2(-1) - 2 + 2 = -2 \\not> 0$ (không thỏa mãn).\n- Với $(2; -1)$: $2 + 2(-1) = 0 \\not> 3$ (không thỏa mãn).\n- Với $(1; 2)$: $\\begin{cases} 2(1) - 2 + 2 = 2 > 0 \\\\ 1 + 2(2) = 5 > 3 \\end{cases}$ (thỏa mãn cả hai bất phương trình).\n- Với $(1; 1)$: $1 + 2(1) = 3 \\not> 3$ (không thỏa mãn).\nVậy điểm $(1; 2)$ thuộc miền nghiệm của hệ. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-1.png",
+          "sha256": "b86ed6b04c0c9728585fb405efeda3d674782953d00d7ff8d77e48e6e1cfda21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điểm $A(-1; 3)$ thuộc miền nghiệm của bất phương trình nào dưới đây?",
+      "explanation": "Thay tọa độ điểm $A(-1; 3)$ vào từng bất phương trình:\n- Phương án A: $-3(-1) + 2(3) - 4 = 3 + 6 - 4 = 5 > 0$ (đúng).\n- Phương án B: $-1 - 3(3) = -10 \\not> 0$ (sai).\n- Phương án C: $-1 + 3(3) = 8 \\not< 0$ (sai).\n- Phương án D: $2(-1) + 3 - 4 = -3 \\not> 0$ (sai).\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-1.png",
+          "sha256": "b86ed6b04c0c9728585fb405efeda3d674782953d00d7ff8d77e48e6e1cfda21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các mệnh đề sau, mệnh đề nào là mệnh đề đúng?",
+      "explanation": "- A sai vì tích hai số là chẵn khi có ít nhất một số chẵn (ví dụ $2 \\times 3 = 6$ là số chẵn).\n- B sai vì tổng của hai số lẻ cũng là số chẵn (ví dụ $1 + 3 = 4$).\n- C sai vì tổng hai số lẻ là số chẵn.\n- D đúng vì tích của hai số tự nhiên là số lẻ khi và chỉ khi cả hai thừa số đều là số lẻ.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-1.png",
+          "sha256": "b86ed6b04c0c9728585fb405efeda3d674782953d00d7ff8d77e48e6e1cfda21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = [-3; 5)$ và $B = (0; 7]$. Xác định tập hợp $A \\cup B$?",
+      "explanation": "Hợp của hai tập hợp $A$ và $B$ là tập hợp tất cả các số thuộc $A$ hoặc thuộc $B$.\nVới $A = [-3; 5)$ và $B = (0; 7]$, ta có $A \\cup B = [-3; 7]$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-2.png",
+          "sha256": "ccb62aef31ce3806ae772e566769f05899ee05de59a5200faf21275ef4d13226"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xét tam giác $ABC$ tùy ý, đường tròn ngoại tiếp tam giác có bán kính $R, BC = a$. Mệnh đề nào dưới đây đúng?",
+      "explanation": "Theo định lí sin trong tam giác $ABC$:\n$$\\frac{a}{\\sin A} = 2R \\implies R = \\frac{a}{2\\sin A}.$$\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-2.png",
+          "sha256": "ccb62aef31ce3806ae772e566769f05899ee05de59a5200faf21275ef4d13226"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chọn khẳng định đúng trong các khẳng định dưới đây?",
+      "explanation": "- A đúng vì 10 là số tự nhiên, do đó là một số thực ($10 \\in \\mathbb{R}$).\n- B sai vì $\\sqrt{5}$ là số vô tỉ (không thuộc $\\mathbb{Q}$).\n- C sai vì $-\\frac{1}{2}$ là phân số hữu tỉ không nguyên (không thuộc $\\mathbb{Z}$).\n- D sai vì 7 là số tự nhiên ($7 \\in \\mathbb{N}$).\nDo đó khẳng định đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-2.png",
+          "sha256": "ccb62aef31ce3806ae772e566769f05899ee05de59a5200faf21275ef4d13226"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\cos\\alpha = \\frac{4}{13}$ và $0^\\circ < \\alpha < 90^\\circ$. Khi đó $\\sin\\alpha$ bằng:",
+      "explanation": "Vì $0^\\circ < \\alpha < 90^\\circ$ nên $\\sin\\alpha > 0$.\nÁp dụng hệ thức cơ bản $\\sin^2\\alpha + \\cos^2\\alpha = 1$:\n$$\\sin\\alpha = \\sqrt{1 - \\cos^2\\alpha} = \\sqrt{1 - \\left(\\frac{4}{13}\\right)^2} = \\sqrt{1 - \\frac{16}{169}} = \\sqrt{\\frac{153}{169}} = \\frac{3\\sqrt{17}}{13}.$$\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-2.png",
+          "sha256": "ccb62aef31ce3806ae772e566769f05899ee05de59a5200faf21275ef4d13226"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-024-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-GIUA_HK1-024 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điểm $O(0; 0)$ không thuộc miền nghiệm của hệ bất phương trình nào dưới đây?",
+      "explanation": "Thay tọa độ điểm $O(0; 0)$ vào từng hệ bất phương trình:\n- Hệ A: $\\begin{cases} 0 + 3(0) < 0 \\text{ (sai vì } 0 < 0 \\text{ sai)} \\\\ 2(0) + 0 + 4 > 0 \\text{ (đúng)} \\end{cases} \\implies O(0; 0)$ không thuộc miền nghiệm.\n- Hệ B: $\\begin{cases} 0 \\ge 0 \\text{ (đúng)} \\\\ -4 < 0 \\text{ (đúng)} \\end{cases} \\implies O(0; 0)$ thuộc miền nghiệm.\n- Hệ C: $\\begin{cases} -6 < 0 \\text{ (đúng)} \\\\ 4 > 0 \\text{ (đúng)} \\end{cases} \\implies O(0; 0)$ thuộc miền nghiệm.\n- Hệ D: $\\begin{cases} -6 < 0 \\text{ (đúng)} \\\\ 4 \\ge 0 \\text{ (đúng)} \\end{cases} \\implies O(0; 0)$ thuộc miền nghiệm.\nVậy đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-024-page-2.png",
+          "sha256": "ccb62aef31ce3806ae772e566769f05899ee05de59a5200faf21275ef4d13226"
+        }
+      ]
+    }
+  ]
+}

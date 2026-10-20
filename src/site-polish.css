@@ -181,3 +181,9 @@ input,select,textarea{font-size:max(16px,1em)}
 .session-dialog h2{padding-right:28px}
 .session-device{overflow-wrap:anywhere}
 @media(max-width:600px){.session-dialog{padding:20px!important}.session-toolbar{align-items:flex-start!important}.session-actions{width:100%}.session-device{flex-wrap:wrap}.session-device>button{margin-left:auto}.session-actions>div{flex-wrap:wrap}}
+
+/* A stable, front-facing primary action for the diagnostic introduction. */
+.diagnostic-intro-card .btn-start-diagnostic{box-shadow:none;transform:none;border:1px solid transparent;font-weight:600;transition:background-color .18s,border-color .18s}
+.diagnostic-intro-card .btn-start-diagnostic:hover{background:#076b53;box-shadow:none;transform:none}
+.diagnostic-intro-card .btn-start-diagnostic:active{background:#065a46;box-shadow:none;transform:none}
+.diagnostic-intro-card .btn-start-diagnostic:focus-visible{outline:3px solid #507264;outline-offset:3px}

@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-082",
+  "reviewedAt": "2026-10-20T13:25:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phát biểu nào sau đây là sai về giới hạn dãy số?",
+      "explanation": "Định lý về giới hạn cấp số nhân lùi vô hạn: $\\lim q^n = 0$ khi và chỉ khi $|q| < 1$. Khẳng định với $q < 1$ là sai vì ví dụ khi $q = -2 < 1$, $(-2)^n$ không có giới hạn.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p1.png",
+          "sha256": "21d56be3382005021559368e8b8e0aa2f574fb3e9b7617603026e1facb213b28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $-4; -12; -36; \\ldots$ Công bội của cấp số nhân đã cho bằng:",
+      "explanation": "Công bội của cấp số nhân là $q = \\frac{u_2}{u_1} = \\frac{-12}{-4} = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p1.png",
+          "sha256": "21d56be3382005021559368e8b8e0aa2f574fb3e9b7617603026e1facb213b28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$ xác định bởi $\\begin{cases} u_1 = 2 \\\\ u_n = u_{n-1} + n \\end{cases}$ ($n \\in \\mathbb{N}^*$). Giá trị $u_3$ là:",
+      "explanation": "Ta có: $u_1 = 2$; với $n = 2 \\implies u_2 = u_1 + 2 = 2 + 2 = 4$; với $n = 3 \\implies u_3 = u_2 + 3 = 4 + 3 = 7$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p1.png",
+          "sha256": "21d56be3382005021559368e8b8e0aa2f574fb3e9b7617603026e1facb213b28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ thỏa $u_2 = 2, u_3 = 8$. Công sai của cấp số cộng đã cho bằng:",
+      "explanation": "Công sai của cấp số cộng là $d = u_3 - u_2 = 8 - 2 = 6$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p1.png",
+          "sha256": "21d56be3382005021559368e8b8e0aa2f574fb3e9b7617603026e1facb213b28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành (như hình vẽ bên dưới). Khẳng định nào sau đây là sai?\n\n<img src=\"/math-import-assets/THPT-11-CUOI_HK1-145-p1-img1.png\" alt=\"Hình chóp S.ABCD\" style=\"max-width:300px; display:block; margin:10px auto;\" />",
+      "explanation": "$SC$ và $AD$ là hai đường thẳng chéo nhau trong không gian. Nếu $SC$ và $AD$ cắt nhau thì 4 điểm $S, C, A, D$ đồng phẳng, mâu thuẫn hình chóp $S.ABCD$. Do đó khẳng định C là sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p1.png",
+          "sha256": "21d56be3382005021559368e8b8e0aa2f574fb3e9b7617603026e1facb213b28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số nào sau đây không phải là cấp số nhân?",
+      "explanation": "Dãy ở phương án A có tỉ số giữa các số hạng liên tiếp không cố định: $\\frac{1}{4} : \\frac{1}{2} = \\frac{1}{2}$, nhưng $\\frac{1}{6} : \\frac{1}{4} = \\frac{2}{3} \\neq \\frac{1}{2}$. Do đó không phải cấp số nhân.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p1.png",
+          "sha256": "21d56be3382005021559368e8b8e0aa2f574fb3e9b7617603026e1facb213b28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân lùi vô hạn $(u_n)$ có số hạng đầu $u_1 = 2$ và công bội $q = \\frac{3}{4}$. Tổng của cấp số nhân này bằng:",
+      "explanation": "Tổng của cấp số nhân lùi vô hạn là $S = \\frac{u_1}{1 - q} = \\frac{2}{1 - \\frac{3}{4}} = \\frac{2}{1/4} = 8$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p1.png",
+          "sha256": "21d56be3382005021559368e8b8e0aa2f574fb3e9b7617603026e1facb213b28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số mặt bên của hình chóp $S.ABCDEF$ là:\n\n<img src=\"/math-import-assets/THPT-11-CUOI_HK1-145-p2-img1.jpeg\" alt=\"Hình chóp S.ABCDEF\" style=\"max-width:300px; display:block; margin:10px auto;\" />",
+      "explanation": "Đáy $ABCDEF$ có 6 cạnh nên hình chóp có 6 mặt bên là các tam giác $SAB, SBC, SCD, SDE, SEF, SFA$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p2.png",
+          "sha256": "e93dc0dba0703138b61688db724b84a3390bdb8f678eec6ec9890c76069f7f91"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hình nào dưới đây là đồ thị của hàm số liên tục trên khoảng $(0; 3)$?",
+      "explanation": "Đồ thị ở hình A là một đường liền nét liên tục trên khoảng $(0; 3)$, không có bước nhảy hay điểm gián đoạn. Các hình B, C, D đều bị đứt đoạn (gián đoạn) tại một điểm thuộc khoảng $(0; 3)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p2.png",
+          "sha256": "e93dc0dba0703138b61688db724b84a3390bdb8f678eec6ec9890c76069f7f91"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác $S.ABCD$. Gọi $M, N$ lần lượt là trung điểm của $SA$ và $SC$. Đường thẳng $MN$ song song với mặt phẳng nào dưới đây?\n\n<img src=\"/math-import-assets/THPT-11-CUOI_HK1-145-p2-img6.png\" alt=\"Hình chóp S.ABCD\" style=\"max-width:300px; display:block; margin:10px auto;\" />",
+      "explanation": "Trong tam giác $SAC$, $MN$ là đường trung bình nên $MN \\parallel AC$. Vì $AC \\subset (ABCD)$ và $MN \\not\\subset (ABCD)$, suy ra $MN \\parallel (ABCD)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p2.png",
+          "sha256": "e93dc0dba0703138b61688db724b84a3390bdb8f678eec6ec9890c76069f7f91"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số nào sau đây là cấp số cộng?",
+      "explanation": "Dãy số $3; 7; 11; 15$ có hiệu giữa hai số hạng liên tiếp không đổi: $7 - 3 = 11 - 7 = 15 - 11 = 4$, nên là cấp số cộng có công sai $d = 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p3.png",
+          "sha256": "36021fd72f0e5ace5cdfdf227f07f1aa4147fdf57222d8433a476ffe61189fec"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số $(u_n)$ cho bởi số hạng tổng quát $u_n$ sau, dãy số nào tăng?",
+      "explanation": "Xét $u_n = \\frac{n}{n + 1} = 1 - \\frac{1}{n + 1}$. Ta có $u_{n+1} - u_n = \\frac{1}{n + 1} - \\frac{1}{n + 2} = \\frac{1}{(n+1)(n+2)} > 0$ với mọi $n \\ge 1$. Do đó dãy số $(u_n)$ tăng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p3.png",
+          "sha256": "36021fd72f0e5ace5cdfdf227f07f1aa4147fdf57222d8433a476ffe61189fec"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} \\frac{\\sqrt{x^2+5} - 3}{x - 2} & \\text{khi } x > 2 \\\\ 1 - \\frac{x}{3} & \\text{khi } x \\le 2 \\end{cases}$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Đúng: $f(1) = 1 - \\frac{1}{3} = \\frac{2}{3}$.\nb) Sai: $\\lim_{x \\to 2^+} \\frac{\\sqrt{x^2+5} - 3}{x - 2} = \\lim_{x \\to 2^+} \\frac{x+2}{\\sqrt{x^2+5} + 3} = \\frac{4}{6} = \\frac{2}{3} \\neq \\frac{33}{100}$.\nc) Đúng: $\\lim_{x \\to 2^-} f(x) = 1 - \\frac{2}{3} = \\frac{1}{3}$.\nd) Đúng: Do $\\lim_{x \\to 2^+} f(x) = \\frac{2}{3} \\neq \\lim_{x \\to 2^-} f(x) = \\frac{1}{3}$ nên hàm số gián đoạn tại $x = 2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p3.png",
+          "sha256": "36021fd72f0e5ace5cdfdf227f07f1aa4147fdf57222d8433a476ffe61189fec"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là tứ giác lồi (như hình vẽ bên dưới). Gọi $M, N$ là các điểm lần lượt thuộc các cạnh $SA, SB$ sao cho $MN$ không song song với $AB$. Gọi $O$ là giao điểm của $AC$ và $BD$; $F$ là giao điểm của $MN$ và $AB$.\n\n<img src=\"/math-import-assets/THPT-11-CUOI_HK1-145-p3-img1.png\" alt=\"Hình chóp S.ABCD\" style=\"max-width:300px; display:block; margin:10px auto;\" />",
+      "explanation": "a) Đúng: Vì $F \\in AB \\subset (ABCD)$ nên $F \\in (ABCD)$.\nb) Đúng: $D$ là điểm chung thứ nhất; $F = MN \\cap AB$ là điểm chung thứ hai, do đó giao tuyến là $DF$.\nc) Sai: Trong mặt phẳng $(SAC)$, $CM$ cắt $SO$ tại $I$, do đó $I \\in SO$, không nằm trên cạnh $SD$.\nd) Sai: $H$ là giao điểm của $DN$ và $SO$. Vì $M, N$ chọn độc lập trên $SA, SB$, $H$ nói chung không thuộc $CM$, do đó $C, H, M$ không thẳng hàng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p3.png",
+          "sha256": "36021fd72f0e5ace5cdfdf227f07f1aa4147fdf57222d8433a476ffe61189fec"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Sai: $u_3 = u_1 + 2d \\implies 19 = 5 + 2d \\implies d = 7$. Suy ra $u_{2025} = u_1 + 2024d = 5 + 2024 \\times 7 = 14173 \\neq 14180$.\nb) Sai: $u_1 + u_{30} = u_3 + u_{28} = 56 \\implies S_{30} = \\frac{30 \\times 56}{2} = 840 \\neq 812$.\nc) Đúng: $(3m - 1)^2 = (m + 2)(9m + 7) \\Leftrightarrow 9m^2 - 6m + 1 = 9m^2 + 25m + 14 \\Leftrightarrow 31m = -13 \\Leftrightarrow m = -\\frac{13}{31} \\in (-1; 2)$.\nd) Đúng: $u_4 + u_6 = q^3(u_1 + u_3) \\implies -120 = 15 q^3 \\implies q^3 = -8 \\implies q = -2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p3.png",
+          "sha256": "36021fd72f0e5ace5cdfdf227f07f1aa4147fdf57222d8433a476ffe61189fec"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang với đáy lớn $AB = 2CD$. Gọi $G$ là trọng tâm tam giác $SAB$; $O$ là giao điểm của $AC$ và $BD$; $M, N$ lần lượt là trung điểm của $SA, SB$.\n\n<img src=\"/math-import-assets/THPT-11-CUOI_HK1-145-p4-img1.png\" alt=\"Hình chóp S.ABCD\" style=\"max-width:300px; display:block; margin:10px auto;\" />",
+      "explanation": "a) Sai: $(SAB)$ và $(SCD)$ có điểm chung $S$ và chứa $AB \\parallel CD$, nên giao tuyến $d$ song song với $AB, CD$, không song song với $AD$.\nb) Đúng: $MN$ là đường trung bình của $\\triangle SAB \\implies MN \\parallel AB \\implies MN \\parallel CD$.\nc) Sai: Bằng định lý Thales hoặc véc-tơ, ta có $OG \\parallel (SBC)$ nên $OG$ và mặt phẳng $(SBC)$ không có điểm chung (0 điểm chung).\nd) Đúng: Gọi $K$ là trung điểm $AB$. Khi đó $AKCD$ là hình bình hành nên $KC \\parallel AD$, và $NK$ là đường trung bình $\\triangle SAB$ nên $NK \\parallel SA$. Suy ra $(NKC) \\parallel (SAD) \\implies NC \\parallel (SAD)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p4.png",
+          "sha256": "eb6b99535e1386798aada58b77171a3972812241a35be06c117fe5d2cdbe99c7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho một hình vuông lớn có cạnh bằng 1. Từ hình vuông này, ta thực hiện quá trình tô màu như sau:\n+ Bước 1: Tô màu tam giác vuông có 2 cạnh là cạnh của hình vuông ban đầu (như hình vẽ bên dưới).\n+ Bước 2: Ở tam giác vuông còn lại chưa được tô màu, ta dựng hình vuông mới có 3 trong 4 đỉnh là trung điểm của các cạnh của tam giác. Sau đó lặp lại như bước 1.\nBước 2 được lặp lại liên tục.\nTính tổng diện tích phần tô màu (làm tròn đến hàng phần trăm).\n\n<img src=\"/math-import-assets/THPT-11-CUOI_HK1-145-p4-img2.png\" alt=\"Hình vuông tô màu\" style=\"max-width:280px; display:block; margin:10px auto;\" />",
+      "explanation": "Ở bước 1, diện tích tam giác vuông được tô màu là $S_1 = \\frac{1}{2} \\times 1^2 = \\frac{1}{2}$.\nỞ bước 2, hình vuông mới dựng có cạnh bằng $\\frac{1}{2}$, nên tam giác vuông tiếp tục được tô màu có diện tích $S_2 = \\frac{1}{2} \\times \\left(\\frac{1}{2}\\right)^2 = \\frac{1}{8}$.\nTổng diện tích tô màu là tổng cấp số nhân lùi vô hạn với $u_1 = \\frac{1}{2}$ và $q = \\frac{1}{4}$:\n$$S = \\frac{u_1}{1 - q} = \\frac{1/2}{1 - 1/4} = \\frac{2}{3} \\approx 0.6667...$$\nLàm tròn đến hàng phần trăm được 0,67.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p4.png",
+          "sha256": "eb6b99535e1386798aada58b77171a3972812241a35be06c117fe5d2cdbe99c7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm giá trị của $m$ để hàm số $f(x) = \\begin{cases} \\frac{\\sqrt{x+1} - 2}{2x - 6} & \\text{khi } x > 3 \\\\ \\frac{m}{4} - \\frac{x}{2} & \\text{khi } x \\le 3 \\end{cases}$ liên tục tại $x_0 = 3$.",
+      "explanation": "Ta có:\n$$\\lim_{x \\to 3^+} f(x) = \\lim_{x \\to 3^+} \\frac{\\sqrt{x+1} - 2}{2(x - 3)} = \\lim_{x \\to 3^+} \\frac{x - 3}{2(x - 3)(\\sqrt{x+1} + 2)} = \\frac{1}{2(2 + 2)} = \\frac{1}{8}.$$\nMặt khác, $f(3) = \\lim_{x \\to 3^-} f(x) = \\frac{m}{4} - \\frac{3}{2}$.\nĐể hàm số liên tục tại $x_0 = 3$ thì $\\frac{m}{4} - \\frac{3}{2} = \\frac{1}{8} \\Leftrightarrow \\frac{m}{4} = \\frac{13}{8} \\Leftrightarrow m = \\frac{13}{2} = 6.5$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p5.png",
+          "sha256": "b576c9c5a4601b2d6ec5772c957c10b94de575f28f69b464ffe7eceafd2acc17"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty dịch vụ theo dõi hiệu suất xử lý hồ sơ của nhân viên mới. Tốc độ xử lý hồ sơ trong một giờ của một nhân viên sau $x$ ngày làm việc là: $f(x) = \\frac{48x}{x + 4}$ (hồ sơ/giờ). Hỏi sau một thời gian đủ dài, nhân viên này có thể xử lý bao nhiêu hồ sơ trong một giờ?",
+      "explanation": "Sau một thời gian đủ dài ($x \\to +\\infty$), tốc độ xử lý hồ sơ tiệm cận tới giới hạn:\n$$\\lim_{x \\to +\\infty} f(x) = \\lim_{x \\to +\\infty} \\frac{48x}{x + 4} = 48 \\text{ (hồ sơ/giờ)}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p5.png",
+          "sha256": "b576c9c5a4601b2d6ec5772c957c10b94de575f28f69b464ffe7eceafd2acc17"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một sân vận động lớn đang xây dựng khu vực khán đài chính theo dạng bậc thang để tối ưu hóa tầm nhìn cho khán giả. Khán đài này được thiết kế với tổng cộng 3900 chỗ ngồi. Theo thiết kế, hàng ghế đầu tiên có 60 chỗ ngồi và có độ cao là 0,8 m so với mặt sân. Số lượng ghế được bố trí theo quy luật: mỗi hàng ghế sau có số lượng ghế tăng thêm 8 ghế so với hàng ghế ngay trước đó, và độ cao của hàng ghế cũng tăng thêm 0,15 m so với hàng ghế ngay trước đó. Hỏi hàng ghế cuối cùng của khu vực khán đài đó sẽ cao bao nhiêu mét so với mặt sân?",
+      "explanation": "Số ghế mỗi hàng lập thành cấp số cộng với $u_1 = 60, d = 8$. Tổng số ghế của $n$ hàng là:\n$$S_n = \\frac{n[2 \\times 60 + (n - 1)8]}{2} = 3900 \\Leftrightarrow n(4n + 56) = 3900 \\Leftrightarrow n^2 + 14n - 975 = 0.$$\nGiải phương trình được nghiệm nguyên dương $n = 25$ hàng ghế.\nĐộ cao các hàng ghế lập thành cấp số cộng với $h_1 = 0.8$ m và công sai $d_h = 0.15$ m.\nĐộ cao của hàng ghế cuối cùng (hàng thứ 25) so với mặt sân là:\n$$h_{25} = h_1 + 24 d_h = 0.8 + 24 \\times 0.15 = 0.8 + 3.6 = 4.4 \\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p5.png",
+          "sha256": "b576c9c5a4601b2d6ec5772c957c10b94de575f28f69b464ffe7eceafd2acc17"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành với $AB = 8, AD = 7$. Gọi $M$ là điểm thuộc cạnh $SA$ sao cho $SM = \\frac{2}{3} SA$. Qua $M$ kẻ các đường thẳng song song với $AB, AD$ lần lượt cắt $SB, SD$ tại $N, Q$. Mặt phẳng $(MNQ)$ cắt cạnh $SC$ tại $P$ (như hình vẽ bên dưới). Tính chu vi của tứ giác $MNPQ$.\n\n<img src=\"/math-import-assets/THPT-11-CUOI_HK1-145-p5-img1.png\" alt=\"Hình chóp S.ABCD\" style=\"max-width:300px; display:block; margin:10px auto;\" />",
+      "explanation": "Trong $\\triangle SAB$, vì $MN \\parallel AB$ nên $MN = \\frac{2}{3} AB = \\frac{16}{3}$.\nTrong $\\triangle SAD$, vì $MQ \\parallel AD$ nên $MQ = \\frac{2}{3} AD = \\frac{14}{3}$.\nMặt phẳng $(MNQ)$ cắt $SC$ tại $P$ thì $QP \\parallel CD$ và $NP \\parallel BC$, do đó $QP = \\frac{2}{3} CD = \\frac{16}{3}$ và $NP = \\frac{2}{3} BC = \\frac{14}{3}$.\nTứ giác $MNPQ$ là hình bình hành. Chu vi của $MNPQ$ là:\n$$C = 2(MN + MQ) = 2 \\left(\\frac{16}{3} + \\frac{14}{3}\\right) = 20.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p5.png",
+          "sha256": "b576c9c5a4601b2d6ec5772c957c10b94de575f28f69b464ffe7eceafd2acc17"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-145-M1101-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $G$ là trọng tâm tam giác $SAD$, $M$ là trung điểm của $SB$. Đường thẳng $GM$ cắt mặt phẳng $(ABCD)$ tại $I$. Tính tỷ số $\\frac{GM}{GI}$.",
+      "explanation": "Gọi $h$ là khoảng cách từ $S$ đến $(ABCD)$.\nKhoảng cách từ trọng tâm $G$ của $\\triangle SAD$ đến $(ABCD)$ là $d(G, (ABCD)) = \\frac{h}{3}$.\nKhoảng cách từ trung điểm $M$ của $SB$ đến $(ABCD)$ là $d(M, (ABCD)) = \\frac{h}{2}$.\nVì $I \\in (ABCD)$ nên $d(I, (ABCD)) = 0$.\nÁp dụng định lý Thales trên đường thẳng $GM$:\n$$\\frac{GM}{GI} = \\frac{|d(M) - d(G)|}{|d(G) - d(I)|} = \\frac{\\frac{h}{2} - \\frac{h}{3}}{\\frac{h}{3} - 0} = \\frac{h/6}{h/3} = \\frac{1}{2} = 0.5.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p5.png",
+          "sha256": "b576c9c5a4601b2d6ec5772c957c10b94de575f28f69b464ffe7eceafd2acc17"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-145-p6.png",
+          "sha256": "28a448293650f762e761bbe01c401615164d3836a92b061b1a062832ed4944a8"
+        }
+      ]
+    }
+  ]
+}

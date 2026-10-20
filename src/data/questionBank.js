@@ -17,7 +17,7 @@ export const DIAGNOSTIC_QUESTIONS = [
     explanation: 'Ta có $245 = 49 \\times 5 = 7^2 \\times 5$. Do đó $\\sqrt{245} = \\sqrt{7^2 \\times 5} = 7\\sqrt{5}$.',
     selectionReason: {
       title: 'Giai đoạn phổ độ: vị trí tiêu chí để được chọn hỏi lần nào.',
-      description: 'Thuật toán thích ứng CAT (Computerized Adaptive Testing) dựa trên mô hình IRT ước lượng năng lực θ. Câu hỏi nhận biết về căn thức được chọn làm câu thăm dò đầu tiên cho mục tiêu Ôn thi vào lớp 10.',
+      description: 'Thuật toán thích ứng CAT (Computerized Adaptive Testing) dựa trên mô hình IRT ước lượng năng lực θ. Câu hỏi nhận biết về căn thức được chọn làm câu thăm dò đầu tiên cho mục tiêu củng cố kiến thức Toán THPT.',
       table: [
         { topic: 'Biến đổi và phép tính với căn thức', count: '0 lượt', level: 'mức N' },
         { topic: 'Tỉ số lượng giác của góc nhọn', count: '0 lượt', level: 'mức N' },

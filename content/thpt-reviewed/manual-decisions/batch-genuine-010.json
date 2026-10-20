@@ -1,0 +1,400 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề đảo của mệnh đề $P \\Rightarrow Q$ là mệnh đề nào?",
+      "explanation": "Theo định nghĩa trong SGK Toán 10, mệnh đề đảo của mệnh đề kéo theo $P \\Rightarrow Q$ là mệnh đề $Q \\Rightarrow P$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình $\\begin{cases} x + 3y - 2 \\ge 0 \\\\ 2x + y + 1 \\le 0 \\end{cases}$. Trong các điểm sau, điểm nào thuộc miền nghiệm của hệ bất phương trình?",
+      "explanation": "Thay tọa độ điểm $N(-1; 1)$ vào hệ bất phương trình:\n- $-1 + 3(1) - 2 = 0 \\ge 0$ (thỏa mãn);\n- $2(-1) + 1 + 1 = 0 \\le 0$ (thỏa mãn).\nVậy điểm $N(-1; 1)$ thuộc miền nghiệm của hệ bất phương trình. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong các cặp số sau đây, cặp nào không là nghiệm của bất phương trình $2x + y < 1$?",
+      "explanation": "Thay cặp số $(0; 1)$ vào vế trái bất phương trình: $2(0) + 1 = 1 < 1$ là khẳng định sai. Vậy cặp $(0; 1)$ không là nghiệm của bất phương trình. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau, có bao nhiêu câu là mệnh đề?\na) Trời mưa quá!\nb) Việt Nam phóng thành công vệ tinh Vinasat-2 lên quỹ đạo vào năm 2012.\nc) $10 - 10 = 0$\nd) Năm 2028 là năm nhuận.",
+      "explanation": "- Câu a là câu cảm thán nên không phải mệnh đề.\n- Các câu b, c, d là những khẳng định có tính đúng sai xác định nên đều là mệnh đề.\nVậy có 3 câu là mệnh đề. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn là hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn $x, y$. Hệ ở phương án D gồm hai bất phương trình $-2x + 5y < 4$ và $x + 3y > 6$ đều là bậc nhất hai ẩn $x, y$. Các phương án A, B, C đều chứa số hạng bậc hai $x^2$ hoặc $y^2$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho $A = (-2; 1)$, $B = [-3; 5]$. Khi đó $A \\cap B$ là tập hợp nào sau đây?",
+      "explanation": "Vì khoảng $(-2; 1)$ là tập con của đoạn $[-3; 5]$ nên giao của hai tập hợp là $A \\cap B = (-2; 1) = A$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $X = \\{a; b\\}$, $Y = \\{a; b; c\\}$. $X \\cup Y$ là tập hợp nào sau đây?",
+      "explanation": "Hợp của hai tập hợp $X$ và $Y$ là tập hợp gồm tất cả các phần tử thuộc $X$ hoặc thuộc $Y$. Vì $X \\subset Y$ nên $X \\cup Y = \\{a; b; c\\}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong các bất phương trình sau, bất phương trình nào là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình $3^2 x + 4^3 y \\ge 6 \\Leftrightarrow 9x + 64y \\ge 6$ có dạng bậc nhất đối với hai ẩn $x, y$. Các phương án khác chứa tích $xy$, lũy thừa bậc ba $y^3$, hoặc bậc hai $x^2$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Câu nào trong các câu sau không phải là mệnh đề?",
+      "explanation": "Câu \"$\\pi$ có phải là một số vô tỷ không?\" là một câu hỏi (câu nghi vấn), không thể khẳng định đúng hoặc sai nên không phải là mệnh đề. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề là:",
+      "explanation": "Theo định nghĩa, mỗi mệnh đề toán học là một câu khẳng định có tính đúng hoặc sai, không thể vừa đúng vừa sai. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-1.png",
+          "sha256": "85c0e67a9983472d0d345538fd6e96a3c47d3bd5c233f9f00e53c6e0f33dc887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau đây câu nào không phải là mệnh đề?",
+      "explanation": "Câu \"Bạn tên gì?.\" là một câu hỏi, không phải là mệnh đề khẳng định có tính đúng sai. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$, biết $a = 10$, $b = 8$, $c = 6$.",
+      "explanation": "Giải thích chi tiết từng ý:\n- a) Nửa chu vi $p = \\frac{a + b + c}{2} = \\frac{10 + 8 + 6}{2} = 12$. Ý a đúng.\n- Tam giác có $b^2 + c^2 = 8^2 + 6^2 = 100 = 10^2 = a^2$ nên tam giác $ABC$ vuông tại $A$.\n- Diện tích tam giác: $S = \\frac{1}{2}bc = \\frac{1}{2} \\cdot 8 \\cdot 6 = 24$. Ý d cho $S = 48$ là sai.\n- Đường cao tương ứng với cạnh $a$: $h_a = \\frac{2S}{a} = \\frac{2 \\cdot 24}{10} = 4{,}8 \\ne 4$. Ý b sai.\n- Bán kính đường tròn ngoại tiếp tam giác vuông: $R = \\frac{a}{2} = \\frac{10}{2} = 5$. Ý c đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình\n$$\\begin{cases} -x + y < 2 \\\\ x + 4y > -4 \\end{cases} \\quad (\\text{I}).$$",
+      "explanation": "Kiểm tra tọa độ từng điểm vào hệ (I):\n- a) Thay $B(-4; -1)$ vào hệ: $-(-4) + (-1) = 3 < 2$ (khẳng định sai). Do đó $B(-4; -1)$ không thuộc miền nghiệm. Ý a sai.\n- b) Thay $O(0; 0)$ vào hệ: $-0 + 0 = 0 < 2$ (đúng) và $0 + 4(0) = 0 > -4$ (đúng). Vậy $O(0; 0)$ thuộc miền nghiệm của (I). Khẳng định \"không thuộc\" là sai. Ý b sai.\n- c) Thay $D(3; -1)$ vào hệ: $-3 + (-1) = -4 < 2$ (đúng) và $3 + 4(-1) = -1 > -4$ (đúng). Vậy $D(3; -1)$ thuộc miền nghiệm của (I). Ý c đúng.\n- d) Thay $C(1; 1)$ vào hệ: $-1 + 1 = 0 < 2$ (đúng) và $1 + 4(1) = 5 > -4$ (đúng). Vậy $C(1; 1)$ thuộc miền nghiệm của (I). Ý d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho các tập hợp $A = \\{x \\in \\mathbb{R} \\mid -1 < x \\le 10\\}$; $B = \\{x \\in \\mathbb{R} \\mid 0 \\le x \\le 5\\}$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Giải thích chi tiết từng ý:\n- d) Viết dưới dạng khoảng, nửa khoảng, đoạn: $A = (-1; 10]$ và $B = [0; 5]$. Ý d đúng.\n- b) Vì mọi phần tử của $B$ đều thuộc $A$ ($B \\subset A$) nên hiệu $B \\setminus A = \\emptyset$. Ý b đúng.\n- a) $A \\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Vì $0 \\in B$ nên $0 \\notin A \\setminus B$, suy ra $A \\setminus B = (-1; 0) \\cup (5; 10]$. Mệnh đề a ghi nửa khoảng $(-1; 0]$ nên ý a sai.\n- c) Vì $B \\subset A$ nên phần bù của $B$ trong $A$ là $C_A B = A \\setminus B = (-1; 0) \\cup (5; 10]$. Mệnh đề c ghi khoảng $(5; 10)$ là sai (thiếu phần tử $10$). Ý c sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Bạn An mang $200.000$ đồng đi nhà sách để mua một số quyển tập và bút. Biết rằng giá một quyển tập là $15.000$ đồng và giá của một cây bút là $7.000$ đồng. Bạn An có thể mua được tối đa bao nhiêu quyển tập nếu bạn đã mua $10$ cây bút.",
+      "explanation": "Số tiền An đã dùng để mua 10 cây bút là: $10 \\times 7.000 = 70.000$ đồng.\nSố tiền còn lại để mua tập là: $200.000 - 70.000 = 130.000$ đồng.\nGọi số quyển tập An mua là $x$ ($x \\in \\mathbb{N}$). Khi đó ta có bất phương trình:\n$$15.000x \\le 130.000 \\Leftrightarrow x \\le \\frac{130.000}{15.000} = \\frac{26}{3} \\approx 8{,}67.$$\nVì $x$ là số tự nhiên nên giá trị lớn nhất của $x$ là 8.\nVậy bạn An có thể mua được tối đa 8 quyển tập.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho $A = \\cos^2 1^\\circ + \\cos^2 2^\\circ + \\cos^2 3^\\circ + \\ldots + \\cos^2 89^\\circ + \\cos^2 90^\\circ$. Tính giá trị của $A$.",
+      "explanation": "Sử dụng công thức lượng giác của hai góc phụ nhau: $\\cos(90^\\circ - x) = \\sin x$, suy ra $\\cos^2 x + \\cos^2(90^\\circ - x) = \\cos^2 x + \\sin^2 x = 1$.\nGhép các cặp góc phụ nhau:\n$$A = (\\cos^2 1^\\circ + \\cos^2 89^\\circ) + (\\cos^2 2^\\circ + \\cos^2 88^\\circ) + \\ldots + (\\cos^2 44^\\circ + \\cos^2 46^\\circ) + \\cos^2 45^\\circ + \\cos^2 90^\\circ$$\nCó tất cả 44 cặp số có tổng bằng 1:\n- Tổng 44 cặp bằng $44 \\times 1 = 44$;\n- $\\cos 45^\\circ = \\frac{\\sqrt{2}}{2} \\Rightarrow \\cos^2 45^\\circ = 0{,}5$;\n- $\\cos 90^\\circ = 0 \\Rightarrow \\cos^2 90^\\circ = 0$.\nVậy $A = 44 + 0{,}5 + 0 = 44{,}5$ (hoặc 44.5).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Bác Năm dự định trồng ngô và đậu xanh trên một mảnh đất có diện tích $8\\text{ ha}$. Nếu trồng $1\\text{ ha}$ ngô thì cần $20$ ngày công và thu được $40$ triệu đồng. Nếu trồng $1\\text{ ha}$ đậu xanh thì cần $30$ ngày công và thu được $50$ triệu đồng. Bác Năm cần trồng $x\\text{ ha}$ ngô và $y\\text{ ha}$ đậu xanh để thu được nhiều tiền nhất? Biết rằng, bác Năm chỉ có thể sử dụng không quá $180$ ngày công cho việc trồng ngô và đậu xanh. Khi đó $x \\cdot y$ bằng bao nhiêu?",
+      "explanation": "Theo đề bài, các điều kiện ràng buộc đối với diện tích trồng ngô $x$ (ha) và đậu xanh $y$ (ha) là:\n$$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y \\le 8 \\\\ 20x + 30y \\le 180 \\Leftrightarrow 2x + 3y \\le 18 \\end{cases}$$\nSố tiền thu được là: $F(x; y) = 40x + 50y$ (triệu đồng).\nMiền nghiệm của hệ bất phương trình là miền tứ giác $OABC$ với các đỉnh:\n- $O(0; 0)$;\n- $A(8; 0)$;\n- $B(6; 2)$ (tọa độ là nghiệm của hệ $\\begin{cases} x + y = 8 \\\\ 2x + 3y = 18 \\end{cases}$);\n- $C(0; 6)$.\nTính giá trị biểu thức mục tiêu $F$ tại các đỉnh:\n- $F(0; 0) = 0$;\n- $F(8; 0) = 40(8) + 50(0) = 320$;\n- $F(6; 2) = 40(6) + 50(2) = 240 + 100 = 340$;\n- $F(0; 6) = 40(0) + 50(6) = 300$.\nDo đó giá trị lớn nhất của $F(x; y)$ là 340 triệu đồng đạt được khi $x = 6$ và $y = 2$.\nKhi đó tích $x \\cdot y = 6 \\times 2 = 12$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-014-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-014.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp khác rỗng $A = [m + 1; 2m - 1]$, $B = (0; 6)$. Có bao nhiêu giá trị $m$ nguyên để $A \\subset B$.",
+      "explanation": "Điều kiện để tập hợp $A \\ne \\emptyset$ là $m + 1 \\le 2m - 1 \\Leftrightarrow m \\ge 2$.\nĐể tập hợp $A \\subset B = (0; 6)$ thì:\n$$\\begin{cases} m + 1 > 0 \\\\ 2m - 1 < 6 \\end{cases} \\Leftrightarrow \\begin{cases} m > -1 \\\\ m < 3{,}5 \\end{cases}$$\nKết hợp điều kiện $A \\ne \\emptyset$, ta được $2 \\le m < 3{,}5$.\nVì $m$ là số nguyên nên $m \\in \\{2; 3\\}$.\nVậy có 2 giá trị nguyên của $m$ thỏa mãn yêu cầu bài toán.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-2.png",
+          "sha256": "591a5eeca4d1aed4802fc32a616cb30e72d45dfedfdae8bb27adda4068c1c61d"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-014-page-7.png",
+          "sha256": "82153df59abb853492fb30a6fef533559004d80fcd5afa44594dcad4199f410b"
+        }
+      ]
+    }
+  ]
+}

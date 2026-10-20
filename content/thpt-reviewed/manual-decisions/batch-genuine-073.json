@@ -1,0 +1,365 @@
+{
+  "batchId": "batch-genuine-073",
+  "reviewedAt": "2026-10-20T12:00:00+07:00",
+  "reviewer": "Antigravity Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lăng trụ tam giác $ABC.A'B'C'$, gọi $I, I'$ lần lượt là trung điểm của $AB, A'B'$. Phép chiếu song song theo phương $AI'$, mặt phẳng chiếu $(A'B'C')$ biến $I$ thành điểm nào?",
+      "explanation": "Trong mặt phẳng $(ABB'A')$, tứ giác $AIB'I'$ có $AI = I'B' = \\dfrac{1}{2}AB$ và $AI \\parallel I'B'$ nên $AIB'I'$ là hình bình hành. Suy ra $IB' \\parallel AI'$. Vì $B' \\in (A'B'C')$ nên qua phép chiếu song song theo phương $AI'$ lên mặt phẳng $(A'B'C')$, điểm $I$ biến thành điểm $B'$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p1.png",
+          "sha256": "6b30b500ef6b5e3d1d8c2414e41cd46a2f05ef2df75313b6c4e5e7145ecb7a1c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Mệnh đề nào sau đây sai?",
+      "explanation": "Hai mặt phẳng chéo nhau của hình hộp là $(BDD'B')$ và $(ACC'A')$ cắt nhau theo đường thẳng nối tâm hai đáy $OO'$, do đó chúng không song song với nhau. Khẳng định A sai. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p1.png",
+          "sha256": "6b30b500ef6b5e3d1d8c2414e41cd46a2f05ef2df75313b6c4e5e7145ecb7a1c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.EFGH$. Mệnh đề nào sau đây sai?",
+      "explanation": "Đường thẳng $CG$ nằm trong mặt phẳng $(CDHG)$, đường thẳng $HE$ cắt mặt phẳng $(CDHG)$ tại điểm $H$ không thuộc $CG$. Do đó hai đường thẳng $CG$ và $HE$ chéo nhau chứ không cắt nhau. Khẳng định A sai. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p1.png",
+          "sha256": "6b30b500ef6b5e3d1d8c2414e41cd46a2f05ef2df75313b6c4e5e7145ecb7a1c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$ có $M, N$ lần lượt là trung điểm của $AB, AC$ (hình vẽ). Mặt phẳng nào sau đây song song với đường thẳng $MN$?\n\n![Hình tứ diện ABCD](/math-import-assets/THPT-11-CUOI_HK1-136-M111-PART-I-Q004-fig1.png)",
+      "explanation": "Trong tam giác $ABC$, $M$ và $N$ lần lượt là trung điểm của $AB$ và $AC$, do đó $MN$ là đường trung bình, suy ra $MN \\parallel BC$. Vì $BC \\subset (BCD)$ và $MN \\not\\subset (BCD)$ nên $MN \\parallel (BCD)$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p1.png",
+          "sha256": "6b30b500ef6b5e3d1d8c2414e41cd46a2f05ef2df75313b6c4e5e7145ecb7a1c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị của $\\lim_{n \\to +\\infty} \\dfrac{3n + 2}{2n}$ bằng",
+      "explanation": "Ta có: $\\lim_{n \\to +\\infty} \\dfrac{3n + 2}{2n} = \\lim_{n \\to +\\infty} \\left(\\dfrac{3}{2} + \\dfrac{1}{n}\\right) = \\dfrac{3}{2}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p1.png",
+          "sha256": "6b30b500ef6b5e3d1d8c2414e41cd46a2f05ef2df75313b6c4e5e7145ecb7a1c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau, hàm số nào liên tục trên $\\mathbb{R}$?",
+      "explanation": "Hàm đa thức $y = x^2 + x$ xác định trên toàn bộ $\\mathbb{R}$ nên liên tục trên $\\mathbb{R}$. Các hàm số còn lại đều có điểm không xác định trên $\\mathbb{R}$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p1.png",
+          "sha256": "6b30b500ef6b5e3d1d8c2414e41cd46a2f05ef2df75313b6c4e5e7145ecb7a1c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\lim_{n \\to +\\infty} u_n = 2$, khi đó $\\lim_{n \\to +\\infty} [3u_n - 1]$ bằng",
+      "explanation": "Áp dụng định lý về giới hạn của dãy số: $\\lim_{n \\to +\\infty} [3u_n - 1] = 3 \\lim_{n \\to +\\infty} u_n - 1 = 3(2) - 1 = 5$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Kết quả khảo sát cân nặng của 25 quả cam ở lô hàng A được cho ở bảng sau:\n\n| Cân nặng (g) | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ | $[170; 175)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số quả cam ở lô hàng A | $1$ | $3$ | $7$ | $10$ | $4$ |\n\nTính số trung bình của mẫu số liệu ghép nhóm trên.",
+      "explanation": "Giá trị đại diện các nhóm tương ứng là: $c_1 = 152{,}5$; $c_2 = 157{,}5$; $c_3 = 162{,}5$; $c_4 = 167{,}5$; $c_5 = 172{,}5$.\nSố trung bình của mẫu số liệu ghép nhóm là:\n$$\\bar{x} = \\dfrac{1(152{,}5) + 3(157{,}5) + 7(162{,}5) + 10(167{,}5) + 4(172{,}5)}{25} = \\dfrac{4127{,}5}{25} = 165{,}1$$.\nPhương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\cos x = -1$ là",
+      "explanation": "Phương trình lượng giác cơ bản: $\\cos x = -1 \\iff x = \\pi + k2\\pi$ ($k \\in \\mathbb{Z}$). Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho ba số $2; x; 6$ theo thứ tự đó lập thành cấp số cộng. Giá trị của $x$ là",
+      "explanation": "Theo tính chất ba số hạng liên tiếp của cấp số cộng: $x = \\dfrac{2 + 6}{2} = 4$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giới hạn $I = \\lim_{x \\to 1} (x^3 + x + 1)$ bằng:",
+      "explanation": "Thay trực tiếp $x = 1$ vào hàm đa thức: $I = 1^3 + 1 + 1 = 3$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$, với $u_1 = -9, u_4 = \\dfrac{1}{3}$. Công bội của cấp số nhân đã cho bằng:",
+      "explanation": "Ta có $u_4 = u_1 \\cdot q^3 \\iff \\dfrac{1}{3} = -9 \\cdot q^3 \\iff q^3 = -\\dfrac{1}{27} \\iff q = -\\dfrac{1}{3}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương trình lượng giác $\\cos 2x = -\\dfrac{1}{2}$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Giải phương trình: $\\cos 2x = -\\dfrac{1}{2} = \\cos \\dfrac{2\\pi}{3} \\iff 2x = \\pm \\dfrac{2\\pi}{3} + k2\\pi \\iff x = \\pm \\dfrac{\\pi}{3} + k\\pi$ ($k \\in \\mathbb{Z}$).\n- a) Các nghiệm âm tương ứng là $-\\dfrac{\\pi}{3}, -\\dfrac{2\\pi}{3}, -\\dfrac{4\\pi}{3}, \\ldots$ Nghiệm âm lớn nhất (gần 0 nhất) là $x = -\\dfrac{\\pi}{3}$. Mệnh đề a ĐÚNG.\n- b) Họ nghiệm đúng là $x = \\pm \\dfrac{\\pi}{3} + k\\pi$, không phải $\\pm \\dfrac{2\\pi}{3} + k2\\pi$. Mệnh đề b SAI.\n- c) Trên khoảng $(0; 2\\pi)$, các nghiệm là: $\\dfrac{\\pi}{3}, \\dfrac{2\\pi}{3}, \\dfrac{4\\pi}{3}, \\dfrac{5\\pi}{3}$ (có 4 nghiệm). Mệnh đề c SAI.\n- d) Vì $\\cos \\dfrac{2\\pi}{3} = -\\dfrac{1}{2}$ nên phương trình đã cho tương đương với $\\cos 2x = \\cos \\dfrac{2\\pi}{3}$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = 2x^2 - 3x + 1$. Các khẳng định dưới đây đúng hay sai?",
+      "explanation": "Xét từng khẳng định:\n- a) $f(x)$ là đa thức nên liên tục trên $\\mathbb{R}$. Mệnh đề a ĐÚNG.\n- b) Ta có $f(x) = (x - 1)(2x - 1)$. Do đó $\\lim_{x \\to 1^-} \\dfrac{f(x)}{(x - 1)^2} = \\lim_{x \\to 1^-} \\dfrac{2x - 1}{x - 1}$. Khi $x \\to 1^-$, tử số $2x - 1 \\to 1 > 0$, mẫu số $x - 1 \\to 0$ và $x - 1 < 0$. Do đó giới hạn bằng $-\\infty \\ne +\\infty$. Mệnh đề b SAI.\n- c) $\\lim_{x \\to -\\infty} \\dfrac{2x^2 - 3x + 1}{x^2 - 2x} = 2$. Mệnh đề c ĐÚNG.\n- d) $\\lim_{x \\to 1} f(x) = 2(1)^2 - 3(1) + 1 = 0 \\ne -1$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p2.png",
+          "sha256": "285b91a7f71a8f58e667f25c1265f3efce0970fb447d27af7b9d69fef46cb46b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M, N$ lần lượt là trung điểm của $SA, SD$. Xác định đúng sai của mệnh đề sau:",
+      "explanation": "Xét từng mệnh đề:\n- a) $M, N$ là trung điểm $SA, SD \\implies MN$ là đường trung bình $\\triangle SAD \\implies MN \\parallel AD$. Đáy $ABCD$ là hình bình hành nên $AD \\parallel BC \\implies MN \\parallel BC$. Mà $BC \\not\\subset (MNO)$ nên $BC \\parallel (MNO)$. Mệnh đề a ĐÚNG.\n- b) $MN$ là đường trung bình $\\triangle SAD \\implies MN \\parallel AD$. Mệnh đề b ĐÚNG.\n- c) Điểm $S$ chung và $O = AC \\cap BD$ chung $\\implies (SAC) \\cap (SBD) = SO$. Mệnh đề c ĐÚNG.\n- d) Điểm $N \\in SD \\subset (SBD)$ và $O \\in BD \\subset (SBD) \\implies NO \\subset (SBD)$, do đó $NO$ không thể song song với $(SBD)$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p3.png",
+          "sha256": "f5a087ff1a59914a67f163ab4c176b0fa32538e4914dc12bcb2c6fdc0381528f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Để thưởng cho người phát minh ra bàn cờ vua gồm 64 ô, nhà vua đã đồng ý làm như sau, ở ô thứ nhất đặt một hạt thóc, ô thứ hai đặt hai hạt thóc, ô thứ ba đặt bốn hạt thóc, cứ tiếp tục như vậy cho đến hết bàn cờ 64 ô. Hỏi sau mười ô của bàn cờ, nhà vua đã đặt tất cả bao nhiêu hạt thóc?",
+      "explanation": "Số hạt thóc đặt ở các ô từ ô 1 đến ô 10 lập thành một cấp số nhân có số hạng đầu $u_1 = 1$ và công bội $q = 2$. Tổng số hạt thóc sau 10 ô là:\n$$S_{10} = u_1 \\dfrac{q^{10} - 1}{q - 1} = 1 \\cdot \\dfrac{2^{10} - 1}{2 - 1} = 1024 - 1 = 1023$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p3.png",
+          "sha256": "f5a087ff1a59914a67f163ab4c176b0fa32538e4914dc12bcb2c6fdc0381528f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p10.png",
+          "sha256": "36e499684b58a71c886fee05d3ba585a11b0c028d7f0555b31990cb8749690bf"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính $\\lim_{n \\to +\\infty} \\dfrac{\\sqrt{5n^2 + 1} - \\sqrt{2n + 2}}{2n - 3}$ được kết quả là $\\dfrac{\\sqrt{a}}{b}$, với $a, b$ là các số nguyên tố. Tính $a + b$.",
+      "explanation": "Chia cả tử và mẫu cho $n$ ($n > 0$):\n$$\\lim_{n \\to +\\infty} \\dfrac{\\sqrt{5n^2 + 1} - \\sqrt{2n + 2}}{2n - 3} = \\lim_{n \\to +\\infty} \\dfrac{\\sqrt{5 + \\dfrac{1}{n^2}} - \\sqrt{\\dfrac{2}{n} + \\dfrac{2}{n^2}}}{2 - \\dfrac{3}{n}} = \\dfrac{\\sqrt{5} - 0}{2 - 0} = \\dfrac{\\sqrt{5}}{2}$$\nĐối chiếu với dạng $\\dfrac{\\sqrt{a}}{b}$, ta có $a = 5$ (số nguyên tố) và $b = 2$ (số nguyên tố). Do đó $a + b = 5 + 2 = 7$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p3.png",
+          "sha256": "f5a087ff1a59914a67f163ab4c176b0fa32538e4914dc12bcb2c6fdc0381528f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p10.png",
+          "sha256": "36e499684b58a71c886fee05d3ba585a11b0c028d7f0555b31990cb8749690bf"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tại một xưởng sản xuất bột đá thạch anh, giá bán (tính theo nghìn đồng) của $x$ (kg) bột đá thạch anh được tính theo công thức sau:\n$$P(x) = \\begin{cases} 4{,}5x & \\text{khi } 0 < x \\le 200 \\\\ 3x + a & \\text{khi } x > 200 \\end{cases}$$\n($a$ là một hằng số)\nVới giá trị nào của $a$ thì hàm số $P(x)$ liên tục trên $(0; +\\infty)$?",
+      "explanation": "Hàm số $P(x)$ liên tục trên $(0; 200)$ và $(200; +\\infty)$ với mọi hằng số $a$.\nĐể hàm số $P(x)$ liên tục trên khoảng $(0; +\\infty)$, hàm số phải liên tục tại điểm $x = 200$:\n$$\\lim_{x \\to 200^-} P(x) = \\lim_{x \\to 200^-} (4{,}5x) = 4{,}5 \\times 200 = 900$$\n$$P(200) = 4{,}5 \\times 200 = 900$$\n$$\\lim_{x \\to 200^+} P(x) = \\lim_{x \\to 200^+} (3x + a) = 3(200) + a = 600 + a$$\nHàm số liên tục tại $x = 200 \\iff \\lim_{x \\to 200^+} P(x) = \\lim_{x \\to 200^-} P(x) = P(200) \\iff 600 + a = 900 \\iff a = 300$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p3.png",
+          "sha256": "f5a087ff1a59914a67f163ab4c176b0fa32538e4914dc12bcb2c6fdc0381528f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p10.png",
+          "sha256": "36e499684b58a71c886fee05d3ba585a11b0c028d7f0555b31990cb8749690bf"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-136-M111-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty cung cấp nước sạch thống kê lượng nước các hộ gia đình trong một khu vực tiêu thụ trong một tháng ở bảng sau:\n\n![Bảng tiêu thụ nước sạch](/math-import-assets/THPT-11-CUOI_HK1-136-M111-PART-III-Q004-fig1.png)\n\n| Lượng nước tiêu thụ ($m^3$) | $[3; 6)$ | $[6; 9)$ | $[9; 12)$ | $[12; 15)$ | $[15; 18)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số hộ gia đình | $24$ | $57$ | $42$ | $29$ | $8$ |\n\nHãy tính trung vị của mẫu số liệu ghép nhóm trên (kết quả làm tròn đến hàng phần trăm).",
+      "explanation": "Cỡ mẫu: $n = 24 + 57 + 42 + 29 + 8 = 160$.\nVị trí của trung vị là $\\dfrac{n}{2} = \\dfrac{160}{2} = 80$.\nTần số tích lũy của các nhóm:\n- Nhóm $[3; 6)$ có $cf_1 = 24$.\n- Nhóm $[6; 9)$ có $cf_2 = 24 + 57 = 81$.\nVì $cf_1 = 24 < 80 \\le 81 = cf_2$, nên nhóm chứa trung vị là nhóm 2: $[6; 9)$.\nTa có: $L = 6$, độ dài $h = 9 - 6 = 3$, tần số nhóm chứa trung vị $m = 57$, tần số tích lũy nhóm trước $C = 24$.\nÁp dụng công thức tính trung vị của mẫu số liệu ghép nhóm:\n$$M_e = L + \\dfrac{\\dfrac{n}{2} - C}{m} \\cdot h = 6 + \\dfrac{80 - 24}{57} \\cdot 3 = 6 + \\dfrac{56}{19} \\approx 8{,}947 \\approx 8{,}95\\text{ } m^3$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p3.png",
+          "sha256": "f5a087ff1a59914a67f163ab4c176b0fa32538e4914dc12bcb2c6fdc0381528f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p9.png",
+          "sha256": "8c4e9f701e779c1257eab53f62ad374eccd6e3fa4b6f9e9547500cbe7e88d26b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-136-p10.png",
+          "sha256": "36e499684b58a71c886fee05d3ba585a11b0c028d7f0555b31990cb8749690bf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-import { LEGACY_BANK_PAUSED } from '../curriculum/thpt-catalog';
 import { Injectable, BadRequestException, ConflictException, ForbiddenException, NotFoundException } from '@nestjs/common';
 import { createEmptyCard } from 'ts-fsrs';
 import { PrismaService } from '../prisma/prisma.service';
 import { estimateAbility, itemParameters, updateKnowledge } from '../../common/domain/math-adaptive';
 import { MATH_LESSONS } from './math-lessons';
+import { learningQuestionWhere, isLearningQuestion } from '../curriculum/thpt-catalog';
 
 @Injectable()
 export class MathPracticeService {
@@ -42,10 +42,9 @@ export class MathPracticeService {
       lastFeedback: state.lastFeedback || null };
   }
   private questions(tx: any, state: any) {
-    return tx.question.findMany({ where: { id: { in: state.poolIds } }, include: { options: true }, orderBy: { id: 'asc' } });
+    return tx.question.findMany({ where: { id: { in: state.poolIds } }, include: { options: true, skill: true }, orderBy: { id: 'asc' } });
   }
   async start(id: string, skillId: string) {
-    if (LEGACY_BANK_PAUSED) throw new BadRequestException('Bài luyện và kiểm tra tự động tạm ngưng trong khi chuẩn bị kho Toán THPT.');
     return this.db.$transaction(async tx => {
       await this.lock(tx, id); await this.available(tx, id);
       const existing = await tx.mathPracticeSession.findFirst({ where: { studentId: id, status: 'IN_PROGRESS' }, include: { skill: true } });
@@ -54,9 +53,11 @@ export class MathPracticeService {
         return { ...this.view(existing, await this.questions(tx, existing.state)), isResumed: true };
       }
       const profile = await tx.studentProfile.findUnique({ where: { userId: id } });
-      const skill = await tx.skillNode.findFirst({ where: { id: skillId, grade: profile?.grade || 9 } });
+      if (![10, 11, 12].includes(profile?.grade)) throw new BadRequestException('Hãy chọn khối lớp THPT trong hồ sơ trước khi luyện tập.');
+      const skill = await tx.skillNode.findFirst({ where: { id: skillId, grade: profile?.grade || 10 } });
       if (!skill) throw new NotFoundException('Không tìm thấy chủ đề trong khối lớp của bạn.');
-      const pool = await tx.question.findMany({ where: { skillId, status: 'PUBLISHED', questionType: 'SINGLE_CHOICE' }, include: { options: true }, orderBy: { id: 'asc' } });
+      const candidates = await tx.question.findMany({ where: { ...learningQuestionWhere(id), skillId, questionType: 'SINGLE_CHOICE' }, include: { options: true, skill: true }, orderBy: { id: 'asc' } });
+      const pool = candidates.filter(q => isLearningQuestion(q, id));
       if (pool.length < 3) throw new BadRequestException('Chủ đề cần ít nhất 3 câu đã duyệt để có đủ ba pha luyện tập. Hãy chọn chủ đề khác.');
       const [diagnostic, sessions] = await Promise.all([
         tx.attemptAnswer.findMany({ where: { attempt: { studentId: id }, question: { skillId } }, select: { questionId: true } }),
@@ -91,7 +92,7 @@ export class MathPracticeService {
       if (recorded) return { ...this.view(session, questions), feedback: recorded.feedback, replayed: true };
       if (session.status !== 'IN_PROGRESS' || questionId !== state.currentId) throw new ConflictException('Câu hỏi không thuộc lượt hiện tại.');
       const q = questions.find(q => q.id === questionId);
-      if (!q || q.status !== 'PUBLISHED') throw new ConflictException('Câu hỏi không còn được xuất bản. Hãy kết thúc buổi này và mở buổi mới.');
+      if (!isLearningQuestion(q, id)) throw new ConflictException('Câu hỏi không còn đủ điều kiện luyện tập. Hãy kết thúc buổi này và mở buổi mới.');
       if (!q.options.some(o => o.optionKey === answer)) throw new BadRequestException('Chọn đáp án hợp lệ.');
       const isCorrect = q.options.find(o => o.isCorrect)?.optionKey === answer, phase = this.phase(state);
       const feedback = { isCorrect, correctOptionKey: q.options.find(o => o.isCorrect)?.optionKey, explanation: q.explanation,

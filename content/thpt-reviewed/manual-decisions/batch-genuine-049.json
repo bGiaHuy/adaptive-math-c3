@@ -1,0 +1,544 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, điểm nào sau đây thuộc đường thẳng $\\Delta: \\begin{cases} x = 3 + t \\\\ y = 2 - t \\end{cases}$?",
+      "explanation": "Thay tọa độ từng điểm vào phương trình tham số của đường thẳng $\\Delta$:\n- Với điểm $M_1(3; 2)$, thay $x = 3, y = 2$ ta có hệ $\\begin{cases} 3 = 3 + t \\\\ 2 = 2 - t \\end{cases} \\iff t = 0$. Vậy $M_1(3; 2) \\in \\Delta$.\nDo đó chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p1.png",
+          "sha256": "1afb9c39f308eb1bd0c2d99acd0fc785dd850f3c521f2b26c91a7f2ac65f041f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tập xác định của hàm số $y = \\dfrac{6}{x - 1}$.",
+      "explanation": "Hàm số xác định khi và chỉ khi mẫu số khác 0:\n$$x - 1 \\ne 0 \\iff x \\ne 1.$$\nVậy tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{1\\}$. Do đó chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p1.png",
+          "sha256": "1afb9c39f308eb1bd0c2d99acd0fc785dd850f3c521f2b26c91a7f2ac65f041f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai đường thẳng $\\Delta_1: a_1 x + b_1 y + c_1 = 0$ và $\\Delta_2: a_2 x + b_2 y + c_2 = 0$. Gọi $\\varphi$ là góc giữa hai đường thẳng $\\Delta_1$ và $\\Delta_2$, mệnh đề nào sau đây là đúng?",
+      "explanation": "Hai đường thẳng $\\Delta_1, \\Delta_2$ có vectơ pháp tuyến lần lượt là $\\vec{n}_1 = (a_1; b_1)$ và $\\vec{n}_2 = (a_2; b_2)$.\nGóc $\\varphi$ giữa hai đường thẳng thỏa mãn:\n$$\\cos \\varphi = \\dfrac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| \\cdot |\\vec{n}_2|} = \\dfrac{|a_1 a_2 + b_1 b_2|}{\\sqrt{a_1^2 + b_1^2} \\cdot \\sqrt{a_2^2 + b_2^2}}.$$\nDo đó chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p1.png",
+          "sha256": "1afb9c39f308eb1bd0c2d99acd0fc785dd850f3c521f2b26c91a7f2ac65f041f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số nào sau đây là hàm số bậc hai một ẩn?",
+      "explanation": "Hàm số bậc hai một ẩn có dạng tổng quát là $y = ax^2 + bx + c$ với $a \\ne 0$.\nTrong các hàm số đã cho, hàm số $y = 2x^2 - 4$ có $a = 2 \\ne 0, b = 0, c = -4$ là hàm số bậc hai một ẩn. Do đó chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p1.png",
+          "sha256": "1afb9c39f308eb1bd0c2d99acd0fc785dd850f3c521f2b26c91a7f2ac65f041f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, véc tơ nào sau đây là một véc tơ chỉ phương của đường thẳng $\\Delta: \\begin{cases} x = 1 + t \\\\ y = 2 - 3t \\end{cases}$?",
+      "explanation": "Đường thẳng $\\Delta$ có phương trình tham số $\\begin{cases} x = 1 + t \\\\ y = 2 - 3t \\end{cases}$.\nHệ số của tham số $t$ lần lượt là $1$ và $-3$, do đó một vectơ chỉ phương của $\\Delta$ là $\\vec{u}_1 = (1; -3)$. Do đó chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p1.png",
+          "sha256": "1afb9c39f308eb1bd0c2d99acd0fc785dd850f3c521f2b26c91a7f2ac65f041f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị trên $[-1; 3]$ như hình vẽ:\n\n![Đồ thị hàm số y = f(x)](/math-import-assets/THPT-10-GIUA_HK2-065-q6.png)\n\nMệnh đề nào sau đây là đúng?",
+      "explanation": "Quan sát đồ thị hàm số trên đoạn $[-1; 3]$:\n- Trên khoảng $(-1; 0)$, đồ thị là một đoạn thẳng đi lên từ $(-1; 0)$ đến $(0; 2)$, do đó hàm số đồng biến trên khoảng $(-1; 0)$.\n- Trên khoảng $(0; 1)$, đồ thị đi xuống từ $(0; 2)$ đến $(1; 1)$, do đó hàm số nghịch biến trên khoảng $(0; 1)$.\n- Trên khoảng $(1; 3)$, đồ thị đi lên từ $(1; 1)$ đến $(3; 3)$, do đó hàm số đồng biến trên khoảng $(1; 3)$.\nVậy mệnh đề đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p1.png",
+          "sha256": "1afb9c39f308eb1bd0c2d99acd0fc785dd850f3c521f2b26c91a7f2ac65f041f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điểm nào sau đây thuộc đồ thị của hàm số $y = 3x + 1$?",
+      "explanation": "Thay tọa độ từng điểm vào phương trình $y = 3x + 1$:\n- Với $M_1(1; 4)$: $y = 3(1) + 1 = 4$ (thỏa mãn).\nVậy điểm $M_1(1; 4)$ thuộc đồ thị hàm số. Do đó chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị của hàm số bậc hai $y = ax^2 + bx + c$ ($a \\ne 0$) là một đường Parabol có trục đối xứng là đường thẳng có phương trình nào sau đây?",
+      "explanation": "Theo tính chất của hàm số bậc hai $y = ax^2 + bx + c$ ($a \\ne 0$), đỉnh của parabol có hoành độ là $x_I = -\\dfrac{b}{2a}$, do đó trục đối xứng của parabol là đường thẳng có phương trình $x = -\\dfrac{b}{2a}$. Do đó chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bảng xét dấu trong hình bên là của tam thức bậc hai nào sau đây?\n\n$$\\begin{array}{c|ccccccc} x & -\\infty & & 1 & & 2 & & +\\infty \\\\ \\hline f(x) & & + & 0 & - & 0 & + & \\end{array}$$",
+      "explanation": "Từ bảng xét dấu:\n- Tam thức bậc hai $f(x)$ có hai nghiệm phân biệt là $x_1 = 1$ và $x_2 = 2$.\n- $f(x) > 0$ khi $x \\in (-\\infty; 1) \\cup (2; +\\infty)$, cùng dấu với hệ số $a$ ở ngoài khoảng hai nghiệm nên $a > 0$.\nPhương trình có dạng $f(x) = a(x - 1)(x - 2) = a(x^2 - 3x + 2)$ với $a > 0$.\nVới $a = 1$, ta được $f(x) = x^2 - 3x + 2$. Do đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình của đường tròn có tâm $I(-3; 4)$ và có bán kính $R = 2$ là phương trình nào sau đây?",
+      "explanation": "Phương trình đường tròn có tâm $I(a; b)$ và bán kính $R$ là:\n$$(x - a)^2 + (y - b)^2 = R^2.$$\nVới $I(-3; 4)$ và $R = 2$, phương trình đường tròn là:\n$$(x - (-3))^2 + (y - 4)^2 = 2^2 \\iff (x + 3)^2 + (y - 4)^2 = 4.$$\nDo đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai đường thẳng $\\Delta_1: 2x + y - 1 = 0$ và $\\Delta_2: 4x + 2y - 3 = 0$. Mệnh đề nào sau đây là đúng?",
+      "explanation": "Xét tỉ lệ các hệ số của hai đường thẳng:\n$$\\dfrac{2}{4} = \\dfrac{1}{2} \\ne \\dfrac{-1}{-3} \\quad \\left(\\text{vì } \\dfrac{1}{2} \\ne \\dfrac{1}{3}\\right).$$\nSuy ra hai đường thẳng $\\Delta_1$ và $\\Delta_2$ song song với nhau. Do đó chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, véc tơ nào sau đây là một véc tơ pháp tuyến của đường thẳng $\\Delta: -x + 2y + 1 = 0$?",
+      "explanation": "Đường thẳng $\\Delta$ có phương trình tổng quát là $-1x + 2y + 1 = 0$.\nDo đó một vectơ pháp tuyến của $\\Delta$ là $\\vec{n}_1 = (-1; 2)$. Do đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = x^2 - 4x + 3$ có đồ thị là Parabol $(P)$.",
+      "explanation": "Xét hàm số $y = x^2 - 4x + 3$ có $a = 1 > 0, b = -4, c = 3$:\na) Bề lõm quay lên trên: Mệnh đề a) Sai.\nb) Tọa độ đỉnh $I(2; -1)$: Mệnh đề b) Đúng.\nc) Trục đối xứng $x = 2$: Mệnh đề c) Đúng.\nd) Giá trị nhỏ nhất là $-1$: Mệnh đề d) Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường thẳng $\\Delta: 3x + 4y - 1 = 0$ và điểm $M(1; 2)$.",
+      "explanation": "Xét đường thẳng $\\Delta: 3x + 4y - 1 = 0$ và điểm $M(1; 2)$:\na) VTPT là $(3; 4)$, không phải $(-4; 3)$: Sai.\nb) $3(-1) + 4(1) - 1 = 0 \\implies N \\in \\Delta$: Đúng.\nc) $d(M, \\Delta) = \\dfrac{10}{5} = 2$: Đúng.\nd) Bán kính $R = 2 \\implies (x - 1)^2 + (y - 2)^2 = 4$: Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} x - 2 & \\text{khi } x > 0 \\\\ 3x^2 + x - 1 & \\text{khi } x \\le 0 \\end{cases}$. Tính $f(5)$.",
+      "explanation": "Vì $x = 5 > 0$ nên ta sử dụng công thức thứ nhất của hàm số:\n$$f(5) = 5 - 2 = 3.$$\nVậy $f(5) = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường tròn $(c): (x - 2)^2 + (y + 1)^2 = 9$, đường tròn $(c)$ có tâm $I(a; b)$. Tính $a + b$.",
+      "explanation": "Từ phương trình đường tròn $(x - 2)^2 + (y + 1)^2 = 9$, ta có tọa độ tâm là $I(2; -1)$.\nSuy ra $a = 2$ và $b = -1$.\nKhi đó: $a + b = 2 + (-1) = 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai đường thẳng $\\Delta_1: x - 1 = 0$ và $\\Delta_2: x + \\sqrt{3}y - 2 = 0$. Góc giữa hai đường thẳng $\\Delta_1$ và $\\Delta_2$ là $a^\\circ$. Tính $a$.",
+      "explanation": "Vectơ pháp tuyến của $\\Delta_1$ là $\\vec{n}_1 = (1; 0)$.\nVectơ pháp tuyến của $\\Delta_2$ là $\\vec{n}_2 = (1; \\sqrt{3})$.\nGọi $\\varphi$ là góc giữa hai đường thẳng $\\Delta_1$ và $\\Delta_2$, ta có:\n$$\\cos \\varphi = \\dfrac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| \\cdot |\\vec{n}_2|} = \\dfrac{|1(1) + 0(\\sqrt{3})|}{\\sqrt{1^2 + 0^2} \\cdot \\sqrt{1^2 + (\\sqrt{3})^2}} = \\dfrac{1}{1 \\cdot 2} = \\dfrac{1}{2}.$$\nDo $0^\\circ \\le \\varphi \\le 90^\\circ$ nên $\\varphi = 60^\\circ$.\nVậy $a = 60$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p2.png",
+          "sha256": "61e85d4f8cc69b482b365ba0c8a4eefe5cfd4cd04743d2df9e5eeb658dabca7f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-065-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bác Hùng có một mảnh vườn, Bác muốn dùng lưới để rào thành một khu đất có dạng hình chữ nhật nằm trong mảnh vườn đó để trồng rau. Biết chiều dài của khu đất đó hơn chiều rộng là 7 m. Để diện tích khu đất không nhỏ hơn 120 $\\text{m}^2$ thì Bác Hùng phải mua ít nhất $a$ (m) lưới. Tính $a$.",
+      "explanation": "Gọi chiều rộng của khu đất hình chữ nhật là $x$ (m, $x > 0$).\nKhi đó chiều dài của khu đất là $x + 7$ (m).\nDiện tích của khu đất là $S = x(x + 7) = x^2 + 7x$ ($\\text{m}^2$).\nTheo giả thiết, diện tích khu đất không nhỏ hơn $120\\text{ m}^2$ nên:\n$$x^2 + 7x \\ge 120 \\iff x^2 + 7x - 120 \\ge 0 \\iff (x - 8)(x + 15) \\ge 0.$$\nVì $x > 0$ nên bất phương trình tương đương với $x \\ge 8$.\nChu vi của khu đất hình chữ nhật (chiều dài lưới rào cần dùng) là:\n$$P = 2[x + (x + 7)] = 2(2x + 7) = 4x + 14.$$\nVì $x \\ge 8$ nên:\n$$P \\ge 4(8) + 14 = 32 + 14 = 46\\text{ (m).}$$\nVậy để thỏa mãn điều kiện thì Bác Hùng phải mua ít nhất 46 mét lưới, tức là $a = 46$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-065-p3.png",
+          "sha256": "6104a4bbafe9500d71821e75ef26a7a954990a2f76b8a37640fa7ab64e5bace4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với giá trị nào của $m$ thì $x^2 + y^2 - 2mx + 4y + 5 = 0$ là phương trình đường tròn?",
+      "explanation": "Phương trình có dạng $x^2 + y^2 - 2ax - 2by + c = 0$ với $a = m, b = -2, c = 5$.\nPhương trình đã cho là phương trình đường tròn khi và chỉ khi:\n$$a^2 + b^2 - c > 0 \\iff m^2 + (-2)^2 - 5 > 0 \\iff m^2 - 1 > 0 \\iff m > 1 \\text{ hoặc } m < -1.$$\nDo đó chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Góc giữa hai đường thẳng $d: x + y + 1 = 0$ và $\\Delta: y - 2 = 0$ bằng:",
+      "explanation": "Vectơ pháp tuyến của hai đường thẳng là $\\vec{n}_1 = (1; 1)$ và $\\vec{n}_2 = (0; 1)$.\nGọi $\\varphi$ là góc giữa hai đường thẳng:\n$$\\cos \\varphi = \\dfrac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| \\cdot |\\vec{n}_2|} = \\dfrac{|1(0) + 1(1)|}{\\sqrt{1^2 + 1^2} \\cdot \\sqrt{0^2 + 1^2}} = \\dfrac{1}{\\sqrt{2} \\cdot 1} = \\dfrac{1}{\\sqrt{2}}.$$\nDo đó $\\varphi = 45^\\circ$. Chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 - 2x - 4y - 3 = 0$ tại $A(3; 4)$ là:",
+      "explanation": "Đường tròn $(C)$ có tâm $I(1; 2)$.\nTiếp tuyến của $(C)$ tại $A(3; 4)$ nhận $\\vec{IA} = (3 - 1; 4 - 2) = (2; 2) = 2(1; 1)$ làm vectơ pháp tuyến.\nPhương trình tiếp tuyến đi qua $A(3; 4)$ là:\n$$1(x - 3) + 1(y - 4) = 0 \\iff x + y - 7 = 0.$$\nDo đó chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khoảng cách từ điểm $M(2; 1)$ đến đường thẳng $\\Delta: 3x - 4y + 8 = 0$ bằng:",
+      "explanation": "Khoảng cách từ $M(2; 1)$ đến $\\Delta$ được tính bằng:\n$$d(M, \\Delta) = \\dfrac{|3(2) - 4(1) + 8|}{\\sqrt{3^2 + (-4)^2}} = \\dfrac{|6 - 4 + 8|}{\\sqrt{25}} = \\dfrac{10}{5} = 2.$$\nDo đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biết parabol $(P): y = 3x^2 + bx + c$ đi qua $M(0; 2)$ và có trục đối xứng $x = 1$. Tính $S = b + c$.",
+      "explanation": "- Vì $(P)$ đi qua $M(0; 2)$ nên thay $x = 0, y = 2$ vào phương trình:\n$$2 = 3(0)^2 + b(0) + c \\iff c = 2.$$\n- Trục đối xứng của parabol là $x = -\\dfrac{b}{2a} = 1 \\implies -\\dfrac{b}{2(3)} = 1 \\iff b = -6$.\nKhi đó: $S = b + c = -6 + 2 = -4$. Do đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tam thức nào dưới đây luôn dương với mọi giá trị của $x$?",
+      "explanation": "Xét tam thức bậc hai $f(x) = x^2 - 2x + 5$:\nCó $a = 1 > 0$ và $\\Delta' = (-1)^2 - 1(5) = 1 - 5 = -4 < 0$.\nTheo định lí về dấu của tam thức bậc hai, $f(x) > 0$ với mọi $x \\in \\mathbb{R}$.\n(Thực tế $x^2 - 2x + 5 = (x - 1)^2 + 4 \\ge 4 > 0, \\forall x \\in \\mathbb{R}$).\nDo đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số nghiệm của phương trình $x - \\sqrt{x^2 - 3x + 2} = 1$ là:",
+      "explanation": "Phương trình tương đương với:\n$$\\sqrt{x^2 - 3x + 2} = x - 1.$$\nĐiều kiện: $x - 1 \\ge 0 \\iff x \\ge 1$.\nBình phương hai vế:\n$$x^2 - 3x + 2 = (x - 1)^2 \\iff x^2 - 3x + 2 = x^2 - 2x + 1 \\iff -x = -1 \\iff x = 1.$$\nGiá trị $x = 1$ thỏa mãn điều kiện $x \\ge 1$.\nVậy phương trình có đúng 1 nghiệm. Do đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tròn tâm $I(-1; 2)$ tiếp xúc đường thẳng $\\Delta: x - 2y + 10 = 0$ có phương trình:",
+      "explanation": "Bán kính của đường tròn là khoảng cách từ tâm $I(-1; 2)$ đến đường thẳng $\\Delta$:\n$$R = d(I, \\Delta) = \\dfrac{|-1 - 2(2) + 10|}{\\sqrt{1^2 + (-2)^2}} = \\dfrac{|-5 + 10|}{\\sqrt{5}} = \\dfrac{5}{\\sqrt{5}} = \\sqrt{5}.$$\nPhương trình đường tròn là:\n$$(x - (-1))^2 + (y - 2)^2 = (\\sqrt{5})^2 \\iff (x + 1)^2 + (y - 2)^2 = 5.$$\nDo đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $f(x) = \\dfrac{2x - 4}{3x - 6}$ là:",
+      "explanation": "Hàm số xác định khi và chỉ khi mẫu số khác 0:\n$$3x - 6 \\ne 0 \\iff 3x \\ne 6 \\iff x \\ne 2.$$\nVậy tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{2\\}$. Do đó chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình tham số của đường thẳng $\\Delta$ đi qua $A(1; -3)$ và nhận $\\vec{u} = (2; 4)$ làm VTCP là:",
+      "explanation": "Đường thẳng đi qua điểm $A(x_0; y_0)$ và nhận $\\vec{u} = (u_1; u_2)$ làm vectơ chỉ phương có phương trình tham số là $\\begin{cases} x = x_0 + u_1 t \\\\ y = y_0 + u_2 t \\end{cases}$.\nVới $A(1; -3)$ và $\\vec{u} = (2; 4)$, phương trình tham số của $\\Delta$ là:\n$$\\begin{cases} x = 1 + 2t \\\\ y = -3 + 4t \\end{cases}$$\nDo đó chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai đường thẳng $\\Delta_1: a_1 x + b_1 y + c_1 = 0$ và $\\Delta_2: a_2 x + b_2 y + c_2 = 0$. Gọi $\\varphi$ là góc giữa $\\Delta_1$ và $\\Delta_2$. Khẳng định nào sau đây đúng?",
+      "explanation": "Công thức tính góc $\\varphi$ giữa hai đường thẳng thông qua các vectơ pháp tuyến $\\vec{n}_1 = (a_1; b_1)$ và $\\vec{n}_2 = (a_2; b_2)$ là:\n$$\\cos \\varphi = \\dfrac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| \\cdot |\\vec{n}_2|} = \\dfrac{|a_1 a_2 + b_1 b_2|}{\\sqrt{a_1^2 + b_1^2} \\cdot \\sqrt{a_2^2 + b_2^2}}.$$\nDo đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập giá trị của hàm số $y = -5x^2$ là:",
+      "explanation": "Vì $x^2 \\ge 0$ với mọi $x \\in \\mathbb{R}$ nên $-5x^2 \\le 0$ với mọi $x \\in \\mathbb{R}$.\nDấu bằng xảy ra khi $x = 0$.\nVậy tập giá trị của hàm số là $T = (-\\infty; 0]$. Do đó chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p1.png",
+          "sha256": "41ed31309887628b9e08abbb0340a02ed2b95e5e56de54eba79156c9acada8a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, cho điểm $A(-1; 2)$ và đường thẳng $\\Delta: 3x - 4y - 4 = 0$.",
+      "explanation": "Xét từng mệnh đề:\na) $A(-1; 2) \\in d: x + 1 = 0$ nên $A, M, N$ thẳng hàng, không tạo thành tam giác: Sai.\nb) Đường thẳng qua $A$ song song $\\Delta$ là $3x - 4y + 11 = 0$: Đúng.\nc) Bán kính $R = d(A, \\Delta) = 3 \\implies (x + 1)^2 + (y - 2)^2 = 9$: Đúng.\nd) $d(A, \\Delta) = 3$: Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p2.png",
+          "sha256": "f5ab4e91e7b0a28d350d743f45c34fc59130815112ad925d1774d26f274cf66c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = -x^2 + 2x + 3$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét hàm số $y = -x^2 + 2x + 3$ có đỉnh $I(1; 4)$ và $a = -1 < 0$:\na) Trục đối xứng là $x = 1$: Sai.\nb) Nghịch biến trên $(1; +\\infty)$: Đúng.\nc) Tập giá trị $T = (-\\infty; 4]$: Đúng.\nd) Không cắt $(P)$ khi $m > 4$: Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p2.png",
+          "sha256": "f5ab4e91e7b0a28d350d743f45c34fc59130815112ad925d1774d26f274cf66c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tổng các giá trị của tham số $m$ để đường thẳng $\\Delta_1: \\begin{cases} x = 2 + mt \\\\ y = 1 + (m^2 - 2)t \\end{cases}$ song song với đường thẳng $\\Delta_2: x - y + 5 = 0$.",
+      "explanation": "Vectơ chỉ phương của đường thẳng $\\Delta_1$ là $\\vec{u}_1 = (m; m^2 - 2)$.\nĐường thẳng $\\Delta_2: x - y + 5 = 0$ có vectơ pháp tuyến $\\vec{n}_2 = (1; -1)$, suy ra vectơ chỉ phương của $\\Delta_2$ là $\\vec{u}_2 = (1; 1)$.\nĐể $\\Delta_1 \\parallel \\Delta_2$ thì trước hết $\\vec{u}_1$ và $\\vec{u}_2$ cùng phương:\n$$\\dfrac{m^2 - 2}{m} = \\dfrac{1}{1} \\iff m^2 - m - 2 = 0 \\iff \\left[ \\begin{array}{l} m = -1 \\\\ m = 2 \\end{array} \\right.$$\nKiểm tra điều kiện không trùng nhau:\n- Với $m = -1$: $\\Delta_1$ đi qua $A(2; 1)$. Thay vào $\\Delta_2$: $2 - 1 + 5 = 6 \\ne 0$, nên $A \\notin \\Delta_2 \\implies \\Delta_1 \\parallel \\Delta_2$ (thỏa mãn).\n- Với $m = 2$: $\\Delta_1$ đi qua $A(2; 1) \\notin \\Delta_2 \\implies \\Delta_1 \\parallel \\Delta_2$ (thỏa mãn).\nVậy cả hai giá trị $m = -1$ và $m = 2$ đều thỏa mãn.\nTổng các giá trị của tham số $m$ là:\n$$(-1) + 2 = 1.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p2.png",
+          "sha256": "f5ab4e91e7b0a28d350d743f45c34fc59130815112ad925d1774d26f274cf66c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-067-M1001-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hai tàu thủy cùng xuất phát từ một vị trí $T$, tàu A đi về hướng Đông, tàu B đi về hướng Nam. Sau một khoảng thời gian $t$ (giờ), tàu A cách $T$ một khoảng $S_1 = \\sqrt{2t^2 + 10t + 25}$ (km), tàu B cách $T$ một khoảng $S_2 = t + 5$ (km). Biết khoảng cách giữa hai tàu lúc này là 15 km. Tính thời gian $t$.",
+      "explanation": "Vì hướng Đông và hướng Nam vuông góc với nhau, tam giác tạo bởi vị trí ban đầu $T$ và vị trí hai tàu là tam giác vuông tại $T$.\nKhoảng cách giữa hai tàu là cạnh huyền của tam giác vuông, theo định lí Pythagore:\n$$d^2 = S_1^2 + S_2^2.$$\nThay $S_1 = \\sqrt{2t^2 + 10t + 25}$, $S_2 = t + 5$ và $d = 15$ km vào:\n$$(2t^2 + 10t + 25) + (t + 5)^2 = 15^2$$\n$$\\iff 2t^2 + 10t + 25 + t^2 + 10t + 25 = 225$$\n$$\\iff 3t^2 + 20t + 50 = 225$$\n$$\\iff 3t^2 + 20t - 175 = 0.$$\nGiải phương trình bậc hai:\n$$\\Delta' = 10^2 - 3(-175) = 100 + 525 = 625 = 25^2.$$\nNghiệm của phương trình là:\n$$t = \\dfrac{-10 + 25}{3} = \\dfrac{15}{3} = 5 \\quad \\text{hoặc} \\quad t = \\dfrac{-10 - 25}{3} = -\\dfrac{35}{3} \\text{ (loại vì } t > 0).$$\nVậy thời gian $t = 5$ giờ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-067-p2.png",
+          "sha256": "f5ab4e91e7b0a28d350d743f45c34fc59130815112ad925d1774d26f274cf66c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-070-M1111-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = ax^2 + bx + c$ có đồ thị như hình vẽ sau:\n\n![Đồ thị hàm số bậc hai](/math-import-assets/THPT-10-GIUA_HK2-070-q1.png)",
+      "explanation": "Quan sát đồ thị parabol có đỉnh $I(-2; -1)$, bề lõm hướng lên:\na) TXĐ là $\\mathbb{R}$: Đúng.\nb) Trục đối xứng là $x = -2$: Sai (khẳng định ghi $y = -2$).\nc) Giá trị nhỏ nhất là $-1$: Đúng.\nd) Đồng biến trên $(-2; +\\infty)$ nên đồng biến trên $(0; +\\infty)$: Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-070-p2.png",
+          "sha256": "0acfda4fa05d9134646eabda578cdae85ec78154447ec73f968f3c2623a1cad7"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-070-M1111-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-065 mã 1001, THPT-10-GIUA_HK2-067 mã 1001, THPT-10-GIUA_HK2-070 mã 1111). Dữ kiện, các phương án A-D, a-d, trả lời ngắn trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai điểm $A(1; -1)$, $B(2; 1)$ và đường thẳng $\\Delta: 3x - 4y - 17 = 0$.",
+      "explanation": "Xét từng mệnh đề với $A(1; -1), B(2; 1), \\Delta: 3x - 4y - 17 = 0$:\na) $\\vec{AB} = (1; 2) \\ne k(4; 3)$: Sai.\nb) $3(3) - 4(-2) - 17 = 0 \\implies M \\in \\Delta$: Đúng.\nc) $d(A, \\Delta) = \\dfrac{10}{5} = 2 \\ne 3$: Sai.\nd) PTTQ của $AB$ là $2(x - 1) - (y + 1) = 0 \\iff 2x - y - 3 = 0$: Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-070-p3.png",
+          "sha256": "15ce94a1087f462de365924dde347f4eb8e8fb3decf84eead11c2b5bdb001714"
+        }
+      ]
+    }
+  ]
+}

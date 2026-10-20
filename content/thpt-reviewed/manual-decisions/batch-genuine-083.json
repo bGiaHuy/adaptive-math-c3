@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-083",
+  "reviewedAt": "2026-10-20T13:35:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập nghiệm của bất phương trình $5^{x-1} \\ge 5^{x^2 - x - 9}$ là:",
+      "explanation": "Vì cơ số $5 > 1$ nên bất phương trình tương đương: $x - 1 \\ge x^2 - x - 9 \\Leftrightarrow x^2 - 2x - 8 \\le 0 \\Leftrightarrow -2 \\le x \\le 4$. Vậy tập nghiệm là $[-2; 4]$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p1.png",
+          "sha256": "4d0cd83fbc33ef1ba965b68acb61507c0ebff1856a1012a83246b48cfbacada3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác đều $S.ABCD$. Số đo góc nhị diện $[S, AC, B]$ bằng:",
+      "explanation": "Gọi $O$ là tâm của hình vuông đáy $ABCD$. Vì hình chóp đều nên $SO \\perp (ABCD) \\implies SO \\perp AC$. Trong hình vuông $ABCD$, hai đường chéo vuông góc nên $BO \\perp AC$. Do đó góc phẳng nhị diện $[S, AC, B]$ là góc $\\widehat{SOB}$. Vì $SO \\perp (ABCD)$ nên $SO \\perp OB \\implies \\widehat{SOB} = 90^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p1.png",
+          "sha256": "4d0cd83fbc33ef1ba965b68acb61507c0ebff1856a1012a83246b48cfbacada3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số nào sau đây luôn nghịch biến trên từng khoảng xác định của nó?",
+      "explanation": "Hàm số $y = \\log_a x$ nghịch biến trên $(0; +\\infty)$ khi $0 < a < 1$. Trong các phương án, chỉ có cơ số $a = \\frac{1}{3} \\in (0; 1)$ nên $y = \\log_{1/3} x$ luôn nghịch biến trên tập xác định của nó.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p1.png",
+          "sha256": "4d0cd83fbc33ef1ba965b68acb61507c0ebff1856a1012a83246b48cfbacada3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $3^{2x} = 2^{x+1}$ là:",
+      "explanation": "Phương trình tương đương: $9^x = 2 \\cdot 2^x \\Leftrightarrow \\left(\\frac{9}{2}\\right)^x = 2 \\Leftrightarrow x = \\log_{9/2} 2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p1.png",
+          "sha256": "4d0cd83fbc33ef1ba965b68acb61507c0ebff1856a1012a83246b48cfbacada3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị của hàm số nào dưới đây có dạng như đường cong trong hình vẽ?\\n\\n<img src=\"/math-import-assets/THPT-11-GIUA_HK2-152-p1-img1.png\" alt=\"Đồ thị hàm số\" style=\"max-width:280px; display:block; margin:10px auto;\" />",
+      "explanation": "Đồ thị là một đường cong đồng biến của hàm mũ $y = a^x$ với $a > 1$, đi qua các điểm $(0; 1)$ và $(1; 2)$. Do đó $a = 2$, hàm số là $y = 2^x$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p1.png",
+          "sha256": "4d0cd83fbc33ef1ba965b68acb61507c0ebff1856a1012a83246b48cfbacada3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai số thực dương $x, y$ và hai số thực tùy ý $\\alpha, \\beta$. Khẳng định nào sau đây sai?",
+      "explanation": "Công thức lũy thừa $x^\\alpha \\cdot y^\\beta = (xy)^{\\alpha + \\beta}$ là sai (chỉ có $x^\\alpha \\cdot y^\\alpha = (xy)^\\alpha$). Do đó khẳng định C sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p1.png",
+          "sha256": "4d0cd83fbc33ef1ba965b68acb61507c0ebff1856a1012a83246b48cfbacada3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai số thực dương $a, b$ ($a \\neq 1$) thỏa mãn $\\log_a b = 5$. Giá trị của $\\log_a(b^2)$ bằng:",
+      "explanation": "Theo tính chất của logarit: $\\log_a(b^2) = 2 \\log_a b = 2 \\times 5 = 10$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p2.png",
+          "sha256": "cd4c0ba27e1a66b2a7d9852dfa5aa7aeafd5018296c79ed5c5f710b16d023b0f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các khẳng định sau về hình lăng trụ đều, khẳng định nào sai?",
+      "explanation": "Hình lăng trụ đều là lăng trụ đứng có đáy là đa giác đều. Các mặt bên của hình lăng trụ đều là các hình chữ nhật bằng nhau, không nhất thiết là đa giác đều (hình vuông). Do đó C là khẳng định sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p2.png",
+          "sha256": "cd4c0ba27e1a66b2a7d9852dfa5aa7aeafd5018296c79ed5c5f710b16d023b0f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA \\perp (ABCD)$. Gọi $M$ là hình chiếu vuông góc của điểm $A$ trên đường thẳng $SB$. Khẳng định nào sau đây sai?",
+      "explanation": "Ta có $BC \\perp AB$ và $BC \\perp SA$ nên $BC \\perp (SAB) \\implies BC \\perp AM$. Nếu $AC \\perp AM$ thì $AM \\perp (ABC) \\implies AM \\perp AB$, điều này vô lý vì trong tam giác vuông $SAB$ tại $A$, đường cao $AM$ không thể vuông góc với cạnh góc vuông $AB$. Do đó khẳng định A là sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p2.png",
+          "sha256": "cd4c0ba27e1a66b2a7d9852dfa5aa7aeafd5018296c79ed5c5f710b16d023b0f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình thoi tâm $O$ và hai mặt phẳng $(SAC)$ và $(SBD)$ cùng vuông góc với mặt phẳng $(ABCD)$. Đường thẳng $AC$ vuông góc với mặt phẳng nào dưới đây?",
+      "explanation": "Giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$ là đường thẳng $SO$. Vì cả hai mặt phẳng cùng vuông góc với $(ABCD)$ nên $SO \\perp (ABCD) \\implies SO \\perp AC$. Mặt khác, đáy là hình thoi nên $BD \\perp AC$. Do đó $AC \\perp (SBD)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p2.png",
+          "sha256": "cd4c0ba27e1a66b2a7d9852dfa5aa7aeafd5018296c79ed5c5f710b16d023b0f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABC$ có đáy là tam giác $ABC$ vuông tại $B$ và cạnh $SA$ vuông góc với mặt phẳng đáy. Hình chiếu vuông góc của điểm $C$ trên mặt phẳng $(SAB)$ là:",
+      "explanation": "Ta có $CB \\perp AB$ (vì $\\triangle ABC$ vuông tại $B$) và $CB \\perp SA$ (vì $SA \\perp (ABC)$). Suy ra $CB \\perp (SAB)$ tại $B$. Vậy hình chiếu vuông góc của $C$ trên mặt phẳng $(SAB)$ là điểm $B$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p2.png",
+          "sha256": "cd4c0ba27e1a66b2a7d9852dfa5aa7aeafd5018296c79ed5c5f710b16d023b0f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa đường thẳng $AB'$ và $CD'$ bằng:",
+      "explanation": "Trong hình lập phương, $CD' \\parallel BA'$. Do đó góc giữa $AB'$ và $CD'$ bằng góc giữa $AB'$ và $BA'$. Trong hình vuông $ABB'A'$, hai đường chéo $AB'$ và $BA'$ vuông góc nhau nên góc giữa chúng bằng $90^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p2.png",
+          "sha256": "cd4c0ba27e1a66b2a7d9852dfa5aa7aeafd5018296c79ed5c5f710b16d023b0f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Áp suất khí quyển $p$ (tính bằng kilopascal, viết tắt là kPa) ở độ cao $h$ (so với mực nước biển, tính bằng km) được tính theo công thức $p(h) = 100 \\cdot e^{-h/7}$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Sai: Đạo hàm $p'(h) = -\\frac{100}{7} e^{-h/7} < 0$, nên $p(h)$ là hàm số giảm (nghịch biến).\\nb) Đúng: Tại mặt nước biển $h = 0 \\implies p(0) = 100 \\cdot e^0 = 100$ kPa.\\nc) Đúng: Đổi $8850$ m $= 8.85$ km, ta có $p(8.85) = 100 \\cdot e^{-8.85/7} \\approx 28.244$ kPa $\\approx 28.2$ kPa.\\nd) Đúng: $p(h) \\ge 60 \\Leftrightarrow 100 e^{-h/7} \\ge 60 \\Leftrightarrow h \\le 7 \\ln\\left(\\frac{5}{3}\\right) \\approx 3.57578$ km $= 3576$ m.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p3.png",
+          "sha256": "083af367e617b4a133a451c30f8f1561f84f20190e08e6eb0632d46c3bd14a1a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi tâm $O$ cạnh $a$, $SO \\perp (ABCD)$, $SO = \\frac{a\\sqrt{6}}{3}$, $SA = a$. Gọi $E$ là hình chiếu vuông góc của $O$ trên $SA$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Đúng: $BD \\perp AC$ và $BD \\perp SO \\implies BD \\perp (SAO)$.\\nb) Đúng: $BD \\perp (SAO) \\implies SA \\perp BD$. Mà $SA \\perp OE$ nên $SA \\perp (BDE) \\implies SA \\perp BE$.\\nc) Sai: Trong tam giác vuông $SOA$, $OA = \\sqrt{SA^2 - SO^2} = \\frac{a\\sqrt{3}}{3}$. Đường cao $OE = \\frac{SO \\cdot OA}{SA} = \\frac{a\\sqrt{2}}{3}$, khác với giá trị $\\frac{a\\sqrt{2}}{\\sqrt{3}}$ in trong đề.\\nd) Sai: Góc phẳng nhị diện $[B, SA, D]$ là góc $\\widehat{BED} = 2 \\widehat{BEO}$. Ta có $\\tan \\widehat{BEO} = \\frac{OB}{OE} = \\frac{a\\sqrt{6}/3}{a\\sqrt{2}/3} = \\sqrt{3} \\implies \\widehat{BEO} = 60^\\circ \\implies \\widehat{BED} = 120^\\circ \\neq 30^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p3.png",
+          "sha256": "083af367e617b4a133a451c30f8f1561f84f20190e08e6eb0632d46c3bd14a1a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai hàm số $y = f(x) = \\log_2(x - 3)$ và $y = g(x) = \\log_4(x - 5)^2$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Sai: Điều kiện xác định của $g(x)$ là $(x - 5)^2 > 0 \\Leftrightarrow x \\neq 5$. Tập xác định là $D = \\mathbb{R} \\setminus \\{5\\}$.\\nb) Đúng: $f(5) = \\log_2(5 - 3) = \\log_2 2 = 1 \\implies A(5; 1) \\in (C_f)$.\\nc) Đúng: Với $x > 3, x \\neq 5$, $g(x) = \\log_2 |x - 5|$. Phương trình $x - 3 = |x - 5|$ có nghiệm duy nhất $x = 4 \\in (3; 5)$.\\nd) Sai: Với $x > 5$, $x - 3 \\ge x - 5 \\Leftrightarrow -3 \\ge -5$ luôn đúng. Do đó mọi số nguyên $x \\ge 6$ đều là nghiệm, bất phương trình có vô số nghiệm nguyên.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p3.png",
+          "sha256": "083af367e617b4a133a451c30f8f1561f84f20190e08e6eb0632d46c3bd14a1a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\log_a x$ có đồ thị $(C)$ như hình vẽ bên dưới. Các mệnh đề sau đúng hay sai?\\n\\n<img src=\"/math-import-assets/THPT-11-GIUA_HK2-152-p3-img1.jpeg\" alt=\"Đồ thị logarit\" style=\"max-width:300px; display:block; margin:10px auto;\" />",
+      "explanation": "Đồ thị là hàm số $y = \\log_4 x$.\\na) Sai: Hàm số logarit có tập xác định $(0; +\\infty)$, không xác định trên toàn $\\mathbb{R}$.\\nb) Sai: Tập giá trị của hàm số logarit là $\\mathbb{R}$.\\nc) Đúng: Với $x = \\frac{1}{4}$, $y = \\log_4\\left(\\frac{1}{4}\\right) = -1$, đồ thị đi qua $M\\left(\\frac{1}{4}; -1\\right)$.\\nd) Đúng: $\\log_4 x = -\\frac{1}{2} \\Leftrightarrow x = 4^{-1/2} = \\frac{1}{2}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p3.png",
+          "sha256": "083af367e617b4a133a451c30f8f1561f84f20190e08e6eb0632d46c3bd14a1a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Quá trình nuôi cấy vi khuẩn tuân theo quy luật tăng trưởng tự do: $N(t) = N_0 e^{rt}$, trong đó $r$ là tỉ lệ tăng trưởng vi khuẩn mỗi giờ. Giả sử ban đầu có 500 con vi khuẩn và sau 1 giờ tăng lên 900 con. Sau bao nhiêu giờ thì số lượng vi khuẩn lên đến 1 triệu con (kết quả làm tròn đến hàng đơn vị)?",
+      "explanation": "Ban đầu $N_0 = 500$. Sau 1 giờ: $N(1) = 500 e^r = 900 \\implies e^r = 1.8 \\implies r = \\ln 1.8$.\nSố lượng vi khuẩn đạt 1 triệu con khi:\n$500 e^{rt} = 1\\,000\\,000 \\Leftrightarrow e^{rt} = 2000 \\Leftrightarrow t = \\frac{\\ln 2000}{\\ln 1.8} \\approx 12.93 \\text{ giờ}$.\nLàm tròn đến hàng đơn vị được 13.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p4.png",
+          "sha256": "db938496dae46130439211d29d7595500f629b14405cd3b3e09ea8b1de8a1e71"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mức cường độ âm $L$ đo bằng decibel (dB) được định nghĩa: $L(I) = 10 \\log\\left(\\frac{I}{I_0}\\right)$, trong đó $I_0 = 10^{-12} \\text{ W/m}^2$. Một cuộc trò chuyện bình thường có cường độ $I_1 = 10^{-7} \\text{ W/m}^2$. Khi nghe nhạc ở mức $L_2 = 80 \\text{ dB}$, cường độ âm thanh lớn gấp bao nhiêu lần so với cuộc trò chuyện thông thường?",
+      "explanation": "Mức $80 \\text{ dB} = 10 \\log\\left(\\frac{I_2}{10^{-12}}\\right) \\implies \\log\\left(\\frac{I_2}{10^{-12}}\\right) = 8 \\implies I_2 = 10^{-12} \\cdot 10^8 = 10^{-4} \\text{ W/m}^2$.\nTỷ số cường độ âm thanh: $\\frac{I_2}{I_1} = \\frac{10^{-4}}{10^{-7}} = 10^3 = 1000$ lần.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p4.png",
+          "sha256": "db938496dae46130439211d29d7595500f629b14405cd3b3e09ea8b1de8a1e71"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Anh Đạt vay ngân hàng 500 triệu đồng để mua ô tô với lãi suất 9,8%/năm theo hình thức lãi kép. Sau đúng 1 năm kể từ ngày vay, anh bắt đầu trả nợ theo hình thức trả góp. Anh trả tổng cộng 6 lần, mỗi lần cách nhau đúng 1 năm và số tiền mỗi lần trả như nhau. Biết rằng trong suốt thời gian trả nợ, lãi suất không thay đổi. Số tiền anh Đạt phải trả ngân hàng mỗi lần là bao nhiêu triệu đồng (kết quả làm tròn đến hàng đơn vị)?",
+      "explanation": "Công thức trả góp với khoản vay $A = 500$, lãi suất $r = 0.098$, số kỳ $n = 6$:\n$m = \\frac{A \\cdot r(1 + r)^n}{(1 + r)^n - 1} = \\frac{500 \\times 0.098 \\times (1.098)^6}{(1.098)^6 - 1} \\approx \\frac{49 \\times 1.748288}{0.748288} \\approx 114.48$ triệu đồng.\nLàm tròn đến hàng đơn vị là 114.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p4.png",
+          "sha256": "db938496dae46130439211d29d7595500f629b14405cd3b3e09ea8b1de8a1e71"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình vuông có cạnh nhỏ hơn 3, $SA \\perp (ABCD)$ và $SA = 3\\sqrt{2}$. Một mặt phẳng $(\\alpha)$ đi qua $A$ và vuông góc với $SC$, cắt các cạnh $SB, SC, SD$ theo thứ tự tại các điểm $B', C', D'$. Biết diện tích tứ giác $AB'C'D'$ bằng $\\frac{\\sqrt{2}}{3}$. Cạnh hình vuông có độ dài bằng bao nhiêu (kết quả làm tròn đến hàng phần trăm)?",
+      "explanation": "Gọi $x$ là cạnh hình vuông ($0 < x < 3$). Đặt $h = SA = 3\\sqrt{2} \\implies h^2 = 18$.\nTrong hình chóp $S.ABCD$, ta có $B'D' \\perp (SAC) \\implies B'D' \\perp AC'$. Diện tích tứ giác là:\n$S_{AB'C'D'} = \\frac{1}{2} AC' \\cdot B'D' = \\frac{h^3 x^2}{(h^2 + x^2)\\sqrt{h^2 + 2x^2}}$.\nVới $S = \\frac{\\sqrt{2}}{3}$, giải phương trình tìm được $x \\approx 0.7071... \\approx 0.71$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p4.png",
+          "sha256": "db938496dae46130439211d29d7595500f629b14405cd3b3e09ea8b1de8a1e71"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một máy bay cất cánh và bay thẳng với vận tốc không đổi 240 km/h trong suốt 2 phút đầu kể từ khi cất cánh. Biết rằng, sau khi cất cánh 1 phút, máy bay ở độ cao 1,035 km so với mặt đất (mặt phẳng nằm ngang). Góc cất cánh của máy bay bằng bao nhiêu độ (kết quả làm tròn đến hàng đơn vị)?",
+      "explanation": "Sau 1 phút ($=\\frac{1}{60}$ giờ), máy bay bay được quãng đường:\n$s = 240 \\times \\frac{1}{60} = 4$ km.\nGọi $\\alpha$ là góc cất cánh, ta có:\n$\\sin \\alpha = \\frac{h}{s} = \\frac{1.035}{4} = 0.25875 \\implies \\alpha \\approx 14.996^\\circ \\approx 15^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p4.png",
+          "sha256": "db938496dae46130439211d29d7595500f629b14405cd3b3e09ea8b1de8a1e71"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-152-M1354-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với mọi số thực $a$ dương, rút gọn biểu thức $P = \\sqrt{a\\sqrt{\\sqrt{a}}}$, ta được $P = a^{m/n}$ với $\\frac{m}{n}$ là phân số tối giản, $m, n \\in \\mathbb{Z}, n > 0$. Giá trị $m^2 + n^2$ bằng bao nhiêu?",
+      "explanation": "Ta có:\n$P = \\sqrt{a\\sqrt{\\sqrt{a}}} = \\sqrt{a \\cdot a^{1/4}} = \\sqrt{a^{5/4}} = a^{5/8}$.\nDo đó $\\frac{m}{n} = \\frac{5}{8}$ (phân số tối giản, $m = 5, n = 8$).\nGiá trị cần tìm là $m^2 + n^2 = 5^2 + 8^2 = 25 + 64 = 89$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p4.png",
+          "sha256": "db938496dae46130439211d29d7595500f629b14405cd3b3e09ea8b1de8a1e71"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-152-p9.png",
+          "sha256": "1442a7a6ffc5ed8aead5bdb926131fea9e1bc8a338fd5ab5a29ffed8f85023a1"
+        }
+      ]
+    }
+  ]
+}

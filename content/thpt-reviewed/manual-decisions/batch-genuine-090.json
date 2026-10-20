@@ -1,0 +1,419 @@
+{
+  "batchId": "batch-genuine-090",
+  "reviewedAt": "2026-10-20T14:10:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên với cực đại tại $x = -1, y = 3$ và cực tiểu tại $x = 2, y = -4$. Hàm số $y = f(x)$ có giá trị cực tiểu bằng",
+      "explanation": "Dựa vào bảng biến thiên của hàm số, tại điểm cực tiểu $x = 2$, giá trị cực tiểu tương ứng của hàm số là $y_{\\text{CT}} = -4$. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p1.png",
+          "sha256": "3e0cf3c94a422138f24a9430258e6908cb872301da24f4c785fe1c1f589bfadb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm giá trị nhỏ nhất của hàm số $y = \\frac{x^2}{x - 2}$ trên nửa khoảng $(2; 6]$.",
+      "explanation": "Ta có đạo hàm $y' = \\frac{2x(x - 2) - x^2}{(x - 2)^2} = \\frac{x^2 - 4x}{(x - 2)^2}$. Cho $y' = 0 \\iff x = 0$ (loại) hoặc $x = 4$ (nhận). Lập bảng biến thiên trên $(2; 6]$, hàm số nghịch biến trên $(2; 4)$ và đồng biến trên $(4; 6]$. Do đó giá trị nhỏ nhất đạt tại $x = 4$, giá trị nhỏ nhất là $y(4) = \\frac{4^2}{4 - 2} = 8$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p1.png",
+          "sha256": "3e0cf3c94a422138f24a9430258e6908cb872301da24f4c785fe1c1f589bfadb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = ax^3 + bx^2 + cx + d$ có đồ thị như hình vẽ bên. Mệnh đề nào dưới đây đúng?",
+      "explanation": "Đồ thị có nhánh bên phải đi xuống nên hệ số $a < 0$. Đồ thị cắt trục tung tại điểm có tung độ âm nên $d < 0$. Hàm số có hai điểm cực trị $x_1 < 0 < x_2$ với $|x_2| > |x_1|$; ta có $x_1 x_2 = \\frac{c}{3a} < 0 \\implies c > 0$ (do $a < 0$) và $x_1 + x_2 = -\\frac{2b}{3a} > 0 \\implies b > 0$. Vậy $a < 0, b > 0, c > 0, d < 0$. Do đó chọn phương án A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p1.png",
+          "sha256": "3e0cf3c94a422138f24a9430258e6908cb872301da24f4c785fe1c1f589bfadb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình bên (đồ thị có đường tiệm cận ngang $y = 2$ và tiệm cận đứng $x = -1$). Đường tiệm cận ngang của đồ thị hàm số $y = f(x)$ là đường thẳng có phương trình",
+      "explanation": "Quan sát đồ thị hàm số, khi $x \\to \\pm\\infty$, đường cong tiến dần đến đường thẳng nằm ngang $y = 2$. Do đó đường tiệm cận ngang là $y = 2$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p1.png",
+          "sha256": "3e0cf3c94a422138f24a9430258e6908cb872301da24f4c785fe1c1f589bfadb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p2.png",
+          "sha256": "7af662b414c8060ec4d8d22fa2244ef2dac7ef067e6b63e55332dd75c90b8eb8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ (đạt cực đại tại $(1; 5)$ và cực tiểu tại $(3; 1)$). Hàm số $y = f(x)$ nghịch biến trên khoảng:",
+      "explanation": "Trên khoảng $(1; 3)$, đồ thị hàm số đi xuống từ trái sang phải, do đó hàm số nghịch biến trên khoảng $(1; 3)$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p2.png",
+          "sha256": "7af662b414c8060ec4d8d22fa2244ef2dac7ef067e6b63e55332dd75c90b8eb8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABFE.DCHG$ có cạnh bằng 2. Tích vô hướng $\\vec{GB} \\cdot \\vec{GE}$ bằng",
+      "explanation": "Chọn hệ tọa độ với gốc tại $G(0; 0; 0)$ và các trục theo các tia $GH, GC, GF$. Khi đó $B(0; 2; 2)$ và $E(2; 0; 2)$. Vectơ $\\vec{GB} = (0; 2; 2)$ và $\\vec{GE} = (2; 0; 2)$. Tích vô hướng là $\\vec{GB} \\cdot \\vec{GE} = 0(2) + 2(0) + 2(2) = 4$. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p2.png",
+          "sha256": "7af662b414c8060ec4d8d22fa2244ef2dac7ef067e6b63e55332dd75c90b8eb8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'. Tìm vectơ $\\vec{BA} + \\vec{AD} - \\vec{C'C}$.",
+      "explanation": "Ta có $\\vec{BA} + \\vec{AD} = \\vec{BD}$. Lại có $-\\vec{C'C} = \\vec{CC'} = \\vec{DD'}$. Do đó $\\vec{BA} + \\vec{AD} - \\vec{C'C} = \\vec{BD} + \\vec{DD'} = \\vec{BD'}$. Do đó chọn phương án A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p2.png",
+          "sha256": "7af662b414c8060ec4d8d22fa2244ef2dac7ef067e6b63e55332dd75c90b8eb8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = ax^3 + bx^2 + cx + d$. Đồ thị của hàm số $y = f(x)$ có điểm cực tiểu $(0; -2)$ và điểm cực đại $(2; 2)$. Số nghiệm thực của phương trình $3f(x) + 4 = 0$ là",
+      "explanation": "Phương trình $3f(x) + 4 = 0 \\iff f(x) = -\\frac{4}{3}$. Vì $y_{\\text{CT}} = -2 < -\\frac{4}{3} < y_{\\text{CĐ}} = 2$ nên đường thẳng $y = -\\frac{4}{3}$ cắt đồ thị hàm số tại 3 điểm phân biệt. Vậy phương trình có 3 nghiệm thực phân biệt. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p3.png",
+          "sha256": "15e73103b5556478c53ecf379540ce95c4af2009d65d61ebe921fa6116dca769"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên với tiệm cận đứng tại $x = 0$, tiệm cận ngang khi $x \\to -\\infty$ là $y = 3$, khi $x \\to +\\infty$ là $y = 0$. Tổng số các đường tiệm cận đứng và đường tiệm cận ngang của đồ thị hàm số đã cho là:",
+      "explanation": "Từ bảng biến thiên, ta có: $\\lim_{x \\to 0^+} f(x) = +\\infty$ nên $x = 0$ là 1 tiệm cận đứng; $\\lim_{x \\to -\\infty} f(x) = 3$ nên $y = 3$ là 1 tiệm cận ngang; $\\lim_{x \\to +\\infty} f(x) = 0$ nên $y = 0$ là 1 tiệm cận ngang nữa. Tổng số tiệm cận đứng và tiệm cận ngang là $1 + 2 = 3$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p3.png",
+          "sha256": "15e73103b5556478c53ecf379540ce95c4af2009d65d61ebe921fa6116dca769"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đồ thị như hình vẽ bên dưới (đồ thị hàm bậc ba đi qua $(0; -4)$, đạt cực đại tại $(1; -2)$, cực tiểu tại $(-1; -6)$). Hỏi đồ thị là của hàm số nào dưới đây?",
+      "explanation": "Nhánh bên phải của đồ thị đi xuống nên $a < 0$. Đồ thị cắt trục tung tại $(0; -4)$ nên $d = -4$. Hàm số đạt cực đại tại $x = 1, y = -2$. Xét hàm số $y = -x^3 + 3x - 4$: có $y' = -3x^2 + 3 = 0 \\iff x = \\pm 1$; tại $x = 1$, $y = -1 + 3 - 4 = -2$ (cực đại); tại $x = -1$, $y = 1 - 3 - 4 = -6$ (cực tiểu). Hoàn toàn phù hợp với đồ thị. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p3.png",
+          "sha256": "15e73103b5556478c53ecf379540ce95c4af2009d65d61ebe921fa6116dca769"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình vẽ sau. Gọi $M$ và $m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số $f(x)$ trên $[-1; 1]$. Giá trị của $M + m$ bằng",
+      "explanation": "Trên đoạn $[-1; 1]$, giá trị lớn nhất của hàm số là $M = f(-1) = 2$, giá trị nhỏ nhất của hàm số là $m = f(0) = -2$. Khi đó $M + m = 2 + (-2) = 0$. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p3.png",
+          "sha256": "15e73103b5556478c53ecf379540ce95c4af2009d65d61ebe921fa6116dca769"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p4.png",
+          "sha256": "656978243e546ff7857848d18f71dc556654662497a3ae3f5d2f98b57bbfc577"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên với các khoảng đồng biến là $(-\\infty; -1)$ và $(4; +\\infty)$. Hàm số $y = f(x)$ đồng biến trong khoảng nào dưới đây?",
+      "explanation": "Vì khoảng $(-4; -3)$ là tập con của khoảng $(-\\infty; -1)$ nên hàm số đồng biến trên khoảng $(-4; -3)$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p4.png",
+          "sha256": "656978243e546ff7857848d18f71dc556654662497a3ae3f5d2f98b57bbfc577"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đồ thị hàm số $y = f(x)$ có hình vẽ dưới đây và có tập xác định trên $\\mathbb{R}$.\nCác mệnh đề sau đúng hay sai?\na) Đồ thị hàm số đã cho là đồ thị của hàm số bậc ba.\nb) Đồ thị hàm số đã cho là hàm số $y = -x^3 - 3x$.\nc) Hàm số đã cho nghịch biến trên khoảng $(-1; 1)$.\nd) Hàm số đã cho có hai điểm cực trị.",
+      "explanation": "a) Đúng: Đồ thị có dạng đường cong uốn lượn hai điểm cực trị đặc trưng của hàm đa thức bậc ba. Khẳng định a đúng.\nb) Sai: Đồ thị có nhánh bên phải đi lên ($a > 0$) và có hai điểm cực trị, trong khi $y = -x^3 - 3x$ có $a = -1 < 0$ và không có cực trị. Khẳng định b sai.\nc) Sai: Dựa vào đồ thị, hàm số không nghịch biến trên toàn bộ khoảng $(-1; 1)$. Khẳng định c sai.\nd) Đúng: Hàm số có một điểm cực đại và một điểm cực tiểu nên có đúng hai điểm cực trị. Khẳng định d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p4.png",
+          "sha256": "656978243e546ff7857848d18f71dc556654662497a3ae3f5d2f98b57bbfc577"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = ax^3 + bx^2 + cx + d$ với $a \\neq 0$ có đồ thị với điểm cực đại $(1; 3)$ và điểm cực tiểu $(-1; -1)$.\nCác mệnh đề sau đúng hay sai?\na) Điểm cực đại của đồ thị hàm số $y = f(x - 4) + 1$ là $(5; 4)$.\nb) Giá trị của $a, b, c$ thỏa mãn hệ phương trình: $\\begin{cases} 3a + 2b + c = 0 \\\\ 3a - 2b + c = 0 \\end{cases}$.\nc) Phương trình $f(x) = -1$ có 3 nghiệm phân biệt.\nd) Đồ thị hàm số có tiệm cận ngang là đường thẳng có phương trình $y = 3$.",
+      "explanation": "a) Đúng: Điểm cực đại của đồ thị $y = f(x)$ là $(1; 3)$. Khi tịnh tiến sang phải 4 đơn vị và lên trên 1 đơn vị, tọa độ điểm cực đại mới là $(1 + 4; 3 + 1) = (5; 4)$. Khẳng định a đúng.\nb) Đúng: Hàm số đạt cực trị tại $x = 1$ và $x = -1$ nên $f'(1) = 0$ và $f'(-1) = 0$, tương đương với $3a + 2b + c = 0$ và $3a - 2b + c = 0$. Khẳng định b đúng.\nc) Sai: Vì $-1$ là giá trị cực tiểu của hàm số nên đường thẳng $y = -1$ tiếp xúc với đồ thị tại điểm cực tiểu $(-1; -1)$ và cắt tại một điểm nữa, tổng cộng chỉ có 2 nghiệm phân biệt. Khẳng định c sai.\nd) Sai: Hàm số bậc ba không có đường tiệm cận ngang vì $\\lim_{x \\to \\pm\\infty} f(x) = \\pm\\infty$. Khẳng định d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p4.png",
+          "sha256": "656978243e546ff7857848d18f71dc556654662497a3ae3f5d2f98b57bbfc577"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p5.png",
+          "sha256": "ef9bfe547600b4740001cf5cb1f376505e0169592dd1f5878d40b93c9a3bc5f4"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đồ thị của hàm số $y = f(x) = \\frac{x^2 + x - 1}{x - 1}$.\nCác mệnh đề sau đúng hay sai?\na) Đồ thị hàm số $y = f(x)$ nhận đường thẳng $y = x + 1$ làm tiệm cận xiên.\nb) Giá trị lớn nhất của hàm số $y = f(x)$ trên khoảng $(-3; 1)$ đạt tại điểm $x = 0$.\nc) Hàm số có đạo hàm $y' = \\frac{x^2 + 2x - 2}{(x - 1)^2}$.\nd) Hàm số $y = f(x)$ nghịch biến trên khoảng $(0; 2)$.",
+      "explanation": "a) Sai: Ta có $y = \\frac{x(x - 1) + 2(x - 1) + 1}{x - 1} = x + 2 + \\frac{1}{x - 1}$. Đường tiệm cận xiên là $y = x + 2 \\neq x + 1$. Khẳng định a sai.\nb) Đúng: Đạo hàm $y' = 1 - \\frac{1}{(x - 1)^2} = \\frac{x^2 - 2x}{(x - 1)^2} = 0 \\iff x = 0$ hoặc $x = 2$. Trên khoảng $(-3; 1)$, $y'$ đổi dấu từ dương sang âm qua $x = 0$ nên hàm số đạt giá trị lớn nhất tại $x = 0$. Khẳng định b đúng.\nc) Sai: Đạo hàm đúng là $y' = \\frac{x^2 - 2x}{(x - 1)^2} \\neq \\frac{x^2 + 2x - 2}{(x - 1)^2}$. Khẳng định c sai.\nd) Sai: Hàm số không xác định tại điểm $x = 1 \\in (0; 2)$ nên không nghịch biến trên khoảng $(0; 2)$. Khẳng định d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p5.png",
+          "sha256": "ef9bfe547600b4740001cf5cb1f376505e0169592dd1f5878d40b93c9a3bc5f4"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho hình lập phương $ABCD.A'B'C'D', có cạnh bằng $a$. Gọi $M, N$ lần lượt là trung điểm của $A'D'$ và $C'D'.\nCác mệnh đề sau đúng hay sai?\na) Tích vô hướng $\\vec{MN} \\cdot \\vec{C'B} = -0,5a^2$.\nb) Góc giữa hai vectơ $\\vec{AB'}$ và $\\vec{B'C}$ bằng $120^\\circ$.\nc) $\\vec{AC'} = \\vec{AB} + \\vec{AA'} + \\vec{BC}$.\nd) $\\vec{AC} = \\vec{B'C'}$.",
+      "explanation": "a) Đúng: Ta có $\\vec{MN} = \\frac{1}{2}\\vec{A'C'}$. Vectơ $\\vec{C'B} = \\vec{C'B'} + \\vec{B'B}$. Tích vô hướng $\\vec{A'C'} \\cdot \\vec{C'B'} = -a^2$ và $\\vec{A'C'} \\cdot \\vec{B'B} = 0$. Do đó $\\vec{MN} \\cdot \\vec{C'B} = \\frac{1}{2}(-a^2) = -0{,}5a^2$. Khẳng định a đúng.\nb) Đúng: Tam giác $AB'C$ có ba cạnh đều là đường chéo các mặt của hình lập phương nên $AB' = B'C = AC = a\\sqrt{2}$ (tam giác đều), suy ra góc $\\widehat{AB'C} = 60^\\circ$. Góc giữa hai vectơ $(\\vec{AB'}, \\vec{B'C}) = 180^\\circ - 60^\\circ = 120^\\circ$. Khẳng định b đúng.\nc) Đúng: Ta có $\\vec{AB} + \\vec{BC} = \\vec{AC}$, suy ra $\\vec{AC} + \\vec{AA'} = \\vec{AC'}$. Khẳng định c đúng.\nd) Sai: Vectơ $\\vec{AC}$ và $\\vec{B'C'}$ không cùng phương ($AC$ là đường chéo đáy còn $B'C'$ là cạnh). Khẳng định d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p5.png",
+          "sha256": "ef9bfe547600b4740001cf5cb1f376505e0169592dd1f5878d40b93c9a3bc5f4"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biết hàm số $y = -x^4 + 2x^2 + 1$ có tất cả các khoảng nghịch biến là $(a; b)$ và $(c; +\\infty)$. Tính $a + b - c^{2025}$.",
+      "explanation": "Ta có $y' = -4x^3 + 4x = -4x(x^2 - 1) = 0 \\iff x = 0$ hoặc $x = \\pm 1$. Bảng xét dấu của $y'$ cho thấy hàm số nghịch biến khi $y' < 0$, tức là trên khoảng $(-1; 0)$ và $(1; +\\infty)$. Do đó $a = -1, b = 0, c = 1$. Giá trị của biểu thức là $a + b - c^{2025} = -1 + 0 - 1^{2025} = -2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p5.png",
+          "sha256": "ef9bfe547600b4740001cf5cb1f376505e0169592dd1f5878d40b93c9a3bc5f4"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ông Nam cần xây dựng một bể chứa nước có dạng hình hộp chữ nhật không có nắp đậy để phục vụ cho việc tưới cây trong vườn. Do các điều kiện về diện tích vườn, ông Nam cần bể có thể tích là $36\\text{ m}^3$, đáy bể có chiều dài gấp hai lần chiều rộng và chiều rộng không quá 4m , biết rằng chi phí vật liệu xây dựng mỗi mét vuông diện tích bề mặt là như nhau. Hỏi chiều cao bể nước bằng bao nhiêu m để tổng chi phí vật liệu là nhỏ nhất?",
+      "explanation": "Gọi chiều rộng đáy bể là $x\\text{ (m)}$ ($0 < x \\le 4$). Chiều dài đáy là $2x\\text{ (m)}$ và chiều cao là $h\\text{ (m)}$. Thể tích bể là $V = 2x \\cdot x \\cdot h = 2x^2 h = 36 \\implies h = \\frac{18}{x^2}$. Diện tích bề mặt không có nắp đậy là $S(x) = 2x^2 + 2(2xh) + 2(xh) = 2x^2 + 6xh = 2x^2 + \\frac{108}{x}$. Đạo hàm $S'(x) = 4x - \\frac{108}{x^2} = 0 \\iff 4x^3 = 108 \\iff x = 3\\text{ m} \\in (0; 4]$. Chiều cao tương ứng của bể nước là $h = \\frac{18}{3^2} = 2\\text{ m}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p5.png",
+          "sha256": "ef9bfe547600b4740001cf5cb1f376505e0169592dd1f5878d40b93c9a3bc5f4"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p6.png",
+          "sha256": "28e9ae0dfced664c1629081fcd30d4cc54e1fda34de08d76730621356131a7d9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một vật chuyển động theo quy luật $S(t) = -2t^3 + 24t^2 + 9t - 3$ với $t > 0$ là khoảng thời gian tính từ lúc bắt đầu chuyển động và $S(t)$ là quãng đường vật đi được trong khoảng thời gian đó ($S(t)$ tính bằng m). Hỏi trong khoảng thời gian 10 giây, kể từ lúc bắt đầu chuyển động, vận tốc lớn nhất của vật đạt được bằng bao nhiêu?",
+      "explanation": "Vận tốc tức thời của vật là đạo hàm của quãng đường: $v(t) = S'(t) = -6t^2 + 48t + 9$. Đây là tam thức bậc hai với hệ số $a = -6 < 0$, đạt giá trị lớn nhất tại đỉnh parabol $t = -\\frac{48}{2(-6)} = 4\\text{ s} \\in [0; 10]$. Vận tốc lớn nhất đạt được là $v(4) = -6(4^2) + 48(4) + 9 = -96 + 192 + 9 = 105\\text{ m/s}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p6.png",
+          "sha256": "28e9ae0dfced664c1629081fcd30d4cc54e1fda34de08d76730621356131a7d9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một bức tường cao 3m nằm song song với tòa nhà và cách tòa nhà 3m. Người ta muốn chế tạo một chiếc thang bắc từ mặt đất bên ngoài bức tường, gác qua bức tường và chạm vào tòa nhà. Chiều dài tối thiểu của thang là $a\\sqrt{2}\\text{ m}$. Hỏi $a$ bằng bao nhiêu?",
+      "explanation": "Gọi góc tạo bởi chiếc thang với mặt đất là $\\alpha$ ($0 < \\alpha < \\frac{\\pi}{2}$). Chiều dài chiếc thang là $L(\\alpha) = \\frac{3}{\\sin \\alpha} + \\frac{3}{\\cos \\alpha} = 3\\left(\\frac{1}{\\sin \\alpha} + \\frac{1}{\\cos \\alpha}\\right)$. Do tính đối xứng, $L(\\alpha)$ đạt giá trị nhỏ nhất khi $\\sin \\alpha = \\cos \\alpha \\iff \\alpha = 45^\\circ$. Khi đó chiều dài tối thiểu là $L_{\\min} = 3(\\sqrt{2} + \\sqrt{2}) = 6\\sqrt{2}\\text{ m}$. Dạng $a\\sqrt{2} \\implies a = 6$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p6.png",
+          "sha256": "28e9ae0dfced664c1629081fcd30d4cc54e1fda34de08d76730621356131a7d9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chiếc cân đòn tay đang cân một vật có khối lượng $m = 7\\text{ kg}$ được thiết kế với đĩa cân được giữ bởi bốn đoạn xích $SA, SB, SC, SD$ sao cho $S.ABCD$ là hình chóp tứ giác đều có $\\widehat{ASC} = 90^\\circ$. Biết độ lớn của lực căng cho mỗi sợi xích có dạng $\\frac{a\\sqrt{2}}{4}$. Lấy $g = 10\\text{ m/s}^2$, khi đó giá trị của $a$ bằng bao nhiêu?",
+      "explanation": "Trọng lực tác dụng lên đĩa cân là $P = mg = 7 \\cdot 10 = 70\\text{ N}$. Vì hình chóp tứ giác đều có $\\widehat{ASC} = 90^\\circ$ nên tam giác $SAC$ vuông cân tại $S$, góc giữa mỗi sợi xích với trục thẳng đứng $SO$ là $\\widehat{ASO} = 45^\\circ$. Tổng hợp lực căng của 4 sợi xích theo phương thẳng đứng cân bằng với trọng lực: $4 T \\cos 45^\\circ = P \\iff 4 T \\frac{\\sqrt{2}}{2} = 70 \\iff 2\\sqrt{2} T = 70 \\iff T = \\frac{70}{2\\sqrt{2}} = \\frac{70\\sqrt{2}}{4}\\text{ N}$. Đối chiếu với dạng $\\frac{a\\sqrt{2}}{4}$, ta được $a = 70$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p6.png",
+          "sha256": "28e9ae0dfced664c1629081fcd30d4cc54e1fda34de08d76730621356131a7d9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-207-M1001-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm giá trị nhỏ nhất $m$ của hàm số $f(x) = x + \\frac{2}{\\sqrt{x}}$ trên khoảng $(0; +\\infty)$.",
+      "explanation": "Áp dụng bất đẳng thức AM-GM cho ba số dương: $f(x) = x + \\frac{1}{\\sqrt{x}} + \\frac{1}{\\sqrt{x}} \\ge 3 \\sqrt[3]{x \\cdot \\frac{1}{\\sqrt{x}} \\cdot \\frac{1}{\\sqrt{x}}} = 3 \\sqrt[3]{1} = 3$. Dấu đẳng thức xảy ra khi và chỉ khi $x = \\frac{1}{\\sqrt{x}} \\iff x\\sqrt{x} = 1 \\iff x = 1 \\in (0; +\\infty)$. Vậy giá trị nhỏ nhất là $m = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p6.png",
+          "sha256": "28e9ae0dfced664c1629081fcd30d4cc54e1fda34de08d76730621356131a7d9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-207-p13.png",
+          "sha256": "a21a071486e1a7c64c0d625672176dccfcf0113d3a04f9c03593fb45b7cfdd24"
+        }
+      ]
+    }
+  ]
+}

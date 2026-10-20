@@ -56,6 +56,18 @@ export default function App() {
   const [mistakesList, setMistakesList] = useState([]);
   const [wizardStep, setWizardStep] = useState(1);
 
+  useEffect(() => {
+    if (currentUser?.role !== 'STUDENT') return;
+    let active = true;
+    const refresh = () => studentApi.getProfile().then(data => {
+      if (active && data.profile) setUserProfile(data.profile);
+    }).catch(() => {});
+    refresh();
+    window.addEventListener('focus', refresh);
+    const timer = window.setInterval(refresh, 60000);
+    return () => { active = false; window.removeEventListener('focus', refresh); window.clearInterval(timer); };
+  }, [currentUser?.id, currentUser?.role, activeTab]);
+
   // Helper to determine starting tab by role
   const getDefaultTabForRole = (role) => {
     switch (role) {
@@ -332,12 +344,12 @@ export default function App() {
       <a className="skip-to-content" href="#main-content" onClick={event => { event.preventDefault(); document.getElementById('main-content')?.focus(); }}>Đến nội dung chính</a>
       <div className="main-content-area">
         {role === 'TEACHER' && <header className="teacher-contextbar">
-          <div className="teacher-context-trail"><span>Không gian giảng dạy</span><ChevronRight size={14} aria-hidden="true" /><strong>{{'teacher-overview':'Tổng quan','teacher-classes':'Lớp học','teacher-library':'Thư viện đề','teacher-bank':'Học liệu THPT'}[activeTab] || 'Giảng dạy'}</strong></div>
+          <div className="teacher-context-trail"><span>Không gian giảng dạy</span><ChevronRight size={14} aria-hidden="true" /><strong>{{'teacher-overview':'Tổng quan','teacher-classes':'Lớp học','teacher-library':'Đề của tôi','teacher-bank':'Học liệu THPT'}[activeTab] || 'Giảng dạy'}</strong></div>
           <time className="teacher-context-date" dateTime={new Date().toISOString().slice(0,10)}><CalendarDays size={16} aria-hidden="true" />{new Date().toLocaleDateString('vi-VN',{timeZone:'Asia/Ho_Chi_Minh',weekday:'long',day:'2-digit',month:'2-digit'})}</time>
         </header>}
         {currentUser?.role === 'STUDENT' && <MathTutorWidget key={currentUser.id} userId={currentUser.id}/>}
         <main id="main-content" className="tab-viewport" tabIndex={-1}>
-        {LEGACY_BANK_PAUSED && ((role === 'STUDENT' && ['learning-path', 'diagnostic', 'practice', 'review', 'mistakes', 'missions', 'profile'].includes(activeTab)) || (role !== 'STUDENT' && activeTab === 'admin-questions')) ? <LearningMaterials initialGrade={userProfile?.grade} /> : <>
+        {LEGACY_BANK_PAUSED && role !== 'STUDENT' && activeTab === 'admin-questions' ? <LearningMaterials initialGrade={userProfile?.grade} /> : <>
           <Suspense fallback={<ModernLoadingState message="Đang tải giao diện..." subMessage="Hệ thống đang chuẩn bị dữ liệu cho bạn" />}>
             {/* TEACHER APPLICANT VIEW */}
             {role === 'TEACHER_APPLICANT' && (
@@ -414,6 +426,7 @@ export default function App() {
 
                 {activeTab === 'diagnostic' && (
                   <DiagnosticTest
+                    userProfile={userProfile}
                     onFinishTest={handleFinishTest}
                     onPauseTest={handlePauseTest}
                   />

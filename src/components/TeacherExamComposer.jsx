@@ -22,12 +22,21 @@ export default function TeacherExamComposer({ draftKey, bank, loading, loadError
   const [skills, setSkills] = useState([]);
   const [bankGrade, setBankGrade] = useState(10);
   const [bankPage, setBankPage] = useState(1);
-  const localBank = LEGACY_BANK_PAUSED ? bank.filter(q => q.skill?.grade === bankGrade).sort((a,b) => (a.source?.part || '').localeCompare(b.source?.part || '') || Number(a.source?.questionNumber) - Number(b.source?.questionNumber)) : [];
+  const [bankPaper, setBankPaper] = useState(''), [materialTitles, setMaterialTitles] = useState({});
+  useEffect(() => { let active=true; curriculumApi.getMaterials().then(data => { if(active)setMaterialTitles(Object.fromEntries((data.items||[]).map(p=>[p.id,p.title]))); }).catch(()=>{});return()=>{active=false;}; },[]);
+  const gradeBank = LEGACY_BANK_PAUSED ? bank.filter(q => q.skill?.grade === bankGrade) : [];
+  const localBank = gradeBank.filter(q => !bankPaper || q.source?.paperId === bankPaper).sort((a,b) => (a.source?.part || '').localeCompare(b.source?.part || '') || Number(a.source?.questionNumber) - Number(b.source?.questionNumber));
   const toggleBankQuestion = id => {
     const ids = selectedIds.includes(id) ? selectedIds.filter(value => value !== id) : [...selectedIds, id];
     const rows = [...bank.filter(q => ids.includes(q.id)), ...custom];
     setSelectedIds(ids);
     setCounts(Object.fromEntries(types.map(type => [type, rows.filter(q => q.questionType === type).length])));
+  };
+  const addPaperQuestions = () => {
+    const ids=[...new Set([...selectedIds,...localBank.map(q=>q.id)])],rows=[...bank.filter(q=>ids.includes(q.id)),...custom];
+    const next=Object.fromEntries(types.map(type=>[type,rows.filter(q=>q.questionType===type).length]));
+    if(rows.length>60||Object.values(next).some(n=>n>40)){setError('Đề tối đa 60 câu và không quá 40 câu mỗi loại. Bỏ bớt câu trước khi thêm bộ này.');return;}
+    setSelectedIds(ids);setCounts(next);setQuestionNotice(`Đã thêm bộ ${localBank.length} câu khách quan. Kiểm tra nội dung, thang điểm và cài đặt trước khi giao; phần tự luận không nằm trong bộ này.`);
   };
 
   useEffect(() => { curriculumApi.getSkills(10).then(data => setSkills((data.chapters || []).flatMap(c => c.skills.filter(s => s.persisted !== false).map(s => ({ ...s, chapter: c.chapter }))))).catch(() => setSkills([])); }, []);
@@ -100,7 +109,9 @@ export default function TeacherExamComposer({ draftKey, bank, loading, loadError
     {methodOpened && tab === 'bank' && LEGACY_BANK_PAUSED && !bank.length && !loading && <BankNotice />}
     {methodOpened && tab === 'bank' && LEGACY_BANK_PAUSED && <div className="tec-bank-workspace">
       <p>Chọn từng câu đã đối chiếu với bản gốc. Số câu trong đề được cập nhật theo lựa chọn; các bản nháp chỉ hiển thị cho giáo viên sở hữu.</p>
-      <label>Lớp<select value={bankGrade} onChange={e => {setBankGrade(Number(e.target.value));setBankPage(1);}}>{[10,11,12].map(g=><option key={g} value={g}>Lớp {g}</option>)}</select></label>
+      <label>Lớp<select value={bankGrade} onChange={e => {setBankGrade(Number(e.target.value));setBankPage(1);setBankPaper('');}}>{[10,11,12].map(g=><option key={g} value={g}>Lớp {g}</option>)}</select></label>
+      <label>Đề nguồn<select aria-label="Chọn đề nguồn để soạn bài" value={bankPaper} onChange={e=>{setBankPaper(e.target.value);setBankPage(1);}}><option value="">Tất cả đề trong lớp</option>{[...new Set(gradeBank.map(q=>q.source?.paperId).filter(Boolean))].map(id=><option key={id} value={id}>{materialTitles[id]||`Mã đề ${gradeBank.find(q=>q.source?.paperId===id)?.source?.originalExamCode||'gốc'}`}</option>)}</select></label>
+      {bankPaper&&localBank.length>0&&<div><button type="button" onClick={addPaperQuestions}>Thêm {localBank.length} câu khách quan của đề này</button><p>Giữ các câu đang soạn. Phần tự luận trong PDF không được tự đổi thành câu chấm tự động.</p></div>}
       {loading?<p role="status">Đang tải câu hỏi…</p>:loadError?<div role="alert">{loadError}<button type="button" onClick={onRetry}>Thử lại</button></div>:<>
         <p>{localBank.length} câu · Lớp {bankGrade}</p>
         {localBank.slice((bankPage-1)*5,bankPage*5).map(q=><section key={q.id}><label><input type="checkbox" checked={selectedIds.includes(q.id)} onChange={()=>toggleBankQuestion(q.id)}/>Chọn câu {q.source?.questionNumber} · Phần {q.source?.part}</label><Preview question={q}/></section>)}

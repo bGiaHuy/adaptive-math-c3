@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{-3; -1; 0; 2\\}$, $B = \\{-2; -1; 2; 4\\}$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Xét hai tập hợp $A = \\{-3; -1; 0; 2\\}$ và $B = \\{-2; -1; 2; 4\\}$:\n- a) Tập hợp $A$ gồm đúng 4 phần tử phân biệt là $-3, -1, 0, 2$. Khẳng định là ĐÚNG.\n- b) Cả hai phần tử $-1$ và $2$ của $X$ đều thuộc $A$, do đó $X \\subset A$. Khẳng định là ĐÚNG.\n- c) Giao của hai tập hợp là các phần tử vừa thuộc $A$ vừa thuộc $B$: $A \\cap B = \\{-1; 2\\}$. Khẳng định ghi $\\{-2; 2\\}$ là SAI (vì $-2 \\notin A$).\n- d) Hiệu $B \\setminus A$ gồm các phần tử thuộc $B$ nhưng không thuộc $A$: $B \\setminus A = \\{-2; 4\\}$. Khẳng định ghi $\\{-2; 2\\}$ là SAI (vì $2 \\in A$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p2.png",
+          "sha256": "1f93969a829e7742be46e9d8dfef745286f890638bc9a2229fa6a920ee1275aa"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p7.png",
+          "sha256": "25993fa23a3f191fa36269bf43fa3086fe57ef284ab92fe96640418121cab941"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Miền được gạch chéo trong hình bên dưới biểu diễn miền nghiệm của hệ bất phương trình (I).\n\n![Miền gạch chéo](/math-import-assets/thpt-figure-005-p2-shaded.png)",
+      "explanation": "Quan sát hình vẽ miền gạch chéo là tam giác giới hạn bởi trục tung $Oy$ ($x \\ge 0$), trục hoành $Ox$ ($y \\ge 0$) và đường thẳng $d$ đi qua $(2; 0)$ và $(0; 2)$ ($x + y \\le 2$):\n- a) Đường thẳng $d$ cắt trục tung tại điểm $(0; 2)$, do đó $d$ đi qua điểm $(0; 2)$. Khẳng định là ĐÚNG.\n- b) Miền nghiệm nằm ở góc phần tư thứ nhất nên mọi điểm $(x, y)$ thuộc miền đều thỏa mãn $x \\ge 0$ (hoành độ không âm). Khẳng định là ĐÚNG.\n- c) Điểm $M(1; -1)$ có tung độ $y = -1 < 0$ nằm phía dưới trục hoành, không thuộc miền gạch chéo. Khẳng định là SAI.\n- d) Miền nghiệm là miền tam giác vuông tạo bởi ba đỉnh $(0; 0), (2; 0), (0; 2)$. Khẳng định là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p2.png",
+          "sha256": "1f93969a829e7742be46e9d8dfef745286f890638bc9a2229fa6a920ee1275aa"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p7.png",
+          "sha256": "25993fa23a3f191fa36269bf43fa3086fe57ef284ab92fe96640418121cab941"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp: $A = (-3; 2]$, $B = [-1; +\\infty)$. Khi đó: $A \\cap B$ có bao nhiêu phần tử là số nguyên?",
+      "explanation": "Giao của hai nửa khoảng: $A \\cap B = (-3; 2] \\cap [-1; +\\infty) = [-1; 2]$.\nCác phần tử nguyên thuộc đoạn $[-1; 2]$ là: $\\{-1; 0; 1; 2\\}$.\nSố lượng phần tử là số nguyên là 4.\nĐáp số: 4.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p2.png",
+          "sha256": "1f93969a829e7742be46e9d8dfef745286f890638bc9a2229fa6a920ee1275aa"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p7.png",
+          "sha256": "25993fa23a3f191fa36269bf43fa3086fe57ef284ab92fe96640418121cab941"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng bán hai loại bánh: Bánh kem loại A giá $350\\,000$ đồng/cái và bánh kem loại B giá $250\\,000$ đồng/cái. Cửa hàng cần đạt được tổng doanh thu ít nhất là $7\\,000\\,000$ đồng trong tuần này. Gọi $x, y$ lần lượt là số lượng bánh kem loại A và loại B đã bán được. Bất phương trình bậc nhất 2 ẩn $x$ và $y$ thể hiện điều kiện về kinh doanh tối thiểu của cửa hàng là $mx + 5y \\ge n$. Tính giá trị biểu thức: $T = 2n - m$?",
+      "explanation": "Số tiền thu được từ bán $x$ chiếc bánh kem loại A và $y$ chiếc bánh kem loại B là:\n$350\\,000x + 250\\,000y$ (đồng).\nĐể tổng doanh thu ít nhất là $7\\,000\\,000$ đồng, ta có bất phương trình:\n$350\\,000x + 250\\,000y \\ge 7\\,000\\,000$.\nChia cả hai vế của bất phương trình cho $50\\,000$:\n$\\frac{350\\,000}{50\\,000}x + \\frac{250\\,000}{50\\,000}y \\ge \\frac{7\\,000\\,000}{50\\,000} \\Leftrightarrow 7x + 5y \\ge 140$.\nĐồng nhất với dạng $mx + 5y \\ge n$, ta được $m = 7$ và $n = 140$.\nKhi đó giá trị biểu thức là:\n$T = 2n - m = 2(140) - 7 = 280 - 7 = 273$.\nĐáp số: 273.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p2.png",
+          "sha256": "1f93969a829e7742be46e9d8dfef745286f890638bc9a2229fa6a920ee1275aa"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p7.png",
+          "sha256": "25993fa23a3f191fa36269bf43fa3086fe57ef284ab92fe96640418121cab941"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho $\\sin\\alpha = \\frac{\\sqrt{2}}{5}$ và $\\alpha \\in (0^\\circ; 90^\\circ)$. Khi đó $\\cos\\alpha = \\frac{\\sqrt{a}}{b}$; $a, b \\in \\mathbb{Z}$; $a$ là số nguyên tố. Tính $a - 2b$.",
+      "explanation": "Vì $\\alpha \\in (0^\\circ; 90^\\circ)$ nên $\\cos\\alpha > 0$.\nÁp dụng hệ thức cơ bản $\\sin^2\\alpha + \\cos^2\\alpha = 1$:\n$\\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(\\frac{\\sqrt{2}}{5}\\right)^2 = 1 - \\frac{2}{25} = \\frac{23}{25}$.\nSuy ra $\\cos\\alpha = \\frac{\\sqrt{23}}{5}$.\nTheo đề bài $\\cos\\alpha = \\frac{\\sqrt{a}}{b}$ với $a, b \\in \\mathbb{Z}$ và $a$ là số nguyên tố, ta có $a = 23$ và $b = 5$.\nKhi đó giá trị biểu thức là:\n$a - 2b = 23 - 2(5) = 23 - 10 = 13$.\nĐáp số: 13.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p2.png",
+          "sha256": "1f93969a829e7742be46e9d8dfef745286f890638bc9a2229fa6a920ee1275aa"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p7.png",
+          "sha256": "25993fa23a3f191fa36269bf43fa3086fe57ef284ab92fe96640418121cab941"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Để đo khoảng cách từ vị trí $A$ trên bờ sông đến vị trí $C$ của con tàu bị mắc cạn gần một cù lao giữa sông, bạn Minh đi dọc bờ sông từ vị trí $A$ đến vị trí $B$ cách $A$ một khoảng bằng $60\\text{ m}$ và đo các góc $\\widehat{BAC} = 85^\\circ$, $\\widehat{ABC} = 45^\\circ$ (Hình vẽ). Tính khoảng cách $AC$ theo đơn vị mét (làm tròn kết quả đến hàng đơn vị).\n\n![Đo khoảng cách con tàu trên sông](/math-import-assets/thpt-figure-005-p2-river.png)",
+      "explanation": "Trong tam giác $ABC$, tổng ba góc trong tam giác bằng $180^\\circ$:\n$\\widehat{ACB} = 180^\\circ - (\\widehat{BAC} + \\widehat{ABC}) = 180^\\circ - (85^\\circ + 45^\\circ) = 180^\\circ - 130^\\circ = 50^\\circ$.\nÁp dụng định lý sin trong tam giác $ABC$:\n$\\frac{AC}{\\sin(\\widehat{ABC})} = \\frac{AB}{\\sin(\\widehat{ACB})} \\Rightarrow AC = \\frac{AB \\cdot \\sin 45^\\circ}{\\sin 50^\\circ} = \\frac{60 \\cdot \\frac{\\sqrt{2}}{2}}{\\sin 50^\\circ} \\approx \\frac{42{,}4264}{0{,}766044} \\approx 55{,}3838\\text{ m}$.\nLàm tròn kết quả đến hàng đơn vị được $55\\text{ m}$.\nĐáp số: 55.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p2.png",
+          "sha256": "1f93969a829e7742be46e9d8dfef745286f890638bc9a2229fa6a920ee1275aa"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p7.png",
+          "sha256": "25993fa23a3f191fa36269bf43fa3086fe57ef284ab92fe96640418121cab941"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "a) Cho hai tập hợp $A = [-1; +\\infty)$, $B = (-3; 2]$. Tìm $A \\cup B$, $C_{\\mathbb{R}} B$.\nb) Câu lạc bộ thể dục thể thao của trường có 30 học sinh yêu thích môn bóng đá, 25 học sinh yêu thích môn bóng bàn, 20 học sinh yêu thích môn cầu lông, 15 học sinh yêu thích cả hai môn bóng đá và bóng bàn, 12 học sinh yêu thích cả hai môn bóng bàn và cầu lông, 10 học sinh yêu thích cả hai môn bóng đá và cầu lông, 5 học sinh yêu thích cả ba môn bóng đá, bóng bàn và cầu lông. Gọi $m, n, p$ lần lượt là số học sinh chỉ thích một môn bóng đá, bóng bàn, cầu lông. Tính $S = m + n + p$?",
+      "explanation": "a) Ta có:\n- $A \\cup B = [-1; +\\infty) \\cup (-3; 2] = (-3; +\\infty)$.\n- Phần bù của $B$ trong $\\mathbb{R}$: $C_{\\mathbb{R}} B = \\mathbb{R} \\setminus (-3; 2] = (-\\infty; -3] \\cup (2; +\\infty)$.\nb) Sử dụng công thức số phần tử hoặc biểu đồ Venn:\n- Số học sinh chỉ thích môn bóng đá là:\n  $m = 30 - (15 - 5) - (10 - 5) - 5 = 30 - 10 - 5 - 5 = 10$.\n- Số học sinh chỉ thích môn bóng bàn là:\n  $n = 25 - (15 - 5) - (12 - 5) - 5 = 25 - 10 - 7 - 5 = 3$.\n- Số học sinh chỉ thích môn cầu lông là:\n  $p = 20 - (10 - 5) - (12 - 5) - 5 = 20 - 5 - 7 - 5 = 3$.\nTổng số học sinh chỉ thích đúng một môn là:\n$S = m + n + p = 10 + 3 + 3 = 16$.\nĐáp số: 16.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p3.png",
+          "sha256": "ad83d796dd7278f8f248b25e6f0f95dad3ce45cee758a8712ed6fdbc57a8aad7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p9.png",
+          "sha256": "d8f9afcd0abf0831152ff3ac74757cf90502a48d27a744b0ea41069ba44a067b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Một xưởng sản xuất bàn và ghế. Một chiếc bàn cần $1{,}5$ giờ lắp ráp và 1 giờ hoàn thiện; một chiếc ghế cần 1 giờ lắp ráp và 2 giờ hoàn thiện. Bộ phận lắp ráp có 3 nhân công, bộ phận hoàn thiện có 4 nhân công. Biết một công nhân làm việc không quá 8 tiếng mỗi ngày. Biết thị trường luôn tiêu thụ hết sản phẩm của xưởng và lượng ghế tiêu thụ không vượt quá $3{,}5$ lần số bàn. Giả sử trong một ngày xưởng cần sản xuất $x$ chiếc bàn và $y$ chiếc ghế.\na) Viết hệ bất phương trình biểu thị các điều kiện của bài toán?\nb) Biết một chiếc bàn lãi $600$ nghìn đồng, một chiếc ghế lãi $450$ nghìn đồng. Hỏi trong một ngày, xưởng cần sản xuất bao nhiêu chiếc bàn, bao nhiêu chiếc ghế để thu được tiền lãi cao nhất?",
+      "explanation": "a) Tổng thời gian tối đa của bộ phận lắp ráp: $3 \\times 8 = 24$ giờ.\nTổng thời gian tối đa của bộ phận hoàn thiện: $4 \\times 8 = 32$ giờ.\nĐiều kiện về số lượng sản phẩm:\n- Lắp ráp: $1{,}5x + y \\le 24$.\n- Hoàn thiện: $x + 2y \\le 32$.\n- Lượng ghế không vượt quá 3,5 lần số bàn: $y \\le 3{,}5x$.\n- Số lượng sản phẩm không âm: $x \\ge 0, y \\ge 0$.\nHệ bất phương trình ràng buộc:\n$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ 1{,}5x + y \\le 24 \\\\ x + 2y \\le 32 \\\\ y \\le 3{,}5x \\end{cases}$\nb) Hàm tiền lãi thu được trong một ngày: $L(x, y) = 600x + 450y$ (nghìn đồng).\nMiền nghiệm của hệ là đa giác với các đỉnh:\n- $O(0; 0) \\Rightarrow L = 0$.\n- $A(16; 0)$ (giao điểm của $1{,}5x + y = 24$ với $Ox$) $\\Rightarrow L = 600(16) = 9600$ nghìn đồng.\n- $B(8; 12)$ (giao điểm của $1{,}5x + y = 24$ và $x + 2y = 32$): nghiệm là $x = 8, y = 12$, thỏa mãn $12 \\le 3{,}5(8) = 28$. Tại đây $L = 600(8) + 450(12) = 4800 + 5400 = 10\\,200$ nghìn đồng = 10,2 triệu đồng.\n- $C(4; 14)$ (giao điểm của $x + 2y = 32$ và $y = 3{,}5x$): nghiệm là $x = 4, y = 14$, thỏa mãn $1{,}5(4) + 14 = 20 \\le 24$. Tại đây $L = 600(4) + 450(14) = 2400 + 6300 = 8700$ nghìn đồng.\nSo sánh giá trị tại các đỉnh, tiền lãi cao nhất là $10\\,200$ nghìn đồng (10,2 triệu đồng) khi sản xuất 8 chiếc bàn và 12 chiếc ghế.\nKết luận: Cần sản xuất 8 chiếc bàn và 12 chiếc ghế.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p3.png",
+          "sha256": "ad83d796dd7278f8f248b25e6f0f95dad3ce45cee758a8712ed6fdbc57a8aad7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p9.png",
+          "sha256": "d8f9afcd0abf0831152ff3ac74757cf90502a48d27a744b0ea41069ba44a067b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-005-M1001-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-005.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "a) Cho tam giác $ABC$ có $AB = 3$, góc $\\widehat{C} = 60^\\circ$. Tính bán kính đường tròn ngoại tiếp tam giác $ABC$.\nb) Một người đứng ở $A$, trên một tháp truyền hình $DA$ cao $380\\text{ m}$ so với mặt đất, muốn xác định khoảng cách giữa hai cột mốc $B, C$ trên mặt đất bên dưới. Người đó quan sát thấy góc được tạo bởi hai đường ngắm tới hai mốc này là $50^\\circ$, góc giữa phương thẳng đứng và đường ngắm tới một điểm mốc $B$ trên mặt đất là $66^\\circ$ và điểm mốc $C$ là $55^\\circ$ (Hình vẽ). Tính diện tích tam giác $BCD$ theo đơn vị $\\text{m}^2$. Kết quả làm tròn đến hàng phần chục.\n\n![Tháp truyền hình DA và hai mốc B, C](/math-import-assets/thpt-figure-005-p3-tower.png)",
+      "explanation": "a) Áp dụng định lý sin trong tam giác $ABC$:\n$2R = \\frac{AB}{\\sin C} = \\frac{3}{\\sin 60^\\circ} = \\frac{3}{\\frac{\\sqrt{3}}{2}} = 2\\sqrt{3} \\Rightarrow R = \\sqrt{3}$.\nb) Tháp truyền hình $DA = 380\\text{ m}$ vuông góc với mặt phẳng đất tại $D$, do đó tam giác $ADB$ vuông tại $D$ và tam giác $ADC$ vuông tại $D$:\n- Trong tam giác vuông $ADB$ tại $D$ có $\\widehat{DAB} = 66^\\circ$:\n  $BD = DA \\cdot \\tan 66^\\circ = 380 \\cdot \\tan 66^\\circ \\approx 853{,}494\\text{ m}$.\n  $AB = \\frac{DA}{\\cos 66^\\circ} = \\frac{380}{\\cos 66^\\circ} \\approx 934{,}438\\text{ m}$.\n- Trong tam giác vuông $ADC$ tại $D$ có $\\widehat{DAC} = 55^\\circ$:\n  $CD = DA \\cdot \\tan 55^\\circ = 380 \\cdot \\tan 55^\\circ \\approx 542{,}696\\text{ m}$.\n  $AC = \\frac{DA}{\\cos 55^\\circ} = \\frac{380}{\\cos 55^\\circ} \\approx 662{,}468\\text{ m}$.\n- Trong tam giác $ABC$ có $AB \\approx 934{,}438\\text{ m}, AC \\approx 662{,}468\\text{ m}$ và góc $\\widehat{BAC} = 50^\\circ$:\n  Áp dụng định lý côsin trong tam giác $ABC$:\n  $BC^2 = AB^2 + AC^2 - 2 \\cdot AB \\cdot AC \\cdot \\cos 50^\\circ \\approx 934{,}438^2 + 662{,}468^2 - 2(934{,}438)(662{,}468)\\cos 50^circ \\approx 517\\,076{,}73 \\Rightarrow BC \\approx 719{,}080\\text{ m}$.\n- Trong tam giác $BCD$ trên mặt đất có 3 cạnh:\n  $BD \\approx 853{,}494\\text{ m}, CD \\approx 542{,}696\\text{ m}, BC \\approx 719{,}080\\text{ m}$.\n  Theo định lý côsin trong tam giác $BCD$:\n  $\\cos(\\widehat{BDC}) = \\frac{BD^2 + CD^2 - BC^2}{2 \\cdot BD \\cdot CD} \\approx \\frac{853{,}494^2 + 542{,}696^2 - 719{,}080^2}{2(853{,}494)(542{,}696)} \\approx 0{,}546118$.\n  $\\Rightarrow \\sin(\\widehat{BDC}) = \\sqrt{1 - 0{,}546118^2} \\approx 0{,}837707$.\n- Diện tích tam giác $BCD$ là:\n  $S_{BCD} = \\frac{1}{2} BD \\cdot CD \\cdot \\sin(\\widehat{BDC}) \\approx \\frac{1}{2} (853{,}494)(542{,}696)(0{,}837707) \\approx 194\\,005{,}5\\text{ m}^2$.\nLàm tròn đến hàng phần chục được kết quả là $194\\,005{,}5\\text{ m}^2$.\nĐáp số: 194005,5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p3.png",
+          "sha256": "ad83d796dd7278f8f248b25e6f0f95dad3ce45cee758a8712ed6fdbc57a8aad7"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-005-p9.png",
+          "sha256": "d8f9afcd0abf0831152ff3ac74757cf90502a48d27a744b0ea41069ba44a067b"
+        }
+      ]
+    }
+  ]
+}

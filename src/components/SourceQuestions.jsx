@@ -11,13 +11,16 @@ function SourceImage({question,segment}){
  return failed?<div className="lm-error" role="alert">Chưa tải được ảnh câu hỏi.<button onClick={()=>{setFailed(false);setRetry(n=>n+1);}}>Thử lại</button></div>:<img key={retry} className="lm-question-image" src={curriculumApi.materialQuestionImageUrl(question.id,segment,question.imageHashes?.[segment-1])} loading="lazy" onError={()=>setFailed(true)} alt={`Bản gốc câu ${question.originalItemNumber}, phần ${question.part}, mã đề ${question.examCode}, trang ${question.sourcePages[segment-1]}. Hình ${segment} / ${question.images.length}.`}/>;
 }
 
-export default function SourceQuestions({grade}){
+export default function SourceQuestions({grade,papers=[]}){
  const [items,setItems]=useState([]),[loading,setLoading]=useState(true),[error,setError]=useState(''),[reload,setReload]=useState(0),[type,setType]=useState(''),[page,setPage]=useState(1);
+ const [paperId,setPaperId]=useState('');
  useEffect(()=>{let active=true;setLoading(true);setError('');curriculumApi.getMaterialQuestions().then(data=>{if(active)setItems(data.items);}).catch(e=>{if(active)setError(e.message||'Chưa tải được câu hỏi.');}).finally(()=>{if(active)setLoading(false);});return()=>{active=false;};},[reload]);
- useEffect(()=>setPage(1),[grade,type]);
- const filtered=items.filter(q=>q.grade===grade&&(!type||q.originalType===type)),currentPage=Math.min(page,Math.max(1,Math.ceil(filtered.length/5)));
- return <section className="lm-source-questions" aria-labelledby="lm-questions-title"><header><h3 id="lm-questions-title">Câu hỏi trích từ đề gốc · Lớp {grade}</h3><p>Giữ nguyên nội dung, hình và bảng của đề Phú Lộc, mã 132. Phần tự luận vẫn là tự luận. Các câu này dùng để đọc, chưa dùng chấm tự động.</p></header>
+ useEffect(()=>{setPage(1);setPaperId('');},[grade]);
+ useEffect(()=>setPage(1),[type,paperId]);
+ const filtered=items.filter(q=>q.grade===grade&&(!type||q.originalType===type)&&(!paperId||q.paperId===paperId)),currentPage=Math.min(page,Math.max(1,Math.ceil(filtered.length/5)));
+ return <section className="lm-source-questions" aria-labelledby="lm-questions-title"><header><h3 id="lm-questions-title">Câu hỏi trích từ đề gốc · Lớp {grade}</h3><p>Giữ nguyên nội dung, hình và bảng trong tài liệu của trường. Phần tự luận vẫn là tự luận. Các câu này dùng để đọc, chưa dùng chấm tự động.</p></header>
  <div className="lm-filters"><label>Dạng câu<select value={type} onChange={e=>setType(e.target.value)}><option value="">Tất cả dạng câu</option>{Object.entries(labels).map(([key,label])=><option key={key} value={key}>{label}</option>)}</select></label><p role="status">{loading?'Đang tải câu hỏi…':`${filtered.length} câu trích nguyên bản`}</p></div>
+ <label>Đề gốc<select aria-label="Lọc câu theo đề gốc" value={paperId} onChange={e=>setPaperId(e.target.value)}><option value="">Tất cả đề đã trích câu</option>{[...new Set(items.filter(q=>q.grade===grade).map(q=>q.paperId))].map(id=><option key={id} value={id}>{papers.find(p=>p.id===id)?.title||id}</option>)}</select></label>
  {error&&<div className="lm-error" role="alert"><p>{error}</p><button onClick={()=>setReload(n=>n+1)}>Thử tải lại</button></div>}
  {filtered.slice((currentPage-1)*5,currentPage*5).map(q=><QuestionDisplay key={q.id} variant="source" question={{questionType:q.originalType}} showSolutions={false} className="lm-source-question"
   header={<header className="qd-heading"><div><h3>Câu {q.originalItemNumber} · Phần {q.part}</h3><p>{labels[q.originalType]} · Mã đề {q.examCode} · Trang {q.sourcePages.join(', ')}</p></div><span className="lm-source-tag">Bản gốc</span></header>}

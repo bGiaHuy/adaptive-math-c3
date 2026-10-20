@@ -1,0 +1,943 @@
+{
+  "batchId": "thpt-nvc-source-18-v1",
+  "questions": [
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q01",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong các phát biểu sau đây, phát biểu nào là một mệnh đề toán học?",
+      "explanation": "B là một khẳng định toán học có giá trị đúng. A là lời kêu gọi; C là câu hỏi; D là một nhận định địa lí, không phải mệnh đề toán học.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "Học, học nữa, học mãi!"
+        },
+        {
+          "key": "B",
+          "content": "5 là một số nguyên tố."
+        },
+        {
+          "key": "C",
+          "content": "Tam giác cân có một góc bằng $60^\\circ$ có phải là tam giác đều không?"
+        },
+        {
+          "key": "D",
+          "content": "Hải Phòng là một thành phố lớn của Việt Nam."
+        }
+      ],
+      "correctOption": "B",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-6bf56de81148bc47116c5fd8b948305cd300c741a5dfc90b003bc3d293cd09e9.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q02",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Giá trị biểu thức $\\tan60^\\circ-\\cot150^\\circ$ là:",
+      "explanation": "Ta có tan 60° = √3 và cot 150° = −√3. Hiệu bằng 2√3.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-1$"
+        },
+        {
+          "key": "B",
+          "content": "$1$"
+        },
+        {
+          "key": "C",
+          "content": "$2\\sqrt3$"
+        },
+        {
+          "key": "D",
+          "content": "$\\dfrac1{\\sqrt3}$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-dec98346ec44f1c982a98931fd4856815208c4baf01b3ad4e0d52fbb0ca6bf39.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q03",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tam giác $ABC$ có $BC=a$, $AB=c$, $AC=b$ và $R$ là bán kính đường tròn ngoại tiếp. Hệ thức nào sau đây sai?",
+      "explanation": "Định lí sin cho a/sin A = b/sin B = c/sin C = 2R, suy ra A, B, C đúng. Hệ thức ở D không phải định lí sin.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\sin A=\\dfrac{a}{2R}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\sin C=\\dfrac{c\\sin A}{a}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\dfrac{a}{\\sin A}=2R$"
+        },
+        {
+          "key": "D",
+          "content": "$b\\sin B=2R$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "3",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-109df0a35fd333d429bdcf8019f38727ea87edf603ddf3bf1113040a2fd841f1.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q04",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong các câu sau, câu nào là mệnh đề chứa biến?",
+      "explanation": "Chỉ C có chứa biến x. Ba khẳng định còn lại không chứa biến.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "10 là số chẵn."
+        },
+        {
+          "key": "B",
+          "content": "7 là số nguyên tố."
+        },
+        {
+          "key": "C",
+          "content": "$(x^2-4x)\\mathrel{\\vdots}2$, $x\\in\\mathbb N$."
+        },
+        {
+          "key": "D",
+          "content": "Hình chữ nhật có hai đường chéo bằng nhau."
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "4",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-e22b92111f2f0d5b0bc28098260ca82798333f973bb7d1783a7a18eaf142ecba.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q05",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tam giác $ABC$ có $AB=c$, $AC=b$, $BC=a$. Gọi $S,p$ lần lượt là diện tích và nửa chu vi. Phát biểu nào sau đây sai?",
+      "explanation": "Định lí sin dùng b/sin B, không phải b/cos B. A là công thức Heron, B là định lí côsin và D là công thức diện tích theo hai cạnh và góc xen giữa.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$S=\\sqrt{p(p-a)(p-b)(p-c)}$"
+        },
+        {
+          "key": "B",
+          "content": "$a^2+b^2-c^2=2ab\\cos C$"
+        },
+        {
+          "key": "C",
+          "content": "$\\dfrac a{\\sin A}=\\dfrac b{\\cos B}=\\dfrac c{\\sin C}$"
+        },
+        {
+          "key": "D",
+          "content": "$S=\\dfrac12ab\\sin C$"
+        }
+      ],
+      "correctOption": "C",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-69664af5be471009f004e8066c428423f7bee7738be74d7fb5482f985c7e994f.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q06",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tam giác đều $ABC$ cạnh $a$. Mệnh đề nào sau đây đúng?",
+      "explanation": "Độ dài cạnh AB bằng a nên độ dài vectơ AB bằng a. AB và AC khác hướng; B, C trong bản gốc đồng nhất một vectơ với một số nên không đúng.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\overrightarrow{AB}=\\overrightarrow{AC}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\overrightarrow{AC}=a$"
+        },
+        {
+          "key": "C",
+          "content": "$|\\overrightarrow{AC}|=\\overrightarrow{BC}$"
+        },
+        {
+          "key": "D",
+          "content": "$|\\overrightarrow{AB}|=a$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "6",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-973f3929157b21de48ea7cb64e7cc6b2adbec0cc0f000bcdbd259a7e27b04ef6.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q07",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho $X=\\{x\\in\\mathbb N\\mid x^2-9=0\\}$. Số tập con của $X$ là:",
+      "explanation": "Nghiệm tự nhiên duy nhất của x² − 9 = 0 là 3. X có một phần tử nên có 2¹ = 2 tập con.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$3$"
+        },
+        {
+          "key": "B",
+          "content": "$4$"
+        },
+        {
+          "key": "C",
+          "content": "$1$"
+        },
+        {
+          "key": "D",
+          "content": "$2$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-8d5346f48e9c65aa0592bb8789d92019ad218b642705a4be19d302288a27fc37.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q08",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phủ định của mệnh đề $P$: “$\\forall x\\in\\mathbb N: x^2+x-1>0$” là:",
+      "explanation": "Phủ định của lượng từ với mọi là tồn tại; phủ định của bất đẳng thức > 0 là ≤ 0.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\exists x\\in\\mathbb N:x^2+x-1>0$"
+        },
+        {
+          "key": "B",
+          "content": "$\\exists x\\in\\mathbb N:x^2+x-1\\le0$"
+        },
+        {
+          "key": "C",
+          "content": "$\\forall x\\in\\mathbb N:x^2+x-1\\le0$"
+        },
+        {
+          "key": "D",
+          "content": "$\\forall x\\in\\mathbb N:x^2+x-1<0$"
+        }
+      ],
+      "correctOption": "B",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-79ae159684381a8ba51431dd6208456ed3bfca9999b66e6cfd38386a5015c0a2.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q09",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Bất phương trình nào sau đây không phải là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "A chứa số hạng 3y² nên không phải bậc nhất. Ba phương án còn lại đều có dạng ax + by + c so sánh với 0, trong đó a và b không đồng thời bằng 0.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$x+3y^2-2x+1\\le0$"
+        },
+        {
+          "key": "B",
+          "content": "$\\dfrac x2-\\dfrac y3+10<0$"
+        },
+        {
+          "key": "C",
+          "content": "$x-5y-1\\ge0$"
+        },
+        {
+          "key": "D",
+          "content": "$2x-3y+5<0$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          1,
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-a349a49266ef4fd181bd69f1c2943179f8edf0427f71d45e1419bdf7633582c5.png",
+          "thpt-question-3de093a13edd9d3b0ee75b3a32478cd082c1a9d0f7b46d448fdfb96db36cbc2f.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q10",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hình thoi $ABCD$ như hình. Vectơ cùng hướng với $\\overrightarrow{AB}$ là:\n![Hình và câu hỏi trong bản gốc](/math-import-assets/thpt-question-d81ff23f0f463b2506d02abbc241e2e22179e483017214a1ac0b0f284b225cde.png)",
+      "explanation": "Hình thoi là hình bình hành nên AB = DC theo vectơ; do đó AB và DC cùng hướng.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\overrightarrow{DC}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\overrightarrow{BA}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\overrightarrow{AC}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\overrightarrow{CD}$"
+        }
+      ],
+      "correctOption": "A",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "10",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-d81ff23f0f463b2506d02abbc241e2e22179e483017214a1ac0b0f284b225cde.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q11",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Chọn khẳng định đúng:",
+      "explanation": "Hai góc bù nhau có côsin đối nhau: cos(180° − x) = −cos x.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\sin(180^\\circ-x)=-\\sin x$"
+        },
+        {
+          "key": "B",
+          "content": "$\\cos(180^\\circ-x)=-\\sin x$"
+        },
+        {
+          "key": "C",
+          "content": "$\\tan(180^\\circ-x)=\\cot x$"
+        },
+        {
+          "key": "D",
+          "content": "$\\cos(180^\\circ-x)=-\\cos x$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-ffad4226f869acb3cff3fb28c9a4d014d5f98688095dacff2aa87d92644a3d70.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q12",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Miền nghiệm của bất phương trình nào được biểu diễn bởi nửa mặt phẳng không bị gạch (kể cả đường thẳng $d$) trong hình?\n![Hình và câu hỏi trong bản gốc](/math-import-assets/thpt-question-6d889a0a90df7daef7e41062eafd3843c2f74dfe9c934aef180ee0d69dea0796.png)",
+      "explanation": "Đường biên qua (0; −3) và (3/2; 0) nên có phương trình y = 2x − 3. Miền không gạch chứa O(0; 0), do đó 2x − y ≤ 3.",
+      "difficulty": "EASY",
+      "cognitiveLevel": "UNDERSTANDING",
+      "options": [
+        {
+          "key": "A",
+          "content": "$2x-y\\ge3$"
+        },
+        {
+          "key": "B",
+          "content": "$-x+2y\\le3$"
+        },
+        {
+          "key": "C",
+          "content": "$2x+y\\le3$"
+        },
+        {
+          "key": "D",
+          "content": "$2x-y\\le3$"
+        }
+      ],
+      "correctOption": "D",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "12",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-6d889a0a90df7daef7e41062eafd3843c2f74dfe9c934aef180ee0d69dea0796.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q13",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "TRUE_FALSE",
+      "content": "Tam giác $ABC$ có $AB=14$, $AC=13$, $BC=15$. Xét tính đúng/sai của từng khẳng định.",
+      "explanation": "Nửa chu vi p = 21. Theo Heron, S = √(21×7×8×6) = 84. cos A = (14² + 13² − 15²)/(2×14×13) = 5/13 nên a sai. Diện tích 84 khác 39 nên b sai. R = 14×13×15/(4×84) = 65/8 khác 4 nên c sai. Đường cao ứng với AB bằng 2×84/14 = 12 nên d đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$\\cos A=\\dfrac5{12}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Tam giác $ABC$ có diện tích là $39$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "Tam giác $ABC$ có bán kính đường tròn ngoại tiếp là $4$.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "Đường cao ứng với cạnh $AB$ có độ dài là $12$.",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "II",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-d694a4a5f64af707aeea5c21dc6eef42d8ffe7a9f4a10b1d41d189ca42c069d6.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q14",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T02",
+      "questionType": "TRUE_FALSE",
+      "content": "Một hộ nông dân định trồng dứa và củ đậu trên vùng đất 10 hécta. Mỗi hécta dứa cần 20 ngày công, thu 5 triệu đồng; mỗi hécta củ đậu cần 30 ngày công, thu 6 triệu đồng. Tổng ngày công không quá 180. Gọi $x,y$ lần lượt là số hécta dứa và củ đậu. Xét các khẳng định:",
+      "explanation": "a sai vì điều kiện ngày công phải là 20x + 30y ≤ 180. b đúng: 2 + 4 ≤ 10 và 20×2 + 30×4 = 160 ≤ 180. Từ 2x + 3y ≤ 18 với x,y ≥ 0 suy ra x + y ≤ 9, nên điều kiện đất x + y ≤ 10 là dư; miền nghiệm là tam giác có đỉnh (0;0), (9;0), (0;6), vì vậy c đúng. Doanh thu bằng 5x + 6y nên d đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Hệ bất phương trình mô tả bài toán là $\\begin{cases}x\\ge0\\\\y\\ge0\\\\x+y\\le10\\\\20x+30y\\ge180\\end{cases}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "$(2;4)$ là một nghiệm của hệ bất phương trình mô tả bài toán.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Miền nghiệm của hệ bất phương trình mô tả bài toán là một miền tam giác.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "$F(x;y)=5x+6y$ là số tiền thu được (triệu đồng).",
+          "isCorrect": true
+        }
+      ],
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "II",
+        "questionNumber": "2",
+        "sourcePages": [
+          2,
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-0023ef2b1d1cdb9a2e53f60cb112892dd466f52f1fe096a94b3006ebb33add5c.png",
+          "thpt-question-67a6eaac552840cf8c75b44ade2e6843fb8a7e40735e7e542b4dcf4734c409a9.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q15",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho $\\tan x=2$. Tính $P=\\dfrac{\\sin x+2\\cos x}{\\cos x+2\\sin x}$.",
+      "explanation": "Chia tử và mẫu cho cos x (khác 0 vì tan x xác định): P = (tan x + 2)/(1 + 2 tan x) = 4/5 = 0,8.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "0.8"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập giá trị số, có thể dùng dấu phẩy hoặc dấu chấm thập phân."
+      },
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "III",
+        "questionNumber": "1",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-1ac4e0bdfda00736fd8b21297a547baa527289a7970294fccf11a641bef7f989.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q16",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho tam giác $MNP$ có $MN=2$, $MP=3$, $\\widehat{NMP}=60^\\circ$. Tính $NP$, làm tròn đến hàng phần trăm.",
+      "explanation": "Theo định lí côsin, NP² = 2² + 3² − 2×2×3×cos 60° = 7. NP = √7 ≈ 2,645751, làm tròn hai chữ số thập phân được 2,65.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "2.65"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập số làm tròn đến hai chữ số thập phân, không ghi đơn vị."
+      },
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "III",
+        "questionNumber": "2",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-7252fc0907d4b699b2ba950459881f9021ab92ab9ab5f3ad74b7d463d99dc54d.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q17",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho $A=(-3;4)$ và $B=[1;+\\infty)$. Biết $A\\cap B=[a;b)$. Tính $a+b$.",
+      "explanation": "Giao hai khoảng là [1;4), nên a = 1, b = 4 và a + b = 5.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "5"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập giá trị số, có thể dùng dấu phẩy hoặc dấu chấm thập phân."
+      },
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "III",
+        "questionNumber": "3",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-2690728d33c9eee045830cce0cc3a1086250d74a14c2a797e7ec26a652807a67.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-006-Q18",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "Một người đi dọc bờ biển từ $A$ đến $B$ và quan sát ngọn hải đăng tại $C$. Các góc như hình là $48^\\circ$ tại $A$ và $79^\\circ$ với tia bờ biển tiếp tục từ $B$. Biết $AB=125$ m. Ngọn hải đăng cách bờ biển bao nhiêu mét? Làm tròn kết quả cuối đến hàng đơn vị.\n![Hình và câu hỏi trong bản gốc](/math-import-assets/thpt-question-af03f6bcd689f04f649d05a52e09e0b4ed929f9298f23167b81e14443dc59bbd.png)",
+      "explanation": "Gọi H là chân đường vuông góc từ C tới bờ biển, BH = t > 0, CH = h. Từ hình, h = (125 + t)tan 48° = t tan 79°. Suy ra h = 125 tan 48° tan 79°/(tan 79° − tan 48°) ≈ 177,05 m. Làm tròn đến đơn vị được 177 m.",
+      "difficulty": "HARD",
+      "cognitiveLevel": "APPLYING",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "177"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập số nguyên sau khi làm tròn đến hàng đơn vị, không ghi m."
+      },
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-006",
+        "originalExamCode": "1001",
+        "part": "III",
+        "questionNumber": "4",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "064fc5b2a950f6762e3de8d0657577e845b98897c7a42d62cb94691ad961966f",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ky-1-toan-10-nam-2025-2026-truong-thpt-nguyen-van-cu-hai-phong.html",
+        "immutableImages": [
+          "thpt-question-af03f6bcd689f04f649d05a52e09e0b4ed929f9298f23167b81e14443dc59bbd.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-nvc-source-18-v1"
+      }
+    }
+  ]
+}

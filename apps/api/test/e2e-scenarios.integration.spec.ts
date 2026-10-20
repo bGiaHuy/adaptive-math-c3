@@ -91,7 +91,7 @@ describe('Comprehensive E2E Scenarios (Technical Handoff & Release Readiness)', 
       .patch('/api/v1/student/onboarding')
       .set('Cookie', studentCookie)
       .send({
-        grade: 9,
+        grade: 10,
         targetGoal: 'Thi đỗ chuyên Toán',
         dailyMinutes: 60,
         selfAssessment: 'Khá'
@@ -206,7 +206,7 @@ describe('Comprehensive E2E Scenarios (Technical Handoff & Release Readiness)', 
         email: teacherEmail,
         fullName: 'Cô Lê Hoàng Mai',
         password: 'P@ssword123!',
-        schoolName: 'THCS Giảng Võ',
+        schoolName: 'THPT Giảng Võ',
         city: 'Hà Nội'
       })
       .expect(201);
@@ -242,12 +242,12 @@ describe('Comprehensive E2E Scenarios (Technical Handoff & Release Readiness)', 
     const classRes = await request(app.getHttpServer())
       .post('/api/v1/classrooms')
       .set('Cookie', verifiedTeacherCookie)
-      .send({ name: 'Lớp 9A - Ôn thi vào 10', grade: 9, academicYear: '2026-2027' })
+      .send({ name: 'Lớp 10A - Ôn thi cuối kỳ', grade: 10, academicYear: '2026-2027' })
       .expect(201);
 
     const classId = classRes.body.classroom.id;
     createdClassIds.push(classId);
-    expect(classRes.body.classroom.name).toBe('Lớp 9A - Ôn thi vào 10');
+    expect(classRes.body.classroom.name).toBe('Lớp 10A - Ôn thi cuối kỳ');
 
     // 6. Teacher generates Crockford Base32 invite code (POST /classrooms/:id/invite-codes)
     const inviteRes = await request(app.getHttpServer())
@@ -280,7 +280,7 @@ describe('Comprehensive E2E Scenarios (Technical Handoff & Release Readiness)', 
       .send({ code: plainCode })
       .expect(200);
 
-    expect(joinRes.body.classroom.name).toBe('Lớp 9A - Ôn thi vào 10');
+    expect(joinRes.body.classroom.name).toBe('Lớp 10A - Ôn thi cuối kỳ');
 
     // 8. Teacher views student roster (GET /classrooms/:id/students)
     // Verifies Gate 0 D-04 data privacy: Teacher can see roster, but NOT individual mistake notes

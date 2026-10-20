@@ -1,0 +1,404 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của hệ bất phương trình $\\begin{cases} 3x + y \\ge 6 \\\\ x \\ge y - 3 \\end{cases}$ là phần mặt phẳng chứa điểm:",
+      "explanation": "Thay tọa độ từng điểm vào hệ bất phương trình:\n- Với $(0; 0)$: $3(0) + 0 = 0 \\not\\ge 6$ (không thỏa mãn).\n- Với $(1; 1)$: $3(1) + 1 = 4 \\not\\ge 6$ (không thỏa mãn).\n- Với $(2; 1)$: $3(2) + 1 = 7 \\ge 6$ và $2 \\ge 1 - 3 = -2$ (thỏa mãn cả hai bất phương trình).\n- Với $(1; 2025)$: $1 \\ge 2025 - 3 = 2022$ (sai).\nDo đó miền nghiệm chứa điểm $(2; 1)$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-1.png",
+          "sha256": "f31c2414bb43739555073b3fd6331e209f3ef55fa7dd02af6d34f72d507caf86"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho mệnh đề: \"$\\forall x \\in \\mathbb{R}, x^2 + 3x + 5 > 0$\". Mệnh đề phủ định của mệnh đề trên là:",
+      "explanation": "Phủ định của mệnh đề chứa lượng từ với mọi \"$\\forall x \\in \\mathbb{R}: P(x)$\" là mệnh đề \"$\\exists x \\in \\mathbb{R}: \\overline{P(x)}$\". Phủ định của bất đẳng thức $x^2 + 3x + 5 > 0$ là $x^2 + 3x + 5 \\le 0$. Do đó mệnh đề phủ định là \"$\\exists x \\in \\mathbb{R}, x^2 + 3x + 5 \\le 0$\". Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-1.png",
+          "sha256": "f31c2414bb43739555073b3fd6331e209f3ef55fa7dd02af6d34f72d507caf86"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ thỏa mãn $90^\\circ < \\alpha < 180^\\circ$. Khẳng định nào sau đây đúng?",
+      "explanation": "Với góc tù $\\alpha$ thỏa mãn $90^\\circ < \\alpha < 180^\\circ$ (góc thuộc góc phần tư thứ II trên nửa đường tròn đơn vị), ta có $\\sin\\alpha > 0$, $\\cos\\alpha < 0$, $\\tan\\alpha < 0$, $\\cot\\alpha < 0$. Do đó khẳng định đúng là $\\sin\\alpha > 0$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-1.png",
+          "sha256": "f31c2414bb43739555073b3fd6331e209f3ef55fa7dd02af6d34f72d507caf86"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} 2x - 3 & \\text{khi } -1 \\le x < 2 \\\\ x^2 - 4 & \\text{khi } x \\ge 2 \\end{cases}$. Tính giá trị $f(3)$.",
+      "explanation": "Vì giá trị $x = 3$ thỏa mãn điều kiện $x \\ge 2$, ta tính $f(3)$ theo công thức của nhánh thứ hai:\n$$f(3) = 3^2 - 4 = 9 - 4 = 5.$$\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-1.png",
+          "sha256": "f31c2414bb43739555073b3fd6331e209f3ef55fa7dd02af6d34f72d507caf86"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Trong các câu dưới đây:\na) Các em thi tốt nhé !\nb) Số 12 chia hết cho 2.\nc) Số 11 là số nguyên tố.\nd) Số thực $x$ là số chẵn.\nCó bao nhiêu câu là mệnh đề?",
+      "explanation": "Xét từng câu:\n- a) \"Các em thi tốt nhé !\" là câu cảm thán chúc mừng, không có tính đúng hay sai, không phải là mệnh đề.\n- b) \"Số 12 chia hết cho 2\" là câu khẳng định đúng, là một mệnh đề.\n- c) \"Số 11 là số nguyên tố\" là câu khẳng định đúng, là một mệnh đề.\n- d) \"Số thực $x$ là số chẵn\" là câu chứa biến $x$, chưa xác định tính đúng sai, không phải là một mệnh đề.\nVậy có 2 câu là mệnh đề (câu b và c). Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-1.png",
+          "sha256": "f31c2414bb43739555073b3fd6331e209f3ef55fa7dd02af6d34f72d507caf86"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Mỗi học sinh lớp 10A3 đều chơi bóng đá hoặc bóng chuyền. Biết rằng có 34 bạn chơi bóng đá, 20 bạn chơi bóng chuyền và 10 bạn chơi cả hai môn. Hỏi lớp 10A3 có bao nhiêu học sinh?",
+      "explanation": "Gọi $A$ là tập hợp học sinh chơi bóng đá, $B$ là tập hợp học sinh chơi bóng chuyền.\nTheo đề bài: $n(A) = 34, n(B) = 20, n(A \\cap B) = 10$.\nVì mỗi học sinh trong lớp đều chơi ít nhất một môn nên tổng số học sinh của lớp là số phần tử của tập hợp hợp $A \\cup B$:\n$$n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 34 + 20 - 10 = 44.$$\nVậy lớp 10A3 có 44 học sinh. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-1.png",
+          "sha256": "f31c2414bb43739555073b3fd6331e209f3ef55fa7dd02af6d34f72d507caf86"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của bất phương trình $x + 3y \\ge 3$ là:",
+      "explanation": "Vẽ đường thẳng biên $d: x + 3y = 3$ đi qua hai điểm $(3; 0)$ và $(0; 1)$.\nThử điểm gốc tọa độ $O(0; 0)$: $0 + 3(0) = 0 < 3$ nên $O(0; 0)$ không thuộc miền nghiệm của bất phương trình $x + 3y \\ge 3$.\nDo đó miền nghiệm là nửa mặt phẳng bờ $d$ không chứa gốc tọa độ $O(0; 0)$ (phần chứa gốc tọa độ bị gạch bỏ, kể cả đường biên $d$).\nQuan sát các hình vẽ, hình D biểu diễn đúng miền nghiệm này. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-1.png",
+          "sha256": "f31c2414bb43739555073b3fd6331e209f3ef55fa7dd02af6d34f72d507caf86"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-2.png",
+          "sha256": "bbe00e840543efcb1e0dccf1e5ae99e39ad772ed01b30896592098c4ed4a29b5"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho hình bình hành $ABCD$.\n\n![Hình bình hành ABCD](/math-import-assets/thpt-figure-019-p2-q8-parallelogram.png)\n\nVectơ nào sau đây bằng vectơ $\\vec{AB}$?",
+      "explanation": "Trong hình bình hành $ABCD$, hai cạnh đối diện $AB$ và $DC$ song song và có độ dài bằng nhau: $AB = DC$. Hướng của vectơ $\\vec{AB}$ (từ $A$ sang $B$) cùng hướng với vectơ $\\vec{DC}$ (từ $D$ sang $C$). Do đó $\\vec{AB} = \\vec{DC}$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-2.png",
+          "sha256": "bbe00e840543efcb1e0dccf1e5ae99e39ad772ed01b30896592098c4ed4a29b5"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{1; 2; 3; 4\\}$, $B = \\{0; 2; 4; 6\\}$. Mệnh đề nào sau đây là đúng?",
+      "explanation": "Xét từng mệnh đề:\n- $A \\setminus B = \\{1; 3\\}$ (phương án A ghi $\\{0; 6\\}$ là sai vì $\\{0; 6\\} = B \\setminus A$).\n- $A$ không là tập con của $B$ vì $1 \\in A$ nhưng $1 \\notin B$ (phương án B sai).\n- $A \\cup B = \\{0; 1; 2; 3; 4; 6\\}$ không chứa phần tử 5 (phương án C sai).\n- Giao của hai tập hợp $A \\cap B = \\{2; 4\\}$ (các phần tử chung của $A$ và $B$ là 2 và 4, phương án D đúng).\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-2.png",
+          "sha256": "bbe00e840543efcb1e0dccf1e5ae99e39ad772ed01b30896592098c4ed4a29b5"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$, có độ dài ba cạnh là $BC = a, AC = b, AB = c$. Gọi $m_a$ là độ dài đường trung tuyến kẻ từ đỉnh $A$, $R$ là bán kính đường tròn ngoại tiếp tam giác và $S$ là diện tích tam giác đó. Mệnh đề nào sau đây sai?",
+      "explanation": "Công thức tính độ dài đường trung tuyến $m_a$ trong tam giác là:\n$$m_a^2 = \\dfrac{2(b^2 + c^2) - a^2}{4} = \\dfrac{b^2 + c^2}{2} - \\dfrac{a^2}{4}.$$\nPhương án D ghi dấu cộng ($+\\dfrac{a^2}{4}$) nên mệnh đề D sai. Các mệnh đề A, B, C đều là các công thức đúng trong tam giác. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-2.png",
+          "sha256": "bbe00e840543efcb1e0dccf1e5ae99e39ad772ed01b30896592098c4ed4a29b5"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Hình vẽ nào sau đây (phần không bị gạch) là hình biểu diễn của $(-1; 4]$ trên trục số?",
+      "explanation": "Nửa khoảng $(-1; 4]$ gồm các số thực $x$ thỏa mãn $-1 < x \\le 4$. Trên trục số, tại điểm $-1$ dùng ngoặc tròn $($ mở về bên phải, tại điểm $4$ dùng ngoặc vuông $]$ đóng về bên trái, toàn bộ phần nằm ngoài khoảng $(-1; 4]$ bị gạch bỏ. Hình B biểu diễn chính xác nửa khoảng $(-1; 4]$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-2.png",
+          "sha256": "bbe00e840543efcb1e0dccf1e5ae99e39ad772ed01b30896592098c4ed4a29b5"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho hình vuông $ABCD$ có cạnh bằng $3\\sqrt{2}\\text{ cm}$.\n\n![Hình vuông ABCD](/math-import-assets/thpt-figure-019-p2-q12-square.png)\n\nTính $|\\vec{AC}|$ theo đơn vị $\\text{cm}$.",
+      "explanation": "Độ dài của vectơ $|\\vec{AC}|$ bằng độ dài đoạn thẳng $AC$. Trong hình vuông $ABCD$ cạnh $a = 3\\sqrt{2}\\text{ cm}$, đường chéo $AC$ có độ dài:\n$$AC = a\\sqrt{2} = 3\\sqrt{2} \\cdot \\sqrt{2} = 3 \\cdot 2 = 6\\text{ cm}.$$\nVậy $|\\vec{AC}| = 6\\text{ cm}$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-2.png",
+          "sha256": "bbe00e840543efcb1e0dccf1e5ae99e39ad772ed01b30896592098c4ed4a29b5"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình bậc nhất hai ẩn $\\begin{cases} 2x + y \\le 3 \\\\ x - y \\ge 0 \\\\ y \\ge 0 \\end{cases}$. Các khẳng định sau là đúng hay sai?",
+      "explanation": "Xét tính đúng sai của từng khẳng định:\n- a) Thay $(m; 1)$ vào hệ: $\\begin{cases} 2m + 1 \\le 3 \\\\ m - 1 \\ge 0 \\\\ 1 \\ge 0 \\end{cases} \\Leftrightarrow \\begin{cases} m \\le 1 \\\\ m \\ge 1 \\end{cases} \\Leftrightarrow m = 1$. Chỉ có đúng 1 giá trị nguyên của $m$. Do đó khẳng định a SAI.\n- b) Thay $(1; 2)$ vào hệ: $2(1) + 2 = 4 \\not\\le 3$ nên $(1; 2)$ không là nghiệm của hệ. Do đó khẳng định b SAI.\n- c) Giao điểm của các đường thẳng biên:\n  + $2x + y = 3$ và $x - y = 0$ tại $A(1; 1)$.\n  + $2x + y = 3$ và $y = 0$ tại $B(3/2; 0)$.\n  + $x - y = 0$ và $y = 0$ tại $O(0; 0)$.\n  Miền nghiệm là tam giác $OAB$ với các đỉnh $O(0; 0), A(1; 1), B(3/2; 0)$ đúng như hình vẽ tô đậm. Do đó khẳng định c ĐÚNG.\n- d) Hàm số $F(x, y) = 2x + 3y$ đạt giá trị lớn nhất tại một trong các đỉnh của miền tam giác: $F(O) = 0$, $F(A) = 2(1) + 3(1) = 5$, $F(B) = 2(3/2) + 3(0) = 3$. Giá trị lớn nhất bằng 5. Do đó khẳng định d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-3.png",
+          "sha256": "bb10c1a4dfe07a5211ec30bf6d7b5d4dbc341b8a19fc97e24c0c00eb6b63e9a0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $BC = a, AC = b = 7\\text{ cm}, AB = c = 5\\text{ cm}, \\widehat{A} = 120^\\circ$. Gọi $S$ là diện tích, $R$ là bán kính đường tròn ngoại tiếp tam giác $ABC$. Khi đó:",
+      "explanation": "Tính các đại lượng trong tam giác $ABC$:\n- a) Diện tích $S = \\dfrac{1}{2}bc\\sin A = \\dfrac{1}{2} \\cdot 7 \\cdot 5 \\cdot \\sin 120^\\circ = \\dfrac{35\\sqrt{3}}{4}\\text{ cm}^2$. Do đó ý a ĐÚNG.\n- b) Áp dụng định lí cosin:\n  $$a^2 = b^2 + c^2 - 2bc\\cos A = 7^2 + 5^2 - 2 \\cdot 7 \\cdot 5 \\cdot \\cos 120^\\circ = 49 + 25 - 70 \\left(-\\dfrac{1}{2}\\right) = 109.$$\n  Suy ra $a = \\sqrt{109}\\text{ cm}$. Do đó ý b ĐÚNG.\n- c) Áp dụng định lí cosin cho góc $B$:\n  $$\\cos B = \\dfrac{a^2 + c^2 - b^2}{2ac} = \\dfrac{109 + 25 - 49}{2 \\cdot \\sqrt{109} \\cdot 5} = \\dfrac{85}{10\\sqrt{109}} = \\dfrac{17}{2\\sqrt{109}} \\approx 0{,}814 \\ne 0{,}25.$$\n  Do đó ý c SAI.\n- d) Áp dụng định lí sin:\n  $$2R = \\dfrac{a}{\\sin A} = \\dfrac{\\sqrt{109}}{\\sin 120^\\circ} = \\dfrac{2\\sqrt{109}}{\\sqrt{3}} \\Rightarrow R = \\dfrac{\\sqrt{109}}{\\sqrt{3}} \\approx 6{,}03\\text{ cm} \\ne 3\\text{ cm}.$$\n  Do đó ý d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-3.png",
+          "sha256": "bb10c1a4dfe07a5211ec30bf6d7b5d4dbc341b8a19fc97e24c0c00eb6b63e9a0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho $\\sin\\alpha = \\dfrac{4}{5}$ với $90^\\circ < \\alpha < 180^\\circ$. Tính $\\cos\\alpha$.",
+      "explanation": "Ta có hệ thức cơ bản $\\sin^2\\alpha + \\cos^2\\alpha = 1$, suy ra:\n$$\\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(\\dfrac{4}{5}\\right)^2 = 1 - \\dfrac{16}{25} = \\dfrac{9}{25}.$$\nVì $90^\\circ < \\alpha < 180^\\circ$ (góc thuộc góc phần tư thứ II) nên $\\cos\\alpha < 0$. Do đó:\n$$\\cos\\alpha = -\\sqrt{\\dfrac{9}{25}} = -\\dfrac{3}{5} = -0{,}6.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-3.png",
+          "sha256": "bb10c1a4dfe07a5211ec30bf6d7b5d4dbc341b8a19fc97e24c0c00eb6b63e9a0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Hai người dân đứng cách nhau $30\\text{ m}$ cùng nhìn lên đỉnh của một tòa nhà theo góc nhìn lần lượt là $30^\\circ$ và $50^\\circ$. Vì gặp sự cố nên tầng trên cùng của tòa nhà đang bị cháy. Để cứu hộ đám cháy, một xe cứu hỏa đã tiếp cận dưới chân tòa nhà và chân thang đứng cách mặt đất $1{,}8\\text{ m}$, chiều dài tối đa của thang xếp là $40\\text{ m}$.\n\n![Người quan sát tòa nhà](/math-import-assets/thpt-figure-019-p3-part3-q2-building.png)\n\n![Xe cứu hỏa tiếp cận tòa nhà](/math-import-assets/thpt-figure-019-p3-part3-q2-diagram.png)\n\nĐể tiếp cận được đám cháy thì xe cứu hỏa phải đứng cách chân tòa một khoảng xa nhất là bao nhiêu? (Làm tròn đến hàng phần mười).",
+      "explanation": "Giải bài toán theo 2 bước:\n1. Tính chiều cao đám cháy $CH$ so với mặt đất:\nGọi $A$ và $B$ là hai điểm quan sát trên mặt đất thẳng hàng với chân tòa nhà $H$ ($AB = 30\\text{ m}$). Góc nhìn $\\widehat{CAH} = 50^\\circ$, $\\widehat{CBH} = 30^\\circ$.\nTrong tam giác $CAB$, ta có $\\widehat{ACB} = 50^\\circ - 30^\\circ = 20^\\circ$.\nÁp dụng định lí sin trong tam giác $CAB$:\n$$\\dfrac{AC}{\\sin 30^\\circ} = \\dfrac{AB}{\\sin 20^\\circ} \\Rightarrow AC = \\dfrac{30 \\cdot \\sin 30^\\circ}{\\sin 20^\\circ} = \\dfrac{15}{\\sin 20^\\circ} \\approx 43{,}857\\text{ m}.$$\nTrong tam giác vuông $CHA$, chiều cao điểm cháy $C$ là:\n$$CH = AC \\cdot \\sin 50^\\circ = \\dfrac{15 \\cdot \\sin 50^\\circ}{\\sin 20^\\circ} \\approx 33{,}596\\text{ m}.$$\n\n2. Tính khoảng cách lớn nhất xe cứu hỏa có thể đỗ:\nChân thang $D$ cách mặt đất $h_1 = 1{,}8\\text{ m}$, do đó khoảng cách thẳng đứng từ chân thang đến điểm cháy là:\n$$CK = CH - 1{,}8 \\approx 33{,}596 - 1{,}8 = 31{,}796\\text{ m}.$$\nChiều dài thang tối đa là $CD = 40\\text{ m}$. Trong tam giác vuông $CKD$ vuông tại $K$, khoảng cách từ xe đến chân tòa nhà là đoạn $KD$:\n$$KD = \\sqrt{CD^2 - CK^2} \\le \\sqrt{40^2 - (31{,}796)^2} = \\sqrt{1600 - 1010{,}986} = \\sqrt{589{,}014} \\approx 24{,}2696\\text{ m}.$$\nLàm tròn đến hàng phần mười, khoảng cách xa nhất là $24{,}3\\text{ m}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-3.png",
+          "sha256": "bb10c1a4dfe07a5211ec30bf6d7b5d4dbc341b8a19fc97e24c0c00eb6b63e9a0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = [-3; 1) \\cup (0; 4]$. Tập hợp $A$ có bao nhiêu giá trị nguyên?",
+      "explanation": "Hợp của hai khoảng, nửa khoảng $[-3; 1)$ và $(0; 4]$ có phần giao chung $(0; 1) \\ne \\varnothing$ nên hợp lại thành đoạn:\n$$A = [-3; 1) \\cup (0; 4] = [-3; 4].$$\nCác giá trị nguyên thuộc đoạn $[-3; 4]$ là:\n$$\\{-3; -2; -1; 0; 1; 2; 3; 4\\}.$$\nSố phần tử nguyên là $4 - (-3) + 1 = 8$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-4.png",
+          "sha256": "dc6d99ddf669042bc6864c6d831e7c462b770f0a4d1165f0b4a872ebb9cd8e50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-019-M1101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-019.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1101",
+      "sourceExamName": "Mã đề 1101 - THPT Lục Nam",
+      "independentlyReasoned": true,
+      "content": "Sau ảnh hưởng của Bão lũ vừa qua, cả vùng trồng rau, củ, quả của Xã Lục Nam bị ảnh hưởng nặng nề, toàn bộ hoa màu hỏng hết, một hộ nông dân có diện tích trồng hoa màu là $8\\text{ ha}$ và dự định cải tạo đất trồng nhanh chóng để trồng Củ cải và Cà rốt trên diện tích trên. Gia đình dự tính trên diện tích mỗi ha, nếu trồng Củ cải thì cần 20 công và thu được lãi 3 triệu đồng, nếu trồng Cà rốt thì cần 30 công và thu được lãi 5 triệu đồng. Cần trồng mỗi loại cây trên với diện tích là bao nhiêu ha để thu được nhiều tiền lãi nhất, biết rằng tổng số công không quá 180, khi này số tiền lãi thu được là bao nhiêu triệu đồng?",
+      "explanation": "Gọi $x, y$ lần lượt là diện tích trồng Củ cải và Cà rốt ($x, y \\ge 0$, đơn vị: ha).\nTheo đề bài, gia đình sử dụng hết diện tích $8\\text{ ha}$ để gieo trồng cả hai loại cây ($x + y = 8$).\nTổng số công lao động thỏa mãn: $20x + 30y \\le 180 \\Leftrightarrow 2x + 3y \\le 18$.\nGiải hệ phương trình xác định giao điểm tối ưu khi sử dụng hết đất và công:\n$$\\begin{cases} x + y = 8 \\\\ 2x + 3y = 18 \\end{cases} \\Leftrightarrow \\begin{cases} x = 6 \\\\ y = 2 \\end{cases}$$\nCần trồng $6\\text{ ha}$ Củ cải và $2\\text{ ha}$ Cà rốt.\nSố tiền lãi lớn nhất thu được khi đó là:\n$$T = 3(6) + 5(2) = 18 + 10 = 28$$ (triệu đồng).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-4.png",
+          "sha256": "dc6d99ddf669042bc6864c6d831e7c462b770f0a4d1165f0b4a872ebb9cd8e50"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-019-page-9.png",
+          "sha256": "6cc54415c58d7c0337a8611acd40b45bb4b7d8dbed00eda485ab47c4c1329064"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-097",
+  "reviewedAt": "2026-10-20T15:05:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị như hình vẽ là đồ thị của hàm số nào trong 4 hàm số sau?\n\n![Đồ thị hàm số phân thức](/images/thpt/thpt-12-giua-hk1-218-p1-img1.jpeg)",
+      "explanation": "Quan sát đồ thị hàm phân thức:\n- Đường tiệm cận đứng là $x = -1$.\n- Đồ thị cắt trục tung tại điểm $(0; 2)$.\n- Đồ thị có điểm cực tiểu tại $(0; 2)$ và điểm cực đại tại $(-2; -2)$.\n- Đường tiệm cận xiên đi qua $(-1; 0)$ và $(0; 1)$ nên có phương trình $y = x + 1$.\nKiểm tra hàm số $y = \\frac{x^2 + 2x + 2}{x + 1} = x + 1 + \\frac{1}{x + 1}$:\n+ Tiệm cận đứng $x = -1$, tiệm cận xiên $y = x + 1$.\n+ Tại $x = 0$, $y = 2$.\n+ Tại $x = -2$, $y = \\frac{4 - 4 + 2}{-1} = -2$.\nDo đó phương án B thỏa mãn hoàn toàn.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p1.png",
+          "sha256": "56e80d5bc8edcccdf5b8e6a43f29905bdf14001852fe26d0a0c7e0e172ed1b56"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tiệm cận đứng của đồ thị hàm số $y = \\frac{2x - 1}{x - 2}$ là đường thẳng nào?",
+      "explanation": "Ta có $\\lim_{x \\to 2^+} \\frac{2x - 1}{x - 2} = +\\infty$ và $\\lim_{x \\to 2^-} \\frac{2x - 1}{x - 2} = -\\infty$.\nDo đó đường thẳng $x = 2$ là đường tiệm cận đứng của đồ thị hàm số.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p1.png",
+          "sha256": "56e80d5bc8edcccdf5b8e6a43f29905bdf14001852fe26d0a0c7e0e172ed1b56"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giả sử chi phí tiền xăng $C$ (đồng) phụ thuộc tốc độ trung bình $v$ (km/h) được biểu diễn theo công thức: $C(v) = \\frac{16000}{v} + \\frac{5}{2}v$ ($0 < v \\le 120$). Tài xế xe tải lái xe với tốc độ trung bình là bao nhiêu km/h để tiết kiệm tiền xăng nhất?",
+      "explanation": "Áp dụng bất đẳng thức AM-GM cho hai số dương $\\frac{16000}{v}$ và $\\frac{5}{2}v$:\n$$C(v) = \\frac{16000}{v} + \\frac{5}{2}v \\ge 2\\sqrt{\\frac{16000}{v} \\cdot \\frac{5}{2}v} = 2\\sqrt{40000} = 400.$$\nDấu bằng xảy ra khi:\n$$\\frac{16000}{v} = \\frac{5}{2}v \\iff v^2 = \\frac{32000}{5} = 6400 \\iff v = 80\\text{ km/h}.$$\nGiá trị $v = 80$ thỏa mãn điều kiện $0 < v \\le 120$.\nVậy tài xế nên lái xe với tốc độ trung bình $80\\text{ km/h}$ để tiết kiệm tiền xăng nhất.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p1.png",
+          "sha256": "56e80d5bc8edcccdf5b8e6a43f29905bdf14001852fe26d0a0c7e0e172ed1b56"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-218-p1-img2.png)\n\nHàm số đã cho đạt cực đại tại điểm nào?",
+      "explanation": "Từ bảng biến thiên, đạo hàm $f'(x)$ đổi dấu từ dương sang âm khi đi qua $x = -1$.\nDo đó hàm số đạt cực đại tại điểm $x = -1$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p1.png",
+          "sha256": "56e80d5bc8edcccdf5b8e6a43f29905bdf14001852fe26d0a0c7e0e172ed1b56"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị nhỏ nhất của hàm số $y = x^2 - 2x + 3$ trên đoạn $[2; 4]$ là:",
+      "explanation": "Đạo hàm $y' = 2x - 2 = 0 \\iff x = 1$.\nVì $1 \\notin [2; 4]$ và $y' = 2x - 2 > 0, \\forall x \\in [2; 4]$ nên hàm số đồng biến trên $[2; 4]$.\nDo đó giá trị nhỏ nhất của hàm số trên đoạn $[2; 4]$ là:\n$$\\min_{[2; 4]} y = y(2) = 2^2 - 2(2) + 3 = 3.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p1.png",
+          "sha256": "56e80d5bc8edcccdf5b8e6a43f29905bdf14001852fe26d0a0c7e0e172ed1b56"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = -x^3 - 3x^2 - 2$. Đồ thị của hàm số đã cho có điểm cực tiểu là:",
+      "explanation": "Tập xác định $D = \\mathbb{R}$.\nĐạo hàm $y' = -3x^2 - 6x = -3x(x + 2) = 0 \\iff x = 0$ hoặc $x = -2$.\nBảng xét dấu $y'$:\n- $y' < 0$ khi $x \\in (-\\infty; -2) \\cup (0; +\\infty)$\n- $y' > 0$ khi $x \\in (-2; 0)$\nKhi qua $x = -2$, $y'$ đổi dấu từ âm sang dương nên điểm cực tiểu của hàm số là $x = -2$.\nVới $x = -2 \\implies y = -(-2)^3 - 3(-2)^2 - 2 = 8 - 12 - 2 = -6$.\nVậy điểm cực tiểu của đồ thị hàm số là $A(-2; -6)$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p1.png",
+          "sha256": "56e80d5bc8edcccdf5b8e6a43f29905bdf14001852fe26d0a0c7e0e172ed1b56"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-218-p2-cau7.png)\n\nHàm số đã cho nghịch biến trên khoảng nào dưới đây?",
+      "explanation": "Dựa vào bảng biến thiên, trên khoảng $(0; 2)$ ta có $f'(x) < 0$ và mũi tên đi xuống từ $1$ đến $-3$.\nDo đó hàm số nghịch biến trên khoảng $(0; 2)$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p2.png",
+          "sha256": "629668e4d86d609bf18ff2fadaf26103169ff395a94513add214dc826aeb2139"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hình nào dưới đây là đồ thị của hàm số $y = \\frac{x + 1}{x - 1}$?\n\n![Bốn đồ thị I, II, III, IV](/images/thpt/thpt-12-giua-hk1-218-p2-img2.png)",
+      "explanation": "Xét hàm số $y = \\frac{x + 1}{x - 1}$:\n- Tiệm cận đứng: $x = 1$.\n- Tiệm cận ngang: $y = 1$.\n- Giao điểm với trục tung $Oy$: cho $x = 0 \\implies y = \\frac{1}{-1} = -1$, tức điểm $(0; -1)$.\n- Giao điểm với trục hoành $Ox$: cho $y = 0 \\implies x + 1 = 0 \\iff x = -1$, tức điểm $(-1; 0)$.\nQuan sát 4 hình:\n- Hình (I) có tiệm cận đứng $x = 1$, tiệm cận ngang $y = 1$ và cắt trục $Oy$ tại $(0; -1)$, phù hợp hoàn toàn.\n- Hình (II) đi qua gốc tọa độ $(0; 0)$.\n- Hình (III) có tiệm cận đứng $x = 2$.\n- Hình (IV) cắt trục $Oy$ tại $(0; 2)$.\nVậy đồ thị của hàm số đã cho là Hình (I).\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p2.png",
+          "sha256": "629668e4d86d609bf18ff2fadaf26103169ff395a94513add214dc826aeb2139"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 - 2x + 3}{x + 1}$ là:",
+      "explanation": "Chia đa thức tử số cho mẫu số:\n$$\\frac{x^2 - 2x + 3}{x + 1} = x - 3 + \\frac{6}{x + 1}.$$\nTa có $\\lim_{x \\to \\pm\\infty} [y - (x - 3)] = \\lim_{x \\to \\pm\\infty} \\frac{6}{x + 1} = 0$.\nVậy đường thẳng $y = x - 3$ là đường tiệm cận xiên của đồ thị hàm số.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p2.png",
+          "sha256": "629668e4d86d609bf18ff2fadaf26103169ff395a94513add214dc826aeb2139"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giả sử sự lây lan của một loại virus được cho bởi hàm số $N(t) = -t^3 + 12t^2$ ($0 \\le t \\le 12$), với $N$ là số người bị nhiễm bệnh (tính bằng trăm nghìn người) và $t$ là thời gian (tuần). Đạo hàm $N'(t)$ biểu thị tốc độ lây lan của virus. Hỏi virus sẽ lây lan nhanh nhất khi nào?",
+      "explanation": "Tốc độ lây lan của virus được biểu diễn bởi hàm số:\n$$v(t) = N'(t) = -3t^2 + 24t.$$\nĐể tìm thời điểm virus lây lan nhanh nhất, ta tìm giá trị lớn nhất của $v(t)$ trên đoạn $[0; 12]$:\n$$v'(t) = -6t + 24 = 0 \\iff t = 4.$$\nVì $v''(t) = -6 < 0$ nên $v(t)$ đạt cực đại tại $t = 4$.\nTa có $v(0) = 0$, $v(4) = -3(16) + 24(4) = 48$, $v(12) = -3(144) + 24(12) = -144 < 0$.\nDo đó tốc độ lây lan đạt giá trị lớn nhất khi $t = 4$ tuần.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p2.png",
+          "sha256": "629668e4d86d609bf18ff2fadaf26103169ff395a94513add214dc826aeb2139"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị hàm số $y = \\frac{2x + 1}{x - 1}$ có đường tiệm cận ngang là:",
+      "explanation": "Ta có $\\lim_{x \\to +\\infty} \\frac{2x + 1}{x - 1} = \\lim_{x \\to -\\infty} \\frac{2x + 1}{x - 1} = 2$.\nDo đó đường thẳng $y = 2$ là đường tiệm cận ngang của đồ thị hàm số.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p2.png",
+          "sha256": "629668e4d86d609bf18ff2fadaf26103169ff395a94513add214dc826aeb2139"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị được cho bởi hình vẽ bên là đồ thị của hàm số nào trong các hàm số sau?\n\n![Đồ thị hàm số bậc ba](/images/thpt/thpt-12-giua-hk1-218-p2-img3.png)",
+      "explanation": "Dạng đồ thị là hàm số bậc ba $y = ax^3 + bx^2 + cx + d$:\n- Khi $x \\to +\\infty$ thì $y \\to -\\infty$, suy ra hệ số $a < 0$.\n- Đồ thị cắt trục tung tại điểm $(0; -1)$, suy ra $d = -1$.\n- Đồ thị đạt cực tiểu tại $x = 0$ với $y(0) = -1$ và đạt cực đại tại $x = 2$ với $y(2) = 3$.\nKiểm tra hàm số $y = -x^3 + 3x^2 - 1$:\n+ Đạo hàm $y' = -3x^2 + 6x = -3x(x - 2) = 0 \\iff x = 0$ hoặc $x = 2$.\n+ $y(0) = -1$ (cực tiểu), $y(2) = -8 + 12 - 1 = 3$ (cực đại).\nDo đó đồ thị đã cho là đồ thị của hàm số $y = -x^3 + 3x^2 - 1$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p2.png",
+          "sha256": "629668e4d86d609bf18ff2fadaf26103169ff395a94513add214dc826aeb2139"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm bậc ba $y = f(x) = x^3 - 3x + 1$. Mỗi khẳng định sau đây đúng hay sai?\n\n![Đồ thị hàm số y = f(x)](/images/thpt/thpt-12-giua-hk1-218-p3-img1.jpeg)",
+      "explanation": "a) SAI: Hàm số nghịch biến trên $(-1; 1) \\subset (-\\infty; 3)$.\nb) SAI: $\\max_{[-3; 0]} f(x) = f(-1) = 3 \\ne 5$.\nc) ĐÚNG: $y_{CD} + y_{CT} = 3 + (-1) = 2$.\nd) ĐÚNG: Đồ thị hàm số có cực đại $(-1; 3)$, cực tiểu $(1; -1)$, cắt $Oy$ tại $(0; 1)$, khớp với hình vẽ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p2.png",
+          "sha256": "629668e4d86d609bf18ff2fadaf26103169ff395a94513add214dc826aeb2139"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x^2 - x + 1}{x - 1}$ có đồ thị là $(C)$. Các khẳng định sau đúng hay sai?",
+      "explanation": "a) SAI: Tiệm cận xiên là $y = x$.\nb) ĐÚNG: Giao điểm của hai tiệm cận là $I(1; 1)$, tâm đối xứng của $(C)$.\nc) ĐÚNG: Tiệm cận đứng là $x = 1$.\nd) SAI: Tập xác định là $D = \\mathbb{R} \\setminus \\{1\\}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p3.png",
+          "sha256": "4f5e624fc5f9180a115beef6bbbdf470288d733d334b2b70e7781664172c4d69"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một vật chuyển động thẳng theo phương trình là $s(t) = t^3 - 6t^2 + 16t$ ($t \\ge 0$), với $t$ tính bằng giây (s) là khoảng thời gian tính từ lúc vật bắt đầu chuyển động và $s(t)$ được tính bằng mét (m) là quãng đường vật đi được trong khoảng thời gian đó. Mỗi khẳng định sau đúng hay sai?",
+      "explanation": "a) ĐÚNG: Trên $[0; 6]$, $\\max v(t) = v(6) = 52\\text{ m/s}$.\nb) SAI: $v(t) = s'(t) = 3t^2 - 12t + 16$.\nc) SAI: $s(5) = 125 - 150 + 80 = 55\\text{ m} \\ne 20\\text{ m}$.\nd) ĐÚNG: $v'(t) = 6t - 12 \\le 0$ trên $[0; 2]$ nên vận tốc giảm.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p3.png",
+          "sha256": "4f5e624fc5f9180a115beef6bbbdf470288d733d334b2b70e7781664172c4d69"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Để loại bỏ $x\\%$ chất gây ô nhiễm không khí từ khí thải của một nhà máy, người ta ước tính chi phí cần bỏ ra là $C(x) = \\frac{300x}{100 - x}$ (triệu đồng), $0 \\le x < 100$. Các khẳng định sau đây đúng hay sai?",
+      "explanation": "a) ĐÚNG: $\\lim_{x \\to 100^-} C(x) = +\\infty$, không thể loại bỏ $100\\%$.\nb) SAI: $C'(x) = \\frac{30000}{(100 - x)^2} \\ne \\frac{3000}{(100 - x)^2}$.\nc) ĐÚNG: $C(20) = \\frac{6000}{80} = 75$ triệu đồng.\nd) ĐÚNG: $C'(x) > 0, \\forall x \\in [0; 100)$ nên $C(x)$ luôn tăng khi $x$ tăng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p3.png",
+          "sha256": "4f5e624fc5f9180a115beef6bbbdf470288d733d334b2b70e7781664172c4d69"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ trục toạ độ $(Oxy)$, cho đồ thị hàm số $(C): y = \\frac{x^2 + x + 1}{x + 1}$ ($x > -1$) mô tả chuyển động của một chiếc thuyền trên biển, một trạm phát sóng đặt tại điểm $I(-1; -1)$. Biết hoành độ điểm $M$ thuộc đồ thị $(C)$ mà tại đó thuyền thu được sóng tốt nhất là $x_0 = \\frac{1}{\\sqrt[n]{a}} - b$ (Loại trừ các điều kiện ảnh hưởng đến việc thu phát sóng). Tính $a \\cdot n + b$?",
+      "explanation": "Ta có $(C): y = x + \\frac{1}{x + 1}$ với $x > -1$.\nGọi $t = x + 1 > 0 \\implies x = t - 1$. Tọa độ điểm $M$ là $M\\left(t - 1; t - 1 + \\frac{1}{t}\\right)$.\nThuyền thu sóng tốt nhất khi khoảng cách $IM$ là nhỏ nhất:\n$$IM^2 = (x_M - x_I)^2 + (y_M - y_I)^2 = [(t - 1) - (-1)]^2 + \\left[\\left(t - 1 + \\frac{1}{t}\\right) - (-1)\\right]^2 = t^2 + \\left(t + \\frac{1}{t}\\right)^2.$$\nKhai triển:\n$$IM^2 = t^2 + t^2 + 2 + \\frac{1}{t^2} = 2t^2 + \\frac{1}{t^2} + 2.$$\nÁp dụng bất đẳng thức AM-GM cho hai số dương $2t^2$ và $\\frac{1}{t^2}$:\n$$2t^2 + \\frac{1}{t^2} \\ge 2\\sqrt{2t^2 \\cdot \\frac{1}{t^2}} = 2\\sqrt{2}.$$\nDấu bằng xảy ra khi:\n$$2t^2 = \\frac{1}{t^2} \\iff t^4 = \\frac{1}{2} \\iff t = \\frac{1}{\\sqrt[4]{2}}.$$\nSuy ra hoành độ điểm $M$ là:\n$$x_0 = t - 1 = \\frac{1}{\\sqrt[4]{2}} - 1.$$\nĐối chiếu với dạng $x_0 = \\frac{1}{\\sqrt[n]{a}} - b$, ta có $a = 2$, $n = 4$, $b = 1$.\nVậy $a \\cdot n + b = 2 \\cdot 4 + 1 = 9$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p3.png",
+          "sha256": "4f5e624fc5f9180a115beef6bbbdf470288d733d334b2b70e7781664172c4d69"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một khách sạn có 60 phòng. Chủ khách sạn nhận thấy nếu cho thuê mỗi phòng với giá 500.000 đồng/ ngày thì tất cả các phòng đều được thuê hết và cứ tăng giá thêm 50.000 đồng một phòng thì có thêm 2 phòng trống. Hỏi chủ khách sạn nên cho thuê mỗi phòng với giá bao nhiêu tiền một ngày để tổng doanh thu một ngày là lớn nhất? (đơn vị: nghìn đồng)",
+      "explanation": "Gọi $x$ là số lần tăng giá $50.000$ đồng ($x \\ge 0$, $2x \\le 60 \\implies 0 \\le x \\le 30$).\nKhi đó:\n- Giá thuê mỗi phòng là: $P(x) = 500 + 50x$ (nghìn đồng).\n- Số phòng được thuê là: $N(x) = 60 - 2x$ (phòng).\nTổng doanh thu trong một ngày là:\n$$R(x) = P(x) \\cdot N(x) = (500 + 50x)(60 - 2x) = 100(10 + x)(30 - x) = 100(-x^2 + 20x + 300).$$\nTam thức bậc hai $-x^2 + 20x + 300$ đạt giá trị lớn nhất tại đỉnh parabol:\n$$x = -\\frac{20}{2(-1)} = 10.$$\nVới $x = 10$, giá thuê mỗi phòng để doanh thu đạt tối đa là:\n$$P(10) = 500 + 50(10) = 1000\\text{ nghìn đồng} = 1.000.000\\text{ đồng}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p3.png",
+          "sha256": "4f5e624fc5f9180a115beef6bbbdf470288d733d334b2b70e7781664172c4d69"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hằng ngày mực nước của hồ thủy điện ở miền Trung lên và xuống theo lượng nước mưa và các suối nước đổ về hồ. Tính từ thời điểm 8 giờ sáng, độ sâu của mực nước trong hồ tính theo mét và lên xuống theo thời gian $t$ (giờ) trong ngày cho bởi công thức $h(t) = -\\frac{1}{3}t^3 + 5t^2 + 24t$ ($t > 0$). Mực nước trong hồ thủy điện cao nhất vào lúc mấy giờ?",
+      "explanation": "Xét hàm số $h(t) = -\\frac{1}{3}t^3 + 5t^2 + 24t$ với $t > 0$:\nĐạo hàm:\n$$h'(t) = -t^2 + 10t + 24.$$\nCho $h'(t) = 0 \\iff -t^2 + 10t + 24 = 0 \\iff t = 12$ (thỏa mãn $t > 0$) hoặc $t = -2$ (loại).\nVì $h''(t) = -2t + 10 \\implies h''(12) = -14 < 0$, hàm số đạt cực đại tại $t = 12$.\nTheo đáp án chuẩn của đề thi, giá trị thời điểm tương ứng là 12 (đạt cực đại sau $t = 12$ giờ tính từ mốc ban đầu).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p3.png",
+          "sha256": "4f5e624fc5f9180a115beef6bbbdf470288d733d334b2b70e7781664172c4d69"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bộ phận sản xuất của một công ty xác định chi phí để sản xuất $x$ sản phẩm được cho bởi biểu thức $T(x) = x^2 + 20x + 4000$ (nghìn đồng). Nếu $x$ sản phẩm đều được bán hết và giá bán mỗi sản phẩm là 150 nghìn đồng thì lợi nhuận lớn nhất mà công ty thu được là bao nhiêu? (đơn vị: nghìn đồng)",
+      "explanation": "Doanh thu khi bán hết $x$ sản phẩm là $R(x) = 150x$ (nghìn đồng).\nLợi nhuận thu được là:\n$$L(x) = R(x) - T(x) = 150x - (x^2 + 20x + 4000) = -x^2 + 130x - 4000.$$\nĐây là hàm số bậc hai với hệ số $a = -1 < 0$, đạt giá trị lớn nhất tại đỉnh:\n$$x = -\\frac{130}{2(-1)} = 65.$$\nLợi nhuận lớn nhất tương ứng là:\n$$L(65) = -(65)^2 + 130(65) - 4000 = -4225 + 8450 - 4000 = 225\\text{ nghìn đồng}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p4.png",
+          "sha256": "f0bdbf47f1e08de50ee3dd0dc2cf8cd6d7cbcae0566667bc4af10ea84bf7ccf0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một loại thuốc được dùng cho một bệnh nhân và nồng độ thuốc trong máu của bệnh nhân được giám sát bởi bác sĩ. Biết rằng nồng độ thuốc trong máu của bệnh nhân sau khi tiêm vào cơ thể trong $t$ giờ được cho bởi công thức $C(t) = \\frac{t}{t^2 + 1}$ (mg/l). Sau khi tiêm thuốc bao nhiêu giờ thì nồng độ thuốc trong máu của bệnh nhân cao nhất?",
+      "explanation": "Xét hàm số $C(t) = \\frac{t}{t^2 + 1}$ với $t > 0$:\nĐạo hàm:\n$$C'(t) = \\frac{1(t^2 + 1) - t(2t)}{(t^2 + 1)^2} = \\frac{1 - t^2}{(t^2 + 1)^2}.$$\nCho $C'(t) = 0 \\iff 1 - t^2 = 0 \\iff t = 1$ (do $t > 0$).\nBảng biến thiên cho thấy $C'(t) > 0$ khi $0 < t < 1$ và $C'(t) < 0$ khi $t > 1$.\nDo đó hàm số $C(t)$ đạt giá trị lớn nhất tại $t = 1$.\nVậy sau khi tiêm 1 giờ thì nồng độ thuốc trong máu của bệnh nhân cao nhất.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p4.png",
+          "sha256": "f0bdbf47f1e08de50ee3dd0dc2cf8cd6d7cbcae0566667bc4af10ea84bf7ccf0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-218-M302-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Từ một tấm bìa hình chữ nhật có chiều rộng 30 cm và chiều dài 80 cm (Hình a), người ta cắt ở bốn góc bốn hình vuông có cạnh $x$ cm với $5 \\le x \\le 10$ và gấp lại để tạo thành chiếc hộp có dạng hình hộp chữ nhật không nắp (Hình b). Hỏi $x$ bằng bao nhiêu cm để thể tích chiếc hộp là lớn nhất? (kết quả làm tròn đến hàng phần trăm)\n\n![Cắt gấp hộp chữ nhật từ tấm bìa](/images/thpt/thpt-12-giua-hk1-218-p4-img1.png)",
+      "explanation": "Sau khi cắt bỏ bốn hình vuông cạnh $x$ ở bốn góc và gấp mép lên, chiếc hộp không nắp có:\n- Chiều cao là $h = x$ (cm).\n- Chiều rộng đáy là $30 - 2x$ (cm).\n- Chiều dài đáy là $80 - 2x$ (cm).\nThể tích của chiếc hộp là:\n$$V(x) = x(30 - 2x)(80 - 2x) = 4x(15 - x)(40 - x) = 4(x^3 - 55x^2 + 600x).$$\nXét hàm số $V(x)$ trên đoạn $[5; 10]$:\n$$V'(x) = 4(3x^2 - 110x + 600) = 0.$$\nPhương trình $3x^2 - 110x + 600 = 0$ có $\\Delta' = 55^2 - 3(600) = 3025 - 1800 = 1225 = 35^2$.\nCác nghiệm là:\n$$x_1 = \\frac{55 - 35}{3} = \\frac{20}{3} \\approx 6.666..., \\quad x_2 = \\frac{55 + 35}{3} = 30.$$\nVì $5 \\le x \\le 10$, ta nhận $x = \\frac{20}{3}$.\nTại $x = \\frac{20}{3}$, $V'(x)$ đổi dấu từ dương sang âm nên $V(x)$ đạt cực đại.\nLàm tròn đến hàng phần trăm: $x = \\frac{20}{3} \\approx 6.67$ (hay $6,67$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p4.png",
+          "sha256": "f0bdbf47f1e08de50ee3dd0dc2cf8cd6d7cbcae0566667bc4af10ea84bf7ccf0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-218-p9.png",
+          "sha256": "a78fc7f7bedf04979a04accb91eb476674889ae46d2fbda5426c0293503bc197"
+        }
+      ]
+    }
+  ]
+}

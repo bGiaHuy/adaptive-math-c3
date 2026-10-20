@@ -13,6 +13,7 @@ export default defineConfig({
   },
   test: {
     environment: 'node',
+    globalSetup: ['test/global-setup.ts'],
     include: ['test/**/*.spec.ts'],
     fileParallelism: false,
     hookTimeout: 30_000,

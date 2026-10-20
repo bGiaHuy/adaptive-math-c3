@@ -3,6 +3,7 @@ import {
   Post,
   Get,
   Body,
+  Req,
   Param,
   UseGuards,
   HttpCode,
@@ -29,8 +30,8 @@ export class DiagnosticController {
   @Roles(UserRole.STUDENT)
   @ApiOperation({ summary: 'Bắt đầu hoặc khôi phục phiên làm bài kiểm tra chẩn đoán năng lực' })
   @ApiResponse({ status: 201, description: 'Phiên làm bài và câu hỏi đầu tiên' })
-  async startAttempt(@CurrentUser('id') studentId: string) {
-    return this.diagnosticService.startAttempt(studentId);
+  async startAttempt(@CurrentUser('id') studentId: string, @Req() request: any) {
+    return this.diagnosticService.startAttempt(studentId, request?.ip || '');
   }
 
   @Post('draft')

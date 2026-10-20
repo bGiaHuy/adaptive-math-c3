@@ -82,7 +82,7 @@ export function updateKnowledge(prior: number, correct: boolean) {
   return clamp(posterior + (1 - posterior) * 0.15, 0.01, 0.99);
 }
 export const targetForGoal = (goal: string) => /nâng cao|HSG/i.test(goal || '') ? 0.95
-  : /vào lớp 10/i.test(goal || '') ? 0.85 : /cuối kỳ/i.test(goal || '') ? 0.8 : 0.75;
+  : /đại học|tốt nghiệp|university/i.test(goal || '') ? 0.85 : /cuối kỳ/i.test(goal || '') ? 0.8 : 0.75;
 export function studyDate(date = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Ho_Chi_Minh', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
 }

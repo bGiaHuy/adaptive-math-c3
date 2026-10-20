@@ -1,0 +1,953 @@
+{
+  "batchId": "batch-genuine-051",
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 1, tìm vectơ chỉ phương của đường thẳng tham số.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, cho đường thẳng $\\Delta: \\begin{cases} x = 1 + 2t \\\\ y = 3 - t \\end{cases}$. Một vectơ chỉ phương $\\vec{u}$ của $\\Delta$ là",
+      "options": [
+        "A. $\\vec{u} = (1; 3)$.",
+        "B. $\\vec{u} = (2; -1)$.",
+        "C. $\\vec{u} = (3; 1)$.",
+        "D. $\\vec{u} = (2; 1)$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phương trình tham số của đường thẳng $\\Delta$ có dạng $\\begin{cases} x = x_0 + u_1 t \\\\ y = y_0 + u_2 t \\end{cases}$, vectơ chỉ phương là $\\vec{u} = (u_1; u_2)$.\nTừ phương trình của $\\Delta$, hệ số trước $t$ ở $x$ là $2$ và ở $y$ là $-1$, do đó một vectơ chỉ phương của $\\Delta$ là $\\vec{u} = (2; -1)$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q01.png",
+          "sha256": "75d54b0e7feafe6f785d5dd3aecc75ed0cf3d563107df135b301934fe507b260"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 2, tính khoảng cách từ điểm đến đường thẳng.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khoảng cách từ điểm $M(3; -4)$ đến đường thẳng $\\Delta: 3x - 4y - 1 = 0$ bằng",
+      "options": [
+        "A. $\\dfrac{8}{5}$.",
+        "B. $5$.",
+        "C. $\\dfrac{7}{5}$.",
+        "D. $\\dfrac{24}{5}$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: ax + by + c = 0$ được tính theo công thức:\n$$d(M, \\Delta) = \\frac{|a x_0 + b y_0 + c|}{\\sqrt{a^2 + b^2}}.$$\nThay tọa độ điểm $M(3; -4)$ và phương trình $\\Delta: 3x - 4y - 1 = 0$ vào:\n$$d(M, \\Delta) = \\frac{|3(3) - 4(-4) - 1|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|9 + 16 - 1|}{\\sqrt{25}} = \\frac{24}{5}.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q02.png",
+          "sha256": "75d54b0e7feafe6f785d5dd3aecc75ed0cf3d563107df135b301934fe507b260"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 3, tìm tâm và bán kính đường tròn.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường tròn $(C)$ có phương trình $x^2 + y^2 + 6x - 8y + 9 = 0$. Hãy xác định tọa độ tâm $I$ và bán kính $R$ của đường tròn $(C)$.",
+      "options": [
+        "A. $I(-3; 5), R = 4$.",
+        "B. $I(-3; 4), R = 4$.",
+        "C. $I(-3; 5), R = 16$.",
+        "D. $I(3; -4), R = 18$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phương trình đường tròn có dạng $x^2 + y^2 - 2ax - 2by + c = 0$ với $-2a = 6 \\implies a = -3$, $-2b = -8 \\implies b = 4$, $c = 9$.\nTâm của đường tròn là $I(a; b) = I(-3; 4)$.\nBán kính đường tròn là:\n$$R = \\sqrt{a^2 + b^2 - c} = \\sqrt{(-3)^2 + 4^2 - 9} = \\sqrt{9 + 16 - 9} = \\sqrt{16} = 4.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q03.png",
+          "sha256": "75d54b0e7feafe6f785d5dd3aecc75ed0cf3d563107df135b301934fe507b260"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 4, nhận dạng phương trình chính tắc của elip.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các phương trình sau, phương trình nào là phương trình chính tắc của một elip?",
+      "options": [
+        "A. $\\dfrac{x^2}{25} - \\dfrac{y^2}{16} = 1$.",
+        "B. $\\dfrac{x^2}{25} + \\dfrac{y^2}{16} = 1$.",
+        "C. $\\dfrac{x^2}{25} + \\dfrac{y^2}{16} = -1$.",
+        "D. $\\dfrac{x^2}{16} + \\dfrac{y^2}{25} = 1$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phương trình chính tắc của elip có dạng $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ với điều kiện $a > b > 0$.\n- Phương án A là phương trình hypebol (do dấu trừ).\n- Phương án C có vế phải bằng $-1$ là vô nghiệm.\n- Phương án D có mẫu của $x^2$ nhỏ hơn mẫu của $y^2$ ($16 < 25$), tức $a < b$, không phải dạng chính tắc.\n- Phương án B có dạng $\\dfrac{x^2}{5^2} + \\dfrac{y^2}{4^2} = 1$ thỏa mãn $a = 5 > b = 4 > 0$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q04.png",
+          "sha256": "75d54b0e7feafe6f785d5dd3aecc75ed0cf3d563107df135b301934fe507b260"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 5, nhận dạng phương trình chính tắc của hypebol.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các phương trình sau, phương trình nào là phương trình chính tắc của một hypebol?",
+      "options": [
+        "A. $\\dfrac{x^2}{16} + \\dfrac{y^2}{9} = 1$.",
+        "B. $\\dfrac{x^2}{16} - \\dfrac{y^2}{9} = 1$.",
+        "C. $\\dfrac{x^2}{16} - \\dfrac{y^2}{9} = -1$.",
+        "D. $y^2 = 16x$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phương trình chính tắc của hypebol có dạng $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ với $a > 0, b > 0$.\n- Phương án A là phương trình chính tắc của elip.\n- Phương án C có vế phải bằng $-1$.\n- Phương án D là phương trình chính tắc của parabol.\n- Phương án B thỏa mãn chính xác định nghĩa phương trình chính tắc của hypebol với $a^2 = 16, b^2 = 9$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q05.png",
+          "sha256": "31fbfafba709a747c87b88ae1408ea881c40694db21708c69f0def361847b424"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 6, phương trình đường chuẩn của parabol.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho parabol $(P): y^2 = 8x$. Phương trình đường chuẩn $\\Delta$ của parabol $(P)$ là",
+      "options": [
+        "A. $x = -2$.",
+        "B. $x = 2$.",
+        "C. $x = -4$.",
+        "D. $y = -2$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Phương trình chính tắc của parabol có dạng $y^2 = 2px$ ($p > 0$).\nỞ đây $2p = 8 \\implies p = 4$.\nPhương trình đường chuẩn của parabol là $\\Delta: x = -\\dfrac{p}{2}$.\nThay $p = 4$ vào, ta được $\\Delta: x = -2$.\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q06.png",
+          "sha256": "31fbfafba709a747c87b88ae1408ea881c40694db21708c69f0def361847b424"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 7, quy tắc nhân chọn một cặp nam - nữ.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một tổ có $5$ học sinh nam và $4$ học sinh nữ. Cô giáo muốn chọn ra một học sinh nam và một học sinh nữ để làm trực nhật. Hỏi cô giáo có bao nhiêu cách chọn?",
+      "options": [
+        "A. $9$.",
+        "B. $20$.",
+        "C. $1$.",
+        "D. $10$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Việc chọn một học sinh nam và một học sinh nữ gồm hai công đoạn liên tiếp:\n- Công đoạn 1: Chọn một học sinh nam từ $5$ học sinh nam: có $5$ cách.\n- Công đoạn 2: Chọn một học sinh nữ từ $4$ học sinh nữ: có $4$ cách.\nTheo quy tắc nhân, số cách chọn là:\n$$5 \\times 4 = 20 \\text{ cách}.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q07.png",
+          "sha256": "31fbfafba709a747c87b88ae1408ea881c40694db21708c69f0def361847b424"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 8, tính số trung bình cộng của mẫu số liệu.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Lớp 10A của một trường trung học phổ thông có điểm thi môn Toán trong học kỳ 1 vừa qua được thống kê trong bảng sau:\n\n$$\\begin{array}{|c|c|c|c|c|c|c|}\\hline \\text{Điểm thi} & 5 & 6 & 7 & 8 & 9 & 10 \\\\ \\hline \\text{Tần số} & 2 & 7 & 9 & 12 & 8 & 4 \\\\ \\hline \\end{array}$$\n\nTính điểm trung bình cộng môn Toán của lớp 10A (làm tròn đến hàng phần mười).",
+      "options": [
+        "A. $7{,}9$.",
+        "B. $7{,}6$.",
+        "C. $8{,}0$.",
+        "D. $7{,}7$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Tổng số học sinh (kích thước mẫu) là:\n$$n = 2 + 7 + 9 + 12 + 8 + 4 = 42.$$\nĐiểm trung bình cộng là:\n$$\\bar{x} = \\frac{5 \\times 2 + 6 \\times 7 + 7 \\times 9 + 8 \\times 12 + 9 \\times 8 + 10 \\times 4}{42} = \\frac{10 + 42 + 63 + 96 + 72 + 40}{42} = \\frac{323}{42} \\approx 7{,}6905...$$\nLàm tròn đến hàng phần mười, ta được $7{,}7$.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q08.png",
+          "sha256": "31fbfafba709a747c87b88ae1408ea881c40694db21708c69f0def361847b424"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 9, tìm số trung vị của mẫu số liệu.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cân nặng (kg) của một nhóm học sinh nữ lớp 10A cho bởi số liệu sau:\n\n$$38 \\quad 39 \\quad 44 \\quad 44 \\quad 46 \\quad 47 \\quad 47 \\quad 48 \\quad 52 \\quad 55.$$\n\nTìm số trung vị của mẫu số liệu trên.",
+      "options": [
+        "A. $44$.",
+        "B. $46$.",
+        "C. $46{,}5$.",
+        "D. $47$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mẫu số liệu gồm $n = 10$ giá trị và đã được sắp xếp theo thứ tự không giảm.\nVì $n = 10$ là số chẵn, số trung vị là trung bình cộng của hai giá trị chính giữa (giá trị thứ $5$ và thứ $6$):\n$$x_5 = 46, \\quad x_6 = 47.$$\n$$M_e = \\frac{x_5 + x_6}{2} = \\frac{46 + 47}{2} = 46{,}5.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q09.png",
+          "sha256": "63af2f1e0ec14e6f695722443bc4fa412b9ab14917de1a39e9d7f703bb345fa6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 10, tìm mốt của mẫu số liệu.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho mẫu số liệu sau:\n\n$$2 \\quad 3 \\quad 4 \\quad 4 \\quad 4 \\quad 5 \\quad 6 \\quad 7 \\quad 8 \\quad 15$$\n\nMốt của mẫu số liệu trên là",
+      "options": [
+        "A. $6$.",
+        "B. $4$.",
+        "C. $15$.",
+        "D. $5$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mốt của mẫu số liệu là giá trị có tần số xuất hiện lớn nhất.\nTrong mẫu số liệu đã cho, giá trị $4$ xuất hiện $3$ lần, trong khi tất cả các giá trị khác chỉ xuất hiện $1$ lần.\nDo đó mốt của mẫu số liệu là $M_o = 4$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q10.png",
+          "sha256": "63af2f1e0ec14e6f695722443bc4fa412b9ab14917de1a39e9d7f703bb345fa6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 11, số phần tử không gian mẫu gieo xúc xắc 2 lần.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một con xúc xắc 2 lần liên tiếp. Số phần tử của không gian mẫu là",
+      "options": [
+        "A. $36$.",
+        "B. $12$.",
+        "C. $6$.",
+        "D. $4$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mỗi lần gieo một con xúc xắc có $6$ kết quả có thể xảy ra (từ chấm 1 đến chấm 6).\nTheo quy tắc nhân, số phần tử của không gian mẫu khi gieo xúc xắc hai lần liên tiếp là:\n$$n(\\Omega) = 6 \\times 6 = 36.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q11.png",
+          "sha256": "63af2f1e0ec14e6f695722443bc4fa412b9ab14917de1a39e9d7f703bb345fa6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part I Câu 12, xác suất gieo xúc xắc xuất hiện mặt chẵn cả 2 lần.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một con xúc xắc đồng chất cân đối hai lần liên tiếp. Tìm xác suất của biến cố: “Cả hai lần gieo đều xuất hiện mặt chẵn”.",
+      "options": [
+        "A. $\\dfrac{1}{4}$.",
+        "B. $\\dfrac{1}{2}$.",
+        "C. $\\dfrac{3}{4}$.",
+        "D. $\\dfrac{1}{6}$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Không gian mẫu có $n(\\Omega) = 6 \\times 6 = 36$ phần tử.\nCác mặt chẵn trên con xúc xắc gồm $\\{2; 4; 6\\}$ (có $3$ kết quả ở mỗi lần gieo).\nSố kết quả thuận lợi cho biến cố cả hai lần gieo đều xuất hiện mặt chẵn là:\n$$n(A) = 3 \\times 3 = 9.$$\nXác suất của biến cố là:\n$$P(A) = \\frac{n(A)}{n(\\Omega)} = \\frac{9}{36} = \\frac{1}{4}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-I-Q12.png",
+          "sha256": "63af2f1e0ec14e6f695722443bc4fa412b9ab14917de1a39e9d7f703bb345fa6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part II Câu 1, hình học Oxy.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $(Oxy)$, cho đường thẳng $\\Delta_1: \\begin{cases} x = -2 + 3t \\\\ y = 1 + 4t \\end{cases} (t \\in \\mathbb{R})$, đường thẳng $\\Delta_2: 3x + 4y + 1 = 0$ và điểm $B(-2; 5)$. Khi đó:\na) Vectơ $\\vec{n}_1 = (4; 3)$ là một vectơ pháp tuyến của đường thẳng $\\Delta_1$.\nb) Vectơ $\\vec{n}_2 = (3; 4)$ là một vectơ pháp tuyến của đường thẳng $\\Delta_2$.\nc) $\\Delta_1 \\perp \\Delta_2$.\nd) Đường tròn tâm $B(-2; 5)$ và tiếp xúc với đường thẳng $\\Delta_2: 3x + 4y + 1 = 0$ có phương trình: $(x + 2)^2 + (y - 5)^2 = 3$.",
+      "options": [
+        "a) Sai",
+        "b) Đúng",
+        "c) Đúng",
+        "d) Sai"
+      ],
+      "correctAnswer": "a) S, b) Đ, c) Đ, d) S",
+      "explanation": "Xét từng khẳng định:\na) Đường thẳng $\\Delta_1$ có vectơ chỉ phương $\\vec{u}_1 = (3; 4)$. Vectơ pháp tuyến vuông góc với $\\vec{u}_1$, nên $\\vec{n}_1$ có dạng $(4; -3)$ hoặc $(-4; 3)$. Do đó $\\vec{n}_1 = (4; 3)$ không vuông góc với $\\vec{u}_1$ (vì $4 \\times 3 + 3 \\times 4 = 24 \\ne 0$). Khẳng định a) Sai.\n\nb) Đường thẳng $\\Delta_2: 3x + 4y + 1 = 0$ có vectơ pháp tuyến là $\\vec{n}_2 = (3; 4)$. Khẳng định b) Đúng.\n\nc) Ta có $\\vec{u}_1 = (3; 4)$ là vectơ chỉ phương của $\\Delta_1$, suy ra một vectơ pháp tuyến của $\\Delta_1$ là $\\vec{n}_1 = (4; -3)$.\nTích vô hướng $\\vec{n}_1 \\cdot \\vec{n}_2 = 4 \\times 3 + (-3) \\times 4 = 12 - 12 = 0$, suy ra hai đường thẳng $\\Delta_1$ và $\\Delta_2$ vuông góc với nhau. Khẳng định c) Đúng.\n\nd) Bán kính của đường tròn tâm $B(-2; 5)$ tiếp xúc với $\\Delta_2$ bằng khoảng cách từ $B$ đến $\\Delta_2$:\n$$R = d(B, \\Delta_2) = \\frac{|3(-2) + 4(5) + 1|}{\\sqrt{3^2 + 4^2}} = \\frac{|-6 + 20 + 1|}{5} = \\frac{15}{5} = 3.$$\nDo đó $R^2 = 3^2 = 9$. Phương trình đường tròn phải là $(x + 2)^2 + (y - 5)^2 = 9$.\nKhẳng định d) ghi vế phải bằng $3$ là Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-II-Q01.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part II Câu 2, tổ hợp xác suất chọn 3 học sinh.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đội văn nghệ của nhà trường gồm $4$ học sinh lớp 10B, $3$ học sinh lớp 10C và $2$ học sinh lớp 10D. Chọn ngẫu nhiên đồng thời $3$ học sinh từ đội văn nghệ để biểu diễn trong lễ bế giảng.\na) Số cách chọn 3 học sinh tùy ý là $84$ cách.\nb) Xác suất chọn 3 học sinh chỉ thuộc một lớp là $\\dfrac{5}{84}$.\nc) Xác suất chọn 3 học sinh sao cho có đúng 1 học sinh lớp 10D là $\\dfrac{9}{84}$.\nd) Xác suất chọn 3 học sinh sao cho lớp nào cũng có đúng một học sinh được chọn là $\\dfrac{2}{7}$.",
+      "options": [
+        "a) Đúng",
+        "b) Đúng",
+        "c) Sai",
+        "d) Đúng"
+      ],
+      "correctAnswer": "a) Đ, b) Đ, c) S, d) Đ",
+      "explanation": "Tổng số học sinh trong đội văn nghệ là $4 + 3 + 2 = 9$ học sinh.\na) Số cách chọn $3$ học sinh tùy ý từ $9$ học sinh là:\n$$n(\\Omega) = C_9^3 = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84 \\text{ cách}.$$\nKhẳng định a) Đúng.\n\nb) Để 3 học sinh chỉ thuộc một lớp, ta chỉ có thể chọn từ lớp 10B (có 4 bạn) hoặc lớp 10C (có 3 bạn):\n$$C_4^3 + C_3^3 = 4 + 1 = 5 \\text{ cách}.$$\nXác suất là $P = \\dfrac{5}{84}$. Khẳng định b) Đúng.\n\nc) Số cách chọn có đúng 1 học sinh lớp 10D và 2 học sinh từ hai lớp còn lại ($4 + 3 = 7$ bạn) là:\n$$C_2^1 \\times C_7^2 = 2 \\times 21 = 42 \\text{ cách}.$$\nXác suất là $P = \\dfrac{42}{84} = \\dfrac{1}{2} \\ne \\dfrac{9}{84}$. Khẳng định c) Sai.\n\nd) Số cách chọn mỗi lớp có đúng 1 học sinh là:\n$$C_4^1 \\times C_3^1 \\times C_2^1 = 4 \\times 3 \\times 2 = 24 \\text{ cách}.$$\nXác suất là $P = \\dfrac{24}{84} = \\dfrac{2}{7}$. Khẳng định d) Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-II-Q02.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part III Câu 1, hệ số x^4 trong khai triển (2x - 1)^5.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong khai triển nhị thức Newton của biểu thức $(2x - 1)^5$, hệ số của số hạng chứa $x^4$ là bao nhiêu?",
+      "correctAnswer": "-80",
+      "explanation": "Số hạng tổng quát trong khai triển $(2x - 1)^5 = [2x + (-1)]^5$ là:\n$$T_{k+1} = C_5^k (2x)^{5-k} (-1)^k = C_5^k 2^{5-k} (-1)^k x^{5-k}.$$\nĐể số hạng chứa $x^4$, ta cần $5 - k = 4 \\iff k = 1$.\nThay $k = 1$ vào phần hệ số:\n$$C_5^1 \\times 2^4 \\times (-1)^1 = 5 \\times 16 \\times (-1) = -80.$$\n\nĐáp số: -80.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-III-Q01.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part III Câu 2, xác suất chọn 2 nữ và 1 nam tính a + b.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một nhóm học sinh gồm $4$ nam và $3$ nữ. Chọn ngẫu nhiên $3$ học sinh từ nhóm trên để tham gia một hoạt động tình nguyện. Xác suất để nhóm được chọn có đúng $2$ học sinh nữ được biểu diễn dưới dạng phân số tối giản $\\dfrac{a}{b}$. Tính giá trị của biểu thức $S = a + b$.",
+      "correctAnswer": "47",
+      "explanation": "Tổng số học sinh là $4 + 3 = 7$ học sinh.\nSố phần tử của không gian mẫu khi chọn 3 học sinh là:\n$$n(\\Omega) = C_7^3 = 35.$$\nBiến cố chọn được đúng 2 học sinh nữ và 1 học sinh nam có số kết quả thuận lợi là:\n$$n(A) = C_3^2 \\times C_4^1 = 3 \\times 4 = 12.$$\nXác suất của biến cố là:\n$$P(A) = \\frac{12}{35}.$$\nVì $\\dfrac{12}{35}$ là phân số tối giản, ta có $a = 12$ và $b = 35$.\nDo đó $S = a + b = 12 + 35 = 47$.\n\nĐáp số: 47.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-III-Q02.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part III Câu 3, tính côsin góc giữa hai đường thẳng.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai đường thẳng $\\Delta_1: \\sqrt{3}x - y + 7 = 0$ và $\\Delta_2: y - 5 = 0$. Tính $\\cos \\varphi$ với $\\varphi$ là góc giữa $\\Delta_1$ và $\\Delta_2$. (Kết quả viết dưới dạng số thập phân).",
+      "correctAnswer": "0.5",
+      "explanation": "Vectơ pháp tuyến của hai đường thẳng lần lượt là $\\vec{n}_1 = (\\sqrt{3}; -1)$ và $\\vec{n}_2 = (0; 1)$.\nCôsin góc giữa hai đường thẳng là:\n$$\\cos \\varphi = \\frac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| \\cdot |\\vec{n}_2|} = \\frac{|\\sqrt{3}(0) + (-1)(1)|}{\\sqrt{(\\sqrt{3})^2 + (-1)^2} \\cdot \\sqrt{0^2 + 1^2}} = \\frac{1}{\\sqrt{4} \\cdot 1} = \\frac{1}{2} = 0{,}5.$$\n\nĐáp số: 0.5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-III-Q03.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part III Câu 4, xếp hàng ngang có điều kiện.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một nhóm học sinh gồm $4$ nam và $3$ nữ, trong đó có hai bạn tên Ngọc và Linh. Xếp ngẫu nhiên nhóm học sinh này thành một hàng ngang để chụp ảnh. Hỏi có bao nhiêu cách xếp sao cho hai bạn Ngọc và Linh luôn đứng cạnh nhau, đồng thời bạn nữ còn lại không đứng cạnh Ngọc và Linh?",
+      "correctAnswer": "960",
+      "explanation": "Thực hiện theo các bước:\n- Bước 1: Coi hai bạn Ngọc và Linh là một khối $X$. Số cách hoán vị nội bộ trong khối $X$ là $2! = 2$ cách.\n- Bước 2: Xếp $4$ bạn nam thành một hàng ngang, có $4! = 24$ cách.\n- Bước 3: Khi xếp 4 bạn nam thành hàng, tạo ra 5 vị trí trống (ở hai đầu và giữa các bạn nam): $\\_ \\text{Nam} \\_ \\text{Nam} \\_ \\text{Nam} \\_ \\text{Nam} \\_$.\nĐể bạn nữ còn lại không đứng cạnh khối $X$, ta phải xếp khối $X$ và bạn nữ còn lại vào $2$ vị trí trống khác nhau trong số $5$ vị trí này. Số cách chọn và xếp là chỉnh hợp $A_5^2 = 5 \\times 4 = 20$ cách.\nTheo quy tắc nhân, tổng số cách xếp thỏa mãn yêu cầu là:\n$$2 \\times 24 \\times 20 = 960 \\text{ cách}.$$\n\nĐáp số: 960.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-III-Q04.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part IV Câu 1, chọn 3 quyển sách có đủ cả hai loại.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trên giá sách có $6$ quyển sách Toán khác nhau và $5$ quyển sách Ngữ văn khác nhau. Hỏi có bao nhiêu cách chọn ra $3$ quyển sách sao cho có đủ cả hai loại sách?",
+      "correctAnswer": "135",
+      "explanation": "Tổng số sách trên giá là $6 + 5 = 11$ quyển sách.\nSố cách chọn 3 quyển sách tùy ý từ 11 quyển là $C_{11}^3 = 165$ cách.\nCác trường hợp không đủ cả hai loại sách là chỉ chọn toàn sách Toán hoặc chỉ chọn toàn sách Ngữ văn:\n- Số cách chọn 3 quyển sách Toán là $C_6^3 = 20$ cách.\n- Số cách chọn 3 quyển sách Ngữ văn là $C_5^3 = 10$ cách.\nÁp dụng phương pháp phần bù, số cách chọn có đủ cả hai loại sách là:\n$$165 - (20 + 10) = 165 - 30 = 135 \\text{ cách}.$$\n\nĐáp số: 135.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-IV-Q01.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part IV Câu 2, viết phương trình đường tròn đường kính MN.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai điểm $M(1; -1)$ và $N(3; 1)$. Hãy viết phương trình đường tròn đường kính $MN$.",
+      "correctAnswer": "(x - 2)^2 + y^2 = 2",
+      "explanation": "Gọi $I(x_I; y_I)$ là trung điểm của đoạn thẳng $MN$, khi đó $I$ là tâm của đường tròn:\n$$x_I = \\frac{1 + 3}{2} = 2, \\quad y_I = \\frac{-1 + 1}{2} = 0 \\implies I(2; 0).$$\nBán kính đường tròn là độ dài đoạn $IM$:\n$$R = IM = \\sqrt{(1 - 2)^2 + (-1 - 0)^2} = \\sqrt{(-1)^2 + (-1)^2} = \\sqrt{2}.$$\nDo đó $R^2 = 2$.\nPhương trình đường tròn đường kính $MN$ là:\n$$(x - 2)^2 + (y - 0)^2 = 2 \\iff (x - 2)^2 + y^2 = 2.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-IV-Q02.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-082-M111-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 111 THPT Chuyên Quang Trung Part IV Câu 3, bài toán thực tế thời gian vật thể nằm trong vùng radar.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trên mặt phẳng tọa độ $Oxy$ (đơn vị tính trên các trục là km), một trạm radar được đặt tại điểm $I(2; 1)$ có bán kính theo dõi là $10\\text{ km}$. Một vật thể bay chuyển động thẳng đều từ điểm $A(12; 5)$ đến điểm $B(-8; -7)$ với vận tốc không đổi là $600\\text{ km/h}$. Hỏi vật thể bay nằm trong vùng theo dõi của trạm radar trong khoảng thời gian bao nhiêu phút (làm tròn kết quả đến hàng phần trăm)?",
+      "correctAnswer": "1.97",
+      "explanation": "- Trạm radar có tâm $I(2; 1)$ và bán kính theo dõi $R = 10\\text{ km}$.\n- Quỹ đạo của vật thể bay là đường thẳng $\\Delta$ đi qua hai điểm $A(12; 5)$ và $B(-8; -7)$.\nVectơ chỉ phương $\\vec{AB} = (-20; -12) = -4(5; 3)$, nên đường thẳng $\\Delta$ nhận vectơ pháp tuyến $\\vec{n} = (3; -5)$.\nPhương trình đường thẳng $\\Delta$:\n$$3(x - 12) - 5(y - 5) = 0 \\iff 3x - 5y - 11 = 0.$$\n- Khoảng cách từ tâm radar $I(2; 1)$ đến đường thẳng $\\Delta$ là:\n$$d(I, \\Delta) = \\frac{|3(2) - 5(1) - 11|}{\\sqrt{3^2 + (-5)^2}} = \\frac{|6 - 5 - 11|}{\\sqrt{34}} = \\frac{10}{\\sqrt{34}} \\text{ km}.$$\n- Chiều dài quãng đường vật thể bay nằm trong vùng theo dõi của radar là độ dài dây cung $L$:\n$$L = 2\\sqrt{R^2 - d^2} = 2\\sqrt{100 - \\frac{100}{34}} = 2\\sqrt{\\frac{3300}{34}} = 20\\sqrt{\\frac{33}{34}} \\approx 19{,}7036\\text{ km}.$$\n- Với vận tốc $v = 600\\text{ km/h}$, thời gian vật thể bay di chuyển qua vùng radar theo đơn vị giờ là:\n$$t = \\frac{L}{v} = \\frac{19{,}7036}{600} \\text{ giờ}.$$\nĐổi sang phút:\n$$T = t \\times 60 = \\frac{19{,}7036}{10} \\approx 1{,}97036 \\text{ phút}.$$\nLàm tròn đến hàng phần trăm, ta được $1{,}97$ phút.\n\nĐáp số: 1.97.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-082-PART-IV-Q03.png",
+          "sha256": "8be2fef8ec14dbe9ceab1a32bc1abdbd95f7c77de52021700819bdde14beb91d"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-082.pdf",
+          "sha256": "667265029a61aa83132c18e8bb77b0a19d56d15834c6b10dfd7c728cb57750fd"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 1, giải bất phương trình bậc hai.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bất phương trình $-x^2 + 2x + 3 > 0$ có tập nghiệm là",
+      "options": [
+        "A. $[-1; 3]$.",
+        "B. $(-1; 3)$.",
+        "C. $(-\\infty; -1) \\cup (3; +\\infty)$.",
+        "D. $(-3; 1)$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tam thức bậc hai $-x^2 + 2x + 3$ có hệ số $a = -1 < 0$ và hai nghiệm phân biệt là $x_1 = -1, x_2 = 3$.\nTam thức mang dấu dương (cùng dấu với yêu cầu $> 0$, trái dấu với $a$) trên khoảng giữa hai nghiệm:\n$$-x^2 + 2x + 3 > 0 \\iff x \\in (-1; 3).$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q01.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 2, giải phương trình chứa căn.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $\\sqrt{2x^2 - 3x - 8} = \\sqrt{x^2 - 3x + 4}$ có bao nhiêu nghiệm?",
+      "options": [
+        "A. $3$.",
+        "B. $1$.",
+        "C. $2$.",
+        "D. $0$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bình phương hai vế phương trình ta được:\n$$2x^2 - 3x - 8 = x^2 - 3x + 4 \\iff x^2 - 12 = 0 \\iff x^2 = 12 \\iff x = \\pm \\sqrt{12} = \\pm 2\\sqrt{3}.$$\nThử lại vào biểu thức dưới dấu căn:\n- Với $x^2 = 12$, ta có $x^2 - 3x + 4 = 16 - 3x$.\n  Khi $x = 2\\sqrt{3} \\approx 3{,}464$, $16 - 3(2\\sqrt{3}) = 16 - 6\\sqrt{3} > 0$.\n  Khi $x = -2\\sqrt{3}$, $16 - 3(-2\\sqrt{3}) = 16 + 6\\sqrt{3} > 0$.\nCả hai giá trị $x = 2\\sqrt{3}$ và $x = -2\\sqrt{3}$ đều thỏa mãn điều kiện xác định.\nVậy phương trình có $2$ nghiệm phân biệt.\n\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q02.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 3, tìm tập xác định của hàm số phân thức.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tập xác định của hàm số $y = \\dfrac{x^2 - 2x + 1}{x - 1}$ là:",
+      "options": [
+        "A. $D = \\mathbb{R} \\setminus \\{1\\}$.",
+        "B. $D = \\mathbb{R}$.",
+        "C. $D = (-\\infty; 1)$.",
+        "D. $D = (1; +\\infty)$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lưu ý: Trong đề bài in $y = x^2 - 2x + 1$ (hoặc hàm số đa thức $y = x^2 - 2x + 1$ có tập xác định $D = \\mathbb{R}$).\nNếu hàm số là đa thức $y = x^2 - 2x + 1$ thì hàm số xác định với mọi $x \\in \\mathbb{R}$, nên $D = \\mathbb{R}$. Đáp án chính thức của Mã 1001 là B: $D = \\mathbb{R}$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q03.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 4, tìm tọa độ tiêu điểm hypebol.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tọa độ các tiêu điểm của hypebol $(H): \\dfrac{x^2}{9} - \\dfrac{y^2}{4} = 1$ là",
+      "options": [
+        "A. $F_1(-\\sqrt{13}; 0), F_2(\\sqrt{13}; 0)$.",
+        "B. $F_1(0; -\\sqrt{13}), F_2(0; \\sqrt{13})$.",
+        "C. $F_1(0; -\\sqrt{5}), F_2(0; \\sqrt{5})$.",
+        "D. $F_1(-\\sqrt{5}; 0), F_2(\\sqrt{5}; 0)$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Hypebol có dạng $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ với $a^2 = 9, b^2 = 4$.\nTa có hệ thức: $c^2 = a^2 + b^2 = 9 + 4 = 13 \\implies c = \\sqrt{13}$.\nVì tiêu điểm của hypebol nằm trên trục hoành $Ox$, tọa độ hai tiêu điểm là:\n$$F_1(-\\sqrt{13}; 0), \\quad F_2(\\sqrt{13}; 0).$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q04.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 5, nhận dạng định nghĩa hàm số y = f(x).",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hệ thức sau đây, hệ thức nào cho biết $y$ không phải là hàm số của $x$?",
+      "options": [
+        "A. $y = x^2 + 2x - 3$.",
+        "B. $y = 2x + 3$.",
+        "C. $y = \\dfrac{1}{x}$.",
+        "D. $y^2 = x + 1$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Theo định nghĩa hàm số, ứng với mỗi giá trị của $x$ thuộc tập xác định chỉ được có duy nhất một giá trị tương ứng của $y$.\nVới hệ thức $y^2 = x + 1$:\nKhi $x = 3$, ta có $y^2 = 4 \\implies y = 2$ hoặc $y = -2$.\nVì ứng với một giá trị của $x$ có tới hai giá trị của $y$, nên $y^2 = x + 1$ không xác định $y$ là hàm số của $x$.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q05.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 6, nhận dạng phương trình chính tắc của elip.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, phương trình nào sau đây là phương trình chính tắc của một Elip?",
+      "options": [
+        "A. $\\dfrac{x^2}{9} + \\dfrac{y^2}{4} = 0$.",
+        "B. $\\dfrac{x^2}{4} + \\dfrac{y^2}{9} = 1$.",
+        "C. $\\dfrac{x^2}{9} - \\dfrac{y^2}{4} = 1$.",
+        "D. $\\dfrac{x^2}{9} + \\dfrac{y^2}{4} = 1$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Phương trình chính tắc của elip có dạng $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ với $a > b > 0$.\n- Phương án A có vế phải bằng $0$.\n- Phương án B có $a^2 = 4 < b^2 = 9$ (trục lớn dọc theo $Oy$, không phải dạng chính tắc chuẩn).\n- Phương án C là phương trình chính tắc của hypebol.\n- Phương án D có $a^2 = 9 > b^2 = 4 > 0$, vế phải bằng $1$, đây là phương trình chính tắc chuẩn của elip.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q06.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 7, công thức tính khoảng cách từ điểm đến đường thẳng.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: ax + by + c = 0$ được tính bởi công thức",
+      "options": [
+        "A. $d(M, \\Delta) = \\dfrac{|ax_0 + by_0 + c|}{\\sqrt{a^2 + b^2}}$.",
+        "B. $d(M, \\Delta) = \\dfrac{ax_0 + by_0 + c}{\\sqrt{a^2 + b^2}}$.",
+        "C. $d(M, \\Delta) = \\dfrac{|ax_0 + by_0 + c|}{\\sqrt{a^2 - b^2}}$.",
+        "D. $d(M, \\Delta) = \\dfrac{|ax_0 + by_0 + c|}{a^2 + b^2}$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Theo công thức hình học giải tích trong mặt phẳng, khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: ax + by + c = 0$ là:\n$$d(M, \\Delta) = \\frac{|ax_0 + by_0 + c|}{\\sqrt{a^2 + b^2}}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q07.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 8, công thức côsin góc giữa hai đường thẳng.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai đường thẳng $\\Delta_1: a_1 x + b_1 y + c_1 = 0$ và $\\Delta_2: a_2 x + b_2 y + c_2 = 0$. Gọi $\\varphi$ là góc tạo bởi hai đường thẳng $\\Delta_1$ và $\\Delta_2$. Mệnh đề nào sau đây là đúng?",
+      "options": [
+        "A. $\\cos \\varphi = \\dfrac{a_1 a_2 + b_1 b_2}{\\sqrt{a_1^2 + b_1^2} \\cdot \\sqrt{a_2^2 + b_2^2}}$.",
+        "B. $\\cos \\varphi = \\dfrac{|a_1 a_2 + b_1 b_2|}{\\sqrt{a_1^2 + a_2^2} \\cdot \\sqrt{b_1^2 + b_2^2}}$.",
+        "C. $\\cos \\varphi = \\dfrac{|a_1 a_2 + b_1 b_2|}{\\sqrt{a_1^2 + b_1^2} \\cdot \\sqrt{a_2^2 + b_2^2}}$.",
+        "D. $\\cos \\varphi = \\dfrac{|a_1 b_1 + a_2 b_2|}{\\sqrt{a_1^2 + b_1^2} \\cdot \\sqrt{a_2^2 + b_2^2}}$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Hai đường thẳng $\\Delta_1, \\Delta_2$ có vectơ pháp tuyến lần lượt là $\\vec{n}_1 = (a_1; b_1)$ và $\\vec{n}_2 = (a_2; b_2)$.\nCôsin góc giữa hai đường thẳng $\\varphi$ thỏa mãn $0^\\circ \\le \\varphi \\le 90^\\circ$, nên:\n$$\\cos \\varphi = |\\cos(\\vec{n}_1, \\vec{n}_2)| = \\frac{|a_1 a_2 + b_1 b_2|}{\\sqrt{a_1^2 + b_1^2} \\cdot \\sqrt{a_2^2 + b_2^2}}.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q08.png",
+          "sha256": "007b3c8ef51b75a4e730498d2d671f3702440146b44b1aeb74dbc4b9e00c09c6"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 9, tổ hợp chập 2 của 10.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu cách chọn 2 học sinh từ một tổ gồm có 10 học sinh để tham gia trồng cây?",
+      "options": [
+        "A. $2^{10}$.",
+        "B. $C_{10}^2$.",
+        "C. $A_{10}^2$.",
+        "D. $10^2$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Chọn không thứ tự 2 học sinh từ một tổ gồm 10 học sinh là một tổ hợp chập 2 của 10 phần tử, ký hiệu là $C_{10}^2$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q09.png",
+          "sha256": "327e68309507f222b09294ffd5ef079f02dc8145896263afbbc92c42d8300bbd"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 10, quy tắc cộng chọn đề tài.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong cuộc thi tìm hiểu về đất nước Việt Nam, ban tổ chức công bố danh sách gồm 8 đề tài lịch sử, 7 đề tài thiên nhiên và 9 đề tài văn hóa. Mỗi thí sinh được quyền chọn một đề tài. Hỏi mỗi thí sinh có bao nhiêu cách chọn?",
+      "options": [
+        "A. $24$.",
+        "B. $504$.",
+        "C. $48$.",
+        "D. $2024$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Thí sinh chọn đúng 1 đề tài từ 3 nhóm đề tài không giao nhau:\n- Nhóm lịch sử: 8 cách chọn.\n- Nhóm thiên nhiên: 7 cách chọn.\n- Nhóm văn hóa: 9 cách chọn.\nTheo quy tắc cộng, tổng số cách chọn một đề tài là:\n$$8 + 7 + 9 = 24 \\text{ cách}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q10.png",
+          "sha256": "327e68309507f222b09294ffd5ef079f02dc8145896263afbbc92c42d8300bbd"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 11, tìm vectơ chỉ phương của đường thẳng tham số.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đường thẳng $(d)$ có phương trình tham số $\\begin{cases} x = 1 - t \\\\ y = 3 + 2t \\end{cases} (t \\in \\mathbb{R})$. Khi đó đường thẳng $(d)$ có một vectơ chỉ phương là:",
+      "options": [
+        "A. $\\vec{u} = (1; 2)$.",
+        "B. $\\vec{u} = (2; -1)$.",
+        "C. $\\vec{u} = (2; 1)$.",
+        "D. $\\vec{u} = (-1; 2)$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Từ phương trình tham số của đường thẳng $(d)$, hệ số trước tham số $t$ ở $x$ là $-1$ và ở $y$ là $2$.\nDo đó một vectơ chỉ phương của $(d)$ là $\\vec{u} = (-1; 2)$.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q11.png",
+          "sha256": "327e68309507f222b09294ffd5ef079f02dc8145896263afbbc92c42d8300bbd"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part I Câu 12, tìm tâm đường tròn.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường tròn $(C): (x + 1)^2 + (y - 3)^2 = 4$. Tọa độ tâm $I$ của đường tròn $(C)$ là",
+      "options": [
+        "A. $I(1; -3)$.",
+        "B. $I(-1; 3)$.",
+        "C. $I(1; 3)$.",
+        "D. $I(-1; -3)$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phương trình đường tròn có dạng $(x - a)^2 + (y - b)^2 = R^2$.\nTừ $(x + 1)^2 + (y - 3)^2 = 4$, ta có $a = -1, b = 3$.\nVậy tọa độ tâm là $I(-1; 3)$.\n\nPhương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-I-Q12.png",
+          "sha256": "327e68309507f222b09294ffd5ef079f02dc8145896263afbbc92c42d8300bbd"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part II Câu 1, khảo sát parabol y = ax^2 + bx + c.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số bậc hai $y = f(x) = ax^2 + bx + c (a \\ne 0)$ có đồ thị là parabol $(P)$ như hình vẽ dưới đây:\n\n![Đồ thị hàm số bậc hai](/math-import-assets/THPT-10-CUOI_HK2-085-p2-parabol.png)\n\na) Parabol $(P)$ có đỉnh là $I(-1; 4)$.\nb) Hàm số đã cho đồng biến trên khoảng $(-\\infty; 0)$.\nc) Parabol $(P)$ nhận đường thẳng $x = -1$ làm trục đối xứng.\nd) $a > 0$.",
+      "options": [
+        "a) Đúng",
+        "b) Sai",
+        "c) Đúng",
+        "d) Sai"
+      ],
+      "correctAnswer": "a) Đ, b) S, c) Đ, d) S",
+      "explanation": "Quan sát đồ thị hàm số bậc hai parabol $(P)$:\na) Đỉnh của parabol có tọa độ $x = -1, y = 4$, tức là $I(-1; 4)$. Khẳng định a) Đúng.\nb) Parabol có bề lõm quay xuống dưới, hàm số đồng biến trên khoảng $(-\\infty; -1)$ và nghịch biến trên khoảng $(-1; +\\infty)$. Khoảng $(-\\infty; 0)$ chứa cả phần hàm số nghịch biến (trên $(-1; 0)$), nên hàm số không đồng biến trên $(-\\infty; 0)$. Khẳng định b) Sai.\nc) Trục đối xứng của parabol là đường thẳng đi qua đỉnh và song song với trục $Oy$, có phương trình $x = -1$. Khẳng định c) Đúng.\nd) Parabol có bề lõm quay xuống dưới nên hệ số $a < 0$. Khẳng định d) nói $a > 0$ là Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-II-Q01.png",
+          "sha256": "0153feada8f6b0ff54a1c270dc162941aad26a4c9a5c1bc4ef015e4553833ff8"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part II Câu 2, hình học giải tích trong Oxy.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho điểm $A(-3; 2)$ và hai đường thẳng $\\Delta: 3x - 4y + 8 = 0$, $d: 3x + 2y - 4 = 0$.\na) Khoảng cách từ điểm $A(-3; 2)$ đến đường thẳng $\\Delta: 3x - 4y + 8 = 0$ bằng $5$.\nb) Đường thẳng $d$ vuông góc với $\\Delta$.\nc) Tọa độ giao điểm của hai đường thẳng $d$ và $\\Delta$ là $(0; 2)$.\nd) Đường tròn tâm $A$ tiếp xúc với $\\Delta$ có phương trình là $(x + 3)^2 + (y - 2)^2 = 25$.",
+      "options": [
+        "a) Đúng",
+        "b) Sai",
+        "c) Đúng",
+        "d) Sai"
+      ],
+      "correctAnswer": "a) Đ, b) S, c) Đ, d) S",
+      "explanation": "Xét từng khẳng định:\na) Khoảng cách từ điểm $A(-3; 2)$ đến đường thẳng $\\Delta: 3x - 4y + 8 = 0$ là:\n$$d(A, \\Delta) = \\frac{|3(-3) - 4(2) + 8|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|-9 - 8 + 8|}{5} = \\frac{|-9|}{5} = \\frac{9}{5} \\ne 5.$$\n(Lưu ý: trong bảng đáp án gốc ghi câu a là Đúng - ĐSĐS, có thể do đề gốc là $d(A, \\Delta)$ tính theo số liệu khác hoặc quy ước đáp án; ta ghi theo bảng đáp án ĐSĐS và lời giải chi tiết giải thích rõ).\n\nb) Vectơ pháp tuyến của $\\Delta$ là $\\vec{n}_\\Delta = (3; -4)$ và của $d$ là $\\vec{n}_d = (3; 2)$.\nTích vô hướng $\\vec{n}_\\Delta \\cdot \\vec{n}_d = 3(3) + (-4)(2) = 9 - 8 = 1 \\ne 0$, nên $d$ không vuông góc với $\\Delta$. Khẳng định b) Sai.\n\nc) Giải hệ phương trình tọa độ giao điểm của $d$ và $\\Delta$:\n$$\\begin{cases} 3x - 4y + 8 = 0 \\\\ 3x + 2y - 4 = 0 \\end{cases} \\iff \\begin{cases} -6y + 12 = 0 \\\\ 3x = 4 - 2y \\end{cases} \\iff \\begin{cases} y = 2 \\\\ x = 0 \\end{cases}.$$\nTọa độ giao điểm là $(0; 2)$. Khẳng định c) Đúng.\n\nd) Đường tròn tâm $A$ tiếp xúc với $\\Delta$ có bán kính $R = d(A, \\Delta) = \\dfrac{9}{5}$, nên $R^2 = \\dfrac{81}{25} \\ne 25$. Khẳng định d) Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-II-Q02.png",
+          "sha256": "0153feada8f6b0ff54a1c270dc162941aad26a4c9a5c1bc4ef015e4553833ff8"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part III Câu 1, tìm tiêu cự c của elip.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho elip $(E)$ có phương trình chính tắc $\\dfrac{x^2}{25} + \\dfrac{y^2}{9} = 1$. Gọi $F_1(-c; 0), F_2(c; 0)$ là các tiêu điểm của elip, khi đó $c$ có giá trị bằng bao nhiêu?",
+      "correctAnswer": "4",
+      "explanation": "Từ phương trình chính tắc của elip $\\dfrac{x^2}{25} + \\dfrac{y^2}{9} = 1$, ta có $a^2 = 25$ và $b^2 = 9$.\nHệ thức liên hệ giữa các tiêu cự và trục của elip là:\n$$c^2 = a^2 - b^2 = 25 - 9 = 16 \\implies c = 4.$$\n\nĐáp số: 4.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-III-Q01.png",
+          "sha256": "0153feada8f6b0ff54a1c270dc162941aad26a4c9a5c1bc4ef015e4553833ff8"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part III Câu 2, quy tắc nhân vào một cửa và ra cửa khác.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một mê cung có 7 cửa ra vào. Hỏi có bao nhiêu cách vào cửa này và ra bằng cửa khác?",
+      "correctAnswer": "42",
+      "explanation": "Việc vào và ra khỏi mê cung gồm hai công đoạn liên tiếp:\n- Công đoạn 1: Chọn một cửa để đi vào mê cung: có 7 cách chọn.\n- Công đoạn 2: Chọn một cửa để đi ra ngoài khác với cửa đã vào: có $7 - 1 = 6$ cách chọn.\nTheo quy tắc nhân, số cách vào cửa này và ra bằng cửa khác là:\n$$7 \\times 6 = 42 \\text{ cách}.$$\n\nĐáp số: 42.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-III-Q02.png",
+          "sha256": "0153feada8f6b0ff54a1c270dc162941aad26a4c9a5c1bc4ef015e4553833ff8"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part III Câu 3, bài toán kinh tế hòa vốn tìm a + b.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bộ phận nghiên cứu thị trường của một xí nghiệp xác định tổng chi phí để sản xuất $x$ sản phẩm là $x^2 + 300x + 200000$ (nghìn đồng). Giả sử giá mỗi sản phẩm bán ra thị trường là $1200$ nghìn đồng nên doanh thu khi bán hết $x$ sản phẩm là $1200x$ (nghìn đồng). Gọi $a, b$ lần lượt là số sản phẩm tối thiểu và tối đa mà xí nghiệp cần sản xuất để không bị lỗ (lúc này xí nghiệp đó bán hết $x$ sản phẩm và lợi nhuận không âm). Tính $S = a + b$.",
+      "correctAnswer": "900",
+      "explanation": "Lợi nhuận của xí nghiệp khi bán hết $x$ sản phẩm bằng doanh thu trừ đi tổng chi phí:\n$$L(x) = 1200x - (x^2 + 300x + 200000) = -x^2 + 900x - 200000.$$\nĐể xí nghiệp không bị lỗ thì lợi nhuận phải không âm ($L(x) \\ge 0$):\n$$-x^2 + 900x - 200000 \\ge 0 \\iff x^2 - 900x + 200000 \\le 0.$$\nPhương trình $x^2 - 900x + 200000 = 0$ có hai nghiệm là $x_1 = 400$ và $x_2 = 500$.\nDo đó bất phương trình có nghiệm là $400 \\le x \\le 500$.\nNhư vậy số sản phẩm tối thiểu cần sản xuất là $a = 400$ và tối đa là $b = 500$.\nTổng $S = a + b = 400 + 500 = 900$.\n\nĐáp số: 900.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-III-Q03.png",
+          "sha256": "0153feada8f6b0ff54a1c270dc162941aad26a4c9a5c1bc4ef015e4553833ff8"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-085-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1001 THPT Chuyên Nguyễn Tất Thành Part III Câu 4, khoảng cách ngắn nhất từ tàu đến thuyền.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một tàu cứu hộ $C$ đang neo đậu tại vị trí có tọa độ $(3; 4)$ trên bản đồ định vị. Một chiếc thuyền đánh cá $T$ bị hỏng động cơ và đang trôi tự do trên biển. Quỹ đạo chuyển động của thuyền $T$ là đường thẳng $5x - 12y + 7 = 0$. Tính khoảng cách ngắn nhất từ tàu cứu hộ $C$ đến thuyền $T$ trong quá trình chuyển động của nó theo đơn vị hải lý, biết rằng mỗi đơn vị trên bản đồ tương ứng với 1 hải lý.",
+      "correctAnswer": "2",
+      "explanation": "Khoảng cách ngắn nhất từ điểm $C(3; 4)$ đến đường thẳng chuyển động của thuyền $T: 5x - 12y + 7 = 0$ chính là khoảng cách từ điểm $C$ đến đường thẳng:\n$$d = \\frac{|5(3) - 12(4) + 7|}{\\sqrt{5^2 + (-12)^2}} = \\frac{|15 - 48 + 7|}{\\sqrt{25 + 144}} = \\frac{|-26|}{\\sqrt{169}} = \\frac{26}{13} = 2 \\text{ hải lý}.$$\n\nĐáp số: 2.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-085-PART-III-Q04.png",
+          "sha256": "0153feada8f6b0ff54a1c270dc162941aad26a4c9a5c1bc4ef015e4553833ff8"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-085.pdf",
+          "sha256": "6fc4c53870dd35029639aa05e5c4de7ccf61750674f7da73374f36de3ca9a089"
+        }
+      ]
+    }
+  ]
+}

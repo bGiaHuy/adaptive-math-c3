@@ -39,6 +39,65 @@ const matches = (q: any, slot: typeof DIAGNOSTIC_BLUEPRINT[number], requireTopic
   q.cognitiveLevel === slot.cognitiveLevel && q.difficulty === slot.difficulty;
 const rank = (seed: string, slot: number, id: string) => createHash('sha256').update(JSON.stringify([seed, slot, id])).digest('hex');
 
+export const THPT_DIAGNOSTIC_BLUEPRINT_VERSION = 'thpt-entry-matrix-v1';
+type ThptCell = { questionType: string; cognitiveLevel: string; difficulty: string; count: number };
+const cell = (questionType: string, cognitiveLevel: string, difficulty: string, count: number): ThptCell => ({ questionType, cognitiveLevel, difficulty, count });
+// Fixed project matrices based on the independently reviewed bank. They are not
+// national exam matrices and must never be recalculated from the candidate pool.
+export const THPT_DIAGNOSTIC_MATRICES: Readonly<Record<number, readonly ThptCell[]>> = {
+  10: [cell('SINGLE_CHOICE', 'UNDERSTANDING', 'EASY', 4), cell('SINGLE_CHOICE', 'UNDERSTANDING', 'MEDIUM', 8),
+    cell('TRUE_FALSE', 'UNDERSTANDING', 'MEDIUM', 2), cell('SHORT_ANSWER', 'UNDERSTANDING', 'MEDIUM', 1), cell('SHORT_ANSWER', 'APPLYING', 'MEDIUM', 2), cell('SHORT_ANSWER', 'APPLYING', 'HARD', 1)],
+  11: [cell('SINGLE_CHOICE', 'UNDERSTANDING', 'EASY', 4), cell('SINGLE_CHOICE', 'UNDERSTANDING', 'MEDIUM', 8),
+    cell('TRUE_FALSE', 'UNDERSTANDING', 'MEDIUM', 2), cell('SHORT_ANSWER', 'APPLYING', 'MEDIUM', 4)],
+  12: [cell('SINGLE_CHOICE', 'UNDERSTANDING', 'MEDIUM', 12), cell('TRUE_FALSE', 'UNDERSTANDING', 'MEDIUM', 2),
+    cell('SHORT_ANSWER', 'APPLYING', 'MEDIUM', 3), cell('SHORT_ANSWER', 'APPLYING', 'HARD', 1)]
+};
+
+// The seed is the newly created attempt UUID: different attempts draw randomly,
+// while persisted questionIds keep reload/resume independent of bank changes.
+export function selectThptDiagnostic(pool: any[], seed: string, grade: number): string[] {
+  const plan = planThptDiagnostic(pool, seed, grade);
+  if (plan.shortages.length) {
+    const slot = plan.shortages[0];
+    throw new BadRequestException({ code: 'DIAGNOSTIC_BANK_INSUFFICIENT', blueprintVersion: THPT_DIAGNOSTIC_BLUEPRINT_VERSION,
+      grade, ...slot, required: slot.count, available: slot.available,
+      message: `Kho lớp ${grade} chưa đủ câu không trùng nội dung cho ô ma trận ${slot.questionType} / ${slot.cognitiveLevel} / ${slot.difficulty}. Không thay thế bằng mức khác.` });
+  }
+  return plan.questionIds;
+}
+
+export function planThptDiagnostic(pool: any[], seed: string, grade: number) {
+  if (![10, 11, 12].includes(grade)) throw new BadRequestException('Hãy chọn lớp 10, 11 hoặc 12 trong hồ sơ.');
+  const slots = THPT_DIAGNOSTIC_MATRICES[grade].flatMap(c => Array.from({ length: c.count }, () => c));
+  const candidates = slots.map((slot, index) => pool.filter(q => q.skill?.grade === grade && q.questionType === slot.questionType
+    && q.cognitiveLevel === slot.cognitiveLevel && q.difficulty === slot.difficulty && q.source?.classification?.status !== 'NEEDS_REVIEW')
+    .sort((a, b) => rank(seed, index, a.id).localeCompare(rank(seed, index, b.id)) || a.id.localeCompare(b.id)));
+  const owner = new Map<string, number>(), selected = new Map<number, any>();
+  // Match slots to distinct content, allowing reassignment when duplicate source
+  // content spans several cells. A greedy draw can falsely report a shortage.
+  const assign = (index: number, visited: Set<string>): boolean => {
+    for (const q of candidates[index]) {
+      const key = contentKey(q);
+      if (visited.has(key)) continue;
+      visited.add(key);
+      const previous = owner.get(key);
+      if (previous === undefined || assign(previous, visited)) {
+        owner.set(key, index); selected.set(index, q); return true;
+      }
+    }
+    return false;
+  };
+  for (const index of slots.map((_, index) => index).sort((a, b) => candidates[a].length - candidates[b].length || a - b)) {
+    assign(index, new Set());
+  }
+  const shortages = THPT_DIAGNOSTIC_MATRICES[grade].flatMap(cell => {
+    const indices = slots.flatMap((slot, index) => slot === cell ? [index] : []);
+    const missing = indices.filter(index => !selected.has(index)).length;
+    return missing ? [{ ...cell, missing, available: new Set(candidates[indices[0]].map(contentKey)).size }] : [];
+  });
+  return { questionIds: slots.flatMap((_, index) => selected.has(index) ? [selected.get(index).id] : []), shortages };
+}
+
 export function selectBlueprintPaper(pool: any[], seed: string, requireTopics = true) {
   const usedIds = new Set<string>(), usedContents = new Set<string>();
   const ids: string[] = [], shortages: any[] = [];

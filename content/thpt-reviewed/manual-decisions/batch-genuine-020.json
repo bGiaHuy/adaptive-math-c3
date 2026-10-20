@@ -1,0 +1,478 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Điểm $E(-1; 3)$ thuộc miền nghiệm của hệ bất phương trình nào sau đây?",
+      "explanation": "Thay tọa độ $x = -1, y = 3$ vào các hệ bất phương trình:\n- Với đáp án A:\n$$\\begin{cases} -1 - 3 = -4 < 0 \\\\ 2(-1) + 3 - 1 = 0 \\ge 0 \\end{cases}$$ (thỏa mãn cả hai bất phương trình).\n- Với đáp án B: $-(-1) + 2(3) = 7 > 0$ (không thỏa mãn).\n- Với đáp án C: $2(-1) + 3 - 1 = 0$ không thỏa mãn dấu $< 0$.\n- Với đáp án D: $4(-1) + 3 + 1 = 0$ không thỏa mãn dấu $> 0$.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-1.png",
+          "sha256": "52b4aaf23e2e6c84f6938b6e9e32ed344c3af5da48db2221bc48e4371a3dee33"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho các mệnh đề sau:\n$P$: $\\vec{0}$ là vectơ có độ dài bằng $0$.\n$Q$: $\\vec{0}$ cùng phương với mọi vectơ.\n$R$: Hai vectơ cùng phương và cùng độ dài thì bằng nhau.\n$S$: Vectơ là một đoạn thẳng có hướng.\n\nSố mệnh đề đúng là?",
+      "explanation": "Xét từng mệnh đề:\n- $P$ đúng: theo định nghĩa, vectơ-không có điểm đầu và điểm cuối trùng nhau nên có độ dài bằng $0$.\n- $Q$ đúng: quy ước vectơ $\\vec{0}$ cùng phương, cùng hướng với mọi vectơ.\n- $R$ sai: hai vectơ bằng nhau khi và chỉ khi chúng cùng hướng và cùng độ dài. Nếu hai vectơ cùng phương, cùng độ dài nhưng ngược hướng thì chúng là hai vectơ đối nhau, không bằng nhau.\n- $S$ đúng: định nghĩa vectơ là một đoạn thẳng có hướng.\nVậy có 3 mệnh đề đúng ($P, Q, S$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-1.png",
+          "sha256": "52b4aaf23e2e6c84f6938b6e9e32ed344c3af5da48db2221bc48e4371a3dee33"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Trong các đẳng thức sau, đẳng thức nào đúng?",
+      "explanation": "Theo công thức giá trị lượng giác của hai góc bù nhau, với mọi góc $\\alpha$ ta có:\n$$\\sin(180^\\circ - \\alpha) = \\sin\\alpha.$$\nDo đó đẳng thức ở đáp án D là đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-1.png",
+          "sha256": "52b4aaf23e2e6c84f6938b6e9e32ed344c3af5da48db2221bc48e4371a3dee33"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Trong thống kê, khoảng biến thiên của một mẫu số liệu được xác định bằng công thức nào sau đây?",
+      "explanation": "Khoảng biến thiên của mẫu số liệu kí hiệu là $R$, là hiệu số giữa giá trị lớn nhất và giá trị nhỏ nhất của mẫu số liệu đó: $R = x_{\\max} - x_{\\min}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-1.png",
+          "sha256": "52b4aaf23e2e6c84f6938b6e9e32ed344c3af5da48db2221bc48e4371a3dee33"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Trong thống kê, khoảng tứ phân vị của một mẫu số liệu được xác định bằng công thức nào sau đây?",
+      "explanation": "Khoảng tứ phân vị của mẫu số liệu kí hiệu là $\\Delta_Q$, là hiệu giữa tứ phân vị thứ ba $Q_3$ và tứ phân vị thứ nhất $Q_1$:\n$$\\Delta_Q = Q_3 - Q_1.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-1.png",
+          "sha256": "52b4aaf23e2e6c84f6938b6e9e32ed344c3af5da48db2221bc48e4371a3dee33"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề nào sau đây sai?",
+      "explanation": "Hai vectơ cùng phương khi giá của chúng song song hoặc trùng nhau. Khi đó chúng có thể cùng hướng hoặc ngược hướng nhau. Do đó khẳng định \"Hai vectơ cùng phương thì chúng cùng hướng\" là sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{1; 3; 5\\}$, $B = \\{2; 4; 6\\}$, $C = \\{1; 2; 3; 4; 5; 6\\}$. Chọn khẳng định sai?",
+      "explanation": "Hai tập hợp $A$ và $B$ không có phần tử chung, nên giao của chúng là tập hợp rỗng: $A \\cap B = \\emptyset$. Khẳng định $A \\cap B = 0$ là sai vì $0$ là một số (hoặc phần tử), không phải tập hợp rỗng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Một hình chữ nhật có diện tích $S = 180{,}57\\text{ cm}^2 \\pm 0{,}6\\text{ cm}^2$. Tính sai số tương đối của phép đo trên?",
+      "explanation": "Số gần đúng $a = 180{,}57$ với độ chính xác $d = 0{,}6$. Sai số tương đối của phép đo là:\n$$\\delta_S \\le \\dfrac{d}{|a|} = \\dfrac{0{,}6}{180{,}57} \\approx 0{,}0033228... \\approx 0{,}33\\%.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho số gần đúng $a = 12{,}4567$ với độ chính xác $d = 0{,}01$. Hãy xác định số quy tròn của $a$.",
+      "explanation": "Độ chính xác $d = 0{,}01$ ở hàng phần trăm ($10^{-2}$). Vì vậy ta quy tròn số $a$ đến hàng phần chục ($10^{-1}$), là hàng liền trước hàng chứa độ chính xác:\nChữ số ở hàng phần chục là 4, chữ số kế tiếp là 5 (thỏa mãn $\\ge 5$), do đó ta làm tròn tăng thêm 1 đơn vị lên thành $12{,}5$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho mệnh đề $P\\colon$ \"$\\exists x \\in \\mathbb{R},\\, x^2 - 3x + 2 < 0$\". Mệnh đề phủ định của mệnh đề $P$ là",
+      "explanation": "Phủ định của lượng từ tồn tại $\\exists$ là lượng từ với mọi $\\forall$, phủ định của bất đẳng thức $x^2 - 3x + 2 < 0$ là $x^2 - 3x + 2 \\ge 0$.\nVậy mệnh đề phủ định là $\\overline{P}\\colon$ \"$\\forall x \\in \\mathbb{R},\\, x^2 - 3x + 2 \\ge 0$\".",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Điểm $A(4; 1)$ là một nghiệm của bất phương trình nào sau đây?",
+      "explanation": "Thay tọa độ $x = 4, y = 1$ vào từng bất phương trình:\n- Đáp án A: $2(4) + 3(1) = 11 < 11$ (sai).\n- Đáp án B: $3(4) - 5(1) = 7 > 7$ (sai).\n- Đáp án C: $2(4) - 3(1) + 1 = 6 \\le 0$ (sai).\n- Đáp án D: $3(4) - 5(1) = 7 \\le 7$ (đúng).\nDo đó $A(4; 1)$ là nghiệm của bất phương trình ở đáp án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho $A, B$ là hai tập hợp bất kì khác tập rỗng, được biểu diễn theo biểu đồ Ven sau. Phần gạch sọc trong hình vẽ là tập hợp nào sau đây?\n\n![Biểu đồ Ven minh họa phần giao của hai tập hợp](/math-import-assets/thpt-figure-030-p2-q12-venn.png)",
+      "explanation": "Phần gạch sọc gồm các phần tử vừa thuộc tập hợp $A$ vừa thuộc tập hợp $B$. Đây chính là giao của hai tập hợp, kí hiệu là $A \\cap B$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-9.png",
+          "sha256": "187eb45e53b6e4591a3acdb4d9365dba9d53e97b5e9cb3b2a1a096f40f74bf1b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Mẫu số liệu sau ghi rõ số bàn thắng của hai đội tuyển Việt Nam và Thái Lan trong một năm dương lịch khi thi đấu với các đội bóng khác ở khu vực.\nSố bàn thắng đội tuyển Việt Nam: $4\\quad 3\\quad 2\\quad 1\\quad 6\\quad 2\\quad 3\\quad 3\\quad 2\\quad 2\\quad 3\\quad 5$.\nSố bàn thắng đội tuyển Thái Lan: $6\\quad 8\\quad 0\\quad 0\\quad 3\\quad 4\\quad 3\\quad 2\\quad 3\\quad 1\\quad 1\\quad 5$.\n\nKhi đó:",
+      "explanation": "Phân tích các khẳng định:\n- a) Số bàn thắng lớn nhất của Việt Nam là 6, nhỏ nhất là 1. Khoảng biến thiên $R = 6 - 1 = 5$. Do đó mệnh đề a ĐÚNG.\n- b) Tính phương sai của hai đội:\nSố bàn thắng trung bình của Việt Nam: $\\bar{x}_1 = \\dfrac{4+3+2+1+6+2+3+3+2+2+3+5}{12} = \\dfrac{36}{12} = 3$.\nPhương sai của Việt Nam: $s_1^2 = \\dfrac{1}{12}[(4-3)^2 + 4(2-3)^2 + (1-3)^2 + (6-3)^2 + 4(3-3)^2 + (5-3)^2] = \\dfrac{22}{12} \\approx 1{,}833$.\nSố bàn thắng trung bình của Thái Lan: $\\bar{x}_2 = \\dfrac{6+8+0+0+3+4+3+2+3+1+1+5}{12} = \\dfrac{36}{12} = 3$.\nPhương sai của Thái Lan: $s_2^2 = \\dfrac{1}{12}[2(0-3)^2 + 2(1-3)^2 + (2-3)^2 + 3(3-3)^2 + (4-3)^2 + (5-3)^2 + (6-3)^2 + (8-3)^2] = \\dfrac{66}{12} = 5{,}5$.\nVì $s_1^2 < s_2^2$ nên đội tuyển Việt Nam có khả năng ghi bàn ổn định hơn so với Thái Lan. Mệnh đề b SAI.\n- c) Cả hai đội tuyển đều có số bàn thắng trung bình là 3 bàn/trận, bằng nhau. Do đó mệnh đề c SAI.\n- d) Mẫu số liệu của Việt Nam có phương sai $s^2 \\approx 1{,}83$ và độ lệch chuẩn $s = \\sqrt{1{,}833} \\approx 1{,}354$. Đề bài đảo ngược hai giá trị nên mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-2.png",
+          "sha256": "61158bf0e74cde318c64d81b7c353cab9b2f739180f787c45d65b50db7b4a952"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-3.png",
+          "sha256": "e39feeae073c8c913495f1e46749175563029bc706c160b2b4f626c7234618ad"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-10.png",
+          "sha256": "88828e6ac4513d78c15b6841939454576fd031f19bb70fe4573b7c4a344f3155"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho hình chữ nhật $ABCD$ tâm $O$, $AB = a$, $AD = 2a$. Gọi $E, F$ lần lượt là trung điểm của $AD$ và $BO$. Khi đó:",
+      "explanation": "Xét hình chữ nhật $ABCD$:\n- a) Theo quy tắc hình bình hành: $\\vec{AB} + \\vec{AD} = \\vec{AC}$. Vì $O$ là trung điểm đường chéo $AC$ nên $\\vec{AC} = 2\\vec{AO}$. Do đó $\\vec{AB} + \\vec{AD} = 2\\vec{AO}$ là mệnh đề ĐÚNG.\n- b) Hai vectơ $\\vec{BC}$ và $\\vec{DA}$ cùng phương, cùng độ dài nhưng ngược hướng nhau ($\\vec{BC} = -\\vec{DA}$). Do đó $\\vec{BC} = \\vec{DA}$ là mệnh đề SAI.\n- c) Chọn hệ trục tọa độ sao cho $A(0; 0)$, tia $Ax$ chứa $B(a; 0)$, tia $Ay$ chứa $D(0; 2a)$, $C(a; 2a)$.\nTâm $O\\left(\\dfrac{a}{2}; a\\right)$.\n$E$ là trung điểm $AD \\Rightarrow E(0; a)$.\n$F$ là trung điểm $BO$ với $B(a; 0), O\\left(\\dfrac{a}{2}; a\\right) \\Rightarrow F\\left(\\dfrac{3a}{4}; \\dfrac{a}{2}\\right)$.\nKhi đó $\\vec{EF} = \\left(\\dfrac{3a}{4} - 0; \\dfrac{a}{2} - a\\right) = \\left(\\dfrac{3a}{4}; -\\dfrac{a}{2}\\right)$.\nMặt khác $-\\dfrac{1}{4}\\vec{AD} + \\dfrac{3}{4}\\vec{AB} = -\\dfrac{1}{4}(0; 2a) + \\dfrac{3}{4}(a; 0) = \\left(\\dfrac{3a}{4}; -\\dfrac{a}{2}\\right)$.\nHai vectơ này bằng nhau, do đó mệnh đề c ĐÚNG.\n- d) Ta có $\\vec{BE} = (0 - a; a - 0) = (-a; a)$, $\\vec{AC} = (a - 0; 2a - 0) = (a; 2a)$.\nTích vô hướng: $\\vec{BE} \\cdot \\vec{AC} = (-a)(a) + a(2a) = -a^2 + 2a^2 = a^2 \\ne -a^2$.\nDo đó mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-3.png",
+          "sha256": "e39feeae073c8c913495f1e46749175563029bc706c160b2b4f626c7234618ad"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-10.png",
+          "sha256": "88828e6ac4513d78c15b6841939454576fd031f19bb70fe4573b7c4a344f3155"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-11.png",
+          "sha256": "5dae407ad08bed052a269a9a9a3f4c295a945e468293d0c345c471260253b89e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Trong một cuộc đua thuyền ghe được tổ chức trên sông, có hai ghe $A$ và $B$ ở vị trí như hình vẽ. Điểm $K$ là vị trí khán giả đứng xem và quan sát thấy ghe $A$ và ghe $B$ theo các góc tạo với bờ $IK$ lần lượt là $45^\\circ$ và $60^\\circ$. Điểm $I$ là đích đến của cuộc đua. Lúc ghe $A$, ghe $B$ và đích $I$ thẳng hàng, từ điểm $I$ quan sát thấy ghe $A$ và ghe $B$ tạo với bờ một góc bằng $50^\\circ$. Khoảng cách giữa điểm $I$ và điểm $K$ là $300\\text{ m}$. Tính khoảng cách giữa hai ghe thuyền (đơn vị: mét, kết quả làm tròn đến hàng đơn vị).\n\n![Sơ đồ vị trí ghe A và ghe B trên sông](/math-import-assets/thpt-figure-030-p3-part3-q1-boats.png)",
+      "explanation": "Ba điểm $I, A, B$ thẳng hàng nằm trên đường thẳng tạo với bờ $IK$ một góc $\\widehat{BIK} = 50^\\circ$.\n- Trong $\\Delta IKB$:\nTa có $\\widehat{BIK} = 50^\\circ$, $\\widehat{BKI} = 60^\\circ$, suy ra $\\widehat{IBK} = 180^\\circ - 50^\\circ - 60^\\circ = 70^\\circ$.\nÁp dụng định lí sin:\n$$\\dfrac{IB}{\\sin 60^\\circ} = \\dfrac{IK}{\\sin 70^\\circ} \\Rightarrow IB = 300 \\cdot \\dfrac{\\sin 60^\\circ}{\\sin 70^\\circ} \\approx 276{,}481\\text{ m}.$$\n- Trong $\\Delta IKA$:\nTa có $\\widehat{AIK} = 50^\\circ$, $\\widehat{AKI} = 45^\\circ$, suy ra $\\widehat{IAK} = 180^\\circ - 50^\\circ - 45^\\circ = 85^\\circ$.\nÁp dụng định lí sin:\n$$\\dfrac{IA}{\\sin 45^\\circ} = \\dfrac{IK}{\\sin 85^\\circ} \\Rightarrow IA = 300 \\cdot \\dfrac{\\sin 45^\\circ}{\\sin 85^\\circ} \\approx 212{,}942\\text{ m}.$$\n- Khoảng cách giữa hai ghe $A$ và $B$ là:\n$$AB = IB - IA \\approx 276{,}481 - 212{,}942 = 63{,}539\\text{ m} \\approx 64\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-3.png",
+          "sha256": "e39feeae073c8c913495f1e46749175563029bc706c160b2b4f626c7234618ad"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-12.png",
+          "sha256": "84bdd5d14594d07c4a4dc15aee7e1b734384dbf8a347812b766d44b0fe36e2d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho hình vuông $ABCD$ cạnh $3\\sqrt{2}$. Tính $|\\vec{AB} + \\vec{AC} + \\vec{AD}|$.",
+      "explanation": "Vì $ABCD$ là hình vuông nên theo quy tắc hình bình hành ta có:\n$$\\vec{AB} + \\vec{AD} = \\vec{AC}.$$\nDo đó:\n$$\\vec{AB} + \\vec{AC} + \\vec{AD} = (\\vec{AB} + \\vec{AD}) + \\vec{AC} = \\vec{AC} + \\vec{AC} = 2\\vec{AC}.$$\nĐộ dài đường chéo hình vuông cạnh $3\\sqrt{2}$ là:\n$$AC = 3\\sqrt{2} \\cdot \\sqrt{2} = 6.$$\nSuy ra:\n$$|\\vec{AB} + \\vec{AC} + \\vec{AD}| = |2\\vec{AC}| = 2 \\cdot AC = 2 \\cdot 6 = 12.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-3.png",
+          "sha256": "e39feeae073c8c913495f1e46749175563029bc706c160b2b4f626c7234618ad"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-12.png",
+          "sha256": "84bdd5d14594d07c4a4dc15aee7e1b734384dbf8a347812b766d44b0fe36e2d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho hai điểm $A(2; -5)$ và $B(4; 1)$. Tọa độ trung điểm $I$ của đoạn thẳng $AB$ là $I(x; y)$. Khi đó $x + y$ có giá trị là bao nhiêu?",
+      "explanation": "Tọa độ trung điểm $I$ của đoạn thẳng $AB$ được tính bởi:\n$$x = \\dfrac{x_A + x_B}{2} = \\dfrac{2 + 4}{2} = 3,$$\n$$y = \\dfrac{y_A + y_B}{2} = \\dfrac{-5 + 1}{2} = -2.$$\nVậy $I(3; -2)$, suy ra giá trị $x + y = 3 + (-2) = 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-3.png",
+          "sha256": "e39feeae073c8c913495f1e46749175563029bc706c160b2b4f626c7234618ad"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-12.png",
+          "sha256": "84bdd5d14594d07c4a4dc15aee7e1b734384dbf8a347812b766d44b0fe36e2d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Trên mặt phẳng tọa độ $Oxy$, cho $\\vec{a} = (2; 1)$ và $\\vec{b} = (3; -6)$. Cosin góc giữa hai vectơ $\\vec{a}$ và $\\vec{b}$ bằng bao nhiêu?",
+      "explanation": "Tích vô hướng của hai vectơ là:\n$$\\vec{a} \\cdot \\vec{b} = 2 \\cdot 3 + 1 \\cdot (-6) = 6 - 6 = 0.$$\nVì tích vô hướng bằng $0$ nên hai vectơ vuông góc nhau. Do đó cosin của góc giữa hai vectơ là $\\cos(\\vec{a}, \\vec{b}) = 0$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-3.png",
+          "sha256": "e39feeae073c8c913495f1e46749175563029bc706c160b2b4f626c7234618ad"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-12.png",
+          "sha256": "84bdd5d14594d07c4a4dc15aee7e1b734384dbf8a347812b766d44b0fe36e2d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho điểm kiểm tra thường xuyên môn Toán của một nhóm gồm 11 học sinh như sau:\n$$7\\quad 8\\quad 4\\quad 6\\quad 3\\quad 7\\quad 9\\quad 8\\quad 6\\quad 10\\quad 7$$\nTìm trung vị của mẫu số liệu trên.",
+      "explanation": "Sắp xếp mẫu số liệu gồm 11 giá trị theo thứ tự không giảm:\n$$3\\quad 4\\quad 6\\quad 6\\quad 7\\quad 7\\quad 7\\quad 8\\quad 8\\quad 9\\quad 10$$\nCỡ mẫu $n = 11$ là số lẻ, do đó số trung vị $M_e$ là giá trị đứng ở chính giữa (vị trí thứ 6):\n$$M_e = 7.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-4.png",
+          "sha256": "5d4cdb408ce1b7e5ba72334166e0aaa428c232d9a04ade21680c3407b5db8c10"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-13.png",
+          "sha256": "8801a30127cd7e65f6043f82b71ab66a33fc9e383924941101c35407d708531f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $A(1; 2)$, $B(4; 5)$, $C(7; 4)$.\na) Tìm tọa độ điểm $D$ để $ABCD$ là hình bình hành.\nb) Tìm tọa độ điểm $H$ là trực tâm của tam giác $ABC$.",
+      "explanation": "a) Gọi $D(x; y)$.\nTứ giác $ABCD$ là hình bình hành khi và chỉ khi:\n$$\\vec{AB} = \\vec{DC}.$$\nTa có $\\vec{AB} = (4 - 1; 5 - 2) = (3; 3)$ và $\\vec{DC} = (7 - x; 4 - y)$.\nSuy ra:\n$$\\begin{cases} 7 - x = 3 \\\\ 4 - y = 3 \\end{cases} \\Leftrightarrow \\begin{cases} x = 4 \\\\ y = 1. \\end{cases}$$\nVậy $D(4; 1)$.\n\nb) Gọi $H(x; y)$ là trực tâm của tam giác $ABC$.\nTa có $\\vec{AH} = (x - 1; y - 2)$, $\\vec{BC} = (3; -1)$ và $\\vec{BH} = (x - 4; y - 5)$, $\\vec{AC} = (6; 2)$.\nVì $H$ là trực tâm của tam giác $ABC$ nên:\n$$\\begin{cases} \\vec{AH} \\perp \\vec{BC} \\\\ \\vec{BH} \\perp \\vec{AC} \\end{cases} \\Leftrightarrow \\begin{cases} \\vec{AH} \\cdot \\vec{BC} = 0 \\\\ \\vec{BH} \\cdot \\vec{AC} = 0 \\end{cases} \\Leftrightarrow \\begin{cases} 3(x - 1) - 1(y - 2) = 0 \\\\ 6(x - 4) + 2(y - 5) = 0 \\end{cases}$$\n$$\\Leftrightarrow \\begin{cases} 3x - y = 1 \\\\ 3x + y = 17. \\end{cases}$$\nGiải hệ phương trình ta được $x = 3, y = 8$.\nVậy trực tâm là $H(3; 8)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-4.png",
+          "sha256": "5d4cdb408ce1b7e5ba72334166e0aaa428c232d9a04ade21680c3407b5db8c10"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-13.png",
+          "sha256": "8801a30127cd7e65f6043f82b71ab66a33fc9e383924941101c35407d708531f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-030-M0101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-030.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "0101",
+      "sourceExamName": "Mã đề 0101 - THPT Trần Cao Vân",
+      "independentlyReasoned": true,
+      "content": "Hai lực tác động vào vật tại điểm $A$ được biểu diễn bởi hai vectơ như hình vẽ sau. Biết $\\vec{F}_1 = \\vec{AB}$, $\\vec{F}_2 = \\vec{AC}$, $|\\vec{F}_1| = \\sqrt{5}\\text{ N}$, $|\\vec{F}_2| = 2\\sqrt{2}\\text{ N}$. Hãy vẽ và tính độ lớn của hợp lực $\\vec{F} = \\vec{F}_1 + \\vec{F}_2$.\n\n![Hai lực tác động tại điểm A góc 120 độ](/math-import-assets/thpt-figure-030-p4-part4-q3-forces.png)",
+      "explanation": "Dựng điểm $F'$ sao cho tứ giác $ABF'C$ là hình bình hành. Khi đó theo quy tắc hình bình hành ta có hợp lực:\n$$\\vec{F} = \\vec{F}_1 + \\vec{F}_2 = \\vec{AB} + \\vec{AC} = \\vec{AF'}.$$\nVì tứ giác $ABF'C$ là hình bình hành nên góc $\\widehat{ABF'} = 180^\\circ - 120^\\circ = 60^\\circ$, và độ dài đoạn $BF' = AC = 2\\sqrt{2}\\text{ N}$.\nÁp dụng định lí côsin trong tam giác $ABF'$:\n$$AF'^2 = AB^2 + BF'^2 - 2 \\cdot AB \\cdot BF' \\cdot \\cos 60^\\circ$$\n$$AF'^2 = (\\sqrt{5})^2 + (2\\sqrt{2})^2 - 2 \\cdot \\sqrt{5} \\cdot 2\\sqrt{2} \\cdot \\dfrac{1}{2} = 5 + 8 - 2\\sqrt{10} = 13 - 2\\sqrt{10}.$$\nSuy ra độ lớn của hợp lực $\\vec{F}$ là:\n$$|\\vec{F}| = AF' = \\sqrt{13 - 2\\sqrt{10}} \\approx 2{,}58\\text{ N}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-4.png",
+          "sha256": "5d4cdb408ce1b7e5ba72334166e0aaa428c232d9a04ade21680c3407b5db8c10"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-030-page-14.png",
+          "sha256": "e4cf93f17efe4b2ba22be038bd6638e92686e08b940d7708d1c9ad2d5b284d35"
+        }
+      ]
+    }
+  ]
+}

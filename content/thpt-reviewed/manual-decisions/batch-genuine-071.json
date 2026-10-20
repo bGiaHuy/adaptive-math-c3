@@ -1,0 +1,455 @@
+{
+  "batchId": "batch-genuine-071",
+  "reviewedAt": "2026-10-20T12:00:00+07:00",
+  "reviewer": "Antigravity Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Góc có số đo $108^\\circ$ đổi ra radian là:",
+      "explanation": "Ta có công thức đổi số đo từ độ sang radian: $\\alpha = a^\\circ \\cdot \\dfrac{\\pi}{180^\\circ}$. Với $a = 108$, ta được: $\\alpha = 108 \\cdot \\dfrac{\\pi}{180} = \\dfrac{3\\pi}{5}\\text{ rad}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào dưới đây SAI?",
+      "explanation": "Theo công thức nhân đôi của cosin: $\\cos 2a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a$. Do đó khẳng định B ghi $\\cos 2a = 2\\cos a - 1$ (thiếu bình phương ở $\\cos a$) là sai. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau, hàm số nào là hàm số chẵn?",
+      "explanation": "Xét hàm số $f(x) = x \\sin x$ có tập xác định $D = \\mathbb{R}$. Với mọi $x \\in \\mathbb{R}$, ta có $-x \\in \\mathbb{R}$ và $f(-x) = (-x)\\sin(-x) = (-x)(-\\sin x) = x \\sin x = f(x)$. Do đó $y = x \\sin x$ là hàm số chẵn. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\cos x = \\dfrac{1}{2}$ là",
+      "explanation": "Ta có: $\\cos x = \\dfrac{1}{2} = \\cos \\dfrac{\\pi}{3} \\iff x = \\pm \\dfrac{\\pi}{3} + k2\\pi$ ($k \\in \\mathbb{Z}$). Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số $(u_n)$ nào sau đây là dãy số tăng?",
+      "explanation": "Xét dãy số $u_n = 2n - 3$, ta có $u_{n+1} - u_n = [2(n + 1) - 3] - (2n - 3) = 2 > 0$ với mọi $n \\ge 1$. Do đó $(u_n)$ là dãy số tăng. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng có $u_1 = -3, d = 4$. Chọn khẳng định đúng trong các khẳng định sau",
+      "explanation": "Số hạng tổng quát của cấp số cộng là $u_n = u_1 + (n - 1)d$.\n- Với $n = 3$: $u_3 = -3 + 2 \\times 4 = 5$. Khẳng định C đúng.\n- $u_2 = -3 + 4 = 1 \\ne 2$.\n- $u_4 = -3 + 3 \\times 4 = 9 \\ne 8$.\n- $u_5 = -3 + 4 \\times 4 = 13 \\ne 15$.\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$ có số hạng đầu $u_1 = \\dfrac{1}{2}$ và công bội $q = 3$. Tìm $u_5$.",
+      "explanation": "Số hạng thứ 5 của cấp số nhân là $u_5 = u_1 \\cdot q^4 = \\dfrac{1}{2} \\cdot 3^4 = \\dfrac{81}{2}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số nào dưới đây gián đoạn tại điểm $x_0 = -1$?",
+      "explanation": "Hàm phân thức $y = \\dfrac{2x - 1}{x + 1}$ có điều kiện xác định $x \\ne -1$. Do hàm số không xác định tại điểm $x_0 = -1$ nên gián đoạn tại $x_0 = -1$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p1.png",
+          "sha256": "60764d85d1fd13b68e363b48bf95ba40427ca522fc0f686ce929a51cbd498df0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$. Gọi $O$ là giao điểm của $AC$ và $BD$, $M$ là giao điểm của $AB$ và $CD$, $N$ là giao điểm của $AD$ và $BC$. Giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$ là đường thẳng",
+      "explanation": "Ta có $S \\in (SAC) \\cap (SBD)$. Mặt khác $O = AC \\cap BD$, mà $AC \\subset (SAC)$ và $BD \\subset (SBD)$ nên $O \\in (SAC) \\cap (SBD)$. Do đó giao tuyến của $(SAC)$ và $(SBD)$ là đường thẳng $SO$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p2.png",
+          "sha256": "599ea394c1511bdab95e4f95487755950ac5db101c1c48d81a162be457dab446"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$. Gọi $I, J$ lần lượt là trọng tâm các tam giác $ABC, ABD$. Đường thẳng $IJ$ song song với đường thẳng",
+      "explanation": "Gọi $E$ là trung điểm cạnh $AB$. Vì $I$ là trọng tâm $\\triangle ABC$ nên $\\dfrac{EI}{EC} = \\dfrac{1}{3}$. Vì $J$ là trọng tâm $\\triangle ABD$ nên $\\dfrac{EJ}{ED} = \\dfrac{1}{3}$. Trong tam giác $ECD$, ta có $\\dfrac{EI}{EC} = \\dfrac{EJ}{ED} = \\dfrac{1}{3}$, suy ra $IJ \\parallel CD$ theo định lý Thalès đảo. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p2.png",
+          "sha256": "599ea394c1511bdab95e4f95487755950ac5db101c1c48d81a162be457dab446"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $M, N, K$ lần lượt là trung điểm các cạnh $AB, BC, SB$. Chọn khẳng định đúng trong các khẳng định dưới đây.",
+      "explanation": "Trong tam giác $ABC$, $M, N$ lần lượt là trung điểm $AB, BC \\implies MN \\parallel AC \\subset (SAC)$. Trong tam giác $SAB$, $M, K$ lần lượt là trung điểm $AB, SB \\implies MK \\parallel SA \\subset (SAC)$. Vì $MN, MK$ là hai đường thẳng cắt nhau trong $(MNK)$ cùng song song với $(SAC)$, suy ra $(MNK) \\parallel (SAC)$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p2.png",
+          "sha256": "599ea394c1511bdab95e4f95487755950ac5db101c1c48d81a162be457dab446"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành, gọi $M$ là trung điểm của cạnh $SC$. Hình chiếu song song của điểm $M$ theo phương $AC$ lên mặt phẳng $(SAD)$ là điểm nào sau đây?",
+      "explanation": "Trong mặt phẳng $(SAC)$, đường thẳng đi qua $M$ và song song với $AC$ cắt cạnh $SA$ tại điểm $M'$. Vì $M$ là trung điểm của $SC$ nên theo tính chất đường trung bình trong tam giác $SAC$, $M'$ là trung điểm của $SA$. Vì $M' \\in SA \\subset (SAD)$, nên hình chiếu song song của $M$ theo phương $AC$ lên mặt phẳng $(SAD)$ chính là trung điểm của $SA$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p2.png",
+          "sha256": "599ea394c1511bdab95e4f95487755950ac5db101c1c48d81a162be457dab446"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $M, N$ lần lượt là trung điểm của $SA, SB$, $O$ là giao điểm của $AC$ và $BD$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét từng mệnh đề:\n- a) Đường thẳng $SC$ và $AD$ chéo nhau vì $S \\notin (ABCD)$ và $C \\notin AD$. Do đó $SC$ không cắt $AD$. Mệnh đề a SAI.\n- b) $S \\in (SAC) \\cap (SBD)$ và $O = AC \\cap BD \\in (SAC) \\cap (SBD)$, do đó giao tuyến là đường thẳng $SO$. Mệnh đề b ĐÚNG.\n- c) Trong $\\triangle SAB$, $MN$ là đường trung bình nên $MN \\parallel AB$. Mặt khác đáy $ABCD$ là hình bình hành nên $AB \\parallel CD$. Suy ra $MN \\parallel CD$. Mệnh đề c ĐÚNG.\n- d) Vì $M \\in SA \\subset (SAC)$ nên $MC \\subset (SAC)$. Vì $N \\in SB \\subset (SBD)$ nên $ND \\subset (SBD)$. Điểm $I = MC \\cap ND$ thuộc cả hai mặt phẳng $(SAC)$ và $(SBD)$, do đó $I$ nằm trên giao tuyến $SO$. Vậy ba điểm $S, I, O$ thẳng hàng. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p2.png",
+          "sha256": "599ea394c1511bdab95e4f95487755950ac5db101c1c48d81a162be457dab446"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M, N$ lần lượt là trung điểm các cạnh $AB$ và $CD$, $P$ là trung điểm cạnh $SA$. Khi đó:",
+      "explanation": "Xét từng mệnh đề:\n- a) Vì $ABCD$ là hình bình hành nên $MN \\parallel BC$. Mà $BC \\subset (SBC)$ và $MN \\not\\subset (SBC)$ nên $MN \\parallel (SBC)$. Mệnh đề a ĐÚNG.\n- b) Trong $\\triangle SAB$, $MP$ là đường trung bình $\\implies MP \\parallel SB$. Đường thẳng $SB$ cắt $(SCD)$ tại $S$, do đó $MP$ cũng cắt $(SCD)$, không song song với $(SCD)$. Mệnh đề b SAI.\n- c) Vì $MP \\subset (MNP)$ và $MP \\parallel SB$, với $SB \\not\\subset (MNP)$ nên $SB \\parallel (MNP)$, không cắt $(MNP)$. Mệnh đề c SAI.\n- d) Trong mặt phẳng đáy, $MN \\parallel AD$. Do đó mặt phẳng $(MNP)$ cắt $(SAD)$ theo giao tuyến đi qua $P$ và song song với $AD$. Giao tuyến này cắt $SD$ tại $K$, suy ra $PK \\parallel AD$. Vì $P$ là trung điểm của $SA$ nên $K$ là trung điểm của $SD$, do đó $\\dfrac{SK}{KD} = 1$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p2.png",
+          "sha256": "599ea394c1511bdab95e4f95487755950ac5db101c1c48d81a162be457dab446"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính tổng vô hạn sau đây: $S = 2 + \\dfrac{2}{3} + \\dfrac{2}{3^2} + \\ldots + \\dfrac{2}{3^n} + \\ldots$",
+      "explanation": "Dãy số $2, \\dfrac{2}{3}, \\dfrac{2}{3^2}, \\ldots, \\dfrac{2}{3^n}, \\ldots$ là một cấp số nhân lùi vô hạn với số hạng đầu $u_1 = 2$ và công bội $q = \\dfrac{1}{3}$ thỏa mãn $|q| < 1$. Tổng vô hạn là: $S = \\dfrac{u_1}{1 - q} = \\dfrac{2}{1 - \\dfrac{1}{3}} = \\dfrac{2}{\\dfrac{2}{3}} = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p3.png",
+          "sha256": "81237ace6e07b7a86f076851e8a1e1140f825cd5e22f4a9be86235a2dd60c791"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty sản xuất máy tính đã xác định được rằng, tính trung bình một nhân viên có thể lắp ráp được $N(t) = \\dfrac{50t}{t + 4}$ ($t \\ge 0$) bộ phận mỗi ngày sau $t$ ngày đào tạo. Tính $\\lim_{t \\to +\\infty} N(t)$.",
+      "explanation": "Ta có giới hạn: $\\lim_{t \\to +\\infty} N(t) = \\lim_{t \\to +\\infty} \\dfrac{50t}{t + 4} = \\lim_{t \\to +\\infty} \\dfrac{50}{1 + \\dfrac{4}{t}} = \\dfrac{50}{1 + 0} = 50$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p3.png",
+          "sha256": "81237ace6e07b7a86f076851e8a1e1140f825cd5e22f4a9be86235a2dd60c791"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hình ảnh dưới đây là kệ sách gỗ có 4 mặt kệ với thanh gỗ đứng và thanh gỗ xiên. Giá đỡ các mặt kệ xuất hiện ở các vị trí $A, B, C, D$ và $E, F, G, H$. Biết $EF = 35\\text{ cm}$ và $\\dfrac{AB}{AD} = \\dfrac{2}{5}$, các mặt kệ song song với mặt đất và không cách đều nhau. Tính độ dài đoạn $HE$ (đơn vị: cm).\n\n![Kệ sách gỗ](/math-import-assets/THPT-11-CUOI_HK1-130-M1111-PART-III-Q003-fig1.png)",
+      "explanation": "Vì các mặt kệ song song với nhau nên chúng tạo thành các mặt phẳng song song định ra trên hai đường thẳng chứa thanh đỡ dọc $d_1$ (chứa $A, B, C, D$) và thanh đỡ xiên $d_2$ (chứa $E, F, G, H$) các đoạn thẳng tương ứng tỉ lệ (định lý Thalès trong không gian):\n$$\\dfrac{AB}{AD} = \\dfrac{EF}{HE}$$\nThay số: $\\dfrac{2}{5} = \\dfrac{35}{HE} \\implies HE = \\dfrac{35 \\times 5}{2} = \\dfrac{175}{2} = 87{,}5\\text{ cm}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p3.png",
+          "sha256": "81237ace6e07b7a86f076851e8a1e1140f825cd5e22f4a9be86235a2dd60c791"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong một cuộc đua Marathon được tổ chức ở thành phố A người ta thống kê lại được như sau:\n\n| Thời gian | $[120; 140)$ | $[140; 160)$ | $[160; 180)$ | $[180; 200)$ | $[200; 220)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số người | $4$ | $6$ | $10$ | $15$ | $25$ |\n\nHãy tìm tứ phân vị thứ nhất $Q_1$ của mẫu số liệu ghép nhóm trên.",
+      "explanation": "Cỡ mẫu: $n = 4 + 6 + 10 + 15 + 25 = 60$.\nVị trí của tứ phân vị thứ nhất là $\\dfrac{n}{4} = \\dfrac{60}{4} = 15$.\nTần số tích lũy của các nhóm:\n- Nhóm $[120; 140)$ có tần số tích lũy $cf_1 = 4$.\n- Nhóm $[140; 160)$ có tần số tích lũy $cf_2 = 4 + 6 = 10$.\n- Nhóm $[160; 180)$ có tần số tích lũy $cf_3 = 10 + 10 = 20$.\nVì $cf_2 = 10 < 15 \\le 20 = cf_3$, nên nhóm chứa tứ phân vị thứ nhất là nhóm 3: $[160; 180)$.\nÁp dụng công thức tính tứ phân vị thứ nhất:\n$$Q_1 = L + \\dfrac{\\dfrac{n}{4} - cf_{p-1}}{m_p} \\cdot h = 160 + \\dfrac{15 - 10}{10} \\cdot (180 - 160) = 160 + 10 = 170$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p3.png",
+          "sha256": "81237ace6e07b7a86f076851e8a1e1140f825cd5e22f4a9be86235a2dd60c791"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy hình thang $ABCD$ ($AD \\parallel BC, AD < BC$). Tìm giao tuyến của hai mặt phẳng $(SBD)$ và $(SAC)$.",
+      "explanation": "Trong mặt phẳng đáy $(ABCD)$, vì $AD \\parallel BC$ và $AD < BC$ nên tứ giác $ABCD$ là hình thang; hai đường chéo $AC$ và $BD$ cắt nhau tại điểm $O$.\n- Ta có $S \\in (SAC) \\cap (SBD)$ nên $S$ là điểm chung thứ nhất của hai mặt phẳng.\n- Do $O \\in AC \\subset (SAC)$ và $O \\in BD \\subset (SBD)$ nên $O \\in (SAC) \\cap (SBD)$, tức $O$ là điểm chung thứ hai.\nVậy giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$ là đường thẳng $SO$: $(SAC) \\cap (SBD) = SO$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p3.png",
+          "sha256": "81237ace6e07b7a86f076851e8a1e1140f825cd5e22f4a9be86235a2dd60c791"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác $S.ABCD$. Gọi $G, K$ lần lượt là trọng tâm của các tam giác $SAB$ và $SAD$. Chứng minh rằng $GK \\parallel (SBD)$.",
+      "explanation": "Gọi $M, N$ lần lượt là trung điểm của $AB$ và $AD$.\n- Trong $\\triangle SAB$, vì $G$ là trọng tâm nên $G \\in SM$ và $\\dfrac{SG}{SM} = \\dfrac{2}{3}$.\n- Trong $\\triangle SAD$, vì $K$ là trọng tâm nên $K \\in SN$ và $\\dfrac{SK}{SN} = \\dfrac{2}{3}$.\n- Trong $\\triangle SMN$, ta có $\\dfrac{SG}{SM} = \\dfrac{SK}{SN} = \\dfrac{2}{3} \\implies GK \\parallel MN$ (định lý Thalès đảo).\n- Mặt khác, trong $\\triangle ABD$, $M, N$ lần lượt là trung điểm $AB, AD$ nên $MN$ là đường trung bình, do đó $MN \\parallel BD$.\n- Từ đó suy ra $GK \\parallel BD$.\nVì $BD \\subset (SBD)$ và $GK \\not\\subset (SBD)$, suy ra $GK \\parallel (SBD)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p3.png",
+          "sha256": "81237ace6e07b7a86f076851e8a1e1140f825cd5e22f4a9be86235a2dd60c791"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $(P)$, cho hình bình hành $ABCD$. Vẽ các tia $Bx, Cy, Dz$ song song với nhau, nằm cùng phía với mặt phẳng $(ABCD)$, đồng thời không nằm trong mặt phẳng $(ABCD)$. Một mặt phẳng đi qua $A$, cắt $Bx, Cy, Dz$ tương ứng tại $B', C', D'$ sao cho $BB' = 2, DD' = 4$. Tính $CC'$.",
+      "explanation": "Ta có mặt phẳng $(ABB') \\parallel (DCC'D')$ nên $AB' \\parallel D'C'$. Tương tự $(ADD') \\parallel (BCC'B')$ nên $AD' \\parallel B'C'$. Do đó tứ giác $AB'C'D'$ là hình bình hành.\n- Gọi $O = AC \\cap BD$ là tâm hình bình hành $ABCD$, và $O' = AC' \\cap B'D'$ là tâm hình bình hành $AB'C'D'$. Khi đó $O$ là trung điểm của $BD$ và $AC$; $O'$ là trung điểm của $B'D'$ và $AC'$.\n- Trong hình thang $BB'D'D$ (với $BB' \\parallel DD'$), đoạn nối trung điểm hai đáy là $OO'$, do đó $OO'$ là đường trung bình:\n$$OO' = \\dfrac{BB' + DD'}{2} = \\dfrac{2 + 4}{2} = 3$$\n- Trong $\\triangle ACC'$, $O$ là trung điểm $AC$ và $O'$ là trung điểm $AC'$ (với $OO' \\parallel CC'$), do đó $OO'$ là đường trung bình của tam giác $ACC'$:\n$$CC' = 2OO' = 2 \\times 3 = 6$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p3.png",
+          "sha256": "81237ace6e07b7a86f076851e8a1e1140f825cd5e22f4a9be86235a2dd60c791"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p6.png",
+          "sha256": "c05ee261360f5eda344fc1b3abc170a18613fb31a295ea61c9d815abbbbbd443"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-IV-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang, đáy lớn $AD = 3BC$. Gọi $M$ là điểm trên cạnh $AB$ thỏa $AM = 2MB$. Gọi $N$ và $P$ lần lượt là trung điểm của các cạnh $SB, SD$. Gọi $(\\alpha)$ là mặt phẳng chứa đường thẳng $BD$ và song song với $(MNP)$. Xác định giao điểm $K$ của $SC$ với $\\text{mp}(\\alpha)$ và tính tỉ số $\\dfrac{KC}{KS}$.",
+      "explanation": "Trong mặt phẳng $(ABCD)$, qua $M$ kẻ đường thẳng song song với $BD$ cắt $AD$ tại $Q$, khi đó $(MNP) \\cap (ABCD) = MQ \\parallel BD$.\n- Gọi $I = AC \\cap MQ$, $O = AC \\cap BD$, $J = NP \\cap SO$.\n- Vì mặt phẳng $(\\alpha) \\parallel (MNP)$ và chứa $BD$ nên giao tuyến của $(\\alpha)$ với $(SAC)$ là đường thẳng đi qua $O$ và song song với $IJ$: $(\\alpha) \\cap (SAC) = OK \\parallel IJ$ ($K \\in SC$).\n- Xét trong mặt phẳng $(SAC)$:\n  - Trong hình thang $ABCD$, vì $AD = 3BC$ nên $\\dfrac{OA}{OC} = \\dfrac{AD}{BC} = 3 \\implies OA = 3OC$.\n  - Vì $MQ \\parallel BD$ và $AM = 2MB \\implies \\dfrac{AI}{AO} = \\dfrac{AM}{AB} = \\dfrac{2}{3} \\implies OI = \\dfrac{1}{3}OA = OC$.\n  - Trong $\\triangle SBD$, $NP$ là đường trung bình nên $J$ là trung điểm $SO$, tức $\\dfrac{JO}{JS} = 1$.\n  - Gọi $E$ là trung điểm $AI$, ta có $KO \\parallel IJ \\parallel SE$, suy ra tỉ số:\n$$\\dfrac{KC}{KS} = \\dfrac{OC}{OE} = \\dfrac{1}{2}$$.\nVậy giao điểm $K$ chia đoạn $SC$ theo tỉ số $\\dfrac{KC}{KS} = \\dfrac{1}{2}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p4.png",
+          "sha256": "490eec083b5656fdf6999d906a6c55c00df5cdbcc63394c2e7196d3bb811b98f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p6.png",
+          "sha256": "c05ee261360f5eda344fc1b3abc170a18613fb31a295ea61c9d815abbbbbd443"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-IV-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ đáy $ABCD$ là hình vuông cạnh $a$. Trên cạnh $SB, SD$ lần lượt lấy điểm $M, N$ sao cho $SM = 2MB$ và $SN = \\dfrac{1}{3}SD$. Tính diện tích hình chiếu song song của tam giác $AMN$ lên mặt phẳng $(ABCD)$ theo phương chiếu là đường thẳng $SC$.",
+      "explanation": "Điểm $A$ thuộc $(ABCD)$ nên hình chiếu của $A$ theo phương $SC$ là chính nó ($A$).\n- Gọi $P, Q$ lần lượt là hình chiếu của $M, N$ theo phương chiếu $SC$ lên mặt phẳng $(ABCD)$ ($P \\in BC, Q \\in CD$).\n- Trong $(SBC)$, $MP \\parallel SC \\implies \\dfrac{BP}{BC} = \\dfrac{BM}{BS} = \\dfrac{1}{3} \\implies BP = \\dfrac{a}{3}, PC = \\dfrac{2a}{3}$.\n- Trong $(SCD)$, $NQ \\parallel SC \\implies \\dfrac{DQ}{DC} = \\dfrac{DN}{DS} = \\dfrac{2}{3} \\implies DQ = \\dfrac{2a}{3}, CQ = \\dfrac{a}{3}$.\n- Tam giác hình chiếu của $\\triangle AMN$ lên $(ABCD)$ là $\\triangle APQ$.\nDiện tích hình vuông $S_{ABCD} = a^2$. Ta trừ diện tích ba tam giác vuông ở các góc:\n$$S_{\\triangle ABP} = \\dfrac{1}{2} \\cdot a \\cdot \\dfrac{a}{3} = \\dfrac{a^2}{6}$$\n$$S_{\\triangle PCQ} = \\dfrac{1}{2} \\cdot \\dfrac{2a}{3} \\cdot \\dfrac{a}{3} = \\dfrac{a^2}{9}$$\n$$S_{\\triangle ADQ} = \\dfrac{1}{2} \\cdot a \\cdot \\dfrac{2a}{3} = \\dfrac{a^2}{3}$$\nVậy diện tích tam giác $APQ$ là:\n$$S_{\\triangle APQ} = a^2 - \\left(\\dfrac{a^2}{6} + \\dfrac{a^2}{9} + \\dfrac{a^2}{3}\\right) = a^2 \\left(1 - \\dfrac{11}{18}\\right) = \\dfrac{7a^2}{18}$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p4.png",
+          "sha256": "490eec083b5656fdf6999d906a6c55c00df5cdbcc63394c2e7196d3bb811b98f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p7.png",
+          "sha256": "b8de21c47a25ff200925b1edfae71d57bdd35b6d4bf13b90e1ee1f40fbd1973e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-130-M1111-PART-IV-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:\n\n![Bảng số liệu thời gian tập thể dục](/math-import-assets/THPT-11-CUOI_HK1-130-M1111-PART-IV-Q006-fig1.png)\n\n| Thời gian (phút) | $[0; 20)$ | $[20; 40)$ | $[40; 60)$ | $[60; 80)$ | $[80; 100)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | $5$ | $9$ | $12$ | $10$ | $6$ |\n\nHãy tìm mốt của mẫu số liệu trên.",
+      "explanation": "Nhóm có tần số lớn nhất là nhóm $[40; 60)$ với tần số $n_3 = 12$.\nDo đó nhóm chứa mốt là $[40; 60)$.\nTa có:\n- Đầu mút trái: $u = 40$.\n- Độ dài nhóm: $g = 60 - 40 = 20$.\n- Tần số nhóm chứa mốt: $n_3 = 12$.\n- Tần số nhóm đứng liền trước: $n_2 = 9$.\n- Tần số nhóm đứng liền sau: $n_4 = 10$.\nÁp dụng công thức mốt của mẫu số liệu ghép nhóm:\n$$M_o = u + \\dfrac{n_3 - n_2}{(n_3 - n_2) + (n_3 - n_4)} \\cdot g = 40 + \\dfrac{12 - 9}{(12 - 9) + (12 - 10)} \\cdot 20 = 40 + \\dfrac{3}{3 + 2} \\cdot 20 = 40 + 12 = 52$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p4.png",
+          "sha256": "490eec083b5656fdf6999d906a6c55c00df5cdbcc63394c2e7196d3bb811b98f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p5.png",
+          "sha256": "981f7f7d8cca1540a77a7a2bf04bc3fd9b26a63ee8e05acc07036a2a4217a780"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-130-p7.png",
+          "sha256": "b8de21c47a25ff200925b1edfae71d57bdd35b6d4bf13b90e1ee1f40fbd1973e"
+        }
+      ]
+    }
+  ]
+}

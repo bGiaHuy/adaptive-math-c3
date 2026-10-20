@@ -76,6 +76,18 @@ const pairs = [
     invalid: "import '../auth/auth.service';",
   },
   {
+    rule: 'module-dependency',
+    file: 'apps/api/src/modules/diagnostic/value.ts',
+    valid: "import '../ai/ai-budget.service';",
+    invalid: "import '../student/private';",
+  },
+  {
+    rule: 'module-public',
+    file: 'apps/api/src/modules/diagnostic/value.ts',
+    valid: "import '../ai/ai.config';",
+    invalid: "import '../ai/private';",
+  },
+  {
     rule: 'module-registration',
     file: 'apps/api/src/modules/new-feature/value.ts',
     valid: '',
@@ -120,6 +132,9 @@ const support = {
   'apps/api/src/modules/student/private.ts': 'export const value = 1;',
   'apps/api/src/modules/auth/guards/auth.guard.ts': 'export class AuthGuard {}',
   'apps/api/src/modules/auth/auth.service.ts': 'export class AuthService {}',
+  'apps/api/src/modules/ai/ai-budget.service.ts': 'export class AiBudgetService {}',
+  'apps/api/src/modules/ai/ai.config.ts': 'export const value = 1;',
+  'apps/api/src/modules/ai/private.ts': 'export const value = 1;',
   'outside.js': 'export const value = 1;',
   'packages/contracts/curriculum.js': 'exports.value = 1;',
 };

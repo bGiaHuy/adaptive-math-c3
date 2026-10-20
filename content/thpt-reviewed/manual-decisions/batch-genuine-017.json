@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-021-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-021.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Tôn Thất Tùng",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = [-3; 5]$, $B = (1; +\\infty)$. Xác định các tập hợp sau: $A \\cap B$, $A \\cup B$, $A \\setminus B$, $C_{\\mathbb{R}}A$.",
+      "explanation": "Xác định từng phép toán tập hợp:\n- Giao của hai tập hợp: các phần tử vừa thuộc $A$ vừa thuộc $B$ là\n  $$A \\cap B = [-3; 5] \\cap (1; +\\infty) = (1; 5].$$\n- Hợp của hai tập hợp: các phần tử thuộc ít nhất một trong hai tập hợp là\n  $$A \\cup B = [-3; 5] \\cup (1; +\\infty) = [-3; +\\infty).$$\n- Hiệu của hai tập hợp: các phần tử thuộc $A$ nhưng không thuộc $B$ ($x \\in [-3; 5]$ và $x \\le 1$) là\n  $$A \\setminus B = [-3; 5] \\setminus (1; +\\infty) = [-3; 1].$$\n- Phần bù của $A$ trong $\\mathbb{R}$:\n  $$C_{\\mathbb{R}}A = \\mathbb{R} \\setminus [-3; 5] = (-\\infty; -3) \\cup (5; +\\infty).$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-021-page-3.png",
+          "sha256": "27092d2b3aa0d320469b4f6bd9c407d5d15f9090c85776708e8bdf6b16b77c1b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-021-page-8.png",
+          "sha256": "004ba2e97a6d06194dc0320f3f9c8e667980ffcc974b24d26da8a2cbf851ed95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-021-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-021.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Tôn Thất Tùng",
+      "independentlyReasoned": true,
+      "content": "Để gây quỹ cho chương trình \"Xuân yêu thương\", câu lạc bộ thiện nguyện của một trường THPT tổ chức hoạt động bán hàng với hai mặt hàng là trà sữa và bánh ngọt. Thực đơn 1 có giá 40 nghìn đồng, bao gồm 2 ly trà sữa và 1 chiếc bánh ngọt. Thực đơn 2 có giá 60 nghìn đồng, gồm 3 ly trà sữa và 2 chiếc bánh ngọt. Biết rằng câu lạc bộ chỉ làm được không quá 165 ly trà sữa và 100 chiếc bánh ngọt. Gọi $x, y$ lần lượt là số thực đơn 1 và thực đơn 2 câu lạc bộ bán được.\na) Viết các bất phương trình biểu thị các điều kiện của bài toán thành một hệ bất phương trình rồi xác định miền nghiệm của hệ đó.\nb) Hỏi số tiền lớn nhất mà câu lạc bộ có thể thu được sau khi bán hết hàng là bao nhiêu nghìn đồng?",
+      "explanation": "a) Gọi $x, y$ lần lượt là số thực đơn 1 và thực đơn 2 mà câu lạc bộ bán được ($x, y \\in \\mathbb{N}$).\nTheo bài ra:\n- Tổng số ly trà sữa không quá 165: $2x + 3y \\le 165$.\n- Tổng số chiếc bánh ngọt không quá 100: $x + 2y \\le 100$.\nTa có hệ bất phương trình mô tả các điều kiện:\n$$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ 2x + 3y \\le 165 \\\\ x + 2y \\le 100 \\end{cases}$$\nMiền nghiệm của hệ là miền tứ giác $OABC$ (kể cả các cạnh biên) với:\n- $O(0; 0)$ là gốc tọa độ;\n- $A(82{,}5; 0)$ là giao điểm của đường thẳng $2x + 3y = 165$ với trục hoành $Ox$;\n- $B(30; 35)$ là giao điểm của hai đường thẳng $2x + 3y = 165$ và $x + 2y = 100$;\n- $C(0; 50)$ là giao điểm của đường thẳng $x + 2y = 100$ với trục tung $Oy$.\n\n![Miền tứ giác nghiệm OABC](/math-import-assets/thpt-figure-021-p8-part4-q2-quadrilateral.png)\n\nb) Tổng số tiền thu được từ việc bán hàng là:\n$$F(x, y) = 40x + 60y \\text{ (nghìn đồng)}$$\nXét giá trị của $F(x, y)$ tại các đỉnh của miền nghiệm tứ giác:\n- $F(O) = F(0; 0) = 0$.\n- $F(A) = F(82{,}5; 0) = 40(82{,}5) = 3300$ nghìn đồng.\n- $F(B) = F(30; 35) = 40(30) + 60(35) = 1200 + 2100 = 3300$ nghìn đồng (thỏa mãn $x, y \\in \\mathbb{N}$).\n- $F(C) = F(0; 50) = 60(50) = 3000$ nghìn đồng.\nVậy số tiền lớn nhất mà câu lạc bộ có thể thu được là 3300 nghìn đồng (đạt được khi bán 30 suất thực đơn 1 và 35 suất thực đơn 2).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-021-page-3.png",
+          "sha256": "27092d2b3aa0d320469b4f6bd9c407d5d15f9090c85776708e8bdf6b16b77c1b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-021-page-8.png",
+          "sha256": "004ba2e97a6d06194dc0320f3f9c8e667980ffcc974b24d26da8a2cbf851ed95"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-021-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-021.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101 - THPT Tôn Thất Tùng",
+      "independentlyReasoned": true,
+      "content": "Để đo khoảng cách từ một điểm $A$ trên bờ sông đến gốc cây $C$ trên cù lao giữa sông, người ta chọn một điểm $B$ cùng ở trên bờ với $A$ sao cho từ $A$ và $B$ có thể nhìn thấy điểm $C$. Người ta đo được khoảng cách $AB = 45\\text{ m}$, $\\widehat{CAB} = \\alpha = 40^\\circ$, $\\widehat{CBA} = \\beta = 60^\\circ$.\n\n![Sơ đồ đo khoảng cách qua sông](/math-import-assets/thpt-figure-021-p3-part4-q3-river.png)\n\nSau khi đo đạc và tính toán, khoảng cách $AC$ bằng bao nhiêu mét? (Kết quả làm tròn đến hàng phần mười).",
+      "explanation": "Trong tam giác $ABC$, tổng ba góc bằng $180^\\circ$, suy ra:\n$$\\widehat{ACB} = 180^\\circ - (\\widehat{CAB} + \\widehat{CBA}) = 180^\\circ - (40^\\circ + 60^\\circ) = 80^\\circ.$$\nÁp dụng định lí sin trong tam giác $ABC$:\n$$\\dfrac{AC}{\\sin\\widehat{CBA}} = \\dfrac{AB}{\\sin\\widehat{ACB}} \\Rightarrow AC = \\dfrac{AB \\cdot \\sin\\widehat{CBA}}{\\sin\\widehat{ACB}} = \\dfrac{45 \\cdot \\sin 60^\\circ}{\\sin 80^\\circ}.$$\nThay số tính toán:\n$$AC = \\dfrac{45 \\cdot \\frac{\\sqrt{3}}{2}}{\\sin 80^\\circ} \\approx \\dfrac{38{,}971}{0{,}9848} \\approx 39{,}572\\text{ m}.$$\nLàm tròn kết quả đến hàng phần mười, ta được khoảng cách $AC \\approx 39{,}6\\text{ m}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-021-page-3.png",
+          "sha256": "27092d2b3aa0d320469b4f6bd9c407d5d15f9090c85776708e8bdf6b16b77c1b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-021-page-9.png",
+          "sha256": "2975cc2a5e755b49af78476e038a91d10b406ea1549f08b3590ccc3ec5abd620"
+        }
+      ]
+    }
+  ]
+}

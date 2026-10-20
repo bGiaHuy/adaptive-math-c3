@@ -10,5 +10,5 @@ export function BentoStat({ label, value, note, tone = 'mint', icon: Icon }) {
   return <BentoCard tone={tone} className="bento-stat"><div><span>{label}</span>{Icon && <Icon size={20} aria-hidden="true" />}</div><strong>{value}</strong><small>{note}</small></BentoCard>;
 }
 export function BankNotice() {
-  return <div className="bento-bank-notice" role="status"><span className="bento-status-dot" aria-hidden="true" /><div><strong>Đề tham khảo THPT đã có trong mục Học liệu</strong><p>Đọc đề gốc và đối chiếu đáp án tại <a href="#/teacher-bank">Học liệu THPT</a>. Kho câu hỏi dùng chấm tự động chưa mở trong đợt rà soát này. Bạn vẫn có thể soạn câu hoặc tạo đề từ tài liệu.</p></div></div>;
+  return <div className="bento-bank-notice" role="status"><span className="bento-status-dot" aria-hidden="true" /><div><strong>Học liệu và đánh giá Toán THPT</strong><p>Bài đánh giá chỉ sử dụng câu hỏi đã duyệt của đúng khối lớp. Chuyên đề chưa đủ câu hỏi sẽ được thông báo để bổ sung; bản nháp cần rà soát tiếp trước khi dùng chấm tự động.</p></div></div>;
 }

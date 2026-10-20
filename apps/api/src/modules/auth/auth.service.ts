@@ -15,11 +15,57 @@ import { RegisterTeacherDto } from './dto/register-teacher.dto';
 import { UpdateTeacherProfileDto } from './dto/update-teacher-profile.dto';
 import { LoginDto } from './dto/login.dto';
 import { UserRole, UserStatus, TeacherVerificationStatus } from '@prisma/client';
+import { academicYear, promotedGrade } from '../../common/domain/academic-year';
+import { thptGrade, normalizeThptGoal } from '../../common/domain/thpt-profile';
 
 @Injectable()
 export class AuthService implements OnModuleInit {
   private readonly sessionSecret: string;
   private readonly sessionTtlMs: number;
+
+  // Auth owns the lazy annual rollover. Every authenticated request catches up,
+  // including accounts absent for several years; the lock also protects onboarding.
+  private async syncSchoolYear(user: any) {
+    if (user.role !== UserRole.STUDENT || !user.studentProfile) return;
+    user.studentProfile = await this.prisma.$transaction(async tx => {
+      await tx.$queryRaw`SELECT pg_advisory_xact_lock(hashtext(${user.id}))::text`;
+      let profile = await tx.studentProfile.findUnique({ where: { userId: user.id } });
+      if (!profile) return profile;
+      const grade = thptGrade(profile.grade), targetGoal = normalizeThptGoal(grade, profile.targetGoal);
+      if (grade !== profile.grade || targetGoal !== profile.targetGoal) {
+        const previousGrade = profile.grade, previousTargetGoal = profile.targetGoal;
+        if (![10,11,12].includes(previousGrade)) {
+          // Archive unfinished legacy papers without deleting their questions or answers.
+          const [skills, questions] = await Promise.all([
+            tx.skillNode.findMany({ where: { grade: { notIn: [10,11,12] } }, select: { id: true } }),
+            tx.question.findMany({ where: { skill: { grade: { notIn: [10,11,12] } } }, select: { id: true } })
+          ]);
+          const archived = await tx.diagnosticAttempt.updateMany({ where: { studentId: user.id, status: 'IN_PROGRESS', OR: [
+            { skillIds: { hasSome: skills.map(s => s.id) } }, { questionIds: { hasSome: questions.map(q => q.id) } },
+            { answers: { some: { question: { skill: { grade: { notIn: [10,11,12] } } } } } }
+          ] }, data: { status: 'ABANDONED', completedAt: new Date() } });
+          if (archived.count) await tx.auditLog.create({ data: { actorUserId: user.id, action: 'LEGACY_DIAGNOSTIC_ARCHIVED', targetEntity: 'User', targetEntityId: user.id,
+            metadata: { count: archived.count, historyPreserved: true } } });
+        }
+        profile = await tx.studentProfile.update({ where: { userId: user.id }, data: { grade, targetGoal,
+          ...(grade !== previousGrade ? { examDate: null } : {}) } });
+        await tx.auditLog.create({ data: { actorUserId: user.id, action: 'STUDENT_THPT_PROFILE_NORMALIZED', targetEntity: 'User', targetEntityId: user.id,
+          metadata: { previousGrade, previousTargetGoal, grade, targetGoal, historyPreserved: true } } });
+      }
+      let anchor = await tx.auditLog.findFirst({ where: { targetEntityId: user.id, action: 'STUDENT_GRADE_ANCHOR' }, orderBy: [{ createdAt: 'desc' }, { id: 'desc' }] });
+      if (!anchor || ![10,11,12].includes((anchor.metadata as any)?.grade)) {
+        anchor = await tx.auditLog.create({ data: { actorUserId: user.id, action: 'STUDENT_GRADE_ANCHOR', targetEntity: 'User', targetEntityId: user.id,
+          metadata: { grade: profile.grade, academicYear: academicYear(), reason: 'INITIALIZED_CURRENT_GRADE' } } });
+      }
+      const metadata = anchor.metadata as any;
+      const next = promotedGrade(metadata.grade, metadata.academicYear);
+      if (next <= profile.grade) return profile;
+      const updated = await tx.studentProfile.update({ where: { userId: user.id }, data: { grade: next, targetGoal: normalizeThptGoal(next, profile.targetGoal), examDate: null } });
+      await tx.auditLog.create({ data: { actorUserId: user.id, action: 'STUDENT_GRADE_PROMOTED', targetEntity: 'User', targetEntityId: user.id,
+        metadata: { fromGrade: profile.grade, toGrade: next, academicYear: academicYear() } } });
+      return updated;
+    });
+  }
 
   constructor(private readonly prisma: PrismaService) {
     this.sessionSecret =
@@ -120,8 +166,8 @@ export class AuthService implements OnModuleInit {
         status: UserStatus.ACTIVE,
         studentProfile: {
           create: {
-            grade: 9,
-            targetGoal: 'Ôn thi vào lớp 10',
+            grade: 10,
+            targetGoal: 'Ôn thi cuối kỳ',
             dailyMinutes: 45,
             parentEmail: dto.parentEmail || null
           }
@@ -245,6 +291,8 @@ export class AuthService implements OnModuleInit {
     // Clean up expired sessions asynchronously in background
     this.cleanupExpiredSessions().catch(() => undefined);
 
+    await this.syncSchoolYear(user);
+
     return {
       user: this.sanitizeUser(user),
       sessionToken,
@@ -298,6 +346,7 @@ export class AuthService implements OnModuleInit {
       }).catch(() => undefined);
     }
 
+    await this.syncSchoolYear(session.user);
     return this.sanitizeUser(session.user);
   }
 

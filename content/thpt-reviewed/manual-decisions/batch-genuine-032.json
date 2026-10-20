@@ -1,0 +1,282 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai vectơ $\\vec{a}, \\vec{b}$ trong hình sau:\n\n![Hình vẽ vectơ](/math-import-assets/thpt-figure-027-p1-q1-vectors.jpeg)\n\nĐẳng thức nào sau đây đúng?",
+      "explanation": "Quan sát lưới ô vuông trong hình vẽ:\n- Hai vectơ $\\vec{a}$ và $\\vec{b}$ có giá song song và cùng hướng từ dưới lên trên, sang phải.\n- Vectơ $\\vec{a}$ trải dài qua 2 ô ngang và 2 ô dọc, độ dài $|\\vec{a}| = 2\\sqrt{2}$ đơn vị ô.\n- Vectơ $\\vec{b}$ trải dài qua 4 ô ngang và 4 ô dọc, độ dài $|\\vec{b}| = 4\\sqrt{2}$ đơn vị ô.\nDo đó $\\vec{b} = 2\\vec{a} \\iff \\vec{a} = \\frac{1}{2}\\vec{b}$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho các điểm $M(4; -3)$ và $N(-2; 0)$. Tọa độ của vectơ $\\vec{MN}$ là",
+      "explanation": "Tọa độ của vectơ $\\vec{MN}$ được tính theo công thức:\n$$\\vec{MN} = (x_N - x_M; y_N - y_M) = (-2 - 4; 0 - (-3)) = (-6; 3).$$\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ đều. Mệnh đề nào sau đây đúng?",
+      "explanation": "Tam giác $ABC$ đều nên ba cạnh có độ dài bằng nhau: $AB = BC = CA$.\nĐộ dài vectơ bằng độ dài đoạn thẳng tương ứng, do đó $|\\vec{AB}| = |\\vec{AC}| = AB = AC$.\nCác vectơ $\\vec{AB}, \\vec{BC}, \\vec{AC}$ có hướng khác nhau nên không bằng nhau.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cặp số nào sau đây là nghiệm của hệ bất phương trình $\\begin{cases} 2x + y > 7 \\\\ 3x - y < 2 \\end{cases}$?",
+      "explanation": "Thay từng cặp số vào hệ bất phương trình:\n- Với $(1; 6)$: $\\begin{cases} 2(1) + 6 = 8 > 7 \\text{ (đúng)} \\\\ 3(1) - 6 = -3 < 2 \\text{ (đúng)} \\end{cases} \\implies (1; 6)$ là nghiệm của hệ.\n- Với $(-2; 1)$: $2(-2) + 1 = -3 \\not> 7$ (sai).\n- Với $(3; 2)$: $3(3) - 2 = 7 \\not< 2$ (sai).\n- Với $(4; 0)$: $3(4) - 0 = 12 \\not< 2$ (sai).\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $AB = c, AC = b, BC = a$. Diện tích tam giác $ABC$ bằng",
+      "explanation": "Theo công thức tính diện tích tam giác theo hai cạnh và sin của góc xen giữa:\n$$S = \\frac{1}{2}ab\\sin C = \\frac{1}{2}bc\\sin A = \\frac{1}{2}ca\\sin B.$$\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$ với vectơ đơn vị $\\vec{i}$ của trục $Ox$ và vectơ đơn vị $\\vec{j}$ của trục $Oy$, cho $\\vec{u} = -2\\vec{i} + 3\\vec{j}$. Tọa độ của $\\vec{u}$ là",
+      "explanation": "Theo định nghĩa tọa độ của vectơ đối với hệ trục tọa độ $(O; \\vec{i}, \\vec{j})$:\n$$\\vec{u} = x\\vec{i} + y\\vec{j} \\iff \\vec{u} = (x; y).$$\nVới $\\vec{u} = -2\\vec{i} + 3\\vec{j}$, ta có tọa độ của $\\vec{u}$ là $(-2; 3)$.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gọi $I$ là trung điểm của đoạn thẳng $EF$. Khẳng định nào sau đây đúng?",
+      "explanation": "Điểm $I$ là trung điểm của đoạn thẳng $EF$ khi và chỉ khi hai vectơ $\\vec{IE}$ và $\\vec{IF}$ là hai vectơ đối nhau, tức là $\\vec{IE} + \\vec{IF} = \\vec{0}$.\nDo đó khẳng định đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho ba điểm $A, B, C$. Khẳng định nào sau đây là sai?",
+      "explanation": "Theo quy tắc ba điểm cộng vectơ: $\\vec{AB} + \\vec{BC} = \\vec{AC}$.\nDo đó khẳng định $\\vec{AB} + \\vec{BC} = \\vec{CA}$ là sai vì $\\vec{AC} = -\\vec{CA} \\ne \\vec{CA}$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Viết mệnh đề sau bằng cách sử dụng kí hiệu $\\forall$ hoặc $\\exists$: “Có một số nguyên bằng bình phương của chính nó”.",
+      "explanation": "- “Có một” tương ứng với kí hiệu tồn tại $\\exists$.\n- “số nguyên” tương ứng với tập hợp $\\mathbb{Z}$.\n- “bằng bình phương của chính nó” là đẳng thức $x = x^2$.\nVậy mệnh đề được viết là: “$\\exists x \\in \\mathbb{Z}, x = x^2$”.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-1.png",
+          "sha256": "efb34733e79ca8a34f8bf227b0c0b0adea40ac4d1e13e3781a99398407047d09"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai tập $A = \\{0; 1; 2; 4; 5; 6\\}$ và $B = \\{-1; 0; 1; 4\\}$. Tìm $A \\setminus B$.",
+      "explanation": "Hiệu $A \\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$.\nCác phần tử chung của $A$ và $B$ là $0, 1, 4$.\nLoại bỏ các phần tử này khỏi $A$ ta được $A \\setminus B = \\{2; 5; 6\\}$.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác đều $ABC$, góc giữa hai vectơ $\\vec{AB}$ và $\\vec{AC}$ bằng:",
+      "explanation": "Hai vectơ $\\vec{AB}$ và $\\vec{AC}$ có chung điểm đầu $A$.\nGóc giữa hai vectơ là $(\\vec{AB}, \\vec{AC}) = \\widehat{BAC}$.\nVì tam giác $ABC$ đều nên góc $\\widehat{BAC} = 60^\\circ$.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây đúng?",
+      "explanation": "Hai góc $60^\\circ$ và $120^\\circ$ bù nhau ($60^\\circ + 120^\\circ = 180^\\circ$).\nTheo tính chất giá trị lượng giác của hai góc bù nhau:\n$$\\sin(180^\\circ - \\alpha) = \\sin\\alpha \\implies \\sin 120^\\circ = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}.$$\nDo đó khẳng định đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $AC = 8\\text{ cm}, \\widehat{B} = 45^\\circ, \\widehat{C} = 60^\\circ$. Các khẳng định sau đúng hay sai?",
+      "explanation": "Xét từng khẳng định:\n- a) Theo định lí sin: $\\frac{BC}{\\sin A} = \\frac{AC}{\\sin B} = \\frac{AB}{\\sin C} = 2R$. Đề bài ghi $= R$ là SAI.\n- b) Ta có $2R = \\frac{AC}{\\sin B} = \\frac{8}{\\sin 45^\\circ} = \\frac{8}{\\frac{\\sqrt{2}}{2}} = 8\\sqrt{2} \\implies R = 4\\sqrt{2}\\text{ cm}$. Khẳng định b ĐÚNG.\n- c) Góc $\\widehat{A} = 180^\\circ - 45^\\circ - 60^\\circ = 75^\\circ$. Áp dụng định lí sin: $BC = 2R\\sin A = 8\\sqrt{2} \\cdot \\sin 75^\\circ = 8\\sqrt{2} \\cdot \\frac{\\sqrt{6} + \\sqrt{2}}{4} = 4\\sqrt{3} + 4 \\approx 10{,}9282\\text{ cm}$. Làm tròn đến hàng phần trăm phải là $10{,}93\\text{ cm}$ chứ không phải $10{,}92\\text{ cm}$. Khẳng định c SAI.\n- d) Diện tích tam giác $ABC$: $S = \\frac{1}{2} AC \\cdot BC \\cdot \\sin C = \\frac{1}{2} \\cdot 8 \\cdot (4\\sqrt{3} + 4) \\cdot \\sin 60^\\circ = 4(4\\sqrt{3} + 4) \\cdot \\frac{\\sqrt{3}}{2} = 2(4\\sqrt{3} + 4)\\sqrt{3} = 24 + 8\\sqrt{3}\\text{ cm}^2$. Khẳng định d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$ cho $\\triangle ABC$ có $A(3; -2), B(5; 3), C(-1; 2)$. Các khẳng định sau đúng hay sai?",
+      "explanation": "Xét từng khẳng định:\n- a) $\\vec{BC} = (x_C - x_B; y_C - y_B) = (-1 - 5; 2 - 3) = (-6; -1) \\ne (6; -1)$. Khẳng định a SAI.\n- b) $M$ đối xứng với $A$ qua $B$ suy ra $B$ là trung điểm của đoạn thẳng $AM$:\n$x_M = 2x_B - x_A = 2(5) - 3 = 7$; $y_M = 2y_B - y_A = 2(3) - (-2) = 8$. Vậy $M(7; 8)$. Khẳng định b ĐÚNG.\n- c) Độ dài $|\\vec{BC}| = \\sqrt{(-6)^2 + (-1)^2} = \\sqrt{36 + 1} = \\sqrt{37}$. Khẳng định c ĐÚNG.\n- d) Ta có $\\vec{BA} = (3 - 5; -2 - 3) = (-2; -5)$ và $\\vec{BC} = (-6; -1)$.\nTích vô hướng: $\\vec{BA} \\cdot \\vec{BC} = (-2)(-6) + (-5)(-1) = 12 + 5 = 17 > 0$.\nVì $\\cos\\widehat{ABC} = \\frac{\\vec{BA} \\cdot \\vec{BC}}{BA \\cdot BC} > 0$ nên góc $\\widehat{ABC}$ là góc nhọn chứ không phải góc tù. Khẳng định d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nhu cầu canxi tối thiểu cho một người đang ở độ tuổi trưởng thành trong một ngày là $1000$ mg. Trong một lạng đậu nành có $277$ mg canxi, một lạng thịt bò có $18$ mg canxi. Gọi $x$ và $y$ lần lượt là số lạng đậu nành và số lạng thịt bò mà một người đang ở độ tuổi trưởng thành ăn trong một ngày. Bất phương trình bậc nhất hai ẩn $x, y$ để biểu diễn lượng canxi cần thiết trong một ngày của một người đang trong độ tuổi trưởng thành có dạng $ax + by \\ge 1000$ với $a, b$ là các số nguyên dương. Tính giá trị $T = a - b$.",
+      "explanation": "Lượng canxi cung cấp từ $x$ lạng đậu nành là $277x$ (mg).\nLượng canxi cung cấp từ $y$ lạng thịt bò là $18y$ (mg).\nTổng lượng canxi cần đạt tối thiểu $1000$ mg trong một ngày nên ta có bất phương trình:\n$$277x + 18y \\ge 1000.$$\nSo sánh với dạng tổng quát $ax + by \\ge 1000$ ($a, b \\in \\mathbb{Z}^+$), ta có $a = 277, b = 18$.\nGiá trị biểu thức $T = a - b = 277 - 18 = 259$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chiếc thuyền du lịch xuất phát từ điểm $A$ trên mặt hồ và đi thẳng đến điểm $B$. Từ $B$ thuyền tiếp tục đi thẳng đến điểm $C$ và sau đó quay trở lại điểm xuất phát $A$ theo đường thẳng như hình vẽ bên dưới. Biết $\\widehat{BAC} = 45^\\circ, \\widehat{ABC} = 60^\\circ$ và điểm $C$ cách điểm $A$ một khoảng $12\\text{ km}$. Tính tổng quãng đường thuyền đã đi được (đơn vị km và kết quả làm tròn đến hàng phần chục).\n\n![Hình vẽ thuyền đi trên hồ](/math-import-assets/thpt-figure-027-p2-part3-q2-boat-triangle.jpeg)",
+      "explanation": "Xét tam giác $ABC$ tạo bởi đường đi của thuyền:\n- Góc $\\widehat{A} = 45^\\circ, \\widehat{B} = 60^\\circ \\implies \\widehat{C} = 180^\\circ - 45^\\circ - 60^\\circ = 75^\\circ$.\n- Khoảng cách $AC = 12\\text{ km}$.\nÁp dụng định lí sin trong tam giác $ABC$:\n$$\\frac{BC}{\\sin A} = \\frac{AC}{\\sin B} = \\frac{AB}{\\sin C}.$$\n- Độ dài cạnh $BC$:\n$$BC = \\frac{AC \\cdot \\sin 45^\\circ}{\\sin 60^\\circ} = \\frac{12 \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{3}}{2}} = 4\\sqrt{6} \\approx 9{,}798\\text{ km}.$$\n- Độ dài cạnh $AB$:\n$$AB = \\frac{AC \\cdot \\sin 75^\\circ}{\\sin 60^\\circ} = \\frac{12 \\cdot \\frac{\\sqrt{6} + \\sqrt{2}}{4}}{\\frac{\\sqrt{3}}{2}} = 6\\sqrt{2} + 2\\sqrt{6} \\approx 13{,}384\\text{ km}.$$\nTổng quãng đường thuyền đã đi là chu vi tam giác $ABC$:\n$$P = AB + BC + CA \\approx 13{,}384 + 9{,}798 + 12 = 35{,}182\\text{ km}.$$\nLàm tròn kết quả đến hàng phần chục theo yêu cầu, tổng quãng đường là $35{,}2\\text{ km}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một người đàn ông và một người phụ nữ cùng kéo chiếc thuyền theo hai hướng khác nhau bởi hai sợi dây cột vào mũi thuyền như hình vẽ; các lực kéo lần lượt là $\\vec{F}_1, \\vec{F}_2$ với $|\\vec{F}_1| = |\\vec{F}_2| = 100\\text{ N}$ và góc tạo bởi hai lực kéo $\\vec{F}_1, \\vec{F}_2$ là $45^\\circ$. Khi đó chiếc thuyền tiến về phía trước vì chịu tác động của hợp lực $\\vec{F}_1 + \\vec{F}_2$. Tính độ lớn của hợp lực $\\vec{F}_1 + \\vec{F}_2$ (đơn vị Newton và kết quả được làm tròn đến hàng đơn vị).\n\n![Hình vẽ kéo thuyền](/math-import-assets/thpt-figure-027-p3-part3-q3-pulling-boat.jpeg)",
+      "explanation": "Gọi hợp lực là $\\vec{F} = \\vec{F}_1 + \\vec{F}_2$.\nĐộ lớn bình phương của hợp lực là:\n$$|\\vec{F}|^2 = |\\vec{F}_1|^2 + |\\vec{F}_2|^2 + 2|\\vec{F}_1||\\vec{F}_2|\\cos(\\vec{F}_1, \\vec{F}_2)$$\n$$= 100^2 + 100^2 + 2 \\cdot 100 \\cdot 100 \\cdot \\cos 45^\\circ = 10000 + 10000 + 20000 \\cdot \\frac{\\sqrt{2}}{2}$$\n$$= 20000 + 10000\\sqrt{2} \\approx 34142{,}136.$$\nSuy ra độ lớn của hợp lực:\n$$|\\vec{F}| = \\sqrt{20000 + 10000\\sqrt{2}} \\approx 184{,}776\\text{ N}.$$\nLàm tròn đến hàng đơn vị theo yêu cầu, độ lớn của hợp lực là $185\\text{ N}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-2.png",
+          "sha256": "ed2039ff05351029adac281e8c83cd45978f923361f69a7f9bb201875a3d9e28"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-3.png",
+          "sha256": "46b02d2c5e8ad723a726c43e7f07b335df969deb2972c3ac25309cf5a10df7c2"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-027-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-027 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Sự chuyển động của một ô tô được thể hiện trên một mặt phẳng tọa độ như sau: Ô tô di chuyển từ bãi đỗ xe ở điểm $O(0; 0)$ chuyển động thẳng đều với vectơ vận tốc $\\vec{v} = (20; 35)$ (đơn vị km/h). Sau khi di chuyển 2 giờ, chiếc xe gặp phải sự cố tại vị trí $A(x_0; y_0)$. Tính giá trị biểu thức $P = 2x_0 + y_0$.",
+      "explanation": "Sau thời gian $t = 2$ giờ, vectơ độ dịch chuyển của ô tô là:\n$$\\vec{OA} = t \\cdot \\vec{v} = 2 \\cdot (20; 35) = (40; 70).$$\nVì xuất phát từ điểm gốc tọa độ $O(0; 0)$, tọa độ vị trí điểm $A(x_0; y_0)$ là:\n$$x_0 = 40, \\quad y_0 = 70.$$\nTính giá trị biểu thức $P$:\n$$P = 2x_0 + y_0 = 2(40) + 70 = 80 + 70 = 150.$$\nVậy giá trị của biểu thức $P$ bằng 150.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-027-page-3.png",
+          "sha256": "46b02d2c5e8ad723a726c43e7f07b335df969deb2972c3ac25309cf5a10df7c2"
+        }
+      ]
+    }
+  ]
+}

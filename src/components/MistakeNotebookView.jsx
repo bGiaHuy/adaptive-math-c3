@@ -246,7 +246,7 @@ export default function MistakeNotebookView({ onStartPractice }) {
         {mistakes.map((item) => {
           const q = item.question || item || {};
           const isMastered = item.isMastered;
-          const topic = q.skillTitle || q.chapter || item.skillTitle || item.chapter || 'Toán 9';
+          const topic = q.skillTitle || q.chapter || item.skillTitle || item.chapter || 'Toán 10';
           const rawLevel = q.cognitiveLevel || item.cognitiveLevel;
           const levelText = COGNITIVE_LEVEL_MAP[rawLevel] || rawLevel || 'Thông hiểu';
           const content = q.content || item.content || '';

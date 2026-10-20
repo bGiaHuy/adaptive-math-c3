@@ -7,13 +7,14 @@ import { diagnosticApi } from '../lib/apiClient';
 const TYPE_ORDER = ['SINGLE_CHOICE', 'TRUE_FALSE', 'SHORT_ANSWER'];
 const SECTION_TITLES = { SINGLE_CHOICE: 'Phần I — Trắc nghiệm nhiều lựa chọn', TRUE_FALSE: 'Phần II — Trắc nghiệm đúng / sai', SHORT_ANSWER: 'Phần III — Trả lời ngắn' };
 const formatTime = seconds => `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
-export default function DiagnosticTest({ onFinishTest, onPauseTest }) {
+export default function DiagnosticTest({ onFinishTest, onPauseTest, userProfile }) {
   const [attempt, setAttempt] = useState(null);
   const [answers, setAnswers] = useState({});
   const [mode, setMode] = useState('focus');
   const [index, setIndex] = useState(0);
   const [remaining, setRemaining] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [preparingSeconds, setPreparingSeconds] = useState(0);
   const [restoring, setRestoring] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [confirmSubmit, setConfirmSubmit] = useState(false);
@@ -26,6 +27,13 @@ export default function DiagnosticTest({ onFinishTest, onPauseTest }) {
   const lockRef = useRef(false);
   const autoSubmittedRef = useRef(false);
   const submitRef = useRef(null);
+  const openingRef = useRef(false);
+
+  useEffect(() => {
+    if (!loading) { setPreparingSeconds(0); return; }
+    const timer = window.setInterval(() => setPreparingSeconds(seconds => seconds + 1), 1000);
+    return () => window.clearInterval(timer);
+  }, [loading]);
 
   const save = async () => {
     const payload = { attemptId: attempt.attemptId, answers: toAssignmentAnswers(answersRef.current) };
@@ -34,6 +42,8 @@ export default function DiagnosticTest({ onFinishTest, onPauseTest }) {
     await operation;
   };
   const start = async () => {
+    if (openingRef.current) return;
+    openingRef.current = true;
     setLoading(true); setError('');
     try {
       const data = await diagnosticApi.startAttempt();
@@ -48,7 +58,7 @@ export default function DiagnosticTest({ onFinishTest, onPauseTest }) {
       setAttempt({ ...data, questions });
       setSaveStatus(data.isResumed ? 'Đã khôi phục bài và đáp án đã lưu' : 'Câu trả lời được lưu tự động');
     } catch (err) { setError(err.message || 'Không thể mở bài kiểm tra.'); }
-    finally { setLoading(false); }
+    finally { setLoading(false); openingRef.current = false; }
   };
   useEffect(() => {
     let active = true;
@@ -134,11 +144,13 @@ export default function DiagnosticTest({ onFinishTest, onPauseTest }) {
     <MathQuestionResponse question={question} answer={answers[question.id]} onChange={value => changeAnswer(question.id, value)} disabled={submitting || remaining === 0 || attempt.lockedQuestionIds?.includes(question.id)} />
   </section>;
   if (!attempt) return <div className="diagnostic-landing-view animate-fade-in"><section className="diagnostic-intro-card">
-    <h1 className="intro-card-heading">Bài kiểm tra đầu vào</h1>
-    <p className="intro-card-description">Đề gồm 12 câu nhiều lựa chọn, 4 câu đúng / sai (mỗi câu 4 ý) và 6 câu trả lời ngắn. Em có thể làm từng câu ở chế độ Từng câu hoặc xem Toàn bộ đề. Đáp án và thời gian được giữ nguyên khi chuyển chế độ.</p>
+    <h1 className="intro-card-heading">Đánh giá năng lực Toán{userProfile?.grade ? ` lớp ${userProfile.grade}` : ' THPT'}</h1>
+    <p>Câu hỏi được bốc ngẫu nhiên từ kho đã rà soát của đúng khối lớp, theo từng ô ma trận loại câu, mức nhận thức và độ khó. Kết quả là ước tính để hỗ trợ học tập; chuyên đề chưa làm được ghi là chưa đánh giá.</p>
+    <p className="intro-card-description">Đề THPT gồm 12 câu nhiều lựa chọn, 2 câu đúng / sai (mỗi câu 4 ý) và 4 câu trả lời ngắn. Em có thể làm từng câu ở chế độ Từng câu hoặc xem Toàn bộ đề. Đáp án và thời gian được giữ nguyên khi chuyển chế độ.</p>
     <p>Thời gian: 45 phút. Đáp án được lưu tự động; thời gian vẫn chạy khi rời bài.</p>
     {error && <p role="alert">{error}</p>}
-    <button type="button" className="btn-start-diagnostic" onClick={start} disabled={loading}>{loading ? 'Đang mở bài...' : 'Bắt đầu / tiếp tục làm bài'}</button>
+    {loading && <div role="status" aria-live="polite"><Loader2 size={20} aria-hidden="true" /><p>{preparingSeconds < 8 ? 'Đang chuẩn bị đề theo ma trận của em…' : preparingSeconds < 60 ? 'Hệ thống đang bổ sung và kiểm tra câu hỏi cần thiết. Em chờ một chút nhé.' : 'Đề vẫn đang được chuẩn bị. Em có thể giữ màn hình này; không cần bấm bắt đầu lại.'}</p><p>Thời gian chuẩn bị câu mới không tính vào 45 phút làm bài.</p></div>}
+    <button type="button" className="btn-start-diagnostic" onClick={start} disabled={loading}>{loading ? 'Đang chuẩn bị đề…' : error ? 'Thử chuẩn bị lại tại đây' : 'Bắt đầu / tiếp tục làm bài'}</button>
   </section></div>;
   return <div className="diagnostic-view-root animate-fade-in">
     <div className="diagnostic-status-bar">

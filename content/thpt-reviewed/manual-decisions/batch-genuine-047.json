@@ -1,0 +1,334 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ, phương trình đường thẳng $\\Delta$ đi qua điểm $M(3; 1)$ và có vectơ pháp tuyến $\\vec{n} = (1; -2)$ là:",
+      "explanation": "Phương trình tổng quát của đường thẳng đi qua $M(3; 1)$ và có VTPT $\\vec{n} = (1; -2)$ là: $1(x - 3) - 2(y - 1) = 0 \\iff x - 3 - 2y + 2 = 0 \\iff x - 2y - 1 = 0$. Chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập nghiệm $S$ của bất phương trình $x^2 - 5x + 6 < 0$ là:",
+      "explanation": "Tam thức bậc hai $x^2 - 5x + 6 = 0 \\iff (x - 2)(x - 3) = 0 \\iff x = 2$ hoặc $x = 3$. Hệ số $a = 1 > 0$, do đó tam thức mang dấu âm trong khoảng hai nghiệm, tức là $x \\in (2; 3)$. Vậy $S = (2; 3)$. Chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định $D$ của hàm số $y = \\dfrac{x + 1}{x - 2}$ là:",
+      "explanation": "Hàm số phân thức xác định khi và chỉ khi mẫu thức khác 0: $x - 2 \\ne 0 \\iff x \\ne 2$. Vậy tập xác định là $D = \\mathbb{R} \\setminus \\{2\\}$. Chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khi khai triển nhị thức Newton của $(a - 2b)^5$, số các số hạng trong khai triển là:",
+      "explanation": "Số các số hạng trong khai triển nhị thức Newton $(x + y)^n$ là $n + 1$. Với $n = 5$, số các số hạng là $5 + 1 = 6$. Chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bạn An có $5$ quyển sách Tiếng Anh khác nhau và $6$ quyển sách Toán khác nhau. Bạn An có bao nhiêu cách chọn $1$ quyển sách để đọc?",
+      "explanation": "An chọn $1$ quyển sách từ $5$ quyển Tiếng Anh hoặc $6$ quyển Toán. Theo quy tắc cộng, tổng số cách chọn là: $5 + 6 = 11$ (cách). Chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho parabol $(P): y = 2x^2 + 4x + 3$, hoành độ đỉnh $I$ của $(P)$ là:",
+      "explanation": "Hoành độ đỉnh $I$ của parabol $y = ax^2 + bx + c$ là $x_I = -\\dfrac{b}{2a}$. Với $a = 2, b = 4$, ta có $x_I = -\\dfrac{4}{2 \\cdot 2} = -1$. Chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tổ 1 của lớp 10C có $6$ nam và $5$ nữ. Có mấy cách chọn $2$ học sinh để trực nhật?",
+      "explanation": "Tổng số học sinh trong tổ là $6 + 5 = 11$ em. Chọn $2$ học sinh bất kỳ trong $11$ em là một tổ hợp chập $2$ của $11$: $C_{11}^2 = \\dfrac{11 \\times 10}{2} = 55$ (cách). Chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tròn $(x - 3)^2 + (y + 2)^2 = 16$ có tâm $I$ và bán kính $R$ bằng bao nhiêu?",
+      "explanation": "Phương trình đường tròn $(x - a)^2 + (y - b)^2 = R^2$ có tâm $I(a; b)$ và bán kính $R$. Với $(x - 3)^2 + (y + 2)^2 = 16 = 4^2$, ta có tâm $I(3; -2)$ và bán kính $R = 4$. Chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho Elip $(E): \\dfrac{x^2}{25} + \\dfrac{y^2}{16} = 1$, tọa độ hai tiêu điểm của $(E)$ là:",
+      "explanation": "Elip $(E)$ có $a^2 = 25$ và $b^2 = 16$. Ta có $c^2 = a^2 - b^2 = 25 - 16 = 9 \\implies c = 3$. Hai tiêu điểm nằm trên trục hoành có tọa độ là $F_1(-3; 0)$ và $F_2(3; 0)$. Chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo ba đồng tiền đồng chất khác nhau một lần. Quan tâm đến tính SẤP, NGỬA của nó. Khi đó số phần tử của không gian mẫu là:",
+      "explanation": "Mỗi đồng tiền khi gieo có $2$ khả năng xuất hiện (Sấp hoặc Ngửa). Gieo ba đồng tiền thì số phần tử của không gian mẫu là: $n(\\Omega) = 2 \\times 2 \\times 2 = 2^3 = 8$. Chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải phương trình: $\\sqrt{2x^2 - 5x - 9} = x - 1$. Ta có nghiệm là:",
+      "explanation": "Điều kiện: $x - 1 \\ge 0 \\iff x \\ge 1$.\nBình phương hai vế phương trình:\n$$2x^2 - 5x - 9 = (x - 1)^2 \\iff 2x^2 - 5x - 9 = x^2 - 2x + 1 \\iff x^2 - 3x - 10 = 0$$\n$$\\iff (x + 2)(x - 5) = 0 \\iff \\left[\\begin{array}{l} x = -2 \\text{ (loại vì không thỏa mãn } x \\ge 1) \\\\ x = 5 \\text{ (thỏa mãn)} \\end{array}\\right.$$\nVậy nghiệm của phương trình là $x = 5$. Chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p1.png",
+          "sha256": "f262754c0a9a10a8d5449e7f99d110a274d0fbdf8c2e01f8eceb7d97d8b7c563"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bảng xét dấu sau là của biểu thức $f(x)$ nào:\n\n$$\\begin{array}{|c|ccccccc|}\\hline x & -\\infty & & 1 & & 3 & & +\\infty \\\\\\hline f(x) & & + & 0 & - & 0 & + & \\\\\\hline\\end{array}$$\n",
+      "explanation": "Tam thức bậc hai triệt tiêu tại $x = 1$ và $x = 3$. Dấu của tam thức dương ngoài khoảng hai nghiệm và âm trong khoảng hai nghiệm, suy ra hệ số $a > 0$. Biểu thức là: $f(x) = (x - 1)(x - 3) = x^2 - 4x + 3$. Chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một con súc sắc đồng chất hai lần, quan sát số chấm xuất hiện. Gọi $A$ là biến cố “Tổng số chấm là một số chia hết cho $5$”, gọi $B$ là biến cố “Số chấm hai lần gieo giống nhau”. Xét tính Đúng - Sai của các khẳng định sau:",
+      "explanation": "Không gian mẫu khi gieo súc sắc 2 lần có $n(\\Omega) = 6 \\times 6 = 36$ phần tử. Mệnh đề b) Đúng.\n- Biến cố $A$: tổng số chấm chia hết cho 5, tức tổng bằng 5 hoặc 10:\n+ Tổng bằng 5: (1, 4), (2, 3), (3, 2), (4, 1) (4 cặp).\n+ Tổng bằng 10: (4, 6), (5, 5), (6, 4) (3 cặp).\nTổng số phần tử của $A$ là $4 + 3 = 7 \\ne 6$. Mệnh đề a) Sai.\n- Xác suất $P(A) = \\dfrac{7}{36} \\ne \\dfrac{1}{6}$. Mệnh đề c) Sai.\n- Biến cố $B$: hai lần gieo giống nhau gồm (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6) có $n(B) = 6$. Mệnh đề d) Đúng.\n(Bảng đáp án: S - Đ - S - Đ).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Từ các chữ số $0; 1; 2; 3; 4; 5; 6$. Các khẳng định sau Đúng hay Sai?",
+      "explanation": "Từ tập chữ số $\\{0; 1; 2; 3; 4; 5; 6\\}$ (gồm $7$ chữ số):\n- a) Số chẵn có 2 chữ số khác nhau: nếu tận cùng là 0 có $6$ số; nếu tận cùng là 2, 4, 6 có $3 \\times 5 = 15$ số. Tổng cộng là $6 + 15 = 21 \\ne 18$. Mệnh đề a) Sai.\n- b) Số có 4 chữ số khác nhau lớn hơn 5000: chữ số đầu tiên $a_1 \\in \\{5; 6\\}$ ($2$ cách). Ba chữ số còn lại chọn từ $6$ chữ số còn lại: $A_6^3 = 120$ cách. Tổng số cách: $2 \\times 120 = 240$. Mệnh đề b) Đúng.\n- c) Số có 2 chữ số khác nhau: chữ số hàng chục có $6$ cách (khác 0), hàng đơn vị có $6$ cách. Tổng số cách: $6 \\times 6 = 36$. Mệnh đề c) Đúng.\n- d) Các số tự nhiên có 1 chữ số lập từ tập này gồm $\\{0; 1; 2; 3; 4; 5; 6\\}$ có $7$ số, không phải $6$ số. Mệnh đề d) Sai.\n(Bảng đáp án: S - Đ - Đ - S).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ cho đường thẳng $\\Delta: x - 3y + 2 = 0$ và $\\Delta': 3x + y - 1 = 0$. Khi đó:",
+      "explanation": "Xét hai đường thẳng $\\Delta: x - 3y + 2 = 0$ và $\\Delta': 3x + y - 1 = 0$:\n- a) VTPT của $\\Delta$ là $\\vec{n}_1 = (1; -3)$, của $\\Delta'$ là $\\vec{n}_2 = (3; 1)$. Ta có $\\vec{n}_1 \\cdot \\vec{n}_2 = 1 \\cdot 3 + (-3) \\cdot 1 = 0$, do đó $\\Delta \\perp \\Delta'$, góc giữa hai đường thẳng là $90^\\circ \\ne 45^\\circ$. Mệnh đề a) Sai.\n- b) Vì $\\Delta \\perp \\Delta'$ nên hai đường thẳng cắt nhau (vuông góc). Mệnh đề b) Đúng.\n- c) Bán kính đường tròn tâm $I(4; 0)$ tiếp xúc $\\Delta$ là $R = \\dfrac{|4 - 3(0) + 2|}{\\sqrt{1^2 + (-3)^2}} = \\dfrac{6}{\\sqrt{10}} \\implies R^2 = \\dfrac{36}{10} = \\dfrac{18}{5}$. Mệnh đề c) Đúng.\n- d) VTPT của $\\Delta$ là $(1; -3) \\ne (1; 3)$. Mệnh đề d) Sai.\n(Bảng đáp án: S - Đ - Đ - S).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu số tự nhiên chia hết cho $2$ mà mỗi số có ba chữ số khác nhau?",
+      "explanation": "Gọi số cần tìm là $\\overline{abc}$ ($a \\ne 0$, $a, b, c$ đôi một khác nhau, $c \\in \\{0; 2; 4; 6; 8\\}$).\n- Trường hợp 1: $c = 0$ (có 1 cách chọn $c$):\nChọn $a \\in \\{1; 2; \\dots; 9\\}$ có 9 cách. Chọn $b \\in \\{1; \\dots; 9\\} \\setminus \\{a\\}$ có 8 cách.\nSố cách: $1 \\times 9 \\times 8 = 72$ số.\n- Trường hợp 2: $c \\in \\{2; 4; 6; 8\\}$ (có 4 cách chọn $c$):\nChọn $a \\in \\{1; 2; \\dots; 9\\} \\setminus \\{c\\}$ có 8 cách. Chọn $b \\in \\{0; 1; \\dots; 9\\} \\setminus \\{a, c\\}$ có 8 cách.\nSố cách: $4 \\times 8 \\times 8 = 256$ số.\nTổng số các số chẵn có 3 chữ số khác nhau là: $72 + 256 = 328$ số.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ở một khu công nghiệp A, người ta làm một cổng chào hình parabol biết khoảng cách giữa hai chân cổng là $16\\text{ m}$, ở vị trí cách chân cổng $1\\text{ m}$ người ta đo được độ cao $1{,}5\\text{ m}$. Khi đó đỉnh của cổng chào có chiều cao bao nhiêu mét?",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ sao cho gốc $O(0; 0)$ là vị trí chân cổng bên trái, trục $Ox$ nằm dọc theo mặt đất.\nVì khoảng cách giữa hai chân cổng là $16\\text{ m}$ nên chân cổng bên phải ở vị trí $B(16; 0)$.\nPhương trình parabol có dạng: $y = ax(x - 16) = ax^2 - 16ax$.\nTại vị trí cách chân cổng $1\\text{ m}$ ($x = 1$), chiều cao là $1{,}5\\text{ m}$ ($y = 1{,}5$):\n$$1{,}5 = a(1)(1 - 16) = -15a \\implies a = -\\dfrac{1{,}5}{15} = -0{,}1$$\nVậy phương trình parabol là: $y = -0{,}1x(x - 16) = -0{,}1x^2 + 1{,}6x$.\nĐỉnh của cổng chào đạt được tại điểm chính giữa $x = 8$:\n$$h_{\\max} = y(8) = -0{,}1(8)(8 - 16) = -0{,}1 \\times 8 \\times (-8) = 6{,}4\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong một chiếc hộp đựng $6$ viên bi đỏ, $8$ viên bi xanh. Lấy ngẫu nhiên $2$ viên bi. Tính xác suất để có được $2$ bi cùng màu? (Làm tròn đến hàng phần trăm).",
+      "explanation": "Tổng số bi trong hộp là $6 + 8 = 14$ viên bi.\nSố phần tử của không gian mẫu là: $n(\\Omega) = C_{14}^2 = \\dfrac{14 \\times 13}{2} = 91$.\nSố cách chọn $2$ viên bi cùng màu là:\n- Chọn 2 bi đỏ: $C_6^2 = 15$ cách.\n- Chọn 2 bi xanh: $C_8^2 = 28$ cách.\nSố kết quả thuận lợi là: $n(A) = 15 + 28 = 43$.\nXác suất cần tìm là:\n$$P(A) = \\dfrac{43}{91} \\approx 0{,}4725 \\approx 0{,}47.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho Hypebol $(H): \\dfrac{x^2}{13} - \\dfrac{y^2}{36} = 1$. Khi đó tiêu cự của hypebol $(H)$ bằng bao nhiêu?",
+      "explanation": "Phương trình chính tắc của hypebol có $a^2 = 13$ và $b^2 = 36$.\nTa có $c^2 = a^2 + b^2 = 13 + 36 = 49 \\implies c = 7$.\nTiêu cự của hypebol là $2c = 2 \\times 7 = 14$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p2.png",
+          "sha256": "42831967fbd769dbebbcb1ed8b8386f4f38c2bb05432fc29432677d9287945e8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Lớp 10C có $15$ học sinh nam và $20$ học sinh nữ. Cần chọn $5$ em để tham gia lao động. Hỏi có mấy cách chọn sao cho:\na) Có đúng $2$ nam và $3$ nữ?\nb) Luôn có cả nam và nữ?",
+      "explanation": "a) Chọn đúng $2$ nam và $3$ nữ:\n- Chọn $2$ nam từ $15$ nam: có $C_{15}^2 = 105$ cách.\n- Chọn $3$ nữ từ $20$ nữ: có $C_{20}^3 = 1140$ cách.\nSố cách chọn là: $105 \\times 1140 = 119\\,700$ (cách).\nb) Luôn có cả nam và nữ:\n- Tổng số cách chọn $5$ học sinh bất kỳ từ $35$ học sinh là: $C_{35}^5 = 324\\,632$ cách.\n- Số cách chọn $5$ học sinh toàn nam: $C_{15}^5 = 3003$ cách.\n- Số cách chọn $5$ học sinh toàn nữ: $C_{20}^5 = 15\\,504$ cách.\nSố cách chọn luôn có cả nam và nữ là: $C_{35}^5 - (C_{15}^5 + C_{20}^5) = 324\\,632 - 18\\,507 = 306\\,125$ (cách).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p3.png",
+          "sha256": "c88462a6eab8ecfe3e285b733ad6d3e7b9020d60849ca53814007ebe2fd12207"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $A = \\left(x^2 - \\dfrac{2}{x}\\right)^5$ ($x \\ne 0$). Tìm hệ số của số hạng chứa $x^4$ trong khai triển của $A$?",
+      "explanation": "Số hạng tổng quát trong khai triển $A = \\left(x^2 - \\dfrac{2}{x}\\right)^5$ là:\n$$T_{k+1} = C_5^k (x^2)^{5-k} \\left(-\\dfrac{2}{x}\\right)^k = C_5^k (-2)^k x^{2(5-k)} x^{-k} = C_5^k (-2)^k x^{10 - 3k} \\quad (0 \\le k \\le 5)$$\nSố hạng chứa $x^4$ ứng với $10 - 3k = 4 \\iff 3k = 6 \\iff k = 2$.\nHệ số của số hạng chứa $x^4$ là:\n$$a_4 = C_5^2 (-2)^2 = 10 \\times 4 = 40.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p3.png",
+          "sha256": "c88462a6eab8ecfe3e285b733ad6d3e7b9020d60849ca53814007ebe2fd12207"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-080-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-080 mã 101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có ba hộp đựng thẻ. Hộp I chứa các tấm thẻ đánh số $\\{1; 2; 3\\}$. Hộp II chứa các tấm thẻ đánh số $\\{2; 4; 6; 8\\}$. Hộp III chứa các tấm thẻ đánh số $\\{1; 3; 5; 7; 9; 11\\}$. Từ mỗi hộp rút ngẫu nhiên một tấm thẻ rồi cộng ba số trên ba tấm thẻ với nhau. Tính xác suất để kết quả là một số chẵn.",
+      "explanation": "Số cách chọn mỗi hộp $1$ thẻ là số phần tử của không gian mẫu:\n$$n(\\Omega) = 3 \\times 4 \\times 6 = 72$$\nGọi số rút được ở hộp I, II, III lần lượt là $x, y, z$. Tổng là $S = x + y + z$.\nNhận xét:\n- Các số ở hộp II đều là số chẵn ($y$ luôn chẵn).\n- Các số ở hộp III đều là số lẻ ($z$ luôn lẻ).\nDo đó tổng $y + z$ luôn là một số lẻ (chẵn + lẻ = lẻ).\nĐể tổng $S = x + (y + z)$ là một số chẵn thì $x$ bắt buộc phải là một số lẻ (lẻ + lẻ = chẵn).\nTrong hộp I $\\{1; 2; 3\\}$, các số lẻ là $\\{1; 3\\}$ (có $2$ cách chọn $x$).\nSố kết quả thuận lợi cho biến cố tổng là số chẵn là:\n$$n(A) = 2 \\times 4 \\times 6 = 48$$\nXác suất cần tìm là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{48}{72} = \\dfrac{2}{3}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-080-p3.png",
+          "sha256": "c88462a6eab8ecfe3e285b733ad6d3e7b9020d60849ca53814007ebe2fd12207"
+        }
+      ]
+    }
+  ]
+}

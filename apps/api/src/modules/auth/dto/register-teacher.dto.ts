@@ -18,7 +18,7 @@ export class RegisterTeacherDto {
   @MinLength(8, { message: 'Mật khẩu phải có ít nhất 8 ký tự' })
   password: string;
 
-  @ApiPropertyOptional({ example: 'THCS Chu Văn An', description: 'Tên trường công tác' })
+  @ApiPropertyOptional({ example: 'THPT Chu Văn An', description: 'Tên trường công tác' })
   @IsOptional()
   @IsString()
   schoolName?: string;

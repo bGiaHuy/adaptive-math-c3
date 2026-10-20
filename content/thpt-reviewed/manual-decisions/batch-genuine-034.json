@@ -1,0 +1,934 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-040-M100-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-040 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} -2x + 1 & \\text{khi } x \\ge 2 \\\\ \\dfrac{1}{x - 2} & \\text{khi } x < 2 \\end{cases}$.",
+      "explanation": "Xét từng mệnh đề:\n- a) Với $x \\ge 2$, biểu thức $-2x + 1$ luôn xác định. Với $x < 2$, mẫu số $x - 2 \\ne 0$ luôn thỏa mãn, do đó $\\dfrac{1}{x-2}$ luôn xác định. Vậy tập xác định là $D = \\mathbb{R}$. Mệnh đề a ĐÚNG.\n- b) Vì $2 \\ge 2$ nên $f(2) = -2(2) + 1 = -3$. Mệnh đề b ĐÚNG.\n- c) Vì $0 < 2$ nên $f(0) = \\dfrac{1}{0 - 2} = -\\dfrac{1}{2} \\ne 1$. Mệnh đề c SAI.\n- d) Với $x \\in (2; +\\infty)$, $f(x) = -2x + 1$ là hàm số bậc nhất có hệ số $a = -2 < 0$, do đó hàm số nghịch biến trên khoảng này. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-040-page-2.png",
+          "sha256": "b3d2ff00825bb2ce5bd04093f4650dcea5772a2309f3a605dccb23cf6cd95858"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-040-M100-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-040 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho parabol $(P): y = -2x^2 + x - 1$.",
+      "explanation": "Xét parabol $y = ax^2 + bx + c$ với $a = -2, b = 1, c = -1$:\n- a) Hoành độ đỉnh: $x_S = -\\dfrac{b}{2a} = -\\dfrac{1}{2(-2)} = \\dfrac{1}{4}$. Tung độ đỉnh: $y_S = -2\\left(\\dfrac{1}{4}\\right)^2 + \\dfrac{1}{4} - 1 = -\\dfrac{1}{8} + \\dfrac{2}{8} - \\dfrac{8}{8} = -\\dfrac{7}{8}$. Vậy đỉnh $S\\left(\\dfrac{1}{4}; -\\dfrac{7}{8}\\right)$. Mệnh đề a ĐÚNG.\n- b) Trục đối xứng là đường thẳng $x = \\dfrac{1}{4} \\ne \\dfrac{1}{2}$. Mệnh đề b SAI.\n- c) Do $a = -2 < 0$, parabol quay bề lõm xuống dưới, hàm số đạt giá trị lớn nhất tại đỉnh: $\\max y = y_S = -\\dfrac{7}{8}$. Mệnh đề c ĐÚNG.\n- d) Nếu $(P'): y = a'x^2 + b'x + c'$ có cùng đỉnh $S\\left(\\dfrac{1}{4}; -\\dfrac{7}{8}\\right)$ thì dạng của nó là $y = a'\\left(x - \\dfrac{1}{4}\\right)^2 - \\dfrac{7}{8}$. Vì $(P')$ đi qua $A(1; 2)$ nên $2 = a'\\left(1 - \\dfrac{1}{4}\\right)^2 - \\dfrac{7}{8} \\Rightarrow 2 + \\dfrac{7}{8} = a' \\cdot \\dfrac{9}{16} \\Rightarrow \\dfrac{23}{8} = \\dfrac{9}{16} a' \\Rightarrow a' = \\dfrac{46}{9} \\ne -2$. Phương trình đề bài đưa ra $y = -2x^2 + x + 3$ có cùng $a = -2, b = 1$ nhưng tại $x = 1$, $y = -2(1)^2 + 1 + 3 = 2$, tuy nhiên đỉnh của nó là $S'\\left(\\dfrac{1}{4}; \\dfrac{25}{8}\\right) \\ne S$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-040-page-2.png",
+          "sha256": "b3d2ff00825bb2ce5bd04093f4650dcea5772a2309f3a605dccb23cf6cd95858"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-040-M100-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-040 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $AB = 4\\sqrt{2}, AC = 6, \\widehat{BAC} = 45^{\\circ}$. Gọi $D$ là trung điểm của đoạn thẳng $BC$ và $E$ là điểm trên cạnh $AC$ sao cho $AE = \\dfrac{5}{6}AC$.",
+      "explanation": "Xét từng mệnh đề:\n- a) $\\vec{AB} \\cdot \\vec{AC} = |\\vec{AB}| \\cdot |\\vec{AC}| \\cdot \\cos 45^{\\circ} = 4\\sqrt{2} \\cdot 6 \\cdot \\dfrac{\\sqrt{2}}{2} = 24 \\ne 20$. Mệnh đề a SAI.\n- b) Vì $D$ là trung điểm đoạn thẳng $BC$ nên $\\vec{AD} = \\dfrac{1}{2}(\\vec{AB} + \\vec{AC}) = \\dfrac{1}{2}\\vec{AB} + \\dfrac{1}{2}\\vec{AC}$. Mệnh đề b ĐÚNG.\n- c) Ta có $\\vec{BE} = \\vec{AE} - \\vec{AB} = -\\vec{AB} + \\dfrac{5}{6}\\vec{AC} \\ne \\vec{AB} + \\dfrac{5}{6}\\vec{AC}$. Mệnh đề c SAI.\n- d) Xét tích vô hướng:\n$$\\vec{AD} \\cdot \\vec{BE} = \\left(\\dfrac{1}{2}\\vec{AB} + \\dfrac{1}{2}\\vec{AC}\\right) \\cdot \\left(-\\vec{AB} + \\dfrac{5}{6}\\vec{AC}\\right)$$\n$$= -\\dfrac{1}{2}AB^2 + \\dfrac{5}{12}AC^2 + \\left(\\dfrac{5}{12} - \\dfrac{1}{2}\\right)(\\vec{AB} \\cdot \\vec{AC})$$\nThay $AB^2 = (4\\sqrt{2})^2 = 32$, $AC^2 = 6^2 = 36$, $\\vec{AB} \\cdot \\vec{AC} = 24$:\n$$\\vec{AD} \\cdot \\vec{BE} = -\\dfrac{1}{2}(32) + \\dfrac{5}{12}(36) - \\dfrac{1}{12}(24) = -16 + 15 - 2 = -3 \\ne 0.$$\nDo đó $AD$ không vuông góc với $BE$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-040-page-2.png",
+          "sha256": "b3d2ff00825bb2ce5bd04093f4650dcea5772a2309f3a605dccb23cf6cd95858"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-040-M100-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-040 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Vẽ đồ thị hàm số $y = x^2 + 2x - 3$. Hãy xác định tọa độ đỉnh $S(x_S; y_S)$ của parabol trên (nhập đáp án dưới dạng tích $x_S \\cdot y_S$).",
+      "explanation": "Hàm số $y = x^2 + 2x - 3$ có $a = 1, b = 2, c = -3$.\n- Tọa độ đỉnh $S$:\n$$x_S = -\\dfrac{b}{2a} = -\\dfrac{2}{2(1)} = -1.$$\n$$y_S = (-1)^2 + 2(-1) - 3 = 1 - 2 - 3 = -4.$$\nDo đó tọa độ đỉnh là $S(-1; -4)$, trục đối xứng là $x = -1$.\nBảng giá trị điểm đặc biệt: $(-3; 0), (-2; -3), (-1; -4), (0; -3), (1; 0)$.\nTích hoành độ và tung độ đỉnh: $x_S \\cdot y_S = (-1)(-4) = 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-040-page-3.png",
+          "sha256": "2dd612eb932906d7beb101eccfd2c39cf771e8fb35ae74ec4ae6198544e2cba6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-040-M100-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-040 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bác Ba xây một chiếc cổng hình Parabol và gắn cửa hình chữ nhật bên dưới cổng (như hình vẽ). Biết chiều cao của cổng là $3\\text{ m}$ và biết cánh cửa có chiều cao $2\\text{ m}$, chiều rộng $3\\text{ m}$. Hỏi khoảng cách giữa 2 chân cổng (độ dài đoạn $AB$) bằng bao nhiêu mét? (làm tròn kết quả đến hàng phần mười).\n\n![Cổng parabol](/math-import-assets/thpt-figure-040-p3-gate.png)",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ sao cho gốc $O$ là trung điểm đoạn nối hai chân cổng $AB$, trục $Oy$ trùng với trục đối xứng của parabol, hướng lên trên. Khi đó phương trình parabol có dạng:\n$$(P): y = ax^2 + c \\quad (a < 0).$$\nChiều cao của cổng là $3\\text{ m}$ nên đỉnh parabol là $(0; 3) \\Rightarrow c = 3$.\nCánh cửa hình chữ nhật có chiều rộng $3\\text{ m}$ và chiều cao $2\\text{ m}$, đối xứng qua trục $Oy$, do đó hai mép trên của cửa có tọa độ là $\\left(-\\dfrac{3}{2}; 2\\right)$ và $\\left(\\dfrac{3}{2}; 2\\right)$.\nVì điểm $\\left(\\dfrac{3}{2}; 2\\right) \\in (P)$ nên:\n$$2 = a \\left(\\dfrac{3}{2}\\right)^2 + 3 \\iff \\dfrac{9}{4}a = -1 \\iff a = -\\dfrac{4}{9}.$$\nDo đó $(P): y = -\\dfrac{4}{9}x^2 + 3$.\nKhoảng cách giữa hai chân cổng là khoảng cách giữa hai giao điểm của $(P)$ với trục hoành ($y = 0$):\n$$-\\dfrac{4}{9}x^2 + 3 = 0 \\iff x^2 = \\dfrac{27}{4} \\iff x = \\pm \\dfrac{3\\sqrt{3}}{2}.$$\nKhoảng cách giữa 2 chân cổng:\n$$AB = 2 \\cdot \\dfrac{3\\sqrt{3}}{2} = 3\\sqrt{3} \\approx 5,196\\text{ m} \\approx 5,2\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-040-page-3.png",
+          "sha256": "2dd612eb932906d7beb101eccfd2c39cf771e8fb35ae74ec4ae6198544e2cba6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-040-M100-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-040 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác đều $ABC$ có cạnh bằng $2a$. Gọi $K$ là trung điểm của cạnh $AC$, các điểm $H$ và $I$ được định bởi $5\\vec{BH} = \\vec{BC}$ và $3\\vec{BI} = \\vec{BK}$.\na) Tính độ dài của vectơ $\\vec{u} = \\vec{BA} + \\vec{AC}$ theo $a$.\nb) Chứng minh rằng ba điểm $A, I, H$ thẳng hàng và tìm tỉ số $\\dfrac{AI}{AH}$.",
+      "explanation": "a) Ta có:\n$$\\vec{u} = \\vec{BA} + \\vec{AC} = \\vec{BC}.$$\nĐộ dài của vectơ là:\n$$|\\vec{u}| = |\\vec{BC}| = BC = 2a.$$\n\nb) Biểu diễn $\\vec{AH}$ và $\\vec{AI}$ theo hai vectơ không cùng phương $\\vec{AB}, \\vec{AC}$:\n- Ta có $5\\vec{BH} = \\vec{BC} \\iff 5(\\vec{AH} - \\vec{AB}) = \\vec{AC} - \\vec{AB} \\iff 5\\vec{AH} = 4\\vec{AB} + \\vec{AC} \\iff \\vec{AH} = \\dfrac{4}{5}\\vec{AB} + \\dfrac{1}{5}\\vec{AC}$.\n- Ta có $K$ là trung điểm $AC$ nên $\\vec{AK} = \\dfrac{1}{2}\\vec{AC}$.\nTừ $3\\vec{BI} = \\vec{BK} \\iff 3(\\vec{AI} - \\vec{AB}) = \\vec{AK} - \\vec{AB} \\iff 3\\vec{AI} = 2\\vec{AB} + \\dfrac{1}{2}\\vec{AC} \\iff \\vec{AI} = \\dfrac{2}{3}\\vec{AB} + \\dfrac{1}{6}\\vec{AC}$.\n- Nhận thấy:\n$$\\vec{AI} = \\dfrac{5}{6} \\left(\\dfrac{4}{5}\\vec{AB} + \\dfrac{1}{5}\\vec{AC}\\right) = \\dfrac{5}{6}\\vec{AH}.$$\nDo đó $\\vec{AI} = \\dfrac{5}{6}\\vec{AH}$, suy ra ba điểm $A, I, H$ thẳng hàng và tỉ số $\\dfrac{AI}{AH} = \\dfrac{5}{6}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-040-page-3.png",
+          "sha256": "2dd612eb932906d7beb101eccfd2c39cf771e8fb35ae74ec4ae6198544e2cba6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-041-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-041 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{x \\in \\mathbb{R} \\mid x^2 - 5x + 4 = 0\\}$, $B = \\{x \\in \\mathbb{N} \\mid 2x - 3 < 6\\}$. Tìm số phần tử của tập hợp $A \\cap B$.",
+      "explanation": "Giải các điều kiện của hai tập hợp:\n- Với tập $A$: $x^2 - 5x + 4 = 0 \\iff (x - 1)(x - 4) = 0 \\iff x = 1$ hoặc $x = 4$. Do đó $A = \\{1; 4\\}$.\n- Với tập $B$: $2x - 3 < 6 \\iff 2x < 9 \\iff x < 4,5$. Vì $x \\in \\mathbb{N}$ nên $B = \\{0; 1; 2; 3; 4\\}$.\n- Giao của hai tập hợp:\n$$A \\cap B = \\{1; 4\\}.$$\nTập hợp $A \\cap B$ có 2 phần tử.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-041-page-3.png",
+          "sha256": "f833bc498c55ae7b1b3c737050776e68733e01522a3a7ff5555a6f0c5c6330ea"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-041-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-041 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai lực $\\vec{F}_1, \\vec{F}_2$ đều có cường độ bằng $70\\text{ N}$ và có cùng điểm đặt tại một điểm. Góc hợp bởi $\\vec{F}_1$ và $\\vec{F}_2$ bằng $60^{\\circ}$. Tính cường độ lực tổng hợp của $\\vec{F}_1$ và $\\vec{F}_2$ theo đơn vị newton.",
+      "explanation": "Gọi hợp lực là $\\vec{F} = \\vec{F}_1 + \\vec{F}_2$. Đặt hai vectơ lực chung gốc $O$: $\\vec{F}_1 = \\vec{OA}, \\vec{F}_2 = \\vec{OB}$ với $OA = OB = 70\\text{ N}$ và $\\widehat{AOB} = 60^{\\circ}$.\nDựng hình bình hành $OACB$, vì $OA = OB$ và $\\widehat{AOB} = 60^{\\circ}$ nên tam giác $OAB$ là tam giác đều cạnh $70$, tứ giác $OACB$ là hình thoi có góc $60^{\\circ}$.\nĐộ dài đường chéo $OC$ biểu diễn cường độ hợp lực:\n$$F = |\\vec{OC}| = 2 \\cdot OA \\cdot \\cos 30^{\\circ} = 2 \\cdot 70 \\cdot \\dfrac{\\sqrt{3}}{2} = 70\\sqrt{3}\\text{ N}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-041-page-3.png",
+          "sha256": "f833bc498c55ae7b1b3c737050776e68733e01522a3a7ff5555a6f0c5c6330ea"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-041-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-041 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho ba điểm $A(5; 2), B(-3; 4), C(3; -4)$.\na) Xác định tọa độ vectơ $\\vec{u} = 2\\vec{AB} + \\vec{BC}$.\nb) Tìm tọa độ điểm $M$ thuộc trục hoành sao cho $\\widehat{AMC} = 90^{\\circ}$. Hãy tính tổng các hoành độ của các điểm $M$ thỏa mãn.",
+      "explanation": "a) Ta có:\n- $\\vec{AB} = (-3 - 5; 4 - 2) = (-8; 2) \\Rightarrow 2\\vec{AB} = (-16; 4)$.\n- $\\vec{BC} = (3 - (-3); -4 - 4) = (6; -8)$.\n- Suy ra $\\vec{u} = 2\\vec{AB} + \\vec{BC} = (-16 + 6; 4 + (-8)) = (-10; -4)$.\n\nb) Vì $M \\in Ox$ nên $M(x; 0)$.\n- Khi đó $\\vec{MA} = (5 - x; 2)$ và $\\vec{MC} = (3 - x; -4)$.\n- Điều kiện $\\widehat{AMC} = 90^{\\circ} \\iff \\vec{MA} \\perp \\vec{MC} \\iff \\vec{MA} \\cdot \\vec{MC} = 0$:\n$$(5 - x)(3 - x) + 2(-4) = 0 \\iff x^2 - 8x + 15 - 8 = 0 \\iff x^2 - 8x + 7 = 0.$$\n- Phương trình có 2 nghiệm: $x_1 = 1$ và $x_2 = 7$.\nVậy có hai điểm thỏa mãn là $M_1(1; 0)$ và $M_2(7; 0)$. Tổng các hoành độ là $1 + 7 = 8$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-041-page-3.png",
+          "sha256": "f833bc498c55ae7b1b3c737050776e68733e01522a3a7ff5555a6f0c5c6330ea"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-041-M101-PART-IV-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-041 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số chiếc áo ấm bán ra của một cửa hàng ở phường Đông Hà trong 21 ngày đầu tháng 11 năm 2025 được thống kê theo mẫu số liệu như sau:\n$$\\begin{matrix} 80 & 65 & 51 & 48 & 45 & 61 & 76 & 35 & 87 & 83 & 74 \\\\ 30 & 68 & 39 & 41 & 54 & 61 & 72 & 75 & 72 & 61 & \\end{matrix}$$\nHãy tính tổng các tứ phân vị $Q_1 + Q_2 + Q_3$ của mẫu số liệu trên.",
+      "explanation": "Sắp xếp dãy số liệu 21 giá trị theo thứ tự không giảm:\n$$30, 35, 39, 41, 45, 48, 51, 54, 61, 61, 61, 65, 68, 72, 72, 74, 75, 76, 80, 83, 87.$$\n- Cỡ mẫu $n = 21$ (lẻ), trung vị $Q_2$ là giá trị thứ 11: $Q_2 = 61$.\n- Nửa dưới gồm 10 giá trị đầu: $30, 35, 39, 41, 45, 48, 51, 54, 61, 61$.\nTrung vị nửa dưới là $Q_1 = \\dfrac{45 + 48}{2} = \\dfrac{93}{2} = 46,5$.\n- Nửa trên gồm 10 giá trị cuối: $65, 68, 72, 72, 74, 75, 76, 80, 83, 87$.\nTrung vị nửa trên là $Q_3 = \\dfrac{74 + 75}{2} = \\dfrac{149}{2} = 74,5$.\n- Tổng ba tứ phân vị:\n$$Q_1 + Q_2 + Q_3 = 46,5 + 61 + 74,5 = 182.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-041-page-3.png",
+          "sha256": "f833bc498c55ae7b1b3c737050776e68733e01522a3a7ff5555a6f0c5c6330ea"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-041-M101-PART-IV-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-041 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Thống kê điểm năm lớp 10 của ba bạn Anh, Bích và Khánh các môn như sau:\n- Anh: $9,5; 8,5; 8,8; 8,7; 9,2; 8,6; 9,3; 7,8; 9,8$.\n- Bích: $9,2; 8,9; 8,5; 8,5; 8,8; 9,4; 9,4; 8,5; 9,0$.\n- Khánh: $9,3; 8,5; 9,5; 8,8; 8,3; 9,1; 9,1; 8,4; 9,2$.\nGiáo viên cần chọn một trong ba bạn có học lực đồng đều nhất để tham gia cuộc thi Chinh phục do nhà trường tổ chức. Hãy tính phương sai điểm số của bạn có điểm số đồng đều nhất (làm tròn đến hàng phần nghìn).",
+      "explanation": "Tính các đặc trưng thống kê của 9 môn cho từng bạn:\n1. Điểm trung bình của cả 3 bạn đều bằng nhau:\n$$\\bar{x} = \\dfrac{80,2}{9} \\approx 8,91.$$\n2. Tính phương sai $s^2$:\n- Bạn Anh: $s_{\\text{Anh}}^2 = \\dfrac{659}{2025} \\approx 0,325$.\n- Bạn Bích: $s_{\\text{Bích}}^2 = \\dfrac{49}{405} \\approx 0,121$.\n- Bạn Khánh: $s_{\\text{Khánh}}^2 = \\dfrac{661}{4050} \\approx 0,163$.\nDo $s_{\\text{Bích}}^2 < s_{\\text{Khánh}}^2 < s_{\\text{Anh}}^2$, độ phân tán điểm số của bạn Bích là nhỏ nhất, chứng tỏ bạn Bích có kết quả học tập đồng đều nhất giữa các môn. Phương sai của bạn Bích xấp xỉ $0,121$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-041-page-3.png",
+          "sha256": "f833bc498c55ae7b1b3c737050776e68733e01522a3a7ff5555a6f0c5c6330ea"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = 3x^2 - 2x + 1$. Điểm nào sau đây thuộc đồ thị hàm số đã cho?",
+      "explanation": "Thay tọa độ các điểm vào hàm số:\n- Với $x = 0 \\Rightarrow y = 3(0)^2 - 2(0) + 1 = 1$, do đó điểm $I(0; 1)$ thuộc đồ thị hàm số.\n- Với $x = 1 \\Rightarrow y = 3(1)^2 - 2(1) + 1 = 2 \\ne 1, 0, -1$, các phương án A, C, D đều không thuộc đồ thị.\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương trình $x^2 - 4x + 3 = 0$. Tổng các nghiệm của phương trình đã cho bằng:",
+      "explanation": "Theo định lý Vi-ét, phương trình bậc hai $ax^2 + bx + c = 0$ có tổng hai nghiệm là $S = x_1 + x_2 = -\\dfrac{b}{a}$.\nỞ đây $a = 1, b = -4$ nên $S = -\\dfrac{-4}{1} = 4$.\n(Hoặc giải trực tiếp được hai nghiệm $x = 1$ và $x = 3$, tổng là $1 + 3 = 4$).\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho bất phương trình $-x^2 + 5x - 6 > 0$. Nghiệm của bất phương trình đã cho là:",
+      "explanation": "Tam thức bậc hai $-x^2 + 5x - 6$ có hai nghiệm là $x = 2$ và $x = 3$, hệ số $a = -1 < 0$.\nTheo quy tắc \"trong trái ngoài cùng\", tam thức mang dấu dương trong khoảng hai nghiệm, tức là $2 < x < 3$.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ đều cạnh bằng $3$. Độ dài của vectơ $5\\vec{AB}$ là?",
+      "explanation": "Ta có $|5\\vec{AB}| = 5|\\vec{AB}| = 5 \\cdot AB = 5 \\cdot 3 = 15$.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\sqrt{-x^2 + 1} = \\sqrt{4 - 4x}$ là:",
+      "explanation": "Bình phương hai vế phương trình:\n$$-x^2 + 1 = 4 - 4x \\iff x^2 - 4x + 3 = 0 \\iff \\left[\\begin{matrix} x = 1 \\\\ x = 3 \\end{matrix}\\right.$$\nThử lại vào phương trình ban đầu:\n- Với $x = 1$: $\\sqrt{-1^2 + 1} = \\sqrt{0} = 0$, $\\sqrt{4 - 4(1)} = 0$ (thỏa mãn).\n- Với $x = 3$: $-x^2 + 1 = -9 + 1 = -8 < 0$ (loại vì biểu thức dưới căn âm).\nVậy phương trình có nghiệm duy nhất $x = 1$.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam thức bậc hai $f(x)$ có bảng xét dấu như hình bên dưới. Bảng xét dấu trên là của tam thức nào sau đây?\n\n![Bảng xét dấu](/math-import-assets/thpt-figure-042-p1-q6-signs.png)",
+      "explanation": "Dựa vào bảng xét dấu:\n- $f(x) = 0$ tại $x = -2$ và $x = 3$.\n- Trong khoảng $(-2; 3)$, $f(x) > 0$. Ngoài khoảng $(-\\infty; -2) \\cup (3; +\\infty)$, $f(x) < 0$.\nDo đó hệ số $a < 0$. Dạng tam thức là:\n$$f(x) = a(x + 2)(x - 3) = a(x^2 - x - 6) = -a(-x^2 + x + 6).$$\nVới $a = -1 < 0$, ta có $f(x) = -x^2 + x + 6$.\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bạn Minh vào một quán tạp hóa để mua đồ uống, trong quán tạp hóa có 6 loại nước ngọt khác nhau, 4 loại nước lọc khác nhau. Hỏi bạn Minh có mấy cách để mua một loại đồ uống?",
+      "explanation": "Bạn Minh chọn mua một loại đồ uống từ hai nhóm lựa chọn riêng biệt:\n- Chọn 1 loại nước ngọt: có 6 cách.\n- Chọn 1 loại nước lọc: có 4 cách.\nTheo quy tắc cộng, tổng số cách chọn một loại đồ uống là:\n$$6 + 4 = 10\\text{ cách}.$$\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho bất phương trình $3x^2 + 2x - 5 > 0$. Tập nghiệm của bất phương trình đã cho là:",
+      "explanation": "Tam thức $3x^2 + 2x - 5$ có hệ số $a = 3 > 0$ và hai nghiệm là $x = 1$ và $x = -\\dfrac{5}{3}$.\nBất phương trình mang dấu dương (cùng dấu hệ số $a$) ở ngoài khoảng hai nghiệm:\n$$x < -\\dfrac{5}{3} \\quad \\text{hoặc} \\quad x > 1.$$\nVậy tập nghiệm là $S = \\left(-\\infty; -\\dfrac{5}{3}\\right) \\cup (1; +\\infty)$.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có 3 kiểu mặt đồng hồ đeo tay và 4 kiểu dây. Hỏi có bao nhiêu cách chọn một chiếc đồng hồ gồm một mặt và một dây?",
+      "explanation": "Việc chọn một chiếc đồng hồ gồm 2 công đoạn liên tiếp:\n- Chọn 1 mặt đồng hồ: có 3 cách.\n- Chọn 1 dây đồng hồ: có 4 cách.\nTheo quy tắc nhân, số cách chọn là:\n$$3 \\times 4 = 12\\text{ cách}.$$\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đoạn thẳng $AB$, gọi $M$ là trung điểm của $AB$. Đẳng thức vectơ nào sau đây đúng?",
+      "explanation": "Vì $M$ là trung điểm của đoạn thẳng $AB$, hai vectơ $\\vec{MA}$ và $\\vec{MB}$ cùng độ dài nhưng ngược hướng, do đó $\\vec{MA} = -\\vec{MB} \\iff \\vec{MA} + \\vec{MB} = \\vec{0}$.\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đẳng thức nào sau đây mô tả đúng hình vẽ bên?\n\n![Đoạn thẳng chia đều](/math-import-assets/thpt-figure-042-p1-q11-axis.png)",
+      "explanation": "Quan sát hình vẽ:\n- Đoạn thẳng $IB$ được chia thành 4 đoạn bằng nhau. Điểm $A$ là điểm chia thứ nhất tính từ $I$.\n- Đoạn $IA$ có độ dài 1 đơn vị, đoạn $AB$ có độ dài 3 đơn vị, do đó $AB = 3IA$.\n- Về hướng: vectơ $\\vec{AI}$ hướng từ phải sang trái (từ $A$ về $I$), còn vectơ $\\vec{AB}$ hướng từ trái sang phải (từ $A$ sang $B$). Hai vectơ này ngược hướng nhau.\nDo đó $\\vec{AB} = -3\\vec{AI}$.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có cạnh $AB = 4; AC = 7$ và $\\widehat{BAC} = 60^{\\circ}$. Tích vô hướng $\\vec{AB} \\cdot \\vec{AC}$ bằng?",
+      "explanation": "Tích vô hướng của hai vectơ:\n$$\\vec{AB} \\cdot \\vec{AC} = |\\vec{AB}| \\cdot |\\vec{AC}| \\cdot \\cos(\\widehat{BAC}) = 4 \\cdot 7 \\cdot \\cos 60^{\\circ} = 28 \\cdot \\dfrac{1}{2} = 14.$$\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-1.png",
+          "sha256": "57820fe99c20f4bcffa097ea3c054ecb447a01b454952fa3fc187182f51a2f74"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình vuông $ABCD$ có tâm $O$ cạnh bằng $4$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Xét từng mệnh đề:\n- a) Theo quy tắc hình bình hành với hình vuông $ABCD$, $\\vec{BA} + \\vec{BC} = \\vec{BD}$. Mệnh đề a ĐÚNG.\n- b) $AC$ là đường chéo hình vuông nên $(\\vec{AB}, \\vec{AC}) = \\widehat{BAC} = 45^{\\circ} \\ne 30^{\\circ}$. Mệnh đề b SAI.\n- c) Ta có $\\vec{CO} = \\dfrac{1}{2}\\vec{CA}$. Do đó $\\vec{AB} \\cdot \\vec{CO} = \\dfrac{1}{2}\\vec{AB} \\cdot \\vec{CA} = -\\dfrac{1}{2}\\vec{AB} \\cdot \\vec{AC} = -\\dfrac{1}{2}(4)(4\\sqrt{2})\\cos 45^{\\circ} = -\\dfrac{1}{2}(16) = -8 \\ne -16$. Mệnh đề c SAI.\n- d) Ta có $\\vec{AC} = \\vec{AB} + \\vec{AD}$, do đó $\\vec{AB} + \\vec{AC} = 2\\vec{AB} + \\vec{AD}$.\nVì $\\vec{AB} \\perp \\vec{AD}$ nên $|\\vec{AB} + \\vec{AC}|^2 = (2AB)^2 + AD^2 = 8^2 + 4^2 = 64 + 16 = 80$.\nSuy ra $|\\vec{AB} + \\vec{AC}| = \\sqrt{80} = 4\\sqrt{5}$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = -x^2 + 5x - 4$. Khi đó: Các mệnh đề sau đúng hay sai?",
+      "explanation": "Hàm số $y = -x^2 + 5x - 4$ có $a = -1 < 0, b = 5, c = -4$:\n- a) Vì $a = -1 < 0$ nên đồ thị hàm số có bề lõm quay xuống dưới. Mệnh đề a ĐÚNG.\n- b) Phương trình $-x^2 + 5x - 4 = 0$ có nghiệm $x = 1$ hoặc $x = 4$, không phải $x = 2, x = 3$. Mệnh đề b SAI.\n- c) Hoành độ đỉnh: $x_I = -\\dfrac{b}{2a} = -\\dfrac{5}{2(-1)} = \\dfrac{5}{2}$.\nTung độ đỉnh: $y_I = -\\left(\\dfrac{5}{2}\\right)^2 + 5\\left(\\dfrac{5}{2}\\right) - 4 = -\\dfrac{25}{4} + \\dfrac{50}{4} - \\dfrac{16}{4} = \\dfrac{9}{4}$.\nVậy đỉnh là $I\\left(\\dfrac{5}{2}; \\dfrac{9}{4}\\right)$. Mệnh đề c ĐÚNG.\n- d) Tam thức có $a = -1 < 0$ nên $f(x) \\le 0 \\iff x \\le 1$ hoặc $x \\ge 4$. Tập nghiệm là $(-\\infty; 1] \\cup [4; +\\infty)$, không phải $[1; 4]$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Từ các chữ số $1, 2, 3, 4, 5, 6$ lập được bao nhiêu số tự nhiên có 4 chữ số đôi một khác nhau?",
+      "explanation": "Số các số tự nhiên có 4 chữ số đôi một khác nhau lập từ tập hợp 6 chữ số $\\{1, 2, 3, 4, 5, 6\\}$ là một chỉnh hợp chập 4 của 6 phần tử:\n$$A_6^4 = 6 \\times 5 \\times 4 \\times 3 = 360\\text{ số}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu giá trị nguyên của tham số $m$ để $f(x) = x^2 - 2(m + 2)x - 5m + 9 > 0, \\forall x \\in \\mathbb{R}$?",
+      "explanation": "Tam thức bậc hai $f(x) = x^2 - 2(m + 2)x - 5m + 9$ có $a = 1 > 0$.\nĐể $f(x) > 0, \\forall x \\in \\mathbb{R}$, điều kiện cần và đủ là biệt thức thu gọn $\\Delta' < 0$:\n$$\\Delta' = (m + 2)^2 - 1(-5m + 9) = m^2 + 4m + 4 + 5m - 9 = m^2 + 9m - 5 < 0.$$\nGiải bất phương trình bậc hai $m^2 + 9m - 5 < 0$:\n$$m_1 = \\dfrac{-9 - \\sqrt{101}}{2} \\approx \\dfrac{-9 - 10,05}{2} = -9,525.$$\n$$m_2 = \\dfrac{-9 + \\sqrt{101}}{2} \\approx \\dfrac{-9 + 10,05}{2} = 0,525.$$\nDo đó $m \\in (-9,525; 0,525)$.\nCác giá trị nguyên của $m$ là: $m \\in \\{-9, -8, -7, -6, -5, -4, -3, -2, -1, 0\\}$.\nTổng cộng có $0 - (-9) + 1 = 10$ giá trị nguyên của $m$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai lực $\\vec{F}_1 = \\vec{MA}, \\vec{F}_2 = \\vec{MB}$ cùng tác động vào một vật tại điểm $M$. Cường độ hai lực $\\vec{F}_1, \\vec{F}_2$ lần lượt là $172\\text{ N}$ và $159\\text{ N}$ và góc $\\widehat{AMB} = 60^{\\circ}$. Tính độ lớn cường độ của lực tổng hợp tác động vào vật (làm tròn đến hàng đơn vị).",
+      "explanation": "Hợp lực tác động vào vật là $\\vec{F} = \\vec{F}_1 + \\vec{F}_2$.\nĐộ lớn hợp lực được tính theo công thức:\n$$F^2 = F_1^2 + F_2^2 + 2F_1 F_2 \\cos(\\widehat{AMB})$$\n$$F^2 = 172^2 + 159^2 + 2(172)(159)\\cos 60^{\\circ}$$\n$$F^2 = 29584 + 25281 + 2(172)(159)(0,5) = 54865 + 27348 = 82213.$$\n$$F = \\sqrt{82213} \\approx 286,728\\text{ N} \\approx 287\\text{ N}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Lợi nhuận thu được từ việc sản xuất và bán $x$ sản phẩm thủ công của một cửa hàng cho bởi biểu thức $F(x) = -x^2 + 135x - 3800$, với $F$ được tính bằng nghìn đồng. Gọi $[a; b]$ là đoạn biểu thị số sản phẩm được sản xuất để đảm bảo cửa hàng không bị lỗ (giả thiết các sản phẩm được bán hết). Tính giá trị biểu thức $b - a$.",
+      "explanation": "Cửa hàng không bị lỗ khi lợi nhuận không âm: $F(x) \\ge 0$.\n$$-x^2 + 135x - 3800 \\ge 0 \\iff x^2 - 135x + 3800 \\le 0.$$\nGiải phương trình $x^2 - 135x + 3800 = 0$:\n$$\\Delta = 135^2 - 4(1)(3800) = 18225 - 15200 = 3025 = 55^2.$$\n$$x_1 = \\dfrac{135 - 55}{2} = 40, \\quad x_2 = \\dfrac{135 + 55}{2} = 95.$$\nDo đó đoạn sản phẩm không bị lỗ là $[a; b] = [40; 95]$, tức là $a = 40, b = 95$.\nGiá trị biểu thức: $b - a = 95 - 40 = 55$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải phương trình: $\\sqrt{4x^2 - 16x + 1} = x - 3$.",
+      "explanation": "Phương trình $\\sqrt{4x^2 - 16x + 1} = x - 3$ tương đương với hệ:\n$$\\begin{cases} x - 3 \\ge 0 \\\\ 4x^2 - 16x + 1 = (x - 3)^2 \\end{cases} \\iff \\begin{cases} x \\ge 3 \\\\ 4x^2 - 16x + 1 = x^2 - 6x + 9 \\end{cases}$$\n$$\\iff \\begin{cases} x \\ge 3 \\\\ 3x^2 - 10x - 8 = 0 \\end{cases}$$\nGiải phương trình bậc hai $3x^2 - 10x - 8 = 0$:\n$$\\Delta' = (-5)^2 - 3(-8) = 25 + 24 = 49 = 7^2.$$\n$$x_1 = \\dfrac{5 + 7}{3} = 4, \\quad x_2 = \\dfrac{5 - 7}{3} = -\\dfrac{2}{3}.$$\nĐối chiếu điều kiện $x \\ge 3$, nghiệm $x_2 = -\\dfrac{2}{3}$ bị loại, nghiệm $x_1 = 4$ thỏa mãn.\nVậy phương trình có nghiệm duy nhất $x = 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tại một buổi khai trương, người ta làm một cổng chào có đường viền trong của mặt cắt là đường parabol. Người ta đo khoảng cách giữa hai chân cổng là $4,5\\text{ m}$. Từ một điểm trên thân cổng người ta đo được khoảng cách tới mặt đất (điểm $H$) là $1,8\\text{ m}$ và khoảng cách từ điểm $H$ tới chân cổng gần nhất là $1\\text{ m}$. Hãy tính chiều cao của cổng chào đó (tính theo đường viền trong) theo đơn vị mét và làm tròn kết quả đến hàng phần mười.",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ với gốc $O$ trùng một chân cổng, chân cổng còn lại là $A(4,5; 0)$, trục $Ox$ nằm trên mặt đất nối hai chân cổng.\nPhương trình đường viền trong parabol có dạng $y = ax^2 + bx + c$.\n- Parabol đi qua $O(0; 0) \\Rightarrow c = 0$.\n- Parabol đi qua $A(4,5; 0) \\Rightarrow a(4,5)^2 + 4,5b = 0 \\iff 4,5a + b = 0$.\n- Điểm trên thân cổng có hình chiếu $H$ cách chân cổng $1\\text{ m}$ và cao $1,8\\text{ m}$, do đó parabol đi qua điểm $B(1; 1,8)$:\n$$a(1)^2 + b(1) = 1,8 \\iff a + b = 1,8.$$\nGiải hệ phương trình:\n$$\\begin{cases} 4,5a + b = 0 \\\\ a + b = 1,8 \\end{cases} \\iff \\begin{cases} 3,5a = -1,8 \\\\ b = 1,8 - a \\end{cases} \\iff \\begin{cases} a = -\\dfrac{18}{35} \\\\ b = \\dfrac{81}{35} \\end{cases}$$\nPhương trình parabol là $y = -\\dfrac{18}{35}x^2 + \\dfrac{81}{35}x$.\nHoành độ đỉnh parabol:\n$$x_S = -\\dfrac{b}{2a} = \\dfrac{4,5}{2} = 2,25 = \\dfrac{9}{4}.$$\nChiều cao của cổng chào là tung độ đỉnh:\n$$y_S = -\\dfrac{18}{35}\\left(\\dfrac{9}{4}\\right)^2 + \\dfrac{81}{35}\\left(\\dfrac{9}{4}\\right) = \\dfrac{729}{280} \\approx 2,60357\\text{ m} \\approx 2,6\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-042-M1001-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-042 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình thang vuông $ABCD$ có đường cao $AB$, $AD = 2BC$. Kẻ $AH \\perp BD$, gọi $M$ là trung điểm $DH$.\na) Biểu diễn vectơ $\\vec{AM}$ theo $\\vec{AH}, \\vec{AD}$.\nb) Chứng minh rằng $AM \\perp CM$.",
+      "explanation": "a) Vì $M$ là trung điểm của đoạn thẳng $DH$ nên theo công thức trung điểm:\n$$\\vec{AM} = \\dfrac{1}{2}(\\vec{AH} + \\vec{AD}).$$\n\nb) Ta biểu diễn vectơ $\\vec{CM}$:\n$$\\vec{CM} = \\vec{CB} + \\vec{BM} = -\\vec{BC} + (\\vec{AM} - \\vec{AB}) = -\\dfrac{1}{2}\\vec{AD} + \\vec{AM} - \\vec{AB}.$$\nThay $\\vec{AM} = \\dfrac{1}{2}\\vec{AH} + \\dfrac{1}{2}\\vec{AD}$:\n$$\\vec{CM} = -\\dfrac{1}{2}\\vec{AD} + \\dfrac{1}{2}\\vec{AH} + \\dfrac{1}{2}\\vec{AD} - \\vec{AB} = \\dfrac{1}{2}\\vec{AH} - \\vec{AB}.$$\nTính tích vô hướng $\\vec{AM} \\cdot \\vec{CM}$:\n$$\\vec{AM} \\cdot \\vec{CM} = \\dfrac{1}{2}(\\vec{AH} + \\vec{AD}) \\cdot \\left(\\dfrac{1}{2}\\vec{AH} - \\vec{AB}\\right)$$\n$$= \\dfrac{1}{4}AH^2 - \\dfrac{1}{2}\\vec{AH} \\cdot \\vec{AB} + \\dfrac{1}{4}\\vec{AD} \\cdot \\vec{AH} - \\dfrac{1}{2}\\vec{AD} \\cdot \\vec{AB}.$$\nVì hình thang vuông tại $A$ và $B$ nên $AD \\perp AB \\Rightarrow \\vec{AD} \\cdot \\vec{AB} = 0$.\nTrong tam giác vuông $ABD$ có $AH \\perp BD$:\n- $\\vec{AH} \\cdot \\vec{AB} = AH \\cdot AB \\cos(\\widehat{HAB}) = AH \\cdot \\dfrac{AH}{AB} \\cdot AB = AH^2$.\n- $\\vec{AD} \\cdot \\vec{AH} = AD \\cdot AH \\cos(\\widehat{HAD}) = AD \\cdot \\dfrac{AH}{AD} \\cdot AH = AH^2$.\nDo đó:\n$$\\vec{AM} \\cdot \\vec{CM} = \\dfrac{1}{4}AH^2 - \\dfrac{1}{2}AH^2 + \\dfrac{1}{4}AH^2 - 0 = 0.$$\nSuy ra $\\vec{AM} \\perp \\vec{CM}$, hay $AM \\perp CM$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-042-page-2.png",
+          "sha256": "5cbf4f41dfe8eaa9082e41a11600baeb1e80d05e5f7162e77fd1a1984e5ffb36"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hệ bất phương trình nào dưới đây không phải là hệ bất phương trình bậc nhất hai ẩn $x$ và $y$?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn gồm các bất phương trình chứa dấu $>$, $<$, $\\ge$, $\\le$. Hệ ở phương án D là hệ hai phương trình bậc nhất hai ẩn (chứa dấu đẳng thức $=$), không phải là hệ bất phương trình.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số áo bán được trong một quý ở cửa hàng bán áo sơ mi nam được thống kê như sau:\n$$\\begin{matrix} \\text{Cỡ áo} & 37 & 38 & 39 & 40 & 41 & 42 \\\\ \\text{Tần số} & 45 & 126 & 125 & 110 & 40 & 12 \\end{matrix}$$\nGiá trị mốt của bảng phân bố tần số trên bằng:",
+      "explanation": "Mốt của mẫu số liệu là giá trị có tần số xuất hiện lớn nhất.\nỞ bảng trên, tần số lớn nhất là $126$, ứng với cỡ áo $38$.\nVậy mốt của mẫu số liệu là $38$.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phần không bị gạch chéo ở hình bên dưới là hình biểu diễn miền nghiệm của hệ bất phương trình nào trong bốn hệ sau đây?\n\n![Miền nghiệm hệ bất phương trình](/math-import-assets/thpt-figure-045-p1-q3-region.png)",
+      "explanation": "Quan sát hai đường thẳng biên trên đồ thị:\n1. Đường thẳng $d_1$ đi qua $(-2; 0)$ và $(0; 1)$: phương trình là $\\dfrac{x}{-2} + \\dfrac{y}{1} = 1 \\iff x - 2y + 2 = 0$. Miền không bị gạch chứa gốc $O(0; 0)$ và $0 - 2(0) + 2 = 2 \\ge 0$, do đó bất phương trình là $x - 2y + 2 \\ge 0$.\n2. Đường thẳng $d_2$ đi qua $(3; 0)$ và $(0; 2)$: phương trình là $\\dfrac{x}{3} + \\dfrac{y}{2} = 1 \\iff 2x + 3y = 6$. Miền không bị gạch không chứa $O(0; 0)$ vì $2(0) + 3(0) = 0 < 6$, do đó bất phương trình là $2x + 3y \\ge 6$.\nCác đường biên vẽ nét liền nên lấy cả dấu bằng. Hệ bất phương trình là $\\begin{cases} x - 2y + 2 \\ge 0 \\\\ 2x + 3y \\ge 6 \\end{cases}$.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho điểm $M(1; 3)$. Tọa độ của vectơ $\\vec{OM}$ là:",
+      "explanation": "Theo định nghĩa tọa độ điểm trong mặt phẳng tọa độ, nếu $M(x; y)$ thì tọa độ của vectơ vị trí $\\vec{OM}$ là $(x; y)$.\nVới $M(1; 3)$, ta có $\\vec{OM} = (1; 3)$.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Viết lại mệnh đề sau bằng ký hiệu toán học: “Mọi số thực cộng với số đối của nó đều bằng 0”.",
+      "explanation": "“Mọi số thực” tương ứng với ký hiệu $\\forall x \\in \\mathbb{R}$. “Cộng với số đối của nó đều bằng 0” tương ứng với biểu thức $x + (-x) = 0$.\nVậy mệnh đề viết lại là $\\forall x \\in \\mathbb{R}, x + (-x) = 0$.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn $x, y$ có dạng tổng quát $ax + by > c$ (hoặc $<, \\ge, \\le$) với $a, b$ không đồng thời bằng 0, trong đó bậc của các ẩn $x$ và $y$ đều là 1.\n- A và D chứa bậc 2 ($x^2$ hoặc $y^2$).\n- B chỉ có 1 ẩn $x$.\n- C là $x + y > 5$ thỏa mãn đúng định nghĩa bất phương trình bậc nhất hai ẩn.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các đẳng thức sau đây, đẳng thức nào đúng?",
+      "explanation": "Tính các giá trị lượng giác của góc bù $150^{\\circ} = 180^{\\circ} - 30^{\\circ}$:\n- $\\sin 150^{\\circ} = \\sin 30^{\\circ} = \\dfrac{1}{2}$.\n- $\\cos 150^{\\circ} = -\\cos 30^{\\circ} = -\\dfrac{\\sqrt{3}}{2}$.\n- $\\tan 150^{\\circ} = -\\tan 30^{\\circ} = -\\dfrac{1}{\\sqrt{3}} = -\\dfrac{\\sqrt{3}}{3}$.\n- $\\cot 150^{\\circ} = -\\cot 30^{\\circ} = -\\sqrt{3}$.\nDo đó đẳng thức đúng là $\\tan 150^{\\circ} = -\\dfrac{\\sqrt{3}}{3}$.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phát biểu nào sau đây không phải là một mệnh đề?",
+      "explanation": "Mệnh đề là một khẳng định đúng hoặc sai, không thể vừa đúng vừa sai. Câu cảm thán (\"Trời hôm nay đẹp quá!\") biểu thị cảm xúc, không xác định được tính đúng sai nên không phải là một mệnh đề.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với mỗi góc $\\alpha$ ($0^{\\circ} \\le \\alpha \\le 180^{\\circ}, \\alpha \\ne 90^{\\circ}$), gọi $M(x_0; y_0)$ là điểm trên nửa đường tròn đơn vị sao cho $\\widehat{xOM} = \\alpha$. Khi đó, giá trị lượng giác $\\tan \\alpha$ bằng:",
+      "explanation": "Theo định nghĩa các giá trị lượng giác của góc $\\alpha$ trên nửa đường tròn đơn vị:\n$$\\sin \\alpha = y_0, \\quad \\cos \\alpha = x_0.$$\nKhi $\\alpha \\ne 90^{\\circ}$ ($x_0 \\ne 0$):\n$$\\tan \\alpha = \\dfrac{\\sin \\alpha}{\\cos \\alpha} = \\dfrac{y_0}{x_0}.$$\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-1.png",
+          "sha256": "2fae24cffea9b3366950dd715030ee3f0ad9bd8ee2c449e20d0b0004078f48a8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho vectơ $\\vec{a} = -2\\vec{j}$. Khi đó tọa độ vectơ $\\vec{a}$ là:",
+      "explanation": "Trong mặt phẳng tọa độ $Oxy$, vectơ $\\vec{a} = x\\vec{i} + y\\vec{j}$ có tọa độ $(x; y)$.\nỞ đây $\\vec{a} = 0\\vec{i} - 2\\vec{j}$ nên tọa độ của $\\vec{a}$ là $(0; -2)$.\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương sai của các số liệu bằng $4$. Tìm độ lệch chuẩn.",
+      "explanation": "Độ lệch chuẩn $s$ là căn bậc hai số học của phương sai $s^2$:\n$$s = \\sqrt{s^2} = \\sqrt{4} = 2.$$\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ đều cạnh $a$. Gọi $G$ là trọng tâm của tam giác $ABC$.",
+      "explanation": "Xét từng mệnh đề:\n- a) Hai vectơ $\\vec{CA}$ và $\\vec{CB}$ có giá là hai đường thẳng cắt nhau ($CA$ và $CB$), nên hai vectơ không cùng phương, do đó không thể bằng nhau. Mệnh đề a SAI.\n- b) Độ dài vectơ $|\\vec{BC}| = BC = a$. Mệnh đề b ĐÚNG.\n- c) Với điểm $M$ tùy ý, theo tính chất trọng tâm ta có $\\vec{MA} + \\vec{MB} + \\vec{MC} = 3\\vec{MG}$, suy ra $\\vec{AM} + \\vec{BM} + \\vec{CM} = -3\\vec{MG} \\ne 3\\vec{MG}$. Mệnh đề c SAI.\n- d) Vectơ có điểm đầu và điểm cuối trùng nhau luôn bằng vectơ không: $\\vec{CC} = \\vec{0}$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai điểm $A(1; -2), B(-3; -1)$.",
+      "explanation": "Xét từng mệnh đề:\n- a) Với $A(1; -2)$, vectơ vị trí là $\\vec{OA} = 1\\vec{i} - 2\\vec{j} = \\vec{i} - 2\\vec{j}$. Mệnh đề a ĐÚNG.\n- b) $\\vec{AB} = (x_B - x_A; y_B - y_A) = (-3 - 1; -1 - (-2)) = (-4; 1)$. Mệnh đề b ĐÚNG.\n- c) Để tứ giác $OABC$ là hình bình hành, điều kiện là $\\vec{OC} = \\vec{BA} = -\\vec{AB} = (4; -1)$. Do đó $C(4; -1) \\ne (4; 1)$. Mệnh đề c SAI.\n- d) Trung điểm $I$ của đoạn thẳng $AB$ có tọa độ:\n$$x_I = \\dfrac{1 + (-3)}{2} = -1, \\quad y_I = \\dfrac{-2 + (-1)}{2} = -\\dfrac{3}{2}.$$\nVậy $I\\left(-1; -\\dfrac{3}{2}\\right)$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình bình hành $ABCD$, $M$ là trung điểm của cạnh $AB$. Có bao nhiêu vectơ khác vectơ không và khác $\\vec{AM}$, có điểm đầu và điểm cuối lấy từ các điểm $A, B, C, D, M$ cùng phương với $\\vec{AM}$?",
+      "explanation": "Các điểm $A, M, B$ cùng nằm trên đường thẳng $AB$, và cạnh $CD$ song song với $AB$.\nDo đó, các vectơ cùng phương với $\\vec{AM}$ được lập từ 5 điểm $\\{A, B, C, D, M\\}$ chính là các vectơ có giá nằm trên đường thẳng $AB$ hoặc đường thẳng $CD$:\n1. Các cặp điểm trên đường thẳng $AB$ gồm 3 điểm $A, M, B$:\nSố vectơ khác vectơ không tạo từ 3 điểm này là $3 \\times 2 = 6$ vectơ: $\\vec{AM}, \\vec{MA}, \\vec{AB}, \\vec{BA}, \\vec{MB}, \\vec{BM}$.\nTrừ đi chính vectơ $\\vec{AM}$, ta còn lại $6 - 1 = 5$ vectơ: $\\vec{MA}, \\vec{AB}, \\vec{BA}, \\vec{MB}, \\vec{BM}$.\n2. Các cặp điểm trên đường thẳng $CD$ gồm 2 điểm $C, D$:\nCó $2 \\times 1 = 2$ vectơ: $\\vec{CD}, \\vec{DC}$.\nTổng số vectơ thỏa mãn yêu cầu là $5 + 2 = 7$ vectơ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một học sinh đo chiều dài của một chiếc bàn, thu được kết quả $l = (120 \\pm 0,1)\\text{ cm}$. Hãy cho biết sai số tương đối của phép đo không vượt quá bao nhiêu phần trăm (làm tròn đến hàng phần trăm).",
+      "explanation": "Sai số tương đối của phép đo được xác định bởi công thức:\n$$\\delta \\le \\dfrac{d}{|a|} = \\dfrac{0,1}{120} = \\dfrac{1}{1200} \\approx 0,0008333...$$\nĐổi ra phần trăm:\n$$\\delta \\le 0,08333...\\% \\approx 0,08\\%.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho ba lực $\\vec{F}_1, \\vec{F}_2, \\vec{F}_3$ cùng tác động vào một vật và vật đứng yên. Biết rằng cường độ của hai lực $\\vec{F}_1$ và $\\vec{F}_2$ lần lượt bằng $60\\text{ N}, 90\\text{ N}$ và hai lực tạo với nhau góc $60^{\\circ}$. Khi đó tính cường độ của lực $\\vec{F}_3$ (kết quả làm tròn đến hàng đơn vị).",
+      "explanation": "Vật đứng yên nên tổng ba lực tác dụng triệt tiêu:\n$$\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0} \\implies \\vec{F}_3 = -(\\vec{F}_1 + \\vec{F}_2).$$\nDo đó cường độ của lực $\\vec{F}_3$ bằng độ lớn của hợp lực $(\\vec{F}_1 + \\vec{F}_2)$:\n$$F_3^2 = |\\vec{F}_1 + \\vec{F}_2|^2 = F_1^2 + F_2^2 + 2F_1 F_2 \\cos 60^{\\circ}$$\n$$F_3^2 = 60^2 + 90^2 + 2(60)(90)(0,5) = 3600 + 8100 + 5400 = 17100.$$\n$$F_3 = \\sqrt{17100} \\approx 130,767\\text{ N} \\approx 131\\text{ N}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-045-M0101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-045 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho bảng số liệu điểm kiểm tra giữa kỳ môn Toán của 20 học sinh như sau:\n$$\\begin{matrix} \\text{Điểm} & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\\\ \\text{Số học sinh} & 1 & 2 & 3 & 4 & 5 & 4 & 1 \\end{matrix}$$\nHãy tính số trung bình cộng của điểm kiểm tra giữa kỳ môn Toán của 20 học sinh trên (kết quả làm tròn đến hàng phần mười).",
+      "explanation": "Tính điểm trung bình cộng của mẫu số liệu:\n$$\\bar{x} = \\dfrac{4(1) + 5(2) + 6(3) + 7(4) + 8(5) + 9(4) + 10(1)}{20}$$\n$$\\bar{x} = \\dfrac{4 + 10 + 18 + 28 + 40 + 36 + 10}{20} = \\dfrac{146}{20} = 7,3.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-045-page-2.png",
+          "sha256": "f3b559d443e4ff96dbb1c37e01ea742e5608754a1050bab241e1be39d29c3e25"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$, mệnh đề nào sau đây đúng?",
+      "explanation": "Theo định lý côsin trong tam giác $ABC$ đối với cạnh $BC = a$:\n$$a^2 = b^2 + c^2 - 2bc \\cos A \\iff BC^2 = AB^2 + AC^2 - 2AB \\cdot AC \\cdot \\cos A.$$\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-1.png",
+          "sha256": "bc32ae7b02973f92a59b2ed7b9b6f17b54d0b08e5e8ee04a7ddc64fe74082f7c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\Delta ABC$ có $AB = c, BC = a, AC = b$. Gọi $S$ là diện tích tam giác, $r$ là bán kính đường tròn nội tiếp tam giác và $p$ là nửa chu vi của tam giác $ABC$. Mệnh đề nào dưới đây là đúng?",
+      "explanation": "Công thức tính diện tích tam giác qua nửa chu vi và bán kính đường tròn nội tiếp là:\n$$S = p \\cdot r.$$\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-1.png",
+          "sha256": "bc32ae7b02973f92a59b2ed7b9b6f17b54d0b08e5e8ee04a7ddc64fe74082f7c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình bình hành $ABCD$, mệnh đề nào dưới đây là sai?\n\n![Hình bình hành](/math-import-assets/thpt-figure-046-p1-q3-parallelogram.png)",
+      "explanation": "Trong hình bình hành $ABCD$:\n- Hai cạnh đối bằng nhau và cùng hướng cho ta: $\\vec{AD} = \\vec{BC}$, $\\vec{AB} = \\vec{DC}$ và $\\vec{CD} = \\vec{BA}$ đều là các khẳng định đúng.\n- Hai đường chéo $AC$ và $BD$ có độ dài nói chung khác nhau và có hướng cắt nhau, do đó $\\vec{AC} = \\vec{BD}$ là mệnh đề SAI.\nDo đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-1.png",
+          "sha256": "bc32ae7b02973f92a59b2ed7b9b6f17b54d0b08e5e8ee04a7ddc64fe74082f7c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai vectơ $\\vec{a}$ và $\\vec{b}$. Biết $|\\vec{a}| = 6$, $|\\vec{b}| = 7$ và $(\\vec{a}, \\vec{b}) = 45^{\\circ}$. Tính tích vô hướng của hai vectơ?",
+      "explanation": "Tích vô hướng của hai vectơ:\n$$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| \\cdot |\\vec{b}| \\cdot \\cos(\\vec{a}, \\vec{b}) = 6 \\cdot 7 \\cdot \\cos 45^{\\circ} = 42 \\cdot \\dfrac{\\sqrt{2}}{2} = 21\\sqrt{2}.$$\nDo đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-1.png",
+          "sha256": "bc32ae7b02973f92a59b2ed7b9b6f17b54d0b08e5e8ee04a7ddc64fe74082f7c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chữ nhật $ABCD$ có cạnh $AB = 5, AD = 12$. Tính độ dài của vectơ $\\vec{BD}$.",
+      "explanation": "Độ dài của vectơ $\\vec{BD}$ chính là độ dài đoạn thẳng $BD$.\nÁp dụng định lý Pythagoras trong tam giác vuông $BAD$:\n$$BD = \\sqrt{AB^2 + AD^2} = \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13.$$\nDo đó $|\\vec{BD}| = 13$.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-1.png",
+          "sha256": "bc32ae7b02973f92a59b2ed7b9b6f17b54d0b08e5e8ee04a7ddc64fe74082f7c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng giày thể thao thống kê cỡ giày của các khách hàng nam bán ra trong buổi sáng như sau:\n$$\\begin{matrix} \\text{Cỡ giày} & 38 & 39 & 40 & 41 & 42 \\\\ \\text{Số lượng} & 6 & 8 & 10 & 6 & 7 \\end{matrix}$$\nCỡ mẫu của mẫu số liệu trên là?",
+      "explanation": "Cỡ mẫu $n$ là tổng số lượng các giá trị được thống kê:\n$$n = 6 + 8 + 10 + 6 + 7 = 37.$$\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-1.png",
+          "sha256": "bc32ae7b02973f92a59b2ed7b9b6f17b54d0b08e5e8ee04a7ddc64fe74082f7c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình vuông $ABCD$ cạnh $a$, có tâm $O$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét từng mệnh đề với hình vuông $ABCD$ tâm $O$:\n- a) $O$ là trung điểm đoạn thẳng $AC$ nên $\\vec{OA} + \\vec{OC} = \\vec{0}$. Mệnh đề a ĐÚNG.\n- b) Theo quy tắc cộng vectơ: $\\vec{DA} + \\vec{AC} = \\vec{DC}$. Mệnh đề b ĐÚNG.\n- c) Góc giữa hai cạnh kề của hình vuông là $(\\vec{BC}, \\vec{BA}) = \\widehat{ABC} = 90^{\\circ} \\ne 30^{\\circ}$. Mệnh đề c SAI.\n- d) Theo quy tắc hình bình hành: $\\vec{AD} + \\vec{AB} = \\vec{AC}$. Độ dài đường chéo hình vuông cạnh $a$ là $AC = a\\sqrt{2}$. Do đó $|\\vec{AD} + \\vec{AB}| = a\\sqrt{2}$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-1.png",
+          "sha256": "bc32ae7b02973f92a59b2ed7b9b6f17b54d0b08e5e8ee04a7ddc64fe74082f7c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mẫu số liệu sau thống kê số tiền thưởng Tết Nguyên Đán 2026 của 13 nhân viên của một công ty X (đơn vị: triệu đồng). Xét tính đúng sai của các khẳng định sau:\n$$10 \\quad 10 \\quad 11 \\quad 12 \\quad 12 \\quad 13 \\quad 14,5 \\quad 15 \\quad 18 \\quad 20 \\quad 20 \\quad 21 \\quad 28$$",
+      "explanation": "Dãy số liệu gồm 13 giá trị đã được xếp theo thứ tự không giảm:\n$$10, 10, 11, 12, 12, 13, 14,5, 15, 18, 20, 20, 21, 28.$$\n- a) Tổng các giá trị: $10+10+11+12+12+13+14,5+15+18+20+20+21+28 = 204,5$.\nGiá trị trung bình: $\\bar{x} = \\dfrac{204,5}{13} \\approx 15,73 \\ne 17,5$. Mệnh đề a SAI.\n- b) Cỡ mẫu $n = 13$ (lẻ), trung vị là giá trị thứ 7: $M_e = 14,5 \\ne 11,5$. Mệnh đề b SAI.\n- c) Tứ phân vị thứ nhất $Q_1$ là trung vị của 6 giá trị đầu $\\{10, 10, 11, 12, 12, 13\\}$:\n$$Q_1 = \\dfrac{11 + 12}{2} = 11,5.$$\nTứ phân vị thứ ba $Q_3$ là trung vị của 6 giá trị cuối $\\{15, 18, 20, 20, 21, 28\\}$:\n$$Q_3 = \\dfrac{20 + 20}{2} = 20.$$\nKhoảng tứ phân vị: $\\Delta_Q = Q_3 - Q_1 = 20 - 11,5 = 8,5$. Mệnh đề c ĐÚNG.\n- d) Tính tổng bình phương các độ lệch:\n$$\\sum x_i^2 = 10^2+10^2+11^2+12^2+12^2+13^2+14,5^2+15^2+18^2+20^2+20^2+21^2+28^2 = 3561,25.$$\nPhương sai: $s^2 = \\dfrac{3561,25}{13} - (15,73077)^2 = 273,9423 - 247,457 = 26,485$.\nĐộ lệch chuẩn: $S = \\sqrt{26,485} \\approx 5,146 \\approx 5,15$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-2.png",
+          "sha256": "b7e206a4cbf7600722f67e27b89251ba4abdb2ca13c2b3603646a4d1420509ff"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có các góc $\\widehat{A} = 60^{\\circ}, \\widehat{B} = 45^{\\circ}$, cạnh $AC = 6\\text{ cm}$. Tính độ dài cạnh $AB$ theo đơn vị xentimét (làm tròn kết quả đến hàng phần mười).",
+      "explanation": "Trong tam giác $ABC$, tổng ba góc bằng $180^{\\circ}$ nên:\n$$\\widehat{C} = 180^{\\circ} - 60^{\\circ} - 45^{\\circ} = 75^{\\circ}.$$\nÁp dụng định lý sin trong tam giác $ABC$:\n$$\\dfrac{AB}{\\sin C} = \\dfrac{AC}{\\sin B} \\implies AB = \\dfrac{AC \\cdot \\sin C}{\\sin B}.$$\nThay số với $AC = 6\\text{ cm}, \\sin 45^{\\circ} = \\dfrac{\\sqrt{2}}{2}$ và $\\sin 75^{\\circ} = \\sin(45^{\\circ} + 30^{\\circ}) = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$:\n$$AB = \\dfrac{6 \\cdot \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}}{\\dfrac{\\sqrt{2}}{2}} = 3(\\sqrt{3} + 1) = 3\\sqrt{3} + 3 \\approx 3(1,73205) + 3 = 8,196\\text{ cm} \\approx 8,2\\text{ cm}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-2.png",
+          "sha256": "b7e206a4cbf7600722f67e27b89251ba4abdb2ca13c2b3603646a4d1420509ff"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mảnh vườn hình tam giác $MNP$ của nhà bạn Nam có chiều dài các cạnh là $MN = 10\\text{ m}, NP = 17\\text{ m}, MP = 21\\text{ m}$. Hỏi diện tích mảnh vườn của gia đình bạn Nam là bao nhiêu mét vuông?",
+      "explanation": "Tính nửa chu vi tam giác $MNP$:\n$$p = \\dfrac{MN + NP + MP}{2} = \\dfrac{10 + 17 + 21}{2} = \\dfrac{48}{2} = 24\\text{ m}.$$\nÁp dụng công thức Heron tính diện tích:\n$$S = \\sqrt{p(p - MN)(p - NP)(p - MP)}$$\n$$S = \\sqrt{24(24 - 10)(24 - 17)(24 - 21)} = \\sqrt{24 \\cdot 14 \\cdot 7 \\cdot 3}$$\n$$S = \\sqrt{(24 \\cdot 3) \\cdot (14 \\cdot 7)} = \\sqrt{72 \\cdot 98} = \\sqrt{7056} = 84\\text{ m}^2.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-2.png",
+          "sha256": "b7e206a4cbf7600722f67e27b89251ba4abdb2ca13c2b3603646a4d1420509ff"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho 4 điểm $E, F, G, H$ bất kì. Chứng minh rằng: $\\vec{GH} + \\vec{EF} = \\vec{EH} + \\vec{GF}$.",
+      "explanation": "Chuyển vế đẳng thức vectơ cần chứng minh:\n$$\\vec{GH} + \\vec{EF} - \\vec{EH} - \\vec{GF} = \\vec{0}$$\n$$\\iff \\vec{GH} + \\vec{HE} + \\vec{EF} + \\vec{FG} = \\vec{0}$$\nÁp dụng liên tiếp quy tắc cộng vectơ:\n$$(\\vec{GH} + \\vec{HE}) + (\\vec{EF} + \\vec{FG}) = \\vec{GE} + \\vec{EG} = \\vec{GG} = \\vec{0}.$$\nĐẳng thức luôn đúng với mọi bộ 4 điểm $E, F, G, H$. Suy ra điều phải chứng minh.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-2.png",
+          "sha256": "b7e206a4cbf7600722f67e27b89251ba4abdb2ca13c2b3603646a4d1420509ff"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biểu đồ bên dưới ghi lại nhiệt độ (đơn vị: $^{\\circ}\\text{C}$) lúc 12 giờ trưa tại một trạm quan trắc trong 10 ngày liên tiếp. Tìm khoảng tứ phân vị của mẫu số liệu trên.\n\n![Biểu đồ nhiệt độ 10 ngày](/math-import-assets/thpt-figure-046-p2-q2-temp-chart.png)",
+      "explanation": "Đọc số liệu nhiệt độ 10 ngày từ biểu đồ:\n- Ngày 1: $23^{\\circ}\\text{C}$\n- Ngày 2: $24^{\\circ}\\text{C}$\n- Ngày 3: $24^{\\circ}\\text{C}$\n- Ngày 4: $32^{\\circ}\\text{C}$\n- Ngày 5: $29^{\\circ}\\text{C}$\n- Ngày 6: $25^{\\circ}\\text{C}$\n- Ngày 7: $24^{\\circ}\\text{C}$\n- Ngày 8: $23^{\\circ}\\text{C}$\n- Ngày 9: $25^{\\circ}\\text{C}$\n- Ngày 10: $26^{\\circ}\\text{C}$\n\nSắp xếp mẫu số liệu theo thứ tự không giảm:\n$$23, 23, 24, 24, 24, 25, 25, 26, 29, 32.$$\n- Cỡ mẫu $n = 10$.\n- Nửa dưới gồm 5 giá trị đầu: $23, 23, 24, 24, 24 \\Rightarrow Q_1 = 24$.\n- Nửa trên gồm 5 giá trị cuối: $25, 25, 26, 29, 32 \\Rightarrow Q_3 = 26$.\n- Khoảng tứ phân vị của mẫu số liệu:\n$$\\Delta_Q = Q_3 - Q_1 = 26 - 24 = 2.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-2.png",
+          "sha256": "b7e206a4cbf7600722f67e27b89251ba4abdb2ca13c2b3603646a4d1420509ff"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-046-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Verified against source PDF THPT-10-CUOI_HK1-046 with complete KaTeX equations, proofs and solutions.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai tia $Ax, By$ với $AB = 100\\text{ cm}$, $\\widehat{xAB} = 45^{\\circ}$ và $By \\perp AB$. Chất điểm $X$ chuyển động trên tia $Ax$ bắt đầu từ $A$ với vận tốc $3\\sqrt{2}\\text{ cm/s}$, cùng lúc đó chất điểm $Y$ chuyển động trên tia $By$ bắt đầu từ $B$ với vận tốc $4\\text{ cm/s}$. Sau $t$ (giây) chất điểm $X$ di chuyển được đoạn đường $AM$, chất điểm $Y$ di chuyển được đoạn đường $BN$. Tìm giá trị nhỏ nhất của đoạn $MN$ theo đơn vị xentimét (làm tròn đến hàng đơn vị).\n\n![Chuyển động trên hai tia](/math-import-assets/thpt-figure-046-p2-q3-movement.png)",
+      "explanation": "Gọi $C$ là giao điểm của tia $Ax$ và tia $By$.\nTrong tam giác vuông $ABC$ tại $B$:\n- $\\widehat{CAB} = 45^{\\circ}$ nên $\\Delta ABC$ vuông cân tại $B$.\n- Do đó $BC = AB = 100\\text{ cm}$, và $AC = AB\\sqrt{2} = 100\\sqrt{2}\\text{ cm}$.\nSau $t$ giây:\n- Chất điểm $X$ đi được $AM = 3\\sqrt{2}t$, do đó $CM = |AC - AM| = |100\\sqrt{2} - 3\\sqrt{2}t| = \\sqrt{2}|100 - 3t|$.\n- Chất điểm $Y$ đi được $BN = 4t$, do đó $CN = |BC - BN| = |100 - 4t|$.\nTam giác $ABC$ vuông cân tại $B$ nên góc tại đỉnh $\\widehat{C} = 45^{\\circ}$.\nÁp dụng định lý côsin trong tam giác $CMN$ với góc $\\widehat{C} = 45^{\\circ}$:\n$$MN^2 = CM^2 + CN^2 - 2 CM \\cdot CN \\cos 45^{\\circ}$$\nVới $\\vec{CM} = (1 - \\frac{AM}{AC})\\vec{CA}$ và $\\vec{CN} = (1 - \\frac{BN}{BC})\\vec{CB}$, đặt $u = 100 - 3t$ và $v = 100 - 4t$:\n$$MN^2 = 2u^2 + v^2 - 2(\\sqrt{2}u)(v)\\dfrac{\\sqrt{2}}{2} = 2u^2 + v^2 - 2uv$$\n$$MN^2 = 2(100 - 3t)^2 + (100 - 4t)^2 - 2(100 - 3t)(100 - 4t)$$\nKhai triển biểu thức:\n$$2(10000 - 600t + 9t^2) + (10000 - 800t + 16t^2) - 2(10000 - 700t + 12t^2)$$\n$$= 20000 - 1200t + 18t^2 + 10000 - 800t + 16t^2 - 20000 + 1400t - 24t^2$$\n$$= (18 + 16 - 24)t^2 + (-1200 - 800 + 1400)t + (20000 + 10000 - 20000)$$\n$$= 10t^2 - 600t + 10000.$$\nBiến đổi đưa về bình phương:\n$$MN^2 = 10(t^2 - 60t + 900) + 10000 - 9000 = 10(t - 30)^2 + 1000.$$\nDo $10(t - 30)^2 \\ge 0$ nên $MN^2 \\ge 1000$, đạt giá trị nhỏ nhất khi $t = 30\\text{ s}$.\nGiá trị nhỏ nhất của $MN$ là:\n$$MN_{\\min} = \\sqrt{1000} = 10\\sqrt{10} \\approx 31,62\\text{ cm} \\approx 32\\text{ cm}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-046-page-2.png",
+          "sha256": "b7e206a4cbf7600722f67e27b89251ba4abdb2ca13c2b3603646a4d1420509ff"
+        }
+      ]
+    }
+  ]
+}

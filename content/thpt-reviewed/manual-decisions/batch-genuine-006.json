@@ -1,0 +1,470 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Hệ bất phương trình nào trong các hệ bất phương trình sau là hệ bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn là hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn. Xét các phương án:\n- Phương án A chứa 3 ẩn là $x, y, z$, nên không phải hệ bất phương trình hai ẩn.\n- Phương án B chứa căn thức $\\sqrt{y}$ và bậc hai $3x^2$, nên không phải bậc nhất.\n- Phương án C gồm các bất phương trình $x \\ge 3$, $3y < -2$, $x - y \\ge 10$, đều là bất phương trình bậc nhất hai ẩn $x, y$. Do đó C là hệ bất phương trình bậc nhất hai ẩn.\n- Phương án D chứa các số hạng bậc hai $3x^2$ và $y^2$.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào dưới đây là sai?",
+      "explanation": "Theo tính chất giá trị lượng giác của hai góc bù nhau: $\\sin(180^\\circ - \\alpha) = \\sin\\alpha$, $\\cos(180^\\circ - \\alpha) = -\\cos\\alpha$, $\\tan(180^\\circ - \\alpha) = -\\tan\\alpha$, $\\cot(180^\\circ - \\alpha) = -\\cot\\alpha$. Do đó khẳng định ở phương án A ghi $\\sin(180^\\circ - \\alpha) = -\\sin\\alpha$ là sai. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cặp số nào sau đây là nghiệm của bất phương trình $x - 3y \\ge 5$?",
+      "explanation": "Thay tọa độ các điểm vào vế trái của bất phương trình $x - 3y \\ge 5$:\n- Với cặp $(2; -1)$: $2 - 3(-1) = 2 + 3 = 5 \\ge 5$ (thỏa mãn).\n- Với cặp $(1; 4)$: $1 - 3(4) = -11 < 5$ (loại).\n- Với cặp $(0; -1)$: $0 - 3(-1) = 3 < 5$ (loại).\n- Với cặp $(3; 5)$: $3 - 3(5) = -12 < 5$ (loại).\nVậy cặp số $(2; -1)$ là nghiệm của bất phương trình. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{1; 2; 3; 4; 5\\}$. Hãy chọn mệnh đề sai",
+      "explanation": "Tập hợp $A = \\{1; 2; 3; 4; 5\\}$:\n- Mệnh đề A: Tập rỗng là con của mọi tập hợp, $\\varnothing \\subset A$ là đúng.\n- Mệnh đề B: Phần tử $5 \\in A$ nên $\\{5\\} \\subset A$ là đúng.\n- Mệnh đề C: Phần tử $0 \\notin A$ nên tập $\\{0; 1; 2\\}$ không phải là tập con của $A$. Mệnh đề C là sai.\n- Mệnh đề D: Các phần tử $1, 2, 3, 5$ đều thuộc $A$ nên $\\{1; 2; 3; 5\\} \\subset A$ là đúng.\nDo đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Tập hợp $A = \\left\\{ x \\in \\mathbb{R} \\;\\middle|\\; x \\ge -\\frac{3}{5} \\right\\}$ bằng tập hợp nào sau đây?",
+      "explanation": "Theo định nghĩa nửa khoảng trong $\\mathbb{R}$, tập hợp các số thực $x$ thỏa mãn $x \\ge a$ là nửa khoảng $[a; +\\infty)$. Do đó với $a = -\\frac{3}{5}$, ta có $A = \\left[ -\\frac{3}{5}; +\\infty \\right) = E$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây không phải bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn có dạng tổng quát $ax + by < c$, $ax + by \\le c$, $ax + by > c$ hoặc $ax + by \\ge c$ với $a, b$ không đồng thời bằng 0. Bất phương trình $x + y^2 \\ge 0$ chứa số hạng bậc hai $y^2$, nên không phải là bất phương trình bậc nhất hai ẩn. Do đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Phát biểu nào dưới đây là mệnh đề?",
+      "explanation": "Mệnh đề toán học là một khẳng định có tính đúng hoặc sai dứt khoát, không thể vừa đúng vừa sai:\n- Câu A là câu hỏi, không phải khẳng định.\n- Khẳng định B: \"$4 + 3 = 9$\" là một khẳng định sai dứt khoát, do đó nó là một mệnh đề (mệnh đề sai).\n- Câu C là câu cảm thán, bộc lộ cảm xúc, không phải mệnh đề.\n- Khẳng định D: \"$5 - x = 7$\" là mệnh đề chứa biến (chưa xác định được tính đúng sai khi chưa biết giá trị của biến $x$).\nVậy đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề “$\\forall x \\in \\mathbb{Q} : x^2 = 2$” khẳng định rằng:",
+      "explanation": "Kí hiệu $\\forall$ đọc là \"mọi\" hoặc \"với mọi\", $x \\in \\mathbb{Q}$ chỉ phần tử thuộc tập hợp số hữu tỉ, biểu thức $x^2 = 2$ là bình phương bằng 2. Do đó mệnh đề “$\\forall x \\in \\mathbb{Q} : x^2 = 2$” được phát biểu là: \"Mọi số hữu tỉ đều có bình phương bằng 2\". Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Liệt kê các phần tử của tập $X = \\{x \\in \\mathbb{R} \\mid x^2 - 5x + 6 = 0\\}$ là",
+      "explanation": "Giải phương trình bậc hai $x^2 - 5x + 6 = 0$:\nTa có $\\Delta = (-5)^2 - 4 \\cdot 1 \\cdot 6 = 25 - 24 = 1 > 0$.\nPhương trình có hai nghiệm phân biệt: $x_1 = \\frac{5 + 1}{2} = 3$ và $x_2 = \\frac{5 - 1}{2} = 2$.\nCả hai nghiệm đều là số thực, do đó tập hợp $X$ gồm hai phần tử là $2$ và $3$: $X = \\{2; 3\\}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trên nửa đường tròn đơn vị cho điểm $M$ sao cho $\\widehat{xOM} = \\alpha$ như hình bên. Tìm mệnh đề đúng.\n\n![Nửa đường tròn đơn vị](/math-import-assets/thpt-figure-008-p1-q10-circle.png)",
+      "explanation": "Với mỗi góc $\\alpha$ ($0^\\circ \\le \\alpha \\le 180^\\circ$), gọi điểm $M(x_0; y_0)$ trên nửa đường tròn đơn vị sao cho $\\widehat{xOM} = \\alpha$. Theo định nghĩa giá trị lượng giác:\n- $\\sin\\alpha = y_0$\n- $\\cos\\alpha = x_0$\n- $\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha} = \\frac{y_0}{x_0}$ (với $x_0 \\ne 0$).\nDo đó khẳng định đúng là $\\tan\\alpha = \\frac{y_0}{x_0}$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề đảo của mệnh đề $P \\Rightarrow Q$ là mệnh đề nào?",
+      "explanation": "Theo định nghĩa trong chương trình Toán 10: Cho mệnh đề kéo theo $P \\Rightarrow Q$. Mệnh đề $Q \\Rightarrow P$ được gọi là mệnh đề đảo của mệnh đề $P \\Rightarrow Q$. Do đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p1.png",
+          "sha256": "b3b94e67c6aa1db46ea80d0663cb605954d38896b3e544c3b22070eaf9fbbdd9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho góc $90^\\circ < \\alpha < 180^\\circ$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Với góc tù $\\alpha$ thỏa mãn $90^\\circ < \\alpha < 180^\\circ$, điểm $M$ tương ứng trên nửa đường tròn đơn vị nằm ở góc phần tư thứ II, có hoành độ âm ($x_0 < 0$) và tung độ dương ($y_0 > 0$). Do đó:\n- $\\sin\\alpha = y_0 > 0$\n- $\\cos\\alpha = x_0 < 0$\n- $\\tan\\alpha = \\frac{y_0}{x_0} < 0$\n- $\\cot\\alpha = \\frac{x_0}{y_0} < 0$.\nVậy khẳng định đúng duy nhất là $\\cos\\alpha < 0$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình:\n$$\\begin{cases} x + 2y \\le 10 & (1) \\\\ 2x + y \\le 8 & (2) \\\\ x \\ge 0 & (3) \\\\ y \\ge 0 & (4) \\end{cases}$$\n\n![Miền nghiệm của hệ bất phương trình](/math-import-assets/thpt-figure-008-p2-q1-system.png)",
+      "explanation": "Xét từng phát biểu:\n- a) Bất phương trình $x + 2y \\le 10$ có dạng bậc nhất với hai ẩn $x, y$ (hệ số $a=1, b=2$), do đó là bất phương trình bậc nhất hai ẩn. Khẳng định là ĐÚNG.\n- b) Tất cả 4 bất phương trình trong hệ đều là bất phương trình bậc nhất hai ẩn $x, y$. Do đó đây là hệ bất phương trình bậc nhất hai ẩn. Khẳng định b nói \"không phải\" là SAI.\n- c) Thay cặp số $(4; 5)$ vào bất phương trình (1): $4 + 2(5) = 14 > 10$, không thỏa mãn. Do đó $(4; 5)$ không phải là nghiệm của hệ. Khẳng định c là SAI.\n- d) Biểu diễn hình học cho thấy miền nghiệm của hệ là phần mặt phẳng thỏa mãn đồng thời $x \\ge 0, y \\ge 0, x + 2y \\le 10$ và $2x + y \\le 8$, tương ứng với phần không bị gạch kẻ sọc (bao gồm cả các đoạn thẳng biên bờ). Khẳng định d là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{x \\in \\mathbb{R} \\mid 2x^2 - 5x + 3 = 0\\}$ và $B = \\{x \\in \\mathbb{N} \\mid x \\le 2\\}$.",
+      "explanation": "Xác định các tập hợp $A$ và $B$:\n- Phương trình $2x^2 - 5x + 3 = 0$ có $a + b + c = 2 - 5 + 3 = 0$, suy ra hai nghiệm là $x_1 = 1$ và $x_2 = \\frac{3}{2}$. Vì cả hai nghiệm đều thuộc $\\mathbb{R}$ nên $A = \\left\\{ 1; \\frac{3}{2} \\right\\}$.\n- Tập hợp $B$ gồm các số tự nhiên không vượt quá 2: $B = \\{0; 1; 2\\}$.\nXét từng mệnh đề:\n- a) $A = \\left\\{ 1; \\frac{3}{2} \\right\\}$ là ĐÚNG.\n- b) $B = \\{0; 1; 2\\}$ là ĐÚNG.\n- c) Vì phần tử $\\frac{3}{2} \\in A$ nhưng $\\frac{3}{2} \\notin B$ (do $\\frac{3}{2} \\notin \\mathbb{N}$) nên $A \\not\\subset B$. Khẳng định c là SAI.\n- d) Hiệu $B \\setminus A$ gồm các phần tử thuộc $B$ nhưng không thuộc $A$: $0 \\in B, 0 \\notin A$; $1 \\in B, 1 \\in A$; $2 \\in B, 2 \\notin A$. Do đó $B \\setminus A = \\{0; 2\\}$. Khẳng định d là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Tam giác $ABC$ có $BC = 10$ và $\\widehat{A} = 45^\\circ$. Tính bán kính $R$ của đường tròn ngoại tiếp tam giác $ABC$ (kết quả làm tròn đến hai chữ số thập phân).",
+      "explanation": "Áp dụng định lý sin trong tam giác $ABC$:\n$$\\frac{BC}{\\sin A} = 2R \\Rightarrow R = \\frac{BC}{2\\sin A}$$\nThay số $BC = 10$ và $\\widehat{A} = 45^\\circ$:\n$$R = \\frac{10}{2\\sin 45^\\circ} = \\frac{10}{2 \\cdot \\frac{\\sqrt{2}}{2}} = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2} \\approx 7{,}071067...$$\nLàm tròn đến hai chữ số thập phân ta được bán kính $R = 7{,}07$.\nĐáp số: 7,07.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng ăn vặt bán trà sữa và bánh ngọt. Mỗi ly trà sữa lãi 7 nghìn đồng, mỗi cái bánh ngọt lãi 5 nghìn đồng. Giả sử cửa hàng bán $x$ ly trà sữa và $y$ cái bánh ngọt trong một ngày. Bất phương trình biểu thị mối liên hệ giữa $x$ và $y$ để cửa hàng đó thu được số lãi lớn hơn 350 nghìn đồng trong một ngày có dạng $7x + by > c$ ($b, c$ là các số nguyên dương). Khi đó, giá trị $S = 3b + 4c$ bằng bao nhiêu?",
+      "explanation": "Số tiền lãi thu được từ việc bán $x$ ly trà sữa là $7x$ (nghìn đồng).\nSố tiền lãi thu được từ việc bán $y$ cái bánh ngọt là $5y$ (nghìn đồng).\nTổng tiền lãi cửa hàng thu được trong một ngày là $7x + 5y$ (nghìn đồng).\nĐể cửa hàng thu được số lãi lớn hơn 350 nghìn đồng, bất phương trình tương ứng là:\n$$7x + 5y > 350$$\nĐồng nhất với dạng $7x + by > c$ với $b, c$ là các số nguyên dương, ta có:\n$$b = 5,\\quad c = 350$$\nKhi đó giá trị biểu thức $S = 3b + 4c$ là:\n$$S = 3 \\cdot 5 + 4 \\cdot 350 = 15 + 1400 = 1415$$\nĐáp số: 1415.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Tính giá trị biểu thức $A = \\sin(180^\\circ - \\alpha) \\cdot \\sin\\alpha - \\cos(180^\\circ - \\alpha) \\cdot \\cos\\alpha - 500$.",
+      "explanation": "Sử dụng tính chất của hai góc bù nhau:\n$$\\sin(180^\\circ - \\alpha) = \\sin\\alpha$$\n$$\\cos(180^\\circ - \\alpha) = -\\cos\\alpha$$\nThay vào biểu thức $A$:\n$$A = (\\sin\\alpha) \\cdot (\\sin\\alpha) - (-\\cos\\alpha) \\cdot (\\cos\\alpha) - 500$$\n$$A = \\sin^2\\alpha + \\cos^2\\alpha - 500$$\nÁp dụng hằng đẳng thức lượng giác cơ bản $\\sin^2\\alpha + \\cos^2\\alpha = 1$, ta có:\n$$A = 1 - 500 = -499$$\nĐáp số: -499.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong kì thi Hội khỏe phù đổng cấp trường của trường THPT Nguyễn Thái Bình, lớp 10/1 có 30 học sinh tham gia, trong đó có 19 học sinh tham gia môn bóng đá, 18 học sinh tham gia môn bóng chuyền. Toàn bộ số học sinh trên tham gia ít nhất một trong hai môn nói trên. Biết lớp 10/1 có số học sinh vừa tham gia bóng đá vừa tham gia bóng chuyền là $a$. Giá trị $500a$ bằng bao nhiêu?",
+      "explanation": "Gọi $A$ là tập hợp học sinh lớp 10/1 tham gia môn bóng đá $\\Rightarrow |A| = 19$.\nGọi $B$ là tập hợp học sinh lớp 10/1 tham gia môn bóng chuyền $\\Rightarrow |B| = 18$.\nVì toàn bộ 30 học sinh tham gia ít nhất một môn nên hợp của hai tập hợp có số phần tử là:\n$$|A \\cup B| = 30$$\nSố học sinh vừa tham gia bóng đá vừa tham gia bóng chuyền là số phần tử của tập giao $A \\cap B$, tức là $a = |A \\cap B|$.\nTheo công thức cộng số phần tử của hai tập hữu hạn:\n$$|A \\cup B| = |A| + |B| - |A \\cap B| \\Rightarrow a = |A| + |B| - |A \\cup B| = 19 + 18 - 30 = 7$$\nKhi đó giá trị biểu thức $500a$ là:\n$$500a = 500 \\cdot 7 = 3500$$\nĐáp số: 3500.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p7.png",
+          "sha256": "d87583056aef791113eb4f3dc394861ce026c9b98ce19bafe3024f3c4aab0758"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "a) Viết mệnh đề phủ định của mệnh đề $P: \"\\exists x \\in \\mathbb{N} \\mid x^2 - 3x + 2 = 0\"$.\nb) Cho hai tập hợp $A = [-1; 3)$ và $B = (2; 6)$. Tìm $A \\cup B$.",
+      "explanation": "a) Mệnh đề $P$ có dạng tồn tại $\\exists x \\in \\mathbb{N} \\mid Q(x)$ với $Q(x)$ là \"$x^2 - 3x + 2 = 0$\".\nMệnh đề phủ định của $P$ là:\n$$\\overline{P}: \"\\forall x \\in \\mathbb{N}, x^2 - 3x + 2 \\ne 0\"$$\nb) Cho $A = [-1; 3)$ và $B = (2; 6)$:\n- Tập hợp $A$ gồm tất cả các số thực $x$ thỏa mãn $-1 \\le x < 3$.\n- Tập hợp $B$ gồm tất cả các số thực $x$ thỏa mãn $2 < x < 6$.\nVì $2 < 3$ nên hai khoảng/nửa khoảng này có phần giao nhau là $(2; 3)$.\nHợp của hai tập hợp là tập gồm tất cả các phần tử thuộc $A$ hoặc thuộc $B$:\n$$A \\cup B = [-1; 6)$$\nĐáp số: a) \\overline{P}: \\forall x \\in \\mathbb{N}, x^2 - 3x + 2 \\ne 0; b) A \\cup B = [-1; 6).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p8.png",
+          "sha256": "f36136ca0ae858bda13a275da2a49fedcba0d98eae97ff6120cc1b6154bec9ec"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Để tìm được chiều cao tháp chính ở hồ Con Rùa (tại Quận 1, TP.HCM), người ta chọn hai điểm $A, B$ trên mặt đất sao cho ba điểm $A, B, C$ thẳng hàng với $C$ là chân tháp và $CD$ là chiều cao của tháp. Người ta đo được $AB = 17\\text{ m}$, $\\widehat{CAD} = 36^\\circ$, $\\widehat{CBD} = 49^\\circ$ (như hình vẽ). Tính chiều cao của tháp chính ở Hồ Con Rùa theo đơn vị mét, làm tròn kết quả đến hàng đơn vị.\n\n![Tháp hồ Con Rùa](/math-import-assets/thpt-figure-008-p3-q2-tower.png)",
+      "explanation": "Trong tam giác $ABD$, góc $\\widehat{CBD}$ là góc ngoài tại đỉnh $B$ nên:\n$$\\widehat{CBD} = \\widehat{BAD} + \\widehat{ADB} \\Rightarrow \\widehat{ADB} = \\widehat{CBD} - \\widehat{BAD} = 49^\\circ - 36^\\circ = 13^\\circ$$\nÁp dụng định lý sin trong tam giác $ABD$:\n$$\\frac{AB}{\\sin(\\widehat{ADB})} = \\frac{BD}{\\sin(\\widehat{BAD})} \\Rightarrow BD = \\frac{AB \\cdot \\sin 36^\\circ}{\\sin 13^\\circ} = \\frac{17 \\cdot \\sin 36^\\circ}{\\sin 13^\\circ} \\approx 44{,}42\\text{ m}$$\nTrong tam giác vuông $CBD$ tại chân tháp $C$:\n$$CD = BD \\cdot \\sin(\\widehat{CBD}) \\approx 44{,}42 \\cdot \\sin 49^\\circ \\approx 33{,}52\\text{ m} \\approx 34\\text{ m}$$\nLàm tròn đến hàng đơn vị, chiều cao của tháp chính ở Hồ Con Rùa là $34\\text{ m}$.\nĐáp số: 34.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p2.png",
+          "sha256": "a981d3766660c08e580242ecbcb4c713568dc950033b1a321d144767bf08d627"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p8.png",
+          "sha256": "f36136ca0ae858bda13a275da2a49fedcba0d98eae97ff6120cc1b6154bec9ec"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-008-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-008.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Để gây quỹ tổ chức Đêm hội trăng rằm cho các em thiếu nhi mồ côi, có hoàn cảnh khó khăn, Câu Lạc Bộ thiện nguyện trường THPT Nguyễn Thái Bình tổ chức dự án “Trăng Sáng – Lòng Vàng” bán bánh trung thu gồm hai loại: bánh trung thu thập cẩm và bánh trung thu sầu riêng. Giá mỗi chiếc bánh trung thu thập cẩm là 60 nghìn đồng và bánh trung thu sầu riêng là 70 nghìn đồng; với số vốn ban đầu không vượt quá 10,5 triệu đồng. Loại bánh trung thu thập cẩm mang lại lợi nhuận 7 nghìn đồng cho mỗi cái bánh bán được và loại bánh trung thu sầu riêng mang lại lợi nhuận là 8 nghìn đồng mỗi cái bánh bán được. Câu Lạc Bộ ước tính rằng tổng nhu cầu sẽ không vượt quá 160 cái bánh. Tìm số lượng mỗi loại bánh mà Câu Lạc Bộ bán được để lợi nhuận thu được là lớn nhất.",
+      "explanation": "Gọi $x, y$ lần lượt là số bánh trung thu thập cẩm và bánh trung thu sầu riêng mà câu lạc bộ bán được ($x \\ge 0, y \\ge 0, x, y \\in \\mathbb{N}$).\n- Tổng nhu cầu không vượt quá 160 bánh: $x + y \\le 160$.\n- Số vốn ban đầu không vượt quá 10,5 triệu đồng ($10\\,500$ nghìn đồng): $60x + 70y \\le 10500 \\Leftrightarrow 6x + 7y \\le 1050$.\nTa có hệ bất phương trình biểu diễn miền điều kiện:\n$$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y \\le 160 \\\\ 6x + 7y \\le 1050 \\end{cases} \\quad (\\text{I})$$\nTổng lợi nhuận thu được khi bán $x$ bánh thập cẩm và $y$ bánh sầu riêng là hàm số:\n$$F(x; y) = 7x + 8y \\quad (\\text{nghìn đồng})$$\nMiền nghiệm của hệ (I) là miền tứ giác $OABC$ với tọa độ các đỉnh:\n- $O(0; 0)$\n- $A(0; 150)$ (giao điểm của đường thẳng $6x + 7y = 1050$ với trục $Oy$)\n- $B(70; 90)$ (nghiệm của hệ phương trình $\\begin{cases} x + y = 160 \\\\ 6x + 7y = 1050 \\end{cases}$)\n- $C(160; 0)$ (giao điểm của đường thẳng $x + y = 160$ với trục $Ox$)\nTính giá trị của hàm mục tiêu $F(x; y)$ tại các đỉnh:\n- $F(O) = F(0; 0) = 0$\n- $F(A) = F(0; 150) = 7 \\cdot 0 + 8 \\cdot 150 = 1200$ (nghìn đồng)\n- $F(B) = F(70; 90) = 7 \\cdot 70 + 8 \\cdot 90 = 490 + 720 = 1210$ (nghìn đồng)\n- $F(C) = F(160; 0) = 7 \\cdot 160 + 8 \\cdot 0 = 1120$ (nghìn đồng)\nSo sánh giá trị tại các đỉnh, ta thấy $F(x; y)$ đạt giá trị lớn nhất bằng $1210$ nghìn đồng tại đỉnh $B(70; 90)$.\nVậy Câu Lạc Bộ cần bán 70 bánh trung thu thập cẩm và 90 bánh trung thu sầu riêng để thu được lợi nhuận lớn nhất là 1.210 nghìn đồng.\nĐáp số: 70 bánh thập cẩm, 90 bánh sầu riêng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p3.png",
+          "sha256": "71ec512b489b3710ae52a1ada3868f5761a414cecd70dbddc0a1433650260f8e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p8.png",
+          "sha256": "f36136ca0ae858bda13a275da2a49fedcba0d98eae97ff6120cc1b6154bec9ec"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-008-p9.png",
+          "sha256": "3db446c49c4271b781f1555fa30503aee83c33e8d7ddbb7d1f4dfbfa907843a1"
+        }
+      ]
+    }
+  ]
+}

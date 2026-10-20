@@ -9,7 +9,7 @@ import { ExamAiService } from '../src/modules/assignment/exam-ai.service';
 import { TeacherWorkspaceService } from '../src/modules/assignment/teacher-workspace.service';
 import { ExamDocumentService } from '../src/modules/assignment/exam-document.service';
 import { AuthGuard } from '../src/modules/auth/guards/auth.guard';
-import { DIAGNOSTIC_BLUEPRINT_VERSION, EXAM_QUESTION_COUNTS } from '../src/modules/diagnostic/diagnostic-blueprint';
+import { THPT_DIAGNOSTIC_BLUEPRINT_VERSION } from '../src/modules/diagnostic/diagnostic-blueprint';
 
 describe('Assignment blueprint HTTP route', () => {
   it('serves the versioned matrix to verified teachers and denies students', async () => {
@@ -27,9 +27,11 @@ describe('Assignment blueprint HTTP route', () => {
     try {
       await app.init();
       const result = await request(app.getHttpServer()).get('/api/v1/assignments/blueprint').expect(200);
-      expect(result.body.version).toBe(DIAGNOSTIC_BLUEPRINT_VERSION);
-      expect(result.body.questionCounts).toEqual(EXAM_QUESTION_COUNTS);
-      expect(result.body.slots).toHaveLength(22);
+      expect(result.body.version).toBe(THPT_DIAGNOSTIC_BLUEPRINT_VERSION);
+      expect(result.body.questionCounts).toEqual({SINGLE_CHOICE:12,TRUE_FALSE:2,SHORT_ANSWER:4});
+      expect(result.body.slots).toHaveLength(18);
+      await request(app.getHttpServer()).get('/api/v1/assignments/blueprint?grade=9').expect(400);
+      expect((await request(app.getHttpServer()).get('/api/v1/assignments/blueprint?grade=12').expect(200)).body.grade).toBe(12);
       role = 'STUDENT';
       await request(app.getHttpServer()).get('/api/v1/assignments/blueprint').expect(403);
     } finally { await app.close(); }

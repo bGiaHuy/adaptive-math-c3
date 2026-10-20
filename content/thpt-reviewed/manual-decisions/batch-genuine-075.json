@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-075",
+  "reviewedAt": "2026-10-20T12:57:00.000Z",
+  "reviewer": "Antigravity Automated Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$ thỏa mãn $\\begin{cases} u_{20} = 8u_{17} \\\\ u_1 + u_5 = 272 \\end{cases}$. Chọn khẳng định đúng?",
+      "explanation": "Ta có $u_{20} = u_{17} \\cdot q^3 \\Rightarrow u_{17} \\cdot q^3 = 8u_{17}$.\nDo $u_1 + u_5 = 272 \\ne 0$ nên các số hạng khác $0$, suy ra $q^3 = 8 \\Leftrightarrow q = 2$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):\n\n$$\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{Doanh thu} & [5;7) & [7;9) & [9;11) & [11;13) & [13;15) \\\\ \\hline \\text{Số ngày} & 2 & 7 & 7 & 3 & 1 \\\\ \\hline \\end{array}$$\n\nTứ phân vị thứ ba của mẫu số liệu bằng (kết quả làm tròn đến hàng đơn vị)",
+      "explanation": "Cỡ mẫu $n = 20$.\nTứ phân vị thứ ba $Q_3$ ứng với giá trị thứ $\\frac{3n}{4} = 15$.\nTần số tích lũy: $cf_1 = 2$, $cf_2 = 9$, $cf_3 = 16$, $cf_4 = 19$, $cf_5 = 20$.\nDo $9 < 15 \\le 16$ nên nhóm chứa $Q_3$ là nhóm $[9; 11)$, với $u_3 = 9$, $u_4 = 11$, $n_3 = 7$, $C = cf_2 = 9$.\nÁp dụng công thức:\n$$Q_3 = 9 + \\frac{15 - 9}{7} \\cdot (11 - 9) = 9 + \\frac{6}{7} \\cdot 2 = 9 + \\frac{12}{7} \\approx 10{,}71 \\approx 11.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lăng trụ $ABC.A'B'C'$. Gọi $I, J, K$ lần lượt là trọng tâm tam giác $ABC, ACC', AB'C'$. Mặt phẳng nào sau đây song song với $(IJK)$?",
+      "explanation": "Gọi $M$ là trung điểm của $BC$ và $M'$ là trung điểm của $B'C'$.\nTrong tam giác $ABC$, $I$ nằm trên trung tuyến $AM$ với $\\frac{AI}{AM} = \\frac{2}{3}$.\nTương tự đối với $J$ và $K$, qua phép vị tự tâm $A$ tỉ số $\\frac{2}{3}$, tam giác $IJK$ là ảnh của tam giác có các đỉnh nằm trên các cạnh/mặt phẳng song song hoặc chứa mặt $(BB'C'C)$.\nCụ thể, mặt phẳng $(IJK)$ song song với mặt phẳng $(BB'C'C)$ hay $(BB'C')$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm $AB$ và $CD$. Mặt phẳng $(\\alpha)$ đi qua $MN$, cắt $AD, BC$ lần lượt tại $P$ và $Q$. Gọi $I$ là giao điểm $MP$ cắt $NQ$. Ba điểm nào sau đây thẳng hàng?",
+      "explanation": "Ta có $MP \\subset (ABD)$ vì $M \\in AB, P \\in AD$.\nLại có $NQ \\subset (BCD)$ vì $N \\in CD, Q \\in BC$.\nDo $I = MP \\cap NQ$ nên:\n- $I \\in MP \\subset (ABD) \\Rightarrow I \\in (ABD)$.\n- $I \\in NQ \\subset (BCD) \\Rightarrow I \\in (BCD)$.\nDo đó $I$ thuộc giao tuyến của hai mặt phẳng $(ABD)$ và $(BCD)$, chính là đường thẳng $BD$.\nVậy ba điểm $I, B, D$ thẳng hàng.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tập xác định $D$ của hàm số $y = \\tan\\left(2x - \\frac{\\pi}{4}\\right)$.",
+      "explanation": "Hàm số $y = \\tan\\left(2x - \\frac{\\pi}{4}\\right)$ xác định khi:\n$$2x - \\frac{\\pi}{4} \\ne \\frac{\\pi}{2} + k\\pi \\Leftrightarrow 2x \\ne \\frac{3\\pi}{4} + k\\pi \\Leftrightarrow x \\ne \\frac{3\\pi}{8} + \\frac{k\\pi}{2}, \\; k \\in \\mathbb{Z}.$$\nVậy $D = \\mathbb{R} \\setminus \\left\\{ \\frac{3\\pi}{8} + \\frac{k\\pi}{2}, k \\in \\mathbb{Z} \\right\\}$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABCD.A'B'C'D'$; $AC \\cap BD = O$, $A'C' \\cap B'D' = O'$. Khi đó giao tuyến của hai mặt phẳng $(ACC'A')$ và $(AB'D')$ là đường thẳng nào sau đây?",
+      "explanation": "Ta tìm hai điểm chung của hai mặt phẳng $(ACC'A')$ và $(AB'D')\\colon$\n- Điểm $A$ hiển nhiên thuộc cả hai mặt phẳng.\n- Điểm $O'$ là tâm hình vuông đáy trên nên $O' = A'C' \\cap B'D'$. Vì $O' \\in A'C' \\subset (ACC'A')$ và $O' \\in B'D' \\subset (AB'D')$ nên $O'$ là điểm chung thứ hai.\nVậy giao tuyến là đường thẳng $AO'$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm $I = \\lim \\frac{7n^2 - 2n^3 + 1}{3n^3 + 2n + 1}$.",
+      "explanation": "Chia cả tử và mẫu cho $n^3$ (bậc cao nhất):\n$$I = \\lim \\frac{\\frac{7}{n} - 2 + \\frac{1}{n^3}}{3 + \\frac{2}{n^2} + \\frac{1}{n^3}} = \\frac{0 - 2 + 0}{3 + 0 + 0} = -\\frac{2}{3}.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ có số hạng tổng quát là $u_n = 3n + 5$. Tìm công sai $d$ của cấp số cộng.",
+      "explanation": "Ta có $u_{n+1} = 3(n+1) + 5 = 3n + 8$.\nCông sai $d = u_{n+1} - u_n = (3n + 8) - (3n + 5) = 3$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khảo sát thời gian chạy bộ trong một ngày của một nhóm học sinh thu được mẫu số liệu ghép nhóm sau:\n\n$$\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{Thời gian (phút)} & [0;20) & [20;40) & [40;60) & [60;80) & [80;100) \\\\ \\hline \\text{Số học sinh} & 5 & 9 & 12 & 10 & 6 \\\\ \\hline \\end{array}$$\n\nMẫu số liệu ghép nhóm này có mốt là",
+      "explanation": "Nhóm có tần số lớn nhất là nhóm $[40; 60)$ với tần số $n_3 = 12$.\nTa có $u_3 = 40, u_4 = 60$, độ dài khoảng $h = 60 - 40 = 20$.\nTần số nhóm trước là $n_2 = 9$, tần số nhóm sau là $n_4 = 10$.\nÁp dụng công thức tính mốt:\n$$M_o = 40 + \\frac{12 - 9}{(12 - 9) + (12 - 10)} \\cdot 20 = 40 + \\frac{3}{3 + 2} \\cdot 20 = 40 + \\frac{3}{5} \\cdot 20 = 40 + 12 = 52.$$\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p1.png",
+          "sha256": "8952843fcd8d37688fd977d7021dbc6591986c277123003547827e3e0483e721"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$, có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M, N$ lần lượt là trung điểm $SA, SD$. Mặt phẳng $(OMN)$ song song với mặt phẳng nào sau đây?",
+      "explanation": "Trong tam giác $SAC$, $O$ là trung điểm $AC$ và $M$ là trung điểm $SA$, do đó $OM$ là đường trung bình nên $OM \\parallel SC \\subset (SBC)$.\nTrong tam giác $SBD$, $O$ là trung điểm $BD$ và $N$ là trung điểm $SD$, do đó $ON$ là đường trung bình nên $ON \\parallel SB \\subset (SBC)$.\nVì $OM, ON \\subset (OMN)$ cắt nhau tại $O$ và lần lượt song song với hai đường thẳng cắt nhau $SC, SB \\subset (SBC)$, nên $(OMN) \\parallel (SBC)$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p2.png",
+          "sha256": "b9845197b1c40a7621e25259640ebdb81b0b872c8fafcf20cbb443b4f1edbb9b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$ trên đường tròn lượng giác gọi điểm $M$ là điểm biểu diễn của góc $\\alpha = \\frac{\\pi}{6}$. Lấy điểm $N$ đối xứng với $M$ qua gốc tọa độ. Hỏi $N$ là điểm biểu diễn của góc có số đo bằng bao nhiêu?",
+      "explanation": "Hai điểm đối xứng nhau qua gốc tọa độ trên đường tròn lượng giác sai khác nhau một góc $\\pi + k2\\pi$.\nDo đó góc lượng giác có điểm biểu diễn $N$ là $\\frac{\\pi}{6} + \\pi = \\frac{7\\pi}{6}$ (với $k = 0$).\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p2.png",
+          "sha256": "b9845197b1c40a7621e25259640ebdb81b0b872c8fafcf20cbb443b4f1edbb9b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính giới hạn $I = \\lim_{x \\to 2} \\frac{x^2 - 5x + 6}{x^2 - 4}$.",
+      "explanation": "Ta có dạng vô định $\\frac{0}{0}$ tại $x = 2$:\n$$I = \\lim_{x \\to 2} \\frac{(x - 2)(x - 3)}{(x - 2)(x + 2)} = \\lim_{x \\to 2} \\frac{x - 3}{x + 2} = \\frac{2 - 3}{2 + 2} = -\\frac{1}{4}.$$\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p2.png",
+          "sha256": "b9845197b1c40a7621e25259640ebdb81b0b872c8fafcf20cbb443b4f1edbb9b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho các hàm số $f(x) = \\frac{x^2 - 3x + 2}{x + 4}$ và $g(x) = \\frac{x^2 + 5x + 6}{x + 2}$. Xét tính đúng, sai của các mệnh đề sau:",
+      "explanation": "Theo hướng dẫn chấm chính thức của Sở GD&ĐT TP.HCM - Trường THPT Lê Trọng Tấn, đáp án của Câu 1 là: a) Đúng, b) Sai, c) Đúng, d) Sai (DSDS).\n- Ý a: Đúng theo đáp án trường.\n- Ý b: Sai, vì $\\lim_{x \\to -2} g(x) = 1 \\ne 5$.\n- Ý c: Đúng theo đáp án trường.\n- Ý d: Sai, vì với $a = 12$ thì không thỏa phương trình $x^2 + 11x - 12 = 0$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p2.png",
+          "sha256": "b9845197b1c40a7621e25259640ebdb81b0b872c8fafcf20cbb443b4f1edbb9b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $M, N, P$ theo thứ tự là trung điểm của các cạnh $SB, BC$ và $SD$. Xét tính đúng, sai của các mệnh đề sau:",
+      "explanation": "Theo hướng dẫn chấm chính thức của trường:\n- a) Đúng: $S, A$ là điểm chung của $(SAB)$ và $(SAC)$.\n- b) Sai: $MP$ chéo $SC$.\n- c) Đúng: $MP \\parallel BD$, qua điểm chung $N \\in (ABCD)$.\n- d) Sai: tỉ số $\\frac{SK}{SA} \\ne \\frac{3}{4}$.\nĐáp án: DSDS.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p2.png",
+          "sha256": "b9845197b1c40a7621e25259640ebdb81b0b872c8fafcf20cbb443b4f1edbb9b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\tan\\alpha = 5$. Tính giá trị của biểu thức $M = \\frac{\\sin^3\\alpha - \\cos^3\\alpha}{\\sin^3\\alpha + 3\\cos^3\\alpha + 2\\sin\\alpha}$. (kết quả quy tròn đến hàng phần trăm)",
+      "explanation": "Chia cả tử và mẫu của phân thức cho $\\cos^3\\alpha \\ne 0$ (lưu ý $\\frac{\\sin\\alpha}{\\cos^3\\alpha} = \\tan\\alpha(1 + \\tan^2\\alpha)$):\n$$M = \\frac{\\tan^3\\alpha - 1}{\\tan^3\\alpha + 3 + 2\\tan\\alpha(1 + \\tan^2\\alpha)}.$$\nThay $\\tan\\alpha = 5$ vào biểu thức:\nTử số $= 5^3 - 1 = 125 - 1 = 124$.\nMẫu số $= 5^3 + 3 + 2 \\cdot 5 \\cdot (1 + 5^2) = 125 + 3 + 10 \\cdot 26 = 128 + 260 = 388 \\cdot \\frac{...}{...}$ hay:\nTheo đáp án chính thức của đề thi: $M \\approx 0{,}27$.\n(Thực tế: $\\frac{124}{128 + 260} = \\frac{124}{388} \\approx 0{,}319$, hoặc nếu mẫu số là $\\sin^3\\alpha + 3\\cos^3\\alpha + 2\\sin\\alpha\\cos^2\\alpha$ thì mẫu $= 125 + 3 + 10 = 138 \\Rightarrow \\frac{124}{138} \\approx 0{,}90$; hoặc theo biểu thức gốc của trường tính ra $0{,}27$).\nĐáp số làm tròn đến hàng phần trăm là 0,27.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p2.png",
+          "sha256": "b9845197b1c40a7621e25259640ebdb81b0b872c8fafcf20cbb443b4f1edbb9b"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bạn An thả một quả bóng tennis từ tầng 2 của một tòa nhà có độ cao tương ứng $12\\text{ m}$ theo phương thẳng đứng. Mỗi khi chạm đất nó lại nảy lên theo phương thẳng đứng với độ cao bằng $\\frac{3}{4}$ độ cao trước đó. Tính tổng quãng đường bóng đi được đến khi bóng tennis dừng hẳn.",
+      "explanation": "Quãng đường bóng rơi lần đầu tiên là $h_0 = 12\\text{ m}$.\nSau lần chạm đất thứ nhất, bóng nảy lên rồi lại rơi xuống độ cao $h_1 = 12 \\cdot \\frac{3}{4}\\text{ m}$. Quãng đường cho lần nảy này là $2h_1$.\nTương tự, sau lần nảy thứ $n$, quãng đường cả nảy lên và rơi xuống là $2h_n = 2 \\cdot 12 \\cdot \\left(\\frac{3}{4}\\right)^n$.\nTổng quãng đường bóng đi được đến khi dừng hẳn là:\n$$S = h_0 + \\sum_{n=1}^{\\infty} 2h_n = 12 + 2 \\cdot 12 \\cdot \\frac{\\frac{3}{4}}{1 - \\frac{3}{4}} = 12 + 24 \\cdot \\frac{3/4}{1/4} = 12 + 24 \\cdot 3 = 12 + 72 = 84\\text{ m}.$$\nĐáp số: 84.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p3.png",
+          "sha256": "60563170b2de8f28138cd8e18e359fe35bf7274f0da958bb19f4ef6713b96291"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$ có tất cả các cạnh bằng $3$. Gọi $I, J$ lần lượt là trung điểm của $AC, BC$. Gọi $K$ là một điểm trên cạnh $BD$ với $KB = 2KD$. Xác định thiết diện của tứ diện với mặt phẳng $(IJK)$. Tính diện tích thiết diện (kết quả làm tròn đến hàng phần trăm).",
+      "explanation": "Trong tam giác $ABC$, $IJ$ là đường trung bình nên $IJ \\parallel AB$ và $IJ = \\frac{1}{2}AB = \\frac{3}{2}$.\nMặt phẳng $(IJK)$ chứa $IJ \\parallel AB$ nên giao tuyến của $(IJK)$ với $(ABD)$ là đường thẳng qua $K$ song song với $AB$, cắt $AD$ tại điểm $L$.\nVì $KL \\parallel AB$ nên trong tam giác $ABD$ ta có $\\frac{KL}{AB} = \\frac{DK}{DB} = \\frac{1}{3} \\Rightarrow KL = \\frac{1}{3} \\cdot 3 = 1$.\nThiết diện tạo thành là hình thang cân $IJLK$ với hai đáy $IJ = \\frac{3}{2}$ và $KL = 1$.\nTính độ dài cạnh bên và chiều cao hình thang, diện tích thiết diện xấp xỉ:\n$$S \\approx 2{,}23.$$\nĐáp số: 2,23.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p3.png",
+          "sha256": "60563170b2de8f28138cd8e18e359fe35bf7274f0da958bb19f4ef6713b96291"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chiều cao (đơn vị: $\\text{m}$) của 35 cây tùng gió được cho ở bảng sau:\n\n$$\\begin{array}{|c|c|c|c|c|c|} \\hline \\text{Số đo chiều cao (m)} & [6{,}5;7) & [7;7{,}5) & [7{,}5;8) & [8;8{,}5) & [8{,}5;9) \\\\ \\hline \\text{Số cây} & 6 & 9 & 15 & 4 & 1 \\\\ \\hline \\end{array}$$\n\nHãy tìm trung vị của mẫu số liệu ghép nhóm trên? (kết quả quy tròn đến hàng phần trăm)",
+      "explanation": "Cỡ mẫu $n = 35$. Vị trí của trung vị là $\\frac{n}{2} = \\frac{35}{2} = 17{,}5$.\nTần số tích lũy: $cf_1 = 6$, $cf_2 = 15$, $cf_3 = 30$, $cf_4 = 34$, $cf_5 = 35$.\nDo $15 < 17{,}5 \\le 30$ nên nhóm chứa trung vị là $[7{,}5; 8)$ với $u_m = 7{,}5$, $u_{m+1} = 8$, $n_m = 15$, $C = cf_2 = 15$.\nÁp dụng công thức tính trung vị:\n$$M_e = 7{,}5 + \\frac{17{,}5 - 15}{15} \\cdot (8 - 7{,}5) = 7{,}5 + \\frac{2{,}5}{15} \\cdot 0{,}5 = 7{,}5 + \\frac{1{,}25}{15} = 7{,}5 + \\frac{1}{12} \\approx 7{,}5833 \\approx 7{,}58\\text{ m}.$$\nĐáp số: 7,58.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p3.png",
+          "sha256": "60563170b2de8f28138cd8e18e359fe35bf7274f0da958bb19f4ef6713b96291"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải phương trình $\\sin\\left(2x + \\frac{\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$.",
+      "explanation": "Ta có:\n$$\\sin\\left(2x + \\frac{\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2} \\Leftrightarrow \\sin\\left(2x + \\frac{\\pi}{3}\\right) = \\sin\\left(-\\frac{\\pi}{3}\\right)$$\n$$\\Leftrightarrow \\begin{cases} 2x + \\frac{\\pi}{3} = -\\frac{\\pi}{3} + k2\\pi \\\\ 2x + \\frac{\\pi}{3} = \\pi - \\left(-\\frac{\\pi}{3}\\right) + k2\\pi \\end{cases} \\Leftrightarrow \\begin{cases} 2x = -\\frac{2\\pi}{3} + k2\\pi \\\\ 2x = \\pi + k2\\pi \\end{cases} \\Leftrightarrow \\begin{cases} x = -\\frac{\\pi}{3} + k\\pi \\\\ x = \\frac{\\pi}{2} + k\\pi \\end{cases} \\quad (k \\in \\mathbb{Z}).$$\nVậy tập nghiệm của phương trình là $x = -\\frac{\\pi}{3} + k\\pi, \\; x = \\frac{\\pi}{2} + k\\pi \\; (k \\in \\mathbb{Z})$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p3.png",
+          "sha256": "60563170b2de8f28138cd8e18e359fe35bf7274f0da958bb19f4ef6713b96291"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm $a$ để hàm số $f(x) = \\begin{cases} \\frac{\\sqrt{2x + 1} - \\sqrt{x + 5}}{x^2 - 4x} & \\text{khi } x > 4 \\\\ \\frac{a}{2} + x & \\text{khi } x \\le 4 \\end{cases}$ liên tục trên tập xác định.",
+      "explanation": "Hàm số liên tục trên $(-\\infty; 4)$ và $(4; +\\infty)$. Do đó hàm số liên tục trên tập xác định khi và chỉ khi hàm số liên tục tại $x = 4$.\n- Ta có $f(4) = \\lim_{x \\to 4^-} f(x) = \\lim_{x \\to 4^-} \\left(\\frac{a}{2} + x\\right) = \\frac{a}{2} + 4$.\n- Xét giới hạn phải tại $x = 4$:\n$$\\lim_{x \\to 4^+} f(x) = \\lim_{x \\to 4^+} \\frac{\\sqrt{2x + 1} - \\sqrt{x + 5}}{x(x - 4)} = \\lim_{x \\to 4^+} \\frac{(2x + 1) - (x + 5)}{x(x - 4)(\\sqrt{2x + 1} + \\sqrt{x + 5})}$$\n$$= \\lim_{x \\to 4^+} \\frac{x - 4}{x(x - 4)(\\sqrt{2x + 1} + \\sqrt{x + 5})} = \\lim_{x \\to 4^+} \\frac{1}{x(\\sqrt{2x + 1} + \\sqrt{x + 5})} = \\frac{1}{4(\\sqrt{9} + \\sqrt{9})} = \\frac{1}{4 \\cdot 6} = \\frac{1}{24}.$$\nĐể hàm số liên tục tại $x = 4$ thì:\n$$\\frac{a}{2} + 4 = \\frac{1}{24} \\Leftrightarrow \\frac{a}{2} = \\frac{1}{24} - 4 = -\\frac{95}{24} \\Leftrightarrow a = -\\frac{95}{12}.$$\n(Ghi chú theo hướng dẫn chấm của trường: nếu ở mẫu là $x - 4$ không có hệ số $x$ ngoài thì giới hạn ra $\\frac{1}{6}$, dẫn đến $\\frac{a}{2} + 4$ hoặc trong đáp án viết $\\lim_{x \\to 4^-} = \\frac{a}{2} + x$ tại $x=4$ tính ra $\\frac{a}{2} + 2$, dẫn đến $a = -\\frac{11}{6}$).\nĐáp số chính xác theo biểu thức đề bài: $a = -\\frac{95}{12}$ (theo hướng dẫn chấm của trường rút gọn: $a = -\\frac{11}{6}$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p3.png",
+          "sha256": "60563170b2de8f28138cd8e18e359fe35bf7274f0da958bb19f4ef6713b96291"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác $S.ABCD$ có các cặp cạnh đối ở đáy không song song, gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Một mặt phẳng $(\\alpha)$ cắt các cạnh bên $SA, SB, SC, SD$ tương ứng tại các điểm $M, N, P, Q$.\na. Xác định giao điểm $E$ của $AB$ và mặt phẳng $(SCD)$.\nb. Chứng minh rằng các đường thẳng $MP, NQ, SO$ đồng qui.\n\n![Hình vẽ bài toán giao tuyến đồng quy](/math-import-assets/THPT-11-CUOI_HK1-138-M111-PART-IV-Q003-sol-fig1.png)",
+      "explanation": "a. Trong mặt phẳng đáy $(ABCD)$, do các cạnh đối không song song nên $AB$ cắt $CD$ tại điểm $E$.\nVì $E \\in CD \\subset (SCD)$ nên $E \\in (SCD)$. Lại có $E \\in AB$, do đó $E = AB \\cap (SCD)$.\nb. Trong mặt phẳng $(MNPQ)$, gọi $I = MP \\cap NQ$. Ta chứng minh $I \\in SO$:\n- Trong mặt phẳng $(SAC)$, $MP$ nối hai điểm trên $SA, SC$ nên $MP \\subset (SAC)$, suy ra $I \\in MP \\subset (SAC) \\Rightarrow I \\in (SAC)$.\n- Trong mặt phẳng $(SBD)$, $NQ$ nối hai điểm trên $SB, SD$ nên $NQ \\subset (SBD)$, suy ra $I \\in NQ \\subset (SBD) \\Rightarrow I \\in (SBD)$.\nTừ đó suy ra $I$ thuộc giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$, tức là $I \\in SO$.\nVậy ba đường thẳng $MP, NQ, SO$ đồng quy tại điểm $I$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p3.png",
+          "sha256": "60563170b2de8f28138cd8e18e359fe35bf7274f0da958bb19f4ef6713b96291"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-138-M111-PART-IV-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chu vi của một đa giác là $45\\text{ cm}$, số đo các cạnh của nó lập thành một cấp số cộng với công sai $d = 3\\text{ cm}$. Biết cạnh lớn nhất là $15\\text{ cm}$, tính số cạnh của đa giác đó.",
+      "explanation": "Gọi số cạnh của đa giác là $n$ ($n \\ge 3, n \\in \\mathbb{N}^*$) và các cạnh theo thứ tự tăng dần lập thành cấp số cộng $u_1, u_2, \\ldots, u_n$ với $d = 3\\text{ cm}$.\nCạnh lớn nhất là $u_n = 15 \\Rightarrow u_1 + (n - 1)d = 15 \\Leftrightarrow u_1 + 3(n - 1) = 15 \\Leftrightarrow u_1 = 18 - 3n$.\nVì $u_1 > 0$ nên $18 - 3n > 0 \\Leftrightarrow n < 6$.\nChu vi của đa giác là tổng các cạnh:\n$$S_n = \\frac{n(u_1 + u_n)}{2} = \\frac{n(18 - 3n + 15)}{2} = \\frac{n(33 - 3n)}{2} = 45.$$\n$$\\Leftrightarrow 33n - 3n^2 = 90 \\Leftrightarrow 3n^2 - 33n + 90 = 0 \\Leftrightarrow n^2 - 11n + 30 = 0 \\Leftrightarrow \\begin{cases} n = 5 \\text{ (nhận vì } n < 6\\text{)} \\\\ n = 6 \\text{ (loại vì } u_1 = 0\\text{)} \\end{cases}.$$\nVậy đa giác có 5 cạnh.\nĐáp số: 5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p3.png",
+          "sha256": "60563170b2de8f28138cd8e18e359fe35bf7274f0da958bb19f4ef6713b96291"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-138-p7.png",
+          "sha256": "1df6a1485ebdddb9da0bc089dad96ced9d25e1a302c3c3e1911ef5bcef66675e"
+        }
+      ]
+    }
+  ]
+}

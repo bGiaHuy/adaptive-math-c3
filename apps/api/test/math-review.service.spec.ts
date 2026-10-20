@@ -11,8 +11,8 @@ describe('Math personal review', () => {
   });
   it('does not expose solutions in the queue', async () => {
     const db:any = {diagnosticAttempt:{findFirst:vi.fn().mockResolvedValue(null)},
-      mathReviewCard:{findMany:vi.fn().mockResolvedValue([{id:'c',questionId:'q'}])},
-      question:{findMany:vi.fn().mockResolvedValue([{id:'q',content:'2x=6',skill:{title:'Equations'},explanation:'x=3',options:[{optionKey:'A',content:'3',isCorrect:true}]}])}};
+      assignmentQuestion:{findMany:vi.fn().mockResolvedValue([])},mathReviewCard:{findMany:vi.fn().mockResolvedValue([{id:'c',questionId:'q'}])},
+      question:{findMany:vi.fn().mockResolvedValue([{id:'q',status:'PUBLISHED',questionType:'SINGLE_CHOICE',content:'2x=6',skill:{grade:10,title:'Equations'},explanation:'x=3',options:[{optionKey:'A',content:'3',isCorrect:true}]}])}};
     const queue=await new MathReviewService(db,{} as any).queue('student');
     expect(queue[0]).not.toHaveProperty('explanation');
     expect(queue[0].options[0]).not.toHaveProperty('isCorrect');

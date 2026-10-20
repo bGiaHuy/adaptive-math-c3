@@ -1543,7 +1543,7 @@ export default function TeacherClassroomsView({ currentUser }) {
                                 <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
                                   <strong style={{ color: '#0f172a', fontSize: '0.88rem' }}>Câu {qa.orderIndex}:</strong>
                                   <span style={{ fontSize: '0.75rem', padding: '1px 6px', borderRadius: '4px', backgroundColor: '#e2e8f0', color: '#475569' }}>
-                                    {qa.skillTitle || 'Toán 9'}
+                                    {qa.skillTitle || 'Toán 10'}
                                   </span>
                                   {isLow && (
                                     <span style={{ fontSize: '0.75rem', color: '#b45309', fontWeight: 700 }}>
@@ -1644,7 +1644,7 @@ export default function TeacherClassroomsView({ currentUser }) {
                 <input
                   type="text"
                   className="form-input"
-                  placeholder="Ví dụ: Toán 9A1 - Chuyên Đề Đại Số"
+                  placeholder="Ví dụ: Toán 10A1 - Chuyên Đề Đại Số"
                   style={{ width: '100%', padding: '10px 12px', border: '1px solid #cbd5e1', borderRadius: '6px', fontSize: '0.9rem' }}
                   value={className}
                   onChange={(e) => setClassName(e.target.value)}

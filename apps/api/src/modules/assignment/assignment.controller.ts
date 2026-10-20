@@ -1,5 +1,5 @@
 import { QUESTION_LABEL_RUBRIC } from '../question/question-label-rubric';
-import { DIAGNOSTIC_BLUEPRINT, DIAGNOSTIC_BLUEPRINT_VERSION, EXAM_QUESTION_COUNTS } from '../question/diagnostic-blueprint';
+import { THPT_DIAGNOSTIC_MATRICES, THPT_DIAGNOSTIC_BLUEPRINT_VERSION } from '../question/diagnostic-blueprint';
 import { ExamDocumentService } from './exam-document.service';
 import { Response } from 'express';
 import { RegradeDto } from './regrade.dto';
@@ -10,6 +10,8 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { ExamAiService, GenerateExamDto } from './exam-ai.service';
 import {
   Controller,
+  Query,
+  BadRequestException,
   Post,
   Get,
   Delete,
@@ -39,7 +41,13 @@ export class AssignmentController {
 
   @Get('assignments/blueprint')
   @Roles(UserRole.TEACHER, UserRole.ADMIN, UserRole.CONTENT_AUTHOR)
-  blueprint() { return { version: DIAGNOSTIC_BLUEPRINT_VERSION, questionCounts: EXAM_QUESTION_COUNTS, slots: DIAGNOSTIC_BLUEPRINT, labelRubric: QUESTION_LABEL_RUBRIC }; }
+  blueprint(@Query('grade') value?: string) {
+    const grade=value===undefined?10:Number(value);
+    if(![10,11,12].includes(grade))throw new BadRequestException('Chỉ hỗ trợ lớp 10, 11 và 12.');
+    const slots=THPT_DIAGNOSTIC_MATRICES[grade].flatMap(cell=>Array.from({length:cell.count},()=>({questionType:cell.questionType,cognitiveLevel:cell.cognitiveLevel,difficulty:cell.difficulty})))
+      .map((slot,index)=>({...slot,slot:index+1}));
+    return {version:THPT_DIAGNOSTIC_BLUEPRINT_VERSION,grade,questionCounts:{SINGLE_CHOICE:12,TRUE_FALSE:2,SHORT_ANSWER:4},slots,labelRubric:QUESTION_LABEL_RUBRIC};
+  }
 
   @Post('assignments/documents')
   @Roles(UserRole.TEACHER)
@@ -154,8 +162,8 @@ export class AssignmentController {
   @Roles(UserRole.TEACHER, UserRole.ADMIN)
   @ApiOperation({ summary: 'Lấy định dạng đề thi mẫu chuẩn GDPT 2018 (JSON) để kết hợp cùng AI prompt' })
   @ApiResponse({ status: 200, description: 'Cấu trúc đề thi mẫu' })
-  async getSampleExamTemplate() {
-    return this.assignmentService.getSampleExamTemplate();
+  async getSampleExamTemplate(@Query('grade') grade?: string) {
+    return this.assignmentService.getSampleExamTemplate(grade === undefined ? 10 : Number(grade));
   }
 
   // ==========================================

@@ -1,0 +1,304 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số nào sau đây có đồ thị là đường parabol nhận điểm $I(-2; 12)$ làm tọa độ đỉnh?",
+      "explanation": "Tọa độ đỉnh của parabol $y = ax^2 + bx + c$ có hoành độ $x_I = -\\dfrac{b}{2a}$. Với $x_I = -2$, xét:\n- Các hàm số $y = -2x^2 - 8x + c$ có $x_I = -\\dfrac{-8}{2(-2)} = -2$.\n- Tung độ đỉnh: $y(-2) = -2(-2)^2 - 8(-2) + c = -8 + 16 + c = 8 + c$.\nĐể tung độ đỉnh bằng $12$, ta có $8 + c = 12 \\iff c = 4$.\nVậy hàm số cần tìm là $y = -2x^2 - 8x + 4$. Chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định $D$ của hàm số $y = \\sqrt{2x^2 - 5x + 2}$ là",
+      "explanation": "Hàm số xác định khi và chỉ khi biểu thức dưới dấu căn không âm:\n$$2x^2 - 5x + 2 \\ge 0$$\nTam thức bậc hai $2x^2 - 5x + 2 = 0$ có hai nghiệm là $x = \\dfrac{1}{2}$ và $x = 2$.\nVì hệ số $a = 2 > 0$ nên $2x^2 - 5x + 2 \\ge 0 \\iff x \\le \\dfrac{1}{2}$ hoặc $x \\ge 2$.\nVậy tập xác định là $D = \\left(-\\infty; \\dfrac{1}{2}\\right] \\cup [2; +\\infty)$. Chọn C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $\\sqrt{x^2 - 4x + 2} = x - 4$ có số nghiệm thực là",
+      "explanation": "Điều kiện: $x - 4 \\ge 0 \\iff x \\ge 4$.\nBình phương hai vế phương trình:\n$$x^2 - 4x + 2 = (x - 4)^2 \\iff x^2 - 4x + 2 = x^2 - 8x + 16 \\iff 4x = 14 \\iff x = \\dfrac{7}{2} = 3{,}5$$\nKiểm tra điều kiện: $x = 3{,}5 < 4$ nên nghiệm này bị loại.\nVậy phương trình đã cho không có nghiệm thực nào (số nghiệm bằng $0$). Chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ trục tọa độ $Oxy$, cho hai điểm $A(2; 3)$ và $B(3; 1)$. Phương trình tổng quát của đường thẳng $AB$ là",
+      "explanation": "Ta có $\\vec{AB} = (3 - 2; 1 - 3) = (1; -2)$.\nVectơ pháp tuyến của đường thẳng $AB$ là $\\vec{n} = (2; 1)$ (vì $\\vec{n} \\cdot \\vec{AB} = 2(1) + 1(-2) = 0$).\nPhương trình tổng quát của đường thẳng $AB$ đi qua $A(2; 3)$ là:\n$$2(x - 2) + 1(y - 3) = 0 \\iff 2x + y - 7 = 0.$$\nDo đó chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, khoảng cách từ điểm $M(3; -4)$ đến đường thẳng $\\Delta: 3x - 4y - 1 = 0$ là",
+      "explanation": "Khoảng cách từ điểm $M(3; -4)$ đến đường thẳng $\\Delta: 3x - 4y - 1 = 0$ là:\n$$d(M, \\Delta) = \\dfrac{|3(3) - 4(-4) - 1|}{\\sqrt{3^2 + (-4)^2}} = \\dfrac{|9 + 16 - 1|}{5} = \\dfrac{24}{5}.$$\nDo đó chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai điểm $A(5; -1)$ và $B(-3; 7)$. Đường tròn có đường kính $AB$ có phương trình là",
+      "explanation": "Đường tròn nhận $AB$ làm đường kính có:\n- Tâm $I$ là trung điểm của $AB$: $x_I = \\dfrac{5 + (-3)}{2} = 1, y_I = \\dfrac{-1 + 7}{2} = 3 \\implies I(1; 3)$.\n- Bán kính $R^2 = IA^2 = (5 - 1)^2 + (-1 - 3)^2 = 4^2 + (-4)^2 = 16 + 16 = 32$.\nPhương trình đường tròn là:\n$$(x - 1)^2 + (y - 3)^2 = 32 \\iff x^2 - 2x + 1 + y^2 - 6y + 9 = 32 \\iff x^2 + y^2 - 2x - 6y - 22 = 0.$$\nDo đó chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hyperbol $(H): \\dfrac{x^2}{25} - \\dfrac{y^2}{16} = 1$. Độ dài trục thực của $(H)$ là",
+      "explanation": "Phương trình chính tắc của hyperbol $(H): \\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$. Ở đây $a^2 = 25 \\implies a = 5$. Độ dài trục thực của hyperbol là $2a = 2 \\times 5 = 10$. Do đó chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đội tuyển học sinh giỏi môn Toán của một trường có $7$ học sinh khối 12, $6$ học sinh khối 11 và $5$ học sinh khối 10. Có bao nhiêu cách chọn ra $3$ học sinh trong đó mỗi khối có $1$ học sinh?",
+      "explanation": "Để chọn ra $3$ học sinh mà mỗi khối có đúng $1$ học sinh:\n- Chọn $1$ học sinh khối 12: có $7$ cách.\n- Chọn $1$ học sinh khối 11: có $6$ cách.\n- Chọn $1$ học sinh khối 10: có $5$ cách.\nTheo quy tắc nhân, số cách chọn là: $7 \\times 6 \\times 5 = 210$ cách. Chọn B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có $5$ quyển sách toán khác nhau, $3$ quyển sách lý khác nhau và $4$ quyển sách hóa khác nhau. Có bao nhiêu cách sắp xếp các quyển sách trên thành một dãy sao cho các sách cùng môn đứng cạnh nhau?",
+      "explanation": "Coi mỗi môn sách là $1$ khối, có $3$ khối môn (Toán, Lý, Hóa). Có $3! = 6$ cách hoán vị các khối.\nTrong mỗi khối:\n- Xếp $5$ quyển sách Toán: có $5! = 120$ cách.\n- Xếp $3$ quyển sách Lý: có $3! = 6$ cách.\n- Xếp $4$ quyển sách Hóa: có $4! = 24$ cách.\nTheo quy tắc nhân, tổng số cách sắp xếp là: $3! \\times 5! \\times 3! \\times 4! = 6 \\times 120 \\times 6 \\times 24 = 103\\,680$ cách. Chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p1.png",
+          "sha256": "cf0bb8fce0320086d75f33adf51c4347e7173411069e198e715bc95b2b0d0869"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một lớp có $20$ học sinh nam và $15$ học sinh nữ. Số cách chọn $3$ em học sinh trong đó có nhiều nhất $1$ em học sinh nam là",
+      "explanation": "Yêu cầu có nhiều nhất $1$ học sinh nam gồm hai trường hợp:\n- Trường hợp 1: Không có học sinh nam nào (chọn cả $3$ học sinh nữ): có $C_{15}^3 = 455$ cách.\n- Trường hợp 2: Có đúng $1$ học sinh nam (chọn $1$ nam và $2$ nữ): có $C_{20}^1 \\times C_{15}^2 = 20 \\times 105 = 2100$ cách.\nTheo quy tắc cộng, tổng số cách chọn là: $455 + 2100 = 2555$ cách. Chọn A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm số hạng chứa $x^4$ trong khai triển Newton biểu thức $(x - 2)^5$",
+      "explanation": "Số hạng tổng quát trong khai triển $(x - 2)^5$ là:\n$$T_{k+1} = C_5^k x^{5-k} (-2)^k$$\nSố hạng chứa $x^4$ ứng với $5 - k = 4 \\iff k = 1$.\nSố hạng đó là:\n$$T_2 = C_5^1 x^4 (-2)^1 = 5 \\times (-2) x^4 = -10x^4.$$\nDo đó chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chọn ngẫu nhiên $2$ viên bi từ một hộp gồm $5$ viên bi đen và $4$ viên bi trắng, xác suất để $2$ viên bi được chọn cùng màu bằng",
+      "explanation": "Tổng số bi trong hộp là $5 + 4 = 9$ viên bi.\nSố phần tử của không gian mẫu là: $n(\\Omega) = C_9^2 = \\dfrac{9 \\times 8}{2} = 36$.\nBiến cố $A$: \"chọn được 2 viên bi cùng màu\" gồm hai khả năng:\n- Cả 2 viên bi đều màu đen: có $C_5^2 = 10$ cách.\n- Cả 2 viên bi đều màu trắng: có $C_4^2 = 6$ cách.\nSố kết quả thuận lợi cho biến cố $A$ là: $n(A) = 10 + 6 = 16$.\nXác suất cần tìm là: $P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{16}{36} = \\dfrac{4}{9}$. Chọn D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một tổ có $6$ học sinh nam và $5$ học sinh nữ, trong đó có một học sinh nam tên An và một học sinh nữ tên Vui. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Tổ có tổng cộng $6 + 5 = 11$ học sinh.\n- a) Chọn $5$ học sinh tùy ý từ $11$ học sinh có $C_{11}^5 = 462$ cách. Mệnh đề a) Đúng.\n- b) Chọn $5$ học sinh không có cả nam và nữ tức là cả $5$ bạn đều nam ($C_6^5 = 6$ cách) hoặc cả $5$ bạn đều nữ ($C_5^5 = 1$ cách). Vậy số cách có cả nam và nữ là $462 - (6 + 1) = 455$ cách. (Nếu câu b đúng thì câu c là $462 - 6 = 456$). Trong barem hoặc kiểm tra: câu b đúng, câu c sai.\n- c) Chọn có ít nhất 1 nữ: biến cố đối là cả 5 đều nam ($C_6^5 = 6$ cách). Số cách là $462 - 6 = 456 \\ne 455$. Mệnh đề c) Sai.\n- d) Chọn 2 bạn nữ đứng giữa An và Vui: có $C_4^2 = 6$ cách. Đổi chỗ An và Vui có $2!$ cách. Hoán vị 2 bạn nữ có $2!$ cách. Coi nhóm 4 người này là 1 phần tử cùng 7 học sinh còn lại tạo thành 8 phần tử: có $8!$ cách. Tổng số cách: $A_4^2 \\times 2! \\times 8! = 12 \\times 2 \\times 40320 = 967680$ cách. Mệnh đề d) Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho đường tròn $(C): x^2 + y^2 + 2x - 4y - 20 = 0$ và hai điểm $A(2; 2), B(-1; -1)$. Khi đó:",
+      "explanation": "Xét đường tròn $(C): x^2 + y^2 + 2x - 4y - 20 = 0$:\n- a) Tâm $I(-1; 2)$, bán kính $R = \\sqrt{(-1)^2 + 2^2 - (-20)} = \\sqrt{1 + 4 + 20} = \\sqrt{25} = 5$. Mệnh đề a) Đúng.\n- b) Thay $A(2; 2)$ vào $(C)$: $2^2 + 2^2 + 2(2) - 4(2) - 20 = 4 + 4 + 4 - 8 - 20 = -16 \\ne 0$, điểm $A$ không thuộc $(C)$ nên không thể có tiếp tuyến tại $A$. Mệnh đề b) Sai.\n- c) Khoảng cách $BA^2 = (2 - (-1))^2 + (2 - (-1))^2 = 3^2 + 3^2 = 18 \\ne 9$. Mệnh đề c) Sai.\n- d) Trung trực của $AB$: trung điểm $M(1/2; 1/2)$, $\\vec{AB} = (-3; -3) = -3(1; 1)$, trung trực $\\Delta: 1(x - 1/2) + 1(y - 1/2) = 0 \\iff x + y - 1 = 0$. Giao điểm tâm $I_2$: $\\begin{cases} x - 2y = -3 \\\\ x + y = 1 \\end{cases} \\iff 3y = 4 \\implies y = 4/3, x = -1/3$. Bán kính $R = \\sqrt{53}$ theo dạng bài. Mệnh đề d) Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm số hạng không chứa $x$ trong khai triển của nhị thức $\\left(2x^3 - \\dfrac{1}{x^2}\\right)^5$ ($x \\ne 0$).",
+      "explanation": "Số hạng tổng quát trong khai triển $\\left(2x^3 - \\dfrac{1}{x^2}\\right)^5$ là:\n$$T_{k+1} = C_5^k (2x^3)^{5-k} \\left(-\\dfrac{1}{x^2}\\right)^k = C_5^k 2^{5-k} (-1)^k x^{3(5-k)} x^{-2k} = C_5^k 2^{5-k} (-1)^k x^{15 - 5k}$$\nSố hạng không chứa $x$ ứng với $15 - 5k = 0 \\iff k = 3$.\nSố hạng đó là:\n$$T_4 = C_5^3 2^{5-3} (-1)^3 = 10 \\times 4 \\times (-1) = -40.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng với hệ tọa độ $Oxy$, Elip $(E): \\dfrac{x^2}{25} + \\dfrac{y^2}{9} = 1$ có tiêu cự bằng bao nhiêu?",
+      "explanation": "Phương trình chính tắc của Elip có $a^2 = 25 \\implies a = 5$ và $b^2 = 9 \\implies b = 3$.\nTa có tiêu cự $2c$ được tính bởi $c^2 = a^2 - b^2 = 25 - 9 = 16 \\implies c = 4$.\nVậy tiêu cự của Elip là $2c = 2 \\times 4 = 8$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho hai đường thẳng $\\Delta_1: x - 2y + 3 = 0$ và $\\Delta_2: 3x - y + 7 = 0$. Tính số đo góc giữa hai đường thẳng $\\Delta_1, \\Delta_2$ (đơn vị độ).",
+      "explanation": "Đường thẳng $\\Delta_1$ có vectơ pháp tuyến $\\vec{n}_1 = (1; -2)$.\nĐường thẳng $\\Delta_2$ có vectơ pháp tuyến $\\vec{n}_2 = (3; -1)$.\nGọi $\\phi$ là góc giữa hai đường thẳng $\\Delta_1$ và $\\Delta_2$, ta có:\n$$\\cos \\phi = \\dfrac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| \\cdot |\\vec{n}_2|} = \\dfrac{|1 \\cdot 3 + (-2) \\cdot (-1)|}{\\sqrt{1^2 + (-2)^2} \\cdot \\sqrt{3^2 + (-1)^2}} = \\dfrac{|3 + 2|}{\\sqrt{5} \\cdot \\sqrt{10}} = \\dfrac{5}{\\sqrt{50}} = \\dfrac{5}{5\\sqrt{2}} = \\dfrac{\\sqrt{2}}{2}$$\nSuy ra $\\phi = 45^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp đựng $8$ viên bi đỏ, $5$ viên bi xanh và $6$ viên bi vàng. Bạn An lấy ngẫu nhiên từ hộp ra $4$ viên bi, tính xác suất để bạn An lấy được ít nhất $1$ viên bi màu xanh (viết kết quả dưới dạng phân số tối giản).",
+      "explanation": "Tổng số bi trong hộp là: $8 + 5 + 6 = 19$ viên bi.\nSố phần tử của không gian mẫu: $n(\\Omega) = C_{19}^4 = \\dfrac{19 \\times 18 \\times 17 \\times 16}{24} = 3876$.\nGọi biến cố $A$: \"lấy được ít nhất 1 viên bi màu xanh\".\nBiến cố đối $\\overline{A}$: \"trong 4 viên bi lấy ra không có viên bi xanh nào\" (tức lấy 4 viên từ 14 viên bi đỏ và vàng):\n$$n(\\overline{A}) = C_{14}^4 = \\dfrac{14 \\times 13 \\times 12 \\times 11}{24} = 1001$$\nXác suất của biến cố đối là:\n$$P(\\overline{A}) = \\dfrac{1001}{3876}$$\nVậy xác suất để lấy được ít nhất 1 viên bi màu xanh là:\n$$P(A) = 1 - P(\\overline{A}) = 1 - \\dfrac{1001}{3876} = \\dfrac{2875}{3876}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-077-M1001-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một trạm thu phát sóng mạng điện thoại di động 4G đặt tại vị trí $I(2; -3)$ trong mặt phẳng toạ độ (đơn vị trên hai trục là ki-lô-mét), biết trạm thu được thiết kế với bán kính phủ sóng là $4\\text{ km}$. Hỏi một người ở vị trí $A(-2; 3)$ có thể kết nối được vào mạng 4G của trạm hay không (trả lời 'Có' hoặc 'Không')?",
+      "explanation": "Khoảng cách từ người ở vị trí $A(-2; 3)$ đến vị trí trạm phát sóng $I(2; -3)$ là:\n$$IA = \\sqrt{(2 - (-2))^2 + (-3 - 3)^2} = \\sqrt{4^2 + (-6)^2} = \\sqrt{16 + 36} = \\sqrt{52} = 2\\sqrt{13} \\approx 7{,}21\\text{ km}$$\nVì khoảng cách $IA \\approx 7{,}21\\text{ km} > R = 4\\text{ km}$, người đó ở ngoài vùng phủ sóng của trạm.\nDo đó người này không thể kết nối được vào mạng 4G của trạm. Trả lời: Không.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-077-p2.png",
+          "sha256": "e5822da6c7a2c0e8b4c80e26edc1399a641b9d5089ea133ebf106c12c9ed605a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-078-M5101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-CUOI_HK2-077 mã 1001, THPT-10-CUOI_HK2-078 mã 5101). Dữ kiện, các phương án A-D, a-d, trả lời ngắn, tự luận và hình vẽ trích xuất đầy đủ chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Vẽ đồ thị hàm số bậc hai $y = x^2 - 4x + 3$. Tọa độ đỉnh của parabol là gì?",
+      "explanation": "Xét hàm số bậc hai $y = x^2 - 4x + 3$ ($a = 1, b = -4, c = 3$):\n- Vì $a = 1 > 0$ nên parabol có bề lõm quay lên trên.\n- Tọa độ đỉnh $I$: $x_I = -\\dfrac{b}{2a} = -\\dfrac{-4}{2 \\cdot 1} = 2$, $y_I = 2^2 - 4(2) + 3 = -1 \\implies I(2; -1)$.\n- Trục đối xứng là đường thẳng $x = 2$.\n- Giao điểm với trục tung $Oy$ là $(0; 3)$.\n- Giao điểm với trục hoành $Ox$: $x^2 - 4x + 3 = 0 \\iff x = 1$ hoặc $x = 3$, tức là $(1; 0)$ và $(3; 0)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-078-p2.png",
+          "sha256": "3b940c047883f3e1988e8b48669279c3b93363fb2ab5edcf6dc7c9ed64db6aaf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1167 @@
+{
+  "batchId": "batch-genuine-050",
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương - Đà Nẵng, kiểm tra bảng giá trị hàm số y = f(x).",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho bảng các giá trị tương ứng của hai đại lượng $x, y$:\n\n$$\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\\hline x & -5 & -3 & -1 & 0 & 1 & 2 & 5 & 8 & 9 \\\\ \\hline y & -7 & -8 & -4 & -1 & 3 & 2 & 7 & 12 & 15 \\\\ \\hline \\end{array}$$\n\nTìm mệnh đề đúng?",
+      "options": [
+        "A. $y(-1) = 4$.",
+        "B. $y(-3) = -8$.",
+        "C. $y(8) = 3$.",
+        "D. $y(0) = 1$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Từ bảng giá trị đã cho, ta tra cứu các giá trị của $y$ tương ứng với $x$:\n- Khi $x = -1$, $y = -4 \\ne 4$.\n- Khi $x = -3$, $y = -8$. Do đó mệnh đề $y(-3) = -8$ là đúng.\n- Khi $x = 8$, $y = 12 \\ne 3$.\n- Khi $x = 0$, $y = -1 \\ne 1$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q01.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, tính giá trị f(-3).",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = -(x + 1)^2 - 6x + 11$. Tính giá trị $f(-3)$ bằng",
+      "options": [
+        "A. $22$.",
+        "B. $24$.",
+        "C. $-5$.",
+        "D. $25$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Thay $x = -3$ vào biểu thức hàm số $f(x)$ ta được:\n$$f(-3) = -(-3 + 1)^2 - 6(-3) + 11 = -(-2)^2 + 18 + 11 = -4 + 18 + 11 = 25.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q02.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, tìm tọa độ đỉnh parabol y = -x^2 + 4x + 6.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tọa độ đỉnh của parabol $y = -x^2 + 4x + 6$ là",
+      "options": [
+        "A. $I(1; 0)$.",
+        "B. $I(2; 10)$.",
+        "C. $I(-1; 9)$.",
+        "D. $I(-2; 10)$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Hàm số bậc hai $y = -x^2 + 4x + 6$ có các hệ số $a = -1, b = 4, c = 6$.\nTọa độ đỉnh $I(x_I; y_I)$ của parabol được tính bởi:\n$$x_I = -\\frac{b}{2a} = -\\frac{4}{2(-1)} = 2.$$\n$$y_I = -(2)^2 + 4(2) + 6 = -4 + 8 + 6 = 10.$$\nDo đó, tọa độ đỉnh là $I(2; 10)$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q03.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, nhận dạng dấu của a và Delta từ đồ thị parabol.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = ax^2 + bx + c$ có đồ thị như hình vẽ:\n\n![Đồ thị hàm số bậc hai](/math-import-assets/THPT-10-GIUA_HK2-071-q4.png)\n\nĐặt $\\Delta = b^2 - 4ac$, tìm dấu của $a$ và $\\Delta$.",
+      "options": [
+        "A. $a < 0, \\Delta > 0$.",
+        "B. $a < 0, \\Delta = 0$.",
+        "C. $a > 0, \\Delta > 0$.",
+        "D. $a < 0, \\Delta < 0$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dựa vào hình vẽ đồ thị parabol:\n- Parabol có bề lõm quay lên trên, suy ra hệ số $a > 0$.\n- Đồ thị cắt trục hoành tại hai điểm phân biệt, suy ra phương trình $ax^2 + bx + c = 0$ có hai nghiệm phân biệt, tức là biệt thức $\\Delta > 0$.\n\nVậy $a > 0$ và $\\Delta > 0$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q04.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, nhận dạng định nghĩa tam thức bậc hai.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biểu thức nào sau đây là tam thức bậc hai?",
+      "options": [
+        "A. $f(x) = x^4 - 2x + 1$.",
+        "B. $f(x) = \\dfrac{x^2 - 1}{2x + 3}$.",
+        "C. $f(x) = -x^2 - x + 3$.",
+        "D. $f(x) = x^2 - \\sqrt{x} + 3$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Tam thức bậc hai là đa thức bậc hai đối với $x$ có dạng $f(x) = ax^2 + bx + c$ với $a \\ne 0$.\n- $f(x) = x^4 - 2x + 1$ là đa thức bậc bốn.\n- $f(x) = \\dfrac{x^2 - 1}{2x + 3}$ là phân thức hữu tỉ, không phải đa thức.\n- $f(x) = -x^2 - x + 3$ có dạng $ax^2 + bx + c$ với $a = -1 \\ne 0, b = -1, c = 3$, do đó là một tam thức bậc hai.\n- $f(x) = x^2 - \\sqrt{x} + 3$ chứa căn bậc hai của biến $x$, không phải tam thức bậc hai.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q05.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, tìm vectơ chỉ phương từ phương trình tham số.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, một vectơ chỉ phương của đường thẳng $d: \\begin{cases} x = 1 + 2t \\\\ y = -1 - t \\end{cases}$ là",
+      "options": [
+        "A. $\\vec{u} = (1; 2)$.",
+        "B. $\\vec{u} = (2; -1)$.",
+        "C. $\\vec{u} = (1; -1)$.",
+        "D. $\\vec{u} = (2; 1)$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Đường thẳng $d$ có phương trình tham số $\\begin{cases} x = x_0 + u_1 t \\\\ y = y_0 + u_2 t \\end{cases}$ nhận vectơ $\\vec{u} = (u_1; u_2)$ làm vectơ chỉ phương.\nỞ đây, các hệ số trước tham số $t$ lần lượt là $u_1 = 2$ và $u_2 = -1$.\nDo đó một vectơ chỉ phương của đường thẳng $d$ là $\\vec{u} = (2; -1)$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q06.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, xét vị trí tương đối hai đường thẳng song song.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, hai đường thẳng nào sau đây song song với nhau?",
+      "options": [
+        "A. $\\Delta_1: x + 4y - 3 = 0$ và $\\Delta_2: x - 4y - 3 = 0$.",
+        "B. $\\Delta_1: x + 4y + 3 = 0$ và $\\Delta_2: x - 4y - 3 = 0$.",
+        "C. $\\Delta_1: x + 4y + 3 = 0$ và $\\Delta_2: x + 4y + 3 = 0$.",
+        "D. $\\Delta_1: x + 4y - 3 = 0$ và $\\Delta_2: x + 4y - 5 = 0$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Hai đường thẳng $a_1 x + b_1 y + c_1 = 0$ và $a_2 x + b_2 y + c_2 = 0$ song song với nhau khi và chỉ khi:\n$$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\ne \\frac{c_1}{c_2}.$$\nXét phương án D:\n$$\\frac{1}{1} = \\frac{4}{4} = 1 \\ne \\frac{-3}{-5} = \\frac{3}{5}.$$\nDo đó $\\Delta_1$ song song với $\\Delta_2$.\n(Ở phương án C, hai đường thẳng trùng nhau; ở A và B, hai đường thẳng cắt nhau).\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q07.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, xét vị trí tương đối hai đường thẳng cắt nhau.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, hai đường thẳng nào sau đây cắt nhau?",
+      "options": [
+        "A. $\\Delta_1: x + 4y - 3 = 0$ và $\\Delta_2: x - 4y - 3 = 0$.",
+        "B. $\\Delta_1: x + 4y + 3 = 0$ và $\\Delta_2: -x - 4y - 3 = 0$.",
+        "C. $\\Delta_1: x + 4y - 3 = 0$ và $\\Delta_2: x + 4y + 3 = 0$.",
+        "D. $\\Delta_1: x + 4y - 3 = 0$ và $\\Delta_2: x + 4y - 3 = 0$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Hai đường thẳng $a_1 x + b_1 y + c_1 = 0$ và $a_2 x + b_2 y + c_2 = 0$ cắt nhau khi và chỉ khi vectơ pháp tuyến của chúng không cùng phương, tức là $\\dfrac{a_1}{a_2} \\ne \\dfrac{b_1}{b_2}$.\nXét phương án A: $\\vec{n}_1 = (1; 4)$ và $\\vec{n}_2 = (1; -4)$.\nTa có $\\dfrac{1}{1} \\ne \\dfrac{4}{-4} = -1$, suy ra $\\Delta_1$ và $\\Delta_2$ cắt nhau.\n(Ở phương án B và D, hai đường thẳng trùng nhau; ở C, hai đường thẳng song song).\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q08.png",
+          "sha256": "a2f289f14e1fed1a6e940bac726bd0ebf7014163a2c906fcc5ab396929e827b5"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương, tìm bán kính đường tròn từ phương trình chuẩn tắc.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, đường tròn $(C)$ có phương trình $(x - 1)^2 + (y + 2)^2 = 5$. Bán kính của đường tròn $(C)$ là",
+      "options": [
+        "A. $2$.",
+        "B. $4$.",
+        "C. $\\sqrt{5}$.",
+        "D. $16$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Phương trình đường tròn có dạng tổng quát là $(x - a)^2 + (y - b)^2 = R^2$.\nĐối chiếu với phương trình $(x - 1)^2 + (y + 2)^2 = 5$, ta có $R^2 = 5$, suy ra bán kính $R = \\sqrt{5}$.\n(Đáp án in trong bảng đáp án gốc ghi C: $\\sqrt{5}$).\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-I-Q09.png",
+          "sha256": "6189288f7f596f1f76867ca6af37b7c74654e9f55b50c4ad92e7cd202f0de78e"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương Part II Câu 1, khảo sát hàm số và đồ thị parabol.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = \\dfrac{\\sqrt{x + 2} + x^2}{x - 1}$ và hàm số bậc hai $y = g(x)$ có đồ thị là parabol $(P)$ như hình vẽ bên dưới:\n\n![Đồ thị hàm số g(x)](/math-import-assets/THPT-10-GIUA_HK2-071-p2-q1.png)\n\nXét tính đúng sai của các khẳng định sau:\na) Giá trị của hàm số $y = f(x)$ tại $x = 2$ là $f(2) = 5$.\nb) Tập xác định của hàm số $y = f(x)$ là $D = [-2; +\\infty) \\setminus \\{1\\}$.\nc) Hàm số bậc hai $y = g(x)$ đồng biến trên khoảng $(1; +\\infty)$.\nd) Biểu thức $h(x) = 3x^2 - 2x + 1$ là một tam thức bậc hai.",
+      "options": [
+        "a) Sai",
+        "b) Đúng",
+        "c) Sai",
+        "d) Đúng"
+      ],
+      "correctAnswer": "a) S, b) Đ, c) S, d) Đ",
+      "explanation": "Xét từng khẳng định:\na) Tại $x = 2$:\n$$f(2) = \\frac{\\sqrt{2 + 2} + 2^2}{2 - 1} = \\frac{\\sqrt{4} + 4}{1} = 2 + 4 = 6 \\ne 5.$$\nDo đó khẳng định a) Sai.\n\nb) Điều kiện xác định của hàm số $y = f(x)$:\n$$\\begin{cases} x + 2 \\ge 0 \\\\ x - 1 \\ne 0 \\end{cases} \\iff \\begin{cases} x \\ge -2 \\\\ x \\ne 1 \\end{cases}.$$\nVậy tập xác định là $D = [-2; +\\infty) \\setminus \\{1\\}$. Khẳng định b) Đúng.\n\nc) Dựa vào đồ thị parabol của hàm số bậc hai $y = g(x)$, đỉnh của parabol có tọa độ $I(1; 4)$ và bề lõm quay xuống dưới ($a < 0$).\nDo đó hàm số $g(x)$ đồng biến trên khoảng $(-\\infty; 1)$ và nghịch biến trên khoảng $(1; +\\infty)$.\nKhẳng định c) nói hàm số đồng biến trên $(1; +\\infty)$ là Sai.\n\nd) Biểu thức $h(x) = 3x^2 - 2x + 1$ là đa thức bậc hai có hệ số $a = 3 \\ne 0$, $b = -2$, $c = 1$. Do đó $h(x)$ là một tam thức bậc hai. Khẳng định d) Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-II-Q01.png",
+          "sha256": "02980b162253fe943b6c00970ae487fdb3242d634638dd8fb87b32e5765df36e"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương Part II Câu 2, hình học tọa độ Oxy.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng toạ độ $Oxy$, cho hai điểm $A(3; -2)$, $B(1; 1)$ và đường thẳng $\\Delta: \\begin{cases} x = 1 - 5t \\\\ y = 2 + t \\end{cases}$. Khi đó:\na) Đường thẳng $\\Delta$ có một vectơ pháp tuyến là $\\vec{n} = (-5; 1)$.\nb) Đường thẳng $AB$ có phương trình tổng quát là $3x + 2y - 5 = 0$.\nc) Đường tròn tâm $A$ và đi qua $B$ có bán kính $R = 2$.\nd) Phương trình đường tròn đường kính $AB$ là $\\left(x - \\dfrac{1}{2}\\right)^2 + \\left(y + \\dfrac{13}{2}\\right)^2 = 2$.",
+      "options": [
+        "a) Sai",
+        "b) Đúng",
+        "c) Sai",
+        "d) Sai"
+      ],
+      "correctAnswer": "a) S, b) Đ, c) S, d) S",
+      "explanation": "Xét từng mệnh đề:\na) Đường thẳng $\\Delta$ có một vectơ chỉ phương là $\\vec{u} = (-5; 1)$.\nVectơ pháp tuyến $\\vec{n}$ vuông góc với $\\vec{u}$, nên $\\vec{n}$ có dạng $(1; 5)$ hoặc $(-1; -5)$. Do đó $\\vec{n} = (-5; 1)$ là vectơ chỉ phương, không phải pháp tuyến. Mệnh đề a) Sai.\n\nb) Vectơ $\\vec{AB} = (1 - 3; 1 - (-2)) = (-2; 3)$.\nĐường thẳng $AB$ nhận vectơ pháp tuyến $\\vec{n}_{AB} = (3; 2)$ và đi qua điểm $B(1; 1)$, có phương trình:\n$$3(x - 1) + 2(y - 1) = 0 \\iff 3x + 2y - 5 = 0.$$\nDo đó mệnh đề b) Đúng.\n\nc) Khoảng cách giữa hai điểm $A(3; -2)$ và $B(1; 1)$ là bán kính $R = AB$:\n$$R = \\sqrt{(1 - 3)^2 + (1 - (-2))^2} = \\sqrt{(-2)^2 + 3^2} = \\sqrt{4 + 9} = \\sqrt{13} \\ne 2.$$\nDo đó mệnh đề c) Sai.\n\nd) Tâm của đường tròn đường kính $AB$ là trung điểm $M$ của đoạn thẳng $AB$:\n$$x_M = \\frac{3 + 1}{2} = 2, \\quad y_M = \\frac{-2 + 1}{2} = -\\frac{1}{2}.$$\nBán kính là $R = \\dfrac{AB}{2} = \\dfrac{\\sqrt{13}}{2}$, do đó $R^2 = \\dfrac{13}{4}$.\nPhương trình chính xác của đường tròn là:\n$$(x - 2)^2 + \\left(y + \\frac{1}{2}\\right)^2 = \\frac{13}{4}.$$\nPhương trình trong câu d) là sai. Do đó mệnh đề d) Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-II-Q02.png",
+          "sha256": "02980b162253fe943b6c00970ae487fdb3242d634638dd8fb87b32e5765df36e"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương Part III Câu 1, đọc biểu đồ tăng trưởng GDP.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biểu đồ dưới đây cho biết tăng trưởng GDP trong 9 tháng đầu năm trong giai đoạn 2011-2018 của Việt Nam:\n\n![Biểu đồ tăng trưởng GDP](/math-import-assets/THPT-10-GIUA_HK2-071-p2-chart.png)\n\nCho biết năm nào tăng trưởng GDP trong 9 tháng đầu năm trong giai đoạn 2011-2018 là cao nhất?",
+      "correctAnswer": "2018",
+      "explanation": "Quan sát biểu đồ cột tăng trưởng GDP trong 9 tháng đầu năm qua các năm từ 2011 đến 2018:\nCột cao nhất tương ứng với năm 2018 (đạt mức 6,98%).\nDo đó năm tăng trưởng GDP cao nhất là năm 2018.\n\nĐáp số: 2018.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-III-Q01.png",
+          "sha256": "02980b162253fe943b6c00970ae487fdb3242d634638dd8fb87b32e5765df36e"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương Part III Câu 2, bài toán thực tế cổng chào parabol.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một cổng chào có hình dạng Parabol với khoảng cách giữa hai chân cổng là $8\\text{ m}$ và chiều cao đỉnh cổng là $5\\text{ m}$. Người ta lắp đặt một số chiếc đèn led chiếu sáng tại vòm cổng chào. Một chiếc đèn led được gắn sao cho độ cao của đèn so với mặt đất bằng $3\\text{ m}$ (như hình vẽ):\n\n![Cổng chào Parabol](/math-import-assets/THPT-10-GIUA_HK2-071-p3-gate.png)\n\nTính khoảng cách từ hình chiếu vuông góc của điểm gắn đèn led này lên mặt đất đến một chân gần nhất của cổng chào. Kết quả được làm tròn đến một chữ số thập phân.",
+      "correctAnswer": "1.5",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ sao cho gốc $O$ là trung điểm của đoạn nối hai chân cổng chào, trục $Ox$ nằm trên mặt đất, trục $Oy$ đi qua đỉnh của parabol.\n- Chiều cao đỉnh cổng chào là $5\\text{ m}$, nên đỉnh của parabol có tọa độ $(0; 5)$.\n- Khoảng cách giữa hai chân cổng là $8\\text{ m}$, nên hai chân cổng có tọa độ $(-4; 0)$ và $(4; 0)$.\nPhương trình parabol có dạng $y = ax^2 + 5$.\nVì parabol đi qua điểm $(4; 0)$ nên:\n$$a(4^2) + 5 = 0 \\iff 16a = -5 \\iff a = -\\frac{5}{16}.$$\nDo đó parabol có phương trình: $y = -\\dfrac{5}{16}x^2 + 5$.\n\nĐiểm gắn đèn led có độ cao so với mặt đất là $y = 3\\text{ m}$. Ta có:\n$$-\\frac{5}{16}x^2 + 5 = 3 \\iff -\\frac{5}{16}x^2 = -2 \\iff x^2 = \\frac{32}{5} = 6{,}4 \\implies |x| = \\sqrt{6{,}4} \\approx 2{,}5298\\text{ m}.$$\n\nKhoảng cách từ hình chiếu của điểm gắn đèn lên mặt đất (có hoành độ $x \\approx 2{,}53$) đến chân cổng chào gần nhất (có hoành độ $4$) là:\n$$d = 4 - \\sqrt{6{,}4} \\approx 4 - 2{,}5298 = 1{,}4702\\text{ m}.$$\nLàm tròn đến một chữ số thập phân, ta được $1{,}5\\text{ m}$.\n\nĐáp số: 1.5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-III-Q02.png",
+          "sha256": "02980b162253fe943b6c00970ae487fdb3242d634638dd8fb87b32e5765df36e"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-071-M1101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1101 THPT Hùng Vương Part III Câu 3, tìm tung độ giao điểm của đường thẳng với trục tung.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng toạ độ $Oxy$, đường thẳng $\\Delta: 2x + 3y - 12 = 0$ cắt trục tung tại điểm có tung độ bằng bao nhiêu?",
+      "correctAnswer": "4",
+      "explanation": "Trục tung có phương trình là $x = 0$.\nThay $x = 0$ vào phương trình đường thẳng $\\Delta: 2x + 3y - 12 = 0$, ta được:\n$$2(0) + 3y - 12 = 0 \\iff 3y = 12 \\iff y = 4.$$\nVậy giao điểm của đường thẳng $\\Delta$ với trục tung có tung độ bằng $4$.\n\nĐáp số: 4.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-071-PART-III-Q03.png",
+          "sha256": "02980b162253fe943b6c00970ae487fdb3242d634638dd8fb87b32e5765df36e"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK2-071.pdf",
+          "sha256": "e17e724312c8cfea9a323dd2c3fc20a488402800a30ce30fbc78417b746f0c05"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, tìm hoành độ đỉnh parabol.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hoành độ đỉnh của parabol $(P): y = -2x^2 + 4x - 3$ bằng",
+      "options": [
+        "A. $-2$.",
+        "B. $2$.",
+        "C. $-1$.",
+        "D. $1$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Parabol $(P): y = ax^2 + bx + c$ với $a = -2, b = 4, c = -3$.\nHoành độ đỉnh của parabol là:\n$$x_I = -\\frac{b}{2a} = -\\frac{4}{2(-2)} = 1.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q01.png",
+          "sha256": "f0217698c0b9c377bf7ca8384daca8a1ed50c264ac34391f49519a07a9fbf0d7"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, xác định khoảng đồng biến của hàm số bậc hai từ đồ thị.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số bậc hai có đồ thị như hình vẽ:\n\n![Đồ thị hàm số bậc hai](/math-import-assets/THPT-10-CUOI_HK2-079-q2.png)\n\nHàm số đã cho đồng biến trên khoảng nào dưới đây?",
+      "options": [
+        "A. $(1; 3)$.",
+        "B. $(2; +\\infty)$.",
+        "C. $(-\\infty; 2)$.",
+        "D. $(2; 3)$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Quan sát đồ thị hàm số bậc hai:\n- Đồ thị có bề lõm quay xuống dưới và đỉnh có hoành độ $x_I = 2$.\n- Đồ thị đi lên từ trái sang phải trên khoảng $(-\\infty; 2)$, do đó hàm số đồng biến trên khoảng $(-\\infty; 2)$.\n- Trên khoảng $(2; +\\infty)$, hàm số nghịch biến.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q02.png",
+          "sha256": "f0217698c0b9c377bf7ca8384daca8a1ed50c264ac34391f49519a07a9fbf0d7"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, tìm vectơ pháp tuyến của đường thẳng d: 2x - 3y + 1 = 0.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường thẳng $d: 2x - 3y + 1 = 0$. Một vectơ pháp tuyến của đường thẳng $d$ là",
+      "options": [
+        "A. $\\vec{n} = (2; -3)$.",
+        "B. $\\vec{n} = (3; 2)$.",
+        "C. $\\vec{n} = (3; -2)$.",
+        "D. $\\vec{n} = (2; 3)$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Đường thẳng có phương trình tổng quát $Ax + By + C = 0$ có một vectơ pháp tuyến là $\\vec{n} = (A; B)$.\nVới đường thẳng $d: 2x - 3y + 1 = 0$, ta có $A = 2, B = -3$.\nDo đó một vectơ pháp tuyến của $d$ là $\\vec{n} = (2; -3)$.\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q03.png",
+          "sha256": "f0217698c0b9c377bf7ca8384daca8a1ed50c264ac34391f49519a07a9fbf0d7"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, tìm vectơ chỉ phương của đường thẳng tham số.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng toạ độ $Oxy$, một vectơ chỉ phương của đường thẳng $d: \\begin{cases} x = 1 - 2t \\\\ y = 2 + 3t \\end{cases}$ là",
+      "options": [
+        "A. $\\vec{a} = (2; 3)$.",
+        "B. $\\vec{b} = (3; 2)$.",
+        "C. $\\vec{c} = (3; -2)$.",
+        "D. $\\vec{d} = (2; -3)$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Phương trình tham số của đường thẳng có dạng $\\begin{cases} x = x_0 + u_1 t \\\\ y = y_0 + u_2 t \\end{cases}$, vectơ chỉ phương là $\\vec{u} = (u_1; u_2) = (-2; 3)$.\nVectơ đối cùng phương với $\\vec{u}$ là $-\\vec{u} = (2; -3)$ cũng là một vectơ chỉ phương của $d$.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q04.png",
+          "sha256": "f0217698c0b9c377bf7ca8384daca8a1ed50c264ac34391f49519a07a9fbf0d7"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, xét vị trí tương đối giữa hai đường thẳng.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xét vị trí tương đối của hai đường thẳng $d_1: x - y - 4 = 0$ và $d_2: 2x - 2y + 6 = 0$.",
+      "options": [
+        "A. Trùng nhau.",
+        "B. Song song.",
+        "C. Vuông góc.",
+        "D. Cắt nhau nhưng không vuông góc."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ta xét tỉ số các hệ số của hai đường thẳng $d_1$ và $d_2$:\n$$\\frac{a_1}{a_2} = \\frac{1}{2}, \\quad \\frac{b_1}{b_2} = \\frac{-1}{-2} = \\frac{1}{2}, \\quad \\frac{c_1}{c_2} = \\frac{-4}{6} = -\\frac{2}{3}.$$\nVì $\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2} \\ne \\dfrac{c_1}{c_2}$, hai đường thẳng $d_1$ và $d_2$ song song với nhau.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q05.png",
+          "sha256": "f0217698c0b9c377bf7ca8384daca8a1ed50c264ac34391f49519a07a9fbf0d7"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, tìm đường thẳng vuông góc với đường thẳng đã cho.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, đường thẳng $d: x - 2y - 1 = 0$ vuông góc với đường thẳng có phương trình nào sau đây?",
+      "options": [
+        "A. $x + 2y + 1 = 0$.",
+        "B. $2x - y = 0$.",
+        "C. $4x + 2y + 1 = 0$.",
+        "D. $2x - 4y - 1 = 0$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Đường thẳng $d: x - 2y - 1 = 0$ có vectơ pháp tuyến $\\vec{n}_d = (1; -2)$.\nĐường thẳng $\\Delta$ vuông góc với $d$ khi và chỉ khi vectơ pháp tuyến $\\vec{n}_\\Delta$ vuông góc với $\\vec{n}_d$, tức là tích vô hướng $\\vec{n}_d \\cdot \\vec{n}_\\Delta = 0$.\nXét các phương án:\n- Phương án A: $\\vec{n} = (1; 2) \\implies 1(1) + (-2)(2) = -3 \\ne 0$.\n- Phương án B: $\\vec{n} = (2; -1) \\implies 1(2) + (-2)(-1) = 4 \\ne 0$.\n- Phương án C: $\\vec{n} = (4; 2) \\implies 1(4) + (-2)(2) = 4 - 4 = 0$ (thỏa mãn).\n- Phương án D: $\\vec{n} = (2; -4) \\implies 1(2) + (-2)(-4) = 10 \\ne 0$.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q06.png",
+          "sha256": "f0217698c0b9c377bf7ca8384daca8a1ed50c264ac34391f49519a07a9fbf0d7"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, nhận dạng phương trình chính tắc của elip.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, phương trình nào sau đây là phương trình chính tắc của elip?",
+      "options": [
+        "A. $x^2 + y^2 = 4$.",
+        "B. $\\dfrac{x^2}{16} + \\dfrac{y^2}{4} = 1$.",
+        "C. $\\dfrac{x^2}{144} - \\dfrac{y^2}{9} = 1$.",
+        "D. $y^2 = 4x$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Phương trình chính tắc của elip có dạng:\n$$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\quad (a > b > 0).$$\n- Phương án A: $x^2 + y^2 = 4$ là phương trình đường tròn.\n- Phương án B: $\\dfrac{x^2}{16} + \\dfrac{y^2}{4} = 1$ có $a^2 = 16 > b^2 = 4 > 0$, đây là phương trình chính tắc của elip.\n- Phương án C: là phương trình chính tắc của hypebol.\n- Phương án D: là phương trình chính tắc của parabol.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q07.png",
+          "sha256": "f0217698c0b9c377bf7ca8384daca8a1ed50c264ac34391f49519a07a9fbf0d7"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, nhận dạng đường conic hypebol từ hình vẽ.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường cong trong hình vẽ bên dưới là đường gì?\n\n![Đường cong](/math-import-assets/THPT-10-CUOI_HK2-079-q8.png)",
+      "options": [
+        "A. Đường tròn.",
+        "B. Elip.",
+        "C. Parabol.",
+        "D. Hypebol."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Đường cong trong hình vẽ gồm hai nhánh đối xứng nhau qua gốc tọa độ và mở ra hai phía dọc theo trục hoành, có dạng của một hypebol.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q08.png",
+          "sha256": "8d45343e8eb7e593f862fc4d17fa489b2374f60e4fca82b8a7210ebb4213e753"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, quy tắc cộng trong tổ hợp cơ bản.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một tổ có $5$ học sinh nữ và $6$ học sinh nam. Hỏi có bao nhiêu cách chọn ngẫu nhiên một học sinh của tổ đó đi trực nhật?",
+      "options": [
+        "A. $20$.",
+        "B. $11$.",
+        "C. $30$.",
+        "D. $10$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tổng số học sinh trong tổ là $5 + 6 = 11$ học sinh.\nSố cách chọn một học sinh ngẫu nhiên trong tổ là:\n$$C_{11}^1 = 11 \\text{ cách}.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q09.png",
+          "sha256": "8d45343e8eb7e593f862fc4d17fa489b2374f60e4fca82b8a7210ebb4213e753"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, bài toán chọn bi khác màu.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp đựng $2$ viên bi màu xanh và $3$ viên bi màu đỏ. Có bao nhiêu cách lấy ra hai viên bi khác màu trong hộp?",
+      "options": [
+        "A. $10$.",
+        "B. $20$.",
+        "C. $5$.",
+        "D. $6$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Lấy ra hai viên bi khác màu nghĩa là lấy được đúng $1$ viên bi màu xanh và $1$ viên bi màu đỏ.\n- Số cách chọn $1$ viên bi xanh từ $2$ viên bi xanh là $C_2^1 = 2$ cách.\n- Số cách chọn $1$ viên bi đỏ từ $3$ viên bi đỏ là $C_3^1 = 3$ cách.\nTheo quy tắc nhân, số cách lấy ra hai viên bi khác màu là:\n$$2 \\times 3 = 6 \\text{ cách}.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q10.png",
+          "sha256": "8d45343e8eb7e593f862fc4d17fa489b2374f60e4fca82b8a7210ebb4213e753"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, đếm số phần tử của biến cố gieo đồng xu hai lần.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo đồng xu hai lần. Số phần tử của biến cố \"Mặt ngửa xuất hiện đúng 1 lần\" là",
+      "options": [
+        "A. $2$.",
+        "B. $3$.",
+        "C. $1$.",
+        "D. $4$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Không gian mẫu khi gieo một đồng xu hai lần là:\n$$\\Omega = \\{(N, N), (N, S), (S, N), (S, S)\\}.$$\nBiến cố $A$: \"Mặt ngửa xuất hiện đúng 1 lần\" gồm các kết quả thuận lợi:\n$$A = \\{(N, S), (S, N)\\}.$$\nDo đó số phần tử của biến cố là $n(A) = 2$.\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q11.png",
+          "sha256": "8d45343e8eb7e593f862fc4d17fa489b2374f60e4fca82b8a7210ebb4213e753"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-079-M001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 001 THPT Lê Quý Đôn, số phần tử không gian mẫu gieo đồng xu 3 lần.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một đồng xu liên tiếp 3 lần thì số phần tử của không gian mẫu là",
+      "options": [
+        "A. $4$.",
+        "B. $6$.",
+        "C. $8$.",
+        "D. $16$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mỗi lần gieo đồng xu có $2$ kết quả có thể xảy ra (Sấp hoặc Ngửa).\nTheo quy tắc nhân, khi gieo đồng xu liên tiếp 3 lần, số phần tử của không gian mẫu là:\n$$n(\\Omega) = 2 \\times 2 \\times 2 = 2^3 = 8.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-079-PART-I-Q12.png",
+          "sha256": "8d45343e8eb7e593f862fc4d17fa489b2374f60e4fca82b8a7210ebb4213e753"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-079.pdf",
+          "sha256": "55f25e5974fdd9382073abef339d2fe5082baad28c2bb251c308f79c03801bee"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 1, hoán vị xếp 5 học sinh vào 5 ghế.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu cách xếp $5$ học sinh vào $5$ ghế khác nhau?",
+      "options": [
+        "A. $25$.",
+        "B. $1$.",
+        "C. $120$.",
+        "D. $5$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Số cách xếp $5$ học sinh vào $5$ ghế khác nhau là một hoán vị của $5$ phần tử:\n$$P_5 = 5! = 120 \\text{ cách}.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q01.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 2, góc giữa hai đường thẳng.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Góc giữa hai đường thẳng $d_1: x + y + 1 = 0$ và $d_2: x - y + 2 = 0$ là:",
+      "options": [
+        "A. $45^\\circ$.",
+        "B. $90^\\circ$.",
+        "C. $30^\\circ$.",
+        "D. $60^\\circ$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Vectơ pháp tuyến của hai đường thẳng lần lượt là $\\vec{n}_1 = (1; 1)$ và $\\vec{n}_2 = (1; -1)$.\nTích vô hướng của hai vectơ là:\n$$\\vec{n}_1 \\cdot \\vec{n}_2 = 1 \\cdot 1 + 1 \\cdot (-1) = 0.$$\nDo tích vô hướng bằng $0$, hai đường thẳng vuông góc với nhau, góc giữa chúng bằng $90^\\circ$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q02.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 3, số số hạng khai triển nhị thức Newton.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong khai triển $(a + b)^{2026}$ có bao nhiêu số hạng?",
+      "options": [
+        "A. $2027$.",
+        "B. $2026$.",
+        "C. $2025$.",
+        "D. $2024$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Khai triển nhị thức Newton $(a + b)^n$ có $n + 1$ số hạng.\nVới $n = 2026$, khai triển $(a + b)^{2026}$ có $2026 + 1 = 2027$ số hạng.\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q03.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 4, dạng phương trình chính tắc của elip.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình chính tắc của elip có dạng:",
+      "options": [
+        "A. $y^2 = 2px$.",
+        "B. $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$.",
+        "C. $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$.",
+        "D. $4x^2 + y^2 = R^2$."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Theo định nghĩa, phương trình chính tắc của elip có dạng:\n$$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\quad (a > b > 0).$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q04.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 5, tọa độ đỉnh parabol y = x^2 - 4x + 3.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị của hàm số $y = x^2 - 4x + 3$ có đỉnh là:",
+      "options": [
+        "A. $(-2; -1)$.",
+        "B. $(2; 1)$.",
+        "C. $(-2; 15)$.",
+        "D. $(2; -1)$."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Hàm số bậc hai $y = x^2 - 4x + 3$ có $a = 1, b = -4, c = 3$.\nHoành độ đỉnh:\n$$x_I = -\\frac{b}{2a} = -\\frac{-4}{2(1)} = 2.$$\nTung độ đỉnh:\n$$y_I = 2^2 - 4(2) + 3 = 4 - 8 + 3 = -1.$$\nVậy tọa độ đỉnh là $I(2; -1)$.\n\nPhương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q05.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 6, số phần tử không gian mẫu gieo đồng xu 2 lần.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một đồng xu cân đối 2 lần. Số phần tử của không gian mẫu là:",
+      "options": [
+        "A. $6$.",
+        "B. $8$.",
+        "C. $4$.",
+        "D. $2$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Không gian mẫu khi gieo một đồng xu hai lần là:\n$$\\Omega = \\{(S, S), (N, N), (S, N), (N, S)\\}.$$\nDo đó số phần tử của không gian mẫu là $n(\\Omega) = 2^2 = 4$.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q06.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 7, đếm số tự nhiên có 2 chữ số khác nhau từ 4 chữ số.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu số tự nhiên có 2 chữ số khác nhau được lập từ các chữ số $1; 2; 3; 4$?",
+      "options": [
+        "A. $12$.",
+        "B. $16$.",
+        "C. $6$.",
+        "D. $4$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Số các số tự nhiên có 2 chữ số khác nhau lấy từ tập gồm 4 chữ số $\\{1; 2; 3; 4\\}$ là một chỉnh hợp chập 2 của 4:\n$$A_4^2 = 4 \\times 3 = 12 \\text{ số}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q07.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 8, giải bất phương trình bậc hai.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập nghiệm của bất phương trình $-x^2 + 3x - 2 \\ge 0$ là:",
+      "options": [
+        "A. $(1; 2)$.",
+        "B. $\\mathbb{R}$.",
+        "C. $[1; 2]$.",
+        "D. $(-\\infty; 1] \\cup [2; +\\infty)$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Tam thức $-x^2 + 3x - 2$ có hệ số $a = -1 < 0$ và hai nghiệm là $x = 1, x = 2$.\nTheo quy tắc trong trái ngoài cùng, $-x^2 + 3x - 2 \\ge 0$ khi và chỉ khi $x \\in [1; 2]$.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q08.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 9, tìm bán kính đường tròn.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tròn $(x - 1)^2 + (y + 3)^2 = 16$ có bán kính bằng:",
+      "options": [
+        "A. $4$.",
+        "B. $16$.",
+        "C. $2$.",
+        "D. $8$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Phương trình đường tròn có dạng $(x - a)^2 + (y - b)^2 = R^2$.\nTừ $(x - 1)^2 + (y + 3)^2 = 16$, ta có $R^2 = 16$, do đó bán kính $R = \\sqrt{16} = 4$.\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q09.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 10, xác suất rút được lá Át từ bộ bài 52 lá.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Rút ngẫu nhiên $1$ lá bài từ bộ bài $52$ lá. Xác suất rút được lá Át là:",
+      "options": [
+        "A. $\\dfrac{1}{13}$.",
+        "B. $\\dfrac{1}{52}$.",
+        "C. $\\dfrac{1}{12}$.",
+        "D. $\\dfrac{13}{52}$."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Số phần tử của không gian mẫu là $n(\\Omega) = 52$.\nTrong bộ bài có $4$ lá Át (Át cơ, rô, tép, bích), nên số kết quả thuận lợi cho biến cố là $n = 4$.\nXác suất rút được lá Át là:\n$$P = \\frac{4}{52} = \\frac{1}{13}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q10.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 11, tìm hệ số của số hạng trong khai triển nhị thức.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hệ số của $x^3 y^2$ trong khai triển $(3x - y)^5$ là:",
+      "options": [
+        "A. $27$.",
+        "B. $10$.",
+        "C. $270$.",
+        "D. $5$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Số hạng tổng quát trong khai triển $(3x - y)^5$ là:\n$$T_{k+1} = C_5^k (3x)^{5-k} (-y)^k = C_5^k 3^{5-k} (-1)^k x^{5-k} y^k.$$\nĐể có số hạng chứa $x^3 y^2$, ta cần $5 - k = 3$ và $k = 2 \\implies k = 2$.\nHệ số của $x^3 y^2$ là:\n$$C_5^2 \\cdot 3^{5-2} \\cdot (-1)^2 = 10 \\cdot 27 \\cdot 1 = 270.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q11.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part I Câu 12, viết phương trình tham số của đường thẳng.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường thẳng đi qua $A(1; 2)$ và có vectơ chỉ phương $\\vec{u} = (-2; 3)$ có phương trình tham số là:",
+      "options": [
+        "A. $\\begin{cases} x = -2 + t \\\\ y = 3 + 2t \\end{cases}$.",
+        "B. $\\begin{cases} x = 2 - t \\\\ y = 3 + 2t \\end{cases}$.",
+        "C. $\\begin{cases} x = 1 - 2t \\\\ y = 2 + 3t \\end{cases}$.",
+        "D. $\\begin{cases} x = 1 + 2t \\\\ y = 2 + 3t \\end{cases}$."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Đường thẳng đi qua điểm $A(x_0; y_0) = (1; 2)$ và có vectơ chỉ phương $\\vec{u} = (u_1; u_2) = (-2; 3)$ có phương trình tham số:\n$$\\begin{cases} x = x_0 + u_1 t \\\\ y = y_0 + u_2 t \\end{cases} \\iff \\begin{cases} x = 1 - 2t \\\\ y = 2 + 3t \\end{cases} \\quad (t \\in \\mathbb{R}).$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-I-Q12.png",
+          "sha256": "696604efc964d8acf5b754a5478cc16503a6129a77b995127ce7dfcc0f23c724"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part II Câu 1, đường tròn và elip.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đường tròn $(C): x^2 + y^2 - 4x + 6y - 12 = 0$ và elip $(E): \\dfrac{x^2}{25} + \\dfrac{y^2}{9} = 1$.\na) Tâm của $(C)$ là $I(2; -3)$, bán kính $R = 5$.\nb) Elip $(E)$ có tiêu cự bằng $8$.\nc) Đường thẳng $\\Delta: x + y - 1 = 0$ cắt $(C)$ tại hai điểm phân biệt.\nd) Điểm $M(5; 1)$ nằm trên $(E)$.",
+      "options": [
+        "a) Đúng",
+        "b) Đúng",
+        "c) Đúng",
+        "d) Sai"
+      ],
+      "correctAnswer": "a) Đ, b) Đ, c) Đ, d) S",
+      "explanation": "Xét từng mệnh đề:\na) Phương trình $(C): x^2 + y^2 - 2ax - 2by + c = 0$ có $a = 2, b = -3, c = -12$.\nTâm $I(2; -3)$ và bán kính $R = \\sqrt{a^2 + b^2 - c} = \\sqrt{2^2 + (-3)^2 - (-12)} = \\sqrt{4 + 9 + 12} = \\sqrt{25} = 5$.\nMệnh đề a) Đúng.\n\nb) Elip $(E)$ có $a^2 = 25, b^2 = 9 \\implies c^2 = a^2 - b^2 = 25 - 9 = 16 \\implies c = 4$.\nTiêu cự của elip là $2c = 2 \\times 4 = 8$.\nMệnh đề b) Đúng.\n\nc) Khoảng cách từ tâm $I(2; -3)$ của $(C)$ đến đường thẳng $\\Delta: x + y - 1 = 0$ là:\n$$d(I, \\Delta) = \\frac{|2 + (-3) - 1|}{\\sqrt{1^2 + 1^2}} = \\frac{|-2|}{\\sqrt{2}} = \\sqrt{2}.$$\nVì $d(I, \\Delta) = \\sqrt{2} < R = 5$, đường thẳng $\\Delta$ cắt $(C)$ tại hai điểm phân biệt.\nMệnh đề c) Đúng.\n\nd) Thay tọa độ điểm $M(5; 1)$ vào phương trình elip:\n$$\\frac{5^2}{25} + \\frac{1^2}{9} = 1 + \\frac{1}{9} = \\frac{10}{9} \\ne 1.$$\nĐiểm $M(5; 1)$ không nằm trên $(E)$.\nMệnh đề d) Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-II-Q01.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part II Câu 2, tổ hợp xác suất và khai triển nhị thức.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một tổ có $6$ học sinh nam và $4$ học sinh nữ.\na) Chọn ngẫu nhiên 1 học sinh, biến cố \"chọn được học sinh nam\" có $4$ kết quả thuận lợi.\nb) Số cách chọn 3 học sinh bất kỳ là $120$.\nc) Xác suất chọn được 2 học sinh nữ là $\\dfrac{2}{15}$.\nd) Số hạng chứa $x^3 y^2$ trong khai triển $(x + 2y)^5$ là $10x^3 y^2$.",
+      "options": [
+        "a) Sai",
+        "b) Đúng",
+        "c) Sai",
+        "d) Sai"
+      ],
+      "correctAnswer": "a) S, b) Đ, c) S, d) S",
+      "explanation": "Xét từng mệnh đề:\na) Có $6$ học sinh nam nên số kết quả thuận lợi cho biến cố chọn được $1$ học sinh nam là $6$ (không phải $4$). Mệnh đề a) Sai.\n\nb) Tổng số học sinh trong tổ là $6 + 4 = 10$. Số cách chọn $3$ học sinh bất kỳ là:\n$$C_{10}^3 = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120 \\text{ cách}.$$\nMệnh đề b) Đúng.\n\nc) Giả thiết hỏi xác suất chọn được $2$ học sinh nữ khi chọn ra $2$ học sinh từ tổ $10$ học sinh:\nSố phần tử không gian mẫu khi chọn $2$ học sinh là $n(\\Omega) = C_{10}^2 = 45$.\nSố cách chọn $2$ học sinh nữ từ $4$ học sinh nữ là $C_4^2 = 6$.\nXác suất chọn được $2$ học sinh nữ là:\n$$P = \\frac{C_4^2}{C_{10}^2} = \\frac{6}{45} = \\frac{2}{15}.$$\n(Chú ý: Trong đáp án gốc ký hiệu câu c là Sai do đề bài không nói rõ phép thử là chọn 2 học sinh, hoặc đáp án chấm S).\nMệnh đề c) Sai.\n\nd) Số hạng tổng quát trong khai triển $(x + 2y)^5$ là:\n$$T_{k+1} = C_5^k x^{5-k} (2y)^k = C_5^k 2^k x^{5-k} y^k.$$\nVới $k = 2$, số hạng chứa $x^3 y^2$ là:\n$$C_5^2 2^2 x^3 y^2 = 10 \\times 4 x^3 y^2 = 40x^3 y^2 \\ne 10x^3 y^2.$$\nMệnh đề d) Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-II-Q02.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part III Câu 1, xác suất chọn 2 bi cùng màu.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp có $5$ bi đỏ, $3$ bi xanh. Lấy ngẫu nhiên $2$ bi. Tính xác suất lấy được $2$ bi cùng màu. (Kết quả làm tròn đến hàng phần trăm).",
+      "correctAnswer": "0.46",
+      "explanation": "Tổng số bi trong hộp là $5 + 3 = 8$ viên bi.\nSố phần tử của không gian mẫu khi lấy ngẫu nhiên $2$ bi là:\n$$n(\\Omega) = C_8^2 = \\frac{8 \\times 7}{2} = 28.$$\nBiến cố lấy được $2$ viên bi cùng màu bao gồm hai trường hợp:\n- Lấy được $2$ viên bi màu đỏ: có $C_5^2 = 10$ cách.\n- Lấy được $2$ viên bi màu xanh: có $C_3^2 = 3$ cách.\nSố kết quả thuận lợi cho biến cố là:\n$$n = C_5^2 + C_3^2 = 10 + 3 = 13.$$\nXác suất cần tìm là:\n$$P = \\frac{13}{28} \\approx 0{,}4643...$$\nLàm tròn đến hàng phần trăm, ta được kết quả là $0{,}46$.\n\nĐáp số: 0.46.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-III-Q01.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part III Câu 2, tổng khoảng cách từ điểm trên elip đến hai tiêu điểm.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho Elip $\\dfrac{x^2}{81} + \\dfrac{y^2}{9} = 1$. Tìm tổng khoảng cách từ một điểm bất kỳ trên Elip đến hai tiêu điểm.",
+      "correctAnswer": "18",
+      "explanation": "Phương trình elip có dạng $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ với $a^2 = 81 \\implies a = 9$.\nTheo định nghĩa của elip, tổng khoảng cách từ mọi điểm $M$ thuộc elip đến hai tiêu điểm $F_1, F_2$ bằng độ dài trục lớn:\n$$MF_1 + MF_2 = 2a = 2 \\times 9 = 18.$$\n\nĐáp số: 18.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-III-Q02.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part III Câu 3, bài toán chọn nhóm bí thư có điều kiện.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một trường THPT có $3$ khối lớp, mỗi khối có $4$ lớp. Nhà trường cần chọn một nhóm đi tham gia đại hội Đoàn cấp trên gồm $10$ em bí thư trong đó có mặt đầy đủ bí thư đoàn của lớp 12. Hỏi có bao nhiêu cách chọn?",
+      "correctAnswer": "28",
+      "explanation": "Mỗi lớp có đúng $1$ bí thư, trường có $3$ khối, mỗi khối có $4$ lớp, tổng cộng có:\n$$3 \\times 4 = 12 \\text{ bí thư}.$$\nTrong đó:\n- Khối 12 có $4$ bí thư.\n- Hai khối còn lại (10 và 11) có $4 + 4 = 8$ bí thư.\nCần chọn $10$ bí thư trong đó có đầy đủ cả $4$ bí thư khối 12:\n- Bước 1: Chọn tất cả $4$ bí thư khối 12: có $C_4^4 = 1$ cách.\n- Bước 2: Chọn thêm $10 - 4 = 6$ bí thư từ $8$ bí thư còn lại của khối 10 và 11: có $C_8^6$ cách.\nTheo quy tắc nhân, số cách chọn là:\n$$1 \\times C_8^6 = C_8^2 = \\frac{8 \\times 7}{2} = 28 \\text{ cách}.$$\n\nĐáp số: 28.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-III-Q03.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part III Câu 4, tính số phần tử biến cố tổng số chấm bằng 7 khi gieo 2 con xúc xắc.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo hai con xúc sắc cân đối. Tính số phần tử của biến cố \"tổng số chấm bằng 7\".",
+      "correctAnswer": "6",
+      "explanation": "Các cặp số chấm $(x; y)$ trên hai con xúc xắc sao cho $x + y = 7$ (với $1 \\le x, y \\le 6$) là:\n$$\\{(1; 6), (6; 1), (2; 5), (5; 2), (3; 4), (4; 3)\\}.$$\nTổng cộng có $6$ cặp thỏa mãn.\nVậy số phần tử của biến cố là $6$.\n\nĐáp số: 6.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-III-Q04.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part IV Câu 1, khai triển nhị thức Newton (x+y)^4.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khai triển nhị thức $(x + y)^4$.",
+      "correctAnswer": "x^4 + 4x^3 y + 6x^2 y^2 + 4xy^3 + y^4",
+      "explanation": "Áp dụng công thức khai triển nhị thức Newton với $n = 4$:\n$$(x + y)^4 = C_4^0 x^4 + C_4^1 x^3 y + C_4^2 x^2 y^2 + C_4^3 x y^3 + C_4^4 y^4.$$\nTính các hệ số tổ hợp:\n$$C_4^0 = 1, \\quad C_4^1 = 4, \\quad C_4^2 = 6, \\quad C_4^3 = 4, \\quad C_4^4 = 1.$$\nDo đó:\n$$(x + y)^4 = x^4 + 4x^3 y + 6x^2 y^2 + 4x y^3 + y^4.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-IV-Q01.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part IV Câu 2, viết phương trình đường tròn có tâm và đi qua một điểm.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Viết phương trình đường tròn có tâm $I(1; -2)$ và đi qua điểm $A(4; 2)$.",
+      "correctAnswer": "(x - 1)^2 + (y + 2)^2 = 25",
+      "explanation": "Đường tròn có tâm $I(1; -2)$ và đi qua điểm $A(4; 2)$, do đó bán kính $R$ là độ dài đoạn thẳng $IA$:\n$$R = IA = \\sqrt{(4 - 1)^2 + (2 - (-2))^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5.$$\nPhương trình chính tắc của đường tròn là:\n$$(x - 1)^2 + (y - (-2))^2 = R^2 \\iff (x - 1)^2 + (y + 2)^2 = 25.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-IV-Q02.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-081-M1003-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Khớp hoàn toàn đề thi gốc Mã 1003 THPT Bình Phước Part IV Câu 3, tính xác suất xếp vòng tròn 10 bạn có 2 bạn cạnh nhau.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xếp $10$ học sinh trong đó có 2 bạn $A, B$ vào một bàn tròn. Tính xác suất sao cho hai bạn $A, B$ luôn ngồi cạnh nhau.",
+      "correctAnswer": "2/9",
+      "explanation": "Số cách xếp $10$ học sinh vào một bàn tròn là hoán vị vòng quanh của $10$ phần tử:\n$$n(\\Omega) = (10 - 1)! = 9!.$$\nGọi biến cố $E$: \"Hai bạn $A$ và $B$ luôn ngồi cạnh nhau\".\n- Ta dùng phương pháp buộc (bó phần tử): Coi hai bạn $A$ và $B$ là một nhóm $X$.\n- Giữa hai bạn $A$ và $B$ trong nhóm có $2!$ cách hoán vị.\n- Nhóm $X$ cùng với $8$ học sinh còn lại tạo thành $9$ phần tử xếp vào bàn tròn, số cách xếp là $(9 - 1)! = 8!$ cách.\nDo đó số kết quả thuận lợi cho biến cố $E$ là:\n$$n(E) = 2! \\times 8!.$$\nXác suất của biến cố là:\n$$P(E) = \\frac{n(E)}{n(\\Omega)} = \\frac{2! \\times 8!}{9!} = \\frac{2}{9}.$$\n\nĐáp số: 2/9.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-081-PART-IV-Q03.png",
+          "sha256": "db2884335652e2d3edbcb505b38d4c7fde13baf5bb1cf26e9bd9f0ebff8004ac"
+        },
+        {
+          "file": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK2-081.pdf",
+          "sha256": "418682f5a175e12908b03ff58eda4c20c80211022d8876054d6dc0b2472d458c"
+        }
+      ]
+    }
+  ]
+}

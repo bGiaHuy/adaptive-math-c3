@@ -1,0 +1,492 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Trong các cặp số sau đây, cặp nào không là nghiệm của bất phương trình $2x + y < 1$?",
+      "explanation": "Thay tọa độ các điểm vào bất phương trình $2x + y < 1$:\n- Với điểm $(0; 1)$: $2(0) + 1 = 1 < 1$ là mệnh đề sai.\nDo đó cặp số $(0; 1)$ không là nghiệm của bất phương trình. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-1.png",
+          "sha256": "e90cccb9002b5b1fc8750512078eae3384e9adfd776ac23dda503b82f7f79f07"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Miền tam giác $ABC$ kể cả ba cạnh sau đây là miền nghiệm của hệ bất phương trình nào trong bốn hệ bất phương trình dưới đây?\n\n![Miền tam giác ABC](/math-import-assets/thpt-figure-020-p1-img1.jpeg)",
+      "explanation": "Quan sát miền tam giác $ABC$:\n- Cạnh $AC$ nằm trên trục tung $Oy$ và miền nghiệm nằm về phía bên phải $Oy$, do đó $x \\ge 0$.\n- Đường thẳng $AB$ đi qua $A(0; 2)$ và điểm $(2{,}5; 0)$ có phương trình $4x + 5y = 10$. Gốc tọa độ $O(0; 0)$ thuộc miền nghiệm nên $4x + 5y \\le 10$.\n- Đường thẳng $BC$ đi qua $C(0; -2{,}5)$ và điểm $(2; 0)$ có phương trình $5x - 4y = 10$. Gốc tọa độ $O(0; 0)$ thuộc miền nghiệm nên $5x - 4y \\le 10$.\nVậy hệ bất phương trình tương ứng là $\\begin{cases} x \\ge 0 \\\\ 5x - 4y \\le 10 \\\\ 4x + 5y \\le 10 \\end{cases}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-1.png",
+          "sha256": "e90cccb9002b5b1fc8750512078eae3384e9adfd776ac23dda503b82f7f79f07"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho bốn điểm phân biệt $A, B, C, D$. Vectơ tổng $\\vec{AB} + \\vec{CD} + \\vec{BC} + \\vec{DA}$ bằng",
+      "explanation": "Áp dụng quy tắc cộng vectơ theo tính chất giao hoán và kết hợp:\n$$\\vec{AB} + \\vec{CD} + \\vec{BC} + \\vec{DA} = (\\vec{AB} + \\vec{BC}) + (\\vec{CD} + \\vec{DA}) = \\vec{AC} + \\vec{CA} = \\vec{AA} = \\vec{0}.$$\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-1.png",
+          "sha256": "e90cccb9002b5b1fc8750512078eae3384e9adfd776ac23dda503b82f7f79f07"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Trong số các câu sau, câu nào là mệnh đề toán học?",
+      "explanation": "Mệnh đề toán học là mệnh đề khẳng định về một sự kiện trong toán học có tính đúng hoặc sai rõ ràng. Câu \"Số 2025 chia hết cho 2.\" là một khẳng định toán học (mệnh đề sai). Các câu khác là câu cảm thán, lời chúc hoặc câu hỏi. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-1.png",
+          "sha256": "e90cccb9002b5b1fc8750512078eae3384e9adfd776ac23dda503b82f7f79f07"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề phủ định của mệnh đề $P$: \"$\\forall x \\in \\mathbb{R}: x^2 + 1 > 0$\" là",
+      "explanation": "Phủ định của mệnh đề \"$\\forall x \\in X: P(x)$\" là \"$\\exists x \\in X: \\overline{P(x)}$\". Phủ định của $x^2 + 1 > 0$ là $x^2 + 1 \\le 0$. Vậy $\\overline{P}$: \"$\\exists x \\in \\mathbb{R}: x^2 + 1 \\le 0$\". Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-1.png",
+          "sha256": "e90cccb9002b5b1fc8750512078eae3384e9adfd776ac23dda503b82f7f79f07"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$, chọn công thức đúng?",
+      "explanation": "Theo định lí cosin trong tam giác $ABC$, ta có $c^2 = a^2 + b^2 - 2ab\\cos C$, hay $AB^2 = AC^2 + BC^2 - 2 AC \\cdot BC \\cos C$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-1.png",
+          "sha256": "e90cccb9002b5b1fc8750512078eae3384e9adfd776ac23dda503b82f7f79f07"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Nửa mặt phẳng không bị gạch (không kể $d$) trong hình vẽ bên dưới là miền nghiệm của bất phương trình nào sau đây?\n\n![Nửa mặt phẳng nghiệm](/math-import-assets/thpt-figure-020-p2-img1.jpeg)",
+      "explanation": "Đường thẳng bờ $d$ đi qua hai điểm $(1; 0)$ và $(0; 3)$, phương trình là $\\frac{x}{1} + \\frac{y}{3} = 1 \\Leftrightarrow 3x + y = 3$.\nVì bờ không được tính (nét vẽ không kể $d$) nên bất phương trình có dấu ngặt ($>$ hoặc $<$).\nThay gốc tọa độ $O(0; 0)$ vào: $3(0) + 0 = 0 < 3$. Vì gốc tọa độ $O$ nằm trong phần bị gạch (không thuộc miền nghiệm), nên miền nghiệm là nửa mặt phẳng không chứa $O$, tương ứng với bất phương trình $3x + y > 3$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-2.png",
+          "sha256": "cbeeadb908a5545cd510d4f444bec1ef5a73af5f5fd65a511cb106bb0c21a60c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hình bình hành $ABCD$ tâm $O$. Vectơ nào sau đây bằng vectơ $\\vec{OC}$?",
+      "explanation": "Vì $O$ là tâm hình bình hành $ABCD$ nên $O$ là trung điểm của đoạn thẳng $AC$. Khi đó vectơ $\\vec{AO}$ và vectơ $\\vec{OC}$ cùng hướng và có độ dài bằng nhau, do đó $\\vec{OC} = \\vec{AO}$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-2.png",
+          "sha256": "cbeeadb908a5545cd510d4f444bec1ef5a73af5f5fd65a511cb106bb0c21a60c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $a = 8, b = 3, \\widehat{C} = 60^\\circ$. Khi đó diện tích tam giác $ABC$ bằng",
+      "explanation": "Diện tích tam giác $ABC$ là:\n$$S = \\frac{1}{2}ab\\sin C = \\frac{1}{2} \\cdot 8 \\cdot 3 \\cdot \\sin 60^\\circ = 12 \\cdot \\frac{\\sqrt{3}}{2} = 6\\sqrt{3}.$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-2.png",
+          "sha256": "cbeeadb908a5545cd510d4f444bec1ef5a73af5f5fd65a511cb106bb0c21a60c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hình vuông $ABCD$ tâm $O$ (tham khảo hình vẽ).\n\n![Hình vuông ABCD](/math-import-assets/thpt-figure-020-p2-img2.jpeg)\n\nKhẳng định nào sau đây là đúng?",
+      "explanation": "Vì $O$ là tâm của hình vuông $ABCD$ nên $O$ là trung điểm của đường chéo $AC$. Theo tính chất trung điểm, $\\vec{OA}$ và $\\vec{OC}$ là hai vectơ đối nhau, suy ra $\\vec{OA} + \\vec{OC} = \\vec{0}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-2.png",
+          "sha256": "cbeeadb908a5545cd510d4f444bec1ef5a73af5f5fd65a511cb106bb0c21a60c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình $\\begin{cases} x - 2y > 4 \\\\ 2x + y > 6 \\end{cases}$. Trong các điểm sau, điểm nào thuộc miền nghiệm của hệ bất phương trình đã cho?",
+      "explanation": "Thay tọa độ điểm $N(7; 1)$ vào hệ bất phương trình:\n- $7 - 2(1) = 5 > 4$ (đúng);\n- $2(7) + 1 = 15 > 6$ (đúng).\nVậy điểm $N(7; 1)$ thuộc miền nghiệm của hệ bất phương trình đã cho. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-2.png",
+          "sha256": "cbeeadb908a5545cd510d4f444bec1ef5a73af5f5fd65a511cb106bb0c21a60c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Trong các đẳng thức sau đây, đẳng thức nào đúng?",
+      "explanation": "Ta có $\\cos 150^\\circ = \\cos(180^\\circ - 30^\\circ) = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$. Do đó đẳng thức ở phương án A là đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-2.png",
+          "sha256": "cbeeadb908a5545cd510d4f444bec1ef5a73af5f5fd65a511cb106bb0c21a60c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp: $A = [-3; 1], B = (-2; +\\infty)$. Khi đó:",
+      "explanation": "Giải thích chi tiết từng ý:\n- a) $A \\cup B = [-3; 1] \\cup (-2; +\\infty) = [-3; +\\infty)$. Ý a đúng.\n- b) $A \\cap B = [-3; 1] \\cap (-2; +\\infty) = (-2; 1]$. Mệnh đề b ghi khoảng $(-2; 1)$ (thiếu phần tử 1) nên ý b sai.\n- c) $A \\setminus B = [-3; 1] \\setminus (-2; +\\infty) = [-3; -2]$. Mệnh đề c ghi nửa khoảng $[-3; -2)$ (thiếu phần tử $-2$) nên ý c sai.\n- d) Phần bù của $A$ trong $\\mathbb{R}$ là $C_\\mathbb{R} A = \\mathbb{R} \\setminus [-3; 1] = (-\\infty; -3) \\cup (1; +\\infty)$. Ý d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-2.png",
+          "sha256": "cbeeadb908a5545cd510d4f444bec1ef5a73af5f5fd65a511cb106bb0c21a60c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-3.png",
+          "sha256": "b8a759c4bdd4abdce3b9c19dfa33b4beac9791ff7de05e7765459b8a73097172"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hình thang cân $ABCD$ có $AB \\parallel CD$, $AB = 2AD = 2CD$, $E$ là trung điểm cạnh $AB$. Khi đó:",
+      "explanation": "Vì $ABCD$ là hình thang cân có $AB \\parallel CD$, $AB = 2CD = 2AD = 2BC$, và $E$ là trung điểm $AB$ nên $AE = EB = CD = AD = BC$.\n- a) Hai vectơ $\\vec{AB}$ và $\\vec{DC}$ cùng hướng (vì $AB \\parallel DC$ và các đỉnh xếp theo thứ tự hình thang) và độ dài $AB = 2DC$, do đó $\\vec{AB} = 2\\vec{DC}$. Ý a đúng.\n- b) Trong tam giác $ABC$, $E$ là trung điểm $AB$ nên theo công thức trung điểm ta có $\\vec{CA} + \\vec{CB} = 2\\vec{CE}$. Ý b đúng.\n- c) Tứ giác $AECD$ có $AE \\parallel CD$ và $AE = CD$ nên là hình bình hành, suy ra $\\vec{AD} = \\vec{EC}$. Ý c đúng.\n- d) Tứ giác $EBCD$ có $EB \\parallel CD$ và $EB = CD$ nên là hình bình hành, suy ra $\\vec{DE} = \\vec{CB}$. Mệnh đề d ghi $\\vec{DE} = -\\vec{CB}$ là sai. Ý d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-3.png",
+          "sha256": "b8a759c4bdd4abdce3b9c19dfa33b4beac9791ff7de05e7765459b8a73097172"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình: $\\begin{cases} 2x + 3y \\le 6 \\\\ x \\ge 0 \\\\ 2x - 3y \\le 1 \\end{cases} \\quad (I)$. Khi đó:\n\n![Miền nghiệm hệ bất phương trình](/math-import-assets/thpt-figure-020-p3-img1.jpeg)",
+      "explanation": "Giải thích chi tiết từng ý:\n- a) Hệ gồm ba bất phương trình bậc nhất hai ẩn $x, y$ nên là hệ bất phương trình bậc nhất hai ẩn. Ý a đúng.\n- b) Với cặp $(-1; 2)$, ta thấy $x = -1 < 0$, không thỏa mãn điều kiện $x \\ge 0$. Do đó $(-1; 2)$ không là nghiệm của hệ. Ý b sai.\n- c) Thay $O(0; 0)$ vào bất phương trình $2x + 3y \\le 6$: $2(0) + 3(0) = 0 \\le 6$ (đúng). Do đó nửa mặt phẳng bờ $d_1$ chứa $O(0; 0)$ là miền nghiệm của bất phương trình $2x + 3y \\le 6$. Ý c đúng.\n- d) Miền nghiệm của hệ là giao của ba nửa mặt phẳng $x \\ge 0$, $2x + 3y \\le 6$ và $2x - 3y \\le 1$, tạo thành miền tam giác kín (kể cả ba cạnh) không bị gạch trong hình vẽ. Ý d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-3.png",
+          "sha256": "b8a759c4bdd4abdce3b9c19dfa33b4beac9791ff7de05e7765459b8a73097172"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Gọi $O$ là tâm hình bình hành $ABCD$. Khi đó:",
+      "explanation": "Kiểm tra từng hệ thức vectơ:\n- a) $\\vec{OA} - \\vec{OB} = \\vec{BA}$. Trong hình bình hành $ABCD$, $\\vec{BA} = \\vec{CD}$. Do đó $\\vec{OA} - \\vec{OB} = \\vec{CD}$. Ý a đúng.\n- b) $\\vec{OB} - \\vec{OC} = \\vec{CB}$ và $\\vec{OD} - \\vec{OA} = \\vec{AD}$. Trong hình bình hành, $\\vec{CB} = \\vec{DA} = -\\vec{AD} \\ne \\vec{AD}$. Do đó $\\vec{OB} - \\vec{OC} \\ne \\vec{OD} - \\vec{OA}$. Ý b sai.\n- c) $\\vec{AB} - \\vec{AD} = \\vec{DB} \\ne \\vec{BD}$. Ý c sai.\n- d) $\\vec{BC} - \\vec{BA} = \\vec{AC}$ và $\\vec{DC} - \\vec{DA} = \\vec{AC}$. Cả hai vế đều bằng $\\vec{AC}$. Ý d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-3.png",
+          "sha256": "b8a759c4bdd4abdce3b9c19dfa33b4beac9791ff7de05e7765459b8a73097172"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-9.png",
+          "sha256": "a21a7d1acb66bfe72f215c9661fb0b9b521f0ff56e98b6355be60508753a9cc4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Nhu cầu canxi tối thiểu cho một người đang ở độ tuổi trưởng thành trong một ngày là $1000\\text{ mg}$. Trong một lạng đậu nành có $277\\text{ mg}$ canxi, một lạng thịt bò có $18\\text{ mg}$ canxi. Gọi $x, y$, lần lượt là số lạng đậu nành và số lạng thịt bò mà một người đang ở độ tuổi trưởng thành ăn trong một ngày. Bất phương trình bậc nhất hai ẩn $x, y$, để biểu diễn lượng canxi cần thiết trong một ngày của một người đang trong độ tuổi trưởng thành có dạng $bx + 18y \\ge a$ với $a, b$, là các số nguyên dương. Tính giá trị $T = \\frac{a}{2} - b$. (Kết quả làm tròn đến hàng đơn vị)",
+      "explanation": "Lượng canxi cung cấp từ $x$ lạng đậu nành và $y$ lạng thịt bò là: $277x + 18y$ (mg).\nĐể đáp ứng nhu cầu tối thiểu $1000\\text{ mg}$ canxi mỗi ngày thì:\n$$277x + 18y \\ge 1000.$$\nSo sánh với dạng bất phương trình $bx + 18y \\ge a$, ta có $b = 277$ và $a = 1000$.\nKhi đó:\n$$T = \\frac{a}{2} - b = \\frac{1000}{2} - 277 = 500 - 277 = 223.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-3.png",
+          "sha256": "b8a759c4bdd4abdce3b9c19dfa33b4beac9791ff7de05e7765459b8a73097172"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-10.png",
+          "sha256": "3f03a0c5d91fe71d379e1ff0e5c94c44f3808bc07eb031f0c359d20b78f4ba86"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Lớp 10A có 25 học sinh chơi bóng đá, 23 học sinh chơi bóng bàn, 14 học sinh chơi cả bóng đá và bóng bàn, 6 học sinh không chơi môn nào. Tìm số học sinh chỉ chơi một môn thể thao?",
+      "explanation": "Số học sinh chỉ chơi bóng đá là:\n$$25 - 14 = 11$$ học sinh.\nSố học sinh chỉ chơi bóng bàn là:\n$$23 - 14 = 9$$ học sinh.\nSố học sinh chỉ chơi đúng một môn thể thao là:\n$$11 + 9 = 20$$ học sinh.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-4.png",
+          "sha256": "41645b6e1779c1937e9c4bf8674749fab1aecada196da52f7eaa2efe3f4eebf6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-10.png",
+          "sha256": "3f03a0c5d91fe71d379e1ff0e5c94c44f3808bc07eb031f0c359d20b78f4ba86"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Bạn An dự định làm hai loại đèn trung thu, toàn bộ số tiền bán được An sẽ ủng hộ miền Bắc sau cơn bão số 10 (Bualoi). Cần hai giờ để làm xong một chiếc đèn lồng hình ngôi sao, và bán được $30$ ngàn đồng. Cần ba giờ để làm một chiếc đèn con thỏ và bán được $50$ ngàn đồng. Bạn An có tối đa $30$ giờ để làm hai loại lồng đèn và bạn muốn làm được ít nhất $12$ chiếc. Giả sử số đèn trung thu An làm được đều bán được hết.\nGọi $x, y$ lần lượt là số đèn trung thu hình ngôi sao và số đèn trung thu hình con thỏ ($x \\ge 0, y \\ge 0; x, y \\in \\mathbb{N}$) sao cho số tiền An bán được là lớn nhất. Khi đó số tiền mà An ủng hộ cho miền Bắc lớn nhất là bao nhiêu ngàn đồng? (Kết quả làm tròn đến hàng đơn vị)",
+      "explanation": "Theo giả thiết, số đèn làm được $x$ và $y$ thỏa mãn hệ điều kiện:\n$$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ 2x + 3y \\le 30 \\\\ x + y \\ge 12 \\end{cases}$$\nSố tiền bán được là: $F(x; y) = 30x + 50y$ (ngàn đồng).\nTừ $2x + 3y \\le 30$ và $2x + 2y \\ge 24$, trừ theo vế ta được $y \\le 6$.\nKhi $y = 6$, từ $x + y \\ge 12 \\Rightarrow x \\ge 6$; và $2x + 3(6) \\le 30 \\Rightarrow 2x \\le 12 \\Rightarrow x \\le 6$. Suy ra $x = 6$.\nCặp $(x; y) = (6; 6)$ thỏa mãn hệ và cho số tiền:\n$$F(6; 6) = 30(6) + 50(6) = 180 + 300 = 480$$ (ngàn đồng).\nKiểm tra các đỉnh khác của miền nghiệm:\n- Tại $(12; 0)$: $F = 30(12) = 360$;\n- Tại $(15; 0)$: $F = 30(15) = 450$.\nVậy số tiền lớn nhất mà An ủng hộ cho miền Bắc là 480 ngàn đồng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-4.png",
+          "sha256": "41645b6e1779c1937e9c4bf8674749fab1aecada196da52f7eaa2efe3f4eebf6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-10.png",
+          "sha256": "3f03a0c5d91fe71d379e1ff0e5c94c44f3808bc07eb031f0c359d20b78f4ba86"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$. Điểm $M$ thuộc đoạn thẳng $BC$ sao cho $MB = 2 MC$. Hãy phân tích vectơ $\\vec{CM}$ theo hai vectơ $\\vec{u} = \\vec{AB}, \\vec{v} = \\vec{AC}$ ta được $\\vec{CM} = m\\vec{u} + n\\vec{v}$. Tính tổng $m + n$? (Kết quả làm tròn đến hàng đơn vị).",
+      "explanation": "Vì điểm $M$ thuộc đoạn thẳng $BC$ và $MB = 2MC$ nên vectơ $\\vec{CM}$ cùng hướng với vectơ $\\vec{CB}$ và có độ dài $CM = \\frac{1}{3} CB$.\nDo đó:\n$$\\vec{CM} = \\frac{1}{3} \\vec{CB} = \\frac{1}{3} (\\vec{AB} - \\vec{AC}) = \\frac{1}{3}\\vec{u} - \\frac{1}{3}\\vec{v}.$$\nSuy ra $m = \\frac{1}{3}$ và $n = -\\frac{1}{3}$.\nKhi đó:\n$$m + n = \\frac{1}{3} + \\left(-\\frac{1}{3}\\right) = 0.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-4.png",
+          "sha256": "41645b6e1779c1937e9c4bf8674749fab1aecada196da52f7eaa2efe3f4eebf6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-10.png",
+          "sha256": "3f03a0c5d91fe71d379e1ff0e5c94c44f3808bc07eb031f0c359d20b78f4ba86"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ đều có cạnh bằng 1. Tính độ dài của véc tơ $\\frac{1}{2}\\vec{AB} + 2\\vec{AC}$ (Kết quả làm tròn đến hàng phần trăm).",
+      "explanation": "Vì tam giác $ABC$ đều cạnh bằng 1 nên $|\\vec{AB}| = 1$, $|\\vec{AC}| = 1$ và $\\widehat{A} = 60^\\circ$.\nTích vô hướng:\n$$\\vec{AB} \\cdot \\vec{AC} = 1 \\cdot 1 \\cdot \\cos 60^\\circ = \\frac{1}{2}.$$\nXét bình phương vô hướng của vectơ $\\vec{w} = \\frac{1}{2}\\vec{AB} + 2\\vec{AC}$:\n$$|\\vec{w}|^2 = \\left(\\frac{1}{2}\\vec{AB} + 2\\vec{AC}\\right)^2 = \\frac{1}{4}|\\vec{AB}|^2 + 4|\\vec{AC}|^2 + 2 \\cdot \\frac{1}{2} \\cdot 2 (\\vec{AB} \\cdot \\vec{AC})$$\n$$= \\frac{1}{4}(1) + 4(1) + 2 \\left(\\frac{1}{2}\\right) = \\frac{1}{4} + 4 + 1 = \\frac{21}{4} = 5{,}25.$$\nDo đó độ dài vectơ là:\n$$|\\vec{w}| = \\sqrt{5{,}25} = \\frac{\\sqrt{21}}{2} \\approx 2{,}2913.$$\nLàm tròn đến hàng phần trăm được kết quả $2{,}29$ (hoặc 2.29).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-4.png",
+          "sha256": "41645b6e1779c1937e9c4bf8674749fab1aecada196da52f7eaa2efe3f4eebf6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-10.png",
+          "sha256": "3f03a0c5d91fe71d379e1ff0e5c94c44f3808bc07eb031f0c359d20b78f4ba86"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-020-M1001-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-020.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho ba lực $\\vec{F}_1 = \\vec{MA}, \\vec{F}_2 = \\vec{MB}, \\vec{F}_3 = \\vec{MC}$ cùng tác động vào một vật tại điểm $M$ và vật đứng yên. Cho biết cường độ của $\\vec{F}_1$ và $\\vec{F}_2$ đều bằng $40\\text{ N}$ và $\\widehat{AMB} = 60^\\circ$. Tính cường độ của lực $\\vec{F}_3$ (Kết quả làm tròn đến hàng đơn vị).\n\n![Ba lực tác động vào vật](/math-import-assets/thpt-figure-020-p4-img2.jpeg)",
+      "explanation": "Vì vật đứng yên dưới tác dụng của ba lực nên tổng các lực tác dụng bằng vectơ-không:\n$$\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0} \\Rightarrow \\vec{F}_3 = -(\\vec{F}_1 + \\vec{F}_2).$$\nDo đó cường độ của lực $\\vec{F}_3$ bằng độ lớn của hợp lực $\\vec{F}_1 + \\vec{F}_2$:\n$$|\\vec{F}_3| = |\\vec{F}_1 + \\vec{F}_2|.$$\nBình phương độ dài hợp lực:\n$$|\\vec{F}_1 + \\vec{F}_2|^2 = |\\vec{F}_1|^2 + |\\vec{F}_2|^2 + 2|\\vec{F}_1||\\vec{F}_2|\\cos(\\widehat{AMB})$$\n$$= 40^2 + 40^2 + 2 \\cdot 40 \\cdot 40 \\cdot \\cos 60^\\circ = 1600 + 1600 + 1600 = 4800.$$\nSuy ra:\n$$|\\vec{F}_3| = \\sqrt{4800} = 40\\sqrt{3} \\approx 69{,}282\\text{ N}.$$\nLàm tròn đến hàng đơn vị được $69\\text{ N}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-4.png",
+          "sha256": "41645b6e1779c1937e9c4bf8674749fab1aecada196da52f7eaa2efe3f4eebf6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-020-page-10.png",
+          "sha256": "3f03a0c5d91fe71d379e1ff0e5c94c44f3808bc07eb031f0c359d20b78f4ba86"
+        }
+      ]
+    }
+  ]
+}

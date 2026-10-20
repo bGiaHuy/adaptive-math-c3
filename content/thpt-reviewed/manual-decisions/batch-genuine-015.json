@@ -1,0 +1,426 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Trong các phát biểu sau đây, phát biểu nào là một mệnh đề toán học?",
+      "explanation": "Mệnh đề toán học là một khẳng định về một sự kiện toán học có tính đúng hoặc sai rõ ràng.\n- Phát biểu A và C là những câu hỏi (câu nghi vấn), không phải câu khẳng định.\n- Phát biểu D là câu cảm thán/khẩu hiệu.\n- Phát biểu B \"Số 1 là số nguyên tố\" là một khẳng định toán học (đây là khẳng định sai, vì số nguyên tố là số tự nhiên lớn hơn 1 chỉ có hai ước là 1 và chính nó), do đó là một mệnh đề toán học. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau, câu nào không phải mệnh đề?",
+      "explanation": "\"Buồn ngủ quá!\" là câu cảm thán bộc lộ cảm xúc, không có tính khẳng định đúng hay sai nên không phải là mệnh đề. Các câu A, B, D đều là các câu khẳng định có tính đúng hoặc sai xác định. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề phủ định của mệnh đề $P$: \"$\\forall x \\in \\mathbb{N}: x^2 + x - 1 > 0$\" là",
+      "explanation": "Phủ định của lượng từ \"$\\forall x \\in \\mathbb{N}$\" là \"$\\exists x \\in \\mathbb{N}$\", và phủ định của bất đẳng thức $x^2 + x - 1 > 0$ là $x^2 + x - 1 \\le 0$. Do đó, mệnh đề phủ định là $\\overline{P}$: \"$\\exists x \\in \\mathbb{N}: x^2 + x - 1 \\le 0$\". Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Hãy liệt kê các phần tử của tập hợp $X = \\{x \\in \\mathbb{R} \\mid x^2 + x + 1 = 0\\}$.",
+      "explanation": "Phương trình bậc hai $x^2 + x + 1 = 0$ có biệt thức $\\Delta = 1^2 - 4(1)(1) = -3 < 0$, do đó phương trình vô nghiệm trên tập số thực $\\mathbb{R}$. Vì vậy tập hợp $X$ không chứa phần tử nào, tức $X = \\varnothing$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = (-3; +\\infty)$. Tập hợp nào dưới đây là tập con của tập $A$?",
+      "explanation": "Một tập hợp $S$ là tập con của $A = (-3; +\\infty)$ khi và chỉ khi mọi phần tử của $S$ đều lớn hơn $-3$.\n- Vì $-2 > -3$, nên với mọi $x \\in (-2; +\\infty)$ ta đều có $x > -2 > -3$, suy ra $x \\in (-3; +\\infty)$. Do đó $(-2; +\\infty) \\subset (-3; +\\infty)$.\n- Các tập $(-\\infty; 2)$, $(-4; +\\infty)$ và $(-\\infty; +\\infty)$ đều chứa các phần tử nhỏ hơn hoặc bằng $-3$ nên không phải là tập con của $A$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây không phải là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn $x, y$ có bậc cao nhất của mỗi ẩn là bậc 1 và không chứa tích các ẩn. Bất phương trình ở phương án D chứa số hạng bậc hai $x^2$, do đó không phải là bất phương trình bậc nhất hai ẩn. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Điểm $A(2; 1)$ thuộc miền nghiệm của bất phương trình nào sau đây?",
+      "explanation": "Thay tọa độ điểm $A(2; 1)$ vào từng bất phương trình:\n- Phương án A: $2 - 1 + 1 = 2 \\not< 0$ (loại).\n- Phương án B: $-2(2) + 2(1) - 1 = -3 \\not> 0$ (loại).\n- Phương án C: $2(2) - 1 + 1 = 4 > 0$ (thỏa mãn).\n- Phương án D: $2 - 2(1) = 0 \\not> 0$ (loại).\nDo đó điểm $A(2; 1)$ thuộc miền nghiệm của $2x - y + 1 > 0$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cặp số $(x; y)$ nào sau đây là nghiệm của hệ bất phương trình $\\begin{cases} x + 3y \\le 0 \\\\ 2x - y \\ge 1 \\end{cases}$?",
+      "explanation": "Thay từng cặp số $(x; y)$ vào hệ:\n- Với $(1; 0)$: $1 + 3(0) = 1 \\not\\le 0$.\n- Với $(3; 1)$: $3 + 3(1) = 6 \\not\\le 0$.\n- Với $(1; -3)$: $1 + 3(-3) = -8 \\le 0$ (thỏa mãn) và $2(1) - (-3) = 5 \\ge 1$ (thỏa mãn).\n- Với $(-2; 3)$: $-2 + 3(3) = 7 \\not\\le 0$.\nVậy cặp số $(1; -3)$ là nghiệm của hệ. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Đẳng thức nào sau đây sai?",
+      "explanation": "Tính giá trị từng vế:\n- Phương án A: $\\sin 45^\\circ + \\sin 45^\\circ = \\dfrac{\\sqrt{2}}{2} + \\dfrac{\\sqrt{2}}{2} = \\sqrt{2}$ (đúng).\n- Phương án B: $\\sin 30^\\circ + \\cos 60^\\circ = \\dfrac{1}{2} + \\dfrac{1}{2} = 1$ (đúng).\n- Phương án C: $\\sin 60^\\circ + \\cos 150^\\circ = \\dfrac{\\sqrt{3}}{2} + \\left(-\\dfrac{\\sqrt{3}}{2}\\right) = 0$ (đúng).\n- Phương án D: $\\sin 120^\\circ + \\cos 30^\\circ = \\dfrac{\\sqrt{3}}{2} + \\dfrac{\\sqrt{3}}{2} = \\sqrt{3} \\ne 0$. Do đó khẳng định D sai.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ là góc tù. Mệnh đề nào sau đây là đúng?",
+      "explanation": "Với góc tù $\\alpha$ ($90^\\circ < \\alpha < 180^\\circ$), ta có:\n- $\\sin\\alpha > 0$.\n- $\\cos\\alpha < 0$.\n- $\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} < 0$.\n- $\\cot\\alpha = \\dfrac{\\cos\\alpha}{\\sin\\alpha} < 0$.\nDo đó trong các mệnh đề đã cho, mệnh đề đúng là $\\cos\\alpha < 0$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cho $\\triangle ABC$ với các cạnh $AB = c, AC = b, BC = a$. Gọi $R, S$ lần lượt là bán kính đường tròn ngoại tiếp và diện tích của tam giác $ABC$. Trong các phát biểu sau, phát biểu nào sai?",
+      "explanation": "Theo định lí sin trong tam giác $ABC$, ta có $\\dfrac{a}{\\sin A} = 2R \\Leftrightarrow R = \\dfrac{a}{2\\sin A}$. Do đó công thức ở phương án B ghi $R = \\dfrac{a}{\\sin A}$ là sai. Các công thức ở A, C, D đều đúng. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-1.png",
+          "sha256": "61f12c3751b697f56e9a77edac74c680c74fa7e3d65284f266efbd8f3fc9755a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cho $\\triangle ABC$ có $\\widehat{B} = 60^\\circ, a = 8, c = 5$. Độ dài cạnh $b$ bằng:",
+      "explanation": "Theo định lí cosin trong tam giác $ABC$, ta có:\n$$b^2 = a^2 + c^2 - 2ac\\cos B = 8^2 + 5^2 - 2 \\cdot 8 \\cdot 5 \\cdot \\cos 60^\\circ = 64 + 25 - 80 \\cdot \\dfrac{1}{2} = 89 - 40 = 49.$$\nSuy ra $b = \\sqrt{49} = 7$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{x \\in \\mathbb{R} \\mid x + 2 \\ge 0\\}$ và $B = \\{x \\in \\mathbb{R} \\mid 5 - x > 0\\}$.",
+      "explanation": "Giải các điều kiện của tập hợp:\n- $x + 2 \\ge 0 \\Leftrightarrow x \\ge -2 \\Rightarrow A = [-2; +\\infty)$. Do đó ý a ĐÚNG.\n- $5 - x > 0 \\Leftrightarrow x < 5 \\Rightarrow B = (-\\infty; 5)$.\n  Khi đó $A \\cap B = [-2; +\\infty) \\cap (-\\infty; 5) = [-2; 5)$. Do đó ý b ĐÚNG.\n- Hiệu $A \\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$ ($x \\ge -2$ và $x \\ge 5$), tức là $A \\setminus B = [5; +\\infty)$. Do đó ý c ĐÚNG về mặt toán học chuẩn (ghi chú: đáp án nguồn của trường ghi c SAI do nhầm lẫn chiều giải bất phương trình $5 - x > 0$).\n- Phần bù $C_A(A \\cap B) = A \\setminus (A \\cap B) = [-2; +\\infty) \\setminus [-2; 5) = [5; +\\infty)$ (nửa khoảng đóng tại 5). Ý d ghi $(5; +\\infty)$ (khoảng mở, thiếu phần tử 5) nên ý d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình $\\begin{cases} -2x + y \\le 2 \\\\ -x + 2y \\ge 4 \\\\ x + y \\le 5 \\end{cases}$ có miền nghiệm là miền $D$.",
+      "explanation": "Xét từng khẳng định:\n- a) Cả 3 bất phương trình trong hệ đều là bất phương trình bậc nhất hai ẩn $x, y$. Do đó ý a ĐÚNG.\n- b) Thay $(x; y) = (1; 3)$ vào hệ: $-2(1) + 3 = 1 \\le 2$; $-1 + 2(3) = 5 \\ge 4$; $1 + 3 = 4 \\le 5$. Cả ba đều thỏa mãn nên $(1; 3)$ là một nghiệm của hệ. Do đó ý b ĐÚNG.\n- c) Tìm tọa độ giao điểm của ba đường thẳng biên:\n  + Giao điểm của $-2x + y = 2$ và $-x + 2y = 4$ là $A(0; 2)$.\n  + Giao điểm của $-2x + y = 2$ và $x + y = 5$ là $B(1; 4)$.\n  + Giao điểm của $-x + 2y = 4$ và $x + y = 5$ là $C(2; 3)$.\n  Ba điểm này là 3 đỉnh của miền nghiệm tam giác $ABC$. Miền nghiệm $D$ là hình tam giác, không phải tứ giác. Do đó ý c SAI.\n- d) Biểu thức bậc nhất $F(x; y) = -x + y$ đạt cực trị tại các đỉnh của đa giác miền nghiệm $D$:\n  $F(A) = F(0; 2) = 2$,\n  $F(B) = F(1; 4) = 3$,\n  $F(C) = F(2; 3) = 1$.\n  Giá trị nhỏ nhất của $F(x; y)$ trên miền $D$ bằng 1 (đạt tại đỉnh $C(2; 3)$). Do đó ý d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Cho $\\cos\\alpha = -\\dfrac{2}{3}$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét góc $\\alpha$ với $0^\\circ \\le \\alpha \\le 180^\\circ$:\n- Vì $\\cos\\alpha = -\\dfrac{2}{3} < 0$ nên $\\alpha$ là góc tù, tức $90^\\circ < \\alpha < 180^\\circ$. Do đó ý a ĐÚNG.\n- Vì $90^\\circ < \\alpha < 180^\\circ$, ta có $\\sin\\alpha > 0$ và $\\cos\\alpha < 0$, suy ra $\\cot\\alpha = \\dfrac{\\cos\\alpha}{\\sin\\alpha} < 0$. Do đó ý b ĐÚNG.\n- Ta có $\\sin^2\\alpha = 1 - \\cos^2\\alpha = 1 - \\left(-\\dfrac{2}{3}\\right)^2 = \\dfrac{5}{9}$. Vì $\\sin\\alpha > 0$ nên $\\sin\\alpha = \\dfrac{\\sqrt{5}}{3}$. Ý c khẳng định $\\sin\\alpha = -\\dfrac{\\sqrt{5}}{3}$ là SAI.\n- $\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} = \\dfrac{\\frac{\\sqrt{5}}{3}}{-\\frac{2}{3}} = -\\dfrac{\\sqrt{5}}{2} < 0$. Ý d khẳng định $\\tan\\alpha = \\dfrac{\\sqrt{5}}{2} > 0$ là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Tam giác $ABC$ có $AB = 14, AC = 13, BC = 15$. Khi đó:",
+      "explanation": "Tính các yếu tố của tam giác $ABC$:\n- Nửa chu vi: $p = \\dfrac{14 + 13 + 15}{2} = 21$.\n- Diện tích theo công thức Heron:\n  $$S = \\sqrt{p(p - a)(p - b)(p - c)} = \\sqrt{21(21 - 15)(21 - 13)(21 - 14)} = \\sqrt{21 \\cdot 6 \\cdot 8 \\cdot 7} = \\sqrt{7056} = 84.$$\n  Ý a khẳng định diện tích là 39 nên ý a SAI.\n- Bán kính đường tròn nội tiếp: $r = \\dfrac{S}{p} = \\dfrac{84}{21} = 4$. Do đó ý b ĐÚNG.\n- Độ dài đường cao ứng với cạnh $AB$: $h_c = \\dfrac{2S}{AB} = \\dfrac{2 \\cdot 84}{14} = 12$. Do đó ý c ĐÚNG.\n- Góc lớn nhất trong tam giác là góc đối diện cạnh lớn nhất $BC = 15$, tức góc $A$:\n  $$\\cos A = \\dfrac{b^2 + c^2 - a^2}{2bc} = \\dfrac{13^2 + 14^2 - 15^2}{2 \\cdot 13 \\cdot 14} = \\dfrac{140}{364} = \\dfrac{5}{13} > 0.$$\n  Vì $\\cos A > 0$ nên góc $A$ là góc nhọn. Suy ra cả ba góc của tam giác đều là góc nhọn. Do đó ý d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Xác định các tập hợp sau và biểu diễn chúng trên trục số:\na) $(-\\infty; 1] \\cap [-7; 5]$.\nb) $(-2; 6) \\cup [4; +\\infty)$.",
+      "explanation": "a) Giao của hai tập hợp $(-\\infty; 1]$ và $[-7; 5]$ là tập hợp các số thực thuộc cả hai tập:\n$$(-\\infty; 1] \\cap [-7; 5] = [-7; 1].$$\nBiểu diễn trên trục số: Tô đậm đoạn từ $-7$ đến $1$ (lấy cả hai đầu mút vuông $[-7; 1]$), gạch bỏ toàn bộ phần nằm ngoài đoạn này.\n\nb) Hợp của hai tập hợp $(-2; 6)$ và $[4; +\\infty)$ là tập hợp các số thực thuộc ít nhất một trong hai tập hợp:\nVì hai khoảng có phần chung $[4; 6) \\ne \\varnothing$ nên hợp lại thành:\n$$(-2; 6) \\cup [4; +\\infty) = (-2; +\\infty).$$\nBiểu diễn trên trục số: Tô đậm nửa khoảng $(-2; +\\infty)$ (sử dụng ngoặc tròn tại $-2$ và kéo dài về phía $+\\infty$), gạch bỏ phần còn lại $(-\\infty; -2]$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Biểu diễn hình học miền nghiệm của hệ bất phương trình:\n$$\\begin{cases} x + y \\le 5 \\\\ 2x + y \\le 8 \\\\ x \\ge 0 \\\\ y \\ge 0 \\end{cases}$$",
+      "explanation": "Các bước biểu diễn hình học miền nghiệm:\n1. Vẽ các đường thẳng biên trên mặt phẳng tọa độ $Oxy$:\n- $d_1: x + y = 5$ đi qua hai điểm $(0; 5)$ và $(5; 0)$.\n- $d_2: 2x + y = 8$ đi qua hai điểm $(0; 8)$ và $(4; 0)$.\n- $d_3: x = 0$ (trục tung $Oy$).\n- $d_4: y = 0$ (trục hoành $Ox$).\n\n2. Xác định các nửa mặt phẳng nghiệm:\n- Vì $0 + 0 = 0 \\le 5$ nên miền nghiệm của $x + y \\le 5$ là nửa mặt phẳng bờ $d_1$ chứa gốc tọa độ $O(0; 0)$.\n- Vì $2(0) + 0 = 0 \\le 8$ nên miền nghiệm của $2x + y \\le 8$ là nửa mặt phẳng bờ $d_2$ chứa $O(0; 0)$.\n- $x \\ge 0$ là nửa mặt phẳng bên phải trục tung $Oy$.\n- $y \\ge 0$ là nửa mặt phẳng phía trên trục hoành $Ox$.\n\n3. Miền nghiệm của hệ là phần giao của các miền trên, tạo thành miền tứ giác $OABC$ (kể cả các cạnh biên) với:\n- Đỉnh $O(0; 0)$;\n- Đỉnh $A(4; 0)$ là giao điểm của $d_2$ với trục $Ox$;\n- Đỉnh $B(3; 2)$ là giao điểm của $d_1$ và $d_2$;\n- Đỉnh $C(0; 5)$ là giao điểm của $d_1$ với trục $Oy$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-2.png",
+          "sha256": "d4ea127727f318e99fee9410182e17f844d10874474d631ea38828023b62d9b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-4.png",
+          "sha256": "de633614356112060daa8f309c43cb79dc8592f1518ce1a379571b07ccc1c505"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-018-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-018.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề kiểm tra giữa kì 1 - THPT Đông Thái",
+      "independentlyReasoned": true,
+      "content": "Từ vị trí $A$ người ta quan sát một cây cao (hình vẽ).\n\n![Sơ đồ quan sát cây cao](/math-import-assets/thpt-figure-018-p3-tree.jpeg)\n\nBiết $AH = 4\\text{ m}, HB = 20\\text{ m}, \\widehat{BAC} = 45^\\circ$. Tính chiều cao của cây (làm tròn đến hàng phần mười).",
+      "explanation": "Mô hình hóa hình học bài toán:\n- Cây $BC$ mọc vuông góc với mặt đất $HB$ tại gốc cây $B$, do đó $BC \\perp HB$. Đồng thời đoạn quan sát $AH \\perp HB$, suy ra $AH \\parallel BC$.\n- Xét tam giác vuông $AHB$ vuông tại $H$, áp dụng định lí Pythagore:\n  $$AB = \\sqrt{AH^2 + HB^2} = \\sqrt{4^2 + 20^2} = \\sqrt{416} = 4\\sqrt{26}\\text{ m}.$$\n- Trong tam giác vuông $AHB$, ta có:\n  $$\\sin\\widehat{BAH} = \\dfrac{HB}{AB} = \\dfrac{20}{4\\sqrt{26}} = \\dfrac{5}{\\sqrt{26}} \\Rightarrow \\widehat{BAH} \\approx 78{,}69^\\circ.$$\n- Vì $AH \\parallel BC$, theo tính chất hai góc so le trong ta có:\n  $$\\widehat{ABC} = \\widehat{BAH} \\approx 78{,}69^\\circ.$$\n- Xét tam giác $ABC$, tổng ba góc trong tam giác bằng $180^\\circ$, nên:\n  $$\\widehat{ACB} = 180^\\circ - (\\widehat{BAC} + \\widehat{ABC}) \\approx 180^\\circ - (45^\\circ + 78{,}69^\\circ) = 56{,}31^\\circ.$$\n- Áp dụng định lí sin trong tam giác $ABC$:\n  $$\\dfrac{BC}{\\sin\\widehat{BAC}} = \\dfrac{AB}{\\sin\\widehat{ACB}} \\Rightarrow BC = \\dfrac{AB \\cdot \\sin 45^\\circ}{\\sin\\widehat{ACB}}.$$\n  Thay số:\n  $$BC = \\dfrac{4\\sqrt{26} \\cdot \\sin 45^\\circ}{\\sin(56{,}31^\\circ)} \\approx \\dfrac{14{,}422}{0{,}832} \\approx 17{,}33\\text{ m}.$$\nLàm tròn đến hàng phần mười, chiều cao của cây là $17{,}3\\text{ m}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-3.png",
+          "sha256": "db9654a60b5d170c3a8b350e20b81c439261ffeb8c50c64feea936ae502ed6e9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-018-page-5.png",
+          "sha256": "165e760658afc7c0861b98b27f7971a3e891c565947dc3c74fb59d4112a387f0"
+        }
+      ]
+    }
+  ]
+}

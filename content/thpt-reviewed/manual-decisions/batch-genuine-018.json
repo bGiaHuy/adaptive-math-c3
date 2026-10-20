@@ -1,0 +1,466 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Thống kê điểm kiểm tra môn Toán của một nhóm gồm 12 học sinh thu được kết quả sau:\n$$3; 4; 4{,}5; 10; 5; 6; 6{,}5; 7; 9; 7{,}5; 8; 8{,}5.$$\nKhoảng biến thiên của mẫu số liệu này bằng:",
+      "explanation": "Giá trị lớn nhất của mẫu số liệu là $x_{\\max} = 10$, giá trị nhỏ nhất là $x_{\\min} = 3$. Khoảng biến thiên của mẫu số liệu là $R = x_{\\max} - x_{\\min} = 10 - 3 = 7$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Cho ba điểm $A, B, C$ tùy ý. Mệnh đề nào dưới đây đúng?",
+      "explanation": "Theo quy tắc hiệu hai vectơ có chung điểm đầu: với ba điểm bất kì $A, B, C$ ta luôn có $\\vec{BA} - \\vec{BC} = \\vec{CA}$. Do đó mệnh đề B đúng. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, tọa độ của vectơ $\\vec{a} = 5\\vec{i} + 3\\vec{j}$ là:",
+      "explanation": "Trong mặt phẳng tọa độ $Oxy$, nếu vectơ $\\vec{a} = x\\vec{i} + y\\vec{j}$ thì tọa độ của $\\vec{a}$ là $(x; y)$. Ở đây $\\vec{a} = 5\\vec{i} + 3\\vec{j}$ nên $\\vec{a} = (5; 3)$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $M$ là trung điểm cạnh $AB$ và $N$ là trung điểm cạnh $AC$ (hình vẽ).\n\n![Tam giác ABC với các trung điểm M, N](/math-import-assets/thpt-figure-028-p1-q4-triangle.png)\n\nCặp vectơ nào sau đây là hai vectơ ngược hướng?",
+      "explanation": "Vì $N$ là trung điểm cạnh $AC$, ba điểm $A, N, C$ thẳng hàng theo thứ tự đó. Vectơ $\\vec{AN}$ có hướng từ $A$ đến $C$, còn vectơ $\\vec{CA}$ có hướng từ $C$ đến $A$. Hai vectơ này có giá trùng nhau (đường thẳng $AC$) và hướng ngược nhau nên là hai vectơ ngược hướng. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Cặp số $(-2; 3)$ là nghiệm của bất phương trình nào dưới đây?",
+      "explanation": "Thay $(x; y) = (-2; 3)$ vào từng bất phương trình:\n- Phương án A: $2(-2) - 3 - 1 = -8 \\not\\ge 0$.\n- Phương án B: $2(-2) + 3 + 1 = 0 \\not> 0$.\n- Phương án C: $-2 + 3(3) + 1 = 8 \\not< 0$.\n- Phương án D: $-2 + 3 + 1 = 2 > 0$ (thỏa mãn).\nDo đó cặp số $(-2; 3)$ là nghiệm của bất phương trình $x + y + 1 > 0$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Trong $\\triangle ABC$ có $AB = c, AC = b, BC = a$. Đẳng thức nào sau đây đúng?",
+      "explanation": "Theo định lí cosin trong tam giác $ABC$, bình phương một cạnh bằng tổng bình phương hai cạnh kia trừ đi hai lần tích của chúng với cosin của góc xen giữa: $b^2 = a^2 + c^2 - 2ac\\cos B$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Cho $\\vec{a} = (x_1; y_1)$, $\\vec{b} = (x_2; y_2)$. Khẳng định nào sau đây là sai?",
+      "explanation": "Công thức đúng tính cosin góc giữa hai vectơ là $\\cos(\\vec{a}, \\vec{b}) = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| \\cdot |\\vec{b}|} = \\dfrac{x_1 x_2 + y_1 y_2}{\\sqrt{x_1^2 + y_1^2} \\cdot \\sqrt{x_2^2 + y_2^2}}$. Khẳng định ở phương án D ghi dấu trừ trên tử số ($x_1 x_2 - y_1 y_2$) là sai. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Kết quả đo chiều dài một cây cầu là $a = 152{,}65\\text{ m}$ với độ chính xác $d = 0{,}05\\text{ m}$. Số quy tròn của số $a$ là:",
+      "explanation": "Vì độ chính xác $d = 0{,}05$ có hàng cao nhất là hàng phần trăm, ta quy tròn số $a$ đến hàng phần mười. Chữ số hàng phần mười là 6 và chữ số hàng phần trăm là 5 (thỏa mãn $\\ge 5$), nên làm tròn tăng 1 đơn vị ở hàng phần mười: $152{,}65 \\approx 152{,}7$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Cho $\\vec{a} = (5; -4)$, $\\vec{b} = (-1; 2)$. Tọa độ của vectơ $\\vec{a} + \\vec{b}$ là:",
+      "explanation": "Tọa độ vectơ tổng $\\vec{a} + \\vec{b} = (5 + (-1); -4 + 2) = (4; -2)$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-1.png",
+          "sha256": "1d4b4a5c2f81d65699d83d2112eadd22624ec3bb2967ecd4430ee3e2ed7bb736"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề phủ định của mệnh đề \"$\\forall x \\in \\mathbb{R}: x^2 + x + 1 > 0$\" là:",
+      "explanation": "Phủ định của lượng từ $\\forall$ là $\\exists$, phủ định của bất đẳng thức $x^2 + x + 1 > 0$ là $x^2 + x + 1 \\le 0$. Do đó mệnh đề phủ định là \"$\\exists x \\in \\mathbb{R}: x^2 + x + 1 \\le 0$\". Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-2.png",
+          "sha256": "915254765429a0668d7f43cf6acd3db18d76236415d4c5f0fb2822eda7fdfc01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Điểm nào sau đây thuộc miền nghiệm của hệ bất phương trình $\\begin{cases} x + y \\ge 2 \\\\ 2x - y + 1 \\le 0 \\end{cases}$?",
+      "explanation": "Thay tọa độ điểm $(1; 3)$ vào hệ:\n$1 + 3 = 4 \\ge 2$ (thỏa mãn),\n$2(1) - 3 + 1 = 0 \\le 0$ (thỏa mãn).\nVậy điểm $(1; 3)$ thuộc miền nghiệm của hệ. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-2.png",
+          "sha256": "915254765429a0668d7f43cf6acd3db18d76236415d4c5f0fb2822eda7fdfc01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Trong hệ tọa độ $Oxy$, cho hai điểm $A(2; 3)$, $B(-4; 7)$. Tọa độ trung điểm $I$ của đoạn thẳng $AB$ là:",
+      "explanation": "Tọa độ trung điểm $I$ của đoạn thẳng $AB$ là:\n$$x_I = \\dfrac{x_A + x_B}{2} = \\dfrac{2 + (-4)}{2} = -1; \\quad y_I = \\dfrac{y_A + y_B}{2} = \\dfrac{3 + 7}{2} = 5.$$\nVậy $I(-1; 5)$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-2.png",
+          "sha256": "915254765429a0668d7f43cf6acd3db18d76236415d4c5f0fb2822eda7fdfc01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{-3; 1; 3; 5\\}$, $B = \\{-2; 0; 1; 3; 4\\}$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Xét từng mệnh đề:\n- a) Phần tử $-1 \\notin B$, do đó $\\{-1; 0\\} \\not\\subset B$. Khẳng định a SAI.\n- b) Các phần tử chung của $A$ và $B$ là 1 và 3, nên $A \\cap B = \\{1; 3\\}$. Khẳng định b ĐÚNG.\n- c) Hợp của hai tập hợp $A \\cup B = \\{-3; -2; 0; 1; 3; 4; 5\\}$ (không có phần tử 2). Khẳng định c SAI.\n- d) Hiệu $A \\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$ là $\\{-3; 5\\}$. Khẳng định d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-2.png",
+          "sha256": "915254765429a0668d7f43cf6acd3db18d76236415d4c5f0fb2822eda7fdfc01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Trong hệ tọa độ $Oxy$, cho ba điểm $A(-2; 6), B(3; 2), C(-1; 7)$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Tính toán các yếu tố vectơ và độ dài:\n- a) $\\vec{AB} = (3 - (-2); 2 - 6) = (5; -4) \\ne (5; 4)$. Khẳng định a SAI.\n- b) $\\vec{BC} = (-1 - 3; 7 - 2) = (-4; 5)$. Độ dài $AB = \\sqrt{5^2 + (-4)^2} = \\sqrt{41}$ và $BC = \\sqrt{(-4)^2 + 5^2} = \\sqrt{41}$. Suy ra $BC = AB$. Khẳng định b ĐÚNG.\n- c) Tích vô hướng $\\vec{AB} \\cdot \\vec{BC} = 5(-4) + (-4)(5) = -40 \\ne 0$. Khẳng định c SAI.\n- d) Vì $\\vec{AB} \\cdot \\vec{BC} = -40 \\ne 0$, hai vectơ không vuông góc với nhau, nên tam giác $ABC$ không vuông tại $B$. Khẳng định d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-2.png",
+          "sha256": "915254765429a0668d7f43cf6acd3db18d76236415d4c5f0fb2822eda7fdfc01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = (-\\infty; 10]$, $B = (5; 20)$. Tập hợp $B \\setminus A = (a; b)$. Tính $S = 2a - 3b$.",
+      "explanation": "Ta có $B \\setminus A = (5; 20) \\setminus (-\\infty; 10] = (10; 20)$. Do đó $a = 10$ và $b = 20$. Khi đó:\n$$S = 2a - 3b = 2(10) - 3(20) = 20 - 60 = -40.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-2.png",
+          "sha256": "915254765429a0668d7f43cf6acd3db18d76236415d4c5f0fb2822eda7fdfc01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Khoảng cách từ $C$ đến $B$ không thể đo trực tiếp được vì phải qua một đầm lầy. Người ta xác định được một điểm $A$ mà từ đó có thể nhìn được $C$ và $B$ dưới một góc $85^\\circ$. Biết $AC = 290\\text{ m}, AB = 310\\text{ m}$. Khoảng cách $CB$ bằng bao nhiêu mét? (Làm tròn đến hàng đơn vị).",
+      "explanation": "Trong tam giác $ABC$, áp dụng định lí cosin:\n$$CB^2 = AC^2 + AB^2 - 2 \\cdot AC \\cdot AB \\cdot \\cos\\widehat{BAC}$$\nThay số:\n$$CB^2 = 290^2 + 310^2 - 2 \\cdot 290 \\cdot 310 \\cdot \\cos 85^\\circ = 84100 + 96100 - 179800 \\cdot \\cos 85^\\circ \\approx 180200 - 15670{,}6 = 164529{,}4.$$\nSuy ra $CB = \\sqrt{164529{,}4} \\approx 405{,}62\\text{ m}$. Làm tròn đến hàng đơn vị, khoảng cách $CB$ là $406\\text{ m}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-2.png",
+          "sha256": "915254765429a0668d7f43cf6acd3db18d76236415d4c5f0fb2822eda7fdfc01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Có hai nhà $A, B$ cùng ở một bên bờ sông. Khoảng cách từ hai nhà đó đến bờ sông lần lượt là $OA = 200\\text{ m}, BP = 300\\text{ m}$. Người ta đo được $OP = 600\\text{ m}$ như hình vẽ dưới đây.\n\n![Sơ đồ vị trí trạm cấp nước bên sông](/math-import-assets/thpt-figure-028-p3-part3-q3-river.png)\n\nCác kỹ sư muốn xây dựng một trạm cung cấp nước sạch nằm cạnh bên bờ sông cho hai nhà sử dụng. Để tiết kiệm chi phí, các kỹ sư phải chọn một vị trí $M$ của trạm cung cấp nước sạch đó trên đoạn $OP$ sao cho tổng khoảng cách từ hai nhà đến vị trí $M$ là nhỏ nhất. Hãy tìm khoảng cách từ $M$ đến $O$.",
+      "explanation": "Lấy điểm $A'$ đối xứng với $A$ qua bờ sông $OP$, ta có $A'O = OA = 200\\text{ m}$ và $MA' = MA$ với mọi điểm $M$ trên $OP$.\nTổng khoảng cách từ hai nhà đến trạm $M$ là $MA + MB = MA' + MB \\ge A'B$. Dấu bằng đạt được khi và chỉ khi ba điểm $A', M, B$ thẳng hàng.\nKhi đó hai tam giác vuông $\\triangle A'OM$ và $\\triangle BPM$ đồng dạng, ta có tỉ số:\n$$\\dfrac{OM}{MP} = \\dfrac{A'O}{BP} = \\dfrac{200}{300} = \\dfrac{2}{3}.$$\nVì $M$ thuộc đoạn thẳng $OP$ có độ dài $600\\text{ m}$, ta có $OM + MP = 600\\text{ m}$. Suy ra:\n$$OM = \\dfrac{2}{2 + 3} \\cdot OP = \\dfrac{2}{5} \\cdot 600 = 240\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-3.png",
+          "sha256": "cac51103a8016edd8e720c7adafe3132f385db1b6a3ae89b84bbeebafe98880c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Trong đợt kiểm tra giữa học kì I năm học 2025 - 2026, thống kê điểm kiểm tra môn Toán của 11 học sinh tổ 1 của lớp 10A thu được kết quả qua bảng số liệu sau:\n$$4; 5; 6; 8; 7; 9; 8; 6; 9; 10; 7.$$\nTìm tứ phân vị thứ nhất của mẫu số liệu đã cho.",
+      "explanation": "Sắp xếp mẫu số liệu theo thứ tự không giảm gồm 11 giá trị:\n$$4; 5; 6; 6; 7; 7; 8; 8; 9; 9; 10.$$\nCỡ mẫu $n = 11$ là số lẻ, trung vị của mẫu số liệu là giá trị ở vị trí thứ 6: $Q_2 = 7$.\nNửa dưới của mẫu số liệu (các số đứng trước $Q_2$) gồm 5 giá trị: $4; 5; 6; 6; 7$.\nTứ phân vị thứ nhất $Q_1$ là trung vị của nửa dưới này, tức giá trị ở vị trí thứ 3: $Q_1 = 6$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-3.png",
+          "sha256": "cac51103a8016edd8e720c7adafe3132f385db1b6a3ae89b84bbeebafe98880c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-7.png",
+          "sha256": "d697d07ea44cac26b7bce6da0cb1aca2c37387ab73015d8dc78e2c62cb128a9a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "a. Cho $|\\vec{a}| = 6, |\\vec{b}| = 5, \\vec{a} \\cdot \\vec{b} = 20$. Tính $\\cos(\\vec{a}, \\vec{b})$.\nb. Một vật khối lượng $m = 40\\sqrt{3}\\text{ kg}$ được treo cố định trên trần nhà bằng hai sợi dây không dãn có độ dài bằng nhau. Biết rằng lực căng dây $\\vec{T}_1$ và $\\vec{T}_2$ có độ lớn như nhau và hợp với nhau một góc $60^\\circ$ (hình bên).\n\n![Vật treo bằng hai sợi dây](/math-import-assets/thpt-figure-028-p3-part4-q1-weight.png)\n\nLực căng của mỗi sợi dây bằng bao nhiêu? Biết $\\vec{P} = m\\vec{g}$, lấy $g = 10\\text{ m/s}^2$.",
+      "explanation": "a) Áp dụng định nghĩa tích vô hướng của hai vectơ:\n$$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| \\cdot |\\vec{b}| \\cdot \\cos(\\vec{a}, \\vec{b}) \\Rightarrow \\cos(\\vec{a}, \\vec{b}) = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| \\cdot |\\vec{b}|} = \\dfrac{20}{6 \\cdot 5} = \\dfrac{2}{3}.$$\n\nb) Trọng lượng của vật là:\n$$P = mg = 40\\sqrt{3} \\cdot 10 = 400\\sqrt{3}\\text{ N}.$$\nKhi vật ở trạng thái cân bằng, hợp lực của hai lực căng dây cân bằng với trọng lực $\\vec{P}$:\n$$\\vec{T}_1 + \\vec{T}_2 + \\vec{P} = \\vec{0} \\Rightarrow |\\vec{T}_1 + \\vec{T}_2| = P = 400\\sqrt{3}\\text{ N}.$$\nVì hai lực căng có độ lớn bằng nhau $|\\vec{T}_1| = |\\vec{T}_2| = T$ và góc giữa chúng bằng $60^\\circ$, độ lớn của hợp lực là:\n$$T_{12} = 2T\\cos\\left(\\dfrac{60^\\circ}{2}\\right) = 2T\\cos 30^\\circ = 2T \\cdot \\dfrac{\\sqrt{3}}{2} = T\\sqrt{3}.$$\nDo $T_{12} = 400\\sqrt{3}\\text{ N}$, ta có $T\\sqrt{3} = 400\\sqrt{3} \\Rightarrow T = 400\\text{ N}$.\nVậy lực căng của mỗi sợi dây là $400\\text{ N}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-3.png",
+          "sha256": "cac51103a8016edd8e720c7adafe3132f385db1b6a3ae89b84bbeebafe98880c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-10.png",
+          "sha256": "cfc086826c3cd8bf279eacb0065d0e61f3fda4cb698a0aee0d7a0d01a2acc6cc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho tam giác $ABC$ có các đỉnh $A(-1; 1), B(2; 3), C(5; 0)$.\na. Tìm tọa độ vectơ $\\vec{u} = 2\\vec{AB} - \\vec{AC}$.\nb. Tìm tọa độ điểm $D$ sao cho tứ giác $ABCD$ là hình bình hành.",
+      "explanation": "a) Ta có:\n$$\\vec{AB} = (2 - (-1); 3 - 1) = (3; 2); \\quad \\vec{AC} = (5 - (-1); 0 - 1) = (6; -1).$$\nTọa độ của vectơ $\\vec{u} = 2\\vec{AB} - \\vec{AC}$ là:\n$$x_u = 2(3) - 6 = 0; \\quad y_u = 2(2) - (-1) = 5.$$\nVậy $\\vec{u} = (0; 5)$.\n\nb) Gọi tọa độ điểm $D$ là $(x; y)$. Tứ giác $ABCD$ là hình bình hành khi và chỉ khi:\n$$\\vec{AB} = \\vec{DC}$$\nVới $\\vec{AB} = (3; 2)$ và $\\vec{DC} = (5 - x; 0 - y) = (5 - x; -y)$, ta có hệ phương trình:\n$$\\begin{cases} 5 - x = 3 \\\\ -y = 2 \\end{cases} \\Leftrightarrow \\begin{cases} x = 2 \\\\ y = -2 \\end{cases}$$\nVậy tọa độ điểm $D$ là $D(2; -2)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-3.png",
+          "sha256": "cac51103a8016edd8e720c7adafe3132f385db1b6a3ae89b84bbeebafe98880c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-10.png",
+          "sha256": "cfc086826c3cd8bf279eacb0065d0e61f3fda4cb698a0aee0d7a0d01a2acc6cc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-028-M1001-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-028.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001 - THPT Nguyễn Trãi",
+      "independentlyReasoned": true,
+      "content": "Thời gian tự học mỗi ngày (đơn vị: giờ) của học sinh một lớp 10 được thống kê trong bảng sau:\n\n| Thời gian (giờ) | 1 | 2 | 3 | 4 | 5 | 6 |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | 3 | 7 | 4 | 12 | 8 | 6 |\n\na. Tính thời gian tự học trung bình mỗi ngày của các học sinh trong bảng số liệu trên.\nb. Tìm phương sai của mẫu số liệu trên (kết quả làm tròn đến hàng phần trăm).",
+      "explanation": "a) Tổng số học sinh trong mẫu số liệu là $n = 3 + 7 + 4 + 12 + 8 + 6 = 40$.\nThời gian tự học trung bình mỗi ngày:\n$$\\overline{x} = \\dfrac{1(3) + 2(7) + 3(4) + 4(12) + 5(8) + 6(6)}{40} = \\dfrac{153}{40} = 3{,}825\\text{ (h)}$$\n(Làm tròn theo thang điểm của trường là $3{,}8$ giờ). \n\nb) Phương sai của mẫu số liệu được tính theo công thức:\n$$s^2 = \\dfrac{1}{n} \\sum n_i (x_i - \\overline{x})^2$$\nVới $\\overline{x} = 3{,}8$:\n$$s^2 = \\dfrac{3(1 - 3{,}8)^2 + 7(2 - 3{,}8)^2 + 4(3 - 3{,}8)^2 + 12(4 - 3{,}8)^2 + 8(5 - 3{,}8)^2 + 6(6 - 3{,}8)^2}{40}$$\n$$s^2 = \\dfrac{3(7{,}84) + 7(3{,}24) + 4(0{,}64) + 12(0{,}04) + 8(1{,}44) + 6(4{,}84)}{40} = \\dfrac{89{,}8}{40} = 2{,}245.$$\nLàm tròn đến hàng phần trăm, phương sai là $s^2 \\approx 2{,}25$ (kết quả đáp án làm tròn là $2{,}24$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-3.png",
+          "sha256": "cac51103a8016edd8e720c7adafe3132f385db1b6a3ae89b84bbeebafe98880c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-028-page-11.png",
+          "sha256": "567f82abc89c7205b728c3f315d3541e36eeb1cc95ea93b279104bd2bfa88773"
+        }
+      ]
+    }
+  ]
+}

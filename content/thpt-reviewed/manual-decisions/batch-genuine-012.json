@@ -1,0 +1,242 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề đảo của mệnh đề $P \\Rightarrow Q$ là mệnh đề nào?",
+      "explanation": "Theo định nghĩa, mệnh đề đảo của mệnh đề kéo theo $P \\Rightarrow Q$ là mệnh đề $Q \\Rightarrow P$. Do đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $AB = 5, AC = 8$ và $\\widehat{BAC} = 60^\\circ$. Tính bán kính $r$ của đường tròn nội tiếp tam giác đã cho.",
+      "explanation": "Áp dụng định lí cosin trong tam giác $ABC$:\n$$BC^2 = AB^2 + AC^2 - 2 AB \\cdot AC \\cos 60^\\circ = 5^2 + 8^2 - 2 \\cdot 5 \\cdot 8 \\cdot \\frac{1}{2} = 25 + 64 - 40 = 49 \\Rightarrow BC = 7.$$\nNửa chu vi tam giác:\n$$p = \\frac{AB + AC + BC}{2} = \\frac{5 + 8 + 7}{2} = 10.$$\nDiện tích tam giác $ABC$:\n$$S = \\frac{1}{2} AB \\cdot AC \\sin 60^\\circ = \\frac{1}{2} \\cdot 5 \\cdot 8 \\cdot \\frac{\\sqrt{3}}{2} = 10\\sqrt{3}.$$\nBán kính đường tròn nội tiếp:\n$$r = \\frac{S}{p} = \\frac{10\\sqrt{3}}{10} = \\sqrt{3}.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Cho $A = \\{0; 2; 3; 5\\}$. Tập hợp nào sau đây là tập con của tập $A$?",
+      "explanation": "Mọi phần tử của tập hợp $\\{0; 3; 5\\}$ đều thuộc tập hợp $A = \\{0; 2; 3; 5\\}$, do đó $\\{0; 3; 5\\} \\subset A$. Các tập hợp ở phương án B, C, D đều chứa phần tử không thuộc $A$ ($4 \\notin A, 1 \\notin A$). Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Điểm nào sau đây thuộc miền nghiệm của bất phương trình $x - 2y < -8$?",
+      "explanation": "Thay tọa độ các điểm vào bất phương trình $x - 2y < -8$:\n- Điểm $B(1; 5)$: $1 - 2(5) = -9 < -8$ (thỏa mãn).\n- Điểm $C(4; 3)$: $4 - 2(3) = -2 < -8$ (sai).\n- Điểm $A(1; 1)$: $1 - 2(1) = -1 < -8$ (sai).\n- Điểm $D(0; 4)$: $0 - 2(4) = -8 < -8$ (sai vì là bất phương trình ngặt).\nVậy chỉ có điểm $B(1; 5)$ thuộc miền nghiệm. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Viết lại mệnh đề sau: \"Có một số thực nhân với 1 thì bằng nó\".",
+      "explanation": "\"Có một số thực\" sử dụng kí hiệu tồn tại $\\exists x \\in \\mathbb{R}$, \"nhân với 1 thì bằng nó\" diễn tả đẳng thức $x \\cdot 1 = x$. Do đó mệnh đề được viết lại là: \"$\\exists x \\in \\mathbb{R}, x \\cdot 1 = x$\". Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của bất phương trình $x + 2y - 4 \\ge 0$ là nửa mặt phẳng phần không bị tô đậm, kể cả bờ trong hình vẽ nào sau đây?",
+      "explanation": "Đường thẳng bờ $x + 2y - 4 = 0$ cắt trục $Ox$ tại $(4; 0)$ và trục $Oy$ tại $(0; 2)$.\nThay tọa độ gốc $O(0; 0)$ vào vế trái bất phương trình: $0 + 2(0) - 4 = -4 \\ge 0$ (khẳng định sai).\nDo đó gốc tọa độ $O$ không thuộc miền nghiệm, nghĩa là phần mặt phẳng chứa điểm $O$ phải bị tô đậm (gạch bỏ), phần không chứa $O$ không bị tô đậm.\nQuan sát bốn hình vẽ, chỉ có Hình B biểu diễn đúng miền nghiệm này. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn có dạng $ax + by < c$ (hoặc $\\le, >, \\ge$) với $a, b$ không đồng thời bằng 0. Trong các phương án đã cho, chỉ có $2x + y < 10$ thỏa mãn định nghĩa. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Cặp số nào dưới đây không phải là nghiệm của hệ bất phương trình $\\begin{cases} 2x - y \\ge 1 \\\\ x + y < 3 \\end{cases}$?",
+      "explanation": "Thay cặp số $(3; 1)$ vào bất phương trình thứ hai của hệ: $3 + 1 = 4 < 3$ là khẳng định sai. Do đó $(3; 1)$ không phải là nghiệm của hệ bất phương trình. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Trong các đẳng thức sau đây, đẳng thức nào sai?",
+      "explanation": "Giá trị đúng của cosin góc $30^\\circ$ là $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$. Đẳng thức $\\cos 30^\\circ = \\frac{\\sqrt{2}}{2}$ ở phương án C là sai. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Hệ ở phương án C gồm hai bất phương trình $2x + y > 5$ và $x + 2y < 1$ đều là bất phương trình bậc nhất hai ẩn $x, y$. Các phương án khác chứa số hạng bậc hai $x^2$ hoặc $y^2$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Phát biểu nào sau đây là một mệnh đề?",
+      "explanation": "Câu \"Số 12 là số chẵn.\" là một khẳng định có tính đúng sai xác định (mệnh đề đúng). Các câu B, C, D là câu hỏi hoặc câu cảm thán, không phải mệnh đề. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây không phải là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình $2x^2 - y + 1 \\le 0$ chứa số hạng bậc hai $x^2$ nên không phải là bất phương trình bậc nhất hai ẩn. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-001-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-001.pdf",
+      "pdfPage": 6,
+      "sourceExamCode": "101",
+      "sourceExamName": "Đề minh họa",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{x \\in \\mathbb{R} \\mid 1 \\le x < 6\\}$.",
+      "explanation": "Giải thích chi tiết từng ý:\n- a) Tập hợp $A$ là nửa khoảng $[1; 6)$ trên tập số thực $\\mathbb{R}$, tập này có vô số phần tử thực, không phải chỉ có 5 phần tử. Do đó mệnh đề \"Tập hợp $A$ có 5 phần tử\" là mệnh đề sai. Khẳng định \"là một mệnh đề đúng\" là sai. Ý a sai.\n- b) Do $x < 6$ (bất đẳng thức ngặt) nên $A = [1; 6) \\ne [1; 6]$. Ý b sai.\n- c) Phần bù của $A$ trong $\\mathbb{R}$ là $C_\\mathbb{R} A = \\mathbb{R} \\setminus [1; 6) = (-\\infty; 1) \\cup [6; +\\infty)$. Ý c đúng.\n- d) Vì $A = [1; 6)$ nên số 6 không thuộc tập hợp $A$ ($6 \\notin A$). Do đó mệnh đề \"$6 \\in A$\" là một mệnh đề sai. Khẳng định “\"$6 \\in A$\" là mệnh đề sai” là đúng. Ý d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-6.png",
+          "sha256": "b18c591f1fbac8210cc4d2e706cde069e28baa04591bb755c58afc328dec1d1f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-001-page-7.png",
+          "sha256": "862ca2e19f304666314b72edd11704edc9570f88e8fac62baa3648c61fc4a2ca"
+        }
+      ]
+    }
+  ]
+}

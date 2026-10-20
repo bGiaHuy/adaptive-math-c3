@@ -1,8 +1,7 @@
+import { assignmentResultsVisible } from '../../common/domain/assignment-results';
 export function deliveredQuestion(aq: any): any { return aq.snapshot || aq.question; }
 export function resultVisible(assignment: any): boolean {
-  const s = assignment.settings || {};
-  return (s.resultsPolicy || 'IMMEDIATE') === 'IMMEDIATE' || s.published === true ||
-    (s.resultsPolicy === 'AFTER_DUE' && assignment.dueDate && new Date(assignment.dueDate).getTime() <= Date.now());
+  return assignmentResultsVisible(assignment);
 }
 export function tracksTabSwitches(settings: any = {}) {
   return settings?.trackTabSwitches ?? (settings?.mode !== 'PRACTICE');

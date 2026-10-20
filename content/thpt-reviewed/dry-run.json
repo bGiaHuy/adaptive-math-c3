@@ -6,8 +6,8 @@
   "status": "DRAFT",
   "peerReviewed": false,
   "questions": 54,
-  "existing": 0,
-  "toImport": 54,
+  "existing": 54,
+  "toImport": 0,
   "assignmentDigestBefore": "f8eeb7a90356a63a75fdb1ec90af8b82dab6b46b40638763ba3e75e9abf7502a",
-  "priorQuestionDigest": "1c0c451f6ea9035513de25b955ee89cc331955f7637f3236a2ae362c2968bce5"
+  "priorQuestionDigest": "acf082f5033caaccad0cf35ebd1967a3b7857444e8e101163abac45fde7bf883"
 }

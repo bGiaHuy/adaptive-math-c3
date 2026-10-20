@@ -156,7 +156,7 @@ export default function ProfileCompetencyView({
             <Award size={24} />
           </div>
           <div>
-            <h2 className="competency-main-title">Hồ sơ năng lực toán học</h2>
+            <h2 className="competency-main-title">Hồ sơ năng lực Toán{masteryData.grade ? ` lớp ${masteryData.grade}` : ''}</h2>
             <p className="competency-sub-desc">
               Điểm thành thạo trung bình: <strong>{masteryData.averageMasteryScore}%</strong> · Đã đánh giá <strong>{masteryData.totalAssessedSkills} kỹ năng</strong>
             </p>

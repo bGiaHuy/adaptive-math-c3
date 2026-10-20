@@ -1,0 +1,376 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{x; z; 0; 2; 6\\}$ và $B = \\{x; y; 2; 4; 7\\}$. Tập hợp $A \\cup B$ là:",
+      "explanation": "Hợp của hai tập hợp $A$ và $B$ (ký hiệu $A \\cup B$) là tập hợp gồm tất cả các phần tử thuộc $A$ hoặc thuộc $B$. Gom các phần tử của cả hai tập hợp mà không lặp lại: $A \\cup B = \\{x; z; y; 0; 2; 4; 6; 7\\}$. Do đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau, câu nào là mệnh đề Sai?",
+      "explanation": "Xét tính đúng sai của từng câu:\n- Phương án A là câu nghi vấn (câu hỏi), không phải mệnh đề.\n- Phương án B: $3^2 = 9$ là mệnh đề đúng.\n- Phương án C: $9 = 3^2$ nên 9 là số chính phương, đây là mệnh đề đúng.\n- Phương án D: Số 18 chia hết cho 2 nên 18 là số chẵn, khẳng định \"Số 18 là một số lẻ\" là một mệnh đề sai.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn $x, y$ có dạng tổng quát $ax + by \\le c$ (hoặc $<, >, \\ge$) với $a$ và $b$ không đồng thời bằng 0.\n- Phương án A chứa $y^3$ (bậc ba).\n- Phương án B có dạng $x - 4y \\le -2$ với $a = 1, b = -4, c = -2$, là bất phương trình bậc nhất hai ẩn.\n- Phương án C chứa tích $xy$ (bậc hai).\n- Phương án D chứa $y^2$ (bậc hai).\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $BA = 7$, $BC = 40$ và $\\widehat{B} = 60^\\circ$. Độ dài cạnh $BC$ bằng:",
+      "explanation": "Áp dụng định lý côsin trong tam giác $ABC$ tính cạnh $AC$ đối diện góc $B$:\n$AC^2 = BA^2 + BC^2 - 2 \\cdot BA \\cdot BC \\cdot \\cos B = 7^2 + 40^2 - 2 \\cdot 7 \\cdot 40 \\cdot \\cos 60^\\circ = 49 + 1600 - 280 = 1369$.\nSuy ra $AC = \\sqrt{1369} = 37$.\n(Lưu ý đối chiếu PDF gốc: Đề bài in chữ \"Độ dài cạnh $BC$ bằng:\" nhưng giả thiết đã cho $BC = 40$; dựa trên 4 phương án lựa chọn và định lý côsin, bài toán hỏi độ dài cạnh $AC$, tương ứng đáp án A = 37).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề phủ định của mệnh đề “$\\forall x \\in \\mathbb{Z}, x^2 \\ge 0$” là:",
+      "explanation": "Phủ định của mệnh đề chứa lượng từ với mọi “$\\forall x \\in X, P(x)$” là mệnh đề chứa lượng từ tồn tại “$\\exists x \\in X, \\overline{P(x)}$”.\nPhủ định của bất đẳng thức $x^2 \\ge 0$ là $x^2 < 0$.\nVậy phủ định của mệnh đề đã cho là “$\\exists x \\in \\mathbb{Z}, x^2 < 0$”. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Biết $\\sin\\alpha = \\frac{1}{2}$ ($0^\\circ < \\alpha < 90^\\circ$). Khẳng định nào sau đây là đúng?",
+      "explanation": "Với góc nhọn $0^\\circ < \\alpha < 90^\\circ$, giá trị lượng giác $\\sin 30^\\circ = \\frac{1}{2}$. Do đó $\\alpha = 30^\\circ$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có cạnh $AC = 26$ và góc $\\widehat{B} = 30^\\circ$. Bán kính $R$ của đường tròn ngoại tiếp tam giác là:",
+      "explanation": "Theo định lý sin trong tam giác $ABC$:\n$\\frac{AC}{\\sin B} = 2R \\Leftrightarrow 2R = \\frac{26}{\\sin 30^\\circ} = \\frac{26}{\\frac{1}{2}} = 52 \\Rightarrow R = 26$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": "13-14",
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cặp số nào sau đây là nghiệm của bất phương trình $5x - 2y - 1 > 0$?",
+      "explanation": "Thay lần lượt tọa độ các điểm vào vế trái $f(x, y) = 5x - 2y - 1$:\n- A: $f(-1, -2) = 5(-1) - 2(-2) - 1 = -5 + 4 - 1 = -2 \\ngtr 0$.\n- B: $f(1, 2) = 5(1) - 2(2) - 1 = 5 - 4 - 1 = 0 \\ngtr 0$.\n- C: $f(0, 0) = 5(0) - 2(0) - 1 = -1 \\ngtr 0$.\n- D: $f(1, 1) = 5(1) - 2(1) - 1 = 5 - 2 - 1 = 2 > 0$ (thỏa mãn).\nVậy cặp số $(1; 1)$ là nghiệm của bất phương trình. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 14,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = (-6; 1]$. Phát biểu nào sau đây đúng?",
+      "explanation": "Tập hợp $A = (-6; 1]$ là nửa khoảng trên tập số thực $\\mathbb{R}$, gồm các phần tử thực $x$ thỏa mãn $-6 < x \\le 1$. Do đó biểu diễn dưới dạng tính chất đặc trưng là $A = \\{x \\in \\mathbb{R} \\mid -6 < x \\le 1\\}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 14,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $DEK$ có $R$ là bán kính đường tròn ngoại tiếp. Đẳng thức nào sau đây là đúng?",
+      "explanation": "Theo định lý sin áp dụng trong tam giác $DEK$: cạnh $DE$ đối diện với góc $K$, ta có $\\frac{DE}{\\sin K} = 2R \\Leftrightarrow DE = 2R \\sin K$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 14,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid (x^2 - 4)(x - 3) = 0\\}$. Số phần tử của tập $A$ là:",
+      "explanation": "Giải phương trình $(x^2 - 4)(x - 3) = 0$:\n$\\left[\\begin{array}{l} x^2 - 4 = 0 \\\\ x - 3 = 0 \\end{array}\\right. \\Leftrightarrow \\left[\\begin{array}{l} x = 2 \\\\ x = -2 \\\\ x = 3 \\end{array}\\right.$\nVì $x \\in \\mathbb{Z}$, cả 3 nghiệm $-2, 2, 3$ đều là số nguyên. Do đó tập $A = \\{-2; 2; 3\\}$ có đúng 3 phần tử. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 14,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn gồm hai hay nhiều bất phương trình bậc nhất hai ẩn $x, y$:\n- A chứa 3 ẩn $x, y, z$.\n- B chứa tích $xy$ (bậc hai).\n- C chứa ẩn $x$ ở mẫu thức $\\frac{4}{x}$.\n- D gồm hai bất phương trình bậc nhất hai ẩn $3x - 2y \\le 5$ và $x + y > -2$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 14,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = (-\\infty; 3]$ và $B = [-1; +\\infty)$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét hai tập hợp $A = (-\\infty; 3]$ và $B = [-1; +\\infty)$:\n- a) $A \\cap B = [-1; 3]$. Khẳng định ghi $(-1; 3]$ (ngoặc tròn tại $-1$) là SAI.\n- b) $A \\cup B = (-\\infty; 3] \\cup [-1; +\\infty) = (-\\infty; +\\infty) = \\mathbb{R}$. Khẳng định là ĐÚNG.\n- c) $B \\setminus A = \\{x \\in B \\mid x \\notin A\\} = \\{x \\ge -1 \\mid x > 3\\} = (3; +\\infty)$. Khẳng định là ĐÚNG.\n- d) $\\mathbb{R} \\setminus B = \\{x \\in \\mathbb{R} \\mid x \\notin [-1; +\\infty)\\} = (-\\infty; -1)$. Khẳng định ghi $(-\\infty; 1)$ là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 14,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $BC = 10$, $AC = 13$, $AB = 13$. Xét tính đúng sai của các phát biểu sau:",
+      "explanation": "Tam giác $ABC$ cân tại $A$ có $AB = AC = 13$, đáy $BC = 10$:\n- a) Nửa chu vi $p = \\frac{10 + 13 + 13}{2} = \\frac{36}{2} = 18$. ĐÚNG.\n- b) Gọi $H$ là trung điểm $BC \\Rightarrow BH = HC = 5$. Đường cao $AH = \\sqrt{AC^2 - HC^2} = \\sqrt{13^2 - 5^2} = 12$. Diện tích $S = \\frac{1}{2} \\cdot BC \\cdot AH = \\frac{1}{2} \\cdot 10 \\cdot 12 = 60$. ĐÚNG.\n- c) Bán kính đường tròn ngoại tiếp $R = \\frac{abc}{4S} = \\frac{10 \\cdot 13 \\cdot 13}{4 \\cdot 60} = \\frac{1690}{240} = \\frac{169}{24}$. ĐÚNG.\n- d) Trong tam giác vuông $AHC$, $\\cos C = \\frac{HC}{AC} = \\frac{5}{13}$. Khẳng định ghi $\\cos C = \\frac{12}{13}$ (đây là $\\sin C$) là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 14,
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Một trang trại trồng rau thủy canh sản xuất hai loại rau là xà lách và cải bó xôi, tính theo từng khay. Chăm sóc một khay xà lách cần 1 giờ công và thu lợi nhuận 60 nghìn đồng. Chăm sóc một khay cải bó xôi cần 2 giờ công và thu lợi nhuận 110 nghìn đồng. Trang trại có tối đa 100 giờ công. Gọi $x, y$ lần lượt là số khay xà lách và số khay cải bó xôi được trồng. Xét tính đúng sai của các phát biểu sau:",
+      "explanation": "Phân tích các phát biểu bài toán kinh tế:\n- a) Số giờ công cần dùng là $1 \\cdot x + 2 \\cdot y = x + 2y$. Do trang trại có tối đa 100 giờ công nên $x + 2y \\le 100$. ĐÚNG.\n- b) Số khay rau trồng thực tế phải là các số nguyên không âm ($x, y \\in \\mathbb{N}$). ĐÚNG.\n- c) Lợi nhuận từ $x$ khay xà lách là $60x$ (nghìn đồng) và từ $y$ khay cải bó xôi là $110y$ (nghìn đồng). Tổng lợi nhuận là $F = 60x + 110y$ (nghìn đồng). ĐÚNG.\n- d) Với $x = 40, y = 30$, thời gian $40 + 2(30) = 100$ giờ (thỏa mãn), lợi nhuận là $F = 60(40) + 110(30) = 2400 + 3300 = 5700$ nghìn đồng = 5,7 triệu đồng $\\ne 6$ triệu đồng. Khẳng định là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": "14-15",
+      "sourceExamCode": "Đề số 6",
+      "sourceExamName": "Đề ôn tập số 6",
+      "independentlyReasoned": true,
+      "content": "Để đo chiều cao của một tòa tháp văn phòng, người ta chọn hai điểm $A$ và $B$ trên mặt đất thẳng hàng với chân $C$ của tòa tháp văn phòng ($B$ nằm giữa $A$ và $C$). Đo được $AB = 80\\text{ m}$, góc nhìn từ $A$ và $B$ đến đỉnh $D$ của tòa tháp văn phòng lần lượt là $\\widehat{DAC} = 30^\\circ$ và $\\widehat{DBC} = 60^\\circ$. Xét tính đúng sai của các phát biểu sau:",
+      "explanation": "Mô hình bài toán tam giác:\n- Trong tam giác $ABD$, $\\widehat{DBC}$ là góc ngoài tại đỉnh $B$ nên $\\widehat{DBC} = \\widehat{DAC} + \\widehat{ADB} \\Rightarrow \\widehat{ADB} = 60^\\circ - 30^\\circ = 30^\\circ$. Khẳng định a) ĐÚNG.\n- Do $\\widehat{DAB} = \\widehat{ADB} = 30^\\circ$, tam giác $ABD$ cân tại $B \\Rightarrow BD = AB = 80\\text{ m}$. Góc $\\widehat{ABD} = 180^\\circ - 60^\\circ = 120^\\circ$. Theo định lý côsin trong $\\triangle ABD$: $AD^2 = 80^2 + 80^2 - 2 \\cdot 80 \\cdot 80 \\cdot \\cos 120^\\circ = 80^2 \\cdot 3 \\Rightarrow AD = 80\\sqrt{3}\\text{ m} \\ne 80\\sqrt{2}\\text{ m}$. Khẳng định b) SAI.\n- Trong tam giác vuông $ACD$ vuông tại $C$, $\\sin(\\widehat{DAC}) = \\sin 30^\\circ = \\frac{CD}{AD} \\Rightarrow CD = AD \\cdot \\sin 30^\\circ$. Khẳng định c) ĐÚNG.\n- Chiều cao tháp $CD = BD \\cdot \\sin 60^\\circ = 80 \\cdot \\frac{\\sqrt{3}}{2} = 40\\sqrt{3} \\approx 69{,}28\\text{ m}$. Làm tròn đến hàng đơn vị là $69\\text{ m} \\ne 70\\text{ m}$. Khẳng định d) SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p14.png",
+          "sha256": "7a551451573799e5dfdf09a7a516f489d5dc63fc723384fea4731db82d8b1887"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p15.png",
+          "sha256": "8d04f3d18320c7e579b58427a65c2d7c6f1a44c4f67f29a008d75ff131c4aa08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 12,
+      "sourceExamCode": "Đề số 5",
+      "sourceExamName": "Đề ôn tập số 5",
+      "independentlyReasoned": true,
+      "content": "Lớp 10A5 có 24 học sinh đăng kí học bơi lội, 21 học sinh đăng kí học cờ vua, trong đó có 9 học sinh đăng kí học cả hai môn. Biết rằng mỗi học sinh của lớp đều đăng kí ít nhất một trong hai môn trên. Hỏi lớp 10A5 có bao nhiêu học sinh?",
+      "explanation": "Gọi $A$ là tập hợp học sinh đăng kí học bơi lội và $B$ là tập hợp học sinh đăng kí học cờ vua.\nTheo đề bài: $|A| = 24$, $|B| = 21$, và số học sinh đăng kí cả hai môn là $|A \\cap B| = 9$.\nVì mỗi học sinh của lớp đều đăng kí ít nhất một trong hai môn trên nên số học sinh của lớp 10A5 chính là số phần tử của tập hợp $A \\cup B$:\n$|A \\cup B| = |A| + |B| - |A \\cap B| = 24 + 21 - 9 = 36$ (học sinh).\nĐáp số: 36.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p12.png",
+          "sha256": "b5740cfa6e26d2a525cfa15a8237e194b7d73561199134e30da277800181b2d9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 12,
+      "sourceExamCode": "Đề số 5",
+      "sourceExamName": "Đề ôn tập số 5",
+      "independentlyReasoned": true,
+      "content": "Hai chiếc tàu thủy cùng xuất phát từ một cảng $O$, chạy thẳng theo hai hướng tạo với nhau một góc $60^\\circ$. Tàu thứ nhất chạy với vận tốc $25\\text{ km/h}$, tàu thứ hai chạy với vận tốc $30\\text{ km/h}$. Hỏi sau 2 giờ hai tàu cách nhau bao nhiêu ki-lô-mét? (kết quả làm tròn đến hàng phần mười).",
+      "explanation": "Sau 2 giờ:\n- Tàu thứ nhất đi được quãng đường $OA = 25 \\cdot 2 = 50\\text{ km}$.\n- Tàu thứ hai đi được quãng đường $OB = 30 \\cdot 2 = 60\\text{ km}$.\nGóc giữa hai hướng chuyển động là $\\widehat{AOB} = 60^\\circ$.\nKhoảng cách giữa hai tàu sau 2 giờ là độ dài cạnh $AB$ trong tam giác $OAB$.\nÁp dụng định lý côsin trong $\\triangle OAB$:\n$AB^2 = OA^2 + OB^2 - 2 \\cdot OA \\cdot OB \\cdot \\cos 60^\\circ = 50^2 + 60^2 - 2 \\cdot 50 \\cdot 60 \\cdot 0{,}5 = 2500 + 3600 - 3000 = 3100$.\nSuy ra $AB = \\sqrt{3100} \\approx 55{,}6776\\dots\\text{ km}$.\nLàm tròn đến hàng phần mười được kết quả là 55,7.\nĐáp số: 55,7.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p12.png",
+          "sha256": "b5740cfa6e26d2a525cfa15a8237e194b7d73561199134e30da277800181b2d9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": "12-13",
+      "sourceExamCode": "Đề số 5",
+      "sourceExamName": "Đề ôn tập số 5",
+      "independentlyReasoned": true,
+      "content": "Một cơ sở sản xuất bánh có hai máy là máy trộn $M_1$ và máy nướng $M_2$ để sản xuất hai loại bánh là bánh quy và bánh xốp. Thời gian sử dụng máy và tiền lãi thu được khi sản xuất mỗi tạ sản phẩm được cho trong bảng sau: Máy $M_1$: 1 tạ bánh quy cần 1 giờ, 1 tạ bánh xốp cần 2 giờ, thời gian làm việc tối đa 8 giờ/ngày; Máy $M_2$: 1 tạ bánh quy cần 3 giờ, 1 tạ bánh xốp cần 2 giờ, thời gian làm việc tối đa 12 giờ/ngày. Tiền lãi: 1 tạ bánh quy lãi 1,6 triệu đồng, 1 tạ bánh xốp lãi 2,2 triệu đồng. Biết rằng mỗi máy không thể sản xuất đồng thời hai loại sản phẩm. Hỏi số tiền lãi lớn nhất có thể thu được trong một ngày là bao nhiêu triệu đồng? (kết quả làm tròn đến hàng phần mười).",
+      "explanation": "Gọi $x, y \\ge 0$ lần lượt là số tạ bánh quy và số tạ bánh xốp sản xuất trong một ngày.\nThời gian sử dụng máy trộn $M_1$: $x + 2y \\le 8$.\nThời gian sử dụng máy nướng $M_2$: $3x + 2y \\le 12$.\nTa có hệ bất phương trình ràng buộc:\n$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x + 2y \\le 8 \\\\ 3x + 2y \\le 12 \\end{cases}$\nMiền nghiệm là đa giác tứ giác $OABC$ trên mặt phẳng tọa độ với các đỉnh:\n- $O(0; 0)$\n- $A(4; 0)$ (giao điểm của $3x + 2y = 12$ với trục hoành)\n- $B(2; 3)$ (giao điểm của hai đường thẳng: trừ vế ta được $2x = 4 \\Rightarrow x = 2 \\Rightarrow y = 3$)\n- $C(0; 4)$ (giao điểm của $x + 2y = 8$ với trục tung)\nHàm số lợi nhuận: $F(x, y) = 1{,}6x + 2{,}2y$ (triệu đồng).\nTính giá trị tại các đỉnh:\n- $F(0, 0) = 0$\n- $F(4, 0) = 1{,}6(4) = 6{,}4$ triệu đồng\n- $F(0, 4) = 2{,}2(4) = 8{,}8$ triệu đồng\n- $F(2, 3) = 1{,}6(2) + 2{,}2(3) = 3{,}2 + 6{,}6 = 9{,}8$ triệu đồng.\nGiá trị lớn nhất đạt được là 9,8 triệu đồng khi sản xuất 2 tạ bánh quy và 3 tạ bánh xốp.\nĐáp số: 9,8.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p12.png",
+          "sha256": "b5740cfa6e26d2a525cfa15a8237e194b7d73561199134e30da277800181b2d9"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-002-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-002.pdf",
+      "pdfPage": 13,
+      "sourceExamCode": "Đề số 5",
+      "sourceExamName": "Đề ôn tập số 5",
+      "independentlyReasoned": true,
+      "content": "Một ao nuôi cá có hình dạng và kích thước như hình vẽ, biết $AB \\perp BC$ và $AC \\perp CD$. Tính diện tích của ao nuôi cá (đơn vị: $\\text{m}^2$, kết quả làm tròn đến hàng đơn vị).\n\n![Ao nuôi cá](/math-import-assets/thpt-figure-002-p13-fishpond.png)",
+      "explanation": "Quan sát hình vẽ ao nuôi cá là ngũ giác $ABCDE$ chia thành 3 tam giác:\n1. Tam giác vuông $ABC$ tại $B$ có $AB = 20\\text{ m}, BC = 48\\text{ m}$:\n   $AC = \\sqrt{20^2 + 48^2} = \\sqrt{400 + 2304} = \\sqrt{2704} = 52\\text{ m}$.\n   Diện tích $S_{ABC} = \\frac{1}{2} \\cdot 20 \\cdot 48 = 480\\text{ m}^2$.\n2. Tam giác vuông $ACD$ tại $C$ có $AC = 52\\text{ m}, CD = 39\\text{ m}$:\n   $AD = \\sqrt{AC^2 + CD^2} = \\sqrt{52^2 + 39^2} = \\sqrt{2704 + 1521} = \\sqrt{4225} = 65\\text{ m}$.\n   Diện tích $S_{ACD} = \\frac{1}{2} \\cdot 52 \\cdot 39 = 1014\\text{ m}^2$.\n3. Tam giác $ADE$ có 3 cạnh $AE = 35\\text{ m}, ED = 45\\text{ m}, AD = 65\\text{ m}$:\n   Nửa chu vi $p = \\frac{35 + 45 + 65}{2} = 72{,}5\\text{ m}$.\n   Theo công thức Heron: $S_{ADE} = \\sqrt{72{,}5(72{,}5 - 35)(72{,}5 - 45)(72{,}5 - 65)} = \\sqrt{72{,}5 \\cdot 37{,}5 \\cdot 27{,}5 \\cdot 7{,}5} = \\sqrt{560800{,}78125} \\approx 748{,}866\\text{ m}^2$.\nTổng diện tích ao nuôi cá là:\n$S = S_{ABC} + S_{ACD} + S_{ADE} = 480 + 1014 + 748{,}866 = 2242{,}866\\dots\\text{ m}^2$.\nLàm tròn đến hàng đơn vị được kết quả là 2243.\nĐáp số: 2243.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-002-p13.png",
+          "sha256": "67ae91595577154ef49250f64962b96d1aac9276e430eb1994eb830588b37b01"
+        }
+      ]
+    }
+  ]
+}

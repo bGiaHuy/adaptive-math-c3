@@ -1,18 +1,18 @@
-import { LEGACY_BANK_PAUSED } from '../curriculum/thpt-catalog';
-import { Injectable, NotFoundException, ForbiddenException, BadRequestException, ConflictException } from '@nestjs/common';
+import { Injectable, Optional, NotFoundException, ForbiddenException, BadRequestException, ConflictException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { SaveDiagnosticDraftDto } from './dto/save-diagnostic-draft.dto';
 import { AnswerQuestionDto } from './dto/answer-question.dto';
 import { gradeQuestion, validateAnswer } from '../question/math-question';
 import { estimateAbility, diagnosticMastery, selectStaircase } from '../../common/domain/math-adaptive';
-import { selectBlueprintPaper } from '../question/diagnostic-blueprint';
+import { selectThptDiagnostic } from '../question/diagnostic-blueprint';
+import { diagnosticBankWhere } from './diagnostic-bank';
+import { DiagnosticSupplementService } from './diagnostic-supplement.service';
 
-const eligibleQuestions = { OR: [{ status: 'PUBLISHED' as const }, { status: 'DRAFT' as const, source: { path: ['reviewStatus'], equals: 'VERIFIED' } }] };
 const answerInclude = { question: { include: { skill: true, options: true } } };
 @Injectable()
 export class DiagnosticService {
   private readonly maxQuestions = 22;
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(private readonly prisma: PrismaService, @Optional() private readonly supplement?: DiagnosticSupplementService) {}
   private timeLimit(q?: any) { return q?.questionType === 'TRUE_FALSE' ? 180 : 90; }
   private remainingSeconds(startedAt: Date, q?: any) {
     return Math.max(0, this.timeLimit(q) - Math.floor((Date.now() - startedAt.getTime()) / 1000));
@@ -28,13 +28,15 @@ export class DiagnosticService {
     await tx.$queryRaw`SELECT pg_advisory_xact_lock(hashtext(${studentId}))::text`;
   }
   private async pool(tx: any, studentId: string, attempt?: any) {
+    const eligibleQuestions = diagnosticBankWhere(studentId);
     if (attempt?.questionIds?.length) return tx.question.findMany({ where: { id: { in: attempt.questionIds } }, include: { skill: true, options: true }, orderBy: { id: 'asc' } });
     if (attempt?.skillIds?.length) return tx.question.findMany({ where: { skillId: { in: attempt.skillIds }, ...eligibleQuestions },
       include: { skill: true, options: true }, orderBy: { id: 'asc' } });
     const profile = await tx.studentProfile.findUnique({ where: { userId: studentId } });
+    if (![10,11,12].includes(profile?.grade)) throw new BadRequestException('Hãy chọn lớp 10, 11 hoặc 12 trong hồ sơ THPT.');
     // All accounts in a grade draw from the same approved bank, independently of mastery.
     const skills = await tx.skillNode.findMany({
-      where: { grade: profile?.grade || 9, questions: { some: eligibleQuestions } },
+      where: { grade: profile?.grade || 10, questions: { some: eligibleQuestions } },
       orderBy: [{ orderIndex: 'asc' }, { code: 'asc' }]
     });
     const skillIds = skills.map((s: any) => s.id);
@@ -42,7 +44,7 @@ export class DiagnosticService {
       include: { skill: true, options: true }, orderBy: { id: 'asc' } });
   }
   private freeze(pool: any[], attempt: any) {
-    if (!attempt.answers.length) return selectBlueprintPaper(pool, attempt.id);
+    if (!attempt.answers.length) return selectThptDiagnostic(pool, attempt.id, pool[0]?.skill?.grade);
     // Preserve answered legacy attempts; never replace a question already shown or graded.
     const existing = attempt.answers.map((a: any) => a.questionId);
     const used = new Set(existing);
@@ -84,8 +86,8 @@ export class DiagnosticService {
       standardError: estimateAbility(attempt.answers).standardError, answeredCount: attempt.answers.length,
       totalQuestions: attempt.questionIds?.length || this.maxQuestions, isReadyToSubmit: !next, nextQuestion: this.safeQuestion(next) };
   }
-  async startAttempt(studentId: string) {
-    if (LEGACY_BANK_PAUSED) throw new BadRequestException('Bài luyện và kiểm tra tự động tạm ngưng trong khi chuẩn bị kho Toán THPT.');
+  async startAttempt(studentId: string, ip = '') {
+    await this.supplement?.ensure(studentId, ip);
     return this.prisma.$transaction(async tx => {
       await this.lock(tx, studentId);
       if (await tx.mathPracticeSession.findFirst({ where: { studentId, status: 'IN_PROGRESS' } }))
@@ -95,7 +97,9 @@ export class DiagnosticService {
       const isResumed = Boolean(attempt), pool = await this.pool(tx, studentId, attempt);
       if (!pool.length) throw new BadRequestException({ code: 'QUESTION_POOL_EMPTY', message: 'Chưa có câu hỏi đã duyệt cho khối lớp của bạn.' });
       const skillIds = [...new Set(pool.map((q: any) => q.skillId))] as string[];
-      if (!attempt) selectBlueprintPaper(pool, studentId);
+      if (!attempt) {
+        selectThptDiagnostic(pool, studentId, pool[0]?.skill?.grade);
+      }
       if (!attempt) attempt = { ...await tx.diagnosticAttempt.create({ data: { studentId, currentTheta: 0, skillIds } }), answers: [] };
       else {
         attempt.currentTheta = estimateAbility(attempt.answers).theta;
@@ -225,8 +229,9 @@ export class DiagnosticService {
     }, { maxWait: 10000, timeout: 15000 });
   }
   async getLatestState(studentId: string) {
+    const profile = await this.prisma.studentProfile.findUnique({ where: { userId: studentId } });
     const attempt = await this.prisma.diagnosticAttempt.findFirst({
-      where: { studentId, status: { in: ['IN_PROGRESS', 'COMPLETED'] } }, orderBy: { startedAt: 'desc' },
+      where: { studentId, OR: [{ status: 'IN_PROGRESS' }, { status: 'COMPLETED', answers: { some: { question: { skill: { grade: profile?.grade || 10 } } } } }] }, orderBy: { startedAt: 'desc' },
       select: { id: true, status: true, completedAt: true }
     });
     if (!attempt) return { status: 'NOT_STARTED' };

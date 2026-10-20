@@ -1,0 +1,1875 @@
+{
+  "batchId": "thpt-manual-round2-36-v1",
+  "questions": [
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho điểm $A(-5;4)$. Khẳng định nào sau đây đúng?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\overrightarrow{OA}=5\\vec i-4\\vec j$."
+        },
+        {
+          "key": "B",
+          "content": "$\\overrightarrow{AO}=-5\\vec i+4\\vec j$."
+        },
+        {
+          "key": "C",
+          "content": "$\\overrightarrow{AO}=5\\vec i+4\\vec j$."
+        },
+        {
+          "key": "D",
+          "content": "$\\overrightarrow{OA}=-5\\vec i+4\\vec j$."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Vectơ vị trí của A có tọa độ $(-5;4)$, nên $\\overrightarrow{OA}=-5\\vec i+4\\vec j$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Kết quả thống kê số từ dùng sai trong mỗi bài văn của các học sinh lớp 10B được ghi lại như sau:\nSố từ dùng sai: 0; 1; 2; 3; 4; 5; 6; 7; 8.\nSố bài tương ứng: 6; 7; 8; 7; 5; 6; 4; 3; 2.\nSố bài có số từ dùng sai trong mỗi bài không nhỏ hơn 5 là",
+      "options": [
+        {
+          "key": "A",
+          "content": "48"
+        },
+        {
+          "key": "B",
+          "content": "15"
+        },
+        {
+          "key": "C",
+          "content": "9"
+        },
+        {
+          "key": "D",
+          "content": "20"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Số bài có từ 5 từ sai trở lên là 6 + 4 + 3 + 2 = 15.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q003",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cặp số nào sau đây không phải là nghiệm của bất phương trình $2x-3y\\ge6$?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(3;-2)$"
+        },
+        {
+          "key": "B",
+          "content": "$(0;-2)$"
+        },
+        {
+          "key": "C",
+          "content": "$(2;-3)$"
+        },
+        {
+          "key": "D",
+          "content": "$(2;3)$"
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Thay các điểm A, B, C vào vế trái được 12, 6, 13 đều không nhỏ hơn 6. Điểm D cho 4 − 9 = −5 < 6.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "3",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q004",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Số sản phẩm sản xuất mỗi ngày của một phân xưởng trong 9 ngày liên tiếp được ghi lại như sau: 30; 26; 28; 28; 25; 33; 27; 35; 29. Khoảng biến thiên của mẫu số liệu này là",
+      "options": [
+        {
+          "key": "A",
+          "content": "6"
+        },
+        {
+          "key": "B",
+          "content": "9"
+        },
+        {
+          "key": "C",
+          "content": "8"
+        },
+        {
+          "key": "D",
+          "content": "10"
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Khoảng biến thiên bằng 35 − 25 = 10.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "4",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q005",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Với góc $\\alpha$ tù, khẳng định nào sau đây đúng?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\cos\\alpha>0$."
+        },
+        {
+          "key": "B",
+          "content": "$\\sin\\alpha<0$."
+        },
+        {
+          "key": "C",
+          "content": "$\\cot\\alpha>0$."
+        },
+        {
+          "key": "D",
+          "content": "$\\tan\\alpha<0$."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Góc tù thuộc góc phần tư II: sin dương, cos âm, tan và cot âm.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q006",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong các đẳng thức sau, đẳng thức nào sai?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\cos120^\\circ=-\\frac12$."
+        },
+        {
+          "key": "B",
+          "content": "$\\tan120^\\circ=-\\sqrt3$."
+        },
+        {
+          "key": "C",
+          "content": "$\\cot120^\\circ=\\frac1{\\sqrt3}$."
+        },
+        {
+          "key": "D",
+          "content": "$\\sin120^\\circ=\\frac{\\sqrt3}2$."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "$\\cot120^\\circ=1/\\tan120^\\circ=-1/\\sqrt3$, nên C sai.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "6",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q007",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Chọn khẳng định đúng. Số liệu càng phân tán thì",
+      "options": [
+        {
+          "key": "A",
+          "content": "Phương sai và độ lệch chuẩn càng nhỏ."
+        },
+        {
+          "key": "B",
+          "content": "Phương sai và độ lệch chuẩn bằng nhau."
+        },
+        {
+          "key": "C",
+          "content": "Phương sai bằng số trung bình cộng."
+        },
+        {
+          "key": "D",
+          "content": "Phương sai và độ lệch chuẩn càng lớn."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Phương sai là trung bình bình phương độ lệch so với số trung bình; độ lệch chuẩn là căn bậc hai của phương sai. Chúng đo mức độ phân tán.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q008",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Miền nghiệm được cho bởi hình bên dưới (phần không bị gạch), kể cả đường thẳng $d$, là miền nghiệm của bất phương trình nào sau đây?\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-c1ee233dfdbcbf845add6715fdc30793e50db9102cfcfbed9d14883f357e206f.png)",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-x+2y-8>0$."
+        },
+        {
+          "key": "B",
+          "content": "$x-2y-8\\le0$."
+        },
+        {
+          "key": "C",
+          "content": "$x-2y+8<0$."
+        },
+        {
+          "key": "D",
+          "content": "$-x+2y-8\\ge0$."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Đường biên qua $(-8;0)$ và $(0;4)$ có phương trình $-x+2y-8=0$. Phần không gạch nằm phía trên, lấy cả đường biên nên $-x+2y-8\\ge0$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-c1ee233dfdbcbf845add6715fdc30793e50db9102cfcfbed9d14883f357e206f.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q009",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho mệnh đề: “Có một học sinh trong lớp 10A không thích học môn Toán”. Mệnh đề phủ định của mệnh đề này là",
+      "options": [
+        {
+          "key": "A",
+          "content": "Mọi học sinh trong lớp 10A đều thích học môn Toán."
+        },
+        {
+          "key": "B",
+          "content": "Mọi học sinh trong lớp 10A đều không thích học môn Toán."
+        },
+        {
+          "key": "C",
+          "content": "Mọi học sinh trong lớp 10A đều thích học môn Văn."
+        },
+        {
+          "key": "D",
+          "content": "Có một học sinh trong lớp 10A thích học môn Toán."
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Phủ định “tồn tại một học sinh không thích Toán” là “mọi học sinh đều thích Toán”.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          1,
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q010",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong mặt phẳng với hệ trục tọa độ $Oxy$, điểm nào sau đây thuộc miền nghiệm của hệ bất phương trình $\\begin{cases}2x-y+3>0\\\\x+2y-1<0\\end{cases}$?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$P(1;-2)$"
+        },
+        {
+          "key": "B",
+          "content": "$Q(1;1)$"
+        },
+        {
+          "key": "C",
+          "content": "$M(-1;1)$"
+        },
+        {
+          "key": "D",
+          "content": "$N(1;2)$"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "P cho hai vế trái 7 > 0 và −4 < 0. Q, N không thỏa bất phương trình thứ hai; M không thỏa bất phương trình thứ nhất.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "10",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q011",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Viết mệnh đề sau bằng cách sử dụng kí hiệu $\\forall$ hoặc $\\exists$: “Tồn tại số thực mà bình phương của nó luôn nhỏ hơn hoặc bằng 0”.",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\forall x\\in\\mathbb Z,\\;x^2\\ge0$."
+        },
+        {
+          "key": "B",
+          "content": "$\\forall x\\in\\mathbb R,\\;x^2\\ge0$."
+        },
+        {
+          "key": "C",
+          "content": "$\\exists x\\in\\mathbb R,\\;x^2\\le0$."
+        },
+        {
+          "key": "D",
+          "content": "$\\exists x\\in\\mathbb R,\\;x^2<0$."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "C diễn đạt đúng lượng từ tồn tại, tập số thực và quan hệ nhỏ hơn hoặc bằng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-I-Q012",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trên mặt phẳng với hệ tọa độ $Oxy$, cho vectơ $\\vec u=7\\vec j-9\\vec i$. Tọa độ của vectơ $\\vec u$ là",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(-9;7)$"
+        },
+        {
+          "key": "B",
+          "content": "$(-7;-9)$"
+        },
+        {
+          "key": "C",
+          "content": "$(7;-9)$"
+        },
+        {
+          "key": "D",
+          "content": "$(9;-7)$"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Hệ số theo i là −9, theo j là 7 nên tọa độ là (−9;7).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "12",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-II-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T03",
+      "questionType": "TRUE_FALSE",
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho các vectơ $\\vec a=4\\vec i-6\\vec j$, $\\vec b=(-3;4)$, $\\vec c=\\vec a-2\\vec b$ và hai điểm $P(2;3)$, $Q(7;-4)$. Các mệnh đề sau đúng hay sai?",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Hai vectơ $\\overrightarrow{PQ}$ và $\\vec c$ cùng phương.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "$\\overrightarrow{PQ}=(5;-7)$.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "$\\vec a=(2;-3)$.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "$|\\vec b|=1$.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "$\\overrightarrow{PQ}=(5;-7)$ và $\\vec c=(10;-14)=2\\overrightarrow{PQ}$ nên a,b đúng. $\\vec a=(4;-6)$, $|\\vec b|=5$ nên c,d sai.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "II",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-II-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T04",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho hình vuông $ABCD$ tâm $O$, cạnh $a$ (tham khảo hình vẽ). Các mệnh đề sau đúng hay sai?\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-df6403485ea078b6dc422ee146802686c0e8200e2c62e11318f7cbf8b95d5f47.png)",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$\\overrightarrow{DB}\\cdot\\overrightarrow{BC}=-a^2$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "$|\\overrightarrow{CB}|=|\\overrightarrow{CA}|$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "$\\overrightarrow{AB}=\\overrightarrow{CD}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "$\\overrightarrow{DO}=\\overrightarrow{OB}$.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Chọn $D(0;0),C(a;0),B(a;a),A(0;a)$. Khi đó $\\overrightarrow{DB}\\cdot\\overrightarrow{BC}=(a;a)\\cdot(0;-a)=-a^2$. Hai độ dài ở b là $a$ và $a\\sqrt2$; hai vectơ ở c đối nhau. O là trung điểm DB nên d đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "II",
+        "questionNumber": "2",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-df6403485ea078b6dc422ee146802686c0e8200e2c62e11318f7cbf8b95d5f47.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-III-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho tam giác $ABC$ vuông tại $B$, có $BA=4$ cm, $BC=3$ cm. Tính độ dài vectơ $\\overrightarrow{BA}-\\overrightarrow{BC}$.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "5"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "$\\overrightarrow{BA}-\\overrightarrow{BC}=\\overrightarrow{CA}$ nên độ dài bằng $CA=\\sqrt{4^2+3^2}=5$ cm.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-III-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C04-T04",
+      "questionType": "SHORT_ANSWER",
+      "content": "Một chiếc xe được kéo bởi một lực $\\vec F$ có độ lớn $50$ N, di chuyển theo quãng đường từ $A$ đến $B$ có chiều dài $150$ m. Góc giữa $\\vec F$ và $\\overrightarrow{AB}$ bằng $30^\\circ$. Lực $\\vec F$ được phân tích thành hai lực $\\vec F_1,\\vec F_2$ như hình vẽ. Gọi $m;n;k$ lần lượt là các công sinh ra bởi $\\vec F,\\vec F_1,\\vec F_2$. Tính $S=\\frac m{15}+\\frac n{10}-\\frac k{16}$, làm tròn đến hàng phần mười.\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-cddde737751bb0825338237196b163926c5fb5f761534e777b94b77a17c3500b.png)",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "27.1"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "Lực $\\vec F_1$ vuông góc chuyển dời nên $n=0$. Lực $\\vec F_2$ cùng phương chuyển dời nên $k=m=50\\cdot150\\cos30^\\circ=3750\\sqrt3$. Do đó $S=m(1/15-1/16)=15{,}625\\sqrt3\\approx27{,}1$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "2",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-cddde737751bb0825338237196b163926c5fb5f761534e777b94b77a17c3500b.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-III-Q003",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "Bạn Nam đo được độ dài gần đúng quãng đường từ nhà đến trường là $a=968$ m với độ chính xác $d=0{,}4$ m. Sai số tương đối trong phép đo là bao nhiêu phần trăm? Làm tròn đến hàng phần trăm.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "0.04"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "Sai số tương đối không vượt quá $d/|a|=0{,}4/968$. Đổi sang phần trăm: $0{,}4/968\\cdot100\\%\\approx0{,}04132\\%$, làm tròn được $0{,}04\\%$ theo yêu cầu đề.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "3",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-041-M101-PART-III-Q004",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T03",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cân nặng (đơn vị kg) của một tổ học sinh lớp 11A được cho bởi mẫu dữ liệu: 32; 44; 45; 64; 65,5; 50; 66; 49; 49; 45; 30,5; 33; 40; 44. Tổng tất cả các giá trị bất thường có dạng $\\frac ab$. Hãy tính $a-2b$.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "259"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "Sắp xếp mẫu: $30{,}5;32;33;40;44;44;45;45;49;49;50;64;65{,}5;66$. Có $Q_1=40,Q_3=50$, khoảng tứ phân vị bằng 10. Các giá trị ngoài [25;65] là 65,5 và 66, tổng bằng $131{,}5=263/2$. Suy ra $a-2b=263-4=259$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-041",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "4",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7,
+          8
+        ],
+        "pdfSha256": "a51af3ac704aa80d74ee08353921094d5019693c5dc3d2fddeb180030c01388c",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-so-1-le-loi-quang-tri.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C07-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phương trình nào sau đây không phải là phương trình đường tròn?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$x^2+y^2-y=0$."
+        },
+        {
+          "key": "B",
+          "content": "$x^2+y^2-100y+1=0$."
+        },
+        {
+          "key": "C",
+          "content": "$x^2+y^2-x+y+4=0$."
+        },
+        {
+          "key": "D",
+          "content": "$x^2+y^2-2=0$."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "Ở C, hoàn thành bình phương được $(x-1/2)^2+(y+1/2)^2=-7/2$, không có đường tròn thực. Các phương trình khác có bán kính bình phương dương.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C08-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Có bao nhiêu cách chọn ngẫu nhiên 3 quyển sách từ 15 quyển sách khác nhau?",
+      "options": [
+        {
+          "key": "A",
+          "content": "2730"
+        },
+        {
+          "key": "B",
+          "content": "455"
+        },
+        {
+          "key": "C",
+          "content": "6"
+        },
+        {
+          "key": "D",
+          "content": "5"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Chọn không xét thứ tự nên số cách là $\\binom{15}{3}=15\\cdot14\\cdot13/(3\\cdot2\\cdot1)=455$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q003",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Tam thức nào sau đây luôn âm với mọi giá trị của $x$?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$x^2-2x+10$."
+        },
+        {
+          "key": "B",
+          "content": "$x^2-10x+2$."
+        },
+        {
+          "key": "C",
+          "content": "$-x^2+2x-10$."
+        },
+        {
+          "key": "D",
+          "content": "$x^2-2x+10$."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "$-x^2+2x-10=-(x-1)^2-9<0$ với mọi x. Các phương án còn lại có hệ số bậc hai dương.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "3",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q004",
+      "grade": 10,
+      "skillCode": "KNTT-10-C07-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hai đường thẳng $d_1:2x+y+15=0$ và $d_2:-4x-2y+3=0$. Khẳng định nào sau đây đúng?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$d_1$ và $d_2$ song song với nhau."
+        },
+        {
+          "key": "B",
+          "content": "$d_1$ và $d_2$ vuông góc với nhau."
+        },
+        {
+          "key": "C",
+          "content": "$d_1$ và $d_2$ cắt nhau và không vuông góc với nhau."
+        },
+        {
+          "key": "D",
+          "content": "$d_1$ và $d_2$ trùng nhau."
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Hai vectơ pháp tuyến tỉ lệ với hệ số −2, nhưng $3\\ne-2\\cdot15$, nên hai đường song song phân biệt.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "4",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q005",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hàm số $y=f(x)$ có đồ thị như hình. Trong các phát biểu sau, phát biểu nào đúng?\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-98f50ed67cba3aac501673f4ef10ca64f4f603caf1bd77a2bfb78b9071e51fd1.png)",
+      "options": [
+        {
+          "key": "A",
+          "content": "$f(x)<0$ khi và chỉ khi $x\\in(1;3)$."
+        },
+        {
+          "key": "B",
+          "content": "$f(x)\\le0$ khi và chỉ khi $x\\in(-\\infty;1]\\cup[3;+\\infty)$."
+        },
+        {
+          "key": "C",
+          "content": "$f(x)>0$ khi và chỉ khi $x\\in(1;3)$."
+        },
+        {
+          "key": "D",
+          "content": "$f(x)\\ge0$ khi và chỉ khi $x\\in[1;3]$."
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Parabol mở lên, cắt trục hoành tại x = 1 và x = 3; đồ thị nằm dưới trục hoành đúng khi 1 < x < 3.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-98f50ed67cba3aac501673f4ef10ca64f4f603caf1bd77a2bfb78b9071e51fd1.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q006",
+      "grade": 10,
+      "skillCode": "KNTT-10-C07-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường thẳng $d:\\begin{cases}x=1-4t\\\\y=-2+3t\\end{cases}$. Vectơ nào dưới đây là một vectơ chỉ phương của đường thẳng $d$?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(3;4)$"
+        },
+        {
+          "key": "B",
+          "content": "$(1;-2)$"
+        },
+        {
+          "key": "C",
+          "content": "$(4;3)$"
+        },
+        {
+          "key": "D",
+          "content": "$(-4;3)$"
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Lấy các hệ số của tham số t được vectơ chỉ phương (−4;3).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "6",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q007",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Đồ thị hàm số $y=ax^2+bx+c\\;(a\\ne0)$ là một đường parabol có hoành độ của đỉnh bằng",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\frac ba$"
+        },
+        {
+          "key": "B",
+          "content": "$-\\frac ba$"
+        },
+        {
+          "key": "C",
+          "content": "$\\frac b{2a}$"
+        },
+        {
+          "key": "D",
+          "content": "$-\\frac b{2a}$"
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Hoàn thành bình phương hoặc dùng công thức đỉnh parabol: $x_0=-b/(2a)$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q008",
+      "grade": 10,
+      "skillCode": "KNTT-10-C08-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong một trường THPT, khối 11 có 280 học sinh nam và 325 học sinh nữ. Nhà trường cần chọn một học sinh nam hoặc một học sinh nữ đi dự trại hè của tỉnh đoàn. Hỏi nhà trường có bao nhiêu cách chọn?",
+      "options": [
+        {
+          "key": "A",
+          "content": "9100"
+        },
+        {
+          "key": "B",
+          "content": "910000"
+        },
+        {
+          "key": "C",
+          "content": "91000"
+        },
+        {
+          "key": "D",
+          "content": "605"
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Hai nhóm nam và nữ không giao nhau, chọn một học sinh có 280 + 325 = 605 cách.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q009",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hàm số $y=ax^2+bx+c$ có đồ thị là parabol trong hình. Tìm khẳng định đúng.\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-ad886e57907084913fe9968c2f9bd0677d01be31abe0b9d5dca97de46d67adc8.png)",
+      "options": [
+        {
+          "key": "A",
+          "content": "$a<0,c<0$."
+        },
+        {
+          "key": "B",
+          "content": "$a>0,c>0$."
+        },
+        {
+          "key": "C",
+          "content": "$a<0,c>0$."
+        },
+        {
+          "key": "D",
+          "content": "$a>0,c<0$."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Parabol mở lên nên a > 0; giao điểm với trục tung nằm dưới trục hoành nên c < 0.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-ad886e57907084913fe9968c2f9bd0677d01be31abe0b9d5dca97de46d67adc8.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q010",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Tổng tất cả các nghiệm của phương trình $\\sqrt{x^2-3x+2}=\\sqrt{x+2}$ là",
+      "options": [
+        {
+          "key": "A",
+          "content": "3"
+        },
+        {
+          "key": "B",
+          "content": "4"
+        },
+        {
+          "key": "C",
+          "content": "-1"
+        },
+        {
+          "key": "D",
+          "content": "-3"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Bình phương hai vế và kiểm tra điều kiện được $x^2-3x+2=x+2$, tức $x(x-4)=0$. Cả 0 và 4 đều thỏa phương trình gốc, tổng bằng 4.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "10",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q011",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Biểu đồ dưới đây mô tả số vụ tai nạn giao thông từ 2016 đến 2020. Biểu đồ xác định hàm số $y=f(x)$ trên tập xác định $D=\\{2016;2017;2018;2019;2020\\}$. Khi đó giá trị của hàm số tại $x=2019$ là\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-66f0363cb8107d1ccc0b495c4ee520b72b66da6777c9dcd9c596f518b182ccdb.png)",
+      "options": [
+        {
+          "key": "A",
+          "content": "147"
+        },
+        {
+          "key": "B",
+          "content": "76"
+        },
+        {
+          "key": "C",
+          "content": "2019"
+        },
+        {
+          "key": "D",
+          "content": "124"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Cột của năm 2019 ghi 147 vụ, do đó f(2019) = 147.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-66f0363cb8107d1ccc0b495c4ee520b72b66da6777c9dcd9c596f518b182ccdb.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-I-Q012",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hàm số $y=ax^2+bx+c\\;(a\\ne0)$ có đồ thị như hình. Hàm số đồng biến trên khoảng nào?\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-1f55e740b0391283dd7578f710974f1fcf6f4d7b527073242ebb4b58c82ae536.png)",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(1;+\\infty)$"
+        },
+        {
+          "key": "B",
+          "content": "$(-3;2)$"
+        },
+        {
+          "key": "C",
+          "content": "$(-\\infty;1)$"
+        },
+        {
+          "key": "D",
+          "content": "$(0;2)$"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Parabol mở lên và có hoành độ đỉnh bằng 1 nên đồng biến trên (1;+∞).",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "12",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-1f55e740b0391283dd7578f710974f1fcf6f4d7b527073242ebb4b58c82ae536.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-II-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C07-T01",
+      "questionType": "TRUE_FALSE",
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường thẳng $\\Delta:x-y+2=0$ và $A(0;2)$. Các mệnh đề sau đúng hay sai?",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Đường thẳng $d:2x-y+1=0$ vuông góc với đường thẳng $\\Delta$.",
+          "isCorrect": false
+        },
+        {
+          "key": "b",
+          "content": "Phương trình tham số của đường thẳng $\\Delta$ đi qua $A$ là $\\begin{cases}x=t\\\\y=2+t\\end{cases}$.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Đường thẳng $\\Delta$ có một vectơ pháp tuyến $\\vec n=(1;-1)$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Đường tròn tâm $O$ bán kính $OA$ có phương trình $x^2+y^2=2$.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Hai hệ số góc là 2 và 1, tích không bằng −1 nên a sai. Thay x=t,y=2+t vào Δ được 0 nên b đúng. Vectơ pháp tuyến là (1;−1) nên c đúng. OA = 2, phương trình đường tròn là $x^2+y^2=4$ nên d sai.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "II",
+        "questionNumber": "1",
+        "sourcePages": [
+          2,
+          3
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-II-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C08-T02",
+      "questionType": "TRUE_FALSE",
+      "content": "Một hộp có 6 viên bi xanh, 5 viên bi đỏ và 4 viên bi vàng. Các mệnh đề sau đúng hay sai?",
+      "statements": [
+        {
+          "key": "a",
+          "content": "Chọn ngẫu nhiên một viên bi trong hộp có 15 cách.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "Chọn ba viên bi trong hộp trong đó có hai viên bi xanh và một viên bi đỏ có 75 cách.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "Chọn bốn viên bi trong hộp trong đó có đúng hai viên bi đỏ có 450 cách.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "Chọn một viên bi xanh và một viên bi vàng trong hộp có 10 cách.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Có 15 viên bi. Chọn hai xanh, một đỏ có $\\binom62\\binom51=75$ cách. Chọn đúng hai đỏ và hai không đỏ có $\\binom52\\binom{10}2=450$ cách. Chọn một xanh, một vàng có $6\\cdot4=24$ cách nên d sai.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "II",
+        "questionNumber": "2",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-III-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C07-T03",
+      "questionType": "SHORT_ANSWER",
+      "content": "Nhà ông An, Bình, Cường có ba khu vườn ở các vị trí tọa độ lần lượt $A(-12;8)$, $B(-10;-6)$, $C(6;2)$ như hình. Cả ba nhà muốn khoan chung một cái giếng đặt môtơ. Họ quyết định đặt môtơ ở vị trí $M$ cách đều ba khu vườn, rồi nối ống dẫn nước từ $M$ về từng vườn. Chi phí lắp đặt 1 m ống dẫn nước là 30 nghìn đồng. Chi phí mỗi nhà phải trả để lắp đặt đường ống nước là bao nhiêu nghìn đồng?\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-b78216f49cee80f908afdd85ffb9c5366d721265170b396fb36c45e5f3b71a6d.png)",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "300"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "Tâm đường tròn qua A,B,C thỏa $x-7y=-18$, $3x-y=-14$, suy ra $M(-4;2)$. Bán kính $MA=\\sqrt{(-12+4)^2+(8-2)^2}=10$ m. Mỗi nhà trả $30\\cdot10=300$ nghìn đồng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "1",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-b78216f49cee80f908afdd85ffb9c5366d721265170b396fb36c45e5f3b71a6d.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-III-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "Một chiếc cổng hình parabol có phương trình $y=-\\frac12x^2$. Biết cổng có chiều rộng $d=6$ mét như hình vẽ. Tính chiều cao $h$ của cổng.\n![Hình minh họa cần thiết](/math-import-assets/thpt-figure-c688bcb060c27dc5764851fb8c2c796513c0dfc0837b26e276acd9abb4dc751c.png)",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "4.5"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "Hai chân cổng đối xứng qua trục tung, cách nhau 6 m nên có hoành độ ±3. Tung độ chân cổng là $-\\frac12\\cdot3^2=-4{,}5$. Đỉnh ở tung độ 0 nên chiều cao bằng 4,5 m.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "2",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-c688bcb060c27dc5764851fb8c2c796513c0dfc0837b26e276acd9abb4dc751c.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-III-Q003",
+      "grade": 10,
+      "skillCode": "KNTT-10-C07-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "Trong mặt phẳng tọa độ $Oxy$, đường thẳng đi qua $A(1;-3)$ và có vectơ pháp tuyến $\\vec n=(2;-1)$ có phương trình tổng quát dạng $ax-by+c=0$. Tính $a^2-b+2c$.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "-7"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "Theo vectơ pháp tuyến đã cho: $2(x-1)-(y+3)=0$, hay $2x-y-5=0$. Lấy $a=2,b=1,c=-5$ được $a^2-b+2c=4-1-10=-7$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "3",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK2-056-M101-PART-III-Q004",
+      "grade": 10,
+      "skillCode": "KNTT-10-C06-T03",
+      "questionType": "SHORT_ANSWER",
+      "content": "Tính tổng các nghiệm của phương trình $\\sqrt{6-5x}=2-x$.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "-1"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số theo yêu cầu làm tròn của đề."
+      },
+      "explanation": "Điều kiện $x\\le6/5$. Bình phương được $6-5x=x^2-4x+4$, hay $(x+2)(x-1)=0$. Hai nghiệm −2 và 1 đều thỏa phương trình gốc, tổng bằng −1.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK2-056",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "4",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "356b059684c66db7f96781dd71947b4fbd168e28a45e76a9893c15f84c5a8f4b",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ki-2-toan-10-nam-2025-2026-truong-thpt-an-hai-hai-phong.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-manual-round2-36-v1"
+      }
+    }
+  ]
+}

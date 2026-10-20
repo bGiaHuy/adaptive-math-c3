@@ -1,0 +1,315 @@
+{
+  "batchId": "batch-genuine-096",
+  "reviewedAt": "2026-10-20T14:55:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số bậc ba $y = f(x)$ có đồ thị là đường cong trong hình vẽ dưới đây:\n\n![Đồ thị hàm số bậc ba y = f(x)](/images/thpt/thpt-12-giua-hk1-217-p1-img1.jpeg)\n\nHàm số đã cho đồng biến trên khoảng nào sau đây?",
+      "explanation": "Từ đồ thị hàm số bậc ba $y = f(x)$ ta thấy:\n- Hàm số đồng biến trên các khoảng $(-\\infty; -2)$ và $(0; +\\infty)$ (đồ thị đi lên từ trái sang phải).\n- Hàm số nghịch biến trên khoảng $(-2; 0)$ (đồ thị đi xuống từ trái sang phải).\nTrong các phương án đưa ra, khoảng $(0; +\\infty)$ là khoảng đồng biến của hàm số.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p1.png",
+          "sha256": "3c1db1e9c0d2d247485bf7bfac415b4097734d4e2b6320ecf7421635cee6b60b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABC$.\n\n![Hình chóp S.ABC](/images/thpt/thpt-12-giua-hk1-217-p1-cau2.png)\n\nTổng $\\vec{SA} + \\vec{AB}$ bằng",
+      "explanation": "Áp dụng quy tắc tam giác đối với phép cộng vectơ, ta có:\n$$\\vec{SA} + \\vec{AB} = \\vec{SB}.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p1.png",
+          "sha256": "3c1db1e9c0d2d247485bf7bfac415b4097734d4e2b6320ecf7421635cee6b60b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-217-p1-img3.png)\n\nKhẳng định nào sau đây sai?",
+      "explanation": "Dựa vào bảng biến thiên của hàm số $y = f(x)$:\n- Trên khoảng $(-\\infty; -1)$, $y' < 0$ nên hàm số nghịch biến. Do $-2 < -1$ nên $f(-2) > f(-1)$. Vì vậy khẳng định $f(-2) < f(-1)$ ở phương án D là sai.\n- Trên khoảng $(-1; 1)$, $y' > 0$ nên hàm số đồng biến. Do $-1 < 0$ nên $f(-1) < f(0)$ (phương án A đúng).\n- Trên khoảng $(1; +\\infty)$, $y' > 0$ nên hàm số đồng biến. Do $1 < 2 < 3 < 4$ nên $f(2) < f(3)$ và $f(3) < f(4)$ (phương án B và C đúng).\nĐáp án cần chọn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p1.png",
+          "sha256": "3c1db1e9c0d2d247485bf7bfac415b4097734d4e2b6320ecf7421635cee6b60b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = ax^3 + bx^2 + cx + d$ ($a \\ne 0$) có đồ thị của hàm số đạo hàm $y = f'(x)$ như hình vẽ bên dưới:\n\n![Đồ thị hàm số đạo hàm y = f'(x)](/images/thpt/thpt-12-giua-hk1-217-p2-img1.jpeg)\n\nMệnh đề nào sau đây đúng?",
+      "explanation": "Quan sát đồ thị của hàm số đạo hàm $y = f'(x)$:\n- Với mọi $x \\in (-\\infty; 1)$, đồ thị $f'(x)$ nằm hoàn toàn phía dưới hoặc chạm trục hoành ($f'(x) \\le 0$, tiếp xúc tại $x = -2$ và cắt tại $x = 1$).\n- Do $f'(x) \\le 0$ trên $(-\\infty; 1)$ và chỉ triệt tiêu tại điểm đơn lẻ $x = -2$, hàm số $f(x)$ nghịch biến trên $(-\\infty; 1)$.\n- Vì $f(x)$ nghịch biến trên $(-\\infty; 1)$, với $-3 < -1 < 1$ ta có $f(-3) > f(-1)$.\nDo đó khẳng định B là đúng.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p2.png",
+          "sha256": "373a1525f22a7e6e862ba0f43c5b5e3f6bb0071eec64c832798a0c096abec66f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp chữ nhật $ABCD.EFGH$.\n\n![Hình hộp chữ nhật ABCD.EFGH](/images/thpt/thpt-12-giua-hk1-217-p2-q5.png)\n\nVéctơ nào sau đây bằng với $\\vec{ED}$?",
+      "explanation": "Trong hình hộp chữ nhật $ABCD.EFGH$:\n- Ta có $EF = AB = DC$ và $EF \\parallel AB \\parallel DC$, do đó tứ giác $EFCD$ là hình bình hành.\n- Từ đó suy ra $\\vec{ED} = \\vec{FC}$.\n- Hoặc theo phân tích vectơ: $\\vec{ED} = \\vec{EA} + \\vec{AD}$.\n  Mà $\\vec{EA} = \\vec{FB}$ và $\\vec{AD} = \\vec{BC}$, nên $\\vec{ED} = \\vec{FB} + \\vec{BC} = \\vec{FC}$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p2.png",
+          "sha256": "373a1525f22a7e6e862ba0f43c5b5e3f6bb0071eec64c832798a0c096abec66f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ:\n\n![Đồ thị hàm số y = f(x)](/images/thpt/thpt-12-giua-hk1-217-p2-img2.png)\n\nĐường tiệm cận đứng của đồ thị hàm số $y = f(x)$ là:",
+      "explanation": "Quan sát đồ thị hàm số, khi $x \\to 0^+$ thì $y \\to +\\infty$ và khi $x \\to 0^-$ thì $y \\to -\\infty$.\nDo đó, trục tung có phương trình $x = 0$ là đường tiệm cận đứng của đồ thị hàm số.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p2.png",
+          "sha256": "373a1525f22a7e6e862ba0f43c5b5e3f6bb0071eec64c832798a0c096abec66f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình dưới đây:\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-217-p2-img3.png)\n\nTâm đối xứng của đồ thị hàm số có tọa độ là:",
+      "explanation": "Từ đồ thị ta thấy hàm phân thức có:\n- Đường tiệm cận đứng là $x = 1$.\n- Đường tiệm cận ngang là $y = -1$.\nTâm đối xứng của đồ thị hàm phân thức bậc nhất trên bậc nhất là giao điểm của hai đường tiệm cận, có tọa độ $I(1; -1)$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p2.png",
+          "sha256": "373a1525f22a7e6e862ba0f43c5b5e3f6bb0071eec64c832798a0c096abec66f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị lớn nhất của hàm số $y = \\sqrt{9 - x^2}$ là:",
+      "explanation": "Tập xác định của hàm số là $D = [-3; 3]$.\nVới mọi $x \\in [-3; 3]$, ta có $x^2 \\ge 0 \\implies 9 - x^2 \\le 9 \\implies \\sqrt{9 - x^2} \\le \\sqrt{9} = 3$.\nDấu bằng xảy ra khi $x = 0 \\in [-3; 3]$.\nVậy giá trị lớn nhất của hàm số là $3$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p3.png",
+          "sha256": "ee328b4cf4170cef1430544d62580a3c97e18febf5b77dd85df0100fac129bd0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tiệm cận xiên của đồ thị hàm số $y = x - 1 - \\frac{5}{x + 2}$ có phương trình là:",
+      "explanation": "Ta có $\\lim_{x \\to \\pm\\infty} [y - (x - 1)] = \\lim_{x \\to \\pm\\infty} \\left(-\\frac{5}{x + 2}\\right) = 0$.\nDo đó đường thẳng $y = x - 1$ là đường tiệm cận xiên của đồ thị hàm số đã cho.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p3.png",
+          "sha256": "ee328b4cf4170cef1430544d62580a3c97e18febf5b77dd85df0100fac129bd0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-217-p3-img1.png)\n\nTổng số tiệm cận ngang của đồ thị hàm số đã cho là:",
+      "explanation": "Dựa vào bảng biến thiên của hàm số $y = f(x)$:\n- $\\lim_{x \\to -\\infty} f(x) = 1$, suy ra đường thẳng $y = 1$ là tiệm cận ngang bên trái.\n- $\\lim_{x \\to +\\infty} f(x) = 3$, suy ra đường thẳng $y = 3$ là tiệm cận ngang bên phải.\nVì $1 \\ne 3$, đồ thị hàm số có đúng $2$ đường tiệm cận ngang phân biệt.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p3.png",
+          "sha256": "ee328b4cf4170cef1430544d62580a3c97e18febf5b77dd85df0100fac129bd0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{ax^2 + bx + c}{px + q}$ ($ac \\ne 0$) có đồ thị như hình vẽ:\n\n![Đồ thị hàm số phân thức](/images/thpt/thpt-12-giua-hk1-217-p3-img2.png)\n\nTâm đối xứng của đồ thị hàm số có tọa độ là:",
+      "explanation": "Quan sát đồ thị hàm phân thức bậc hai trên bậc nhất:\n- Đồ thị có hai điểm cực trị đối xứng nhau: cực tiểu tại $(-2; 4)$ và cực đại tại $(2; -4)$.\n- Tâm đối xứng của đồ thị là trung điểm của đoạn nối hai điểm cực trị:\n  $$x_I = \\frac{-2 + 2}{2} = 0, \\quad y_I = \\frac{4 + (-4)}{2} = 0.$$\n- Giao điểm của tiệm cận đứng $x = 0$ và tiệm cận xiên đi qua gốc tọa độ chính là $O(0; 0)$.\nVậy tâm đối xứng của đồ thị hàm số là $(0; 0)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p3.png",
+          "sha256": "ee328b4cf4170cef1430544d62580a3c97e18febf5b77dd85df0100fac129bd0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị lớn nhất của hàm số $f(x) = x^3 - 3x + 2$ trên đoạn $[-3; 3]$ bằng:",
+      "explanation": "Hàm số $f(x) = x^3 - 3x + 2$ liên tục trên $[-3; 3]$.\nTa có $f'(x) = 3x^2 - 3 = 0 \\iff x = \\pm 1 \\in [-3; 3]$.\nTính các giá trị:\n- $f(-3) = (-3)^3 - 3(-3) + 2 = -27 + 9 + 2 = -16$\n- $f(-1) = (-1)^3 - 3(-1) + 2 = -1 + 3 + 2 = 4$\n- $f(1) = 1^3 - 3(1) + 2 = 1 - 3 + 2 = 0$\n- $f(3) = 3^3 - 3(3) + 2 = 27 - 9 + 2 = 20$\nGiá trị lớn nhất của hàm số trên $[-3; 3]$ là $20$ (đạt được tại $x = 3$).\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p3.png",
+          "sha256": "ee328b4cf4170cef1430544d62580a3c97e18febf5b77dd85df0100fac129bd0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đồ thị hàm số $y = f(x)$ có hình vẽ dưới đây và có tập xác định trên $\\mathbb{R}$:\n\n![Đồ thị hàm số y = f(x)](/images/thpt/thpt-12-giua-hk1-217-p3-img3.png)\n\nXét tính đúng sai của các mệnh đề sau:",
+      "explanation": "a) ĐÚNG: Trên $[-2; 0]$, $\\max y = f(-1) = -1$.\nb) ĐÚNG: Đồ thị hàm số đi xuống trên $(-1; 1)$ nên hàm số nghịch biến trên khoảng này.\nc) ĐÚNG: Hai điểm cực trị là $x = -1$ và $x = 1$, tích hai nghiệm âm nên trái dấu.\nd) SAI: Điểm cực tiểu là $x = 1$, giá trị cực tiểu là $y = -5$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p3.png",
+          "sha256": "ee328b4cf4170cef1430544d62580a3c97e18febf5b77dd85df0100fac129bd0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{2x - 1}{x - 1}$, trong các mệnh đề dưới đây, mệnh đề nào đúng, mệnh đề nào sai?",
+      "explanation": "a) ĐÚNG: Tập xác định là $\\mathbb{R} \\setminus \\{1\\}$.\nb) ĐÚNG: $y' = \\frac{-1}{(x - 1)^2} < 0, \\forall x \\ne 1$ nên hàm số nghịch biến trên $(-\\infty; 1)$ và $(1; +\\infty)$.\nc) SAI: Tâm đối xứng là $I(1; 2)$, không phải $I(2; 1)$.\nd) SAI: Hàm số nghịch biến trên $[-2; 0]$ nên $\\max_{[-2; 0]} y = y(-2) = \\frac{5}{3} \\ne 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p4.png",
+          "sha256": "fa70461b5408ec1cf252984ad6ed867f7b2749777818401cd5825c311414db1d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian với hệ tọa độ $Oxyz$, cho các vectơ $\\vec{a} = (3; -1; 1)$ và $\\vec{b} = (-1; 2; -2)$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "a) SAI: $2\\vec{a} + \\vec{b} - 3\\vec{j} = (5; -3; 0) \\ne (1; 0; -3)$.\nb) ĐÚNG: $2\\vec{a} + \\vec{b} = (5; 0; 0) \\implies |2\\vec{a} + \\vec{b}| = 5$.\nc) ĐÚNG: $\\vec{a} \\cdot \\vec{b} = 3(-1) - 2 - 2 = -7$.\nd) SAI: $\\cos(\\vec{a}, \\vec{b}) = \\frac{-7}{3\\sqrt{11}} = -\\frac{7\\sqrt{11}}{33}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p4.png",
+          "sha256": "fa70461b5408ec1cf252984ad6ed867f7b2749777818401cd5825c311414db1d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho các điểm $A(2; -3; 1)$ và $B(-1; 1; 5)$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "a) ĐÚNG: $\\vec{AB} = (-3; 4; 4)$.\nb) SAI: $OA = \\sqrt{14} < OB = \\sqrt{27}$.\nc) ĐÚNG: $G\\left(\\frac{1}{3}; -\\frac{2}{3}; 2\\right)$.\nd) SAI: $\\vec{OA} \\cdot \\vec{OB} = 0 \\implies \\widehat{AOB} = 90^\\circ$ là góc vuông, không phải góc nhọn.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p4.png",
+          "sha256": "fa70461b5408ec1cf252984ad6ed867f7b2749777818401cd5825c311414db1d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một vật chuyển động theo quy luật $s = -\\frac{1}{3}t^3 + 9t^2 + t$, với $t$ (giây) là khoảng thời gian tính từ lúc vật bắt đầu chuyển động và $s$ (mét) là quãng đường đi được trong thời gian đó. Trong khoảng thời gian $6$ giây kể từ lúc bắt đầu chuyển động, vận tốc (đơn vị: m/s) lớn nhất của vật đạt được bằng bao nhiêu?",
+      "explanation": "Vận tốc của chuyển động là đạo hàm của quãng đường:\n$$v(t) = s'(t) = -t^2 + 18t + 1.$$\nXét hàm số $v(t)$ trên đoạn $[0; 6]$:\nTa có $v'(t) = -2t + 18 > 0, \\forall t \\in [0; 6)$ (do $-2t + 18 = 0 \\iff t = 9 > 6$).\nDo đó hàm số $v(t)$ đồng biến trên đoạn $[0; 6]$.\nVậy vận tốc lớn nhất đạt được tại thời điểm $t = 6$ giây:\n$$v_{\\max} = v(6) = -(6)^2 + 18(6) + 1 = -36 + 108 + 1 = 73\\text{ m/s}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p4.png",
+          "sha256": "fa70461b5408ec1cf252984ad6ed867f7b2749777818401cd5825c311414db1d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Người ta muốn xây một cái bể hình hộp đứng có thể tích $V = 18\\text{ m}^3$, biết đáy bể là hình chữ nhật có chiều dài gấp $3$ lần chiều rộng và bể không có nắp. Hỏi cần xây bể có chiều cao $h$ bằng bao nhiêu mét để nguyên vật liệu xây dựng là ít nhất? (kết quả làm tròn đến hàng phần trăm)",
+      "explanation": "Gọi chiều rộng của đáy bể là $x$ ($x > 0$, đơn vị m). Chiều dài đáy bể là $3x$.\nChiều cao của bể là $h$ ($h > 0$).\nThể tích của bể là $V = 3x \\cdot x \\cdot h = 3x^2 h = 18 \\implies h = \\frac{6}{x^2}$.\nBể không có nắp nên diện tích toàn phần xây dựng (đáy và 4 mặt bên) là:\n$$S = 3x^2 + 2(3x \\cdot h) + 2(x \\cdot h) = 3x^2 + 8xh.$$\nThay $h = \\frac{6}{x^2}$ vào biểu thức diện tích:\n$$S(x) = 3x^2 + 8x \\cdot \\frac{6}{x^2} = 3x^2 + \\frac{48}{x}.$$\nXét hàm số $S(x)$ với $x > 0$:\n$$S'(x) = 6x - \\frac{48}{x^2} = 0 \\iff 6x^3 = 48 \\iff x^3 = 8 \\iff x = 2.$$\nKhi $x = 2$, hàm số đạt giá trị nhỏ nhất.\nChiều cao tương ứng của bể là:\n$$h = \\frac{6}{2^2} = \\frac{6}{4} = 1.5\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p4.png",
+          "sha256": "fa70461b5408ec1cf252984ad6ed867f7b2749777818401cd5825c311414db1d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một người dự định dùng $8\\text{ m}^2$ kính để làm một bể cá không nắp dạng hình hộp chữ nhật, trong đó chiều dài gấp đôi lần chiều rộng. Hỏi thể tích lớn nhất của bể cá là bao nhiêu mét khối? (kết quả làm tròn đến hàng phần trăm)",
+      "explanation": "Gọi chiều rộng đáy bể cá là $x$ ($x > 0$, đơn vị m). Chiều dài đáy là $2x$.\nGọi chiều cao của bể là $h$ ($h > 0$).\nDiện tích kính làm bể không nắp là:\n$$S = 2x^2 + 2(2x \\cdot h) + 2(x \\cdot h) = 2x^2 + 6xh = 8\\text{ m}^2 \\implies h = \\frac{8 - 2x^2}{6x} = \\frac{4 - x^2}{3x}.$$\nĐiều kiện $h > 0 \\implies 0 < x < 2$.\nThể tích bể cá là:\n$$V(x) = 2x^2 \\cdot h = 2x^2 \\cdot \\frac{4 - x^2}{3x} = \\frac{2}{3}x(4 - x^2) = \\frac{8}{3}x - \\frac{2}{3}x^3.$$\nLấy đạo hàm $V'(x) = \\frac{8}{3} - 2x^2 = 0 \\iff x^2 = \\frac{4}{3} \\iff x = \\frac{2}{\\sqrt{3}} \\in (0; 2)$.\nThể tích lớn nhất của bể cá là:\n$$V_{\\max} = V\\left(\\frac{2}{\\sqrt{3}}\\right) = \\frac{2}{3} \\cdot \\frac{2}{\\sqrt{3}} \\left(4 - \\frac{4}{3}\\right) = \\frac{4}{3\\sqrt{3}} \\cdot \\frac{8}{3} = \\frac{32\\sqrt{3}}{27} \\approx 2.0528\\text{ m}^3.$$\nLàm tròn đến hàng phần trăm ta được $2.05$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p4.png",
+          "sha256": "fa70461b5408ec1cf252984ad6ed867f7b2749777818401cd5825c311414db1d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chiếc đèn chùm được thiết kế với đĩa đèn được giữ bởi bốn đoạn cáp $SA, SB, SC, SD$ sao cho $SA = SB = SC = SD$ và $ABCD$ là hình vuông, góc $\\widehat{BSD} = 90^\\circ$ (xem hình vẽ).\n\n![Chiếc đèn chùm](/images/thpt/thpt-12-giua-hk1-217-p5-img1.jpeg)\n\nBiết độ lớn của lực căng của mỗi sợi dây cáp là $6\\text{ N}$. Độ lớn của trọng lực $\\vec{P}$ tác động lên chiếc đèn chùm bằng $a\\sqrt{b}\\text{ (N)}$. Tìm $a + b$ (biết $a, b$ là hai số nguyên dương và $\\frac{a}{b}$ tối giản).",
+      "explanation": "Gọi $O$ là tâm hình vuông $ABCD$, do $SA = SB = SC = SD$ nên $S.ABCD$ là chóp tứ giác đều và $SO \\perp (ABCD)$.\nTam giác $SBD$ cân tại $S$ có $\\widehat{BSD} = 90^\\circ$ nên tam giác $SBD$ vuông cân tại $S$.\nDo đó đường cao $SO$ đồng thời là phân giác góc $\\widehat{BSD}$, suy ra góc giữa mỗi sợi cáp và phương thẳng đứng $SO$ là $\\alpha = 45^\\circ$.\nĐèn chùm ở trạng thái cân bằng dưới tác dụng của trọng lực $\\vec{P}$ và 4 lực căng dây $\\vec{T}_A, \\vec{T}_B, \\vec{T}_C, \\vec{T}_D$ có cùng độ lớn $T = 6\\text{ N}$.\nTheo phương thẳng đứng, các thành phần nằm ngang triệt tiêu nhau, tổng các thành phần lực căng theo phương thẳng đứng cân bằng với trọng lực:\n$$P = 4 \\cdot T \\cdot \\cos(45^\\circ) = 4 \\cdot 6 \\cdot \\frac{\\sqrt{2}}{2} = 12\\sqrt{2}\\text{ N}.$$\nDo đó $a = 12$ và $b = 2$. Suy ra $a + b = 12 + 2 = 14$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p5.png",
+          "sha256": "84b5b66379869dd0a5f3c3e02f65dc005d9b720e23b7694f00274541ceaefe82"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chất điểm $A$ nằm trên mặt phẳng nằm ngang $(\\alpha)$, chịu tác động bởi 3 lực $\\vec{F}_1, \\vec{F}_2, \\vec{F}_3$. Các lực $\\vec{F}_1, \\vec{F}_2$ có giá nằm trong $(\\alpha)$ và $(\\vec{F}_1, \\vec{F}_2) = 60^\\circ$, còn lực $\\vec{F}_3$ có giá vuông với $(\\alpha)$ và hướng lên trên. Xác định tổng hợp lực của 3 lực trên, biết rằng độ lớn của ba lực $\\vec{F}_1, \\vec{F}_2, \\vec{F}_3$ lần lượt là $7\\text{ N}, 9\\text{ N}$ và $10\\text{ N}$. (Kết quả làm tròn đến hàng phần mười)",
+      "explanation": "Gọi $\\vec{F}_{12} = \\vec{F}_1 + \\vec{F}_2$ là hợp lực của hai lực nằm trong mặt phẳng ngang $(\\alpha)$.\nĐộ lớn của $\\vec{F}_{12}$ được tính theo định lý cosin:\n$$|\\vec{F}_{12}|^2 = |\\vec{F}_1|^2 + |\\vec{F}_2|^2 + 2|\\vec{F}_1||\\vec{F}_2|\\cos(60^\\circ) = 7^2 + 9^2 + 2 \\cdot 7 \\cdot 9 \\cdot 0.5 = 49 + 81 + 63 = 193.$$\nVì $\\vec{F}_3$ vuông góc với mặt phẳng $(\\alpha)$ nên $\\vec{F}_3$ vuông góc với $\\vec{F}_{12}$.\nHợp lực của cả 3 lực là $\\vec{F} = \\vec{F}_{12} + \\vec{F}_3$.\nTheo định lý Pythagore:\n$$|\\vec{F}| = \\sqrt{|\\vec{F}_{12}|^2 + |\\vec{F}_3|^2} = \\sqrt{193 + 10^2} = \\sqrt{293} \\approx 17.1172\\text{ N}.$$\nLàm tròn đến hàng phần mười ta được kết quả $17.1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p5.png",
+          "sha256": "84b5b66379869dd0a5f3c3e02f65dc005d9b720e23b7694f00274541ceaefe82"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-217-M111-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chọn hệ trục tọa độ $Oxyz$ (đơn vị trên mỗi trục là mét) trong một căn phòng hình hộp chữ nhật cao $4\\text{ m}$ như hình sau. Có một bóng đèn treo đang ở vị trí $B$. Gọi $H$ là hình chiếu vuông góc của $B$ xuống mặt sàn $(Oxy)$. Biết độ dài dây treo $AB = 1\\text{ m}$, $(\\vec{j}, \\vec{OH}) = 30^\\circ$, khoảng cách $HK$ từ $H$ đến trục $Oy$ là $5\\text{ m}$.\n\n![Căn phòng Oxyz và bóng đèn treo](/images/thpt/thpt-12-giua-hk1-217-p5-img2.jpeg)\n\nKhi đó tọa độ của bóng đèn $B$ là $B(a; b; c)$. Tính giá trị biểu thức $S = a^2 + b^2 + c$.",
+      "explanation": "Từ hình vẽ và giả thiết của bài toán:\n- Trần nhà ở cao độ $z = 4\\text{ m}$, dây treo thẳng đứng $AB = 1\\text{ m}$ nên cao độ của bóng đèn $B$ là $c = 4 - 1 = 3\\text{ m}$.\n- Hình chiếu $H$ của $B$ lên mặt sàn $(Oxy)$ có tọa độ $H(a; b; 0)$.\n- Đoạn thẳng $HK$ vuông góc với trục $Oy$ tại $K$, nên $K(0; b; 0)$ và $HK = |a| = 5\\text{ m} \\implies a^2 = 25$.\n- Góc giữa $\\vec{OH}$ và trục $Oy$ (vectơ $\\vec{j}$) là $\\widehat{KOH} = 30^\\circ$.\n  Trong tam giác vuông $OKH$ (vuông tại $K$):\n  $$\\sin(30^\\circ) = \\frac{HK}{OH} \\implies OH = \\frac{HK}{\\sin(30^\\circ)} = \\frac{5}{0.5} = 10\\text{ m}.$$\n- Do đó $a^2 + b^2 = OH^2 = 10^2 = 100$.\n  (Hoặc $b = OK = \\frac{HK}{\\tan(30^\\circ)} = 5\\sqrt{3} \\implies b^2 = 75$, $a^2 + b^2 = 25 + 75 = 100$).\n- Giá trị của biểu thức $S = a^2 + b^2 + c = 100 + 3 = 103$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-217-p5.png",
+          "sha256": "84b5b66379869dd0a5f3c3e02f65dc005d9b720e23b7694f00274541ceaefe82"
+        }
+      ]
+    }
+  ]
+}

@@ -28,13 +28,17 @@ export default function OnboardingWizard({
 
   // Form State initialized to match the video flow defaults
   const [selectedGrade, setSelectedGrade] = useState('grade10');
-  const [selectedGoal, setSelectedGoal] = useState('graduation');
+  const [selectedGoal, setSelectedGoal] = useState('finalterm');
   const [selectedDailyTime, setSelectedDailyTime] = useState('45m');
-  const [examDate, setExamDate] = useState('05/06/2027');
+  const [examDate, setExamDate] = useState('');
   const [selfEval, setSelfEval] = useState('good');
   const [weakTopics, setWeakTopics] = useState([]);
 
   const totalSteps = 8;
+  const availableGoals = goals.filter(goal => Number(selectedGrade.replace('grade', '')) >= (goal.minGrade || (goal.id === 'university' ? 12 : 10)));
+  useEffect(() => {
+    if (!availableGoals.some(goal => goal.id === selectedGoal)) setSelectedGoal('finalterm');
+  }, [selectedGrade, goals, selectedGoal]);
 
   useEffect(() => {
     const loadCurriculumOptions = async () => {
@@ -71,7 +75,7 @@ export default function OnboardingWizard({
       // Step 8 completed -> sync to backend via PATCH /student/onboarding
       setIsSubmitting(true);
       setSaveError('');
-      const chosenGoal = goals.find((g) => g.id === selectedGoal)?.title || 'Ôn thi tốt nghiệp THPT';
+      const chosenGoal = availableGoals.find((g) => g.id === selectedGoal)?.title || 'Ôn thi cuối kỳ';
       const chosenTimeObj = dailyTimes.find((t) => t.id === selectedDailyTime);
       const chosenMinutes = chosenTimeObj?.minutes || (selectedDailyTime === '30m' ? 30 : selectedDailyTime === '60m' ? 60 : selectedDailyTime === '90m' ? 90 : 45);
       const chosenSelfEval = selfEvals.find((e) => e.id === selfEval)?.title || 'Khá';
@@ -144,7 +148,7 @@ export default function OnboardingWizard({
             <div className="step-body">
               <h2 className="step-title">Chào bạn!</h2>
               <p className="step-desc-lead">
-                Thiết lập hồ sơ Toán THPT lớp 10, 11, 12 theo bộ Kết nối tri thức với cuộc sống. Chọn mục tiêu và nhịp học; bài kiểm tra đầu vào sẽ mở khi kho câu hỏi THPT được kiểm duyệt.
+                Thiết lập hồ sơ Toán THPT lớp 10, 11, 12 theo bộ Kết nối tri thức với cuộc sống. Chọn mục tiêu và nhịp học để bắt đầu bài đánh giá đúng khối lớp.
               </p>
 
               <div className="step-bullets-list">
@@ -154,7 +158,7 @@ export default function OnboardingWizard({
                 </div>
                 <div className="bullet-row">
                   <div className="bullet-dot"></div>
-                  <span>Khám phá 24 chương SGK; kho câu hỏi THPT đang được chuẩn bị.</span>
+                  <span>Khám phá 24 chương SGK và luyện tập theo dữ liệu đã rà soát.</span>
                 </div>
                 <div className="bullet-row">
                   <div className="bullet-dot"></div>
@@ -206,7 +210,7 @@ export default function OnboardingWizard({
               </p>
 
               <div className="options-list-vertical">
-                {GOALS_DATA.map((goal) => {
+                {availableGoals.map((goal) => {
                   const isSelected = selectedGoal === goal.id;
                   return (
                     <div
@@ -228,7 +232,7 @@ export default function OnboardingWizard({
 
               {selectedGoal && (
                 <div className="step-info-notice">
-                  <span>Mức thành thạo mục tiêu: <strong>85%</strong> cho mỗi chủ đề.</span>
+                  <span>Mức thành thạo mục tiêu: <strong>{availableGoals.find(goal => goal.id === selectedGoal)?.targetMastery || '80%'}</strong> cho mỗi chủ đề.</span>
                 </div>
               )}
             </div>
@@ -378,7 +382,7 @@ export default function OnboardingWizard({
             <div className="step-body">
               <h2 className="step-title">Kiểm tra lại thông tin</h2>
               <p className="step-subtitle">
-                Xác nhận xong, bạn sẽ xem danh mục chuyên đề THPT trong khi chờ kho câu hỏi.
+                Xác nhận xong, bạn có thể bắt đầu bài đánh giá năng lực theo khối lớp.
               </p>
 
               <div className="summary-review-table">
@@ -391,7 +395,7 @@ export default function OnboardingWizard({
                 <div className="summary-row">
                   <span className="summary-col-label">Mục tiêu</span>
                   <span className="summary-col-value">
-                    {GOALS_DATA.find((g) => g.id === selectedGoal)?.title || 'Ôn thi tốt nghiệp THPT'}
+                    {availableGoals.find((g) => g.id === selectedGoal)?.title || 'Ôn thi cuối kỳ'}
                   </span>
                 </div>
                 <div className="summary-row">

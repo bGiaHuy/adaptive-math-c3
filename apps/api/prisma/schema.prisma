@@ -146,8 +146,8 @@ model StudentProfile {
   id                  String   @id @default(uuid())
   userId              String   @unique
   user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  grade               Int      @default(9)
-  targetGoal          String   @default("Ôn thi vào lớp 10")
+  grade               Int      @default(10)
+  targetGoal          String   @default("Ôn thi cuối kỳ")
   dailyMinutes        Int      @default(45)
   examDate            String?
   selfAssessment      String   @default("Khá")
@@ -180,7 +180,7 @@ model Classroom {
   teacherId    String
   teacher      User                  @relation(fields: [teacherId], references: [id], onDelete: Cascade)
   name         String
-  grade        Int                   @default(9)
+  grade        Int                   @default(10)
   academicYear String                @default("2026-2027")
   isActive     Boolean               @default(true)
   createdAt    DateTime              @default(now())
@@ -320,7 +320,7 @@ model SkillNode {
   id             String         @id @default(uuid())
   code           String         @unique
   title          String
-  grade          Int            @default(9)
+  grade          Int            @default(10)
   chapter        String
   orderIndex     Int            @default(1)
   questions      Question[]

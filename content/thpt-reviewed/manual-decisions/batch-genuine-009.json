@@ -1,0 +1,488 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của bất phương trình nào sau đây được biểu diễn bởi nửa mặt phẳng không bị gạch trong hình vẽ bên?\n\n![Nửa mặt phẳng nghiệm](/math-import-assets/thpt-figure-013-p1-q1-halfplane.png)",
+      "explanation": "Quan sát hình vẽ:\n- Đường thẳng bờ đi qua hai điểm $(0; -2)$ và $(\\frac{2}{3}; 0)$, có phương trình là $y = 3x - 2 \\Leftrightarrow -3x + y = -2$.\n- Đường thẳng bờ vẽ bằng nét liền, do đó bất phương trình có dấu bằng ($\\le$ hoặc $\\ge$).\n- Điểm $(1; 0)$ thuộc nửa mặt phẳng không bị gạch; thay tọa độ $(1; 0)$ vào biểu thức vế trái: $-3(1) + 0 = -3 \\le -2$ (thỏa mãn).\nVậy bất phương trình cần tìm là $-3x + y \\le -2$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p1.png",
+          "sha256": "f6fc642ce803acaa92ff952e3cf34a9b437d067a65703342ae04ede4b564090a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{1; 2; 3; 4; 5\\}$ và $B = \\{-1; 2; 3; 4; 6\\}$. Chọn kết quả đúng?",
+      "explanation": "Xét hai tập hợp $A = \\{1; 2; 3; 4; 5\\}$ và $B = \\{-1; 2; 3; 4; 6\\}$:\n- Hợp của hai tập hợp gồm tất cả các phần tử thuộc $A$ hoặc thuộc $B$: $A \\cup B = \\{-1; 1; 2; 3; 4; 5; 6\\}$. Phương án A đúng.\n- Giao của hai tập hợp: $A \\cap B = \\{2; 3; 4\\}$ (phương án B sai do có phần tử $-1$).\n- Hiệu $A \\setminus B = \\{1; 5\\}$ (phương án C sai).\n- Hiệu $B \\setminus A = \\{-1; 6\\}$ (phương án D sai).\nVậy đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p1.png",
+          "sha256": "f6fc642ce803acaa92ff952e3cf34a9b437d067a65703342ae04ede4b564090a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ bù với $\\beta$ với $0^\\circ \\le \\alpha \\le 180^\\circ$. Biết $\\sin\\alpha = \\frac{-\\sqrt{2}}{5}$. Khi đó $\\sin\\beta$ bằng",
+      "explanation": "Hai góc bù nhau có tổng bằng $180^\\circ$, tức là $\\alpha + \\beta = 180^\\circ \\Rightarrow \\beta = 180^\\circ - \\alpha$. Theo tính chất giá trị lượng giác của hai góc bù nhau, ta có $\\sin\\beta = \\sin(180^\\circ - \\alpha) = \\sin\\alpha$. Do đó theo giả thiết của đề bài $\\sin\\beta = \\sin\\alpha = \\frac{-\\sqrt{2}}{5}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p1.png",
+          "sha256": "f6fc642ce803acaa92ff952e3cf34a9b437d067a65703342ae04ede4b564090a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $X = \\{0; 2; 3; 5\\}$. Tập hợp nào dưới đây không phải là tập con của tập hợp $X$?",
+      "explanation": "Tập hợp $Y$ là tập con của $X$ nếu mọi phần tử của $Y$ đều thuộc $X$. Tập hợp $\\{0; 1; 2\\}$ chứa phần tử $1 \\notin X$, do đó $\\{0; 1; 2\\}$ không phải là tập con của $X$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p1.png",
+          "sha256": "f6fc642ce803acaa92ff952e3cf34a9b437d067a65703342ae04ede4b564090a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề “Có ít nhất một số thực bình phương bằng chính nó” được viết dưới dạng ký hiệu là",
+      "explanation": "Cụm từ \"Có ít nhất một\" tương ứng với lượng từ tồn tại \"$\\exists$\". Số thực là $x \\in \\mathbb{R}$. \"Bình phương bằng chính nó\" là $x^2 = x$. Do đó mệnh đề được viết bằng ký hiệu là \"$\\exists x \\in \\mathbb{R}, x^2 = x$\". Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p1.png",
+          "sha256": "f6fc642ce803acaa92ff952e3cf34a9b437d067a65703342ae04ede4b564090a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ với $0^\\circ \\le \\alpha \\le 180^\\circ$. Chọn khẳng định sai?",
+      "explanation": "Theo tính chất giá trị lượng giác của hai góc bù nhau: $\\cos(180^\\circ - \\alpha) = -\\cos\\alpha$. Do đó khẳng định ở phương án A ghi $\\cos(180^\\circ - \\alpha) = \\cos\\alpha$ là sai. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p1.png",
+          "sha256": "f6fc642ce803acaa92ff952e3cf34a9b437d067a65703342ae04ede4b564090a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cặp số $(-1; 2)$ là nghiệm của bất phương trình nào trong các bất phương trình sau đây?",
+      "explanation": "Thay tọa độ $(-1; 2)$ vào từng bất phương trình:\n- Phương án A: $2(-1) + 2 = 0 > 2$ (sai).\n- Phương án B: $2(-1) - 2 = -4 \\le 0$ (đúng).\n- Phương án C: $-(-1) + 2(2) = 5 < 0$ (sai).\n- Phương án D: $-1 - 4(2) = -9 \\ge 1$ (sai).\nVậy cặp số $(-1; 2)$ là nghiệm của bất phương trình $2x - y \\le 0$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p1.png",
+          "sha256": "f6fc642ce803acaa92ff952e3cf34a9b437d067a65703342ae04ede4b564090a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$. Đặt $AB = c, AC = b, BC = a$, $R$ là bán kính đường tròn ngoại tiếp tam giác $ABC$, $S$ là diện tích tam giác $ABC$. Chọn khẳng định đúng?",
+      "explanation": "Theo định lý sin trong tam giác $ABC$, ta có $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$. Do đó khẳng định $\\frac{b}{\\sin B} = 2R$ là đúng. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Trong các câu dưới đây, câu nào là mệnh đề?",
+      "explanation": "Mệnh đề là câu khẳng định có tính đúng hoặc sai dứt khoát. Khẳng định \"Số 12 là số nguyên tố\" là một khẳng định sai dứt khoát, do đó là một mệnh đề. Các câu còn lại là câu hỏi, câu cảm thán hoặc không dứt khoát. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn có dạng $ax + by > c$ (hoặc $\\ge, <, \\le$) với $a, b$ không đồng thời bằng 0. Bất phương trình $x + 3y > 0$ là bất phương trình bậc nhất hai ẩn. Các bất phương trình khác chứa 3 ẩn hoặc bậc hai, bậc ba. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, điểm nào dưới đây thuộc miền nghiệm của hệ $\\begin{cases} x + y \\ge 2 \\\\ x - 3y \\le -3 \\end{cases}$?",
+      "explanation": "Thay tọa độ điểm $P(1; 3)$ vào hệ bất phương trình:\n- $1 + 3 = 4 \\ge 2$ (thỏa mãn);\n- $1 - 3(3) = -8 \\le -3$ (thỏa mãn).\nDo đó điểm $P(1; 3)$ thuộc miền nghiệm của hệ. Các điểm khác đều vi phạm ít nhất một bất phương trình. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Giá trị của biểu thức $A = 2 - \\sqrt{2}\\sin 45^\\circ + \\cos^2 60^\\circ$ là",
+      "explanation": "Ta có các giá trị lượng giác: $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}$ và $\\cos 60^\\circ = \\frac{1}{2}$.\nThay vào biểu thức $A$:\n$$A = 2 - \\sqrt{2} \\cdot \\frac{\\sqrt{2}}{2} + \\left(\\frac{1}{2}\\right)^2 = 2 - 1 + \\frac{1}{4} = 1 + \\frac{1}{4} = \\frac{5}{4}$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ biết $a = 3\\text{ cm}, c = 4\\text{ cm}, \\widehat{B} = 30^\\circ$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Tính toán các yếu tố của tam giác $ABC$:\n- a) Áp dụng định lý côsin: $b^2 = a^2 + c^2 - 2ac\\cos B = 3^2 + 4^2 - 2(3)(4)\\cos 30^\\circ = 25 - 12\\sqrt{3} \\approx 4{,}215 \\Rightarrow b \\approx 2{,}05\\text{ cm} \\ne 2{,}5\\text{ cm}$. Khẳng định a là SAI.\n- b) Diện tích tam giác: $S = \\frac{1}{2}ac\\sin B = \\frac{1}{2}(3)(4)\\sin 30^\\circ = 3\\text{ cm}^2$. Khẳng định b là ĐÚNG.\n- c) Nửa chu vi $p = \\frac{a + b + c}{2} \\approx \\frac{3 + 2{,}05 + 4}{2} = 4{,}525\\text{ cm}$. Bán kính đường tròn nội tiếp $r = \\frac{S}{p} \\approx \\frac{3}{4{,}525} \\approx 0{,}663\\text{ cm} \\approx 0{,}7\\text{ cm}$. Khẳng định c là ĐÚNG.\n- d) Độ dài đường trung tuyến $m_b^2 = \\frac{2(a^2 + c^2) - b^2}{4} = \\frac{2(9 + 16) - 4{,}215}{4} = \\frac{45{,}785}{4} \\approx 11{,}446 \\Rightarrow m_b \\approx 3{,}38\\text{ cm} \\ne 4{,}02\\text{ cm}$. Khẳng định d là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Xét từng mệnh đề:\n- a) Bất phương trình $|2x - 5| \\le 7 \\Leftrightarrow -7 \\le 2x - 5 \\le 7 \\Leftrightarrow -2 \\le 2x \\le 12 \\Leftrightarrow -1 \\le x \\le 6$. Số giá trị nguyên của $x$ là $6 - (-1) + 1 = 8$ giá trị. Khẳng định ghi 7 giá trị là SAI.\n- b) Phương trình bậc hai $2x^2 - 3x + 1 = 0$ có $a + b + c = 0$, có hai nghiệm là $x = 1$ và $x = \\frac{1}{2}$. Khẳng định ghi \"vô nghiệm\" là SAI.\n- c) Mệnh đề $P \\Rightarrow Q$ có mệnh đề đảo là $Q \\Rightarrow P$. Do đó mệnh đề đảo của $T$ là “Nếu hai tam giác có diện tích bằng nhau thì chúng bằng nhau”. Khẳng định là ĐÚNG.\n- d) Phủ định của mệnh đề với mọi phải là mệnh đề tồn tại: $\\overline{Q}: \"\\exists x \\in \\mathbb{R}, x^2 + 1 < 0\"$. Khẳng định dùng lượng từ $\\forall$ là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Một bãi đậu xe ban đêm có diện tích đậu xe là $150\\text{ m}^2$ (không tính lối đi cho xe ra vào). Cho biết xe du lịch cần diện tích $3\\text{ m}^2$/chiếc và phải trả phí 40 nghìn đồng, xe tải cần diện tích $5\\text{ m}^2$/chiếc và phải trả phí 50 nghìn đồng. Nhân viên quản lí không thể phục vụ quá 40 xe một đêm. Hỏi bãi giữ xe nên cho đăng kí mỗi loại xe bao nhiêu chiếc để doanh thu lớn nhất? Gọi $x$ là số xe du lịch và $y$ là số xe tải mà chủ bãi xe nên cho đậu một đêm. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Thiết lập mô hình toán học:\n- Số lượng xe du lịch $x$ và xe tải $y$ phải thỏa mãn: $x \\ge 0, y \\ge 0$ và $x, y \\in \\mathbb{N}$. Khẳng định a là ĐÚNG.\n- Ràng buộc: $x + y \\le 40$ (số lượng xe) và $3x + 5y \\le 150$ (diện tích bãi đỗ). Miền nghiệm trên mặt phẳng tọa độ là miền tứ giác $OABC$ với các đỉnh $O(0; 0), A(40; 0), B(25; 15), C(0; 30)$, không phải là hình tam giác. Khẳng định b là SAI.\n- Tổng doanh thu trong 1 đêm là $F(x; y) = 40x + 50y$ (nghìn đồng). Khẳng định c là ĐÚNG.\n- Tính doanh thu tại các đỉnh: $F(O) = 0, F(A) = 1600, F(C) = 1500$, và $F(B) = 40(25) + 50(15) = 1750$ nghìn đồng. Doanh thu cao nhất đạt được khi cho đỗ 25 xe du lịch và 15 xe tải. Khẳng định d là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p2.png",
+          "sha256": "8f45dc4e18b2c6bc955180f2c692cae2d178ea813af997c6305177d8cb668d4f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Xét từng mệnh đề:\n- a) Phương trình $x^2 + 2 = 0 \\Leftrightarrow x^2 = -2$ không có nghiệm thực, do đó $A = \\varnothing$. Khẳng định là ĐÚNG.\n- b) Tập hợp $A = \\{x \\in \\mathbb{N} \\mid 4 \\le x < 9\\} = \\{4; 5; 6; 7; 8\\}$, có đúng 5 phần tử. Khẳng định ghi 4 phần tử là SAI.\n- c) Ta có $A \\cap B = (A \\cup B) \\setminus ((A \\setminus B) \\cup (B \\setminus A)) = \\{a; b; c; d; e; f; g; h\\} \\setminus \\{a; b; f; g; h\\} = \\{c; d; e\\}$. Khẳng định là ĐÚNG.\n- d) Giao của $(-5; 2]$ và $[-4; +\\infty)$ gồm các số thực $x$ thỏa mãn $-5 < x \\le 2$ và $x \\ge -4$, tức là $-4 \\le x \\le 2$, chính là đoạn $[-4; 2]$. Khẳng định là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p3.png",
+          "sha256": "d86753fcf0a07d2a0eff3f5d7a72d1cb747264fe535e5769837a827ee055ff65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Các góc nhìn đến đỉnh núi so với mực nước biển được đo từ hai đèn tín hiệu $A$ và $B$ trên biển được thể hiện trên hình vẽ. Nếu các đèn tín hiệu cách nhau $1536\\text{ m}$ thì ngọn núi cao bao nhiêu mét? (làm tròn kết quả đến hàng đơn vị)?\n\n![Đo chiều cao ngọn núi](/math-import-assets/thpt-figure-013-p3-part3-q1-mountain.png)",
+      "explanation": "Gọi $T$ là đỉnh núi và $N$ là chân đường vuông góc kẻ từ $T$ xuống mặt nước biển nằm ngang. Chiều cao của ngọn núi là $h = TN$.\nTừ hình vẽ, trên đường thẳng bờ biển đi qua $A, B, N$ ta có:\n- $\\widehat{TAN} = 27{,}4^\\circ$;\n- $\\widehat{TBN} = 39{,}6^\\circ$;\n- Khoảng cách $AB = 1536\\text{ m}$.\nTrong tam giác $TAB$, góc $\\widehat{TBN}$ là góc ngoài tại đỉnh $B$ nên:\n$$\\widehat{ATB} = \\widehat{TBN} - \\widehat{TAB} = 39{,}6^\\circ - 27{,}4^\\circ = 12{,}2^\\circ$$\nÁp dụng định lý sin trong tam giác $TAB$ để tính cạnh $BT$:\n$$\\frac{BT}{\\sin(\\widehat{TAB})} = \\frac{AB}{\\sin(\\widehat{ATB})} \\Rightarrow BT = \\frac{AB \\cdot \\sin 27{,}4^\\circ}{\\sin 12{,}2^\\circ} = \\frac{1536 \\cdot \\sin 27{,}4^\\circ}{\\sin 12{,}2^\\circ} \\approx 3344{,}93\\text{ m}$$\nTrong tam giác vuông $TBN$ vuông tại $N$, chiều cao của ngọn núi là:\n$$h = TN = BT \\cdot \\sin(\\widehat{TBN}) \\approx 3344{,}93 \\cdot \\sin 39{,}6^\\circ \\approx 2132{,}14\\text{ m} \\approx 2132\\text{ m}$$\nLàm tròn đến hàng đơn vị ta được kết quả là $2132\\text{ m}$.\nĐáp số: 2132.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p3.png",
+          "sha256": "d86753fcf0a07d2a0eff3f5d7a72d1cb747264fe535e5769837a827ee055ff65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Một xưởng sản xuất hai loại sản phẩm là sản phẩm loại I và sản phẩm loại II:\n- Mỗi kg sản phẩm loại I cần 2 kg nguyên liệu và 30 giờ, thu lời được 40 nghìn.\n- Mỗi kg sản phẩm loại II cần 4 kg nguyên liệu và 15 giờ, thu lời được 30 nghìn.\nXưởng có 200 kg nguyên liệu và 1200 giờ làm việc tối đa. Gọi $x, y$ lần lượt là số sản phẩm loại I và loại II mà xưởng sản xuất để thu được lợi nhuận lớn nhất. Khi đó tổng $x + y = ?$",
+      "explanation": "Gọi $x, y$ lần lượt là số kg sản phẩm loại I và loại II mà xưởng sản xuất ($x \\ge 0, y \\ge 0$).\nRàng buộc về nguyên liệu: $2x + 4y \\le 200 \\Leftrightarrow x + 2y \\le 100$.\nRàng buộc về thời gian làm việc: $30x + 15y \\le 1200 \\Leftrightarrow 2x + y \\le 80$.\nTa có hệ bất phương trình:\n$$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x + 2y \\le 100 \\\\ 2x + y \\le 80 \\end{cases}$$\nTổng tiền lời là hàm mục tiêu: $F(x; y) = 40x + 30y$ (nghìn đồng).\nMiền nghiệm là tứ giác $OABC$ với các đỉnh $O(0; 0), A(0; 50), B(20; 40), C(40; 0)$.\nTính tiền lời tại các đỉnh:\n- $F(O) = 0$\n- $F(A) = 30(50) = 1500$\n- $F(B) = 40(20) + 30(40) = 2000$\n- $F(C) = 40(40) = 1600$\nLợi nhuận lớn nhất đạt được là $2000$ nghìn đồng khi $x = 20$ và $y = 40$.\nKhi đó tổng số lượng sản phẩm là $x + y = 20 + 40 = 60$.\nĐáp số: 60.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p3.png",
+          "sha256": "d86753fcf0a07d2a0eff3f5d7a72d1cb747264fe535e5769837a827ee055ff65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho mệnh đề $P: \"\\forall x \\in \\mathbb{R}, x(x + 1) = 0\"$. Hãy xét tính đúng sai và lập mệnh đề phủ định của mệnh đề $P$?",
+      "explanation": "- Xét tính đúng sai: Phương trình $x(x + 1) = 0$ chỉ có hai nghiệm thực là $x = 0$ và $x = -1$. Với các giá trị $x$ khác (ví dụ $x = 1$, ta có $1(1 + 1) = 2 \\ne 0$), đẳng thức không thỏa mãn. Do đó khẳng định đẳng thức xảy ra với mọi $x \\in \\mathbb{R}$ là sai. Vậy mệnh đề $P$ là mệnh đề SAI.\n- Mệnh đề phủ định của $P$ là:\n$$\\overline{P}: \"\\exists x \\in \\mathbb{R}, x(x + 1) \\ne 0\"$$\nĐáp số: Mệnh đề P sai; phủ định là \\bar{P}: \\exists x \\in \\mathbb{R}, x(x + 1) \\ne 0.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p3.png",
+          "sha256": "d86753fcf0a07d2a0eff3f5d7a72d1cb747264fe535e5769837a827ee055ff65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp con của tập số thực $\\mathbb{R}$ sau: $A = \\{x \\in \\mathbb{R} \\mid x \\le 3\\}$, $B = \\{x \\in \\mathbb{R} \\mid -1 \\le x < 4\\}$. Xác định $A \\cap B$ và biểu diễn trên trục số?",
+      "explanation": "Viết các tập hợp dưới dạng các khoảng/nửa khoảng trên tập số thực $\\mathbb{R}$:\n- $A = (-\\infty; 3]$\n- $B = [-1; 4)$\nGiao của hai tập hợp $A \\cap B$ gồm tất cả các số thực $x$ thỏa mãn đồng thời $x \\le 3$ và $-1 \\le x < 4$:\n$$-1 \\le x \\le 3$$\nDo đó $A \\cap B = [-1; 3]$.\nBiểu diễn trên trục số: Tô đậm đoạn $[-1; 3]$ (với ngoặc vuông tại hai đầu mút $-1$ và $3$), gạch bỏ phần còn lại nằm ngoài đoạn $[-1; 3]$.\nĐáp số: [-1; 3].",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p3.png",
+          "sha256": "d86753fcf0a07d2a0eff3f5d7a72d1cb747264fe535e5769837a827ee055ff65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Biểu diễn miền nghiệm của bất phương trình: $2x + y \\le -2$?",
+      "explanation": "Các bước biểu diễn miền nghiệm của bất phương trình $2x + y \\le -2$:\n1. Vẽ đường thẳng $d: 2x + y = -2$ trên mặt phẳng tọa độ $Oxy$:\n   - Cho $x = 0 \\Rightarrow y = -2$, điểm $(0; -2) \\in d$.\n   - Cho $y = 0 \\Rightarrow x = -1$, điểm $(-1; 0) \\in d$.\n   Vẽ đường thẳng $d$ đi qua hai điểm $(0; -2)$ và $(-1; 0)$.\n2. Chọn điểm kiểm tra $O(0; 0)$ không thuộc đường thẳng $d$.\n   Thay tọa độ $O(0; 0)$ vào vế trái bất phương trình:\n   $$2(0) + 0 = 0$$\n   Vì $0 \\le -2$ là bất đẳng thức sai, nên điểm $O(0; 0)$ không thuộc miền nghiệm.\n3. Kết luận: Miền nghiệm của bất phương trình $2x + y \\le -2$ là nửa mặt phẳng có bờ là đường thẳng $d: 2x + y = -2$ không chứa gốc tọa độ $O(0; 0)$ (kể cả bờ $d$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p3.png",
+          "sha256": "d86753fcf0a07d2a0eff3f5d7a72d1cb747264fe535e5769837a827ee055ff65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-013-M008-PART-IV-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-013.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "008",
+      "sourceExamName": "Mã đề 008",
+      "independentlyReasoned": true,
+      "content": "Khi khai quật một ngôi mộ cổ, người ta tìm được một mảnh của một chiếc đĩa phẳng hình tròn bị vỡ. Họ muốn làm một chiếc đĩa mới phỏng theo chiếc đĩa này bằng cách tìm ra bán kính của chiếc đĩa. Khi lấy ba điểm $A, B, C$ bất kì trên cung tròn (mép đĩa) thì họ đo được $AB = 6\\text{ cm}, BC = 8\\text{ cm}$, $\\widehat{B} = 150^\\circ$. Tính bán kính của chiếc đĩa ban đầu (làm tròn kết quả đến hàng phần mười theo đơn vị xăng-ti-mét).\n\n![Mảnh đĩa cổ](/math-import-assets/thpt-figure-013-p3-part4-q4-plate.png)",
+      "explanation": "Ba điểm $A, B, C$ nằm trên mép tròn của chiếc đĩa, do đó đường tròn chiếc đĩa là đường tròn ngoại tiếp tam giác $ABC$.\nÁp dụng định lý côsin trong tam giác $ABC$ để tính độ dài cạnh $AC$:\n$$AC^2 = AB^2 + BC^2 - 2 \\cdot AB \\cdot BC \\cdot \\cos B$$\n$$AC^2 = 6^2 + 8^2 - 2 \\cdot 6 \\cdot 8 \\cdot \\cos 150^\\circ$$\nVì $\\cos 150^\\circ = -\\frac{\\sqrt{3}}{2}$ nên:\n$$AC^2 = 36 + 64 - 96 \\cdot \\left(-\\frac{\\sqrt{3}}{2}\\right) = 100 + 48\\sqrt{3} \\approx 183{,}1384 \\Rightarrow AC \\approx 13{,}533\\text{ cm}$$\nÁp dụng định lý sin để tính bán kính $R$ của đường tròn ngoại tiếp:\n$$2R = \\frac{AC}{\\sin B} = \\frac{AC}{\\sin 150^\\circ}$$\nVì $\\sin 150^\\circ = \\frac{1}{2}$ nên:\n$$2R = \\frac{AC}{\\frac{1}{2}} = 2AC \\Rightarrow R = AC \\approx 13{,}533\\text{ cm} \\approx 13{,}5\\text{ cm}$$\nLàm tròn kết quả đến hàng phần mười, bán kính của chiếc đĩa ban đầu là $13{,}5\\text{ cm}$.\nĐáp số: 13,5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p3.png",
+          "sha256": "d86753fcf0a07d2a0eff3f5d7a72d1cb747264fe535e5769837a827ee055ff65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-013-p7.png",
+          "sha256": "4419e76a3f6ca9044393691c09c34ef4445e88dc1a9e57160bd7e0781aac7adc"
+        }
+      ]
+    }
+  ]
+}

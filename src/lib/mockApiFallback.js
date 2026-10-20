@@ -39,8 +39,8 @@ const INITIAL_USERS = [
     status: 'ACTIVE',
     createdAt: '2026-09-01T08:00:00Z',
     studentProfile: {
-      grade: 9,
-      targetGoal: 'Ôn thi vào lớp 10',
+      grade: 10,
+      targetGoal: 'Ôn thi cuối kỳ',
       dailyMinutes: 45,
       examDate: '2027-06-10',
       selfAssessment: 'Khá'
@@ -50,12 +50,12 @@ const INITIAL_USERS = [
     id: 'mock_teacher_1',
     username: 'thaynam',
     fullName: 'Thầy Nguyễn Văn Nam',
-    email: 'thaynam@thcs.edu.vn',
+    email: 'thaynam@thpt.edu.vn',
     role: 'TEACHER',
     status: 'ACTIVE',
     createdAt: '2026-08-15T08:00:00Z',
     teacherProfile: {
-      schoolName: 'THCS Chu Văn An, Hà Nội',
+      schoolName: 'THPT Chu Văn An, Hà Nội',
       city: 'Hà Nội',
       verificationStatus: 'VERIFIED'
     }
@@ -64,12 +64,12 @@ const INITIAL_USERS = [
     id: 'mock_applicant_1',
     username: 'teacher_pending',
     fullName: 'Cô Lê Thu Trang (Chờ duyệt)',
-    email: 'thutrang@thcs.edu.vn',
+    email: 'thutrang@thpt.edu.vn',
     role: 'TEACHER_APPLICANT',
     status: 'ACTIVE',
     createdAt: '2026-10-02T10:00:00Z',
     teacherProfile: {
-      schoolName: 'THCS Giảng Võ, Hà Nội',
+      schoolName: 'THPT Giảng Võ, Hà Nội',
       city: 'Hà Nội',
       verificationStatus: 'PENDING_REVIEW'
     }
@@ -88,15 +88,15 @@ const INITIAL_USERS = [
 const INITIAL_CLASSROOMS = [
   {
     id: 'cls_math_9a1',
-    name: 'Toán 9A1 — Luyện Thi Chuyên',
-    grade: 9,
+    name: 'Toán 10A1 — Luyện Thi Chuyên',
+    grade: 10,
     academicYear: '2026-2027',
     teacherId: 'mock_teacher_1',
     teacher: { fullName: 'Thầy Nguyễn Văn Nam' },
     activeInviteCode: {
       id: 'inv_math_1',
-      code: 'MATH9A1X',
-      codePrefix: 'MATH9',
+      code: 'MATH10A1X',
+      codePrefix: 'MATH10',
       expiresAt: '2026-11-30T23:59:59Z',
       usedCount: 18,
       maxUses: 45,
@@ -105,8 +105,8 @@ const INITIAL_CLASSROOMS = [
     inviteCodes: [
       {
         id: 'inv_math_1',
-        code: 'MATH9A1X',
-        codePrefix: 'MATH9',
+        code: 'MATH10A1X',
+        codePrefix: 'MATH10',
         expiresAt: '2026-11-30T23:59:59Z',
         usedCount: 18,
         maxUses: 45,
@@ -189,8 +189,8 @@ export function handleMockApi(endpoint, options = {}) {
       status: 'ACTIVE',
       createdAt: new Date().toISOString(),
       studentProfile: {
-        grade: 9,
-        targetGoal: 'Ôn thi vào lớp 10',
+        grade: 10,
+        targetGoal: 'Ôn thi cuối kỳ',
         dailyMinutes: 45,
         selfAssessment: 'Khá'
       }
@@ -211,7 +211,7 @@ export function handleMockApi(endpoint, options = {}) {
       status: 'ACTIVE',
       createdAt: new Date().toISOString(),
       teacherProfile: {
-        schoolName: body.schoolName || 'THCS Giảng Võ, Hà Nội',
+        schoolName: body.schoolName || 'THPT Giảng Võ, Hà Nội',
         city: body.city || 'Hà Nội',
         verificationStatus: 'PENDING_REVIEW'
       }
@@ -245,8 +245,8 @@ export function handleMockApi(endpoint, options = {}) {
   // 2. STUDENT ENDPOINTS
   if (endpoint === '/student/profile') {
     const prof = activeUser?.studentProfile || {
-      grade: 9,
-      targetGoal: 'Ôn thi vào lớp 10',
+      grade: 10,
+      targetGoal: 'Ôn thi cuối kỳ',
       dailyMinutes: 45,
       examDate: '2027-06-10',
       selfAssessment: 'Khá'
@@ -308,7 +308,7 @@ export function handleMockApi(endpoint, options = {}) {
 
   if (endpoint === '/student/learning-path') {
     return {
-      grade: 9,
+      grade: 10,
       path: [
         { id: 'node_1', code: 'C1', title: 'Chương 1: Căn bậc hai & Căn thức', status: 'COMPLETED', progress: 100, score: 88 },
         { id: 'node_2', code: 'C2', title: 'Chương 2: Hệ phương trình bậc nhất hai ẩn', status: 'IN_PROGRESS', progress: 75, score: 80 },
@@ -409,7 +409,7 @@ export function handleMockApi(endpoint, options = {}) {
       finalTheta: 0.78,
       estimatedGradeScore: 8.5,
       completedAt: new Date().toISOString(),
-      summary: 'Năng lực toán học của học sinh đạt mức Khá - Giỏi, vững vàng kiến thức nền tảng THCS.'
+      summary: 'Năng lực toán học của học sinh đạt mức Khá - Giỏi, vững vàng kiến thức nền tảng THPT.'
     };
   }
 
@@ -432,7 +432,7 @@ export function handleMockApi(endpoint, options = {}) {
       const newClass = {
         id: `cls_${Date.now()}`,
         name: body.name || 'Lớp Học Mới',
-        grade: body.grade || 9,
+        grade: body.grade || 10,
         academicYear: body.academicYear || '2026-2027',
         teacherId: activeUser?.id || 'mock_teacher_1',
         teacher: { fullName: activeUser?.fullName || 'Thầy Nam' },

@@ -6,6 +6,9 @@ export default defineConfig(({ mode }) => {
  const apiTarget = process.env.API_PROXY_TARGET || env.API_PROXY_TARGET || 'http://localhost:4000';
  return {
   plugins: [react()],
+  // The shared curriculum is CommonJS for the API and is linked as a workspace.
+  // Prebundle it explicitly so the development browser receives ESM exports.
+  optimizeDeps: { include: ['@adaptivemath/contracts/curriculum.js'] },
   build: {
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
@@ -26,6 +29,7 @@ export default defineConfig(({ mode }) => {
     }
   },
   server: {
+    fs: { deny: ['.env', '.env.*', '*.{crt,pem}', '**/.git/**', '**/content/**', '**/outputs/**', '**/tmp/**', '**/.cache/**', '**/docs/evidence/**', '**/apps/api/**'] },
     port: 3000,
     strictPort: true,
     open: false,

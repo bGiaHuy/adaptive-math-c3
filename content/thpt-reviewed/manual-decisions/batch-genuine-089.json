@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-089",
+  "reviewedAt": "2026-10-20T14:05:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x - 3}{x + 1}$. Mệnh đề nào dưới đây đúng?",
+      "explanation": "Tập xác định $D = \\mathbb{R} \\setminus \\{-1\\}$. Ta có đạo hàm $y' = \\frac{1 \\cdot 1 - (-3) \\cdot 1}{(x + 1)^2} = \\frac{4}{(x + 1)^2} > 0, \\forall x \\neq -1$. Do đó hàm số đồng biến trên từng khoảng $(-\\infty; -1)$ và $(-1; +\\infty)$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p8.png",
+          "sha256": "2f22ac5b1ae41f45d71e1b9a637db8d9f5349eff86bb1908420bd975202a07d8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tiệm cận đứng của đồ thị hàm số $y = \\frac{3x + 1}{x - 2}$ là đường thẳng",
+      "explanation": "Ta có $\\lim_{x \\to 2^+} \\frac{3x + 1}{x - 2} = +\\infty$ và $\\lim_{x \\to 2^-} \\frac{3x + 1}{x - 2} = -\\infty$ nên đường thẳng $x = 2$ là tiệm cận đứng của đồ thị hàm số. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p8.png",
+          "sha256": "2f22ac5b1ae41f45d71e1b9a637db8d9f5349eff86bb1908420bd975202a07d8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian, cho hình hộp $ABCD.A'B'C'D'. Vectơ nào sau đây là vectơ đối của vectơ $\\vec{AA'}$?",
+      "explanation": "Trong hình hộp $ABCD.A'B'C'D', ta có $\\vec{CC'} = \\vec{AA'}$. Vectơ đối của vectơ $\\vec{AA'}$ là $-\\vec{AA'} = -\\vec{CC'} = \\vec{C'C}$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p8.png",
+          "sha256": "2f22ac5b1ae41f45d71e1b9a637db8d9f5349eff86bb1908420bd975202a07d8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên với $y' > 0$ trên $(-\\infty; -2)$, $y' < 0$ trên $(-2; 1)$ và $(1; 4)$, $y' > 0$ trên $(4; +\\infty)$, không xác định tại $x = 1$. Hàm số $y = f(x)$ nghịch biến trên khoảng nào dưới đây?",
+      "explanation": "Dựa vào bảng biến thiên, ta thấy $y' < 0$ trên khoảng $(-2; 1)$ nên hàm số nghịch biến trên khoảng $(-2; 1)$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p8.png",
+          "sha256": "2f22ac5b1ae41f45d71e1b9a637db8d9f5349eff86bb1908420bd975202a07d8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tiệm cận xiên của đồ thị hàm số $y = f(x) = 2x - 1 - \\frac{1}{x + 1}$ có phương trình là",
+      "explanation": "Ta có $\\lim_{x \\to \\pm\\infty} [f(x) - (2x - 1)] = \\lim_{x \\to \\pm\\infty} \\left(-\\frac{1}{x + 1}\\right) = 0$. Do đó đường thẳng $y = 2x - 1$ là tiệm cận xiên của đồ thị hàm số. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p8.png",
+          "sha256": "2f22ac5b1ae41f45d71e1b9a637db8d9f5349eff86bb1908420bd975202a07d8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường cong trong hình vẽ là đồ thị của hàm số nào trong bốn hàm số dưới đây? (Đồ thị có tiệm cận đứng $x = -1$, tiệm cận ngang $y = -2$, cắt trục tung tại $(0; 2)$ và cắt trục hoành tại $(1; 0)$).",
+      "explanation": "Đồ thị có tiệm cận đứng $x = -1$ và tiệm cận ngang $y = -2$. Trong các phương án, chỉ có hàm số $y = \\frac{-2x + 2}{x + 1}$ có tiệm cận ngang $y = \\frac{-2}{1} = -2$, tiệm cận đứng $x = -1$, đi qua $(0; 2)$ và $(1; 0)$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p8.png",
+          "sha256": "2f22ac5b1ae41f45d71e1b9a637db8d9f5349eff86bb1908420bd975202a07d8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị nhỏ nhất của hàm số $y = \\frac{2x - 1}{x + 1}$ trên đoạn $[1; 2]$ là",
+      "explanation": "Hàm số liên tục trên $[1; 2]$. Ta có $y' = \\frac{3}{(x + 1)^2} > 0, \\forall x \\in [1; 2]$, do đó hàm số đồng biến trên $[1; 2]$. Giá trị nhỏ nhất là $\\min_{[1; 2]} y = y(1) = \\frac{2(1) - 1}{1 + 1} = \\frac{1}{2}$. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p8.png",
+          "sha256": "2f22ac5b1ae41f45d71e1b9a637db8d9f5349eff86bb1908420bd975202a07d8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị cực tiểu của hàm số $y = -x^4 + 8x^2 + 2025$ là",
+      "explanation": "Ta có $y' = -4x^3 + 16x = -4x(x^2 - 4) = 0 \\iff x = 0$ hoặc $x = \\pm 2$. Lập bảng xét dấu, ta thấy $y'$ đổi dấu từ âm sang dương khi qua $x = 0$, nên $x = 0$ là điểm cực tiểu của hàm số. Giá trị cực tiểu là $y(0) = 2025$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p9.png",
+          "sha256": "a41a7541667ec9616810b6a8fe5b40c55360aebc9c55a645a4a2ea6670f0495c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị trên đoạn $[-3; 3]$ như hình vẽ. Giá trị lớn nhất $M$ và giá trị nhỏ nhất $m$ của hàm số $f(x)$ trên $[-3; 3]$ lần lượt là",
+      "explanation": "Quan sát đồ thị hàm số trên đoạn $[-3; 3]$, điểm cao nhất của đồ thị có tọa độ $(1; 4)$ nên $M = \\max_{[-3; 3]} f(x) = 4$. Điểm thấp nhất của đồ thị có tọa độ $(-1; -2)$ nên $m = \\min_{[-3; 3]} f(x) = -2$. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p9.png",
+          "sha256": "a41a7541667ec9616810b6a8fe5b40c55360aebc9c55a645a4a2ea6670f0495c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $|\\vec{a}| = 2; |\\vec{b}| = 6$, góc giữa hai vectơ $\\vec{a}$ và $\\vec{b}$ bằng $120^\\circ$. Khẳng định nào dưới đây đúng?",
+      "explanation": "Áp dụng công thức tích vô hướng của hai vectơ: $\\vec{a} \\cdot \\vec{b} = |\\vec{a}| \\cdot |\\vec{b}| \\cdot \\cos(\\vec{a}, \\vec{b}) = 2 \\cdot 6 \\cdot \\cos 120^\\circ = 12 \\cdot \\left(-\\frac{1}{2}\\right) = -6$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p9.png",
+          "sha256": "a41a7541667ec9616810b6a8fe5b40c55360aebc9c55a645a4a2ea6670f0495c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên: $f'(x)$ đổi dấu từ dương sang âm qua $x = 0$ và đổi dấu từ âm sang dương qua $x = 2$, với $f(0) = 4, f(2) = 0$. Điểm cực tiểu của hàm số đã cho là",
+      "explanation": "Dựa vào bảng biến thiên, đạo hàm $f'(x)$ đổi dấu từ âm sang dương khi đi qua điểm $x = 2$. Do đó điểm cực tiểu của hàm số đã cho là $x = 2$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p9.png",
+          "sha256": "a41a7541667ec9616810b6a8fe5b40c55360aebc9c55a645a4a2ea6670f0495c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'. Khẳng định nào sau đây là đúng?",
+      "explanation": "Theo quy tắc hình hộp, với ba cạnh xuất phát từ đỉnh $A$, ta có $\\vec{AC'} = \\vec{AB} + \\vec{AD} + \\vec{AA'}$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p9.png",
+          "sha256": "a41a7541667ec9616810b6a8fe5b40c55360aebc9c55a645a4a2ea6670f0495c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = x^3 - 3x + 2$. Khi đó\nCác mệnh đề sau đúng hay sai?\na) Tập xác định của hàm số đã cho là $(0; +\\infty)$.\nb) Đồ thị của hàm số đã cho đi qua điểm $(0; 2)$.\nc) Hàm số đạt cực trị tại $x = 0$.\nd) Giá trị lớn nhất của hàm số đã cho trên đoạn $[0; 2]$ bằng 4.",
+      "explanation": "a) Sai: Hàm số $y = x^3 - 3x + 2$ là hàm đa thức bậc ba có tập xác định là $D = \\mathbb{R}$. Do đó khẳng định a sai.\nb) Đúng: Thay $x = 0$ vào hàm số: $y(0) = 0^3 - 3(0) + 2 = 2$. Vậy đồ thị đi qua điểm $(0; 2)$. Khẳng định b đúng.\nc) Sai: Ta có $y' = 3x^2 - 3 = 0 \\iff x = \\pm 1$. Hàm số đạt cực trị tại $x = 1$ và $x = -1$, không đạt cực trị tại $x = 0$. Khẳng định c sai.\nd) Đúng: Xét trên đoạn $[0; 2]$: $y(0) = 2, y(1) = 0, y(2) = 2^3 - 3(2) + 2 = 4$. Do đó giá trị lớn nhất trên $[0; 2]$ là $\\max_{[0; 2]} y = 4$. Khẳng định d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p9.png",
+          "sha256": "a41a7541667ec9616810b6a8fe5b40c55360aebc9c55a645a4a2ea6670f0495c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x^2 + x + 1}{x + 1}$.\nCác mệnh đề sau đúng hay sai?\na) Hàm số $y = f(x)$ đồng biến trên $\\mathbb{R}$.\nb) $y' = \\frac{x^2 - 2x}{(x + 1)^2}, \\forall x \\neq -1$.\nc) Hàm số có bảng biến thiên với cực đại tại $(-2; -3)$ và cực tiểu tại $(0; 1)$.\nd) Khoảng cách giữa hai điểm cực trị của đồ thị hàm số bằng $2\\sqrt{5}$.",
+      "explanation": "a) Sai: Hàm số không xác định tại $x = -1$ nên không thể đồng biến trên $\\mathbb{R}$. Khẳng định a sai.\nb) Sai: Ta có $y' = \\frac{(2x + 1)(x + 1) - (x^2 + x + 1) \\cdot 1}{(x + 1)^2} = \\frac{2x^2 + 3x + 1 - x^2 - x - 1}{(x + 1)^2} = \\frac{x^2 + 2x}{(x + 1)^2} \\neq \\frac{x^2 - 2x}{(x + 1)^2}$. Khẳng định b sai.\nc) Đúng: Ta có $y' = 0 \\iff x^2 + 2x = 0 \\iff x = 0$ hoặc $x = -2$. Tại $x = -2$: $y = -3$ (điểm cực đại). Tại $x = 0$: $y = 1$ (điểm cực tiểu). Bảng biến thiên hoàn toàn chính xác. Khẳng định c đúng.\nd) Đúng: Hai điểm cực trị là $A(-2; -3)$ và $B(0; 1)$. Khoảng cách là $AB = \\sqrt{(0 - (-2))^2 + (1 - (-3))^2} = \\sqrt{4 + 16} = \\sqrt{20} = 2\\sqrt{5}$. Khẳng định d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p10.png",
+          "sha256": "30165599dac5d74024a519149ba465591da6e039cbb1dbc841a89497aaafa9bb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABCD.A'B'C'D', cạnh bằng $a$. Xét tính đúng, sai của các khẳng định sau:\nCác mệnh đề sau đúng hay sai?\na) $\\vec{B'B} - \\vec{DB} = \\vec{B'D}$.\nb) $\\vec{BA} + \\vec{BC} + \\vec{BB'} = \\vec{BD}$.\nc) $|\\vec{BA} + \\vec{BC} + \\vec{BB'}| = a\\sqrt{2}$.\nd) $|\\vec{BC} - \\vec{BA} + \\vec{C'A}| = a$.",
+      "explanation": "a) Đúng: Ta có $\\vec{B'B} - \\vec{DB} = \\vec{B'B} + \\vec{BD} = \\vec{B'D}$. Khẳng định a đúng.\nb) Sai: Theo quy tắc hình hộp, $\\vec{BA} + \\vec{BC} + \\vec{BB'} = \\vec{BD'} \\neq \\vec{BD}$. Khẳng định b sai.\nc) Sai: Ta có $|\\vec{BA} + \\vec{BC} + \\vec{BB'}| = |\\vec{BD'}| = \\sqrt{a^2 + a^2 + a^2} = a\\sqrt{3} \\neq a\\sqrt{2}$. Khẳng định c sai.\nd) Đúng: Ta có $\\vec{BC} - \\vec{BA} = \\vec{AC}$. Khi đó $\\vec{AC} + \\vec{C'A} = \\vec{C'C}$. Do đó $|\\vec{BC} - \\vec{BA} + \\vec{C'A}| = |\\vec{C'C}| = a$. Khẳng định d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p10.png",
+          "sha256": "30165599dac5d74024a519149ba465591da6e039cbb1dbc841a89497aaafa9bb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nhà máy A chuyên sản xuất một loại sản phẩm cho nhà máy B. Nếu số lượng đặt hàng là $x$ tấn sản phẩm thì giá bán mỗi tấn là $P(x) = 45 - 0,001x^2$ (triệu đồng). Chi phí để nhà máy A sản xuất $x$ tấn sản phẩm trong một tháng là $C(x) = 100 + 30x$ (triệu đồng).\nCác mệnh đề sau đúng hay sai?\na) Số tiền nhà máy A thu được khi bán 10 tấn sản phẩm cho nhà máy B là 600 triệu đồng.\nb) Chi phí để nhà máy A sản xuất 10 tấn sản phẩm trong một tháng là 400 triệu đồng.\nc) Lợi nhuận mà nhà máy A thu được khi bán $x$ tấn sản phẩm ($0 \\le x \\le 100$) cho nhà máy B là $H(x) = -0,001x^3 + 15x - 100$ (triệu đồng).\nd) Để thu được lợi nhuận lớn nhất thì mỗi tháng nhà máy A bán cho nhà máy B khoảng 70,7 tấn sản phẩm (số tấn làm tròn đến hàng phần chục).",
+      "explanation": "a) Sai: Doanh thu thu được khi bán $x$ tấn là $R(x) = x \\cdot P(x) = x(45 - 0{,}001x^2)$. Với $x = 10$, $R(10) = 10(45 - 0{,}001 \\cdot 100) = 10(44{,}9) = 449\\text{ triệu đồng} \\neq 600\\text{ triệu đồng}$. Khẳng định a sai.\nb) Đúng: Với $x = 10$, chi phí sản xuất là $C(10) = 100 + 30(10) = 400\\text{ triệu đồng}$. Khẳng định b đúng.\nc) Đúng: Lợi nhuận là $H(x) = R(x) - C(x) = (45x - 0{,}001x^3) - (100 + 30x) = -0{,}001x^3 + 15x - 100$. Khẳng định c đúng.\nd) Đúng: Ta có $H'(x) = -0{,}003x^2 + 15 = 0 \\iff x^2 = 5000 \\iff x = 50\\sqrt{2} \\approx 70{,}71 \\approx 70{,}7\\text{ tấn}$. Khẳng định d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p10.png",
+          "sha256": "30165599dac5d74024a519149ba465591da6e039cbb1dbc841a89497aaafa9bb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x^2 + 2x - 3}{x - 2}$, đồ thị hàm số có đường tiệm cận xiên có dạng $(d): y = ax + b$. Tính giá trị của biểu thức $P = \\frac{a}{b}$.",
+      "explanation": "Chia đa thức: $y = \\frac{x(x - 2) + 4(x - 2) + 5}{x - 2} = x + 4 + \\frac{5}{x - 2}$. Khi $x \\to \\pm\\infty$, $\\lim_{x \\to \\pm\\infty} [y - (x + 4)] = 0$ nên tiệm cận xiên là $y = x + 4$. Suy ra $a = 1, b = 4$. Do đó $P = \\frac{a}{b} = \\frac{1}{4} = 0{,}25$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p10.png",
+          "sha256": "30165599dac5d74024a519149ba465591da6e039cbb1dbc841a89497aaafa9bb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường cong ở hình bên là đồ thị hàm số $y = \\frac{ax + 2}{cx + b}$ với $a, b, c$ là các số thực. Tính $a + b + c$.",
+      "explanation": "Dựa vào đồ thị hàm số, tiệm cận ngang là $y = 1 \\implies \\frac{a}{c} = 1 \\implies a = c$. Tiệm cận đứng là $x = 2 \\implies 2c + b = 0 \\implies b = -2c$. Giao điểm với trục tung $Oy$ là $(0; -1) \\implies \\frac{2}{b} = -1 \\implies b = -2$. Suy ra $c = 1$ và $a = 1$. Giao điểm với trục hoành là $(-2; 0)$ thỏa mãn $\\frac{1(-2) + 2}{1(-2) - 2} = 0$. Vậy $a = 1, b = -2, c = 1 \\implies a + b + c = 1 + (-2) + 1 = 0$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p11.png",
+          "sha256": "94ada8f25513ecea29fdb04e96f5dfd239bf5c7052b922269bedd09f5f03c337"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác đều $S.ABCD$ có độ dài cạnh bên và cạnh đáy đều bằng 10. Tính $\\vec{AB} \\cdot \\vec{SC}$.",
+      "explanation": "Vì đáy $ABCD$ là hình vuông nên $\\vec{AB} = \\vec{DC}$. Do đó $\\vec{AB} \\cdot \\vec{SC} = \\vec{DC} \\cdot \\vec{SC} = \\vec{CD} \\cdot \\vec{CS}$. Tam giác $SCD$ có $SC = CD = SD = 10$ nên là tam giác đều, góc $\\widehat{SCD} = 60^\\circ$. Vậy $\\vec{AB} \\cdot \\vec{SC} = |\\vec{CD}| \\cdot |\\vec{CS}| \\cdot \\cos 60^\\circ = 10 \\cdot 10 \\cdot \\frac{1}{2} = 50$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p11.png",
+          "sha256": "94ada8f25513ecea29fdb04e96f5dfd239bf5c7052b922269bedd09f5f03c337"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một doanh nghiệp tư nhân chuyên kinh doanh xe gắn máy các loại. Hiện nay doanh nghiệp đang tập trung vào chiến lược kinh doanh xe X với chi phí mua vào một chiếc là 30 triệu đồng và bán ra với giá 35 triệu đồng. Với giá bán này, số lượng xe mà khách hàng đã mua trong một năm là 400 chiếc. Nhằm mục tiêu đẩy mạnh hơn nữa lượng tiêu thụ dòng xe X đang bán, doanh nghiệp dự định giảm giá bán. Bộ phận nghiên cứu thị trường ước tính rằng nếu giảm 1 triệu đồng mỗi chiếc xe thì số lượng xe bán ra trong một năm sẽ tăng thêm 100 chiếc. Hỏi theo đó, giá bán mới là bao nhiêu thì lợi nhuận thu được cao nhất ?",
+      "explanation": "Gọi $x$ (triệu đồng) là số tiền giảm giá trên mỗi chiếc xe ($x \\ge 0$). Giá bán mới là $35 - x$ (triệu đồng). Lợi nhuận trên một chiếc xe là $(35 - x) - 30 = 5 - x$ (triệu đồng). Số lượng xe bán ra trong năm là $400 + 100x$ (chiếc). Tổng lợi nhuận trong một năm là $L(x) = (5 - x)(400 + 100x) = 100(5 - x)(4 + x) = 100(-x^2 + x + 20)$. Hàm số bậc hai đạt giá trị lớn nhất tại đỉnh $x = -\\frac{b}{2a} = -\\frac{1}{2(-1)} = 0{,}5$. Vậy giá bán mới để lợi nhuận cao nhất là $35 - 0{,}5 = 34{,}5\\text{ triệu đồng}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p11.png",
+          "sha256": "94ada8f25513ecea29fdb04e96f5dfd239bf5c7052b922269bedd09f5f03c337"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một người chèo thuyền từ điểm A trên bờ một con sông thẳng, rộng 3 km và muốn đến điểm B, cách bờ đối diện 8 km về phía hạ lưu, càng nhanh càng tốt như hình vẽ. Người ấy có thể chèo thuyền qua sông đến điểm C rồi chạy bộ đến B, hoặc anh ta có thể chèo thẳng đến B, hoặc có thể chèo thuyền đến điểm D nào đó giữa C và B rồi chạy bộ đến B. Biết rằng tốc độ chèo thuyền của người này là 6 km/h và tốc độ chạy bộ là 8 km/h. Tìm thời gian ngắn nhất (đơn vị phút) mà người này có thể đi từ A đến B (bỏ qua vận tốc của nước và làm tròn kết quả đến hàng đơn vị).",
+      "explanation": "Đặt khoảng cách $CD = x\\text{ (km)}$ với $0 \\le x \\le 8$. Quãng đường chèo thuyền là $AD = \\sqrt{3^2 + x^2} = \\sqrt{x^2 + 9}\\text{ (km)}$. Quãng đường chạy bộ là $DB = 8 - x\\text{ (km)}$. Thời gian di chuyển tính theo giờ là $T(x) = \\frac{\\sqrt{x^2 + 9}}{6} + \\frac{8 - x}{8}$. Đạo hàm $T'(x) = \\frac{x}{6\\sqrt{x^2 + 9}} - \\frac{1}{8} = 0 \\iff 8x = 6\\sqrt{x^2 + 9} \\iff 16x^2 = 9(x^2 + 9) \\iff 7x^2 = 81 \\iff x = \\frac{9}{\\sqrt{7}}\\text{ km}$. Thời gian ngắn nhất là $T = 1 + \\frac{\\sqrt{7}}{8}\\text{ giờ}$. Đổi sang phút: $T = 60\\left(1 + \\frac{\\sqrt{7}}{8}\\right) = 60 + 7{,}5\\sqrt{7} \\approx 79{,}84 \\approx 80\\text{ phút}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p11.png",
+          "sha256": "94ada8f25513ecea29fdb04e96f5dfd239bf5c7052b922269bedd09f5f03c337"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-205-M101-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ba lực $\\vec{F}_1, \\vec{F}_2, \\vec{F}_3$ cùng tác động vào một vật có phương đôi một vuông góc và có độ lớn lần lượt là 2N; 3N; 4N. Hợp lực của ba lực đã cho có độ lớn bao nhiêu Niu-tơn (kết quả làm tròn đến một chữ số thập phân)?",
+      "explanation": "Hợp lực của ba lực là $\\vec{F} = \\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3$. Vì ba lực có phương đôi một vuông góc nên độ lớn của hợp lực thỏa mãn $|\\vec{F}|^2 = |\\vec{F}_1|^2 + |\\vec{F}_2|^2 + |\\vec{F}_3|^2 = 2^2 + 3^2 + 4^2 = 4 + 9 + 16 = 29$. Do đó độ lớn của hợp lực là $|\\vec{F}| = \\sqrt{29} \\approx 5{,}385 \\approx 5{,}4\\text{ N}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p11.png",
+          "sha256": "94ada8f25513ecea29fdb04e96f5dfd239bf5c7052b922269bedd09f5f03c337"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-205-p12.png",
+          "sha256": "95b7438eed234d98ac8d535fdea1349fbc78d8cdb7b5b73381f628a282f10386"
+        }
+      ]
+    }
+  ]
+}

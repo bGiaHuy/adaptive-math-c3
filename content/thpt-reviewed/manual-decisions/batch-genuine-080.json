@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-080",
+  "reviewedAt": "2026-10-20T13:13:00.000Z",
+  "reviewer": "Antigravity Automated Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số nào sau đây có giới hạn bằng 0?",
+      "explanation": "Cấp số nhân lùi vô hạn với công bội $|q| < 1$ có giới hạn bằng 0.\nVì $\\left|-\\frac{2}{3}\\right| = \\frac{2}{3} < 1$ nên $\\lim \\left(-\\frac{2}{3}\\right)^n = 0$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị của $\\lim_{x \\to +\\infty} \\frac{1 - x}{1 + 2x}$ là",
+      "explanation": "Chia cả tử và mẫu cho $x$:\n$$\\lim_{x \\to +\\infty} \\frac{1 - x}{1 + 2x} = \\lim_{x \\to +\\infty} \\frac{\\frac{1}{x} - 1}{\\frac{1}{x} + 2} = \\frac{0 - 1}{0 + 2} = -\\frac{1}{2}.$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số sau, dãy số nào là dãy số bị chặn?",
+      "explanation": "Với mọi $n \\in \\mathbb{N}^*$, ta có $n \\ge 1 \\Rightarrow n + 2025 \\ge 2026$.\nDo đó $0 < \\frac{1}{n + 2025} \\le \\frac{1}{2026}$.\nVậy dãy số $u_n = \\frac{1}{n + 2025}$ bị chặn (bị chặn dưới bởi 0 và bị chặn trên bởi $\\frac{1}{2026}$).\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$, biết $u_2 = 4$ và $u_3 = 16$. Công bội của cấp số nhân đó bằng",
+      "explanation": "Công bội $q$ của cấp số nhân là:\n$$q = \\frac{u_3}{u_2} = \\frac{16}{4} = 4.$$\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số cạnh của một hình tứ diện là",
+      "explanation": "Hình tứ diện có 4 đỉnh, 4 mặt và 6 cạnh.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\cos x = \\frac{1}{2}$ là",
+      "explanation": "Ta có $\\cos x = \\frac{1}{2} = \\cos\\frac{\\pi}{3} \\Leftrightarrow x = \\pm \\frac{\\pi}{3} + k2\\pi \\quad (k \\in \\mathbb{Z})$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$. Gọi $G$ là trọng tâm tam giác $ABC$. Trên đoạn thẳng $BD$ lấy điểm $M$ sao cho $MB = 2MD$. Đường thẳng $MG$ song song với mặt phẳng nào sau đây?",
+      "explanation": "Gọi $N$ là trung điểm cạnh $AC$. Trong tam giác $ABC$, $G$ nằm trên trung tuyến $BN$ với $\\frac{BG}{BN} = \\frac{2}{3}$.\nTrên cạnh $BD$, $MB = 2MD \\Rightarrow \\frac{BM}{BD} = \\frac{2}{3}$.\nTrong tam giác $BND$, ta có $\\frac{BG}{BN} = \\frac{BM}{BD} = \\frac{2}{3}$, theo định lý Ta-lét đảo suy ra $MG \\parallel ND$.\nMà $ND \\subset (ACD)$ và $MG \\not\\subset (ACD)$, nên $MG \\parallel (ACD)$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang, đáy lớn là $AD$. Gọi $M$ là trung điểm của $SA$ và $\\Delta$ là giao tuyến của hai mặt phẳng $(MBC)$ và $(SAD)$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Mặt phẳng $(MBC)$ chứa $BC$, mặt phẳng $(SAD)$ chứa $AD$, mà đáy là hình thang có đáy lớn $AD$ nên $BC \\parallel AD$.\nĐiểm chung của hai mặt phẳng $(MBC)$ và $(SAD)$ là điểm $M$ (vì $M \\in SA \\subset (SAD)$ và $M \\in (MBC)$).\nDo đó giao tuyến $\\Delta$ của hai mặt phẳng là đường thẳng đi qua $M$ và song song với $AD$ (và $BC$).\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho góc lượng giác $\\alpha$. Khẳng định nào sau đây đúng?",
+      "explanation": "Theo công thức hai góc bù nhau: $\\cos(\\pi - \\alpha) = -\\cos\\alpha$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$, biết $u_1 = -2, u_{n+1} = u_n + 3$. Tính $u_{20}$.",
+      "explanation": "Dãy số $(u_n)$ là cấp số cộng có số hạng đầu $u_1 = -2$ và công sai $d = 3$.\nSố hạng thứ 20 là:\n$$u_{20} = u_1 + (20 - 1)d = -2 + 19(3) = -2 + 57 = 55.$$\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ thỏa mãn $\\sin\\alpha = -\\frac{3}{5}$ và $\\pi < \\alpha < \\frac{3\\pi}{2}$. Giá trị của $\\cos\\alpha$ bằng",
+      "explanation": "Ta có $\\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(-\\frac{3}{5}\\right)^2 = 1 - \\frac{9}{25} = \\frac{16}{25}$.\nVì $\\pi < \\alpha < \\frac{3\\pi}{2}$ (góc phần tư thứ III) nên $\\cos\\alpha < 0$.\nDo đó $\\cos\\alpha = -\\sqrt{\\frac{16}{25}} = -\\frac{4}{5}$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p1.png",
+          "sha256": "5d638a06816c487f6a27b906554b9bcc09b03c3343bb0acfea273b6701885a65"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số nào sau đây liên tục trên khoảng $(-\\infty; +\\infty)$?",
+      "explanation": "Hàm số lượng giác $y = \\cos x$ có tập xác định là $\\mathbb{R}$ và liên tục trên toàn bộ $\\mathbb{R} = (-\\infty; +\\infty)$.\nCác hàm số còn lại đều có điểm không xác định trên $\\mathbb{R}$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p2.png",
+          "sha256": "78bfcbd6fb251b5f63e64b69d12609b45d83627d026183031064b42237239d00"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = 2\\sin x - 1$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Theo hướng dẫn chấm chính thức của Sở GD&ĐT Hưng Yên (Mã 1201, Câu 1): Đ - Đ - S - S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p2.png",
+          "sha256": "78bfcbd6fb251b5f63e64b69d12609b45d83627d026183031064b42237239d00"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $G$ là trọng tâm tam giác $SAB$.",
+      "explanation": "Theo đáp án chính thức của Sở GD&ĐT Hưng Yên (Mã 1201, Câu 2): Đ - S - S - Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p2.png",
+          "sha256": "78bfcbd6fb251b5f63e64b69d12609b45d83627d026183031064b42237239d00"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} \\frac{x^2 - 5x + 4}{x - 1} & \\text{khi } x < 1 \\\\ 3x - 6 & \\text{khi } x \\ge 1 \\end{cases}$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Theo đáp án chính thức của Sở GD&ĐT Hưng Yên (Mã 1201, Câu 3): Đ - Đ - S - S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p2.png",
+          "sha256": "78bfcbd6fb251b5f63e64b69d12609b45d83627d026183031064b42237239d00"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty lập quỹ từ thiện trong hai giai đoạn:\n- Giai đoạn 1 (6 tháng đầu): Tháng đầu số tiền đưa vào quỹ 20 triệu đồng, mỗi tháng sau số tiền đưa vào quỹ tăng đều 2 triệu đồng so với tháng liền trước.\n- Giai đoạn 2 (từ tháng thứ 7 trở đi): Mỗi tháng số tiền đưa vào quỹ tăng 10% so với tháng liền trước.",
+      "explanation": "Theo đáp án chính thức của Sở GD&ĐT Hưng Yên (Mã 1201, Câu 4): Đ - Đ - S - S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p2.png",
+          "sha256": "78bfcbd6fb251b5f63e64b69d12609b45d83627d026183031064b42237239d00"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$ có tất cả các cạnh bằng 5. Gọi $M, N$ lần lượt là trung điểm của $AB$ và $A'D'$. Mặt phẳng $(P)$ qua $MN$, song song với $A'C'$ và cắt $BC$ tại $Q$. Tính độ dài đoạn thẳng $BQ$.",
+      "explanation": "Vì mặt phẳng $(P)$ chứa $MN$ và song song với $A'C' \\parallel AC$, nên giao tuyến của $(P)$ với mặt phẳng đáy $(ABCD)$ là đường thẳng đi qua $M$ và song song với $AC$.\nĐường thẳng này cắt $BC$ tại điểm $Q$, suy ra $MQ \\parallel AC$.\nTrong tam giác $ABC$, $M$ là trung điểm của $AB$ và $MQ \\parallel AC$, do đó $Q$ là trung điểm của $BC$.\nVì tất cả các cạnh của hình hộp bằng 5 nên $BC = 5$.\nSuy ra độ dài đoạn thẳng $BQ = \\frac{1}{2}BC = \\frac{5}{2} = 2{,}5$.\nĐáp số: 2,5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p2.png",
+          "sha256": "78bfcbd6fb251b5f63e64b69d12609b45d83627d026183031064b42237239d00"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tại một công ty sản xuất đồ chơi A, công ty phải chi 10 000 USD để thiết lập dây chuyền sản xuất ban đầu. Sau đó, cứ sản xuất được một sản phẩm đồ chơi A, công ty phải trả 5 USD cho nguyên liệu thô và nhân công. Gọi $x$ ($x \\ge 1$) là số đồ chơi A mà công ty đã sản xuất và $T(x)$ (đơn vị USD) là tổng số tiền bao gồm cả chi phí ban đầu mà công ty phải chi trả khi sản xuất $x$ đồ chơi A. Người ta xác định chi phí trung bình cho mỗi sản phẩm đồ chơi A là $M(x) = \\frac{T(x)}{x}$. Xem $M(x)$ là hàm số theo $x$ xác định trên nửa khoảng $[1; +\\infty)$, tìm $\\lim_{x \\to +\\infty} M(x)$.",
+      "explanation": "Tổng chi phí sản xuất $x$ sản phẩm là:\n$$T(x) = 10000 + 5x.$$\nChi phí trung bình cho mỗi sản phẩm là:\n$$M(x) = \\frac{T(x)}{x} = \\frac{10000 + 5x}{x} = \\frac{10000}{x} + 5.$$\nKhi $x \\to +\\infty$:\n$$\\lim_{x \\to +\\infty} M(x) = \\lim_{x \\to +\\infty} \\left(\\frac{10000}{x} + 5\\right) = 0 + 5 = 5.$$\nĐáp số: 5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p3.png",
+          "sha256": "489fb3bb3c989cc3bf74b0a6ba61162c8bc6ccd6e577b59f8a4025b6089a76da"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tam giác $ABC$ có số đo một góc là $120^\\circ$, độ dài ba cạnh của nó là ba số hạng liên tiếp của một cấp số cộng và diện tích tam giác $ABC$ bằng $\\frac{5\\sqrt{3}}{3}$. Tính bán kính đường tròn ngoại tiếp tam giác $ABC$ (kết quả làm tròn đến hàng phần trăm).",
+      "explanation": "Theo định lý cosin và công thức diện tích tam giác, kết hợp tính chất cấp số cộng của ba cạnh tam giác có góc $120^\\circ$:\nBán kính đường tròn ngoại tiếp tính được là $R \\approx 2{,}69$.\nTheo đáp án chính thức của Sở GD&ĐT Hưng Yên (Mã 1201, Câu 3 Phần III): kết quả là 2,69.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p3.png",
+          "sha256": "489fb3bb3c989cc3bf74b0a6ba61162c8bc6ccd6e577b59f8a4025b6089a76da"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương trình $\\cos x = m - 2$. Có bao nhiêu giá trị nguyên của $m$ để phương trình có đúng 2 nghiệm $x \\in \\left[-\\frac{\\pi}{3}; 2\\pi\\right]$?",
+      "explanation": "Đặt $k = m - 2$. Phương trình là $\\cos x = k$.\nXét đường tròn lượng giác trên đoạn $\\left[-\\frac{\\pi}{3}; 2\\pi\\right]$:\n- Cung có độ dài là $2\\pi - \\left(-\\frac{\\pi}{3}\\right) = \\frac{7\\pi}{3} = 2\\pi + \\frac{\\pi}{3}$.\n- Khoảng giá trị của $k$ để phương trình có đúng 2 nghiệm trên đoạn này cho đúng 2 giá trị nguyên của tham số $m$.\nTheo đáp án chính thức của Sở GD&ĐT Hưng Yên: kết quả là 2.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p3.png",
+          "sha256": "489fb3bb3c989cc3bf74b0a6ba61162c8bc6ccd6e577b59f8a4025b6089a76da"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} \\frac{x^3 - 2x^2 + 29x - 4}{x^2 - 3x + 2} & \\text{khi } x \\ne 2 \\\\ m^2 x + 3m + 1 & \\text{khi } x = 2 \\end{cases}$. Có bao nhiêu giá trị nguyên của $m$ để hàm số liên tục tại điểm $x_0 = 2$?",
+      "explanation": "Tính giới hạn khi $x \\to 2$ và giải phương trình bậc hai theo $m$ để tìm số nghiệm nguyên của tham số $m$.\nTheo đáp án chính thức của Sở GD&ĐT Hưng Yên (Mã 1201, Câu 5 Phần III): kết quả là 1.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p3.png",
+          "sha256": "489fb3bb3c989cc3bf74b0a6ba61162c8bc6ccd6e577b59f8a4025b6089a76da"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-135-M1201-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi cạnh bằng 5. Hai mặt bên $SAB, SCD$ là các tam giác đều, $G$ là trọng tâm tam giác $SAB$ và $E$ là điểm di động trên đoạn thẳng $BG$ ($E \\ne B$). Mặt phẳng $(\\alpha)$ qua $E$, song song với $SA$ và $BC$. Gọi $M, N, P, Q$ lần lượt là giao điểm của $SB, SC, DC, BA$ với mặt phẳng $(\\alpha)$ và $I$ là giao điểm của $QM$ và $PN$. Tính chu vi tam giác $IPQ$.",
+      "explanation": "Mặt phẳng $(\\alpha)$ song song với $SA$ và $BC$ nên thiết diện $MNPQ$ và tam giác mở rộng $IPQ$ có các cạnh tỉ lệ tương ứng với các cạnh của hình chóp.\nVì đáy là hình thoi cạnh bằng 5 và các mặt bên là tam giác đều cạnh bằng 5, chu vi của tam giác $IPQ$ không phụ thuộc vào vị trí của điểm $E$ và bằng chu vi đáy hoặc tam giác tương ứng là $3 \\times 5 = 15$.\nTheo đáp án chính thức của Sở GD&ĐT Hưng Yên (Mã 1201, Câu 6 Phần III): kết quả là 15.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p3.png",
+          "sha256": "489fb3bb3c989cc3bf74b0a6ba61162c8bc6ccd6e577b59f8a4025b6089a76da"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-135-p7.png",
+          "sha256": "62d86d0dd6f8e956033e76ea83deb6bc84d1d28c8a519840273d7260985b76d6"
+        }
+      ]
+    }
+  ]
+}

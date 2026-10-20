@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-099",
+  "reviewedAt": "2026-10-20T15:25:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ xác định với mọi $x \\ne -2$ có bảng biến thiên như hình vẽ dưới đây.\n\n![Bảng biến thiên](/images/thpt/thpt-12-cuoi-hk1-234-p1-cau1.png)\n\nHàm số nghịch biến trên khoảng nào trong các khoảng sau?",
+      "explanation": "Dựa vào bảng biến thiên, đạo hàm $y' < 0$ trên các khoảng $(-3; -2)$ và $(-2; -1)$.\nDo đó, hàm số nghịch biến trên khoảng $(-3; -2)$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p1.png",
+          "sha256": "7c6dd441727f651b1d3ab3b96c6d1e31b4324bdb2882091a9ab92e1af66b252e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho hai điểm $M(2; 5; 2)$ và $N(-4; 1; 1)$. Tọa độ vectơ $\\vec{MN}$ là",
+      "explanation": "Tọa độ vectơ $\\vec{MN}$ được tính theo công thức:\n$$\\vec{MN} = (x_N - x_M; y_N - y_M; z_N - z_M) = (-4 - 2; 1 - 5; 1 - 2) = (-6; -4; -1).$$\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p1.png",
+          "sha256": "7c6dd441727f651b1d3ab3b96c6d1e31b4324bdb2882091a9ab92e1af66b252e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ tọa độ $Oxyz$, cho hình bình hành $ABCD$ có các điểm $A(2; 0; 1)$, $B(5; 1; -2)$, $C(-1; -6; 3)$. Tọa độ vectơ $\\vec{CD}$ là:",
+      "explanation": "Vì $ABCD$ là hình bình hành nên $\\vec{CD} = \\vec{BA}$.\nTa có $\\vec{BA} = (x_A - x_B; y_A - y_B; z_A - z_B) = (2 - 5; 0 - 1; 1 - (-2)) = (-3; -1; 3)$.\nDo đó $\\vec{CD} = (-3; -1; 3)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p1.png",
+          "sha256": "7c6dd441727f651b1d3ab3b96c6d1e31b4324bdb2882091a9ab92e1af66b252e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{ax + b}{cx + d}$ có đồ thị là đường cong trong hình bên dưới.\n\n![Đồ thị hàm số](/images/thpt/thpt-12-cuoi-hk1-234-p1-cau4.png)\n\nTiệm cận đứng của đồ thị hàm số đã cho là đường thẳng có phương trình",
+      "explanation": "Từ hình vẽ ta thấy đồ thị hàm số có đường tiệm cận đứng là đường thẳng song song với trục tung và đi qua điểm $(-1; 0)$, có phương trình $x = -1$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p1.png",
+          "sha256": "7c6dd441727f651b1d3ab3b96c6d1e31b4324bdb2882091a9ab92e1af66b252e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $y = -x^3 - x + 2$ có đồ thị là hình vẽ nào sau đây?\n\n![Bốn hình vẽ đồ thị](/images/thpt/thpt-12-cuoi-hk1-234-p1-cau5.png)",
+      "explanation": "Xét hàm số $y = -x^3 - x + 2$:\n- Tập xác định $D = \\mathbb{R}$.\n- Đạo hàm $y' = -3x^2 - 1 < 0$ với mọi $x \\in \\mathbb{R}$, nên hàm số luôn nghịch biến trên $\\mathbb{R}$ và không có điểm cực trị.\n- Khi $x = 0$ thì $y = 2$; khi $x = 1$ thì $y = 0$.\nQuan sát 4 hình:\n- Hình 1 có hai điểm cực trị.\n- Hình 2 luôn đồng biến.\n- Hình 3 có hai điểm cực trị.\n- Hình 4 là đồ thị đi xuống từ trái sang phải (nghịch biến trên $\\mathbb{R}$), cắt $Oy$ tại $(0; 2)$ và cắt $Ox$ tại $(1; 0)$.\nVậy đồ thị hàm số đã cho là Hình 4.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p1.png",
+          "sha256": "7c6dd441727f651b1d3ab3b96c6d1e31b4324bdb2882091a9ab92e1af66b252e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường cong trong hình vẽ dưới đây là đồ thị của hàm số nào trong các hàm số sau?\n\n![Đồ thị hàm số](/images/thpt/thpt-12-cuoi-hk1-234-p1-cau6.png)",
+      "explanation": "Quan sát đồ thị hàm số:\n- Đường tiệm cận đứng là $x = -1$.\n- Đường tiệm cận ngang là $y = 2$.\n- Đồ thị cắt trục tung tại điểm $(0; -1)$.\nXét 4 hàm số:\n- Các hàm ở phương án A, B có tiệm cận đứng $x = 1$ (loại).\n- Hàm ở phương án C đi qua gốc tọa độ $(0; 0)$ (loại).\n- Hàm ở phương án D: $y = \\frac{2x - 1}{x + 1}$ có tiệm cận đứng $x = -1$, tiệm cận ngang $y = 2$ và đi qua $(0; -1)$.\nVậy hàm số cần tìm là $y = \\frac{2x - 1}{x + 1}$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p1.png",
+          "sha256": "7c6dd441727f651b1d3ab3b96c6d1e31b4324bdb2882091a9ab92e1af66b252e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian, cho hình hộp $ABCD.A'B'C'D'$ (như hình vẽ). Khẳng định nào sau đây là đúng?\n\n![Hình hộp ABCD.A'B'C'D'](/images/thpt/thpt-12-cuoi-hk1-234-p2-cau7.png)",
+      "explanation": "Vì đáy $ABCD$ của hình hộp là hình bình hành nên theo quy tắc hình bình hành ta có:\n$$\\vec{AC} = \\vec{AB} + \\vec{AD}.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$. Mệnh đề nào sau đây đúng?",
+      "explanation": "Theo quy tắc ba điểm đối với phép cộng vectơ, với ba điểm bất kì $A, B, C$ ta luôn có:\n$$\\vec{AB} + \\vec{BC} = \\vec{AC}.$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?\n\n![Đồ thị hàm số](/images/thpt/thpt-12-cuoi-hk1-234-p2-cau9.png)",
+      "explanation": "Từ đồ thị hàm số ta thấy trên khoảng $(-1; 1)$, đồ thị hàm số đi xuống từ trái sang phải.\nDo đó hàm số nghịch biến trên khoảng $(-1; 1)$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho vectơ $\\vec{u} = 2\\vec{i} + \\vec{k}$. Tọa độ của vectơ $\\vec{u}$ là:",
+      "explanation": "Trong không gian $Oxyz$, vectơ $\\vec{u} = x\\vec{i} + y\\vec{j} + z\\vec{k}$ có tọa độ là $(x; y; z)$.\nTa có $\\vec{u} = 2\\vec{i} + 0\\vec{j} + 1\\vec{k} \\implies \\vec{u} = (2; 0; 1)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho $A(3; 2; -1)$, $B(1; -3; 2)$, $C(-2; 1; 3)$, khi đó $\\vec{AB} \\cdot \\vec{AC}$ bằng?",
+      "explanation": "Ta có:\n$$\\vec{AB} = (1 - 3; -3 - 2; 2 - (-1)) = (-2; -5; 3),$$\n$$\\vec{AC} = (-2 - 3; 1 - 2; 3 - (-1)) = (-5; -1; 4).$$\nTích vô hướng:\n$$\\vec{AB} \\cdot \\vec{AC} = (-2)(-5) + (-5)(-1) + 3(4) = 10 + 5 + 12 = 27.$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho mẫu số liệu ghép nhóm thời gian sử dụng internet trong 1 tuần (giờ) của 20 học sinh như sau:\n\n| Số giờ | $[0; 5)$ | $[5; 10)$ | $[10; 15)$ | $[15; 20)$ | $[20; 25)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| **Tần số** | 2 | 5 | 7 | 3 | 3 |\n\nKhoảng biến thiên của mẫu số liệu ghép nhóm trên bằng:",
+      "explanation": "Khoảng biến thiên của mẫu số liệu ghép nhóm là hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên:\n$$R = 25 - 0 = 25.$$\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = \\frac{x - 2}{x - 1}$. Các khẳng định sau là đúng hay sai?",
+      "explanation": "Xét hàm số $y = f(x) = \\frac{x - 2}{x - 1}$, tập xác định $D = \\mathbb{R} \\setminus \\{1\\}$:\n- a) Sai. Ta có $\\lim_{x \\to \\pm\\infty} \\frac{x - 2}{x - 1} = 1$, nên tiệm cận ngang của đồ thị hàm số là đường thẳng $y = 1$, không phải $y = 2$.\n- b) Đúng. Đạo hàm $f'(x) = \\frac{1}{(x - 1)^2} > 0$ với mọi $x \\ne 1$, nên hàm số không có điểm cực trị.\n- c) Sai. Hàm số đồng biến trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$, không thể đồng biến trên $\\mathbb{R}$ vì không xác định tại $x = 1$.\n- d) Đúng. Trên đoạn $[2; 5]$, hàm số liên tục và $f'(x) > 0$ nên hàm số đồng biến. Do đó giá trị lớn nhất đạt tại $x = 5$ là $f(5) = \\frac{5 - 2}{5 - 1} = \\frac{3}{4}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho các điểm $A(4; 2; -1)$, $B(1; -1; 2)$ và $C(0; -2; 3)$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "- d) Đúng. $\\vec{AB} = (1 - 4; -1 - 2; 2 - (-1)) = (-3; -3; 3)$.\n- a) Đúng. $\\vec{AB} + \\vec{CM} = \\vec{0} \\iff \\vec{CM} = -\\vec{AB} = (3; 3; -3)$.\n  Suy ra tọa độ điểm $M$ là: $x_M = x_C + 3 = 0 + 3 = 3$, $y_M = y_C + 3 = -2 + 3 = 1$, $z_M = z_C - 3 = 3 - 3 = 0$. Vậy $M(3; 1; 0)$.\n- b) Sai. Tọa độ trọng tâm $G$ của tam giác $ABC$ là:\n  $$x_G = \\frac{4 + 1 + 0}{3} = \\frac{5}{3}, \\quad y_G = \\frac{2 + (-1) + (-2)}{3} = -\\frac{1}{3}, \\quad z_G = \\frac{-1 + 2 + 3}{3} = \\frac{4}{3}.$$\n  Vậy $G\\left(\\frac{5}{3}; -\\frac{1}{3}; \\frac{4}{3}\\right)$. Khẳng định ghi tung độ $-\\frac{5}{3}$ là sai.\n- c) Đúng. Điểm $N \\in (Oxy) \\implies z_N = 0$.\n  Vì $A, B, N$ thẳng hàng nên $\\vec{AN} = k\\vec{AB} = k(-3; -3; 3)$.\n  Ta có $z_N - z_A = 3k \\iff 0 - (-1) = 3k \\iff k = \\frac{1}{3}$.\n  Khi đó $x_N = x_A - 3k = 4 - 1 = 3$, $y_N = y_A - 3k = 2 - 1 = 1$. Vậy $N(3; 1; 0)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p2.png",
+          "sha256": "160f1ffa9e0e9f5c6187bb61299fa962c90c8de2dad852e6f2e47f97df21d416"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Thống kê thời gian xem ti vi (đơn vị: giờ) trong 1 tuần của một số học sinh thu được kết quả sau:\n\n![Bảng số liệu xem tivi](/images/thpt/thpt-12-cuoi-hk1-234-p3-p2c3.png)",
+      "explanation": "Bảng số liệu có cỡ mẫu $n = 8 + 16 + 4 + 2 + 2 = 32$ học sinh:\n- c) Sai. Giá trị đại diện của nhóm $[5; 10)$ là $\\frac{5 + 10}{2} = 7,5$, không phải $5$.\n- a) Đúng. Giá trị đại diện các nhóm lần lượt là: $2,5; 7,5; 12,5; 17,5; 22,5$.\n  Thời gian trung bình:\n  $$\\bar{x} = \\frac{8 \\cdot 2,5 + 16 \\cdot 7,5 + 4 \\cdot 12,5 + 2 \\cdot 17,5 + 2 \\cdot 22,5}{32} = \\frac{20 + 120 + 50 + 35 + 45}{32} = \\frac{270}{32} = 8,4375\\text{ (giờ)}.$$\n- b) Đúng. Phương sai:\n  $$s^2 = \\frac{1}{32}\\sum n_i c_i^2 - (\\bar{x})^2 = \\frac{8(2,5)^2 + 16(7,5)^2 + 4(12,5)^2 + 2(17,5)^2 + 2(22,5)^2}{32} - 8,4375^2$$\n  $$= \\frac{50 + 900 + 625 + 612,5 + 1012,5}{32} - 71,19140625 = \\frac{3200}{32} - 71,19140625 = 100 - 71,19140625 = 28,80859375 \\approx 28,81.$$\n- d) Đúng. Độ lệch chuẩn $s = \\sqrt{s^2} = \\sqrt{28,80859375} \\approx 5,37 > 5$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p3.png",
+          "sha256": "d2f6638ac1d25d495d467c3c9c1c3a59724dbe40ffc8c595a160920116861f09"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB = 2a, AD = 3a, AA' = 4a$.\n\n![Hình hộp chữ nhật](/images/thpt/thpt-12-cuoi-hk1-234-p3-p2c4.png)\n\nKhi đó các kết luận sau Đúng hay Sai?",
+      "explanation": "- a) Sai. Vì $ABCD.A'B'C'D'$ là hình hộp chữ nhật nên đường thẳng $AA'$ vuông góc với mặt phẳng đáy $(ABCD)$. Do đó $AA' \\perp DA \\implies \\vec{AA'} \\cdot \\vec{DA} = 0$.\n- b) Sai. Trong hình hộp chữ nhật, $H$ là trung điểm của đường chéo $BD'$ nên $H$ cũng là tâm của hình hộp. Khoảng cách từ đỉnh $A$ đến tâm $H$ là:\n  $$AH = \\frac{1}{2}AC' = \\frac{1}{2}\\sqrt{AB^2 + AD^2 + AA'^2} = \\frac{1}{2}\\sqrt{(2a)^2 + (3a)^2 + (4a)^2} = \\frac{\\sqrt{29}}{2}a \\ne \\frac{9}{2}a.$$\n- c) Đúng. Vì $\\vec{CC'} = \\vec{AA'}$ nên $\\vec{AB} + \\vec{AD} + \\vec{CC'} = \\vec{AB} + \\vec{AD} + \\vec{AA'} = \\vec{AC'}$.\n  Độ dài $|\\vec{AB} + \\vec{AD} + \\vec{CC'}| = AC' = \\sqrt{(2a)^2 + (3a)^2 + (4a)^2} = \\sqrt{29}a$.\n- d) Đúng. Theo quy tắc hình hộp chữ nhật: $\\vec{AB} + \\vec{AD} + \\vec{AA'} = \\vec{AC'}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p3.png",
+          "sha256": "d2f6638ac1d25d495d467c3c9c1c3a59724dbe40ffc8c595a160920116861f09"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một phòng học có thiết kế dạng hình hộp chữ nhật với chiều dài là 8 m, chiều rộng là 6 m và chiều cao là 3 m. Một bóng đèn được treo tại chính giữa trần nhà của phòng học và cách trần nhà 0,2m (giả sử rằng xem bóng đèn là một điểm cách trần nhà 0,2 m). Trong tiết Thực hành trải nghiệm, thầy giáo yêu cầu học sinh đo khoảng cách từ góc phòng (ví dụ điểm A như hình vẽ) đến bóng đèn (điểm G trên hình vẽ) với yêu cầu là để đảm bảo an toàn nên học sinh không được leo trèo mà chỉ thực hiện các phép đo trên sàn nhà. Hỏi khoảng cách từ bóng đèn (G) đến góc dưới nhà (A) là bao nhiêu mét? (kết quả làm tròn đến hàng phần trăm).\n\n![Mô hình phòng học và bóng đèn](/images/thpt/thpt-12-cuoi-hk1-234-p3-p3c1.png)",
+      "explanation": "Chọn hệ trục tọa độ $Oxyz$ sao cho gốc tọa độ tại góc sàn $B(0; 0; 0)$:\n- Tia $Bx$ hướng theo cạnh $BA$, với $BA = 8\\text{ m} \\implies A(8; 0; 0)$.\n- Tia $By$ hướng theo cạnh $BC$, với $BC = 6\\text{ m} \\implies C(0; 6; 0)$.\n- Tia $Bz$ hướng theo cạnh bên $BB'$, với $BB' = 3\\text{ m}$.\nKhi đó trần nhà có tâm tại điểm có tọa độ $(4; 3; 3)$.\nBóng đèn $G$ được treo thẳng đứng cách tâm trần nhà $0,2\\text{ m}$ phía dưới, do đó:\n$$G = (4; 3; 3 - 0,2) = (4; 3; 2,8).$$\nKhoảng cách từ góc phòng $A(8; 0; 0)$ đến bóng đèn $G(4; 3; 2,8)$ là:\n$$AG = \\sqrt{(4 - 8)^2 + (3 - 0)^2 + (2,8 - 0)^2} = \\sqrt{(-4)^2 + 3^2 + 2,8^2} = \\sqrt{16 + 9 + 7,84} = \\sqrt{32,84} \\approx 5,7306\\text{ m}.$$\nLàm tròn đến hàng phần trăm ta được $5,73$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p3.png",
+          "sha256": "d2f6638ac1d25d495d467c3c9c1c3a59724dbe40ffc8c595a160920116861f09"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mẫu số liệu ghép nhóm thống kê mức lương 1 tháng của 60 nhân viên công ty A (đơn vị: triệu đồng) được thể hiện như bảng dưới đây.\n\n| Nhóm | $[10; 15)$ | $[15; 20)$ | $[20; 25)$ | $[25; 30)$ | $[30; 35)$ | $[35; 40)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| **Số nhân viên** | 15 | 18 | 10 | 10 | 5 | 2 |\n\nĐộ lệch chuẩn mẫu số liệu ghép nhóm trên bằng bao nhiêu? (Làm tròn đến hai chữ số thập phân)",
+      "explanation": "Cỡ mẫu $n = 15 + 18 + 10 + 10 + 5 + 2 = 60$.\nGiá trị đại diện các nhóm tương ứng là: $c_1 = 12,5; c_2 = 17,5; c_3 = 22,5; c_4 = 27,5; c_5 = 32,5; c_6 = 37,5$.\nSố trung bình:\n$$\\bar{x} = \\frac{15(12,5) + 18(17,5) + 10(22,5) + 10(27,5) + 5(32,5) + 2(37,5)}{60}$$\n$$= \\frac{187,5 + 315 + 225 + 275 + 162,5 + 75}{60} = \\frac{1240}{60} = \\frac{62}{3} \\approx 20,6667.$$\nPhương sai:\n$$s^2 = \\frac{1}{60}\\sum n_i c_i^2 - (\\bar{x})^2$$\nTrong đó:\n$$\\sum n_i c_i^2 = 15(12,5)^2 + 18(17,5)^2 + 10(22,5)^2 + 10(27,5)^2 + 5(32,5)^2 + 2(37,5)^2$$\n$$= 2343,75 + 5512,5 + 5062,5 + 7562,5 + 5281,25 + 2812,5 = 28575.$$\nSuy ra:\n$$s^2 = \\frac{28575}{60} - \\left(\\frac{62}{3}\\right)^2 = 476,25 - 427,1111 = 49,1389.$$\nĐộ lệch chuẩn:\n$$s = \\sqrt{s^2} = \\sqrt{49,1389} \\approx 7,0099.$$\nLàm tròn đến hai chữ số thập phân ta được $7,01$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p3.png",
+          "sha256": "d2f6638ac1d25d495d467c3c9c1c3a59724dbe40ffc8c595a160920116861f09"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bác An muốn làm hàng rào trồng rau hình chữ nhật có chiều dài song song với bờ tường gạch. Bác chỉ làm ba mặt hàng rào bởi vì mặt thứ tư bác tận dụng luôn bờ tường. Bác dự tính sẽ mua 40 m lưới để làm hàng rào đó. Với chiều dài 40m lưới để rào, diện tích đất trồng rau lớn nhất của bác An là bao nhiêu mét vuông?\n\n![Hàng rào trồng rau giáp bờ tường](/images/thpt/thpt-12-cuoi-hk1-234-p4-cau3.png)",
+      "explanation": "Gọi $x$ (m) là chiều rộng của khu đất làm hàng rào vuông góc với bờ tường ($0 < x < 20$).\nDo có hai cạnh chiều rộng và mặt bờ tường không cần rào lưới, chiều dài cạnh song song bờ tường là $40 - 2x$ (m).\nDiện tích khu đất trồng rau là:\n$$S(x) = x(40 - 2x) = 40x - 2x^2 = -2(x - 10)^2 + 200.$$\nVì $-2(x - 10)^2 \\le 0$ với mọi $x$, ta có $S(x) \\le 200$.\nDấu \"=\" xảy ra khi $x = 10$ m (thỏa mãn điều kiện). Chiều dài tương ứng là $40 - 2(10) = 20$ m.\nVậy diện tích đất trồng rau lớn nhất của bác An là $200\\text{ m}^2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p4.png",
+          "sha256": "f1bcca0aa688cfac3089b4e9b2c8b21e2f5f83a2f0a5e9555e05e604ad308c67"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ông Bình muốn làm một cánh cổng cho ngôi nhà của mình. Ông dự định thiết kế cổng gồm hai phần: Phần dưới là một hình chữ nhật và phần trên có hình bán nguyệt (một nửa hình tròn như hình vẽ). Biết chu vi của cổng (không tính đoạn AB) là 8m. Tính diện tích lớn nhất của cánh cổng đó (kết quả tính theo đơn vị m2 và làm tròn đến hàng phần trăm).\n\n![Thiết kế cánh cổng hình vòm](/images/thpt/thpt-12-cuoi-hk1-234-p4-cau4.png)",
+      "explanation": "Gọi bán kính của phần bán nguyệt phía trên là $R$ (m) với $R > 0$.\nKhi đó độ dài đoạn $AB = CD = 2R$.\nGọi chiều cao phần hình chữ nhật phía dưới là $h = AD = BC$ (m).\nChu vi của cánh cổng không tính đoạn $AB$ bao gồm: hai cạnh bên $AD, BC$, cạnh đáy $CD$ và cung tròn bán nguyệt có độ dài $\\pi R$:\n$$P = 2h + 2R + \\pi R = 8 \\iff 2h = 8 - (2 + \\pi)R \\iff h = 4 - \\frac{2 + \\pi}{2}R.$$\nDiện tích của cánh cổng gồm diện tích hình chữ nhật $ABCD$ và diện tích nửa hình tròn:\n$$S(R) = 2R \\cdot h + \\frac{1}{2}\\pi R^2 = 2R\\left(4 - \\frac{2 + \\pi}{2}R\\right) + \\frac{1}{2}\\pi R^2 = 8R - (2 + \\pi)R^2 + \\frac{1}{2}\\pi R^2 = 8R - \\left(2 + \\frac{\\pi}{2}\\right)R^2.$$\nĐây là hàm số bậc hai theo biến $R$ với hệ số đỉnh âm, đạt giá trị lớn nhất tại:\n$$R = \\frac{8}{2\\left(2 + \\frac{\\pi}{2}\\right)} = \\frac{4}{2 + \\frac{\\pi}{2}} = \\frac{8}{4 + \\pi} \\approx 1,1202\\text{ m}.$$\nGiá trị lớn nhất của diện tích là:\n$$S_{\\max} = 8\\left(\\frac{8}{4 + \\pi}\\right) - \\frac{4 + \\pi}{2}\\left(\\frac{8}{4 + \\pi}\\right)^2 = \\frac{64}{4 + \\pi} - \\frac{32}{4 + \\pi} = \\frac{32}{4 + \\pi} \\approx 4,4808\\text{ m}^2.$$\nLàm tròn đến hàng phần trăm ta được $4,48$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p4.png",
+          "sha256": "f1bcca0aa688cfac3089b4e9b2c8b21e2f5f83a2f0a5e9555e05e604ad308c67"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp chữ nhật $ABCD.EFGH$ có $AB = 6, AD = 7, AE = 5$. Xét hệ trục tọa độ $Oxyz$ có gốc $O$ trùng với điểm $A$, các điểm $B, D, E$ lần lượt nằm trên các tia $Ox, Oy, Oz$. Gọi $K$ là tâm của $ABCD$. Điểm $N(a; b; c)$ là trọng tâm của tam giác $AHK$. Tính $P = 2a - 4b + 3c$.\n\n![Hình hộp chữ nhật trong không gian Oxyz](/images/thpt/thpt-12-cuoi-hk1-234-p4-cau5.png)",
+      "explanation": "Từ giả thiết gắn hệ trục tọa độ $Oxyz$ với gốc $A(0; 0; 0)$:\n- $B \\in Ox \\implies B(6; 0; 0)$.\n- $D \\in Oy \\implies D(0; 7; 0)$.\n- $E \\in Oz \\implies E(0; 0; 5)$.\nVì đáy $ABCD$ là hình chữ nhật nên $C(6; 7; 0)$.\n$K$ là tâm hình chữ nhật $ABCD$ nên $K$ là trung điểm của $AC$:\n$$K\\left(\\frac{6 + 0}{2}; \\frac{7 + 0}{2}; 0\\right) = \\left(3; \\frac{7}{2}; 0\\right).$$\nĐỉnh $H$ tương ứng phía trên đỉnh $D$, có cùng hoành độ và tung độ với $D$, cao độ bằng $AE = 5$:\n$$H(0; 7; 5).$$\nĐiểm $N(a; b; c)$ là trọng tâm của tam giác $AHK$ với $A(0; 0; 0), H(0; 7; 5), K\\left(3; \\frac{7}{2}; 0\\right)$:\n$$a = \\frac{0 + 0 + 3}{3} = 1,$$\n$$b = \\frac{0 + 7 + 3,5}{3} = \\frac{10,5}{3} = 3,5,$$\n$$c = \\frac{0 + 5 + 0}{3} = \\frac{5}{3}.$$\nTính giá trị biểu thức $P = 2a - 4b + 3c$:\n$$P = 2(1) - 4(3,5) + 3\\left(\\frac{5}{3}\\right) = 2 - 14 + 5 = -7.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p4.png",
+          "sha256": "f1bcca0aa688cfac3089b4e9b2c8b21e2f5f83a2f0a5e9555e05e604ad308c67"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-CUOI_HK1-234-M121-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hai chiếc máy bay không người lái cùng bay lên tại một địa điểm. Sau một giờ bay, chiếc máy bay thứ nhất cách điểm xuất phát về phía Bắc $4\\text{ km}$ và về phía Tây $3\\text{ km}$, đồng thời cách mặt đất $1,5\\text{ km}$. Chiếc máy bay thứ hai cách điểm xuất phát về phía Đông $3\\text{ km}$ và về phía Nam $2\\text{ km}$, đồng thời cách mặt đất $1\\text{ km}$. Hỏi sau 1 giờ bay, hai chiếc máy bay cách nhau bao nhiêu km?",
+      "explanation": "Chọn hệ trục tọa độ $Oxyz$ với gốc $O$ tại vị trí xuất phát trên mặt đất:\n- Trục $Ox$ theo hướng Tây - Đông (chiều dương hướng về phía Đông, chiều âm hướng về phía Tây).\n- Trục $Oy$ theo hướng Nam - Bắc (chiều dương hướng về phía Bắc, chiều âm hướng về phía Nam).\n- Trục $Oz$ thẳng đứng hướng lên (đo độ cao so với mặt đất, đơn vị km).\nKhi đó:\n- Chiếc máy bay thứ nhất cách phía Bắc $4\\text{ km}$ ($y = 4$), phía Tây $3\\text{ km}$ ($x = -3$), độ cao $1,5\\text{ km}$ ($z = 1,5$), nên có tọa độ:\n  $$M_1(-3; 4; 1,5).$$\n- Chiếc máy bay thứ hai cách phía Đông $3\\text{ km}$ ($x = 3$), phía Nam $2\\text{ km}$ ($y = -2$), độ cao $1\\text{ km}$ ($z = 1$), nên có tọa độ:\n  $$M_2(3; -2; 1).$$\nKhoảng cách giữa hai máy bay sau 1 giờ bay là độ dài đoạn thẳng $M_1 M_2$:\n$$d = M_1 M_2 = \\sqrt{(3 - (-3))^2 + (-2 - 4)^2 + (1 - 1,5)^2} = \\sqrt{6^2 + (-6)^2 + (-0,5)^2} = \\sqrt{36 + 36 + 0,25} = \\sqrt{72,25} = 8,5\\text{ km}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p4.png",
+          "sha256": "f1bcca0aa688cfac3089b4e9b2c8b21e2f5f83a2f0a5e9555e05e604ad308c67"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-CUOI_HK1-234-p9.png",
+          "sha256": "cb8840104d526027fb27061705d1d24dffb90afb83716b02ab1328c9c642aefe"
+        }
+      ]
+    }
+  ]
+}

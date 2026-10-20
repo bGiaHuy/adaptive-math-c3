@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "dev:local": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-local.ps1",
-    "materials:prepare": "node scripts/prepare-learning-materials.mjs && node scripts/prepare-source-questions.mjs",
-    "materials:verify": "node scripts/verify-learning-materials.mjs",
+    "materials:prepare": "node scripts/prepare-learning-materials.mjs && node scripts/index-thpt-papers.mjs && node scripts/prepare-source-questions.mjs",
+    "materials:verify": "node scripts/verify-reviewed-thpt.mjs",
     "materials:reviewed:prepare": "node scripts/prepare-reviewed-thpt.mjs",
     "materials:reviewed:check": "node scripts/import-reviewed-thpt.mjs",
     "materials:reviewed:verify": "node scripts/verify-reviewed-thpt.mjs",

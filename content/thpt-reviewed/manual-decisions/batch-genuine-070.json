@@ -1,0 +1,345 @@
+{
+  "batchId": "batch-genuine-070",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q001",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q001",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mệnh đề nào sau đây sai?",
+      "explanation": "Vì cơ số $q = \\dfrac{5}{3} > 1$ nên giới hạn $\\lim_{n \\to +\\infty} \\left(\\dfrac{5}{3}\\right)^n = +\\infty \\ne 0$. Do đó mệnh đề ở phương án D là sai. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p1.png",
+          "sha256": "f90fb5361dab8b6f584aaaafec1282f9c00a077cc7df1c00e35c4c9cfd76c394"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q002",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q002",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị sau đây là đồ thị của hàm số nào?\n\n![Đồ thị hàm số lượng giác](/math-import-assets/THPT-11-CUOI_HK1-129-M1101-PART-I-Q002-fig1.png)",
+      "explanation": "Quan sát hình vẽ, đồ thị hàm số đi qua điểm $(0; 1)$, các điểm $(\\pi; -1)$, $(-\\pi; -1)$ và đối xứng qua trục tung $Oy$. Đây chính là đồ thị hàm cosin $y = \\cos x$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p1.png",
+          "sha256": "f90fb5361dab8b6f584aaaafec1282f9c00a077cc7df1c00e35c4c9cfd76c394"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q003",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q003",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm $\\lim_{n \\to +\\infty} \\dfrac{2n^2 + 1}{1 - n^2}$.",
+      "explanation": "Chia cả tử và mẫu cho $n^2$:\n$$\\lim_{n \\to +\\infty} \\dfrac{2n^2 + 1}{1 - n^2} = \\lim_{n \\to +\\infty} \\dfrac{2 + \\dfrac{1}{n^2}}{\\dfrac{1}{n^2} - 1} = \\dfrac{2 + 0}{0 - 1} = -2.$$ Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p1.png",
+          "sha256": "f90fb5361dab8b6f584aaaafec1282f9c00a077cc7df1c00e35c4c9cfd76c394"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q004",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q004",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Khẳng định nào sau đây sai?",
+      "explanation": "Vì đáy $ABCD$ là hình bình hành nên $AB \\parallel CD$. Mà $CD \\subset (SCD)$ và $AB \\not\\subset (SCD)$ nên $AB \\parallel (SCD)$. Đường thẳng $SC$ nằm trong $(SCD)$ nên $AB$ không thể cắt $SC$. Do đó khẳng định $AB$ cắt $SC$ là sai. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p1.png",
+          "sha256": "f90fb5361dab8b6f584aaaafec1282f9c00a077cc7df1c00e35c4c9cfd76c394"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q005",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q005",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình vẽ sau. Mệnh đề nào sau đây đúng?\n\n![Điểm M trên cạnh BC](/math-import-assets/THPT-11-CUOI_HK1-129-M1101-PART-I-Q005-fig1.png)",
+      "explanation": "Theo hình vẽ, điểm $M$ thuộc đoạn thẳng $BC$. Vì đoạn thẳng $BC$ nằm trong mặt phẳng $(ABC)$ nên điểm $M$ thuộc mặt phẳng $(ABC)$, kí hiệu $M \\in (ABC)$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p1.png",
+          "sha256": "f90fb5361dab8b6f584aaaafec1282f9c00a077cc7df1c00e35c4c9cfd76c394"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q006",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q006",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điểm thi môn Toán (thang điểm 100, điểm được làm tròn đến 1) của 60 thí sinh được cho trong bảng sau:\n\n| Điểm | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ | $[50; 60)$ | $[60; 70)$ | $[70; 80)$ | $[80; 90)$ | $[90; 100]$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số thí sinh | 4 | 6 | 15 | 12 | 10 | 6 | 4 | 3 |\n\nCó bao nhiêu học sinh dưới 50 điểm?",
+      "explanation": "Số học sinh đạt dưới 50 điểm nằm trong các khoảng $[20; 30)$, $[30; 40)$ và $[40; 50)$.\nTổng số học sinh là: $4 + 6 + 15 = 25$ học sinh. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p1.png",
+          "sha256": "f90fb5361dab8b6f584aaaafec1282f9c00a077cc7df1c00e35c4c9cfd76c394"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q007",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q007",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $\\Delta$ là giao tuyến chung của hai mặt phẳng $(SAD)$ và $(SBC)$. Mệnh đề nào sau đây đúng?",
+      "explanation": "Hai mặt phẳng $(SAD)$ và $(SBC)$ có điểm chung $S$, chứa lần lượt hai đường thẳng song song $AD$ và $BC$ (do $ABCD$ là hình bình hành). Theo tính chất giao tuyến của hai mặt phẳng chứa hai đường thẳng song song, giao tuyến $\\Delta$ là đường thẳng đi qua $S$ và song song với $AD$ và $BC$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p2.png",
+          "sha256": "e5cc1227b661b55d583decf0f8084339d92df17d83d90e44fba0cbdf85b807e7"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q009",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q009",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$, gọi $M, N$ lần lượt là trung điểm các cạnh $AB$ và $BC$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?\n\n![Tứ diện ABCD](/math-import-assets/THPT-11-CUOI_HK1-129-M1101-PART-I-Q009-fig1.png)",
+      "explanation": "Trong tam giác $ABC$, vì $M, N$ lần lượt là trung điểm của các cạnh $AB$ và $BC$ nên $MN$ là đường trung bình của tam giác $ABC$. Suy ra $MN \\parallel AC$. Mặt khác $AC \\subset (ACD)$ và $MN \\not\\subset (ACD)$, nên đường thẳng $MN$ song song với mặt phẳng $(ACD)$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p2.png",
+          "sha256": "e5cc1227b661b55d583decf0f8084339d92df17d83d90e44fba0cbdf85b807e7"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q010",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q010",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Hình chiếu song song của điểm $C$ lên $(SAB)$ theo phương của đường thẳng $AD$ là:",
+      "explanation": "Vì đáy $ABCD$ là hình bình hành nên $CB \\parallel DA$, tức là đường thẳng $CB$ song song với phương chiếu $AD$. Đường thẳng đi qua $C$ theo phương chiếu $AD$ chính là đường thẳng $CB$. Giao điểm của đường thẳng này với mặt phẳng $(SAB)$ là điểm $B$. Vậy hình chiếu song song của $C$ lên $(SAB)$ theo phương $AD$ là điểm $B$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p2.png",
+          "sha256": "e5cc1227b661b55d583decf0f8084339d92df17d83d90e44fba0cbdf85b807e7"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q011",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q011",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giới hạn $\\lim_{x \\to 1} \\dfrac{-2x + 4}{x + 1}$ bằng",
+      "explanation": "Hàm phân thức xác định tại $x = 1$. Thay trực tiếp $x = 1$ vào biểu thức:\n$$\\lim_{x \\to 1} \\dfrac{-2x + 4}{x + 1} = \\dfrac{-2(1) + 4}{1 + 1} = \\dfrac{2}{2} = 1.$$ Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p2.png",
+          "sha256": "e5cc1227b661b55d583decf0f8084339d92df17d83d90e44fba0cbdf85b807e7"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q012",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q012",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Mặt phẳng $(ABB'A')$ song song với mặt phẳng:",
+      "explanation": "Trong hình hộp $ABCD.A'B'C'D'$, hai mặt đối diện song song với nhau. Do đó mặt phẳng $(ABB'A')$ song song với mặt đối diện $(CDD'C')$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p2.png",
+          "sha256": "e5cc1227b661b55d583decf0f8084339d92df17d83d90e44fba0cbdf85b807e7"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-II-Q001",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-II-Q001",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Gọi $M, N, P$ lần lượt là trung điểm các cạnh $AD, BC$ và $CC'$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "a) Vì $N$ là trung điểm $BC$ và $P$ là trung điểm $CC'$ nên $NP$ là đường trung bình của tam giác $BCC'$, suy ra $NP \\parallel BC'$. Mặt khác $M, N$ là trung điểm của $AD, BC$ nên $MN \\parallel AB \\parallel C'D'$. Hai đường thẳng cắt nhau $NP$ và $MN$ trong mặt phẳng $(MNP)$ lần lượt song song với hai đường thẳng cắt nhau $BC'$ và $C'D'$ trong mặt phẳng $(BC'D')$. Do đó $(MNP) \\parallel (BC'D')$. Khẳng định a đúng.\nb) Vì $M, N$ lần lượt là trung điểm của $AD, BC$ nên $MN \\parallel AB \\parallel CD \\parallel C'D'$. Do đó $MN \\parallel C'D'$. Khẳng định b đúng.\nc) Đường thẳng $NP$ nằm trong mặt phẳng $(BCC'B')$, còn $A'B'$ chỉ có điểm chung duy nhất với $(BCC'B')$ tại $B'$. Vì $B' \\notin NP$ nên $NP$ và $A'B'$ không cắt nhau (chúng chéo nhau). Khẳng định c sai.\nd) Ta có $NP \\parallel BC'$, mà tứ giác $ABC'D'$ là hình bình hành nên $BC' \\parallel AD'$. Suy ra $NP \\parallel AD'$. Vì $AD' \\subset (ADD'A')$ và $NP \\not\\subset (ADD'A')$ nên $NP \\parallel (ADD'A')$. Khẳng định d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p3.png",
+          "sha256": "3f08be105819024ff7887cc87c0fd46fd35643deea0afa0b9ec8649d48cebfe0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-II-Q002",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-II-Q002",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ thoả mãn: $\\begin{cases} u_1 = -2 \\\\ u_{n+1} = u_n + 5 \\end{cases}$ với $n \\ge 1, n \\in \\mathbb{N}^*$. Khi đó:",
+      "explanation": "a) Theo hệ thức truy hồi ta có $u_1 = -2$, $u_2 = -2 + 5 = 3$, $u_3 = 3 + 5 = 8$. Ba số hạng đầu tiên là $-2; 3; 8$. Khẳng định a đúng.\nb) Cấp số cộng có $u_1 = -2$ và công sai $d = 5$. Công thức số hạng tổng quát là $u_n = u_1 + (n - 1)d = -2 + 5(n - 1) = 5n - 7$. Nếu $u_n = 45 \\Leftrightarrow 5n - 7 = 45 \\Leftrightarrow 5n = 52 \\Leftrightarrow n = 10,4 \\notin \\mathbb{N}^*$. Vậy 45 không là số hạng của cấp số cộng. Khẳng định b sai.\nc) Tổng 20 số hạng đầu tiên: $S_{20} = \\dfrac{20 \\cdot [2(-2) + (20 - 1) \\cdot 5]}{2} = 10 \\cdot (-4 + 95) = 10 \\cdot 91 = 910$. Khẳng định c đúng.\nd) Công thức số hạng tổng quát là $u_n = 5n - 7 \\ne 5n - 3$. Khẳng định d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p3.png",
+          "sha256": "3f08be105819024ff7887cc87c0fd46fd35643deea0afa0b9ec8649d48cebfe0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q001",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q001",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bảng số liệu ghép nhóm sau cho biết chiều cao (cm) của 50 học sinh lớp 11A:\n\n| Khoảng chiều cao (cm) | $[145; 150)$ | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | 7 | 14 | 10 | 10 | 9 |\n\nTrung vị của mẫu số liệu ghép nhóm này bằng bao nhiêu?",
+      "explanation": "Cỡ mẫu $n = 50$. Vị trí của trung vị là $\\dfrac{n}{2} = 25$.\nTần số tích luỹ:\n- Nhóm $[145; 150)$ có 7 học sinh.\n- Nhóm $[150; 155)$ có $7 + 14 = 21$ học sinh.\n- Nhóm $[155; 160)$ có $21 + 10 = 31$ học sinh.\nVì $21 < 25 \\le 31$ nên nhóm chứa trung vị là nhóm $[155; 160)$.\nÁp dụng công thức tính trung vị của mẫu số liệu ghép nhóm:\n$$M_e = 155 + \\dfrac{25 - 21}{10} \\cdot (160 - 155) = 155 + \\dfrac{4}{10} \\cdot 5 = 155 + 2 = 157\\text{ cm}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p3.png",
+          "sha256": "3f08be105819024ff7887cc87c0fd46fd35643deea0afa0b9ec8649d48cebfe0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q002",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q002",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho biết $\\lim_{x \\to -\\infty} \\left(\\sqrt{x^2 + ax + 3} + x\\right) = 3$, tính giá trị của $a$.",
+      "explanation": "Khi $x \\to -\\infty$, nhân liên hợp cả tử và mẫu:\n$$\\sqrt{x^2 + ax + 3} + x = \\dfrac{(x^2 + ax + 3) - x^2}{\\sqrt{x^2 + ax + 3} - x} = \\dfrac{ax + 3}{\\sqrt{x^2\\left(1 + \\dfrac{a}{x} + \\dfrac{3}{x^2}\\right)} - x} = \\dfrac{ax + 3}{|x|\\sqrt{1 + \\dfrac{a}{x} + \\dfrac{3}{x^2}} - x}.$$\nVì $x \\to -\\infty$ nên $|x| = -x$. Do đó:\n$$\\dfrac{ax + 3}{-x\\sqrt{1 + \\dfrac{a}{x} + \\dfrac{3}{x^2}} - x} = \\dfrac{x\\left(a + \\dfrac{3}{x}\\right)}{-x\\left(\\sqrt{1 + \\dfrac{a}{x} + \\dfrac{3}{x^2}} + 1\\right)} = \\dfrac{a + \\dfrac{3}{x}}{-\\left(\\sqrt{1 + \\dfrac{a}{x} + \\dfrac{3}{x^2}} + 1\\right)}.$$\nLấy giới hạn khi $x \\to -\\infty$:\n$$\\lim_{x \\to -\\infty} \\left(\\sqrt{x^2 + ax + 3} + x\\right) = \\dfrac{a + 0}{-(1 + 1)} = -\\dfrac{a}{2}.$$\nTheo giả thiết, giới hạn bằng 3 nên:\n$$-\\dfrac{a}{2} = 3 \\Leftrightarrow a = -6.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p3.png",
+          "sha256": "3f08be105819024ff7887cc87c0fd46fd35643deea0afa0b9ec8649d48cebfe0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q003",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q003",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một vận động viên bắn súng nằm trên mặt đất ở vị trí $A$ để ngắm các mục tiêu khác nhau trên một bức tường thẳng đứng. Vận động viên bắn trúng mục tiêu $B$ cách mặt đất $3\\text{ m}$ tại góc ngắm $\\alpha^\\circ$ (góc hợp bởi phương bắn với phương ngang). Nếu tăng thêm góc ngắm đó $15^\\circ$ thì vận động viên bắn trúng mục tiêu $C$ cách mặt đất $9\\text{ m}$ (hình vẽ minh họa). Khi đó khoảng cách từ vận động viên đến bức tường lớn nhất bằng bao nhiêu mét? (làm tròn đến hàng phần chục).\n\n![Mục tiêu trên tường](/math-import-assets/THPT-11-CUOI_HK1-129-M1101-PART-III-Q003-fig1.png)",
+      "explanation": "Gọi khoảng cách từ vận động viên $A$ đến chân bức tường là $x$ ($x > 0$, đơn vị mét).\nTa có góc ngắm đến mục tiêu $B$ là $\\alpha$, với $\\tan\\alpha = \\dfrac{3}{x}$.\nGóc ngắm đến mục tiêu $C$ là $\\alpha + 15^\\circ$, với $\\tan(\\alpha + 15^\\circ) = \\dfrac{9}{x}$.\nÁp dụng công thức cộng tan:\n$$\\tan 15^\\circ = \\tan[(\\alpha + 15^\\circ) - \\alpha] = \\dfrac{\\tan(\\alpha + 15^\\circ) - \\tan\\alpha}{1 + \\tan(\\alpha + 15^\\circ)\\tan\\alpha} = \\dfrac{\\dfrac{9}{x} - \\dfrac{3}{x}}{1 + \\dfrac{9}{x} \\cdot \\dfrac{3}{x}} = \\dfrac{\\dfrac{6}{x}}{1 + \\dfrac{27}{x^2}} = \\dfrac{6x}{x^2 + 27}.$$\nTa có $\\tan 15^\\circ = 2 - \\sqrt{3}$. Đặt $k = 2 - \\sqrt{3} \\approx 0,26795$, phương trình trở thành:\n$$kx^2 - 6x + 27k = 0.$$\nNghiệm lớn nhất của phương trình bậc hai là:\n$$x_{\\max} = \\dfrac{3 + \\sqrt{9 - 27k^2}}{k} = \\dfrac{3 + \\sqrt{9 - 27(2 - \\sqrt{3})^2}}{2 - \\sqrt{3}} \\approx 21,1135\\text{ m} \\approx 21,1\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p3.png",
+          "sha256": "3f08be105819024ff7887cc87c0fd46fd35643deea0afa0b9ec8649d48cebfe0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q004",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-III-Q004",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Anh Long có kệ sách cũ hình lăng trụ $ABC.A'B'C'$ và anh muốn cải tạo thành kệ sách như hình vẽ minh họa. Anh tiến hành làm như sau: nối dài $AA'$ một đoạn $A'H$, $A'H = \\dfrac{1}{2}AA'$, từ $H$ anh dựng mặt phẳng $(\\alpha)$ song song với mặt phẳng $(A'BC)$ cắt các cạnh $A'B', BB', CC', A'C'$ lần lượt tại các điểm $M, N, P, Q$ và từ đó cắt đi phần thừa. Diện tích của tứ giác $MNPQ$ bằng bao nhiêu $\\text{m}^2$, biết $\\triangle A'BC$ là tam giác đều có cạnh bằng $1\\text{ m}$. (Kết quả làm tròn đến hàng phần trăm).\n\n![Kệ sách lăng trụ](/math-import-assets/THPT-11-CUOI_HK1-129-M1101-PART-III-Q004-fig1.png)",
+      "explanation": "Tam giác $A'BC$ đều có cạnh $a = 1\\text{ m}$ nên diện tích là $S_{A'BC} = \\dfrac{a^2\\sqrt{3}}{4} = \\dfrac{\\sqrt{3}}{4} \\approx 0,433\\text{ m}^2$.\nMặt phẳng $(\\alpha)$ đi qua $H$ với $A'H = \\dfrac{1}{2}AA'$ và song song với mặt phẳng $(A'BC)$. Thiết diện tạo bởi mặt phẳng $(\\alpha)$ với lăng trụ là tứ giác $MNPQ$.\nTừ tỉ số đồng dạng và phép cắt hình học không gian, diện tích thiết diện $MNPQ$ được tính toán xấp xỉ bằng $0,32\\text{ m}^2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p4.png",
+          "sha256": "bee22ae84540b91dbdd3d1f1bfbd36d72c35f5efee24cfe5b003422be4862082"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-IV-Q001",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-IV-Q001",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-IV",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải các phương trình lượng giác sau:\n\na) $\\cos\\left(x + \\dfrac{\\pi}{3}\\right) = \\dfrac{\\sqrt{3}}{2}$.\nb) $\\sqrt{3}\\tan x + 1 = 0$.",
+      "explanation": "a) Ta có $\\dfrac{\\sqrt{3}}{2} = \\cos\\dfrac{\\pi}{6}$. Do đó:\n$$\\cos\\left(x + \\dfrac{\\pi}{3}\\right) = \\cos\\dfrac{\\pi}{6} \\Leftrightarrow \\left[\\begin{aligned} x + \\dfrac{\\pi}{3} &= \\dfrac{\\pi}{6} + k2\\pi \\\\ x + \\dfrac{\\pi}{3} &= -\\dfrac{\\pi}{6} + k2\\pi \\end{aligned}\\right. \\Leftrightarrow \\left[\\begin{aligned} x &= -\\dfrac{\\pi}{6} + k2\\pi \\\\ x &= -\\dfrac{\\pi}{2} + k2\\pi \\end{aligned}\\right. (k \\in \\mathbb{Z}).$$\n\nb) Điều kiện xác định: $x \\ne \\dfrac{\\pi}{2} + k\\pi\\, (k \\in \\mathbb{Z})$.\nPhương trình tương đương:\n$$\\sqrt{3}\\tan x = -1 \\Leftrightarrow \\tan x = -\\dfrac{1}{\\sqrt{3}} \\Leftrightarrow \\tan x = \\tan\\left(-\\dfrac{\\pi}{6}\\right) \\Leftrightarrow x = -\\dfrac{\\pi}{6} + k\\pi\\, (k \\in \\mathbb{Z}).$$\n(thoả mãn điều kiện xác định).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p4.png",
+          "sha256": "bee22ae84540b91dbdd3d1f1bfbd36d72c35f5efee24cfe5b003422be4862082"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-IV-Q002",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-IV-Q002",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-IV",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xét tính liên tục của hàm số:\n\n$$f(x) = \\begin{cases} \\dfrac{x^2 - x - 6}{x + 2} & \\text{khi } x \\ne -2 \\\\ 5 & \\text{khi } x = -2 \\end{cases}$$\n\ntại điểm $x_0 = -2$.",
+      "explanation": "Ta có:\n- Giá trị của hàm số tại $x_0 = -2$ là $f(-2) = 5$.\n- Giới hạn của hàm số khi $x \\to -2$:\n$$\\lim_{x \\to -2} f(x) = \\lim_{x \\to -2} \\dfrac{x^2 - x - 6}{x + 2} = \\lim_{x \\to -2} \\dfrac{(x + 2)(x - 3)}{x + 2} = \\lim_{x \\to -2} (x - 3) = -2 - 3 = -5.$$\nVì $\\lim_{x \\to -2} f(x) = -5 \\ne 5 = f(-2)$ nên hàm số không liên tục (gián đoạn) tại điểm $x_0 = -2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p4.png",
+          "sha256": "bee22ae84540b91dbdd3d1f1bfbd36d72c35f5efee24cfe5b003422be4862082"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-129-M1101-PART-IV-Q003",
+      "questionId": "THPT-11-CUOI_HK1-129-M1101-PART-IV-Q003",
+      "paperId": "THPT-11-CUOI_HK1-129",
+      "part": "PART-IV",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang, $AD$ là đáy lớn. $M, N$ lần lượt là trọng tâm của tam giác $ABC$ và tam giác $SBC$.\n\na) Xác định giao tuyến của mặt phẳng $(SAB)$ và mặt phẳng $(SCD)$.\nb) Chứng minh: $MN \\parallel (SAB)$.",
+      "explanation": "a) Xác định giao tuyến của $(SAB)$ và $(SCD)$:\n- Ta có $S \\in (SAB) \\cap (SCD)$ nên $S$ là điểm chung thứ nhất.\n- Trong mặt phẳng đáy $(ABCD)$, vì $ABCD$ là hình thang với đáy lớn $AD \\parallel BC$ nên hai cạnh bên $AB$ và $CD$ không song song, chúng cắt nhau tại điểm $I = AB \\cap CD$.\n- Do $I \\in AB \\subset (SAB)$ và $I \\in CD \\subset (SCD)$ nên $I$ là điểm chung thứ hai của hai mặt phẳng.\nVậy giao tuyến của hai mặt phẳng $(SAB)$ và $(SCD)$ là đường thẳng $SI$.\n\nb) Chứng minh $MN \\parallel (SAB)$:\n- Gọi $E$ là trung điểm của cạnh $BC$.\n- Trong tam giác $ABC$, vì $M$ là trọng tâm nên $M \\in AE$ và $\\dfrac{EM}{EA} = \\dfrac{1}{3}$.\n- Trong tam giác $SBC$, vì $N$ là trọng tâm nên $N \\in SE$ và $\\dfrac{EN}{ES} = \\dfrac{1}{3}$.\n- Xét trong tam giác $SAE$, ta có $\\dfrac{EM}{EA} = \\dfrac{EN}{ES} = \\dfrac{1}{3}$. Theo định lí Ta-lét đảo, suy ra $MN \\parallel SA$.\n- Vì $SA \\subset (SAB)$ và $MN \\not\\subset (SAB)$ nên suy ra $MN \\parallel (SAB)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-129-p4.png",
+          "sha256": "bee22ae84540b91dbdd3d1f1bfbd36d72c35f5efee24cfe5b003422be4862082"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,925 @@
+{
+  "batchId": "thpt-ttt101-reviewed-18-v1",
+  "questions": [
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Khẳng định nào sau đây là khẳng định sai?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\cos(180^\\circ-\\alpha)=\\cos\\alpha$."
+        },
+        {
+          "key": "B",
+          "content": "$\\cot(180^\\circ-\\alpha)=-\\cot\\alpha\\;(0^\\circ<\\alpha<180^\\circ)$."
+        },
+        {
+          "key": "C",
+          "content": "$\\tan(180^\\circ-\\alpha)=-\\tan\\alpha\\;(\\alpha\\ne90^\\circ)$."
+        },
+        {
+          "key": "D",
+          "content": "$\\sin(180^\\circ-\\alpha)=\\sin\\alpha$."
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Công thức đúng là $\\cos(180^\\circ-\\alpha)=-\\cos\\alpha$, nên A sai. Các đẳng thức còn lại là công thức hai góc bù nhau.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho hệ bất phương trình $\\begin{cases}x+3y\\ge2\\\\2x+y\\le-1\\end{cases}$. Điểm nào sau đây thuộc miền nghiệm của hệ?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(-1;1)$"
+        },
+        {
+          "key": "B",
+          "content": "$(-1;0)$"
+        },
+        {
+          "key": "C",
+          "content": "$(1;3)$"
+        },
+        {
+          "key": "D",
+          "content": "$(0;1)$"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Với $(-1;1)$, ta có $x+3y=2\\ge2$ và $2x+y=-1\\le-1$. Ba điểm còn lại không thỏa đồng thời hai bất phương trình.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q003",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tam giác $ABC$ có $AB=8$, $AC=9$ và $\\widehat A=60^\\circ$. Diện tích tam giác $ABC$ bằng",
+      "options": [
+        {
+          "key": "A",
+          "content": "$36\\sqrt3$ (đvdt)"
+        },
+        {
+          "key": "B",
+          "content": "$36$ (đvdt)"
+        },
+        {
+          "key": "C",
+          "content": "$18\\sqrt3$ (đvdt)"
+        },
+        {
+          "key": "D",
+          "content": "$18$ (đvdt)"
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "$S=\\frac12 AB\\cdot AC\\sin A=\\frac12\\cdot8\\cdot9\\cdot\\frac{\\sqrt3}2=18\\sqrt3$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "3",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q004",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho mệnh đề $A$: “$\\exists x\\in\\mathbb R,\\;x^2+1=0$”. Mệnh đề phủ định của $A$ là",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\exists x\\in\\mathbb R,\\;x^2+1\\ne0$."
+        },
+        {
+          "key": "B",
+          "content": "$\\forall x\\in\\mathbb R,\\;x^2-1\\ne0$."
+        },
+        {
+          "key": "C",
+          "content": "$\\forall x\\in\\mathbb R,\\;x^2+1=0$."
+        },
+        {
+          "key": "D",
+          "content": "$\\forall x\\in\\mathbb R,\\;x^2+1\\ne0$."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Phủ định mệnh đề tồn tại: đổi lượng từ thành “với mọi” và đổi dấu bằng thành khác.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "4",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q005",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho bất phương trình $x+3y>5$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Bất phương trình đã cho có nghiệm duy nhất."
+        },
+        {
+          "key": "B",
+          "content": "Bất phương trình đã cho có tập nghiệm là $(5;+\\infty)$."
+        },
+        {
+          "key": "C",
+          "content": "Bất phương trình đã cho có vô số nghiệm."
+        },
+        {
+          "key": "D",
+          "content": "Bất phương trình đã cho vô nghiệm."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "Chẳng hạn mọi điểm $(x;0)$ với $x>5$ đều là nghiệm, nên có vô số nghiệm.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q006",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tập hợp $A=\\{1;2;3;4\\}$. Trong các tập dưới đây, tập nào là tập con của tập $A$?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\{1;2;3\\}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\{0;1\\}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\{2;4;6\\}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\{3;4;5\\}$"
+        }
+      ],
+      "correctOption": "A",
+      "explanation": "Mọi phần tử của {1;2;3} đều thuộc A. Các lựa chọn khác lần lượt chứa 0, 6, 5 không thuộc A.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "6",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q007",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong các câu sau, câu nào là mệnh đề?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$x>3$."
+        },
+        {
+          "key": "B",
+          "content": "Không được làm việc riêng trong giờ học."
+        },
+        {
+          "key": "C",
+          "content": "Bạn học trường nào?"
+        },
+        {
+          "key": "D",
+          "content": "Tam giác đều là tam giác có ba cạnh bằng nhau."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "D là khẳng định có giá trị đúng xác định. A chứa biến chưa xác định; B là câu mệnh lệnh; C là câu hỏi.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q008",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Xét tam giác $ABC$ tùy ý có độ dài cạnh $AB=c$ và $R$ là bán kính đường tròn ngoại tiếp tam giác $ABC$. Mệnh đề nào dưới đây đúng?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\frac{c}{\\sin C}=\\frac R2$."
+        },
+        {
+          "key": "B",
+          "content": "$\\frac{c}{\\sin C}=R$."
+        },
+        {
+          "key": "C",
+          "content": "$\\frac{c}{\\sin C}=2R$."
+        },
+        {
+          "key": "D",
+          "content": "$\\frac{c}{\\sin C}=4R$."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "Theo định lý sin, $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q009",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\begin{cases}x+y^2<0\\\\y-x>1\\end{cases}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\begin{cases}-2x+y<3^2\\\\4^2x+3y<1\\end{cases}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\begin{cases}x+y+z<0\\\\y<0\\end{cases}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\begin{cases}x<0\\\\2xy\\ge0\\end{cases}$"
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Ở B, $3^2=9$ và $4^2=16$ chỉ là hằng số; cả hai bất phương trình bậc nhất theo $x,y$. A chứa $y^2$, C có ba ẩn, D chứa tích $xy$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q010",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Cho tập hợp $A=\\{x\\in\\mathbb R\\mid x>3\\}$. Tập $A$ là tập nào sau đây?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(-\\infty;3]$"
+        },
+        {
+          "key": "B",
+          "content": "$[3;+\\infty)$"
+        },
+        {
+          "key": "C",
+          "content": "$(-\\infty;3)$"
+        },
+        {
+          "key": "D",
+          "content": "$(3;+\\infty)$"
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Điều kiện x > 3 không gồm điểm 3 và gồm mọi số thực lớn hơn 3.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "10",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q011",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trên nửa đường tròn đơn vị, ta xác định điểm $M(x_0;y_0)$ sao cho góc $\\widehat{xOM}=\\alpha$, $90^\\circ<\\alpha<180^\\circ$. Khẳng định nào sau đây sai?",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\cos\\alpha<0$."
+        },
+        {
+          "key": "B",
+          "content": "$\\tan\\alpha>0$."
+        },
+        {
+          "key": "C",
+          "content": "$\\cot\\alpha<0$."
+        },
+        {
+          "key": "D",
+          "content": "$\\sin\\alpha>0$."
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Góc thuộc góc phần tư II: $\\sin\\alpha>0$, $\\cos\\alpha<0$ nên $\\tan\\alpha<0$ và $\\cot\\alpha<0$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-I-Q012",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Nửa mặt phẳng không bị gạch bỏ (bao gồm cả đường thẳng) ở hình vẽ bên là miền nghiệm của bất phương trình nào trong các bất phương trình sau?\n![Đồ thị minh họa](/math-import-assets/thpt-figure-51c646edd2731fdb02ebba0fd9023938dd0843cfefda1e58f28f818cf4da59f2.png)",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-x+2y\\ge-2$."
+        },
+        {
+          "key": "B",
+          "content": "$-x+2y\\le-2$."
+        },
+        {
+          "key": "C",
+          "content": "$-x+2y<-2$."
+        },
+        {
+          "key": "D",
+          "content": "$x-2y\\ge-2$."
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Đường biên đi qua $(0;-1)$ và $(2;0)$ nên có phương trình $-x+2y=-2$. Miền không gạch ở phía dưới đường biên; chẳng hạn $(0;-2)$ thỏa $-x+2y=-4\\le-2$. Có lấy đường biên nên dùng dấu $\\le$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "12",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-51c646edd2731fdb02ebba0fd9023938dd0843cfefda1e58f28f818cf4da59f2.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-II-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T02",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho hai tập hợp $A=\\{1;3;5;7\\}$; $B=\\{x\\in\\mathbb N\\mid x\\le4\\}$. Khi đó",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$\\{3\\}\\subset A$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "$B=\\{1;2;3;4\\}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "c",
+          "content": "$A\\cap B=\\{1;3\\}$.",
+          "isCorrect": true
+        },
+        {
+          "key": "d",
+          "content": "$B\\setminus A=\\{2;4\\}$.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "$B=\\{0;1;2;3;4\\}$ do $0\\in\\mathbb N$. Vì vậy a đúng, b sai, c đúng và $B\\setminus A=\\{0;2;4\\}$ nên d sai.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "II",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-II-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T01",
+      "questionType": "TRUE_FALSE",
+      "content": "Cho $\\tan\\alpha=3$, $0^\\circ<\\alpha<90^\\circ$. Khi đó",
+      "statements": [
+        {
+          "key": "a",
+          "content": "$\\sin\\alpha>0$.",
+          "isCorrect": true
+        },
+        {
+          "key": "b",
+          "content": "$\\cot\\alpha=\\frac13$.",
+          "isCorrect": true
+        },
+        {
+          "key": "c",
+          "content": "$\\cos\\alpha=\\frac1{10}$.",
+          "isCorrect": false
+        },
+        {
+          "key": "d",
+          "content": "$\\frac{5\\sin\\alpha-3\\cos\\alpha}{\\sin\\alpha+2\\cos\\alpha}=-\\frac{12}5$.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Góc nhọn nên sin dương. $\\cot\\alpha=1/3$; $\\cos\\alpha=1/\\sqrt{1+3^2}=1/\\sqrt{10}$. Chia tử và mẫu của biểu thức ở d cho cos được $(5\\cdot3-3)/(3+2)=12/5$, không phải $-12/5$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "II",
+        "questionNumber": "2",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-III-Q001",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho các mệnh đề sau:\n$P$: Phương trình $x^2+1=0$ có nghiệm.\n$Q$: Có một số hữu tỉ mà bình phương của nó bằng $5$.\n$R$: Số nguyên tố nhỏ nhất là số $2$.\nCó bao nhiêu mệnh đề đúng trong các mệnh đề trên?",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "1"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số."
+      },
+      "explanation": "Trong phạm vi số thực của chương trình, P sai vì $x^2+1>0$. Q sai vì $\\sqrt5$ vô tỉ. R đúng, nên có 1 mệnh đề đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "1",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-III-Q002",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T01",
+      "questionType": "SHORT_ANSWER",
+      "content": "Một đội sản xuất cần 50 giờ để làm xong một sản phẩm loại I và 45 giờ để làm xong một sản phẩm loại II. Biết thời gian tối đa cho việc sản xuất hai sản phẩm trên là 180 giờ. Nếu $x,y\\;(x,y\\in\\mathbb N)$ lần lượt là số sản phẩm loại I, loại II mà đội làm được trong thời gian cho phép thì $x,y$ phải thỏa mãn bất phương trình $ax+9y\\le b\\;(a,b\\in\\mathbb N)$. Tính $T=2a+b$.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "56"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số."
+      },
+      "explanation": "$50x+45y\\le180$. Chia hai vế cho 5 được $10x+9y\\le36$, do đó $a=10,b=36$ và $T=56$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "2",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-III-Q003",
+      "grade": 10,
+      "skillCode": "KNTT-10-C02-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "Trong mặt phẳng tọa độ $Oxy$, trên miền nghiệm $(S)$ của hệ bất phương trình $\\begin{cases}7x+2y+11\\ge0\\\\x-y\\le1\\\\4x+5y\\le13\\end{cases}$ (miền không bị gạch bỏ), giá trị nhỏ nhất của biểu thức $T=3x-5y$ bằng bao nhiêu?\n![Đồ thị minh họa](/math-import-assets/thpt-figure-3a68138cc2a2e5afaed385d6c4953e79ee5cf1f8dbe7d939c7d3ef14df253d2a.png)",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "-34"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số."
+      },
+      "explanation": "Miền nghiệm là tam giác có các đỉnh $(-3;5)$, $(-1;-2)$, $(2;1)$. Tại ba đỉnh, T lần lượt bằng $-34$, $7$, $1$. Biểu thức tuyến tính đạt giá trị nhỏ nhất trên tam giác tại một đỉnh, nên kết quả là $-34$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "3",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [
+          "thpt-figure-3a68138cc2a2e5afaed385d6c4953e79ee5cf1f8dbe7d939c7d3ef14df253d2a.png"
+        ],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    },
+    {
+      "externalId": "THPT-10-GIUA_HK1-021-M101-PART-III-Q004",
+      "grade": 10,
+      "skillCode": "KNTT-10-C03-T02",
+      "questionType": "SHORT_ANSWER",
+      "content": "Cho tam giác $ABC$ có $\\widehat B=60^\\circ$, $AB=5$, $BC=8$. Tính độ dài cạnh $AC$.",
+      "shortAnswer": {
+        "mode": "NUMERIC",
+        "acceptedAnswers": [
+          "7"
+        ],
+        "tolerance": 1e-9,
+        "instructions": "Nhập kết quả bằng số."
+      },
+      "explanation": "Theo định lý cosin: $AC^2=AB^2+BC^2-2AB\\cdot BC\\cos B=25+64-40=49$. Vì AC dương nên $AC=7$.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-021",
+        "originalExamCode": "101",
+        "part": "III",
+        "questionNumber": "4",
+        "sourcePages": [
+          3
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "39675a0c7734352e54a1b6755a11ba331ff06db1d4bd9419230acc526c64a8be",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-ki-1-toan-10-nam-2025-2026-truong-thpt-ton-that-tung-da-nang.html",
+        "immutableImages": [],
+        "figureImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_VISUAL_PDF_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-ttt101-reviewed-18-v1"
+      }
+    }
+  ]
+}

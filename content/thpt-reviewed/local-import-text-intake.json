@@ -1,0 +1,24 @@
+{
+  "batchId": "thpt-text-intake-8-v1",
+  "batchSha256": "b031a4b28e4b509b8ac45e9a10fa105640c103a5b027d6b29e03b3bf35ec4e7c",
+  "mode": "APPLY",
+  "ownerId": "1762cc0a-1d6d-46bb-b36c-768ccc75f642",
+  "status": "DRAFT",
+  "peerReviewed": false,
+  "questions": 8,
+  "existing": 0,
+  "toImport": 8,
+  "assignmentDigestBefore": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "priorQuestionDigest": "d0dbccc06881968ffe01b6a727e0f273995368052b69f76994ee2ba9337b1432",
+  "imported": 8,
+  "ids": [
+    "5886b23e-c54b-5e4a-aa4a-acbeffb53942",
+    "934588d8-5ff1-5449-ab3d-98208e5da338",
+    "a5031884-8d80-53f3-a926-9c6256e875f5",
+    "42ea8e00-97ff-5c2d-aeff-c0984a5fd4be",
+    "a0059c60-95b8-5c6c-ad9b-89282554d0a0",
+    "5c9c8251-b364-5fdb-af0e-1a6280a9131e",
+    "850dc7bc-7bf7-5ddb-af37-824c6db4ef4f",
+    "8ece343c-c64e-51e9-a49b-ee13a5324fa8"
+  ]
+}

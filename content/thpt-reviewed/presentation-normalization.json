@@ -1,0 +1,348 @@
+{
+  "mode": "APPLY",
+  "changes": [
+    {
+      "id": "84ba78b9-c1ad-5f3e-ab02-c10f2fe0f6ce",
+      "externalId": "THPT-10-CUOI_HK1-026-Q01",
+      "before": "![Câu 1 · phần I · bản gốc](/math-import-assets/thpt-question-ee4d1d8f3fe8e3e0bebfcc6f457b543268e1c7d7cddc2fc817785c3988f4af97.png)",
+      "after": "Trong mặt phẳng tọa độ $Oxy$, biết $\\vec{u} = 3\\vec{i} - 9\\vec{j}$. Tọa độ của vectơ $\\vec{u}$ là"
+    },
+    {
+      "id": "80922d10-c2e0-5448-af06-0a54c6fba5e2",
+      "externalId": "THPT-10-CUOI_HK1-026-Q02",
+      "before": "![Câu 2 · phần I · bản gốc](/math-import-assets/thpt-question-ee5ca9011dc4a5a0686210627efa5ffddd5998e5d13fba71276a527e473da957.png)",
+      "after": "Cho hai tập hợp $A = \\{0; 1; 2; 3; 4\\}$, $B = \\{2; 3; 4; 5; 6\\}$. Xác định tập hợp $A \\setminus B$."
+    },
+    {
+      "id": "23fe6d47-0813-5bbe-a70c-c0811492358a",
+      "externalId": "THPT-10-CUOI_HK1-026-Q03",
+      "before": "![Câu 3 · phần I · bản gốc](/math-import-assets/thpt-question-db344d5e3479a2fd5b95571a977e825a40f9fc5ebdbdb5f6722924e4f27b3429.png)",
+      "after": "Cho mệnh đề: \"$\\forall x \\in \\mathbb{R}, x^2 + 5x + 10 > 0$\". Xác định mệnh đề phủ định của mệnh đề trên?"
+    },
+    {
+      "id": "cc1f2629-1f97-56fa-acc0-eb85d8335c8c",
+      "externalId": "THPT-10-CUOI_HK1-026-Q04",
+      "before": "![Câu 4 · phần I · bản gốc](/math-import-assets/thpt-question-485ed739981c0b963e85a278cda6246984e3419b968e5fa6df271f4ae6cc27de.png)",
+      "after": "Cho số đúng $\\bar{a}$ và số gần đúng $a$. Sai số tuyệt đối của số gần đúng $a$ là:"
+    },
+    {
+      "id": "93a8e955-73f0-57bf-aec7-4966eca8f0d1",
+      "externalId": "THPT-10-CUOI_HK1-026-Q05",
+      "before": "![Câu 5 · phần I · bản gốc](/math-import-assets/thpt-question-984f3fa0896d069a373ff7b3a46495744647a3ac52ef1e236cfa385058c65a88.png)",
+      "after": "Trong các câu sau, câu nào không phải là một mệnh đề?"
+    },
+    {
+      "id": "5e2d4660-cc31-5b93-a4b1-eb6a3af5297c",
+      "externalId": "THPT-10-CUOI_HK1-026-Q06",
+      "before": "![Câu 6 · phần I · bản gốc](/math-import-assets/thpt-question-c7264eb4642aa444af979edc68002b774a785bc6ead6653d114e0e601fa40b2a.png)",
+      "after": "Cho tập hợp $A = \\{x \\in \\mathbb{N} \\mid x \\le 5\\}$. Tập hợp $A$ được viết dưới dạng liệt kê các phần tử là"
+    },
+    {
+      "id": "475df101-8107-5a98-a33d-be925acbb648",
+      "externalId": "THPT-10-CUOI_HK1-026-Q07",
+      "before": "![Câu 7 · phần I · bản gốc](/math-import-assets/thpt-question-85cae5c11124056f0a598bf9a951184aabc15d85a839cd0b76dbafa479963d62.png)",
+      "after": "Điểm nào dưới đây thuộc miền nghiệm của bất phương trình $2x - y > 5$?"
+    },
+    {
+      "id": "0073b2fc-533e-521d-a627-819bbe20bf59",
+      "externalId": "THPT-10-CUOI_HK1-026-Q08",
+      "before": "![Câu 8 · phần I · bản gốc](/math-import-assets/thpt-question-8f66a1d6f58d826e21a1396d4fd450adc7fa84e75d69f68fccbb490c8149daea.png)",
+      "after": "Trong các số dưới đây, số nào là số đúng?"
+    },
+    {
+      "id": "514b7f40-3232-5749-ac5a-2570b7b4539f",
+      "externalId": "THPT-10-CUOI_HK1-026-Q09",
+      "before": "![Câu 9 · phần I · bản gốc](/math-import-assets/thpt-question-0b4443f69a3af3cbbd2446f432239379e051988afd6d4ecc3861476075cc30d9.png)",
+      "after": "Trong mặt phẳng $Oxy$, cho vectơ $\\vec{a}$ được biểu diễn như hình vẽ.\n\nTọa độ của vectơ $\\vec{a}$ là:\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-ae376de48d89cb5c066640cb2d4fb07cbda39c15c259cfbf7031a207b10da346.png)"
+    },
+    {
+      "id": "2478f003-b073-5c8b-a589-a1798ee269a7",
+      "externalId": "THPT-10-CUOI_HK1-026-Q10",
+      "before": "![Câu 10 · phần I · bản gốc](/math-import-assets/thpt-question-f46651acffbbe0f7881eb965eb3417f4972942cc557c3b26755ce8e6dc7f32f1.png)",
+      "after": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?"
+    },
+    {
+      "id": "5b79a1b7-131e-50c4-a92f-476d3ac14644",
+      "externalId": "THPT-10-CUOI_HK1-026-Q11",
+      "before": "![Câu 11 · phần I · bản gốc](/math-import-assets/thpt-question-4414a823335e5f07862930dc061f7a5a19e1de80520b67ca14adf9d513e232e6.png)",
+      "after": "Cho $\\Delta ABC$ với các cạnh $AB = c, AC = b, BC = a$, $R$ là bán kính đường tròn ngoại tiếp. Trong các phát biểu sau, phát biểu nào đúng?"
+    },
+    {
+      "id": "90471294-e23c-59c7-ad5d-b27ffa27e2ad",
+      "externalId": "THPT-10-CUOI_HK1-026-Q12",
+      "before": "![Câu 12 · phần I · bản gốc](/math-import-assets/thpt-question-544398ef1b6f1b993a4182955faeb44228ea54a2546c992b5d2e3e2a7195736c.png)",
+      "after": "Cho bốn điểm phân biệt $A, B, C, D$. Vectơ tổng $\\vec{AB} + \\vec{CD} + \\vec{BC} + \\vec{DA}$ bằng"
+    },
+    {
+      "id": "ad7ec99e-dd76-500b-a81c-edf69881046d",
+      "externalId": "THPT-10-CUOI_HK1-026-Q13",
+      "before": "![Câu 1 · phần II · bản gốc](/math-import-assets/thpt-question-e230a3ea11e9a511bdb14c9e9ee9eb50f7a586d5f4ebc6f1b69beadc2b13af22.png)",
+      "after": "Số liệu thu nhập bình quân đầu người một tháng (đơn vị: triệu đồng) năm 2023 của 6 vùng kinh tế - xã hội tại Việt Nam được cho trong bảng sau: (nguồn: gso.gov.vn - Kết quả khảo sát mức sống dân cư 2023)\n\nVùng kinh tế - xã hội · Thu nhập (triệu đồng)\nĐồng bằng sông Hồng · 6,2\nTrung du và miền núi phía Bắc · 3,4\nBắc Trung Bộ và Duyên hải miền Trung · 4,1\nTây Nguyên · 3,6\nĐông Nam Bộ · 6,5\nĐồng bằng sông Cửu Long · 4,4"
+    },
+    {
+      "id": "b48b6bc5-7ee8-5238-a322-4948ea432ab6",
+      "externalId": "THPT-10-CUOI_HK1-026-Q14",
+      "before": "![Câu 2 · phần II · bản gốc](/math-import-assets/thpt-question-2cf8516cb1c87db331db519c947acf4c36566249223f3e22e303d775f215d5d2.png)",
+      "after": "Cho hình chữ nhật $ABCD$ biết $AB = 4, AD = 3$. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$."
+    },
+    {
+      "id": "e2ac6510-4391-59fb-affe-215a768bd0c7",
+      "externalId": "THPT-10-CUOI_HK1-026-Q15",
+      "before": "![Câu 1 · phần III · bản gốc](/math-import-assets/thpt-question-bcceac78051bf28d6faae476248be94193af095d3876f57b2736b0a6ff27b514.png)",
+      "after": "Theo số liệu từ Trung tâm Dự báo Khí tượng Thủy văn Quốc gia, lượng mưa đo được trong 5 ngày liên tiếp tại một trạm quan trắc ở miền Trung trong đợt áp thấp nhiệt đới vừa qua lần lượt là (đơn vị: mm): 120; 150; 180; 200; 250. Hãy tính lượng mưa trung bình ($\\bar{x}$) của mẫu số liệu trên."
+    },
+    {
+      "id": "91f4aaf6-0ebb-51c8-a16d-04df7852c97a",
+      "externalId": "THPT-10-CUOI_HK1-026-Q16",
+      "before": "![Câu 2 · phần III · bản gốc](/math-import-assets/thpt-question-c192ec059407c170f964fb36ca5127458435f104c2ae51cbed0800eb58210c77.png)",
+      "after": "Cho hình vuông $ABCD$ có cạnh bằng $3\\sqrt{2}$. Tính độ dài của vectơ $2\\vec{AB} - \\vec{AC}$."
+    },
+    {
+      "id": "b29da719-5c56-5bbc-acd3-1239a84587ab",
+      "externalId": "THPT-10-CUOI_HK1-026-Q17",
+      "before": "![Câu 3 · phần III · bản gốc](/math-import-assets/thpt-question-e0a6a38bd68235a11803ce09d7b4224f2b774fdce9618a87074b518a309ae074.png)",
+      "after": "Trung tâm Khí tượng Thủy văn đang theo dõi lộ trình của một cơn bão trên bản đồ vệ tinh (được gắn hệ trục tọa độ $Oxy$, với đơn vị độ dài trên các trục là km). Giả sử tâm bão chuyển động thẳng đều theo một hướng cố định. Lúc 7 giờ 00, tâm bão ở vị trí điểm $A(120; -50)$. Lúc 9 giờ 00 cùng ngày, tâm bão di chuyển đến vị trí điểm $B(180; 30)$. Các nhà khí tượng dự báo rằng nếu giữ nguyên tốc độ và hướng di chuyển, cơn bão sẽ đổ bộ vào đất liền lúc 12 giờ 00 trưa cùng ngày tại vị trí điểm $C(x; y)$. Hãy tính giá trị của biểu thức $T = x - 2y$."
+    },
+    {
+      "id": "93236051-acf8-50f5-a7c7-897076b5b306",
+      "externalId": "THPT-10-CUOI_HK1-026-Q18",
+      "before": "![Câu 4 · phần III · bản gốc](/math-import-assets/thpt-question-6a0fefae6617f395a47df7f0df74f03dd5a2bb4f09adc16bdd2e9b99e2a6fbdc.png)",
+      "after": "Để đánh giá sự đồng đều trong công tác bảo vệ rừng, người ta thống kê tỷ lệ che phủ rừng (%) của 8 tỉnh thuộc vùng Trung du và Miền núi phía Bắc năm 2022. Theo số liệu từ Tổng cục Thống kê, tỷ lệ che phủ rừng của các tỉnh này lần lượt là: 57; 63; 51; 65; 43; 58; 47; 51 (Đơn vị: %). Tính khoảng biến thiên ($R$) của mẫu số liệu trên."
+    },
+    {
+      "id": "5774e0d3-bae3-5ec0-a1d7-149a55056abe",
+      "externalId": "THPT-11-CUOI_HK1-126-Q01",
+      "before": "![Câu 1 · phần I · bản gốc](/math-import-assets/thpt-question-e09362e5d310e7a447178d4576b7852e35079614906304efa748ab8dd5e803a3.png)",
+      "after": "Mệnh đề nào trong các mệnh đề sau đây là sai?"
+    },
+    {
+      "id": "b8b24fb2-6027-56dd-aed9-80467565f268",
+      "externalId": "THPT-11-CUOI_HK1-126-Q02",
+      "before": "![Câu 2 · phần I · bản gốc](/math-import-assets/thpt-question-efde20524034798f2cc7e15607b3cc0e5836f2d97493fd1c144c05988c36b99d.png)",
+      "after": "Trong không gian cho đường thẳng $a$, điểm $H$ và mặt phẳng $(P)$. Khẳng định nào sau đây sai?"
+    },
+    {
+      "id": "aa3a38b0-6b6e-55d6-a87f-d4d75b636eb8",
+      "externalId": "THPT-11-CUOI_HK1-126-Q03",
+      "before": "![Câu 3 · phần I · bản gốc](/math-import-assets/thpt-question-b932abfc36c1be7f73640cbda3d3ce4de35b42ea825f383b04cdd666d188ad6b.png)",
+      "after": "Trong các dãy số sau, dãy số nào là dãy giảm."
+    },
+    {
+      "id": "11af07f7-52d0-501c-adbf-9997a2eaff3a",
+      "externalId": "THPT-11-CUOI_HK1-126-Q04",
+      "before": "![Câu 4 · phần I · bản gốc](/math-import-assets/thpt-question-2731dead429da6a66c50318ac894aa8ec4f7a68664119215aba06c6445ad77f0.png)",
+      "after": "Tìm hiểu thời gian hoàn thành một bài tập của một số học sinh thu được kết quả sau:\n\nThời gian (phút) · [0; 4) · [4; 8) · [8; 12) · [12; 16) · [16; 20)\nSố học sinh · 2 · 4 · 7 · 4 · 3Số học sinh hoàn thành một bài tập trước 12 phút là:"
+    },
+    {
+      "id": "7459ebbf-fa5d-5e1b-a74d-9094ca8984f6",
+      "externalId": "THPT-11-CUOI_HK1-126-Q05",
+      "before": "![Câu 5 · phần I · bản gốc](/math-import-assets/thpt-question-8b32045e0da80aceb81c7cc01bfe93f34120926995e7227ee4ccd8a240591ac1.png)",
+      "after": "Giá trị của $\\lim_{x \\to 1} (2x^2 - 3x + 1)$ bằng"
+    },
+    {
+      "id": "f7d5d948-9b8c-5b31-a5e5-6fa0f593cd47",
+      "externalId": "THPT-11-CUOI_HK1-126-Q06",
+      "before": "![Câu 6 · phần I · bản gốc](/math-import-assets/thpt-question-5aa406064f71818813d79b89e356eee58829d639f327d63b0f12a9042360ca44.png)",
+      "after": "Cho cấp số cộng $(u_n)$ với $u_n = 7n + 2$. Số hạng đầu của cấp số cộng đó bằng"
+    },
+    {
+      "id": "368d168e-0a2d-5ddd-a1ad-817544314f1f",
+      "externalId": "THPT-11-CUOI_HK1-126-Q07",
+      "before": "![Câu 7 · phần I · bản gốc](/math-import-assets/thpt-question-fda570287c345f00daed8084a6d826231112da7cd88528d4d268838ae0ff7de3.png)",
+      "after": "Trong các hàm số sau, hàm số nào là hàm số chẵn."
+    },
+    {
+      "id": "b62beb92-ee53-576c-a7f2-b39b9785b1db",
+      "externalId": "THPT-11-CUOI_HK1-126-Q08",
+      "before": "![Câu 8 · phần I · bản gốc](/math-import-assets/thpt-question-e0cec0ea27be0da194e15dabc7ed2b83b28c5e805525c16b1e4c7565093a6793.png)",
+      "after": "Góc có số đo $15^\\circ$ thì có số đo theo radian là"
+    },
+    {
+      "id": "2db1fe48-909d-5b5c-a8fd-0c04f2c05775",
+      "externalId": "THPT-11-CUOI_HK1-126-Q09",
+      "before": "![Câu 9 · phần I · bản gốc](/math-import-assets/thpt-question-edfac9ef07aaaf9f09db43859dcba7af4379f19906e03b42f45ba13d06ee999a.png)",
+      "after": "Cho hình chóp $S.ABCD$, đáy $ABCD$ là hình bình hành. Gọi $M, N$ lần lượt là trung điểm $SA, SB$ và $G$ là trọng tâm $\\Delta SCD$. Khẳng định nào sau đây đúng?\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-028f906a648a250e5047ca7c7cfe600018b6af7e237aa54eff0cdda32264b4f4.png)"
+    },
+    {
+      "id": "6f9685de-fde5-5baf-a37c-9acbefb5c700",
+      "externalId": "THPT-11-CUOI_HK1-126-Q10",
+      "before": "![Câu 10 · phần I · bản gốc](/math-import-assets/thpt-question-8e07939b16b51f446fd1d76d66a86d4423d0898a3e77443ad8f6c1d8f61e95e0.png)",
+      "after": "Biểu thức $\\sin a \\cos b + \\cos a \\sin b$ bằng"
+    },
+    {
+      "id": "646b6ed5-244b-5c52-a33c-a5f916421a13",
+      "externalId": "THPT-11-CUOI_HK1-126-Q11",
+      "before": "![Câu 11 · phần I · bản gốc](/math-import-assets/thpt-question-99484fb89aefe9cd424fe31bd8890c23866ccfb2a16de25d2495d55d9e9463ad.png)",
+      "after": "Phương trình $\\sin x = 0$ có nghiệm là"
+    },
+    {
+      "id": "6ebd26eb-e111-5bf9-ac53-2b4d8ba74b33",
+      "externalId": "THPT-11-CUOI_HK1-126-Q12",
+      "before": "![Câu 12 · phần I · bản gốc](/math-import-assets/thpt-question-8f7f3defdf3ff46170f7d9dbd3f6518bdb4d7b6ed5126ae129c8c94ca851c91e.png)",
+      "after": "Điểm thi môn Toán (thang điểm 100) của 60 thí sinh được cho trong bảng sau:\n\nĐiểm · [0; 10) · [10; 20) · [20; 30) · [30; 40) · [40; 50) · [50; 60) · [60; 70) · [70; 80) · [80; 90) · [90; 100)\nSố thí sinh · 1 · 2 · 4 · 6 · 15 · 12 · 10 · 6 · 3 · 1Nhóm chứa Mốt của mẫu số liệu trên là:"
+    },
+    {
+      "id": "2459cbbd-f4bf-54f0-a92a-a3fdca9dcbbf",
+      "externalId": "THPT-11-CUOI_HK1-126-Q13",
+      "before": "![Câu 1 · phần II · bản gốc](/math-import-assets/thpt-question-6d812a730294e357da56e9af4030e28f5d4b5233a22008bee81bfb03a9af127c.png)",
+      "after": "Cho hình chóp $S.ABCD$, $ABCD$ là hình bình hành tâm $O$. Gọi $M, N$ lần lượt là trung điểm $SA, SD$.\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-0df45a4663562bac4fff1a7a882a2b65f8cb6403852760381dbd17e220e7fc76.png)"
+    },
+    {
+      "id": "7e05aec2-aa44-546b-a9ac-f596ebc22718",
+      "externalId": "THPT-11-CUOI_HK1-126-Q14",
+      "before": "![Câu 2 · phần II · bản gốc](/math-import-assets/thpt-question-5e814a855ec0107b84a436206b86c4df3b1a4b1e36b12341e304470122023bf3.png)",
+      "after": "Cho hàm số $f(x) = \\begin{cases} x^2 + 1 & \\text{khi } x \\ge 0 \\\\ 2x - 1 & \\text{khi } x < 0 \\end{cases}$"
+    },
+    {
+      "id": "2d6fa30e-2d02-5504-aab4-6c8c7e60a922",
+      "externalId": "THPT-11-CUOI_HK1-126-Q15",
+      "before": "![Câu 1 · phần III · bản gốc](/math-import-assets/thpt-question-d4d912802ca966e35874083d329f2a9e1bb14c9aea5e91a5a9d6f2f6dd2f6367.png)",
+      "after": "Cho cấp số nhân $(u_n)$ có $u_1 = 2$, công bội $q = 3$. Tính $u_5$."
+    },
+    {
+      "id": "eb4dbdd5-1c01-51df-a827-dab641d90c3e",
+      "externalId": "THPT-11-CUOI_HK1-126-Q16",
+      "before": "![Câu 2 · phần III · bản gốc](/math-import-assets/thpt-question-84cbffaeb3a3f52f3b33826ff78155762fa2f89632424468990b97547f210fea.png)",
+      "after": "Cho biết $\\lim_{n \\to +\\infty} \\frac{n^2 + 6n - 2025}{7n^2 + 4} = \\frac{1}{a}$. Giá trị $a$ bằng bao nhiêu?"
+    },
+    {
+      "id": "f417a28c-cd9f-552a-a803-ed6cd0089aea",
+      "externalId": "THPT-11-CUOI_HK1-126-Q17",
+      "before": "![Câu 3 · phần III · bản gốc](/math-import-assets/thpt-question-40ee4dd1382255e96a7e876f1493d47970040d921d84d840bfae6b5a57cc8593.png)",
+      "after": "Biến đổi biểu thức $M = \\sin\\frac{\\pi}{16} - \\sin\\frac{5\\pi}{16}$ thành tích ta được $M = 2\\sin a\\pi \\cos b\\pi$ với $a \\in \\left(-\\frac{1}{2}; \\frac{1}{2}\\right)$ và $b \\in (0; 1)$. Khi đó $4a + 8b$ bằng bao nhiêu?"
+    },
+    {
+      "id": "ae35bc70-b281-5d6b-a10b-340bdd36c621",
+      "externalId": "THPT-11-CUOI_HK1-126-Q18",
+      "before": "![Câu 4 · phần III · bản gốc (1/2)](/math-import-assets/thpt-question-57e29c7b041eb6351a158b2275b5541a4da3aaa970b395be58638003b8151f53.png)\n![Câu 4 · phần III · bản gốc (2/2)](/math-import-assets/thpt-question-5f49dd2e9fadf650694db8b66ce8d7bf58d2c2dd475b7510c634a86c5735d752.png)",
+      "after": "Tìm hiểu thời gian hoàn thành một bài tập khó của một số học sinh thu được kết quả sau:\n\nThời gian (phút) · [0; 4) · [4; 8) · [8; 12) · [12; 16) · [16; 20)\nSố học sinh · 2 · 4 · 7 · 4 · 3Tìm thời gian trung bình hoàn thành bài tập đó của các học sinh (kết quả làm tròn đến hàng phần mười)"
+    },
+    {
+      "id": "112b9e2a-d7c9-52c3-a290-579747b13efc",
+      "externalId": "THPT-12-CUOI_HK1-227-Q01",
+      "before": "![Câu 1 · phần I · bản gốc](/math-import-assets/thpt-question-367c456c48861d61645e7a1600e50fd2a7477ef771fd5a3cdba1a34b583c7897.png)",
+      "after": "Cho hình hộp $ABCD.A'B'C'D'$. Véc-tơ có điểm đầu và điểm cuối là các đỉnh của hình hộp và bằng véc-tơ $\\vec{B'D'}$ là véc-tơ nào sau đây?"
+    },
+    {
+      "id": "e42aaf46-00f2-5265-a43e-c968de0fb15e",
+      "externalId": "THPT-12-CUOI_HK1-227-Q02",
+      "before": "![Câu 2 · phần I · bản gốc](/math-import-assets/thpt-question-7ffac270c8c0a89a9882ea8984a9793c87ab0370c3c51bbb83ff8705538f9857.png)",
+      "after": "Cho hình hộp $ABCD.A'B'C'D'$, véc-tơ $\\vec{u} = \\vec{A'A} + \\vec{A'B'} + \\vec{A'D'}$ bằng véc-tơ nào dưới đây?"
+    },
+    {
+      "id": "d9976ae6-5646-5240-a1e1-aeedcc6e789a",
+      "externalId": "THPT-12-CUOI_HK1-227-Q03",
+      "before": "![Câu 3 · phần I · bản gốc](/math-import-assets/thpt-question-b6dc47153038ed1963d61e779ca9419efa4d3019ac347473f45917c6e91a5ce7.png)",
+      "after": "Cho hàm số $f(x)$, bảng xét dấu của $f'(x)$ như sau:\n\n$x$ · $-\\infty$ ·  · -1 ·  · 0 ·  · 1 ·  · $+\\infty$\n$f'(x)$ ·  · + · 0 · - · 0 · - · 0 · + · Số điểm cực trị của hàm số đã cho là"
+    },
+    {
+      "id": "60ea5f86-9a76-51ca-a4bb-484bf496a0e7",
+      "externalId": "THPT-12-CUOI_HK1-227-Q04",
+      "before": "![Câu 4 · phần I · bản gốc](/math-import-assets/thpt-question-ad69a35621bda99bd32404022ced58ad191a381c12957e1c57aa4c2d40d4810c.png)",
+      "after": "Cho tứ diện $ABCD$. Mệnh đề nào sau đây đúng?"
+    },
+    {
+      "id": "c08cf804-0cdd-5bd2-a5c3-26a672c7563e",
+      "externalId": "THPT-12-CUOI_HK1-227-Q05",
+      "before": "![Câu 5 · phần I · bản gốc](/math-import-assets/thpt-question-dc8976a43e5425086625503ab6faecb38167ca223f5a85ff504a43560778b9c1.png)",
+      "after": "Tiệm cận đứng của đồ thị hàm số $y = \\frac{3x + 2}{x - 2}$ là đường thẳng có phương trình:"
+    },
+    {
+      "id": "1c03cc78-0120-5d39-aea6-26b2b8b49879",
+      "externalId": "THPT-12-CUOI_HK1-227-Q06",
+      "before": "![Câu 6 · phần I · bản gốc (1/2)](/math-import-assets/thpt-question-5e48271104d4dee1e33a7d28ae84e4a654adff3ccd4327c315dfe190ee60512f.png)\n![Câu 6 · phần I · bản gốc (2/2)](/math-import-assets/thpt-question-7aba45f2fa1e84026f12bbc551e3ee067c439d21913ba01ea4969ebd701dc802.png)",
+      "after": "Đường cong của hình vẽ là đồ thị của hàm số nào dưới đây?\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-dd47bb954336b773f355649b3636984048e48555a7e9d8c06fa7df5d53d30cf4.png)"
+    },
+    {
+      "id": "b9cb9cee-4505-5b87-a17b-f253ba7d2436",
+      "externalId": "THPT-12-CUOI_HK1-227-Q07",
+      "before": "![Câu 7 · phần I · bản gốc](/math-import-assets/thpt-question-8344557739fb6d135274780f30fcbe1f0bc6965558db47dc21b785071bd138ec.png)",
+      "after": "Chiều cao của 40 học sinh nam ở một trường THPT cho bởi bảng sau:\n\nLớp chiều cao (cm) · [150; 155) · [155; 160) · [160; 165) · [165; 170)\nSố học sinh · 9 · 20 · 7 · 4Giá trị đại diện của nhóm chứa Mốt của mẫu số liệu là:"
+    },
+    {
+      "id": "89143c3c-9fa2-5981-ab23-c336f13f1f23",
+      "externalId": "THPT-12-CUOI_HK1-227-Q08",
+      "before": "![Câu 8 · phần I · bản gốc](/math-import-assets/thpt-question-f71d47d1ac23b3e3bb8e019435a29d26f058fa7545e4bd65916b4c643c5d76b8.png)",
+      "after": "Tuổi thọ (năm) của 50 bình ắc quy ô tô điện được cho như sau:\n\nTuổi thọ (năm) · [2; 2,5) · [2,5; 3) · [3; 3,5) · [3,5; 4) · [4; 4,5) · [4,5; 5)\nTần số · 4 · 9 · 14 · 11 · 7 · 5Khoảng biến thiên của mẫu số liệu trên là:"
+    },
+    {
+      "id": "fc266d91-8059-5f2c-a593-819d8d34fedf",
+      "externalId": "THPT-12-CUOI_HK1-227-Q09",
+      "before": "![Câu 9 · phần I · bản gốc](/math-import-assets/thpt-question-2785c4d4d1fefef3337ddca5d2ad1a5b847eb6aa58a77bb398628a571d8626aa.png)",
+      "after": "Trong không gian $Oxyz$, cho hai véc-tơ $\\vec{a} = (-1; 3; -2)$ và $\\vec{b} = (-2; 0; 3)$. Tọa độ của véc-tơ $\\vec{b} - \\vec{a}$ là"
+    },
+    {
+      "id": "a8b806d5-1322-5212-aa33-a8efce4bb909",
+      "externalId": "THPT-12-CUOI_HK1-227-Q10",
+      "before": "![Câu 10 · phần I · bản gốc](/math-import-assets/thpt-question-eb66daddf430e5c6f8b920ef1552d79bac624ccceb4a589267ec0da85e55462f.png)",
+      "after": "Trong không gian $Oxyz$, cho véc-tơ $\\vec{u} = \\vec{i} - 2\\vec{j} - \\vec{k}$. Mệnh đề nào sau đây đúng?"
+    },
+    {
+      "id": "af6f9570-946e-59fb-a019-2e8313e39913",
+      "externalId": "THPT-12-CUOI_HK1-227-Q11",
+      "before": "![Câu 11 · phần I · bản gốc](/math-import-assets/thpt-question-991d17143da754463edbb94c8f23e2058b17d071b3bff2216f104dd5c2949440.png)",
+      "after": "Trong các khẳng định sau, khẳng định nào sai?"
+    },
+    {
+      "id": "bb0746d8-cdf1-56a0-af20-15419e22515a",
+      "externalId": "THPT-12-CUOI_HK1-227-Q12",
+      "before": "![Câu 12 · phần I · bản gốc (1/2)](/math-import-assets/thpt-question-ce3556432191b3a53a51d960c877b9d398c199d52a6c982d142d40eb89eacfc7.png)\n![Câu 12 · phần I · bản gốc (2/2)](/math-import-assets/thpt-question-1f8bab72acac5a55dffc9090af0e8e66105de7e5b6fbac5dcdbf03d88c65fa03.png)",
+      "after": "Cho hàm số $f(x)$ liên tục trên đoạn $[-2; 3]$ có đồ thị như hình vẽ dưới đây.\n\nGọi $m, M$ lần lượt là giá trị nhỏ nhất và giá trị lớn nhất của hàm số trên đoạn $[-2; 3]$. Giá trị của $m + M$ bằng:\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-d9937e8bc7fe50062a61f5f1fc51e75a4cb52d50d8213abaa5cdfdfc86d1f35d.png)"
+    },
+    {
+      "id": "550211ad-8d4d-5988-a0a9-179957d2a7e3",
+      "externalId": "THPT-12-CUOI_HK1-227-Q13",
+      "before": "![Câu 1 · phần II · bản gốc](/math-import-assets/thpt-question-06fdad28f80925d3ab64d0a5e48fb4d4f65583cecfde93c7fd4787ffd75a4481.png)",
+      "after": "Trong không gian $Oxyz$, cho hình hộp chữ nhật $ABCD.A'B'C'D'$ biết điểm $A$ trùng với gốc $O$, $B(2; 0; 0)$, $D(0; 3; 0)$, $A'(0; 0; 4)$."
+    },
+    {
+      "id": "b7e1bb8f-473d-586d-a24c-79bad2bd2355",
+      "externalId": "THPT-12-CUOI_HK1-227-Q14",
+      "before": "![Câu 2 · phần II · bản gốc](/math-import-assets/thpt-question-fd77718edb32f52f98468fd07971dacf88b1ad8101624f21a74ef12af52ecf7b.png)",
+      "after": "Cho hàm số $y = \\frac{3x + 2}{x + 2}$ có đồ thị là $(C)$."
+    },
+    {
+      "id": "1dc1bc6b-fb03-5dd8-acc1-902a7e701790",
+      "externalId": "THPT-12-CUOI_HK1-227-Q15",
+      "before": "![Câu 1 · phần III · bản gốc](/math-import-assets/thpt-question-937d8aebb6581ef05dff89833fe97a6053bb2792eee648accc189b0d77242d19.png)",
+      "after": "Cho tứ diện đều $ABCD$ có cạnh bằng 2. Tích vô hướng $\\vec{AB}(\\vec{AB} - \\vec{DA})$ bằng bao nhiêu?"
+    },
+    {
+      "id": "31ae0ae4-8a51-55d8-a89d-aabc3c9f5bef",
+      "externalId": "THPT-12-CUOI_HK1-227-Q16",
+      "before": "![Câu 2 · phần III · bản gốc](/math-import-assets/thpt-question-a665bb606d735a8ef8a759eae369cb972769ef0bdf25a1de799a53b2124b3a05.png)",
+      "after": "Kết quả điều tra về số giờ làm thêm trong 1 tuần của một nhóm sinh viên được cho ở bảng sau:\n\nTính khoảng tứ phân vị của mẫu số liệu ghép nhóm trên (làm tròn kết quả đến hàng phần trăm)?\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-5d55c6d43e79431f0c59b4e97ac1e6d7f0983e1f762e128f2c64f6ff52410425.png)"
+    },
+    {
+      "id": "508cb450-ca18-55a3-a56a-5cb4a149ec00",
+      "externalId": "THPT-12-CUOI_HK1-227-Q17",
+      "before": "![Câu 3 · phần III · bản gốc](/math-import-assets/thpt-question-13875d4de284dd4dd0791516236ff2578af767ef2bebf61c1874fab387761643.png)",
+      "after": "Trong không gian $Oxyz$, cho điểm $M(3; 3; -2)$ và điểm $N$ đối xứng với $M$ qua trục $Oy$. Độ dài đoạn thẳng $MN$ bằng bao nhiêu? (làm tròn kết quả đến hàng phần mười)."
+    },
+    {
+      "id": "97e9a0ec-d350-52ca-a0e7-6ffec1ddb486",
+      "externalId": "THPT-12-CUOI_HK1-227-Q18",
+      "before": "![Câu 4 · phần III · bản gốc](/math-import-assets/thpt-question-8ae2656cd860d8c15dbd02a04a76ac9c1bf88e1a9931d5be33ec170fba9860b9.png)",
+      "after": "Một công ty muốn xây một đường ống dẫn từ một điểm $A$ trên bờ biển đến một điểm $B$ trên một hòn đảo. Giá để xây đường ống trên bờ là 30 triệu đồng mỗi km và 50 triệu đồng để xây mỗi km dưới nước. Gọi $C$ là điểm trên bờ biển sao cho $BC$ vuông góc với bờ biển, $BC = 6\\text{ km}$, $AC = 9\\text{ km}$. Gọi $M$ là vị trí trên đoạn $AC$ sao cho khi làm ống dẫn theo đường gấp khúc $AMB$ thì chi phí ít nhất (tham khảo hình vẽ). Hỏi chi phí thấp nhất để hoàn thành việc xây dựng đường ống dẫn là bao nhiêu triệu đồng? (kết quả làm tròn đến hàng đơn vị).\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-7f08709ea51fd165ba471406c37d62891e2fde18f8c94a1b65344bae9e399d2b.png)"
+    },
+    {
+      "id": "05ef033a-a8c9-543a-a2de-649a180955f1",
+      "externalId": "THPT-10-GIUA_HK1-006-Q10",
+      "before": "Cho hình thoi $ABCD$ như hình. Vectơ cùng hướng với $\\overrightarrow{AB}$ là:\n![Hình và câu hỏi trong bản gốc](/math-import-assets/thpt-question-d81ff23f0f463b2506d02abbc241e2e22179e483017214a1ac0b0f284b225cde.png)",
+      "after": "Cho hình thoi $ABCD$. Vectơ cùng hướng với $\\overrightarrow{AB}$ là:"
+    },
+    {
+      "id": "fcc8233e-9f7c-5e0f-a563-d716c1cdaab7",
+      "externalId": "THPT-10-GIUA_HK1-006-Q12",
+      "before": "Miền nghiệm của bất phương trình nào được biểu diễn bởi nửa mặt phẳng không bị gạch (kể cả đường thẳng $d$) trong hình?\n![Hình và câu hỏi trong bản gốc](/math-import-assets/thpt-question-6d889a0a90df7daef7e41062eafd3843c2f74dfe9c934aef180ee0d69dea0796.png)",
+      "after": "Miền nghiệm của bất phương trình nào được biểu diễn bởi nửa mặt phẳng không bị gạch (kể cả đường thẳng $d$) trong hình?\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-048dbc1f7ff881b9419aec9980f940b6c49a5ab2bb97d7b99f7fd656ed8b6c91.png)"
+    },
+    {
+      "id": "ce41ec04-e534-5483-a962-fd42766618a8",
+      "externalId": "THPT-10-GIUA_HK1-006-Q18",
+      "before": "Một người đi dọc bờ biển từ $A$ đến $B$ và quan sát ngọn hải đăng tại $C$. Các góc như hình là $48^\\circ$ tại $A$ và $79^\\circ$ với tia bờ biển tiếp tục từ $B$. Biết $AB=125$ m. Ngọn hải đăng cách bờ biển bao nhiêu mét? Làm tròn kết quả cuối đến hàng đơn vị.\n![Hình và câu hỏi trong bản gốc](/math-import-assets/thpt-question-af03f6bcd689f04f649d05a52e09e0b4ed929f9298f23167b81e14443dc59bbd.png)",
+      "after": "Một người đi dọc bờ biển từ $A$ đến $B$ và quan sát ngọn hải đăng tại $C$. Các góc như hình là $48^\\circ$ tại $A$ và $79^\\circ$ với tia bờ biển tiếp tục từ $B$. Biết $AB=125$ m. Ngọn hải đăng cách bờ biển bao nhiêu mét? Làm tròn kết quả cuối đến hàng đơn vị.\n![Hình minh họa của câu hỏi](/math-import-assets/thpt-figure-c329abedc67bef04dd6f023f4749a2fa8db53a0bf2e92e2da938660bab25a0aa.png)"
+    }
+  ],
+  "assignmentSnapshotsUnchanged": true
+}

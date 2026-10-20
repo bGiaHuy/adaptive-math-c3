@@ -1,6 +1,6 @@
 // Shared authoring rubric. Definitions are operational rules for this product, not calibrated IRT bands.
 export const QUESTION_LABEL_RUBRIC = {
-  version: 'math9-authoring-rubric-v1',
+  version: 'thpt-authoring-rubric-v1',
   cognitiveLevels: [
     { code: 'REMEMBERING', label: 'Nhận biết', definition: 'Nhớ hoặc nhận ra khái niệm, ký hiệu, tính chất, công thức đã học; thực hiện phép tính trực tiếp quen thuộc, không phải lựa chọn chiến lược giải.',
       evidence: 'Lời giải chủ yếu là nhắc lại kiến thức hoặc thay số trực tiếp vào một công thức đã xác định rõ.',

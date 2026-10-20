@@ -1,4 +1,4 @@
-import { THPT_CURRICULUM, THPT_BOOK, LEGACY_BANK_PAUSED } from './thpt-catalog';
+import { THPT_CURRICULUM, THPT_BOOK, learningQuestionWhere, isLearningQuestion } from './thpt-catalog';
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 
@@ -15,7 +15,7 @@ export class CurriculumService {
       goals: [
         { id: 'midterm', title: 'Ôn thi giữa kỳ', desc: 'Tập trung các chủ đề trọng tâm nửa học kỳ.', targetMastery: '75%' },
         { id: 'finalterm', title: 'Ôn thi cuối kỳ', desc: 'Bao quát toàn bộ kiến thức học kỳ.', targetMastery: '80%' },
-        { id: 'graduation', title: 'Ôn thi tốt nghiệp THPT', desc: 'Củng cố kiến thức THPT và luyện theo cấu trúc đề hiện có.', targetMastery: '85%' },
+        { id: 'university', title: 'Ôn thi đại học', desc: 'Dành cho lớp 12: củng cố kiến thức và luyện mục tiêu xét tuyển đại học.', targetMastery: '85%', minGrade: 12 },
         { id: 'advanced', title: 'Học nâng cao / HSG', desc: 'Tiến xa hơn chương trình chuẩn với các chuyên đề khó.', targetMastery: '95%' }
       ],
       dailyTimes: [
@@ -34,24 +34,19 @@ export class CurriculumService {
   }
 
   async getSkillsByGrade(grade: number = 10) {
-    if (LEGACY_BANK_PAUSED) {
+    if (![10, 11, 12].includes(grade)) return { grade, bankStatus: 'UNSUPPORTED', totalSkills: 0, chapters: [] };
+    const skills = await this.prisma.skillNode.findMany({ where: { grade }, orderBy: { orderIndex: 'asc' },
+      include: { questions: { where: learningQuestionWhere(), select: { id: true, status: true, source: true, questionType: true } } } });
+    if (!skills.length) {
       const level = THPT_CURRICULUM.find(item => item.grade === grade);
       return { grade, book: THPT_BOOK, bankStatus: 'PREPARING', totalSkills: level?.chapters.reduce((sum, c) => sum + c.topics.length, 0) || 0,
         chapters: (level?.chapters || []).map(chapter => ({ chapter: chapter.title, skills: chapter.topics.map((topic, index) => ({ id: topic.id, code: topic.id, title: topic.title, orderIndex: index, questionsCount: 0, persisted: false })) })) };
     }
-    const skills = await this.prisma.skillNode.findMany({
-      where: { grade, code: { not: 'MATH9-REVIEW-REQUIRED' } },
-      orderBy: { orderIndex: 'asc' },
-      include: {
-        _count: {
-          select: { questions: true }
-        }
-      }
-    });
 
     // Group by chapter
     const chaptersMap = new Map<string, any[]>();
     for (const s of skills) {
+      const questions = s.questions.filter(q => isLearningQuestion({ ...q, skill: { grade } }));
       if (!chaptersMap.has(s.chapter)) {
         chaptersMap.set(s.chapter, []);
       }
@@ -60,7 +55,8 @@ export class CurriculumService {
         code: s.code,
         title: s.title,
         orderIndex: s.orderIndex,
-        questionsCount: s._count.questions
+        questionsCount: questions.length, persisted: true,
+        canPractice: questions.filter(q => q.questionType === 'SINGLE_CHOICE').length >= 3
       });
     }
 
@@ -71,6 +67,8 @@ export class CurriculumService {
 
     return {
       grade,
+      book: THPT_BOOK,
+      bankStatus: grouped.some(chapter => chapter.skills.some(skill => skill.questionsCount > 0)) ? 'AVAILABLE' : 'PREPARING',
       totalSkills: skills.length,
       chapters: grouped
     };

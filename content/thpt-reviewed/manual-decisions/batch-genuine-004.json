@@ -1,0 +1,474 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-026-M132-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-026.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "132",
+      "sourceExamName": "Mã đề 132",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ biết $AB = c = 5$, $BC = a = 8$, góc $\\widehat{B} = 30^\\circ$. Tính diện tích tam giác $ABC$.",
+      "explanation": "Diện tích tam giác $ABC$ được tính theo công thức:\n$S = \\frac{1}{2} a c \\sin B = \\frac{1}{2} \\cdot 8 \\cdot 5 \\cdot \\sin 30^\\circ = 20 \\cdot \\frac{1}{2} = 10$.\nĐáp số: 10.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p3.png",
+          "sha256": "1c05a4c2c7bb878bb34c82879e029439be9aa065475cad9c93fc0bc488c133ee"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p9.png",
+          "sha256": "e79c419735ce51a7a5b9982b3c1f0f93867bc6add9e1a1b3b98b44a1ba955bb8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-M132-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-026.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "132",
+      "sourceExamName": "Mã đề 132",
+      "independentlyReasoned": true,
+      "content": "Một diễn viên xiếc (coi là một vật rắn) trọng lượng $700\\text{ N}$ đi trên dây làm dây võng xuống một góc $140^\\circ$. Tính lực căng của dây treo khi diễn viên xiếc đứng cân bằng (như hình minh họa bên dưới) coi dây không giãn. Biết rằng khi ở vị trí cân bằng thì $\\vec{T}_1 + \\vec{T}_2 + \\vec{P} = \\vec{0}$ (kết quả làm tròn đến hàng đơn vị).\n\n![Diễn viên xiếc đi trên dây](/math-import-assets/thpt-figure-026-p3-circus.png)",
+      "explanation": "Khi diễn viên xiếc đạt trạng thái cân bằng trên dây:\n$\\vec{T}_1 + \\vec{T}_2 + \\vec{P} = \\vec{0} \\Leftrightarrow \\vec{F} = \\vec{T}_1 + \\vec{T}_2 = -\\vec{P}$.\nSuy ra độ lớn hợp lực $F = P = 700\\text{ N}$.\nVì dây không giãn và hai bên đối xứng nên độ lớn hai lực căng bằng nhau: $T_1 = T_2 = T$.\nGóc giữa hai nhánh dây là $140^\\circ$. Theo quy tắc hình bình hành, góc hợp bởi mỗi lực căng với phương thẳng đứng của hợp lực $\\vec{F}$ là $\\frac{140^\\circ}{2} = 70^\\circ$ (hoặc xét tam giác lực có góc đối diện là $180^\\circ - 140^\\circ = 40^\\circ$).\nTa có: $F = 2 T \\cos 70^\\circ \\Leftrightarrow 700 = 2 T \\cos 70^\\circ \\Rightarrow T = \\frac{700}{2 \\cos 70^\\circ} \\approx 1023{,}28\\text{ N}$.\nLàm tròn đến hàng đơn vị được kết quả là 1023 N.\nĐáp số: 1023.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p3.png",
+          "sha256": "1c05a4c2c7bb878bb34c82879e029439be9aa065475cad9c93fc0bc488c133ee"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p10.png",
+          "sha256": "95e0a5d47804706c281bc93efa1a51b93d13d5af324a6aa247bd50d783344233"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-M132-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-026.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "132",
+      "sourceExamName": "Mã đề 132",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai điểm $A(2; 3)$ và $B(-1; -1)$ và $\\vec{u} = (5; -4)$.\na) Tìm tọa độ của vectơ $\\vec{x} = \\vec{AB} + \\vec{u}$.\nb) Tìm tọa độ điểm $C$ nằm trên trục hoành sao cho tam giác $ABC$ vuông tại $A$.",
+      "explanation": "a) Tọa độ của vectơ $\\vec{AB} = (-1 - 2; -1 - 3) = (-3; -4)$.\nKhi đó $\\vec{x} = \\vec{AB} + \\vec{u} = (-3 + 5; -4 + (-4)) = (2; -8)$.\nb) Điểm $C$ nằm trên trục hoành nên có tọa độ dạng $C(x; 0)$.\nVectơ $\\vec{AC} = (x - 2; 0 - 3) = (x - 2; -3)$.\nTam giác $ABC$ vuông tại $A \\Leftrightarrow \\vec{AB} \\cdot \\vec{AC} = 0$\n$\\Leftrightarrow -3(x - 2) + (-4)(-3) = 0 \\Leftrightarrow -3x + 6 + 12 = 0 \\Leftrightarrow -3x + 18 = 0 \\Leftrightarrow x = 6$.\nVậy tọa độ điểm $C$ là $C(6; 0)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p3.png",
+          "sha256": "1c05a4c2c7bb878bb34c82879e029439be9aa065475cad9c93fc0bc488c133ee"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p10.png",
+          "sha256": "95e0a5d47804706c281bc93efa1a51b93d13d5af324a6aa247bd50d783344233"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-026-M132-PART-IV-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-026.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "132",
+      "sourceExamName": "Mã đề 132",
+      "independentlyReasoned": true,
+      "content": "Theo báo cáo \"Digital 2024: Vietnam\" từ We Are Social và Meltwater, thời gian sử dụng Internet trung bình mỗi ngày của người dùng Việt Nam có sự khác biệt giữa các nhóm tuổi và mục đích. Để khảo sát thực tế tại một lớp học, bạn lớp trưởng thống kê thời gian sử dụng điện thoại (đơn vị: giờ) trong một ngày của 10 bạn học sinh trong lớp như sau:\n$6{,}2; 5{,}5; 7{,}0; 6{,}5; 8{,}0; 6{,}5; 5{,}0; 6{,}5; 9{,}0; 7{,}8$.\nTìm trung vị, tứ phân vị và mốt của mẫu số liệu trên?",
+      "explanation": "Sắp xếp dãy số liệu theo thứ tự không giảm:\n$5{,}0; 5{,}5; 6{,}2; 6{,}5; 6{,}5; 6{,}5; 7{,}0; 7{,}8; 8{,}0; 9{,}0$.\nCỡ mẫu $n = 10$ là số chẵn.\n- Số trung vị (tứ phân vị thứ hai $Q_2$): $M_e = Q_2 = \\frac{6{,}5 + 6{,}5}{2} = 6{,}5$.\n- Tứ phân vị thứ nhất $Q_1$: là trung vị của nửa số liệu bên trái $\\{5{,}0; 5{,}5; 6{,}2; 6{,}5; 6{,}5\\} \\Rightarrow Q_1 = 6{,}2$.\n- Tứ phân vị thứ ba $Q_3$: là trung vị của nửa số liệu bên phải $\\{6{,}5; 7{,}0; 7{,}8; 8{,}0; 9{,}0\\} \\Rightarrow Q_3 = 7{,}8$.\n- Mốt của mẫu số liệu: Giá trị $6{,}5$ xuất hiện nhiều nhất (3 lần), do đó $M_o = 6{,}5$.\nKết luận: $M_e = Q_2 = 6{,}5; Q_1 = 6{,}2; Q_3 = 7{,}8; M_o = 6{,}5$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p3.png",
+          "sha256": "1c05a4c2c7bb878bb34c82879e029439be9aa065475cad9c93fc0bc488c133ee"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-026-p10.png",
+          "sha256": "95e0a5d47804706c281bc93efa1a51b93d13d5af324a6aa247bd50d783344233"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau, câu nào không phải là mệnh đề?",
+      "explanation": "Mệnh đề là một câu khẳng định có tính đúng hoặc sai xác định. Câu \"Buồn ngủ quá!\" là một câu cảm thán biểu thị cảm xúc, không phải là câu khẳng định và không có tính đúng sai, nên không phải là mệnh đề. Các câu A, B, D đều là mệnh đề. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p1.png",
+          "sha256": "1fe0026701f1ba1ec35f0e1215b4145c11058c040f4fb14dc51424304ae13cef"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề nào sau đây đúng?",
+      "explanation": "- A: Vì 2 và 3 là hai số nguyên tố cùng nhau nên một số chia hết cho cả 2 và 3 sẽ chia hết cho $2 \\cdot 3 = 6$. Đây là mệnh đề đúng.\n- B: Sai vì với $x = 2$, $2^2 = 4 \\ne 2$.\n- C: Sai vì $x^2 - 2 = 0 \\Leftrightarrow x = \\pm\\sqrt{2}$ là các số vô tỉ, không phải số hữu tỉ.\n- D: Sai vì hình thoi có hai đường chéo vuông góc với nhau; chỉ hình thoi có thêm hai đường chéo bằng nhau thì mới trở thành hình vuông.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p1.png",
+          "sha256": "1fe0026701f1ba1ec35f0e1215b4145c11058c040f4fb14dc51424304ae13cef"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Trong các mệnh đề sau, mệnh đề nào đúng?",
+      "explanation": "- A sai vì tồn tại $n = 0 \\in \\mathbb{N}$ có $0 \\ngtr 1$.\n- B đúng vì tồn tại $n = 1 \\in \\mathbb{Q}$ thỏa mãn $1^2 = 1$ (hoặc $n = 0$).\n- C sai vì $n$ và $n+1$ là hai số tự nhiên liên tiếp nên tích $n(n+1)$ luôn là số chẵn với mọi $n \\in \\mathbb{N}$.\n- D sai vì với $n = 0, 1 \\in \\mathbb{N}$ thì $n^2 = n$, không lớn hơn $n$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p1.png",
+          "sha256": "1fe0026701f1ba1ec35f0e1215b4145c11058c040f4fb14dc51424304ae13cef"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho $A = (-2; 4]$ và $B = (1; 8)$. Tìm $A \\cap B$.",
+      "explanation": "Giao của hai tập hợp $A \\cap B = \\{x \\in \\mathbb{R} \\mid x \\in A \\text{ và } x \\in B\\}$.\nĐiều kiện: $-2 < x \\le 4$ và $1 < x < 8 \\Leftrightarrow 1 < x \\le 4$.\nVậy $A \\cap B = (1; 4]$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p1.png",
+          "sha256": "1fe0026701f1ba1ec35f0e1215b4145c11058c040f4fb14dc51424304ae13cef"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $M = \\{x \\in \\mathbb{R} \\mid -1 \\le x \\le 4\\}$ và $C_{\\mathbb{R}} N = (-\\infty; 0)$. Hãy tìm tập hợp $M \\setminus N$.",
+      "explanation": "Ta có $M = [-1; 4]$.\nPhần bù của $N$ trong $\\mathbb{R}$ là $C_{\\mathbb{R}} N = \\mathbb{R} \\setminus N = (-\\infty; 0) \\Rightarrow N = [0; +\\infty)$.\nKhi đó tập hợp hiệu $M \\setminus N = \\{x \\in M \\mid x \\notin N\\} = [-1; 4] \\setminus [0; +\\infty) = [-1; 0)$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p1.png",
+          "sha256": "1fe0026701f1ba1ec35f0e1215b4145c11058c040f4fb14dc51424304ae13cef"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của bất phương trình $3x + 2(y + 3) > 4(x + 1) - y + 3$ là nửa mặt phẳng chứa điểm:",
+      "explanation": "Rút gọn bất phương trình:\n$3x + 2(y + 3) > 4(x + 1) - y + 3 \\Leftrightarrow 3x + 2y + 6 > 4x + 4 - y + 3$\n$\\Leftrightarrow 3x + 2y + 6 > 4x - y + 7 \\Leftrightarrow -x + 3y - 1 > 0 \\Leftrightarrow x - 3y + 1 < 0$.\nThay tọa độ các điểm vào biểu thức $f(x, y) = x - 3y + 1$:\n- A: $f(3, 0) = 3 - 0 + 1 = 4 \\nless 0$.\n- B: $f(3, 1) = 3 - 3 + 1 = 1 \\nless 0$.\n- C: $f(1, 2) = 1 - 3(2) + 1 = -4 < 0$ (thỏa mãn).\n- D: $f(0, 0) = 0 - 0 + 1 = 1 \\nless 0$.\nDo đó nửa mặt phẳng nghiệm chứa điểm $(1; 2)$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p1.png",
+          "sha256": "1fe0026701f1ba1ec35f0e1215b4145c11058c040f4fb14dc51424304ae13cef"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của bất phương trình $3x - 2y > -6$ là miền không bị gạch (không tính đường biên) trong hình nào sau đây?",
+      "explanation": "Đường thẳng biên $d: 3x - 2y = -6$ cắt trục hoành tại $(-2; 0)$ và cắt trục tung tại $(0; 3)$. Do đó loại hình A (cắt $(2; 0)$) và hình D (cắt $(0; -3)$).\nXét gốc tọa độ $O(0; 0)$: thay vào bất phương trình ta có $3(0) - 2(0) = 0 > -6$ (thỏa mãn).\nVậy gốc tọa độ $O(0; 0)$ thuộc miền nghiệm của bất phương trình, tức miền chứa điểm $O$ không bị gạch.\nQuan sát Hình B và Hình C, chỉ có Hình C có nửa mặt phẳng chứa gốc tọa độ $O(0; 0)$ là miền không bị gạch. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p1.png",
+          "sha256": "1fe0026701f1ba1ec35f0e1215b4145c11058c040f4fb14dc51424304ae13cef"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Trong các cặp số sau, cặp nào không là nghiệm của hệ bất phương trình $\\begin{cases} x + y - 2 \\le 0 \\\\ 2x - 3y + 2 > 0 \\end{cases}$?",
+      "explanation": "Thay tọa độ các cặp số vào hệ bất phương trình:\n- A: Với $(0; 0)$: $0 + 0 - 2 = -2 \\le 0$ và $2(0) - 3(0) + 2 = 2 > 0$ (thỏa mãn).\n- B: Với $(1; 1)$: $1 + 1 - 2 = 0 \\le 0$ và $2(1) - 3(1) + 2 = 1 > 0$ (thỏa mãn).\n- C: Với $(-1; 1)$: $-1 + 1 - 2 = -2 \\le 0$ (thỏa mãn), nhưng $2(-1) - 3(1) + 2 = -3 \\ngtr 0$ (không thỏa mãn).\n- D: Với $(-1; -1)$: $-1 - 1 - 2 = -4 \\le 0$ và $2(-1) - 3(-1) + 2 = 3 > 0$ (thỏa mãn).\nDo đó cặp số $(-1; 1)$ không là nghiệm của hệ. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Giá trị của $\\cos 60^\\circ + \\sin 30^\\circ$ bằng bao nhiêu?",
+      "explanation": "Tra bảng giá trị lượng giác của các góc đặc biệt:\n$\\cos 60^\\circ = \\frac{1}{2}$ và $\\sin 30^\\circ = \\frac{1}{2}$.\nDo đó $\\cos 60^\\circ + \\sin 30^\\circ = \\frac{1}{2} + \\frac{1}{2} = 1$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Trong các đẳng thức sau, đẳng thức nào đúng?",
+      "explanation": "Theo tính chất giá trị lượng giác của hai góc bù nhau ($0^\\circ \\le \\alpha \\le 180^\\circ$):\n$\\sin(180^\\circ - \\alpha) = \\sin\\alpha$, $\\cos(180^\\circ - \\alpha) = -\\cos\\alpha$, $\\tan(180^\\circ - \\alpha) = -\\tan\\alpha$, $\\cot(180^\\circ - \\alpha) = -\\cot\\alpha$.\nĐẳng thức đúng duy nhất là $\\sin(180^\\circ - \\alpha) = \\sin\\alpha$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Gọi $R$ là bán kính đường tròn ngoại tiếp tam giác $ABC$. Đẳng thức nào dưới đây sai?",
+      "explanation": "Theo định lý sin trong tam giác $ABC$:\n$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$.\n- A: $\\frac{a}{\\sin A} = 2R$ là đúng.\n- B: $\\sin A = \\frac{a}{2R}$ là đúng.\n- C: $b \\sin B = 2R$ là sai (đẳng thức đúng phải là $\\frac{b}{\\sin B} = 2R$).\n- D: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A} \\Rightarrow \\sin C = \\frac{c \\sin A}{a}$ là đúng.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $\\cos(A - B) - \\cos(A + B) = 1 + \\cos C$. Chọn mệnh đề đúng trong các mệnh đề sau:",
+      "explanation": "Trong tam giác $ABC$, ta có $C = 180^\\circ - (A + B) \\Rightarrow \\cos C = -\\cos(A + B)$.\nPhương trình đã cho tương đương với:\n$\\cos(A - B) - \\cos(A + B) = 1 - \\cos(A + B) \\Leftrightarrow \\cos(A - B) = 1$.\nVì $A$ và $B$ là hai góc trong tam giác nên $-180^\\circ < A - B < 180^\\circ$.\nDo đó $\\cos(A - B) = 1 \\Leftrightarrow A - B = 0 \\Leftrightarrow A = B$.\nTam giác $ABC$ có hai góc $\\widehat{A} = \\widehat{B}$ nên cân tại đỉnh $C$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp $A = \\{x \\in \\mathbb{R} \\mid -5 \\le x \\le -3\\}$ và $B = (-3; 2)$. Khi đó:",
+      "explanation": "Xét hai tập hợp $A = [-5; -3]$ và $B = (-3; 2)$:\n- a) $A = \\{x \\in \\mathbb{R} \\mid -5 \\le x \\le -3\\} = [-5; -3]$. Khẳng định là ĐÚNG.\n- b) Hợp $A \\cup B = [-5; -3] \\cup (-3; 2) = [-5; 2)$. Khẳng định là ĐÚNG.\n- c) Giao $A \\cap B = [-5; -3] \\cap (-3; 2) = \\emptyset$ vì phần tử $-3$ thuộc $A$ nhưng không thuộc $B$. Khẳng định ghi $\\{-3\\}$ là SAI.\n- d) Phần bù của $A \\cup B = [-5; 2)$ trong $\\mathbb{R}$ là $\\mathbb{R} \\setminus [-5; 2) = (-\\infty; -5) \\cup [2; +\\infty)$. Khẳng định là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Em An được mẹ cho $50\\,000$ đồng để mua ít nhất $15$ phần quà để tổ chức một buổi ngoại khóa. Em An dự định mua mỗi phần quà là 1 cây bút hoặc 1 cây thước với giá mỗi cây bút là $3500$ đồng và giá mỗi cây thước là $2000$ đồng. Gọi $x, y$ lần lượt là số cây bút và số cây thước mà em An đã mua.",
+      "explanation": "Phân tích các phát biểu:\n- a) Mỗi cây bút giá 3500 đồng nên $x$ cây bút có giá $3500x$ đồng. ĐÚNG.\n- b) Tổng số tiền mua $x$ cây bút và $y$ cây thước là $3500x + 2000y$ đồng. ĐÚNG.\n- c) Bất phương trình $x + y \\ge 15$ thể hiện điều kiện về số lượng quà (ít nhất 15 phần), không phải thể hiện về tổng số tiền. Bất phương trình về tổng số tiền là $3500x + 2000y \\le 50\\,000$. Khẳng định c) SAI.\n- d) Đề bài cho \"mua ít nhất 15 phần quà\", điều kiện đúng phải là $x + y \\ge 15$. Trong hệ ở phương án d lại ghi $x + y \\le 15$. Khẳng định d) SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho các tập hợp $A = \\{x \\in \\mathbb{Q} \\mid (x - 1)(x - 3)(x^2 + 2) = 0\\}$ và $B = \\{x \\in \\mathbb{R} \\mid (x^2 + 2x - 3)(x + 4m) = 0\\}$. Tích các giá trị của tham số $m$ để $n(A \\cup B) = 3$ bằng bao nhiêu?",
+      "explanation": "Xét tập hợp $A$:\n$(x - 1)(x - 3)(x^2 + 2) = 0 \\Leftrightarrow x = 1$ hoặc $x = 3$ (do $x^2 + 2 > 0$).\nVì $1, 3 \\in \\mathbb{Q}$, nên $A = \\{1; 3\\}$ ($n(A) = 2$).\nXét tập hợp $B$:\n$(x^2 + 2x - 3)(x + 4m) = 0 \\Leftrightarrow (x - 1)(x + 3)(x + 4m) = 0 \\Rightarrow B = \\{1; -3; -4m\\}$.\nKhi đó tập hợp hợp:\n$A \\cup B = \\{1; 3\\} \\cup \\{1; -3; -4m\\} = \\{1; 3; -3; -4m\\}$.\nĐể $n(A \\cup B) = 3$, phần tử $-4m$ phải trùng với một trong ba phần tử $1, 3, -3$:\n- Trường hợp 1: $-4m = 1 \\Rightarrow m = -\\frac{1}{4}$.\n- Trường hợp 2: $-4m = 3 \\Rightarrow m = -\\frac{3}{4}$.\n- Trường hợp 3: $-4m = -3 \\Rightarrow m = \\frac{3}{4}$.\nTích các giá trị của tham số $m$ là:\n$\\left(-\\frac{1}{4}\\right) \\cdot \\left(-\\frac{3}{4}\\right) \\cdot \\left(\\frac{3}{4}\\right) = \\frac{9}{64}$.\nĐáp số: 9/64.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": "2-3",
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Một hộ nông dân dự định trồng nha đam và măng tây trên diện tích 10 ha. Nếu trồng nha đam thì cần 10 công và thu được 4 triệu đồng trên diện tích mỗi ha. Nếu trồng măng tây thì cần 30 công và thu được 6 triệu đồng trên diện tích mỗi ha. Hỏi số tiền người nông dân thu được nhiều nhất là bao nhiêu triệu đồng, biết rằng tổng số công không vượt quá 150 công.",
+      "explanation": "Gọi $x, y \\ge 0$ (đơn vị: ha) lần lượt là diện tích trồng nha đam và măng tây.\nĐiều kiện về diện tích đất: $x + y \\le 10$.\nĐiều kiện về số công lao động: $10x + 30y \\le 150 \\Leftrightarrow x + 3y \\le 15$.\nTa có hệ bất phương trình ràng buộc:\n$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y \\le 10 \\\\ x + 3y \\le 15 \\end{cases}$\nMiền nghiệm là tứ giác $OABC$ với tọa độ các đỉnh:\n- $O(0; 0)$\n- $A(10; 0)$\n- $B(7{,}5; 2{,}5)$ (nghiệm của hệ $\\begin{cases} x + y = 10 \\\\ x + 3y = 15 \\end{cases}$)\n- $C(0; 5)$\nSố tiền thu được là hàm mục tiêu: $F(x, y) = 4x + 6y$ (triệu đồng).\nTính giá trị tại các đỉnh:\n- $F(0, 0) = 0$\n- $F(10, 0) = 4(10) = 40$ triệu đồng\n- $F(7{,}5; 2{,}5) = 4(7{,}5) + 6(2{,}5) = 30 + 15 = 45$ triệu đồng\n- $F(0, 5) = 6(5) = 30$ triệu đồng.\nVậy số tiền người nông dân thu được nhiều nhất là 45 triệu đồng khi trồng 7,5 ha nha đam và 2,5 ha măng tây.\nĐáp số: 45.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p2.png",
+          "sha256": "d1f30ddab42ae8d902a34d9c4b78c103712042948007e5f839d509cb93589241"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p3.png",
+          "sha256": "c765c0ba7c678075d0f16212cb37131707fbf7176fdb7e8a88212cfdc5d9abba"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho $\\tan\\alpha = 2$, tính giá trị của biểu thức $A = \\left[ \\frac{1 - \\cos\\alpha}{\\sin\\alpha} \\cdot \\frac{1 + \\cos\\alpha}{\\sin\\alpha} \\right]^2 - \\cos^2\\alpha$.",
+      "explanation": "Rút gọn biểu thức $A$:\nTa có: $\\frac{1 - \\cos\\alpha}{\\sin\\alpha} \\cdot \\frac{1 + \\cos\\alpha}{\\sin\\alpha} = \\frac{1 - \\cos^2\\alpha}{\\sin^2\\alpha} = \\frac{\\sin^2\\alpha}{\\sin^2\\alpha} = 1$.\nKhi đó: $A = 1^2 - \\cos^2\\alpha = 1 - \\cos^2\\alpha = \\sin^2\\alpha$.\nMặt khác, từ công thức hệ thức lượng giác cơ bản:\n$\\sin^2\\alpha = \\frac{\\tan^2\\alpha}{1 + \\tan^2\\alpha}$.\nThay $\\tan\\alpha = 2$ vào ta được:\n$A = \\frac{2^2}{1 + 2^2} = \\frac{4}{5} = 0{,}8$.\nĐáp số: 0,8.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p3.png",
+          "sha256": "c765c0ba7c678075d0f16212cb37131707fbf7176fdb7e8a88212cfdc5d9abba"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có hai trung tuyến $BM$ và $CN$ hợp với nhau một góc $120^\\circ$. Biết $BM = 12$, $CN = 15$. Tính chu vi của tam giác $ABC$ (Kết quả làm tròn đến hàng đơn vị).\n\n![Hai trung tuyến BM và CN](/math-import-assets/thpt-figure-004-p3-q4-triangle.png)",
+      "explanation": "Gọi $G$ là trọng tâm tam giác $ABC$. Theo tính chất trọng tâm:\n$GB = \\frac{2}{3} BM = \\frac{2}{3} \\cdot 12 = 8, \\quad GM = \\frac{1}{3} BM = 4$.\n$GC = \\frac{2}{3} CN = \\frac{2}{3} \\cdot 15 = 10, \\quad GN = \\frac{1}{3} CN = 5$.\nGóc $\\widehat{BGC} = 120^\\circ \\Rightarrow \\cos\\widehat{BGC} = -\\frac{1}{2}$.\nÁp dụng định lý côsin trong các tam giác:\n1. Trong $\\triangle GBC$:\n   $BC^2 = GB^2 + GC^2 - 2 \\cdot GB \\cdot GC \\cdot \\cos 120^\\circ = 8^2 + 10^2 - 2(8)(10)\\left(-\\frac{1}{2}\\right) = 64 + 100 + 80 = 244 \\Rightarrow BC = \\sqrt{244} \\approx 15{,}6205$.\n2. Trong $\\triangle GBN$ có $\\widehat{BGN} = 180^\\circ - 120^\\circ = 60^\\circ$:\n   $BN^2 = GB^2 + GN^2 - 2 \\cdot GB \\cdot GN \\cdot \\cos 60^\\circ = 8^2 + 5^2 - 2(8)(5)\\left(\\frac{1}{2}\\right) = 64 + 25 - 40 = 49 \\Rightarrow BN = 7$.\n   Vì $N$ là trung điểm $AB$ nên $AB = 2 BN = 14$.\n3. Trong $\\triangle GCM$ có $\\widehat{CGM} = 180^\\circ - 120^\\circ = 60^\\circ$:\n   $CM^2 = GC^2 + GM^2 - 2 \\cdot GC \\cdot GM \\cdot \\cos 60^\\circ = 10^2 + 4^2 - 2(10)(4)\\left(\\frac{1}{2}\\right) = 100 + 16 - 40 = 76 \\Rightarrow CM = \\sqrt{76}$.\n   Vì $M$ là trung điểm $AC$ nên $AC = 2 CM = 2\\sqrt{76} = \\sqrt{304} \\approx 17{,}4356$.\nChu vi tam giác $ABC$ là:\n$P = AB + BC + CA = 14 + \\sqrt{244} + \\sqrt{304} \\approx 14 + 15{,}6205 + 17{,}4356 = 47{,}0561$.\nLàm tròn đến hàng đơn vị được kết quả là 47.\nĐáp số: 47.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p3.png",
+          "sha256": "c765c0ba7c678075d0f16212cb37131707fbf7176fdb7e8a88212cfdc5d9abba"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = [-2; 3]$ và tập hợp $B = [\\frac{m-1}{3}; +\\infty)$. Tổng tất cả các giá trị nguyên của tham số $m$ để $A \\cap B$ có đúng ba phần tử là số nguyên là:",
+      "explanation": "Tập hợp $A = [-2; 3]$ chứa các số nguyên: $\\{-2; -1; 0; 1; 2; 3\\}$.\nĐặt $k = \\frac{m-1}{3}$, khi đó $B = [k; +\\infty)$.\nĐể $A \\cap B$ có đúng ba phần tử là số nguyên, các phần tử nguyên đó bắt buộc phải là ba số nguyên lớn nhất trong $A$, tức là $\\{1; 2; 3\\}$.\nĐiều kiện cần và đủ là:\n$0 < k \\le 1 \\Leftrightarrow 0 < \\frac{m-1}{3} \\le 1 \\Leftrightarrow 0 < m - 1 \\le 3 \\Leftrightarrow 1 < m \\le 4$.\nVì $m$ là số nguyên nên $m \\in \\{2; 3; 4\\}$.\nTổng tất cả các giá trị nguyên của $m$ là $2 + 3 + 4 = 9$.\nĐáp số: 9.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p3.png",
+          "sha256": "c765c0ba7c678075d0f16212cb37131707fbf7176fdb7e8a88212cfdc5d9abba"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Tìm số nguyên dương $y_0$ để cặp số $(1{,}5; y_0)$ là một nghiệm của bất phương trình $6x - y > 7{,}5$.",
+      "explanation": "Cặp số $(1{,}5; y_0)$ là nghiệm của bất phương trình $6x - y > 7{,}5$ khi và chỉ khi:\n$6(1{,}5) - y_0 > 7{,}5 \\Leftrightarrow 9 - y_0 > 7{,}5 \\Leftrightarrow y_0 < 9 - 7{,}5 \\Leftrightarrow y_0 < 1{,}5$.\nVì $y_0$ là số nguyên dương ($y_0 \\in \\mathbb{Z}^+$), nên $y_0 \\ge 1$.\nKết hợp điều kiện $1 \\le y_0 < 1{,}5$, ta được giá trị duy nhất là $y_0 = 1$.\nĐáp số: 1.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p3.png",
+          "sha256": "c765c0ba7c678075d0f16212cb37131707fbf7176fdb7e8a88212cfdc5d9abba"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-004-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-004.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "Đề số 01",
+      "sourceExamName": "Đề ôn tập số 01",
+      "independentlyReasoned": true,
+      "content": "Để đo chiều cao toà tháp người ta dùng dụng cụ đo góc có chiều cao $1{,}2\\text{ m}$ đặt tại hai vị trí trên mặt đất cách nhau một khoảng $AB = 30\\text{ m}$. Tại vị trí $A$ và $B$ góc đo thu được so với phương ngang lần lượt là $\\alpha = 65^\\circ, \\beta = 50^\\circ$ (hình minh hoạ). Chiều cao $h$ của toà tháp là bao nhiêu? (Kết quả làm tròn đến hàng phần trăm).\n\n![Đo chiều cao toà tháp](/math-import-assets/thpt-figure-004-p3-q3-tower.png)",
+      "explanation": "Gọi $M$ là đỉnh tháp, $C$ và $D$ lần lượt là vị trí đặt giác kế ứng với điểm $A$ và $B$ trên mặt đất.\nTa có $AC = BD = 1{,}2\\text{ m}$ và khoảng cách ngang $CD = AB = 30\\text{ m}$.\nGóc nâng $\\widehat{MCH} = \\alpha = 65^\\circ$ và $\\widehat{MDH} = \\beta = 50^\\circ$ (với $H$ là chân đường cao hạ từ $M$ xuống đường ngang $CD$).\nTrong tam giác $MCD$:\nGóc $\\widehat{CMD} = \\alpha - \\beta = 65^\\circ - 50^\\circ = 15^\\circ$.\nÁp dụng định lý sin trong tam giác $MCD$:\n$\\frac{MC}{\\sin 50^\\circ} = \\frac{CD}{\\sin 15^\\circ} \\Rightarrow MC = \\frac{30 \\cdot \\sin 50^\\circ}{\\sin 15^\\circ} \\approx \\frac{30 \\cdot 0{,}766044}{0{,}258819} \\approx 88{,}7933\\text{ m}$.\nChiều cao từ đường ngang đến đỉnh tháp:\n$MH = MC \\cdot \\sin 65^\\circ \\approx 88{,}7933 \\cdot 0{,}906308 \\approx 80{,}474\\text{ m}$.\nChiều cao của toà tháp từ mặt đất là:\n$h = MH + 1{,}2 = 80{,}474 + 1{,}2 = 81{,}674\\text{ m}$.\nLàm tròn đến hàng phần trăm được $81{,}67\\text{ m}$.\nĐáp số: 81,67.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-004-p3.png",
+          "sha256": "c765c0ba7c678075d0f16212cb37131707fbf7176fdb7e8a88212cfdc5d9abba"
+        }
+      ]
+    }
+  ]
+}

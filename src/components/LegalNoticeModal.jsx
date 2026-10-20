@@ -141,7 +141,7 @@ export default function LegalNoticeModal({ isOpen, onClose }) {
               1. Bảo Vệ Quyền Riêng Tư & Dữ Liệu Học Sinh (Gate 0 D-02)
             </h3>
             <p style={{ margin: '0 0 8px 0' }}>
-              AdaptiveMath thu thập thông tin tối thiểu phục vụ chẩn đoán năng lực Toán THCS GDPT 2018 (họ tên, khối lớp, lịch sử làm bài chẩn đoán và câu sai). Mật khẩu được băm một chiều an toàn bằng thuật toán <strong>Argon2id</strong> chuẩn OWASP.
+              AdaptiveMath thu thập thông tin tối thiểu phục vụ chẩn đoán năng lực Toán THPT lớp 10–12 theo GDPT 2018 (họ tên, khối lớp, lịch sử làm bài chẩn đoán và câu sai). Mật khẩu được băm một chiều an toàn bằng thuật toán <strong>Argon2id</strong> chuẩn OWASP.
             </p>
             <p style={{ margin: '0 0 8px 0' }}>
               Hệ thống không thu thập số điện thoại hoặc vị trí địa lý của học sinh. Đối với học sinh dưới 15 tuổi, cơ chế đồng thuận từ phụ huynh (Parent Consent) được phân loại theo từng mốc kiểm soát của Gate 4.

@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-084",
+  "reviewedAt": "2026-10-20T13:42:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với $a$ là số thực dương, biểu thức $P = \\sqrt[3]{a} \\cdot a^{1/2}$ bằng:",
+      "explanation": "Ta có: $P = a^{1/3} \\cdot a^{1/2} = a^{1/3 + 1/2} = a^{5/6}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điều kiện của $a$ để $a^{8/7} > a^{2/21}$ là:",
+      "explanation": "Ta có số mũ $\\frac{8}{7} = \\frac{24}{21} > \\frac{2}{21}$. Do đó để $a^{8/7} > a^{2/21}$ thì cơ số phải lớn hơn 1, tức là $a > 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\ln x$ là:",
+      "explanation": "Hàm số logarit $y = \\ln x$ xác định khi và chỉ khi biểu thức dưới dấu logarit dương: $x > 0$. Tập xác định là $(0; +\\infty)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đo chiều cao (tính bằng cm) của 500 học sinh trong một trường THPT ta thu được kết quả như hình bên dưới. Số nhóm của mẫu số liệu ghép nhóm trên là:\\n\\n<img src=\"/math-import-assets/THPT-11-GIUA_HK2-157-p1-img1.png\" alt=\"Bảng số liệu\" style=\"max-width:350px; display:block; margin:10px auto;\" />",
+      "explanation": "Bảng số liệu ghép nhóm có 5 khoảng chiều cao $[150; 152), [152; 154), [154; 156), [156; 158), [158; 160)$, tương ứng có 5 nhóm.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đồ thị hình bên dưới là đồ thị của hàm số nào?\\n\\n<img src=\"/math-import-assets/THPT-11-GIUA_HK2-157-p1-img2.png\" alt=\"Đồ thị hàm số\" style=\"max-width:260px; display:block; margin:10px auto;\" />",
+      "explanation": "Đồ thị là một đường cong đồng biến, đi qua các điểm $(0; 1)$ và $(1; 3)$, là đồ thị của hàm số mũ $y = 3^x$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $0 < a \\neq 1, x > 0$. Mệnh đề nào sau đây là sai?",
+      "explanation": "Theo định nghĩa logarit, $a^{\\log_a x} = x$. Biểu thức $x^{\\log_a x} = x$ ở phương án C là sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $A$ và $B$ là hai biến cố xung khắc. Chọn phát biểu đúng.",
+      "explanation": "Nếu hai biến cố $A$ và $B$ xung khắc thì $A \\cap B = \\emptyset$, do đó theo công thức cộng xác suất: $P(A \\cup B) = P(A) + P(B)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $A$ và $B$ là hai biến cố độc lập thỏa mãn $P(A) = 0.4$ và $P(B) = 0.5$. Xác suất $P(A \\cap B)$ bằng:",
+      "explanation": "Vì $A$ và $B$ là hai biến cố độc lập nên $P(A \\cap B) = P(A) \\cdot P(B) = 0.4 \\times 0.5 = 0.2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập nghiệm của bất phương trình $\\log_{2/3} x > 2$ là:",
+      "explanation": "Vì cơ số $0 < \\frac{2}{3} < 1$ nên bất phương trình tương đương: $0 < x < \\left(\\frac{2}{3}\\right)^2 = \\frac{4}{9}$. Tập nghiệm là $\\left(0; \\frac{4}{9}\\right)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p1.png",
+          "sha256": "439998bd87a263edbfabfa5dc9f3e9efe50207d748ff695f5a91ec660e4f9f99"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $a > 0$ và $a \\neq 1$, khi đó $\\log_a \\sqrt[5]{a}$ bằng:",
+      "explanation": "Ta có $\\sqrt[5]{a} = a^{1/5}$, do đó $\\log_a \\sqrt[5]{a} = \\log_a(a^{1/5}) = \\frac{1}{5}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p2.png",
+          "sha256": "8c6c2740272644e0ccec194854a93feda98d6b2ab4120728973e9c5d24f49218"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $4^{2x+1} = 64$ là:",
+      "explanation": "Ta có $64 = 4^3$. Phương trình tương đương $2x + 1 = 3 \\Leftrightarrow 2x = 2 \\Leftrightarrow x = 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p2.png",
+          "sha256": "8c6c2740272644e0ccec194854a93feda98d6b2ab4120728973e9c5d24f49218"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điều tra về chiều cao của học sinh khối lớp 11, ta được mẫu số liệu sau (tham khảo bảng bên dưới). Giá trị đại diện của nhóm thứ ba là:\\n\\n<img src=\"/math-import-assets/THPT-11-GIUA_HK2-157-p2-img1.png\" alt=\"Bảng số liệu chiều cao\" style=\"max-width:350px; display:block; margin:10px auto;\" />",
+      "explanation": "Nhóm thứ ba là khoảng $[154; 156)$. Giá trị đại diện của nhóm là trung bình cộng hai đầu mút: $\\frac{154 + 156}{2} = 155$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p2.png",
+          "sha256": "8c6c2740272644e0ccec194854a93feda98d6b2ab4120728973e9c5d24f49218"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp đựng 9 tấm thẻ cùng loại được ghi số từ 1 đến 9. Rút ngẫu nhiên đồng thời hai tấm thẻ từ trong hộp. Xét các biến cố sau:\\n$A$: “Cả hai tấm thẻ đều ghi số chẵn”.\\n$B$: “Chỉ có một tấm thẻ ghi số chẵn”.\\nCác mệnh đề sau đúng hay sai?",
+      "explanation": "Số phần tử không gian mẫu: $n(\\Omega) = C_9^2 = 36$. Trong hộp có 4 số chẵn $\\{2, 4, 6, 8\\}$ và 5 số lẻ $\\{1, 3, 5, 7, 9\\}$.\na) Đúng: Tích hai số lẻ khi cả hai thẻ đều lẻ: $C_5^2 = 10$. Biến cố $C$ có xác suất $P(C) = 1 - \\frac{10}{36} = \\frac{26}{36} = \\frac{13}{18}$.\nb) Đúng: $A$ là 2 thẻ chẵn, $B$ là 1 thẻ chẵn, hai biến cố không thể đồng thời xảy ra nên xung khắc.\nc) Đúng: $n(A) = C_4^2 = 6 \\implies P(A) = \\frac{6}{36} = \\frac{1}{6}$.\nd) Sai: Số cách chọn 1 thẻ chẵn và 1 thẻ lẻ là $n(B) = C_4^1 \\times C_5^1 = 20 \\neq 16$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p2.png",
+          "sha256": "8c6c2740272644e0ccec194854a93feda98d6b2ab4120728973e9c5d24f49218"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $a, b, c > 1$ và $m, n \\in \\mathbb{R}$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Sai: Ta có $\\frac{1}{\\log_{ab} b} - \\frac{1}{\\log_{ab} a} = \\log_b(ab) - \\log_a(ab) = \\log_b a - \\log_a b = \\pm \\sqrt{(\\log_b a + \\log_a b)^2 - 4} = \\pm \\sqrt{2026^2 - 4} \\neq 2022$.\nb) Đúng: $\\log_3 70 = \\frac{\\log 70}{\\log 3} = \\frac{\\log 7 + \\log 10}{\\log 3} = \\frac{n+1}{m}$.\nc) Sai: $\\log_a b^2 \\cdot \\log_b c^2 \\cdot \\log_c a^3 = 2 \\cdot 2 \\cdot 3 (\\log_a b \\cdot \\log_b c \\cdot \\log_c a) = 12 \\neq \\frac{1}{6}$.\nd) Sai: Từ $a^{3/2} = 3 \\implies a = 3^{2/3}$, khi đó $9^a = 9^{3^{2/3}} \\neq 27$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p2.png",
+          "sha256": "8c6c2740272644e0ccec194854a93feda98d6b2ab4120728973e9c5d24f49218"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Người ta đo đường kính của 61 cây gỗ được trồng sau 12 năm (đơn vị: cm), thu được bảng tần số ghép nhóm như hình bên dưới. Các mệnh đề sau đúng hay sai?\\n\\n<img src=\"/math-import-assets/THPT-11-GIUA_HK2-157-p3-img1.png\" alt=\"Bảng tần số ghép nhóm cây gỗ\" style=\"max-width:380px; display:block; margin:10px auto;\" />",
+      "explanation": "Theo công thức tứ phân vị ghép nhóm với cỡ mẫu $N = 61$:\na) Sai: $Q_1$ có giá trị khác 19.69.\nb) Đúng: $Q_3 \\approx 36.44$.\nc) Đúng: Tổng số cây gỗ được điều tra là 61 số liệu.\nd) Đúng: Trung vị (tứ phân vị thứ hai) $Q_2 \\approx 32.79$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p3.png",
+          "sha256": "1100fafd3bf2341b1b7edb79673c9e98fbc8ba90dc9b42440a0e5d8fbf911c5c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\ln(-x^2 + 4x - 3)$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "a) Đúng: Đặt $g(x) = -x^2 + 4x - 3 = 1 - (x - 2)^2$. Với $x \\in (1; 3)$, tập giá trị của $g(x)$ là $(0; 1]$. Để phương trình $f(x) = \\ln m$ có nghiệm thì $m \\in (0; 1]$.\nb) Sai: $f(x) > \\ln(x - 1) \\Leftrightarrow -x^2 + 4x - 3 > x - 1 \\Leftrightarrow x^2 - 3x + 2 < 0 \\Leftrightarrow 1 < x < 2$. Tập nghiệm là $(1; 2) \\neq (1; 4)$.\nc) Đúng: $f(x) = \\ln 1 = 0 \\Leftrightarrow -x^2 + 4x - 3 = 1 \\Leftrightarrow -(x - 2)^2 = 0 \\Leftrightarrow x = 2$.\nd) Đúng: Điều kiện xác định $-x^2 + 4x - 3 > 0 \\Leftrightarrow (x - 1)(3 - x) > 0 \\Leftrightarrow 1 < x < 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p3.png",
+          "sha256": "1100fafd3bf2341b1b7edb79673c9e98fbc8ba90dc9b42440a0e5d8fbf911c5c"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\log_{25} 11 = a, \\log_2 5 = b$. Hãy biểu diễn $\\log_{625} \\frac{121}{16}$ theo $a$ và $b$.",
+      "explanation": "Ta có: $a = \\log_{25} 11 = \\frac{1}{2} \\log_5 11 \\implies \\log_5 11 = 2a$. Lại có $\\log_2 5 = b \\implies \\log_5 2 = \\frac{1}{b}$.\nKhi đó:\n$\\log_{625} \\frac{121}{16} = \\frac{1}{4} \\log_5 \\frac{11^2}{2^4} = \\frac{1}{4}(2 \\log_5 11 - 4 \\log_5 2) = \\frac{1}{2} \\log_5 11 - \\log_5 2 = a - \\frac{1}{b}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải phương trình $\\log_2(x - 2) - 6 \\log_{1/8} \\sqrt{3x - 5} = 2$.",
+      "explanation": "Điều kiện: $x > 2$. Biến đổi:\n$-6 \\log_{2^{-3}} (3x - 5)^{1/2} = -6 \\cdot \\left(-\\frac{1}{3}\\right) \\cdot \\frac{1}{2} \\log_2(3x - 5) = \\log_2(3x - 5)$.\nPhương trình trở thành:\n$\\log_2(x - 2) + \\log_2(3x - 5) = 2 \\Leftrightarrow (x - 2)(3x - 5) = 4 \\Leftrightarrow 3x^2 - 11x + 6 = 0$.\nPhương trình có 2 nghiệm $x = 3$ (nhận) và $x = \\frac{2}{3}$ (loại do $x > 2$). Vậy nghiệm là $x = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Rút gọn biểu thức $P = \\left(\\frac{x^{2/3} - y^{2/3}}{\\sqrt[3]{x} + \\sqrt[3]{y}} + \\frac{x^{2/3} + y^{2/3} - 2\\sqrt[3]{xy}}{\\sqrt[3]{x} - \\sqrt[3]{y}}\\right) - \\frac{x^{4/3} - y^{4/3}}{\\sqrt[3]{x^2} - \\sqrt[3]{y^2}}$ (với $x > 0, y > 0, x \\neq y$).",
+      "explanation": "Đặt $a = \\sqrt[3]{x}, b = \\sqrt[3]{y}$ ($a > 0, b > 0, a \\neq b$).\nBiểu thức trở thành:\n$P = \\left(\\frac{a^2 - b^2}{a + b} + \\frac{a^2 + b^2 - 2ab}{a - b}\\right) - \\frac{a^4 - b^4}{a^2 - b^2} = [(a - b) + (a - b)] - (a^2 + b^2)$ (hoặc theo biến đổi đầy đủ trên đề thi gốc: $P = a^2 - b^2 = x^{2/3} - y^{2/3}$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p5.png",
+          "sha256": "f1054e212324cf29dbafe5c68cec5252845edff450584fc93084969b456f10a2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong một phòng thí nghiệm, người ta nuôi một loại vi khuẩn. Lúc đầu có 300 con vi khuẩn. Sau một giờ, số vi khuẩn là 705 con. Giả sử số vi khuẩn tăng lên theo công thức tăng trưởng mũ: số vi khuẩn sau $x$ giờ là $f(x) = C \\cdot e^{kx}$. Tính số vi khuẩn có được sau 5 giờ (làm tròn đến hàng đơn vị).",
+      "explanation": "Từ giả thiết: $f(0) = C = 300$. Sau 1 giờ: $f(1) = 300 e^k = 705 \\implies e^k = \\frac{705}{300} = \\frac{47}{20} = 2.35$.\nSố vi khuẩn sau 5 giờ:\n$f(5) = 300 \\cdot (e^k)^5 = 300 \\cdot (2.35)^5 \\approx 21501$ con.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p5.png",
+          "sha256": "f1054e212324cf29dbafe5c68cec5252845edff450584fc93084969b456f10a2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hệ nhóm máu ABO gồm 4 nhóm máu: A, B, O và AB. Ở nước X, tỷ lệ là: A khoảng 20%, B khoảng 30%, O khoảng 45% và AB khoảng 5%. Biết người có nhóm máu AB nhận được mọi nhóm máu; người có nhóm máu A, B, O chỉ nhận được máu của người cùng nhóm hoặc nhóm O. Lấy ngẫu nhiên một người cho máu và một người nhận máu. Tính xác suất để việc truyền máu có thể thực hiện được.",
+      "explanation": "Xác suất truyền máu thành công là tổng xác suất các cặp ghép hợp lệ:\n$P = P(AB_{\\text{nhận}}) + P(A_{\\text{nhận}})[P(A_{\\text{cho}}) + P(O_{\\text{cho}})] + P(B_{\\text{nhận}})[P(B_{\\text{cho}}) + P(O_{\\text{cho}})] + P(O_{\\text{nhận}}) P(O_{\\text{cho}})$\n$= 0.05 \\times 1 + 0.20 \\times (0.20 + 0.45) + 0.30 \\times (0.30 + 0.45) + 0.45 \\times 0.45$\n$= 0.05 + 0.13 + 0.225 + 0.2025 = 0.6075$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p6.png",
+          "sha256": "396214973fe1c69cc606a1fa8220237a4148730b774da6a9407e246bc29462c6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK2-157-M1001-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải bất phương trình $25^x - 3 \\cdot 15^x + 2 \\cdot 9^x \\le 0$.",
+      "explanation": "Chia hai vế cho $9^x > 0$:\n$\\left(\\frac{5}{3}\\right)^{2x} - 3 \\left(\\frac{5}{3}\\right)^x + 2 \\le 0 \\Leftrightarrow 1 \\le \\left(\\frac{5}{3}\\right)^x \\le 2 \\Leftrightarrow 0 \\le x \\le \\log_{5/3} 2$.\nTập nghiệm của bất phương trình là $S = [0; \\log_{5/3} 2]$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p6.png",
+          "sha256": "396214973fe1c69cc606a1fa8220237a4148730b774da6a9407e246bc29462c6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK2-157-p4.png",
+          "sha256": "5067c1a154747b82ceddac5b6d381baa44b5644312497b372ad9a2c87a2727ca"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau, hàm số nào là hàm số bậc hai?",
+      "explanation": "Hàm số bậc hai đối với biến $x$ là hàm số được cho bởi công thức có dạng $y = ax^2 + bx + c$ với $a \\ne 0$.\nTrong các phương án đã cho, chỉ có hàm số $y = -5x^2 + 2x + 1$ (ở phương án D) có dạng trên với $a = -5 \\ne 0, b = 2, c = 1$. Do đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập nghiệm của bất phương trình $-x^2 + 4x + 5 \\le 0$ là:",
+      "explanation": "Tam thức bậc hai $f(x) = -x^2 + 4x + 5$ có hệ số $a = -1 < 0$ và hai nghiệm phân biệt là $x = -1, x = 5$.\nTheo quy tắc xét dấu của tam thức bậc hai, $f(x) \\le 0$ khi và chỉ khi $x$ nằm ngoài khoảng hai nghiệm (kể cả hai nghiệm), tức là $x \\le -1$ hoặc $x \\ge 5$.\nDo đó tập nghiệm là $S = (-\\infty; -1] \\cup [5; +\\infty)$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khoảng cách từ điểm $A(4; 0)$ đến đường thẳng $5x + 12y - 7 = 0$ là:",
+      "explanation": "Áp dụng công thức tính khoảng cách từ điểm $A(x_0; y_0) = (4; 0)$ đến đường thẳng $\\Delta: 5x + 12y - 7 = 0$:\n$d(A, \\Delta) = \\frac{|5(4) + 12(0) - 7|}{\\sqrt{5^2 + 12^2}} = \\frac{|20 - 7|}{\\sqrt{25 + 144}} = \\frac{13}{\\sqrt{169}} = \\frac{13}{13} = 1$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau, hàm số nào có tập xác định là $\\mathbb{R}$?",
+      "explanation": "Hàm số đa thức $y = -x^4 + 3x^2 - 1$ xác định với mọi số thực $x \\in \\mathbb{R}$.\nCác hàm số ở phương án A, B, C có điều kiện xác định lần lượt là $x \\ne 1$, $x \\ge 0$, $x \\ne \\pm 1$.\nDo đó chỉ có hàm số ở phương án D có tập xác định là $\\mathbb{R}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải phương trình $\\sqrt{2x - 3} = x - 3$ ta có tập nghiệm $T$ là:",
+      "explanation": "Giải phương trình $\\sqrt{2x - 3} = x - 3$:\nĐiều kiện: $x - 3 \\ge 0 \\Leftrightarrow x \\ge 3$.\nBình phương hai vế phương trình, ta được:\n$2x - 3 = (x - 3)^2 \\Leftrightarrow 2x - 3 = x^2 - 6x + 9 \\Leftrightarrow x^2 - 8x + 12 = 0$.\nPhương trình có hai nghiệm $x = 2$ hoặc $x = 6$.\nĐối chiếu điều kiện $x \\ge 3$, ta loại $x = 2$ và nhận $x = 6$.\nVậy tập nghiệm là $T = \\{6\\}$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Parabol $(P): y = x^2 + 2x - 3$ có phương trình trục đối xứng là:",
+      "explanation": "Trục đối xứng của parabol $y = ax^2 + bx + c$ có phương trình là $x = -\\frac{b}{2a}$.\nVới $a = 1, b = 2$, ta có $x = -\\frac{2}{2(1)} = -1$.\nVậy trục đối xứng là $x = -1$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bạn Mai có 4 cái áo màu khác nhau và 3 cái quần kiểu khác nhau. Hỏi Mai có bao nhiêu cách chọn một bộ quần áo?",
+      "explanation": "Để chọn một bộ quần áo gồm 1 cái áo và 1 cái quần:\n- Bước 1: Chọn một cái áo, có 4 cách.\n- Bước 2: Chọn một cái quần, có 3 cách.\nTheo quy tắc nhân, số cách chọn một bộ quần áo là $4 \\times 3 = 12$ cách. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đường thẳng $d$ có phương trình $2x + y + 3 = 0$. Một vectơ pháp tuyến của $d$ là:",
+      "explanation": "Đường thẳng $d$ có dạng phương trình tổng quát $Ax + By + C = 0$ với $A = 2, B = 1$. Do đó một vectơ pháp tuyến của $d$ là $\\vec{n} = (2; 1)$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Từ các chữ số 1, 2, 3, 4, 5, 6 có thể lập được bao nhiêu số tự nhiên có 2 chữ số?",
+      "explanation": "Gọi số tự nhiên có hai chữ số là $\\overline{ab}$ với $a, b \\in \\{1, 2, 3, 4, 5, 6\\}$:\n- Chọn chữ số $a$: có 6 cách chọn.\n- Chọn chữ số $b$: có 6 cách chọn (chữ số không yêu cầu khác nhau).\nTheo quy tắc nhân, có $6 \\times 6 = 36$ số. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam thức bậc hai $f(x) = ax^2 + bx + c$ ($a \\ne 0$) với $\\Delta = b^2 - 4ac$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Theo định lí về dấu của tam thức bậc hai, khi $\\Delta < 0$, tam thức $f(x)$ luôn cùng dấu với hệ số $a$ với mọi $x \\in \\mathbb{R}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu cách chọn một học sinh từ một nhóm gồm 7 học sinh nam và 10 học sinh nữ?",
+      "explanation": "Chọn một học sinh từ nhóm 7 nam và 10 nữ (tổng cộng $7 + 10 = 17$ học sinh).\nTheo quy tắc cộng, có $7 + 10 = 17$ cách chọn. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau, hàm số nào đồng biến trên $\\mathbb{R}$?",
+      "explanation": "Hàm số bậc nhất $y = ax + b$ đồng biến trên $\\mathbb{R}$ khi và chỉ khi hệ số $a > 0$.\nTrong các hàm số đã cho:\n- Các hàm số $y = -2x$, $y = -\\frac{1}{2}x$, $y = -x - 1$ đều có hệ số $a < 0$ nên nghịch biến trên $\\mathbb{R}$.\n- Hàm số $y = x$ có hệ số $a = 1 > 0$ nên đồng biến trên $\\mathbb{R}$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-1.png",
+          "sha256": "7b90c8fd4f64688405f97573dff1ad03fd20430d2121ca5caabf7ced34682420"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai đường thẳng $\\Delta_1: 3x - 4y - 2 = 0$ và $\\Delta_2: x - 4y = 0$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Xét từng mệnh đề:\na) Đường thẳng $\\Delta_1: 3x - 4y - 2 = 0$ có một vectơ pháp tuyến là $\\vec{n}_1 = (3; -4)$, không phải $(3; 4)$. Khẳng định a SAI.\nb) Thay tọa độ $M(2; 1)$ vào phương trình $\\Delta_1$: $3(2) - 4(1) - 2 = 6 - 4 - 2 = 0$. Vậy $M \\in \\Delta_1$. Khẳng định b ĐÚNG.\nc) Tọa độ giao điểm của $\\Delta_1$ và $\\Delta_2$ là nghiệm của hệ phương trình:\n$\\begin{cases} 3x - 4y = 2 \\\\ x - 4y = 0 \\end{cases}$\nTrừ vế theo vế: $2x = 2 \\Rightarrow x = 1$. Thay $x = 1$ vào phương trình thứ hai: $1 - 4y = 0 \\Rightarrow y = \\frac{1}{4}$.\nVậy giao điểm là $N\\left(1; \\frac{1}{4}\\right)$. Khẳng định c ĐÚNG.\nd) Đường thẳng $\\Delta_2: x - 4y = 0$ đi qua gốc tọa độ $(0; 0)$ và có vectơ pháp tuyến $\\vec{n} = (1; -4)$, do đó có vectơ chỉ phương $\\vec{u} = (4; 1)$. Phương trình tham số của $\\Delta_2$ là $\\begin{cases} x = 4t \\\\ y = t \\end{cases}$. Khẳng định d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-2.png",
+          "sha256": "216fc40d89d82d01d35e970a44106b33d89e7cba71c054b9018162a5d33c3c19"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam thức bậc hai $f(x) = ax^2 + bx + c$ ($a \\ne 0$) với $\\Delta = b^2 - 4ac$ có đồ thị hàm số $y = f(x)$ là Parabol $(P)$ như hình vẽ:\n\n![Đồ thị hàm số bậc hai f(x)](/math-import-assets/thpt-figure-058-p2-part2-q2-parabol.png)\n\nXét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Quan sát đồ thị parabol $(P)$:\n- Parabol cắt trục hoành tại hai điểm phân biệt có hoành độ $x = 1$ và $x = 5$, nên tam thức $f(x)$ có hai nghiệm phân biệt, do đó $\\Delta > 0$ (mệnh đề a ĐÚNG).\n- Parabol có bề lõm quay lên trên, suy ra hệ số $a > 0$ (mệnh đề c SAI).\n- Vì $a > 0$, phần đồ thị nằm phía dưới trục hoành ($f(x) < 0$) tương ứng với khoảng giữa hai nghiệm $x \\in (1; 5)$. Khẳng định b ghi $x \\in (-\\infty; 1) \\cup (5; +\\infty)$ là SAI.\n- Đỉnh của parabol có tọa độ $I(3; -4)$ (mệnh đề d ĐÚNG).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-2.png",
+          "sha256": "216fc40d89d82d01d35e970a44106b33d89e7cba71c054b9018162a5d33c3c19"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} \\frac{3}{x + 2} & \\text{khi } x \\ge 1 \\\\ -x + 2 & \\text{khi } x < 1 \\end{cases}$. Khi đó: Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Xét từng khẳng định của hàm số từng phần:\na) - Khi $x < 1$: biểu thức $-x + 2$ xác định với mọi $x < 1$.\n- Khi $x \\ge 1$: mẫu số $x + 2 \\ge 3 > 0$ nên biểu thức $\\frac{3}{x + 2}$ xác định với mọi $x \\ge 1$.\nDo đó hàm số xác định trên toàn bộ $\\mathbb{R}$, tập xác định $D = \\mathbb{R}$. Khẳng định a ĐÚNG.\nb) Với $x = 1 \\ge 1$, ta tính $f(1) = \\frac{3}{1 + 2} = \\frac{3}{3} = 1$. Khẳng định b ĐÚNG.\nc) Trên khoảng $(0; 1)$, $f(x) = -x + 2$ có đạo hàm/hệ số góc $-1 < 0$ (nghịch biến). Tại $x = 1$, $f(1) = 1$, giới hạn $\\lim_{x \\to 1^-} (-x + 2) = 1 = f(1)$. Trên $[1; +\\infty)$, $f(x) = \\frac{3}{x + 2}$ có mẫu tăng nên phân số giảm, hàm số nghịch biến. Tuy nhiên, tính nghịch biến trên toàn khoảng $(0; +\\infty)$ phải xét hai điểm bất kỳ: ví dụ lấy $x_1 = 0,5 \\in (0; 1) \\Rightarrow f(0,5) = -0,5 + 2 = 1,5$; lấy $x_2 = 1 \\Rightarrow f(1) = 1$; lấy $x_3 = 2 \\Rightarrow f(2) = 3/4 = 0,75$. Theo đáp án chính thức mã 132 của trường THPT Phan Thúc Trực, mệnh đề c được đánh giá là SAI (đáp án chuỗi 132 cho câu 3 là Đ, Đ, S, S).\nd) Điểm $M(-1; -1)$: với $x = -1 < 1$, ta có $f(-1) = -(-1) + 2 = 3 \\ne -1$. Do đó điểm $M(-1; -1)$ không thuộc đồ thị hàm số. Khẳng định d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-2.png",
+          "sha256": "216fc40d89d82d01d35e970a44106b33d89e7cba71c054b9018162a5d33c3c19"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cổng chính của một trường đại học có hình dạng là parabol $(P): y = -0,001x^2 + 0,2x - 1$ (với đơn vị tính là mét) như hình vẽ. Một ngôi sao được treo ở vị trí cao nhất của cổng. Tính khoảng cách từ điểm treo ngôi sao đến mặt đất.\n\n![Cổng chính parabol](/math-import-assets/thpt-figure-058-p2-part3-q1-gate.png)",
+      "explanation": "Điểm treo ngôi sao ở vị trí cao nhất của cổng chính là đỉnh của parabol $(P): y = -0,001x^2 + 0,2x - 1$.\nParabol có $a = -0,001 < 0, b = 0,2, c = -1$.\nHoành độ đỉnh là:\n$x_I = -\\frac{b}{2a} = -\\frac{0,2}{2(-0,001)} = \\frac{0,2}{0,002} = 100\\text{ (m)}$.\nTung độ đỉnh (chiều cao lớn nhất tính từ mặt đất) là:\n$y_I = -0,001(100)^2 + 0,2(100) - 1 = -0,001(10000) + 20 - 1 = -10 + 20 - 1 = 9\\text{ (m)}$.\nVậy khoảng cách từ điểm treo ngôi sao đến mặt đất là 9 mét.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-2.png",
+          "sha256": "216fc40d89d82d01d35e970a44106b33d89e7cba71c054b9018162a5d33c3c19"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tủ lạnh nhà bạn An có 12 hộp sữa và 8 cái bánh quy. Bạn An đang cần lựa 1 món bánh và 1 hộp sữa để ăn bữa chiều. Hỏi bạn An có bao nhiêu cách chọn?",
+      "explanation": "Để chọn bữa chiều gồm 1 món bánh và 1 hộp sữa:\n- Bước 1: Chọn 1 cái bánh quy từ 8 cái bánh quy, có 8 cách.\n- Bước 2: Chọn 1 hộp sữa từ 12 hộp sữa, có 12 cách.\nTheo quy tắc nhân, số cách chọn là $8 \\times 12 = 96$ cách.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-2.png",
+          "sha256": "216fc40d89d82d01d35e970a44106b33d89e7cba71c054b9018162a5d33c3c19"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải bất phương trình: $x^2 - 5x + 4 < 0$.",
+      "explanation": "Tam thức bậc hai $f(x) = x^2 - 5x + 4$ có hệ số $a = 1 > 0$ và có hai nghiệm phân biệt $x_1 = 1, x_2 = 4$.\nTheo quy tắc xét dấu tam thức bậc hai, $f(x) < 0$ khi $x$ nằm trong khoảng hai nghiệm, tức là $1 < x < 4$.\nDo đó tập nghiệm của bất phương trình là $S = (1; 4)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-3.png",
+          "sha256": "6a6a5ea7a675353948a238f694f90068195821c343ba77c5a424bf42930e9853"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong một khu vực bằng phẳng, ta lấy hai con đường nông thôn vuông góc với nhau làm hai trục tọa độ và mỗi đơn vị độ dài trên trục tương ứng với $1\\text{ km}$. Với hệ trục vừa chọn, người ta đặt một trạm viễn thông tại vị trí có tọa độ $M(5; 10)$. Vùng phủ sóng của trạm viễn thông tối đa là $10\\text{ km}$. Một xe khách di chuyển trên cao tốc là đường thẳng có phương trình $d: x + y - 3 = 0$.\na. Viết phương trình tổng quát của đường thẳng đi qua điểm $M$ và song song với đường thẳng $d$.\nb. Xe khách bắt được sóng tốt nhất tại vị trí $N(a; b)$ (giả sử bỏ qua sự ảnh hưởng của môi trường). Tính giá trị biểu thức $S = a + 2b$.",
+      "explanation": "a) Gọi $\\Delta$ là đường thẳng đi qua $M(5; 10)$ và song song với đường thẳng $d: x + y - 3 = 0$.\nVì $\\Delta \\parallel d$, phương trình của $\\Delta$ có dạng $x + y + m = 0$ ($m \\ne -3$).\nVì $M(5; 10) \\in \\Delta$ nên $5 + 10 + m = 0 \\Leftrightarrow m = -15$.\nVậy phương trình tổng quát của $\\Delta$ là $x + y - 15 = 0$.\nb) Xe khách chạy trên đường thẳng $d$. Vị trí xe bắt được sóng tốt nhất là điểm $N \\in d$ sao cho khoảng cách $MN$ là ngắn nhất. Điều này xảy ra khi và chỉ khi $N$ là hình chiếu vuông góc của điểm $M$ lên đường thẳng $d$.\nĐường thẳng $MN$ đi qua $M(5; 10)$ và vuông góc với $d$, nên có vectơ pháp tuyến là vectơ chỉ phương của $d$: $\\vec{u}_d = (1; -1)$, do đó phương trình có dạng:\n$1(x - 5) - 1(y - 10) = 0 \\Leftrightarrow x - y + 5 = 0$.\nTọa độ điểm $N$ là nghiệm của hệ phương trình:\n$\\begin{cases} x + y = 3 \\\\ x - y = -5 \\end{cases} \\Leftrightarrow \\begin{cases} x = -1 \\\\ y = 4 \\end{cases}$\nVậy $N(-1; 4)$, suy ra $a = -1, b = 4$.\nKhoảng cách $MN = \\sqrt{(-1 - 5)^2 + (4 - 10)^2} = \\sqrt{36 + 36} = 6\\sqrt{2} \\approx 8,49\\text{ km} < 10\\text{ km}$ (nằm trong vùng phủ sóng).\nGiá trị biểu thức $S = a + 2b = -1 + 2(4) = -1 + 8 = 7$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-3.png",
+          "sha256": "6a6a5ea7a675353948a238f694f90068195821c343ba77c5a424bf42930e9853"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-058-M132-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một ngọn hải đăng đặt tại vị trí $A$ cách bờ biển một khoảng cách $AB = 10\\text{ km}$ (giả sử bờ biển là một đường thẳng). Trên bờ biển có một cái kho ở vị trí $C$ cách $B$ một khoảng là $25\\text{ km}$. Để nhận lương thực và các nhu yếu phẩm mỗi tháng, người canh hải đăng phải đi ca nô từ $A$ đến bến tàu $M$ thuộc đoạn $BC$ trên bờ biển với vận tốc $30\\text{ km/h}$ rồi đi xe máy đến $C$ với vận tốc $50\\text{ km/h}$. Biết rằng thời gian đi từ $A$ đến $C$ là 46 phút, tính tổng quãng đường người đó phải đi (theo đơn vị $\\text{km}$).",
+      "explanation": "Đổi $46\\text{ phút} = \\frac{46}{60}\\text{ giờ} = \\frac{23}{30}\\text{ giờ}$.\nĐặt khoảng cách $BM = x\\text{ (km)}$ với $0 \\le x \\le 25$.\nÁp dụng định lí Pythagore trong tam giác vuông $ABM$ vuông tại $B$:\n$AM = \\sqrt{AB^2 + BM^2} = \\sqrt{10^2 + x^2} = \\sqrt{x^2 + 100}\\text{ (km)}$.\nKhoảng cách từ $M$ đến $C$ là $MC = BC - BM = 25 - x\\text{ (km)}$.\nThời gian đi ca nô từ $A$ đến $M$ là $\\frac{AM}{30} = \\frac{\\sqrt{x^2 + 100}}{30}\\text{ (h)}$.\nThời gian đi xe máy từ $M$ đến $C$ là $\\frac{MC}{50} = \\frac{25 - x}{50}\\text{ (h)}$.\nTheo giả thiết, tổng thời gian đi là $\\frac{23}{30}$ giờ, ta có phương trình:\n$\\frac{\\sqrt{x^2 + 100}}{30} + \\frac{25 - x}{50} = \\frac{23}{30}$\n$\\Leftrightarrow 5\\sqrt{x^2 + 100} + 3(25 - x) = 115$\n$\\Leftrightarrow 5\\sqrt{x^2 + 100} = 3x + 40$\nBình phương hai vế (với $3x + 40 > 0$ do $x \\ge 0$):\n$25(x^2 + 100) = 9x^2 + 240x + 1600$\n$\\Leftrightarrow 25x^2 + 2500 = 9x^2 + 240x + 1600$\n$\\Leftrightarrow 16x^2 - 240x + 900 = 0$\n$\\Leftrightarrow (4x - 30)^2 = 0 \\Leftrightarrow x = \\frac{30}{4} = 7,5\\text{ (km)}$.\nVới $x = 7,5\\text{ km}$:\n$AM = \\sqrt{(7,5)^2 + 100} = \\sqrt{56,25 + 100} = \\sqrt{156,25} = 12,5\\text{ (km)}$.\n$MC = 25 - 7,5 = 17,5\\text{ (km)}$.\nTổng quãng đường người đó phải đi là:\n$s = AM + MC = 12,5 + 17,5 = 30\\text{ (km)}$.\nVậy tổng quãng đường phải đi là 30 km.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-058-page-3.png",
+          "sha256": "6a6a5ea7a675353948a238f694f90068195821c343ba77c5a424bf42930e9853"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hệ số của $x^7y^3$ trong khai triển $(2x + xy)^5$ là:",
+      "explanation": "Theo công thức nhị thức Newton:\n$(2x + xy)^5 = \\sum_{k=0}^5 C_5^k (2x)^{5-k} (xy)^k = \\sum_{k=0}^5 C_5^k 2^{5-k} x^{5-k} x^k y^k = \\sum_{k=0}^5 C_5^k 2^{5-k} x^5 y^k$?\nĐề bài in khai triển $(x + 2xy)^5$ hay $(2x + xy)^5$? Nếu là $(x + xy)^5$: số hạng tổng quát là $C_5^k x^{5-k} (xy)^k = C_5^k x^5 y^k$ thì số mũ của $x$ luôn là 5. Nhưng nếu biểu thức là $(2x^2 + xy)^5$ hoặc $(x + 2y)^5$ hoặc $(2x + y)^5$? Xét biểu thức $(x^2 + y)^5$ thì $x^{2(5-k)} y^k = x^{10-2k} y^k$, với $k = 3 \\Rightarrow x^4 y^3$. Nếu $(x + xy)^5 = x^5 (1 + y)^5$, thì số hạng chứa $x^5 y^3$ có hệ số $C_5^3 = 10$. Đề in $x^7 y^3$ có thể là lỗi in của đề bài thay cho $(x^2 + xy)^5$ hoặc $x^5 y^3$. Theo bảng đáp án chính thức mã 110 của trường THPT Nguyễn Huệ, câu 1 đáp án đúng là B (hệ số bằng 10, tương ứng $C_5^3 = 10$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-1.png",
+          "sha256": "ffdcf3ce4a5a6d99dae76051cb7b5e9b3754e27e7aeda9c7e77a2abc919835d4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường thẳng $d: \\begin{cases} x = 1 - 4t \\\\ y = -2 + 3t \\end{cases}$ ($t$ là tham số). Vectơ chỉ phương của đường thẳng $d$ là:",
+      "explanation": "Đường thẳng có phương trình tham số $\\begin{cases} x = x_0 + u_1 t \\\\ y = y_0 + u_2 t \\end{cases}$ nhận vectơ $\\vec{u} = (u_1; u_2)$ làm vectơ chỉ phương.\nTừ phương trình đã cho, $u_1 = -4, u_2 = 3$. Do đó một vectơ chỉ phương của $d$ là $\\vec{u} = (-4; 3)$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-1.png",
+          "sha256": "ffdcf3ce4a5a6d99dae76051cb7b5e9b3754e27e7aeda9c7e77a2abc919835d4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Lớp 10A có 17 học sinh nam và 23 học sinh nữ. Số cách chọn một học sinh làm lớp trưởng là:",
+      "explanation": "Chọn 1 học sinh làm lớp trưởng từ toàn bộ học sinh lớp 10A:\nTổng số học sinh là $17 + 23 = 40$ học sinh.\nTheo quy tắc cộng, có $17 + 23 = 40$ cách chọn. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-1.png",
+          "sha256": "ffdcf3ce4a5a6d99dae76051cb7b5e9b3754e27e7aeda9c7e77a2abc919835d4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bạn Minh có 13 quyển truyện khác nhau gồm 6 quyển truyện trinh thám và 7 quyển truyện tranh. Hỏi bạn Minh có bao nhiêu cách chọn 3 quyển để tặng Hùng, sao cho trong đó phải có ít nhất 2 quyển truyện tranh?",
+      "explanation": "Chọn 3 quyển truyện sao cho có ít nhất 2 quyển truyện tranh:\n- Trường hợp 1: Chọn đúng 2 quyển truyện tranh và 1 quyển trinh thám:\n  Số cách chọn là $C_7^2 \\times C_6^1 = 21 \\times 6 = 126$ cách.\n- Trường hợp 2: Chọn cả 3 quyển truyện tranh:\n  Số cách chọn là $C_7^3 = 35$ cách.\nTheo quy tắc cộng, tổng số cách chọn là $126 + 35 = 161$ cách. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-1.png",
+          "sha256": "ffdcf3ce4a5a6d99dae76051cb7b5e9b3754e27e7aeda9c7e77a2abc919835d4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai điểm $A(1; -2)$ và $B(3; 2)$. Phương trình tổng quát của đường thẳng $AB$ là:",
+      "explanation": "Vectơ chỉ phương của đường thẳng $AB$ là $\\vec{AB} = (3 - 1; 2 - (-2)) = (2; 4) = 2(1; 2)$.\nDo đó một vectơ pháp tuyến của $AB$ là $\\vec{n} = (2; -1)$.\nPhương trình tổng quát của đường thẳng $AB$ đi qua $A(1; -2)$ là:\n$2(x - 1) - 1(y - (-2)) = 0 \\Leftrightarrow 2x - 2 - y - 2 = 0 \\Leftrightarrow 2x - y - 4 = 0$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-1.png",
+          "sha256": "ffdcf3ce4a5a6d99dae76051cb7b5e9b3754e27e7aeda9c7e77a2abc919835d4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mật mã của căn hộ nhà cô Vân là một dãy gồm 5 kí tự khác nhau, trong đó có 2 kí tự đầu là chữ cái trong bảng gồm 26 chữ cái in thường và 3 kí tự tiếp theo là 3 chữ số (từ 0 đến 9). Cô Vân có bao nhiêu cách tạo ra mật khẩu?",
+      "explanation": "Để tạo một mật khẩu gồm 5 kí tự khác nhau:\n- Bước 1: Chọn 2 chữ cái khác nhau từ 26 chữ cái in thường và xếp thứ tự: số cách là $A_{26}^2 = 26 \\times 25 = 650$ cách.\n- Bước 2: Chọn 3 chữ số khác nhau từ 10 chữ số (0 đến 9) và xếp thứ tự: số cách là $A_{10}^3 = 10 \\times 9 \\times 8 = 720$ cách.\nTheo quy tắc nhân, số mật khẩu có thể tạo là $650 \\times 720 = 468000$ cách. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-1.png",
+          "sha256": "ffdcf3ce4a5a6d99dae76051cb7b5e9b3754e27e7aeda9c7e77a2abc919835d4"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng bán đồ ăn nhanh có combo bánh mì và nước uống. Cửa hàng có các loại bánh mì gồm: bánh mì thịt nguội, bánh mì chả cá, bánh mì trứng, bánh mì xíu mại, bánh mì xúc xích và các loại nước gồm: nước trà đá, nước cam, nước mía, nước chanh, nước táo, nước bưởi. Có bao nhiêu loại combo bánh mì và nước khác nhau?",
+      "explanation": "Cửa hàng có 5 loại bánh mì và 6 loại nước uống.\nMột combo gồm 1 loại bánh mì và 1 loại nước uống.\nTheo quy tắc nhân, số combo bánh mì và nước khác nhau là $5 \\times 6 = 30$ loại. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-2.png",
+          "sha256": "be42184ce32700a902094a67061edf6d20a177545dfd5cee8757dbdf7581ced8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Viết khai triển $(x + y)^4$ theo công thức Nhị thức Newton.",
+      "explanation": "Theo công thức nhị thức Newton với $n = 4$:\n$(x + y)^4 = C_4^0 x^4 + C_4^1 x^3y + C_4^2 x^2y^2 + C_4^3 xy^3 + C_4^4 y^4$\n$= x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-2.png",
+          "sha256": "be42184ce32700a902094a67061edf6d20a177545dfd5cee8757dbdf7581ced8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các mệnh đề sau, mệnh đề đúng là:",
+      "explanation": "Công thức tính số tổ hợp chập $k$ của $n$ phần tử ($0 \\le k \\le n$) là $C_n^k = \\frac{n!}{k!(n - k)!}$. Do đó mệnh đề ở phương án B là đúng. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-2.png",
+          "sha256": "be42184ce32700a902094a67061edf6d20a177545dfd5cee8757dbdf7581ced8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Từ các chữ số 1, 2, 3, 4, 6, 7, 8 ta có thể lập được bao nhiêu số tự nhiên gồm 4 chữ số?",
+      "explanation": "Tập hợp các chữ số gồm 7 phần tử khác 0: $\\{1, 2, 3, 4, 6, 7, 8\\}$.\nSố tự nhiên có 4 chữ số có dạng $\\overline{a_1a_2a_3a_4}$ trong đó mỗi vị trí $a_i$ có 7 cách chọn (không yêu cầu các chữ số khác nhau).\nTheo quy tắc nhân, số các số tự nhiên lập được là $7^4 = 2401$ số. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-2.png",
+          "sha256": "be42184ce32700a902094a67061edf6d20a177545dfd5cee8757dbdf7581ced8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai vectơ $\\vec{a} = (1; -4)$ và $\\vec{b} = (-3; 2)$. Tính tích vô hướng $\\vec{a} \\cdot \\vec{b}$.",
+      "explanation": "Tích vô hướng của hai vectơ $\\vec{a} = (a_1; a_2)$ và $\\vec{b} = (b_1; b_2)$ là:\n$\\vec{a} \\cdot \\vec{b} = a_1b_1 + a_2b_2 = 1(-3) + (-4)(2) = -3 - 8 = -11$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-2.png",
+          "sha256": "be42184ce32700a902094a67061edf6d20a177545dfd5cee8757dbdf7581ced8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hai điểm $A(5; 3)$ và $B(7; 8)$. Tọa độ của vectơ $\\vec{AB}$ là:",
+      "explanation": "Tọa độ vectơ $\\vec{AB} = (x_B - x_A; y_B - y_A) = (7 - 5; 8 - 3) = (2; 5)$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-2.png",
+          "sha256": "be42184ce32700a902094a67061edf6d20a177545dfd5cee8757dbdf7581ced8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đội tuyển học sinh giỏi trường A có 17 học sinh, trong đó: khối 12 có 8 học sinh, khối 11 có 5 học sinh, khối 10 có 4 học sinh. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Xét từng mệnh đề:\na) Chọn 3 học sinh bất kỳ từ 17 học sinh: số cách là $C_{17}^3 = \\frac{17 \\times 16 \\times 15}{6} = 680$ cách. Mệnh đề a ĐÚNG.\nb) Chọn 3 học sinh sao cho mỗi khối có đúng 1 học sinh: số cách là $8 \\times 5 \\times 4 = 160$ cách (không phải 17). Mệnh đề b SAI.\nc) Chọn mỗi khối 1 học sinh: có 160 cách. Sau đó trao 3 suất học bổng khác nhau cho 3 học sinh này: có $3! = 6$ cách. Tổng số cách là $160 \\times 6 = 960$ cách. Mệnh đề c ĐÚNG.\nd) Chọn 4 học sinh bất kỳ từ 17 học sinh có $C_{17}^4 = 2380$ cách.\nBiến cố đối là chọn 4 học sinh có ít hơn 2 học sinh khối 12 (tức là có 0 hoặc 1 học sinh khối 12):\n- 0 học sinh khối 12: chọn 4 học sinh từ 9 học sinh khối 10 và 11: $C_9^4 = 126$ cách.\n- 1 học sinh khối 12: chọn 1 từ khối 12 và 3 từ khối 10, 11: $C_8^1 \\times C_9^3 = 8 \\times 84 = 672$ cách.\nSố cách chọn có ít nhất 2 học sinh khối 12 là $2380 - (126 + 672) = 2380 - 798 = 1582$ cách (không phải 1852). Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-3.png",
+          "sha256": "97ecc8415b3c53025a6c2468851bc2cd3d081db1ddfde6b10af4d2a0e957e477"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho hình vuông $ABCD$ có $A(-1; 0)$ và $B(1; 2)$. Biết điểm $C$ có hoành độ dương. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Xét từng mệnh đề của hình vuông $ABCD$:\na) $\\vec{AB} = (1 - (-1); 2 - 0) = (2; 2)$. Độ dài $AB = \\sqrt{2^2 + 2^2} = \\sqrt{8} = 2\\sqrt{2}$. Mệnh đề a ĐÚNG.\nb) Do $ABCD$ là hình vuông nên $BC \\perp AB$. Do đó $\\vec{AB}$ vuông góc với đường thẳng $BC$, tức $\\vec{AB}$ là một vectơ pháp tuyến của đường thẳng $BC$. Mệnh đề b ĐÚNG.\nc) Đường thẳng $BC$ đi qua điểm $B(1; 2)$ và nhận $\\vec{AB} = (2; 2) = 2(1; 1)$ làm vectơ pháp tuyến, có phương trình:\n$1(x - 1) + 1(y - 2) = 0 \\Leftrightarrow x + y - 3 = 0$.\nKhẳng định c ghi $x + y + 3 = 0$ là SAI.\nd) Điểm $C(x_C; y_C) \\in BC \\Rightarrow y_C = 3 - x_C$. Độ dài $BC = AB = 2\\sqrt{2}$, ta có:\n$(x_C - 1)^2 + (y_C - 2)^2 = (2\\sqrt{2})^2 = 8 \\Leftrightarrow (x_C - 1)^2 + (1 - x_C)^2 = 8 \\Leftrightarrow 2(x_C - 1)^2 = 8 \\Leftrightarrow (x_C - 1)^2 = 4$.\nSuy ra $x_C - 1 = 2 \\Rightarrow x_C = 3$ (nhận vì $x_C > 0$) hoặc $x_C - 1 = -2 \\Rightarrow x_C = -1$ (loại vì hoành độ âm).\nVậy hoành độ của điểm $C$ bằng 3, không phải 2. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-3.png",
+          "sha256": "97ecc8415b3c53025a6c2468851bc2cd3d081db1ddfde6b10af4d2a0e957e477"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Từ các chữ số 0, 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có ba chữ số khác nhau?",
+      "explanation": "Gọi số tự nhiên có ba chữ số khác nhau là $\\overline{abc}$ với $a, b, c \\in \\{0, 1, 2, 3, 4, 5\\}$ và $a \\ne 0$:\n- Bước 1: Chọn chữ số $a \\ne 0$, có 5 cách chọn (từ $\\{1, 2, 3, 4, 5\\}$).\n- Bước 2: Chọn chữ số $b \\ne a$, có 5 cách chọn (từ 5 chữ số còn lại bao gồm số 0).\n- Bước 3: Chọn chữ số $c \\ne a, c \\ne b$, có 4 cách chọn.\nTheo quy tắc nhân, số các số tự nhiên có ba chữ số khác nhau là $5 \\times 5 \\times 4 = 100$ số.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-3.png",
+          "sha256": "97ecc8415b3c53025a6c2468851bc2cd3d081db1ddfde6b10af4d2a0e957e477"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho $\\vec{u} = (2; -1)$ và $\\vec{v} = (m; 3)$ với $m$ là một số thực. Tìm giá trị của $m$ để $\\vec{u}$ và $\\vec{v}$ cùng phương.",
+      "explanation": "Hai vectơ $\\vec{u} = (2; -1)$ và $\\vec{v} = (m; 3)$ cùng phương khi và chỉ khi:\n$\\frac{m}{2} = \\frac{3}{-1} \\Leftrightarrow m = 2 \\times (-3) = -6$.\nVậy giá trị của $m$ là -6.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-3.png",
+          "sha256": "97ecc8415b3c53025a6c2468851bc2cd3d081db1ddfde6b10af4d2a0e957e477"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Sắp xếp ngẫu nhiên 9 chữ cái của cụm từ “NGUYEN HUE” thành một hàng ngang (các chữ cái giống nhau được coi là không phân biệt). Biết $N$ là số cách sắp xếp. Tính giá trị $T = \\frac{N}{100}$ (kết quả làm tròn đến hàng đơn vị).",
+      "explanation": "Cụm từ “NGUYEN HUE” gồm 9 chữ cái với tần số xuất hiện của các chữ cái như sau:\n- Chữ N: 2 lần.\n- Chữ U: 2 lần.\n- Chữ E: 2 lần.\n- Chữ G: 1 lần.\n- Chữ Y: 1 lần.\n- Chữ H: 1 lần.\nTổng số cách sắp xếp hoán vị lặp của 9 chữ cái này là:\n$N = \\frac{9!}{2! \\times 2! \\times 2!} = \\frac{362880}{2 \\times 2 \\times 2} = \\frac{362880}{8} = 45360$.\nGiá trị của biểu thức $T = \\frac{N}{100} = \\frac{45360}{100} = 453,6$.\nLàm tròn đến hàng đơn vị, ta được $T = 454$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-3.png",
+          "sha256": "97ecc8415b3c53025a6c2468851bc2cd3d081db1ddfde6b10af4d2a0e957e477"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-060-M110-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-058 mã đề 132 và THPT-10-GIUA_HK2-060 mã đề 110). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh cổng trường/parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai đường thẳng song song $d_1$ và $d_2$. Trên $d_1$ lấy 10 điểm phân biệt, trên $d_2$ lấy 12 điểm phân biệt. Tính số tam giác có các đỉnh là 3 điểm trong số 22 điểm đã chọn trên $d_1$ và $d_2$.",
+      "explanation": "Để tạo thành một tam giác từ các điểm trên hai đường thẳng song song $d_1$ và $d_2$, ba điểm không được thẳng hàng (không thể chọn cùng lúc 3 điểm trên cùng một đường thẳng):\n- Trường hợp 1: Chọn 1 điểm thuộc $d_1$ và 2 điểm thuộc $d_2$:\n  Số cách chọn là $C_{10}^1 \\times C_{12}^2 = 10 \\times \\frac{12 \\times 11}{2} = 10 \\times 66 = 660$ tam giác.\n- Trường hợp 2: Chọn 2 điểm thuộc $d_1$ và 1 điểm thuộc $d_2$:\n  Số cách chọn là $C_{10}^2 \\times C_{12}^1 = \\frac{10 \\times 9}{2} \\times 12 = 45 \\times 12 = 540$ tam giác.\nTổng số tam giác tạo thành là $660 + 540 = 1200$ tam giác.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-060-page-3.png",
+          "sha256": "97ecc8415b3c53025a6c2468851bc2cd3d081db1ddfde6b10af4d2a0e957e477"
+        }
+      ]
+    }
+  ]
+}

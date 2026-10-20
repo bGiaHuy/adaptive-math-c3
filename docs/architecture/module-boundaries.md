@@ -35,7 +35,7 @@ Mỗi hàng có cặp fixture hợp lệ/vi phạm chạy CLI thật tại `test
 | auth             | prisma                                 |
 | classroom        | auth, prisma                           |
 | curriculum       | auth, prisma                           |
-| diagnostic       | auth, prisma, question, curriculum     |
+| diagnostic       | auth, prisma, question, curriculum, ai |
 | student          | auth, prisma, question, curriculum, ai |
 | english          | auth, prisma                           |
 | health           | prisma                                 |

@@ -1,6 +1,6 @@
-import { LEGACY_BANK_PAUSED } from '../curriculum/thpt-catalog';
+import { sharedThptDraftWhere } from '../curriculum/thpt-catalog';
 import { requireTeacherCounts, validateTeacherPaper } from './teacher-paper';
-import { DIAGNOSTIC_BLUEPRINT, DIAGNOSTIC_BLUEPRINT_VERSION, EXAM_QUESTION_COUNTS, requireBlueprintCounts, selectBlueprintPaper, validateBlueprintPaper } from '../question/diagnostic-blueprint';
+import { EXAM_QUESTION_COUNTS, THPT_DIAGNOSTIC_MATRICES, THPT_DIAGNOSTIC_BLUEPRINT_VERSION } from '../question/diagnostic-blueprint';
 import { requireQuestionLabels } from '../question/question-labels';
 import { tracksTabSwitches, activityReport, deliveredQuestion, resultVisible, gradeDelivered } from './workspace-helpers';
 import { buildQuestionData, validateQuestion, validateAnswer, gradeQuestion } from '../question/math-question';
@@ -16,25 +16,25 @@ import { SubmitAssignmentDto } from './dto/submit-assignment.dto';
 import { UserRole, AssignmentStatus, SubmissionStatus, QuestionStatus, CognitiveLevel } from '@prisma/client';
 import { CustomQuestionDto } from './dto/create-assignment.dto';
 import { RandomExamDto } from './dto/random-exam.dto';
-import { randomUUID } from 'crypto';
+import { randomUUID, createHash } from 'crypto';
 
 @Injectable()
 export class AssignmentService {
   constructor(private readonly prisma: PrismaService) {}
 
   async randomPreview(teacherId: string, dto: RandomExamDto) {
-    if (LEGACY_BANK_PAUSED) throw new BadRequestException('Kho THCS đã tạm ẩn. Chờ học liệu THPT được kiểm duyệt; vẫn có thể dùng form đề và nhập đề riêng.');
     const counts = dto.questionCounts || EXAM_QUESTION_COUNTS;
-    requireBlueprintCounts(counts);
+    requireTeacherCounts(counts);
     const skillIds = [...new Set(dto.skillIds?.length ? dto.skillIds : dto.skillId ? [dto.skillId] : [])];
     if (!skillIds.length) throw new BadRequestException('Hãy chọn ít nhất một chuyên đề để lấy đề từ ngân hàng.');
     const pool = await this.prisma.question.findMany({
       where: {
-        skill: { grade: 9 },
+        skill: { grade: { in: [10, 11, 12] } },
         skillId: { in: skillIds },
         ...(dto.cognitiveLevel ? { cognitiveLevel: dto.cognitiveLevel } : {}),
         ...(dto.difficulty ? { difficulty: dto.difficulty } : {}),
         OR: [
+          sharedThptDraftWhere(),
           { status: QuestionStatus.PUBLISHED },
           { status: QuestionStatus.DRAFT, authorId: teacherId },
           { status: QuestionStatus.DRAFT, source: { path: ['reviewStatus'], equals: 'VERIFIED' } }
@@ -42,9 +42,23 @@ export class AssignmentService {
       },
       include: { skill: true, options: true }
     });
-    const ids = selectBlueprintPaper(pool.filter(q => skillIds.includes(q.skillId)), randomUUID(), false);
-    const questions = validateBlueprintPaper(ids.map(id => pool.find(q => q.id === id)!), false);
-    return { questionIds: ids, questions, questionCounts: EXAM_QUESTION_COUNTS, blueprintVersion: DIAGNOSTIC_BLUEPRINT_VERSION };
+    const seed = randomUUID(), used = new Set<string>(), selected: any[] = [];
+    const rank = (id: string) => createHash('sha256').update(seed + id).digest('hex');
+    for (const [type, count] of Object.entries(counts)) {
+      const candidates = pool.filter(q => skillIds.includes(q.skillId) && [10,11,12].includes(q.skill.grade)
+        && q.questionType === type && (q.source as any)?.classification?.status !== 'NEEDS_REVIEW')
+        .sort((a,b) => rank(a.id).localeCompare(rank(b.id)));
+      const picked: any[] = [];
+      for (const q of candidates) {
+        const key = q.content.normalize('NFC').trim().replace(/\s+/g,' ').toLowerCase();
+        if (used.has(key) || picked.length >= count) continue;
+        used.add(key); picked.push(q);
+      }
+      if (picked.length < count) throw new BadRequestException({code:'TEACHER_BANK_INSUFFICIENT',questionType:type,required:count,available:picked.length,message:'Chuyên đề đã chọn chưa đủ câu đúng bộ lọc. Hãy chọn thêm chuyên đề hoặc điều chỉnh số lượng.'});
+      selected.push(...picked);
+    }
+    const questions = validateTeacherPaper(selected);
+    return { questionIds: questions.map(q => q.id), questions, questionCounts: counts, blueprintVersion: 'thpt-teacher-bank-v1' };
   }
 
   // 1. Giáo viên tạo đề thi / bài tập cho lớp (hỗ trợ cả câu hỏi từ ngân hàng lẫn câu hỏi tự tạo / nhập từ AI)
@@ -88,7 +102,7 @@ export class AssignmentService {
       const questions = await tx.question.findMany({
         where: {
           id: { in: rawQuestionIds },
-          OR: [{status: QuestionStatus.PUBLISHED},{status:QuestionStatus.DRAFT,authorId:teacherId},{status:QuestionStatus.DRAFT,source:{path:['reviewStatus'],equals:'VERIFIED'}}]
+          OR: [sharedThptDraftWhere(),{status: QuestionStatus.PUBLISHED},{status:QuestionStatus.DRAFT,authorId:teacherId},{status:QuestionStatus.DRAFT,source:{path:['reviewStatus'],equals:'VERIFIED'}}]
         }
       });
 
@@ -126,8 +140,8 @@ export class AssignmentService {
     if (customQuestions.length > 0) {
       // Resolve the fallback once; bulk inserts avoid a network round trip per question/option.
       const fallbackSkillId = customQuestions.some(q => !q.skillId) ? (await tx.skillNode.upsert({
-        where: { code: 'TEACHER-DOCUMENT-GENERAL' },
-        create: { code: 'TEACHER-DOCUMENT-GENERAL', title: 'Nội dung tài liệu giáo viên', chapter: 'Tài liệu giáo viên', grade: 0, orderIndex: 0 },
+        where: { code: `TEACHER-DOCUMENT-GENERAL-${classroom.grade}` },
+        create: { code: `TEACHER-DOCUMENT-GENERAL-${classroom.grade}`, title: 'Nội dung tài liệu giáo viên', chapter: 'Tài liệu giáo viên', grade: classroom.grade, orderIndex: 0 },
         update: {}
       })).id : null;
       const rows = customQuestions.map(cq => {
@@ -788,13 +802,15 @@ export class AssignmentService {
   }
 
   // 8. Cung cấp file đề thi mẫu theo chuẩn GDPT 2018
-  async getSampleExamTemplate() {
-    const skills = await this.prisma.skillNode.findMany({ where: { grade: 9 } });
+  async getSampleExamTemplate(grade = 10) {
+    if (![10,11,12].includes(grade)) throw new BadRequestException('Chỉ hỗ trợ lớp 10, 11 và 12.');
+    const skills = await this.prisma.skillNode.findMany({ where: { grade }, orderBy: { orderIndex:'asc' } });
+    const slots = THPT_DIAGNOSTIC_MATRICES[grade].flatMap(cell => Array.from({length:cell.count},()=>cell));
     return {
-      title: 'Đề tổng hợp Toán 9', description: 'Mẫu điền nội dung theo ma trận. Điền đầy đủ câu hỏi, lời giải và đáp án trước khi lưu.',
-      durationMinutes: 45, blueprintVersion: DIAGNOSTIC_BLUEPRINT_VERSION, questionCounts: EXAM_QUESTION_COUNTS,
-      questions: DIAGNOSTIC_BLUEPRINT.map(slot => ({
-        skillId: skills.find(s => s.code === slot.skillCode)?.id || '', questionType: slot.questionType,
+      title: `Đề tổng hợp Toán lớp ${grade}`, description: 'Mẫu điền nội dung theo ma trận THPT. Điền đầy đủ câu hỏi, lời giải và đáp án trước khi lưu.',
+      durationMinutes: 45, blueprintVersion: THPT_DIAGNOSTIC_BLUEPRINT_VERSION, questionCounts: {SINGLE_CHOICE:12,TRUE_FALSE:2,SHORT_ANSWER:4},
+      questions: slots.map((slot,index) => ({
+        skillId: skills[index % skills.length]?.id || '', questionType: slot.questionType,
         cognitiveLevel: slot.cognitiveLevel, difficulty: slot.difficulty, content: '', explanation: '',
         ...(slot.questionType === 'SINGLE_CHOICE' ? { options: ['A','B','C','D'].map(key => ({ key, content: '' })), correctOption: '' } :
           slot.questionType === 'TRUE_FALSE' ? { statements: ['a','b','c','d'].map(key => ({ key, content: '', isCorrect: false })) } :

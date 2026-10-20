@@ -1,0 +1,621 @@
+{
+  "batchId": "batch-genuine-058",
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nhân dịp sinh nhật của mình, bạn Minh mời 7 bạn thân đến nhà chơi, trong đó có 4 bạn cùng thích bóng đá. Số cách Minh mời 4 bạn để đi xem bóng đá cùng mình là",
+      "explanation": "Minh mời 4 bạn trong số 7 bạn thân của mình đến xem bóng đá. Số cách chọn 4 bạn từ 7 bạn thân là số tổ hợp chập 4 của 7 phần tử:\n$$C_7^4 = \\dfrac{7!}{4! \\times 3!} = 35\\text{ cách}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, phương trình đường tròn tâm $I(3; -2)$ và đi qua điểm $M(-1; 1)$ là",
+      "explanation": "Bán kính của đường tròn là khoảng cách từ tâm $I(3; -2)$ đến điểm $M(-1; 1)$:\n$$R^2 = IM^2 = (-1 - 3)^2 + (1 - (-2))^2 = (-4)^2 + 3^2 = 16 + 9 = 25.$$\nPhương trình đường tròn tâm $I(3; -2)$ bán kính $R$ là:\n$$(x - 3)^2 + (y + 2)^2 = 25.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $x^2 + y^2 - 2ax - 2by + c = 0$ là phương trình đường tròn khi và chỉ khi",
+      "explanation": "Phương trình $x^2 + y^2 - 2ax - 2by + c = 0 \\iff (x - a)^2 + (y - b)^2 = a^2 + b^2 - c$.\nĐây là phương trình đường tròn khi và chỉ khi bán kính $R = \\sqrt{a^2 + b^2 - c} > 0$, tức là $a^2 + b^2 - c > 0$.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một con xúc xắc cân đối và đồng chất ba lần. Số phần tử của không gian mẫu là",
+      "explanation": "Mỗi lần gieo một con xúc xắc 6 mặt cân đối và đồng chất có 6 kết quả có thể xảy ra.\nGieo xúc xắc ba lần liên tiếp, theo quy tắc nhân số phần tử của không gian mẫu là:\n$$n(\\Omega) = 6 \\times 6 \\times 6 = 216.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường tròn $(C): x^2 + y^2 - 6x - 2y = 0$. Phương trình tiếp tuyến của $(C)$ tại điểm $A(4; 4)$ là",
+      "explanation": "Đường tròn $(C)$ có tâm $I(3; 1)$.\nĐiểm $A(4; 4)$ thuộc $(C)$ vì $4^2 + 4^2 - 6(4) - 2(4) = 16 + 16 - 24 - 8 = 0$.\nTiếp tuyến của $(C)$ tại $A$ nhận vectơ $\\vec{IA} = (4 - 3; 4 - 1) = (1; 3)$ làm vectơ pháp tuyến.\nPhương trình tiếp tuyến đi qua $A(4; 4)$ là:\n$$1(x - 4) + 3(y - 4) = 0 \\iff x + 3y - 16 = 0.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho parabol $(P)$ có phương trình $y^2 = 4x$. Tọa độ tiêu điểm của $(P)$ là",
+      "explanation": "Phương trình chính tắc của parabol là $y^2 = 2px$.\nVới $(P): y^2 = 4x$, ta có $2p = 4 \\iff p = 2$.\nTiêu điểm của parabol có tọa độ $F\\left(\\dfrac{p}{2}; 0\\right) = F(1; 0)$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số các số hạng trong khai triển $(2x + 3)^5$ là",
+      "explanation": "Trong khai triển nhị thức Newton $(a + b)^n$, số các số hạng luôn bằng $n + 1$.\nVới $(2x + 3)^5$, ta có $n = 5$ nên số các số hạng là $5 + 1 = 6$.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tung một đồng xu cân đối và đồng chất hai lần liên tiếp. Xác suất của biến cố: \"Kết quả của hai lần tung là khác nhau\" là",
+      "explanation": "Không gian mẫu khi tung đồng xu hai lần là $\\Omega = \\{SS, SN, NS, NN\\}$, gồm 4 phần tử.\nBiến cố $A$: \"Kết quả của hai lần tung là khác nhau\" gồm 2 kết quả thuận lợi: $A = \\{SN, NS\\}$.\nXác suất của biến cố là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{2}{4} = \\dfrac{1}{2}.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một câu lạc bộ pickleball có 10 tay vợt nam và 8 tay vợt nữ. Số cách lập một đôi nam nữ để tham gia một giải đấu đôi nam nữ là",
+      "explanation": "Để lập một đôi nam nữ, ta thực hiện hai công đoạn liên tiếp:\n- Chọn 1 tay vợt nam từ 10 tay vợt nam: có 10 cách.\n- Chọn 1 tay vợt nữ từ 8 tay vợt nữ: có 8 cách.\nTheo quy tắc nhân, số cách lập một đôi nam nữ là:\n$$10 \\times 8 = 80\\text{ cách}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p1.png",
+          "sha256": "94d7fc2a2958968dedb71e6fde5240d3cc94e00c40ace1ff75b185c4c289a7b9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khai triển $(1 - 2x)^5$, ta được kết quả",
+      "explanation": "Áp dụng công thức khai triển nhị thức Newton:\n$$(1 - 2x)^5 = C_5^0 1^5 - C_5^1 1^4 (2x) + C_5^2 1^3 (2x)^2 - C_5^3 1^2 (2x)^3 + C_5^4 1 (2x)^4 - C_5^5 (2x)^5$$\n$$= 1 - 5(2x) + 10(4x^2) - 10(8x^3) + 5(16x^4) - 32x^5$$\n$$= 1 - 10x + 40x^2 - 80x^3 + 80x^4 - 32x^5.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p2.png",
+          "sha256": "14c862ebaf59d3784738e3af83c6c498090351e35453dd996efc2ac0c37e5803"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình nào sau đây là phương trình chính tắc của đường hyperbol?",
+      "explanation": "Phương trình chính tắc của đường hyperbol có dạng:\n$$\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1 \\quad (a > 0, b > 0).$$\nTrong các phương án đã cho, chỉ có phương án C: $\\dfrac{x^2}{1} - \\dfrac{y^2}{6} = 1$ thỏa mãn đúng dạng này (với $a^2 = 1, b^2 = 6$).\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p2.png",
+          "sha256": "14c862ebaf59d3784738e3af83c6c498090351e35453dd996efc2ac0c37e5803"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trên giá sách có 7 cuốn truyện ngắn và 10 cuốn tiểu thuyết (tất cả đều khác nhau). Trong dịp nghỉ lễ dài ngày, bạn Phong chọn 4 cuốn để đọc. Số cách bạn Phong chọn 4 cuốn trong đó có 2 cuốn truyện ngắn và 2 cuốn tiểu thuyết là",
+      "explanation": "Để chọn 4 cuốn gồm 2 cuốn truyện ngắn và 2 cuốn tiểu thuyết:\n- Chọn 2 cuốn truyện ngắn từ 7 cuốn truyện ngắn: có $C_7^2 = 21$ cách.\n- Chọn 2 cuốn tiểu thuyết từ 10 cuốn tiểu thuyết: có $C_{10}^2 = 45$ cách.\nTheo quy tắc nhân, số cách chọn là:\n$$21 \\times 45 = 945\\text{ cách}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p2.png",
+          "sha256": "14c862ebaf59d3784738e3af83c6c498090351e35453dd996efc2ac0c37e5803"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một đường hầm có mặt cắt hình nửa elip cao 4 m, rộng 10 m. Chọn hệ trục tọa độ như hình vẽ.\n\n![Mặt cắt nửa elip của đường hầm](/math-import-assets/THPT-10-CUOI_HK2-086-p2-img0.png)",
+      "explanation": "Mặt cắt đường hầm có dạng nửa elip với chiều rộng $2a = 10 \\implies a = 5$ và chiều cao $b = 4$.\n- Ý c): Phương trình chính tắc của elip là $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1 \\iff \\dfrac{x^2}{25} + \\dfrac{y^2}{16} = 1$. Mệnh đề c) ĐÚNG.\n- Ý a): Ta có $c = \\sqrt{a^2 - b^2} = \\sqrt{25 - 16} = \\sqrt{9} = 3$. Hai tiêu điểm là $F_1(-3; 0)$ và $F_2(3; 0)$. Mệnh đề a) ĐÚNG.\n- Ý b): Tiêu cự của elip là $2c = 2 \\times 3 = 6$. Khẳng định tiêu cự bằng 8 là SAI.\n- Ý d): Điểm chân hầm có hoành độ $x = -5$ hoặc $x = 5$. Một điểm cách chân hầm 2m có hoành độ $x = 5 - 2 = 3$ (hoặc $x = -3$). Thay $x = 3$ vào phương trình elip:\n$$\\dfrac{3^2}{25} + \\dfrac{y^2}{16} = 1 \\iff \\dfrac{y^2}{16} = 1 - \\dfrac{9}{25} = \\dfrac{16}{25} \\implies y = \\dfrac{16}{5} = 3,2\\text{ m}.$$\nKhẳng định cho khoảng cách là $\\dfrac{\\sqrt{17}}{5}$ m là SAI.\n\nKết luận tính đúng sai: a) Đ, b) S, c) Đ, d) S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p2.png",
+          "sha256": "14c862ebaf59d3784738e3af83c6c498090351e35453dd996efc2ac0c37e5803"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đội văn nghệ của lớp 10A gồm 8 học sinh, trong đó có 4 học sinh nam và 4 học sinh nữ. Trong số học sinh nam có bạn Bình và trong số học sinh nữ có bạn An. Để thực hiện tiết mục hợp xướng, ban tổ chức sắp xếp 8 học sinh này đứng thành một hàng ngang.",
+      "explanation": "- Ý a): Sắp xếp 8 học sinh tùy ý thành một hàng ngang có $8! = 40320$ cách. Mệnh đề a) ĐÚNG.\n- Ý b): Coi An và Bình là một khối: có $2!$ cách hoán vị An và Bình. Khối này cùng 6 học sinh còn lại tạo thành 7 phần tử, có $7!$ cách sắp xếp. Tổng số cách là $2! \\times 7! = 2 \\times 5040 = 10080$ cách. Khẳng định có 5040 cách là SAI.\n- Ý c): Xếp nam nữ đứng xen kẽ:\n  + Trường hợp 1: Nam đứng vị trí lẻ, nữ vị trí chẵn: $4! \\times 4! = 576$ cách.\n  + Trường hợp 2: Nữ đứng vị trí lẻ, nam vị trí chẵn: $4! \\times 4! = 576$ cách.\n  Tổng số cách là $576 + 576 = 1152$ cách. Mệnh đề c) ĐÚNG.\n- Ý d): An và Bình cách nhau đúng 1 học sinh:\n  + Có 6 cặp vị trí cho An và Bình: $(1, 3), (2, 4), (3, 5), (4, 6), (5, 7), (6, 8)$.\n  + Trong mỗi cặp, có $2! = 2$ cách xếp vị trí giữa An và Bình.\n  + 6 học sinh còn lại xếp vào 6 vị trí còn lại có $6! = 720$ cách.\n  Tổng số cách là $6 \\times 2 \\times 720 = 8640$ cách. Khẳng định có 4320 cách là SAI.\n\nKết luận tính đúng sai: a) Đ, b) S, c) Đ, d) S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p2.png",
+          "sha256": "14c862ebaf59d3784738e3af83c6c498090351e35453dd996efc2ac0c37e5803"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, cho đường tròn $(C): x^2 + y^2 - 2x + 4y + 1 = 0$ có tâm $I$, đường thẳng $\\Delta: x + y - 1 = 0$ và điểm $A(3; -2)$.",
+      "explanation": "Đường tròn $(C)$ có $a = 1, b = -2, c = 1$.\n- Tâm $I(1; -2)$, bán kính $R = \\sqrt{1^2 + (-2)^2 - 1} = \\sqrt{4} = 2$. Mệnh đề a) ĐÚNG.\n- Ý b): Tiếp tuyến song song với đường thẳng $\\Delta$ luôn tồn tại đúng 2 tiếp tuyến ở hai phía đối xứng qua tâm $I$. Mệnh đề b) ĐÚNG.\n- Ý c): Khoảng cách từ $I(1; -2)$ đến đường thẳng $\\Delta: x + y - 1 = 0$ là:\n$$d(I, \\Delta) = \\dfrac{|1 + (-2) - 1|}{\\sqrt{1^2 + 1^2}} = \\dfrac{|-2|}{\\sqrt{2}} = \\sqrt{2}.$$\nKhẳng định khoảng cách bằng 3 là SAI.\n- Ý d): Vì $d = \\sqrt{2} < R = 2$, đường thẳng cắt đường tròn tại 2 điểm phân biệt $M, N$.\nĐộ dài dây cung $MN = 2\\sqrt{R^2 - d^2} = 2\\sqrt{4 - 2} = 2\\sqrt{2}$.\nDiện tích tam giác $IMN$ là:\n$$S_{\\triangle IMN} = \\dfrac{1}{2} \\times d(I, \\Delta) \\times MN = \\dfrac{1}{2} \\times \\sqrt{2} \\times 2\\sqrt{2} = 2.$$\nMệnh đề d) ĐÚNG.\n\nKết luận tính đúng sai: a) Đ, b) Đ, c) S, d) Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p3.png",
+          "sha256": "43100d4005b81940dabbb9b5435e33b61b048ed60139900f01e7e062a3fa6353"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chiếc hộp đựng 8 viên bi màu đỏ, 7 viên bi màu xanh và 5 viên bi màu vàng. Xét phép thử \"lấy ngẫu nhiên từ hộp 3 viên bi\".",
+      "explanation": "Tổng số bi trong hộp là $8 + 7 + 5 = 20$ viên bi.\n- Ý a): Lấy ngẫu nhiên 3 viên bi có $n(\\Omega) = C_{20}^3 = 1140$ cách. Mệnh đề a) ĐÚNG.\n- Ý b): Số cách lấy 3 bi đỏ là $C_8^3 = 56$. Xác suất là $\\dfrac{56}{1140} = \\dfrac{14}{285} \\ne \\dfrac{14}{283}$. Mệnh đề b) SAI.\n- Ý c): Số cách lấy 3 bi không có màu đỏ (chỉ gồm xanh và vàng, tổng $7 + 5 = 12$ bi) là $C_{12}^3 = 220$.\nXác suất lấy được ít nhất 1 bi màu đỏ là:\n$$1 - \\dfrac{220}{1140} = 1 - \\dfrac{11}{57} = \\dfrac{46}{57}.$$\nKhẳng định bằng $\\dfrac{11}{56}$ là SAI.\n- Ý d): Số cách lấy 3 bi cùng 1 màu là $C_8^3 + C_7^3 + C_5^3 = 56 + 35 + 10 = 101$.\nSố cách lấy 3 bi đủ cả 3 màu là $C_8^1 \\times C_7^1 \\times C_5^1 = 8 \\times 7 \\times 5 = 280$.\nSố cách lấy 3 bi có đúng hai màu là:\n$$1140 - 101 - 280 = 759.$$\nXác suất lấy được 3 bi có đúng hai màu là:\n$$P = \\dfrac{759}{1140} = \\dfrac{253}{380}.$$\nMệnh đề d) ĐÚNG.\n\nKết luận tính đúng sai: a) Đ, b) S, c) S, d) Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p3.png",
+          "sha256": "43100d4005b81940dabbb9b5435e33b61b048ed60139900f01e7e062a3fa6353"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gọi $A$ là tập các số tự nhiên có 3 chữ số đôi một khác nhau. Lấy ngẫu nhiên ra từ $A$ hai số. Xác suất để lấy được hai số mà các chữ số có mặt ở hai số đó giống nhau là bao nhiêu phần trăm (kết quả làm tròn đến hàng phần chục)?",
+      "explanation": "Số các số tự nhiên có 3 chữ số đôi một khác nhau:\n- Chữ số hàng trăm $a \\in \\{1; 2; \\dots; 9\\}$ có 9 cách chọn.\n- Chọn 2 chữ số còn lại từ 9 chữ số còn lại: có $A_9^2 = 72$ cách.\nTổng số phần tử của tập $A$ là $n(A) = 9 \\times 72 = 648$.\nSố phần tử của không gian mẫu khi lấy ngẫu nhiên 2 số từ $A$ là $n(\\Omega) = C_{648}^2 = 209628$.\nHai số có các chữ số có mặt giống nhau khi và chỉ khi chúng được tạo thành từ cùng một tập hợp 3 chữ số:\n- Nếu tập 3 chữ số không chứa chữ số 0 (có $C_9^3 = 84$ tập như vậy): mỗi tập tạo ra $3! = 6$ số. Số cặp là $C_6^2 = 15$. Tổng số cặp loại này: $84 \\times 15 = 1260$.\n- Nếu tập 3 chữ số chứa chữ số 0 (có $C_9^2 = 36$ tập như vậy): mỗi tập tạo ra $2 \\times 2! = 4$ số. Số cặp là $C_4^2 = 6$. Tổng số cặp loại này: $36 \\times 6 = 216$.\nTổng số cặp thỏa mãn là $1260 + 216 = 1476$ cặp.\nXác suất là:\n$$P = \\dfrac{1476}{209628} \\approx 0,007041 \\approx 0,7\\%.$$\n\nĐáp số: 0,7.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p3.png",
+          "sha256": "43100d4005b81940dabbb9b5435e33b61b048ed60139900f01e7e062a3fa6353"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ném đĩa là một môn thể thao thi đấu trong Thế vận hội Olympic mùa hè. Khi thực hiện cú ném, một vận động viên đã vung đĩa theo một đường tròn. Giả sử đĩa chuyển động trên đường tròn tâm $I\\left(0; \\dfrac{3}{2}\\right)$ bán kính $0,8$ trong mặt phẳng $Oxy$ (đơn vị trên hai trục là mét). Khi người đó vung đĩa đến vị trí điểm $M$ có tung độ $1,98$ và nằm ở bên phải trục tung thì buông đĩa (tham khảo hình vẽ). Trong những giây đầu tiên ngay sau khi được ném đi, quỹ đạo chuyển động của chiếc đĩa có phương trình $ax + by - 17 = 0$. Giá trị của $ab$ bằng bao nhiêu?\n\n![Quỹ đạo vung đĩa và ném đĩa](/math-import-assets/THPT-10-CUOI_HK2-086-p3-img1.png)",
+      "explanation": "Đường tròn có tâm $I\\left(0; \\dfrac{3}{2}\\right) = I(0; 1,5)$ và bán kính $R = 0,8$.\nPhương trình đường tròn là: $x^2 + (y - 1,5)^2 = 0,8^2 = 0,64$.\nĐiểm $M$ thuộc đường tròn có tung độ $y_M = 1,98$ và $x_M > 0$:\n$$x_M^2 + (1,98 - 1,5)^2 = 0,64 \\iff x_M^2 + 0,48^2 = 0,64 \\iff x_M^2 = 0,64 - 0,2304 = 0,4096 \\implies x_M = 0,64.$$\nDo đó $M(0,64; 1,98)$.\nKhi buông đĩa, quỹ đạo chuyển động là tiếp tuyến của đường tròn tại $M$. Tiếp tuyến này vuông góc với bán kính $IM$:\n$$\\vec{IM} = (0,64 - 0; 1,98 - 1,5) = (0,64; 0,48) = 0,16(4; 3).$$\nVectơ pháp tuyến của tiếp tuyến là $\\vec{n} = (4; 3)$.\nPhương trình tiếp tuyến đi qua $M(0,64; 1,98)$ là:\n$$4(x - 0,64) + 3(y - 1,98) = 0 \\iff 4x + 3y - (2,56 + 5,94) = 0 \\iff 4x + 3y - 8,5 = 0.$$\nNhân cả hai vế với 2 để có hệ số tự do là $-17$:\n$$8x + 6y - 17 = 0.$$\nĐối chiếu với dạng $ax + by - 17 = 0$, ta có $a = 8, b = 6$.\nVậy $ab = 8 \\times 6 = 48$.\n\nĐáp số: 48.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p3.png",
+          "sha256": "43100d4005b81940dabbb9b5435e33b61b048ed60139900f01e7e062a3fa6353"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Từ 8 thẻ số như hình vẽ:\n\n![8 thẻ số từ 1 đến 8](/math-import-assets/THPT-10-CUOI_HK2-086-p3-img2.png)\n\nCó thể ghép để tạo thành bao nhiêu số tự nhiên có ba chữ số và chia hết cho 3?",
+      "explanation": "Tập các chữ số là $S = \\{1; 2; 3; 4; 5; 6; 7; 8\\}$, gồm 8 chữ số đôi một khác nhau (không có chữ số 0).\nPhân loại các chữ số theo số dư khi chia cho 3:\n- Nhóm dư 0: $A_0 = \\{3; 6\\}$ (2 phần tử).\n- Nhóm dư 1: $A_1 = \\{1; 4; 7\\}$ (3 phần tử).\n- Nhóm dư 2: $A_2 = \\{2; 5; 8\\}$ (3 phần tử).\nMột số tự nhiên có ba chữ số chia hết cho 3 khi và chỉ khi tổng ba chữ số chia hết cho 3. Có hai trường hợp chọn 3 chữ số:\n- Trường hợp 1: Ba chữ số có cùng số dư khi chia cho 3.\n  + 3 chữ số thuộc $A_1$: có $C_3^3 = 1$ bộ.\n  + 3 chữ số thuộc $A_2$: có $C_3^3 = 1$ bộ.\n  Số bộ là $1 + 1 = 2$ bộ. Mỗi bộ có $3! = 6$ số. Có $2 \\times 6 = 12$ số.\n- Trường hợp 2: Ba chữ số có số dư đôi một khác nhau (1 chữ số thuộc $A_0$, 1 chữ số thuộc $A_1$, 1 chữ số thuộc $A_2$):\n  Số bộ là $C_2^1 \\times C_3^1 \\times C_3^1 = 2 \\times 3 \\times 3 = 18$ bộ.\n  Mỗi bộ có $3! = 6$ số. Có $18 \\times 6 = 108$ số.\nTổng số các số tự nhiên có 3 chữ số chia hết cho 3 là:\n$$12 + 108 = 120\\text{ số}.$$\n\nĐáp số: 120.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p3.png",
+          "sha256": "43100d4005b81940dabbb9b5435e33b61b048ed60139900f01e7e062a3fa6353"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hệ số của $x^2 y^2$ trong khai triển nhị thức $(x - 2y)^4$ bằng bao nhiêu?",
+      "explanation": "Số hạng tổng quát trong khai triển $(x - 2y)^4$ là:\n$$T_{k+1} = C_4^k x^{4-k} (-2y)^k = C_4^k (-2)^k x^{4-k} y^k \\quad (0 \\le k \\le 4).$$\nĐể có số hạng chứa $x^2 y^2$, ta chọn $k = 2$.\nHệ số của $x^2 y^2$ là:\n$$C_4^2 (-2)^2 = 6 \\times 4 = 24.$$\n\nĐáp số: 24.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p3.png",
+          "sha256": "43100d4005b81940dabbb9b5435e33b61b048ed60139900f01e7e062a3fa6353"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một nhóm nhảy có 3 học sinh lớp 10, có 4 học sinh lớp 11 và 5 học sinh lớp 12. Số cách chọn 4 học sinh từ nhóm trên để biểu diễn vào ngày bế giảng năm học sao cho mỗi khối 10, 11, 12 có ít nhất một học sinh là bao nhiêu?",
+      "explanation": "Tổng số học sinh cần chọn là 4 em sao cho có mặt cả 3 khối 10, 11, 12. Như vậy sẽ có đúng một khối có 2 học sinh và hai khối còn lại mỗi khối có 1 học sinh:\n- Trường hợp 1: Chọn 2 học sinh khối 10, 1 học sinh khối 11, 1 học sinh khối 12:\n$$C_3^2 \\times C_4^1 \\times C_5^1 = 3 \\times 4 \\times 5 = 60\\text{ cách}.$$\n- Trường hợp 2: Chọn 1 học sinh khối 10, 2 học sinh khối 11, 1 học sinh khối 12:\n$$C_3^1 \\times C_4^2 \\times C_5^1 = 3 \\times 6 \\times 5 = 90\\text{ cách}.$$\n- Trường hợp 3: Chọn 1 học sinh khối 10, 1 học sinh khối 11, 2 học sinh khối 12:\n$$C_3^1 \\times C_4^1 \\times C_5^2 = 3 \\times 4 \\times 10 = 120\\text{ cách}.$$\nTổng số cách chọn thỏa mãn yêu cầu là:\n$$60 + 90 + 120 = 270\\text{ cách}.$$\n\nĐáp số: 270.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p4.png",
+          "sha256": "f4fe827158086e3478d285377eafebfdc109bf3a8d3fcedc6e821dc60924c4b8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-086-M0101-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Để thực hiện chiến dịch hỗ trợ người dân cài đặt và sử dụng dịch vụ công trực tuyến, một tổ công tác gồm 9 người được phân công về một xã. Trưởng đoàn cần chia tổ thành 3 nhóm: nhóm 1 có 3 người hướng dẫn tại quầy, nhóm 2 có 4 người đến từng hộ gia đình và nhóm 3 có 2 người trực kỹ thuật. Số cách phân công tổ công tác trên là bao nhiêu?",
+      "explanation": "Công việc phân công gồm 3 bước liên tiếp:\n- Bước 1: Chọn 3 người cho nhóm 1 từ 9 người: có $C_9^3 = 84$ cách.\n- Bước 2: Chọn 4 người cho nhóm 2 từ $9 - 3 = 6$ người còn lại: có $C_6^4 = 15$ cách.\n- Bước 3: 2 người còn lại vào nhóm 3: có $C_2^2 = 1$ cách.\nTheo quy tắc nhân, số cách phân công là:\n$$C_9^3 \\times C_6^4 \\times C_2^2 = 84 \\times 15 \\times 1 = 1260\\text{ cách}.$$\n\nĐáp số: 1260.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-086-p4.png",
+          "sha256": "f4fe827158086e3478d285377eafebfdc109bf3a8d3fcedc6e821dc60924c4b8"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khai triển của nhị thức $(a - b)^4$ là:",
+      "explanation": "Theo công thức khai triển nhị thức Newton với số mũ $n = 4$:\n$$(a - b)^4 = C_4^0 a^4 - C_4^1 a^3 b + C_4^2 a^2 b^2 - C_4^3 a b^3 + C_4^4 b^4 = a^4 - 4a^3b + 6a^2b^2 - 4ab^3 + b^4.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một con xúc xắc 6 mặt hai lần liên tiếp. Gọi $K$ là biến cố \"Tổng số chấm xuất hiện trên hai mặt xúc xắc bằng 8\". Khi đó biến cố $K$ là:",
+      "explanation": "Các cặp số $(i, j)$ với $i, j \\in \\{1; 2; 3; 4; 5; 6\\}$ có tổng bằng 8 là:\n- $2 + 6 = 8 \\implies (2; 6), (6; 2)$,\n- $3 + 5 = 8 \\implies (3; 5), (5; 3)$,\n- $4 + 4 = 8 \\implies (4; 4)$.\nDo đó tập hợp các kết quả thuận lợi cho $K$ là:\n$$K = \\{(3; 5), (5; 3), (6; 2), (2; 6), (4; 4)\\}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một tổ có 12 học sinh, số cách chọn ngẫu nhiên 2 học sinh làm tổ trưởng và làm tổ phó là:",
+      "explanation": "Chọn 2 học sinh trong 12 học sinh và phân công nhiệm vụ cụ thể (tổ trưởng, tổ phó) là một chỉnh hợp chập 2 của 12 phần tử.\nSố cách chọn là $A_{12}^2$.\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số nào dưới đây là hàm số bậc hai:",
+      "explanation": "Hàm số bậc hai có dạng $y = ax^2 + bx + c$ với $a \\ne 0$.\nTrong các hàm số đã cho, chỉ có $y = -x^2 + 2x$ là hàm số bậc hai (với $a = -1, b = 2, c = 0$).\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\dfrac{3x + 1}{2x - 5}$, giá trị $f(3)$ là:",
+      "explanation": "Thay $x = 3$ vào biểu thức hàm số:\n$$f(3) = \\dfrac{3(3) + 1}{2(3) - 5} = \\dfrac{9 + 1}{6 - 5} = \\dfrac{10}{1} = 10.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp có 3 bi xanh, 6 bi đỏ, 7 bi vàng. Có bao nhiêu cách chọn được 3 bi khác màu?",
+      "explanation": "Chọn 3 viên bi khác màu nghĩa là chọn đúng 1 viên bi xanh, 1 viên bi đỏ và 1 viên bi vàng:\n- Chọn 1 viên bi xanh từ 3 bi xanh: có $C_3^1 = 3$ cách.\n- Chọn 1 viên bi đỏ từ 6 bi đỏ: có $C_6^1 = 6$ cách.\n- Chọn 1 viên bi vàng từ 7 bi vàng: có $C_7^1 = 7$ cách.\nTheo quy tắc nhân, số cách chọn là:\n$$3 \\times 6 \\times 7 = 126\\text{ cách}.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng có bán áo và quần. Áo có hai loại là áo thun và áo sơ mi. Quần có ba loại là quần trắng, quần đen và quần xanh. Hỏi khách hàng có bao nhiêu cách lựa chọn mua áo hoặc mua quần?",
+      "explanation": "Khách hàng mua áo hoặc mua quần:\n- Phương án 1: Mua áo, có 2 cách chọn (áo thun hoặc sơ mi).\n- Phương án 2: Mua quần, có 3 cách chọn (quần trắng, đen, hoặc xanh).\nTheo quy tắc cộng, số cách lựa chọn là:\n$$2 + 3 = 5\\text{ cách}.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong một cuộc thi điền kinh có 5 vận động viên chạy trên 5 đường chạy. Hỏi có bao nhiêu cách xếp các vận động viên vào các đường chạy đó?",
+      "explanation": "Xếp 5 vận động viên vào 5 đường chạy phân biệt là một hoán vị của 5 phần tử.\nSố cách sắp xếp là $P_5 = 5! = 120$.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bạn A muốn đi từ Hà Nội vào Huế, rồi từ Huế vào Quảng Nam. Biết rằng từ Hà Nội vào Huế có thể đi bằng 3 cách: máy bay, tàu lửa hoặc xe ô tô. Từ Huế vào Quảng Nam có thể đi bằng 2 cách: tàu lửa hoặc ô tô. Hỏi bạn A có bao nhiêu cách chọn để đi từ Hà Nội vào Quảng Nam?",
+      "explanation": "Chuyến đi từ Hà Nội vào Quảng Nam gồm hai chặng liên tiếp:\n- Chặng 1: Hà Nội vào Huế có 3 cách.\n- Chặng 2: Huế vào Quảng Nam có 2 cách.\nTheo quy tắc nhân, số cách chọn là:\n$$3 \\times 2 = 6\\text{ cách}.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chọn ngẫu nhiên một số nguyên dương từ 1 đến 30. Xác suất của biến cố A: \"Số được chọn chia hết cho 4\" bằng:",
+      "explanation": "Số phần tử của không gian mẫu là $n(\\Omega) = 30$.\nCác số nguyên dương từ 1 đến 30 chia hết cho 4 là:\n$$4, 8, 12, 16, 20, 24, 28.$$\nCó tất cả 7 số thỏa mãn, tức $n(A) = 7$.\nXác suất của biến cố $A$ là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{7}{30}.$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p1.png",
+          "sha256": "853f57a83b071290e740a7e1a3bcfe1755faecb72fbfa1d065f626896fabb077"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ trục tọa độ $Oxy$, phương trình nào sau đây là phương trình chính tắc của Elip:",
+      "explanation": "Phương trình chính tắc của elip có dạng:\n$$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1 \\quad (a > b > 0).$$\nVới phương án B, ta có $a^2 = 16, b^2 = 4 \\implies a = 4 > b = 2 > 0$. Do đó đây là phương trình chính tắc của elip.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ trục tọa độ $Oxy$, cho đường tròn $(C)$ có tâm $I(3; 2)$ và bán kính $R = 3$, phương trình đường tròn $(C)$ là:",
+      "explanation": "Phương trình đường tròn tâm $I(a; b)$ bán kính $R$ có dạng:\n$$(x - a)^2 + (y - b)^2 = R^2.$$\nVới $I(3; 2)$ và $R = 3$, ta được phương trình:\n$$(x - 3)^2 + (y - 2)^2 = 3^2 = 9.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường tròn $(C)$ có đường kính $AB$ với $A(3; 2); B(1; 4)$.",
+      "explanation": "- Ý a): Bán kính của đường tròn đường kính $AB$ là $R = \\dfrac{AB}{2}$. Khẳng định bán kính là $AB$ là SAI.\n- Ý d): Ta có $AB = \\sqrt{(1 - 3)^2 + (4 - 2)^2} = \\sqrt{(-2)^2 + 2^2} = \\sqrt{8} = 2\\sqrt{2} \\implies R = \\dfrac{AB}{2} = \\sqrt{2}$. Mệnh đề d) ĐÚNG.\n- Ý b): Tâm $I$ là trung điểm của $AB$: $x_I = \\dfrac{3 + 1}{2} = 2, y_I = \\dfrac{2 + 4}{2} = 3 \\implies I(2; 3)$.\nPhương trình $(C)$ là $(x - 2)^2 + (y - 3)^2 = (\\sqrt{2})^2 = 2$. Mệnh đề b) ĐÚNG.\n- Ý c): Tiếp tuyến tại $A(3; 2)$ nhận $\\vec{IA} = (3 - 2; 2 - 3) = (1; -1)$ làm vectơ pháp tuyến. Phương trình là $1(x - 3) - 1(y - 2) = 0 \\iff x - y - 1 = 0 \\ne x + y - 2 = 0$. Mệnh đề c) SAI.\n\nKết luận tính đúng sai: a) S, b) Đ, c) S, d) Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Lớp 10A có 45 học sinh trong đó gồm 20 học sinh nam và 25 học sinh nữ.",
+      "explanation": "- Ý a): Chọn 1 học sinh bất kì trong 45 học sinh có $C_{45}^1 = 45$ cách. Mệnh đề a) ĐÚNG.\n- Ý b): Phân công chức vụ lớp trưởng và lớp phó là chọn có thứ tự (chỉnh hợp), số cách chọn là $A_{45}^2$, không phải $C_{45}^2$. Mệnh đề b) SAI.\n- Ý c): Chọn 2 nam và 1 nữ có $C_{20}^2 \\times C_{25}^1$ cách chọn, khác $C_{45}^3$. Mệnh đề c) SAI.\n- Ý d): Chọn 3 học sinh bất kì trong 45 học sinh có $C_{45}^3$ cách chọn. Mệnh đề d) ĐÚNG.\n\nKết luận tính đúng sai: a) Đ, b) S, c) S, d) Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một túi có 5 viên bi xanh và 4 viên bi đỏ. Lấy ngẫu nhiên 3 viên bi từ túi.",
+      "explanation": "Tổng số bi trong túi là $5 + 4 = 9$ viên bi.\n- Ý a): Lấy ngẫu nhiên 3 viên bi có $n(\\Omega) = C_9^3 = 84$. Mệnh đề a) ĐÚNG.\n- Ý b): Biến cố $B$: \"Chọn ra 3 viên bi đỏ\". Số cách chọn là $C_4^3 = 4$. Xác suất là $P(B) = \\dfrac{4}{84} = \\dfrac{1}{21} \\ne \\dfrac{3}{25}$. Mệnh đề b) SAI.\n- Ý c): Biến cố $A$: \"Chọn ra 3 viên bi xanh\". Số cách chọn là $C_5^3 = 10$. Xác suất là $P(A) = \\dfrac{10}{84} = \\dfrac{5}{42}$. Mệnh đề c) ĐÚNG.\n- Ý d): Biến cố $C$: \"Chọn ra 3 viên bi có đủ hai màu xanh và đỏ\" là biến cố đối của \"3 bi cùng màu xanh hoặc cùng màu đỏ\":\n$$P(C) = 1 - P(A) - P(B) = 1 - \\dfrac{10}{84} - \\dfrac{4}{84} = 1 - \\dfrac{14}{84} = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}.$$\nMệnh đề d) ĐÚNG.\n\nKết luận tính đúng sai: a) Đ, b) S, c) Đ, d) Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ trục tọa độ $Oxy$, cho hai đường thẳng $d_1: 3x + 4y + 3 = 0$; $d_2: 4x - 3y + 1 = 0$.",
+      "explanation": "- Ý a): Thay tọa độ $A(4; 3)$ vào $d_2$: $4(4) - 3(3) + 1 = 16 - 9 + 1 = 8 \\ne 0$. Điểm $A$ không thuộc $d_2$. Mệnh đề a) SAI.\n- Ý b): Đường thẳng $d_1: 3x + 4y + 3 = 0$ có VTPT là $\\vec{n}_1 = (3; 4)$. Mệnh đề b) ĐÚNG.\n- Ý c): $d_1$ có $\\vec{n}_1 = (3; 4)$ và $d_2$ có $\\vec{n}_2 = (4; -3)$. Ta có $\\vec{n}_1 \\cdot \\vec{n}_2 = 3 \\times 4 + 4 \\times (-3) = 12 - 12 = 0$. Do đó $d_1 \\perp d_2$. Mệnh đề c) ĐÚNG.\n- Ý d): Khoảng cách từ $M(4; 3)$ đến $d_1$ là:\n$$d(M, d_1) = \\dfrac{|3(4) + 4(3) + 3|}{\\sqrt{3^2 + 4^2}} = \\dfrac{|12 + 12 + 3|}{5} = \\dfrac{27}{5} = 5,4 \\ne 5.$$\nMệnh đề d) SAI.\n\nKết luận tính đúng sai: a) S, b) Đ, c) Đ, d) S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số nghiệm nguyên của bất phương trình $(2x - 1)(3x + 2) \\le 0$ là bao nhiêu?",
+      "explanation": "Tam thức bậc hai $f(x) = (2x - 1)(3x + 2) = 6x^2 + x - 2$ có hệ số $a = 6 > 0$ và hai nghiệm là $x_1 = -\\dfrac{2}{3}, x_2 = \\dfrac{1}{2}$.\nBất phương trình $f(x) \\le 0$ tương đương với:\n$$-\\dfrac{2}{3} \\le x \\le \\dfrac{1}{2}.$$\nVì $x$ là số nguyên, nên $x \\in \\mathbb{Z} \\cap \\left[-\\dfrac{2}{3}; \\dfrac{1}{2}\\right] = \\{0\\}$.\nVậy bất phương trình có đúng 1 nghiệm nguyên là $x = 0$.\n\nĐáp số: 1.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một nhóm có 5 bạn nam và 2 bạn nữ. Có bao nhiêu cách xếp tất cả các bạn trong nhóm thành một hàng ngang sao cho 2 bạn nữ không đứng cạnh nhau?",
+      "explanation": "Áp dụng phương pháp vách ngăn:\n- Bước 1: Xếp 5 bạn nam thành một hàng ngang, có $5! = 120$ cách xếp.\n- Bước 2: 5 bạn nam tạo ra 6 vị trí trống (ở hai đầu và xen giữa các bạn nam).\n- Bước 3: Xếp 2 bạn nữ vào 2 trong số 6 vị trí trống này sao cho không bạn nào đứng cạnh nhau: có $A_6^2 = 30$ cách xếp.\nTheo quy tắc nhân, số cách xếp là:\n$$120 \\times 30 = 3600\\text{ cách}.$$\n\nĐáp số: 3600.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nhà hát lớn quốc gia của thành phố Bắc Kinh, Trung Quốc được khánh thành năm 2007 có mặt cắt dạng nửa hình Elip với độ dài trục lớn 212 mét và chiều cao 46 mét. Tính khoảng cách theo phương thẳng đứng (đơn vị mét) từ một điểm cách chân tường 6 mét lên đến nóc nhà vòm, làm tròn đến hàng phần chục.\n\n![Mặt cắt nửa elip của nhà hát lớn](/math-import-assets/THPT-10-CUOI_HK2-091-p2-img1.png)",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ với gốc tọa độ $O$ là trung điểm của trục lớn, trục $Ox$ nằm ngang dọc theo sàn, trục $Oy$ thẳng đứng hướng lên.\nKhi đó mặt cắt nhà vòm là nửa trên của elip có phương trình:\n$$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1 \\quad (y \\ge 0).$$\nTheo đề bài:\n- Độ dài trục lớn là $2a = 212\\text{ m} \\implies a = 106\\text{ m}$.\n- Chiều cao là $b = 46\\text{ m}$.\nChân tường ở hai đầu trục lớn tại $x = -106$ và $x = 106$.\nĐiểm cách chân tường 6 mét có hoành độ:\n$$x = 106 - 6 = 100\\text{ m}.$$\nThay $x = 100$ vào phương trình elip:\n$$\\dfrac{100^2}{106^2} + \\dfrac{y^2}{46^2} = 1 \\implies \\dfrac{y^2}{46^2} = 1 - \\left(\\dfrac{100}{106}\\right)^2 = \\dfrac{106^2 - 100^2}{106^2} = \\dfrac{(106 - 100)(106 + 100)}{106^2} = \\dfrac{6 \\times 206}{106^2} = \\dfrac{1236}{11236}.$$\nSuy ra:\n$$y = 46 \\times \\sqrt{\\dfrac{1236}{11236}} = 46 \\times \\dfrac{\\sqrt{1236}}{106} \\approx 15,263\\dots \\approx 15,3\\text{ m}.$$\n\nĐáp số: 15,3.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p2.png",
+          "sha256": "3319409510a4346e7cd1b807456e6e99d9435c2aa6f7ccd938ff972564d4c5b0"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng có bán 5 hoa hồng và 7 hoa cúc. Một khách hàng mua ngẫu nhiên 3 bông hoa. Tính xác suất khách hàng mua 3 hoa từ cửa hàng có ít nhất 1 hoa hồng, kết quả làm tròn đến hàng phần trăm.",
+      "explanation": "Tổng số hoa trong cửa hàng là $5 + 7 = 12$ bông hoa.\nSố cách chọn ngẫu nhiên 3 bông hoa từ 12 bông hoa là:\n$$n(\\Omega) = C_{12}^3 = \\dfrac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = 220.$$\nGọi $A$ là biến cố: \"Khách hàng mua được ít nhất 1 hoa hồng\".\nBiến cố đối $\\overline{A}$ là: \"Khách hàng không mua được hoa hồng nào\", tức là cả 3 bông hoa đều là hoa cúc.\nSố cách chọn 3 bông hoa cúc từ 7 bông hoa cúc là:\n$$n(\\overline{A}) = C_7^3 = \\dfrac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = 35.$$\nXác suất của biến cố đối là:\n$$P(\\overline{A}) = \\dfrac{n(\\overline{A})}{n(\\Omega)} = \\dfrac{35}{220} = \\dfrac{7}{44}.$$\nDo đó xác suất của biến cố $A$ là:\n$$P(A) = 1 - P(\\overline{A}) = 1 - \\dfrac{7}{44} = \\dfrac{37}{44} \\approx 0,8409\\dots \\approx 0,84.$$\n\nĐáp số: 0,84.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p3.png",
+          "sha256": "46844b88a0f9a56eef3661e330abd3f32db2e527b5de3b9404cbd3b2230bd054"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một cái cổng hình bán nguyệt rộng 6,8 mét và cao 3,4 mét. Mặt đường dưới cổng được chia thành hai làn xe ra vào. Một chiếc xe tải có chiều rộng 2,4m đi đúng làn đường quy định thì chiều cao (đơn vị mét) tối đa của xe tải để xe tải có thể qua cổng là bao nhiêu (kết quả làm tròn đến hàng phần chục)?\n\n![Cổng hình bán nguyệt](/math-import-assets/THPT-10-CUOI_HK2-091-p3-img0.png)",
+      "explanation": "Cổng hình bán nguyệt có độ rộng $2R = 6,8\\text{ m} \\implies R = 3,4\\text{ m}$, chiều cao ở giữa là $R = 3,4\\text{ m}$.\nChọn hệ trục tọa độ $Oxy$ với gốc tọa độ $O$ là trung điểm chân cổng, trục $Ox$ dọc theo mặt đường, trục $Oy$ hướng lên.\nKhi đó vòm cổng có phương trình nửa đường tròn: $x^2 + y^2 = R^2 = 3,4^2 = 11,56$ ($y \\ge 0$).\nMặt đường chia thành hai làn xe đối xứng qua trục tung $Oy$ ($x = 0$).\nChiếc xe tải có chiều rộng $2,4\\text{ m}$ đi đúng trong làn quy định (từ $x = 0$ đến mép ngoài của làn), do đó điểm xa trục giữa nhất của xe tải có hoành độ là $x = 2,4\\text{ m}$.\nĐể xe qua được cổng, chiều cao tối đa của xe bị giới hạn bởi độ cao của vòm cổng tại vị trí mép ngoài $x = 2,4\\text{ m}$:\n$$y = \\sqrt{R^2 - x^2} = \\sqrt{3,4^2 - 2,4^2} = \\sqrt{(3,4 - 2,4)(3,4 + 2,4)} = \\sqrt{1 \\times 5,8} = \\sqrt{5,8} \\approx 2,4083\\dots \\approx 2,4\\text{ m}.$$\n\nĐáp số: 2,4.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p3.png",
+          "sha256": "46844b88a0f9a56eef3661e330abd3f32db2e527b5de3b9404cbd3b2230bd054"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK2-091-M2014-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một quả bóng được đá lên và chuyển động theo quỹ đạo là đường Parabol. Xét trong hệ tọa độ $Oth$, $h(t)$ là độ cao của quả bóng (đơn vị: mét) tại thời điểm $t$ (đơn vị: giây) kể từ khi quả bóng được đá lên. Biết rằng ban đầu quả bóng được đá lên từ độ cao 1 mét. Sau đó 1 giây thì quả bóng đạt độ cao 6 mét. Sau khi đá lên 2 giây thì quả bóng đạt độ cao 9 mét. Tìm chiều cao (đơn vị: mét) của quả bóng sau 3 giây kể từ khi quả bóng được đá lên.\n\n![Quỹ đạo parabol của quả bóng](/math-import-assets/THPT-10-CUOI_HK2-091-p3-img1.png)",
+      "explanation": "Quỹ đạo chuyển động của quả bóng là một parabol có phương trình dạng:\n$$h(t) = at^2 + bt + c \\quad (a \\ne 0).$$\nTừ các dữ kiện đề bài cho:\n- Tại thời điểm ban đầu $t = 0$: $h(0) = c = 1$.\n- Sau 1 giây ($t = 1$): $h(1) = a(1)^2 + b(1) + 1 = 6 \\iff a + b = 5$.\n- Sau 2 giây ($t = 2$): $h(2) = a(2)^2 + b(2) + 1 = 9 \\iff 4a + 2b = 8 \\iff 2a + b = 4$.\nGiải hệ phương trình:\n$$\\begin{cases} a + b = 5 \\\\ 2a + b = 4 \\end{cases} \\iff \\begin{cases} a = -1 \\\\ b = 6 \\end{cases}.$$\nDo đó hàm số độ cao là:\n$$h(t) = -t^2 + 6t + 1.$$\nChiều cao của quả bóng sau 3 giây ($t = 3$) là:\n$$h(3) = -(3)^2 + 6(3) + 1 = -9 + 18 + 1 = 10\\text{ mét}.$$\n\nĐáp số: 10.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK2-091-p3.png",
+          "sha256": "46844b88a0f9a56eef3661e330abd3f32db2e527b5de3b9404cbd3b2230bd054"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import * as legacyShim from '../src/components/assignmentReportInsights.js';
+import * as featureReport from '../src/features/assignment-report/index.js';
 import { buildReportInsights, hasReportScore, selectReportStudents, studentMistakes } from '../src/components/assignmentReportInsights.js';
+
+test('giữ nguyên tất cả export và identity giữa shim cũ và feature assignment-report', () => {
+  assert.deepEqual(Object.keys(legacyShim).sort(), Object.keys(featureReport).sort());
+  for (const key of Object.keys(featureReport)) {
+    assert.equal(legacyShim[key], featureReport[key]);
+  }
+});
 const makeRow = (i, score) => ({ studentId:String(i),fullName:`Học sinh ${i}`,username:`hs${i}`,isSubmitted:true,status:'SUBMITTED',score,timeSpentSeconds:1200,answers:[] });
 const question = {id:'q',questionType:'SINGLE_CHOICE',options:[{optionKey:'A',isCorrect:true},{optionKey:'B',isCorrect:false}]};
 test('19/31 is 61.3%; unsubmitted and missing scores are never treated as zero',()=>{

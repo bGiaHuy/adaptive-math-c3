@@ -57,7 +57,7 @@ Sửa câu hỏi của giáo viên chỉ cập nhật snapshot trong bài giao t
 ## Kiểm chứng
 
 `npm run lint`, `npm run format:check`, `npm run architecture:check`, `npm run architecture:test`, `npm run typecheck`, `npm run test:frontend`, `npm test`, `npm run build`, `npm run build:api`.
-`npm run verify` chạy chuỗi đầy đủ và dừng tại lỗi đầu tiên; hiện bộ API còn lỗi baseline, vì vậy không được tuyên bố toàn bộ verify đạt.
+`npm run verify` chạy chuỗi đầy đủ và dừng tại lỗi đầu tiên. Các lỗi fixture THCS trước đây đã được xử lý bằng dữ liệu kiểm thử THPT trên schema riêng cho từng lượt; xem bằng chứng cập nhật ngày 20/10/2026 trong `docs/architecture/verification.md`.
 
 Lint hiện kiểm tra cú pháp và quy ước `debugger`/conflict marker, chưa thay thế ESLint về hooks, accessibility hay kiểu dữ liệu JS.
 Prettier chỉ bắt buộc cho nền tảng mới được liệt kê trong script, tránh định dạng lại toàn bộ mã cũ.

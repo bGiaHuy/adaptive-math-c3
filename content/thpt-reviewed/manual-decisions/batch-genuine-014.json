@@ -1,0 +1,268 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau đây câu nào không phải là mệnh đề?",
+      "explanation": "Mệnh đề là một câu khẳng định có tính đúng hoặc sai rõ ràng. Phương án A \"Bạn học lớp nào?\" là câu hỏi (câu nghi vấn), không phải là câu khẳng định nên không phải là mệnh đề. Các câu B, C, D đều là những câu khẳng định (B sai, C sai, D đúng) nên đều là mệnh đề. Do đó đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề phủ định của mệnh đề \"$\\exists x \\in \\mathbb{R}: x^2 + x + 1 < 0$\" là",
+      "explanation": "Phủ định của mệnh đề \"$\\exists x \\in X: P(x)$\" là \"$\\forall x \\in X: \\overline{P(x)}$\". Phủ định của bất đẳng thức $x^2 + x + 1 < 0$ là $x^2 + x + 1 \\ge 0$. Do đó, mệnh đề phủ định là \"$\\forall x \\in \\mathbb{R}: x^2 + x + 1 \\ge 0$\". Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Với $\\mathbb{N}$ là tập hợp các số tự nhiên. Cách viết nào sau đây là đúng?",
+      "explanation": "Xét tính đúng sai toán học của từng cách viết:\n- Phương án A: $6$ là một phần tử thuộc tập hợp số tự nhiên, cách viết đúng phải là $6 \\in \\mathbb{N}$. Do đó $6 \\subset \\mathbb{N}$ là sai.\n- Phương án B: $\\{6\\}$ là một tập hợp chứa phần tử 6, cách viết đúng phải là $\\{6\\} \\subset \\mathbb{N}$. Do đó $\\{6\\} \\in \\mathbb{N}$ là sai.\n- Phương án C: $\\varnothing$ là tập hợp rỗng, là tập con của mọi tập hợp (nghĩa là $\\varnothing \\subset \\mathbb{N}$), chứ không phải là một phần tử của $\\mathbb{N}$. Do đó $\\varnothing \\in \\mathbb{N}$ là sai.\n- Phương án D: Mọi tập hợp đều là tập hợp con của chính nó, do đó $\\mathbb{N} \\subset \\mathbb{N}$ là cách viết đúng.\n\n*Ghi chú đối chiếu đáp án gốc:* Bảng đáp án chính thức của trường ghi C (do lỗi người ra đề nhầm lẫn giữa kí hiệu $\\subset$ và $\\in$ đối với tập rỗng $\\varnothing$). Khẳng định đúng duy nhất về mặt toán học chuẩn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{1; 2; 3\\}$. Tập $A$ có bao nhiêu tập con?",
+      "explanation": "Tập hợp $A$ có $n = 3$ phần tử. Số tập hợp con của một tập hợp có $n$ phần tử là $2^n = 2^3 = 8$. Cụ thể các tập con của $A$ là: $\\varnothing$, $\\{1\\}$, $\\{2\\}$, $\\{3\\}$, $\\{1; 2\\}$, $\\{1; 3\\}$, $\\{2; 3\\}$, $\\{1; 2; 3\\}$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong các bất phương trình sau, bất phương trình nào là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn $x, y$ có dạng tổng quát là $ax + by < c$ (hoặc $\\le, >, \\ge$) với $a$ và $b$ không đồng thời bằng 0.\n- Phương án A chứa 3 ẩn $x, y, z$.\n- Phương án B và C chứa biến bậc hai $x^2$.\n- Phương án D: $2x + 3y < 5$ có đúng hai ẩn $x, y$ với bậc cao nhất là bậc 1, nên là bất phương trình bậc nhất hai ẩn.\nDo đó đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Điểm nào sau đây thuộc miền nghiệm của bất phương trình $2x + y > 3$?",
+      "explanation": "Thay tọa độ từng điểm vào vế trái $f(x, y) = 2x + y$:\n- Với $Q(-1; -3)$: $2(-1) + (-3) = -5 \\not> 3$.\n- Với $M\\left(4; \\dfrac{3}{2}\\right)$: $2(4) + \\dfrac{3}{2} = 8 + 1{,}5 = 9{,}5 > 3$ (thỏa mãn).\n- Với $N(1; -4)$: $2(1) + (-4) = -2 \\not> 3$.\n- Với $P\\left(\\dfrac{3}{2}; -1\\right)$: $2\\left(\\dfrac{3}{2}\\right) + (-1) = 3 - 1 = 2 \\not> 3$.\nDo đó điểm $M\\left(4; \\dfrac{3}{2}\\right)$ thuộc miền nghiệm. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn là hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn $x, y$.\n- Hệ ở phương án A gồm hai bất phương trình $2x + y - 1 > 0$ và $x - y + 4 < 0$, cả hai đều là bất phương trình bậc nhất hai ẩn $x, y$. Do đó A là hệ bất phương trình bậc nhất hai ẩn.\n- Hệ ở phương án B chứa $x^2, y^2$ (bậc hai).\n- Hệ ở phương án C chứa tích $xy$ (bậc hai đối với hai biến).\n- Hệ ở phương án D chứa biến bậc ba $y^3$ và 3 ẩn $x, y, z$.\n\n*Ghi chú đối chiếu đáp án gốc:* Bảng đáp án nguồn ghi C (do lỗi hoán vị phương án khi trộn đề giữa các mã đề 101 và 102; ở mã 102 hệ bậc nhất hai ẩn nằm ở phương án C, khi trộn sang mã 101 được đặt ở phương án A nhưng bảng đáp án của trường chưa kịp đảo). Về mặt toán học chuẩn, đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Điểm nào sau đây không thuộc miền nghiệm của hệ bất phương trình $\\begin{cases} 2x + 3y - 1 > 0 \\\\ 5x - y + 4 < 0 \\end{cases}$?",
+      "explanation": "Kiểm tra tọa độ từng điểm vào hệ:\n- Với $Q(-1; 4)$:\n  $2(-1) + 3(4) - 1 = 9 > 0$ (thỏa mãn),\n  $5(-1) - 4 + 4 = -5 < 0$ (thỏa mãn).\n  Suy ra $Q$ thuộc miền nghiệm.\n- Với $P(-2; 4)$:\n  $2(-2) + 3(4) - 1 = 7 > 0$ (thỏa mãn),\n  $5(-2) - 4 + 4 = -10 < 0$ (thỏa mãn).\n  Suy ra $P$ thuộc miền nghiệm.\n- Với $N(-2; 1)$:\n  $2(-2) + 3(1) - 1 = -4 + 3 - 1 = -2 \\not> 0$ (không thỏa mãn bất phương trình thứ nhất).\n  Do đó $N(-2; 1)$ không thuộc miền nghiệm của hệ.\n- Với $M(-3; 4)$:\n  $2(-3) + 3(4) - 1 = 5 > 0$ (thỏa mãn),\n  $5(-3) - 4 + 4 = -15 < 0$ (thỏa mãn).\n  Suy ra $M$ thuộc miền nghiệm.\nVậy đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ ($0^\\circ < \\alpha < 180^\\circ$), phát biểu nào sau đây đúng?",
+      "explanation": "Theo tính chất giá trị lượng giác của hai góc bù nhau, với mọi góc $\\alpha$ ($0^\\circ < \\alpha < 180^\\circ$) ta có:\n$\\sin(180^\\circ - \\alpha) = \\sin\\alpha$,\n$\\cos(180^\\circ - \\alpha) = -\\cos\\alpha$,\n$\\tan(180^\\circ - \\alpha) = -\\tan\\alpha$ (với $\\alpha \\ne 90^\\circ$),\n$\\cot(180^\\circ - \\alpha) = -\\cot\\alpha$.\nDo đó phát biểu đúng là $\\sin(180^\\circ - \\alpha) = \\sin\\alpha$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ với $90^\\circ < \\alpha < 180^\\circ$, phát biểu nào sau đây đúng?",
+      "explanation": "Với góc tù $\\alpha$ thỏa mãn $90^\\circ < \\alpha < 180^\\circ$ (điểm biểu diễn trên nửa đường tròn đơn vị có hoành độ âm và tung độ dương):\n- $\\sin\\alpha > 0$.\n- $\\cos\\alpha < 0$.\n- $\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} < 0$.\n- $\\cot\\alpha = \\dfrac{\\cos\\alpha}{\\sin\\alpha} < 0$.\nDo đó trong các phát biểu đã cho, phát biểu đúng là $\\cos\\alpha < 0$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong tam giác $ABC$, $R$ là bán kính đường tròn ngoại tiếp tam giác $ABC$, phát biểu nào sau đây đúng?",
+      "explanation": "Theo định lí sin trong tam giác $ABC$, ta có tỉ số giữa độ dài cạnh và sin của góc đối diện bằng hai lần bán kính đường tròn ngoại tiếp:\n$$\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C} = 2R.$$\nDo đó khẳng định $\\dfrac{a}{\\sin A} = 2R$ là đúng. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-011-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-011.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong tam giác $ABC$, gọi $p, S, R, r$ lần lượt là nửa chu vi, diện tích, bán kính đường tròn ngoại tiếp và bán kính đường tròn nội tiếp của tam giác $ABC$, phát biểu nào sau đây đúng?",
+      "explanation": "Các công thức tính diện tích tam giác $ABC$ gồm:\n- $S = \\dfrac{1}{2}ab\\sin C = \\dfrac{1}{2}bc\\sin A = \\dfrac{1}{2}ac\\sin B$. Do đó khẳng định A đúng.\n- Công thức Heron là $S = \\sqrt{p(p - a)(p - b)(p - c)}$ (phương án B thiếu thừa số $p$).\n- Công thức theo bán kính nội tiếp là $S = pr$ (phương án C ghi sai thành $S = pR$).\n- Công thức theo bán kính ngoại tiếp là $S = \\dfrac{abc}{4R}$ (phương án D ghi sai thành $S = \\dfrac{abc}{4r}$).\nVậy phát biểu đúng là $S = \\dfrac{1}{2}ac\\sin B$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-1.png",
+          "sha256": "ec10e9954d33b4ec9dce3456324ecf0ff697603aac5337c8075a7b45896b9d87"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-011-page-5.png",
+          "sha256": "d5384a6d469e1c5e75c8ffe09e81cc0bc7b30077fcdf6db53f10be3f9d7fb21b"
+        }
+      ]
+    }
+  ]
+}

@@ -132,7 +132,7 @@ describe('Classroom and Crockford Code Integration', () => {
     await request(app.getHttpServer())
       .post('/api/v1/classrooms')
       .set('Cookie', unverifiedTeacherCookie)
-      .send({ name: 'Lớp học của GV chưa duyệt', grade: 9 })
+      .send({ name: 'Lớp học của GV chưa duyệt', grade: 10 })
       .expect(403);
   });
 
@@ -140,11 +140,11 @@ describe('Classroom and Crockford Code Integration', () => {
     const res = await request(app.getHttpServer())
       .post('/api/v1/classrooms')
       .set('Cookie', verifiedTeacherCookie)
-      .send({ name: 'Toán 9A1 Ôn Thi Vào 10', grade: 9, academicYear: '2026-2027' })
+      .send({ name: 'Toán 10A1 Ôn thi cuối kỳ', grade: 10, academicYear: '2026-2027' })
       .expect(201);
 
     expect(res.body.classroom).toBeDefined();
-    expect(res.body.classroom.name).toBe('Toán 9A1 Ôn Thi Vào 10');
+    expect(res.body.classroom.name).toBe('Toán 10A1 Ôn thi cuối kỳ');
     expect(res.body.classroom.inviteCode).toBeDefined();
     expect(res.body.classroom.inviteCode).toHaveLength(8);
     // Crockford characters exclude I, L, O, U

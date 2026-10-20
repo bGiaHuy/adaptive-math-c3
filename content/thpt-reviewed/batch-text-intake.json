@@ -1,0 +1,429 @@
+{
+  "batchId": "thpt-text-intake-8-v1",
+  "questions": [
+    {
+      "externalId": "THPT-10-GIUA_HK1-014-M101-PART-I-Q009",
+      "grade": 10,
+      "skillCode": "KNTT-10-C01-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Phát biểu nào sau đây là mệnh đề đúng",
+      "options": [
+        {
+          "key": "A",
+          "content": "Bình phương của một số thực luôn dương."
+        },
+        {
+          "key": "B",
+          "content": "Tổng của hai số tự nhiên lẻ là một số lẻ."
+        },
+        {
+          "key": "C",
+          "content": "Một tam giác có nhiều nhất một góc tù."
+        },
+        {
+          "key": "D",
+          "content": "Tích của hai số tự nhiên lẻ là một số chẵn."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "Một tam giác không thể có hai góc tù vì khi đó tổng hai góc lớn hơn 180°. A sai tại số 0; tổng hai số lẻ là chẵn, tích hai số lẻ là lẻ.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-GIUA_HK1-014",
+        "originalExamCode": "101",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "26537e801643eecbd25323823ec10fa86fa60f5a557a9bff3107a018be3077d8",
+        "sourcePageUrl": "https://toanmath.com/2025/11/de-giua-hoc-ky-1-toan-10-nam-2025-2026-truong-thpt-ngo-gia-tu-1-dak-lak.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-001\\evidence\\THPT-10-GIUA_HK1-014-PART-I-Q09.png"
+      }
+    },
+    {
+      "externalId": "THPT-10-CUOI_HK1-045-M0101-PART-I-Q007",
+      "grade": 10,
+      "skillCode": "KNTT-10-C05-T03",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Số đặc trưng nào sau đây đo mức độ phân tán của mẫu số liệu?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Trung vị."
+        },
+        {
+          "key": "B",
+          "content": "Khoảng biến thiên."
+        },
+        {
+          "key": "C",
+          "content": "Mốt."
+        },
+        {
+          "key": "D",
+          "content": "Số trung bình."
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "Khoảng biến thiên bằng hiệu giá trị lớn nhất và nhỏ nhất, đo độ phân tán. Trung vị, mốt và trung bình đo xu thế trung tâm.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-10-CUOI_HK1-045",
+        "originalExamCode": "0101",
+        "part": "I",
+        "questionNumber": "7",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          17
+        ],
+        "pdfSha256": "9070049976af65155f8adf76ad4ddcf5e750412f9ad73bf65e78284bb5255817",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-10-nam-2025-2026-truong-thpt-huong-hoa-quang-tri.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-003\\evidence\\THPT-10-CUOI_HK1-045-PART-I-Q07.png"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-129-M1101-PART-I-Q008",
+      "grade": 11,
+      "skillCode": "KNTT-11-C04-T05",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Mệnh đề nào sau đây sai?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Hình biểu diễn của hình thoi là hình bình hành."
+        },
+        {
+          "key": "B",
+          "content": "Hình biểu diễn của hình chữ nhật là hình bình hành."
+        },
+        {
+          "key": "C",
+          "content": "Hình biểu diễn của hình vuông là hình bình hành."
+        },
+        {
+          "key": "D",
+          "content": "Hình biểu diễn của hình thang là hình bình hành."
+        }
+      ],
+      "correctOption": "D",
+      "explanation": "Phép chiếu song song giữ tính song song. Hình thang nói chung chỉ có một cặp cạnh đối song song nên hình biểu diễn không nhất thiết là hình bình hành.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-129",
+        "originalExamCode": "1101",
+        "part": "I",
+        "questionNumber": "8",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          9
+        ],
+        "pdfSha256": "135d99aa9a4325a51001fac98c763c332201bb75dc66ec095c516d7932991e0e",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ky-1-toan-11-nam-2025-2026-truong-thpt-nguyen-trai-da-nang.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-007\\evidence\\THPT-11-CUOI_HK1-129-PART-I-Q08.png"
+      }
+    },
+    {
+      "externalId": "THPT-11-CUOI_HK1-141-M1101-PART-I-Q001",
+      "grade": 11,
+      "skillCode": "KNTT-11-C04-T04",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong các mệnh đề sau. Mệnh đề nào sai?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Hai mặt phẳng song song thì không có điểm chung."
+        },
+        {
+          "key": "B",
+          "content": "Hai mặt phẳng cùng song song với một mặt phẳng thứ ba thì chúng song song với nhau."
+        },
+        {
+          "key": "C",
+          "content": "Hai mặt phẳng song song với nhau thì mọi đường thẳng nằm trong mặt phẳng này đều song song với mặt phẳng kia."
+        },
+        {
+          "key": "D",
+          "content": "Một mặt phẳng cắt hai mặt phẳng song song cho trước theo hai giao tuyến thì hai giao tuyến song song với nhau."
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "B thiếu điều kiện hai mặt phẳng phân biệt: hai mặt phẳng cùng song song với mặt phẳng thứ ba có thể trùng nhau. Các phát biểu còn lại là tính chất của hai mặt phẳng song song.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-11-CUOI_HK1-141",
+        "originalExamCode": "1101",
+        "part": "I",
+        "questionNumber": "1",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          6
+        ],
+        "pdfSha256": "c70d11e513a66274ce7da1dd923bbdbd92880f18fc21a5158133c081107759e9",
+        "sourcePageUrl": "https://toanmath.com/2026/01/de-cuoi-ki-1-toan-11-nam-2025-2026-truong-thpt-nguyen-thi-minh-khai-ha-tinh.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-008\\evidence\\THPT-11-CUOI_HK1-141-PART-I-Q01.png"
+      }
+    },
+    {
+      "externalId": "THPT-11-GIUA_HK2-164-M1001-PART-I-Q011",
+      "grade": 11,
+      "skillCode": "KNTT-11-C07-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Chọn khẳng định đúng trong các khẳng định sau.",
+      "options": [
+        {
+          "key": "A",
+          "content": "Trong không gian hai đường thẳng vuông góc với nhau thì cắt nhau."
+        },
+        {
+          "key": "B",
+          "content": "Trong không gian hai đường thẳng không có điểm chung thì song song với nhau."
+        },
+        {
+          "key": "C",
+          "content": "Trong không gian hai đường thẳng vuông góc với nhau có thể cắt nhau hoặc chéo nhau."
+        },
+        {
+          "key": "D",
+          "content": "Trong không gian hai đường thẳng vuông góc với nhau thì chéo nhau."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "Trong không gian, góc giữa hai đường thẳng được định nghĩa qua các đường song song đi qua cùng một điểm. Hai đường vuông góc có thể cắt nhau hoặc chéo nhau.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-11-GIUA_HK2-164",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "11",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "96848c97a4b167c6b7decc1bb0d35d31b107595536c22bd9b2558f18744cd20e",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-hoc-ky-2-toan-11-nam-2025-2026-truong-thpt-sao-nam-da-nang.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-009\\evidence\\THPT-11-GIUA_HK2-164-PART-I-Q11.png"
+      }
+    },
+    {
+      "externalId": "THPT-11-GIUA_HK2-173-M1001-PART-I-Q002",
+      "grade": 11,
+      "skillCode": "KNTT-11-C07-T01",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Khẳng định nào dưới đây đúng khi nói về góc giữa hai đường thẳng trong không gian?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Góc giữa hai đường thẳng a và b trong không gian là góc giữa đường thẳng a và đường thẳng 'b cắt a ."
+        },
+        {
+          "key": "B",
+          "content": "Góc giữa hai đường thẳng a và b trong không gian là góc giữa hai đường thẳng ' a và 'b cùng đi qua một điểm."
+        },
+        {
+          "key": "C",
+          "content": "Góc giữa hai đường thẳng a và b trong không gian là góc giữa hai đường thẳng ' a và 'b cùng đi qua một điểm và tương ứng song song với a và b ."
+        },
+        {
+          "key": "D",
+          "content": "Góc giữa hai đường thẳng a và b trong không gian là góc giữa hai đường thẳng ' a và 'b cùng đi qua một điểm và tương ứng vuông góc với a và b ."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "Chọn hai đường cùng đi qua một điểm và tương ứng song song với hai đường đã cho. Góc giữa chúng xác định góc giữa hai đường ban đầu.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-11-GIUA_HK2-173",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "2",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "b8d94d8ee89d6e0fe1cd9a2cf7b96a194cff80b6c1bba0ea9b0c680a60a5a8c2",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-ki-2-toan-11-nam-2025-2026-truong-thpt-nui-thanh-da-nang.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-009\\evidence\\THPT-11-GIUA_HK2-173-PART-I-Q02.png"
+      }
+    },
+    {
+      "externalId": "THPT-11-GIUA_HK2-173-M1001-PART-I-Q005",
+      "grade": 11,
+      "skillCode": "KNTT-11-C07-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Khẳng định nào dưới đây sai?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Nếu đường thẳng d vuông góc với mặt phẳng ( ) α thì các đường thẳng song song với d cũng vuông góc với ( ) α ."
+        },
+        {
+          "key": "B",
+          "content": "Hai đường thẳng cùng vuông góc với mặt phẳng ( ) α thì song song với nhau."
+        },
+        {
+          "key": "C",
+          "content": "Hai đường thẳng phân biệt cùng vuông góc với mặt phẳng ( ) α thì song song với nhau."
+        },
+        {
+          "key": "D",
+          "content": "Hai mặt phẳng phân biệt cùng vuông góc với một đường thẳng thì song song với nhau."
+        }
+      ],
+      "correctOption": "B",
+      "explanation": "B thiếu điều kiện hai đường phân biệt: một đường có thể được chọn hai lần, khi đó không phải hai đường song song. C thêm điều kiện phân biệt nên đúng; A và D là các tính chất đúng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-11-GIUA_HK2-173",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "5",
+        "sourcePages": [
+          1
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "b8d94d8ee89d6e0fe1cd9a2cf7b96a194cff80b6c1bba0ea9b0c680a60a5a8c2",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-ki-2-toan-11-nam-2025-2026-truong-thpt-nui-thanh-da-nang.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-009\\evidence\\THPT-11-GIUA_HK2-173-PART-I-Q05.png"
+      }
+    },
+    {
+      "externalId": "THPT-11-GIUA_HK2-173-M1001-PART-I-Q009",
+      "grade": 11,
+      "skillCode": "KNTT-11-C07-T02",
+      "questionType": "SINGLE_CHOICE",
+      "content": "Trong không gian, cho đường thẳng d và mặt phẳng ( ) α . Khẳng định nào sau đây đúng?",
+      "options": [
+        {
+          "key": "A",
+          "content": "d vuông góc với ( ) α nếu d vuông góc với hai đường thẳng bất kỳ nằm trong ( ) α ."
+        },
+        {
+          "key": "B",
+          "content": "d vuông góc với ( ) α nếu d vuông góc với hai đường thẳng song song nằm trong ( ) α ."
+        },
+        {
+          "key": "C",
+          "content": "d vuông góc với ( ) α nếu d vuông góc với hai đường thẳng cắt nhau nằm trong ( ) α ."
+        },
+        {
+          "key": "D",
+          "content": "d vuông góc với ( ) α nếu d vuông góc với một đường thẳng nằm trong ( ) α ."
+        }
+      ],
+      "correctOption": "C",
+      "explanation": "Một đường thẳng vuông góc với hai đường cắt nhau trong mặt phẳng thì vuông góc với mặt phẳng đó. Hai đường song song hoặc một đường đơn lẻ không đủ xác định hai phương của mặt phẳng.",
+      "difficulty": "MEDIUM",
+      "cognitiveLevel": "UNDERSTANDING",
+      "source": {
+        "paperId": "THPT-11-GIUA_HK2-173",
+        "originalExamCode": "1001",
+        "part": "I",
+        "questionNumber": "9",
+        "sourcePages": [
+          2
+        ],
+        "answerPages": [
+          7
+        ],
+        "pdfSha256": "b8d94d8ee89d6e0fe1cd9a2cf7b96a194cff80b6c1bba0ea9b0c680a60a5a8c2",
+        "sourcePageUrl": "https://toanmath.com/2026/04/de-giua-ki-2-toan-11-nam-2025-2026-truong-thpt-nui-thanh-da-nang.html",
+        "immutableImages": [],
+        "reviewStatus": "SOURCE_KEY_AND_SOLUTION_CHECKED",
+        "reviewMethod": "CODEX_SOURCE_IMAGE_COMPARISON_AND_INDEPENDENT_SOLUTION",
+        "peerReviewed": false,
+        "classification": {
+          "status": "PROVISIONAL",
+          "method": "CODEX_CURRICULUM_MAPPING"
+        },
+        "importBatchId": "thpt-text-intake-8-v1",
+        "transcriptionEvidence": "outputs\\thpt-extracted-batches\\batch-009\\evidence\\THPT-11-GIUA_HK2-173-PART-I-Q09.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "batchId": "batch-genuine-065",
+  "items": [
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q001",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q001",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\sin x = \\sin\\alpha$ là",
+      "explanation": "Phương trình lượng giác cơ bản $\\sin x = \\sin\\alpha$ có họ nghiệm là $\\left[\\begin{array}{l} x = \\alpha + k2\\pi \\\\ x = \\pi - \\alpha + k2\\pi \\end{array}\\right. (k \\in \\mathbb{Z})$.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p1.png",
+          "sha256": "e3a2c4ce4e135961a5cf49f83a983830dd9adb5c6a333c1b83e31d05baebd38c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q002",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q002",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây ĐÚNG?",
+      "explanation": "Theo công thức nhân đôi của hàm cosin: $\\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha = 2\\cos^2\\alpha - 1 = 1 - 2\\sin^2\\alpha$.\nDo đó khẳng định đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p1.png",
+          "sha256": "e3a2c4ce4e135961a5cf49f83a983830dd9adb5c6a333c1b83e31d05baebd38c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q003",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q003",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với $k$ là số nguyên dương, mệnh đề nào sau đây ĐÚNG?",
+      "explanation": "Theo định lí về giới hạn cơ bản của dãy số: với mọi số nguyên dương $k$, ta có $\\lim \\dfrac{1}{n^k} = 0$.\nDo đó mệnh đề đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p1.png",
+          "sha256": "e3a2c4ce4e135961a5cf49f83a983830dd9adb5c6a333c1b83e31d05baebd38c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q004",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q004",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây SAI?",
+      "explanation": "Nếu $\\lim u_n = +\\infty$ thì $\\lim \\dfrac{1}{u_n} = 0$. Khẳng định D ghi $\\lim \\dfrac{1}{u_n} = -\\infty$ là sai.\nDo đó phương án cần chọn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p1.png",
+          "sha256": "e3a2c4ce4e135961a5cf49f83a983830dd9adb5c6a333c1b83e31d05baebd38c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q005",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q005",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Góc có số đo $\\dfrac{2\\pi}{5}$ đổi sang độ là:",
+      "explanation": "Đổi từ rađian sang độ: $\\alpha = \\dfrac{2\\pi}{5} \\cdot \\dfrac{180^\\circ}{\\pi} = \\dfrac{2 \\cdot 180^\\circ}{5} = 72^\\circ$.\nDo đó phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p1.png",
+          "sha256": "e3a2c4ce4e135961a5cf49f83a983830dd9adb5c6a333c1b83e31d05baebd38c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q006",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q006",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\sin x = \\dfrac{\\sqrt{3}}{2}$ là",
+      "explanation": "Ta có $\\sin x = \\dfrac{\\sqrt{3}}{2} = \\sin\\dfrac{\\pi}{3} \\iff \\left[\\begin{array}{l} x = \\dfrac{\\pi}{3} + k2\\pi \\\\ x = \\pi - \\dfrac{\\pi}{3} + k2\\pi = \\dfrac{2\\pi}{3} + k2\\pi \\end{array}\\right. (k \\in \\mathbb{Z})$.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p1.png",
+          "sha256": "e3a2c4ce4e135961a5cf49f83a983830dd9adb5c6a333c1b83e31d05baebd38c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q007",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q007",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giả sử $(u_n)$ là một cấp số nhân có công bội $q \\ne 1$. Đặt $S_n = u_1 + u_2 + \\dots + u_n$, khi đó",
+      "explanation": "Công thức tính tổng $n$ số hạng đầu tiên của cấp số nhân có công bội $q \\ne 1$ là $S_n = \\dfrac{u_1(1 - q^n)}{1 - q}$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p1.png",
+          "sha256": "e3a2c4ce4e135961a5cf49f83a983830dd9adb5c6a333c1b83e31d05baebd38c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q008",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q008",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\tan x = 0$ là",
+      "explanation": "Ta có $\\tan x = 0 \\iff x = k\\pi$ ($k \\in \\mathbb{Z}$).\nDo đó phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p2.png",
+          "sha256": "fe80ea2e8f60eb82f4af57d0f48ad92dbfb21c5d4ee052ca49d91d52dff57da9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q009",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q009",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\cot x$ là:",
+      "explanation": "Hàm số $y = \\cot x = \\dfrac{\\cos x}{\\sin x}$ xác định khi và chỉ khi $\\sin x \\ne 0 \\iff x \\ne k\\pi$ ($k \\in \\mathbb{Z}$).\nVậy tập xác định là $D = \\mathbb{R} \\setminus \\{k\\pi, k \\in \\mathbb{Z}\\}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p2.png",
+          "sha256": "fe80ea2e8f60eb82f4af57d0f48ad92dbfb21c5d4ee052ca49d91d52dff57da9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q010",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q010",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $L = \\lim \\sqrt{4 + \\dfrac{an^2 - 1}{n^2 + 4} - \\dfrac{1}{3n}}$. Có bao nhiêu giá trị nguyên của $a$ thuộc $(0; 20)$ để $L$ là một số nguyên?",
+      "explanation": "Ta có $\\lim \\dfrac{an^2 - 1}{n^2 + 4} = a$ và $\\lim \\dfrac{1}{3n} = 0$.\nDo đó $L = \\lim \\sqrt{4 + \\dfrac{an^2 - 1}{n^2 + 4} - \\dfrac{1}{3n}} = \\sqrt{4 + a}$.\nĐể $L$ là một số nguyên thì $4 + a$ phải là số chính phương.\nVì $a \\in (0; 20)$ và $a \\in \\mathbb{Z}$ nên $4 < 4 + a < 24$.\nCác số chính phương nằm trong khoảng $(4; 24)$ là 9 và 16.\n- Với $4 + a = 9 \\iff a = 5$.\n- Với $4 + a = 16 \\iff a = 12$.\nVậy có 2 giá trị nguyên của $a$ thỏa mãn. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p2.png",
+          "sha256": "fe80ea2e8f60eb82f4af57d0f48ad92dbfb21c5d4ee052ca49d91d52dff57da9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q011",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q011",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Bạn Hoàng chơi trò chơi tô màu trên một miếng bìa hình vuông có cạnh bằng 1. Hoàng tô màu theo các hình vuông nhỏ được đánh số lần lượt là 1, 2, 3, 4, … Hình vuông đầu tiên có cạnh bằng một nửa cạnh miếng bìa, cạnh hình vuông kế tiếp bằng một nửa cạnh hình vuông trước đó. Giả sử quy trình tô màu (như hình vẽ) của Hoàng diễn ra đến hình vuông thứ 20. Khi đó tổng diện tích mà Hoàng đã tô màu là bao nhiêu?\n\n![Quy trình tô màu hình vuông](/math-import-assets/THPT-11-GIUA_HK1-112-M1131-PART-I-Q011-fig1.png)",
+      "explanation": "Cạnh của miếng bìa ban đầu là 1.\n- Hình vuông 1 có cạnh $a_1 = \\dfrac{1}{2}$, diện tích $s_1 = a_1^2 = \\dfrac{1}{4}$.\n- Hình vuông 2 có cạnh $a_2 = \\dfrac{1}{4}$, diện tích $s_2 = a_2^2 = \\dfrac{1}{16} = \\left(\\dfrac{1}{4}\\right)^2$.\n- Tổng quát, diện tích hình vuông thứ $k$ là $s_k = \\left(\\dfrac{1}{4}\\right)^k$.\nDiện tích các hình vuông được tô màu lập thành một cấp số nhân có số hạng đầu $u_1 = \\dfrac{1}{4}$ và công bội $q = \\dfrac{1}{4}$.\nTổng diện tích tô màu sau 20 hình vuông là:\n$$S = \\sum_{k=1}^{20} s_k = u_1 \\dfrac{1 - q^{20}}{1 - q} = \\dfrac{1}{4} \\cdot \\dfrac{1 - \\left(\\dfrac{1}{4}\\right)^{20}}{1 - \\dfrac{1}{4}} = \\dfrac{1}{4} \\cdot \\dfrac{4}{3} \\left[1 - \\left(\\dfrac{1}{4}\\right)^{20}\\right] = \\dfrac{1}{3}\\left[1 - \\left(\\dfrac{1}{4}\\right)^{20}\\right].$$\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p2.png",
+          "sha256": "fe80ea2e8f60eb82f4af57d0f48ad92dbfb21c5d4ee052ca49d91d52dff57da9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q012",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q012",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$ với $u_1 = -2$ và $q = -5$. Mệnh đề nào sau đây ĐÚNG?",
+      "explanation": "Ta có $u_2 = u_1 \\cdot q = (-2) \\cdot (-5) = 10$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p2.png",
+          "sha256": "fe80ea2e8f60eb82f4af57d0f48ad92dbfb21c5d4ee052ca49d91d52dff57da9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q013",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q013",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ có $d = -2$ và $S_8 = 72$. Tìm số hạng đầu tiên $u_1$.",
+      "explanation": "Ta có $S_8 = \\dfrac{8}{2} [2u_1 + 7d] = 4 [2u_1 + 7(-2)] = 4(2u_1 - 14) = 8u_1 - 56$.\nTheo bài ra $S_8 = 72 \\iff 8u_1 - 56 = 72 \\iff 8u_1 = 128 \\iff u_1 = 16$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p2.png",
+          "sha256": "fe80ea2e8f60eb82f4af57d0f48ad92dbfb21c5d4ee052ca49d91d52dff57da9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q014",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q014",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $c$ là hằng số, $k$ là số nguyên dương khác không. Mệnh đề nào sau đây SAI?",
+      "explanation": "Giới hạn $\\lim_{x \\to -\\infty} x^k$ phụ thuộc vào tính chẵn lẻ của $k$:\n- Nếu $k$ là số nguyên dương chẵn thì $\\lim_{x \\to -\\infty} x^k = +\\infty$.\n- Nếu $k$ là số nguyên dương lẻ thì $\\lim_{x \\to -\\infty} x^k = -\\infty$.\nDo đó khẳng định $\\lim_{x \\to -\\infty} x^k = -\\infty$ cho mọi $k$ nguyên dương khác 0 là sai.\nPhương án cần chọn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p2.png",
+          "sha256": "fe80ea2e8f60eb82f4af57d0f48ad92dbfb21c5d4ee052ca49d91d52dff57da9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q015",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q015",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ có $u_1 = 3$ và $d = -2$. Mệnh đề nào sau đây đúng?",
+      "explanation": "Ta có $u_2 = u_1 + d = 3 + (-2) = 1$.\nDo đó mệnh đề đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q016",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q016",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây SAI?",
+      "explanation": "Công thức biến đổi tổng thành tích đúng là $\\sin a - \\sin b = 2\\cos\\dfrac{a + b}{2}\\sin\\dfrac{a - b}{2}$.\nKhẳng định trong phương án A bị đảo vị trí các góc cộng và trừ nên là khẳng định sai.\nDo đó phương án cần chọn là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q017",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q017",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xét tính bị chặn của dãy số sau: $u_n = \\dfrac{n + 1}{n + 2}$",
+      "explanation": "Ta có $u_n = \\dfrac{n + 1}{n + 2} = 1 - \\dfrac{1}{n + 2}$.\nVới mọi $n \\in \\mathbb{N}^*$ ($n \\ge 1$):\n$0 < \\dfrac{1}{n + 2} \\le \\dfrac{1}{3} \\implies \\dfrac{2}{3} \\le u_n < 1$.\nDãy số vừa bị chặn dưới bởi $\\dfrac{2}{3}$, vừa bị chặn trên bởi 1, nên dãy số bị chặn.\nDo đó phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q018",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q018",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $-\\dfrac{\\pi}{2} < \\alpha < 0$. Khẳng định nào sau đây ĐÚNG?",
+      "explanation": "Với $-\\dfrac{\\pi}{2} < \\alpha < 0$, điểm biểu diễn góc lượng giác $\\alpha$ thuộc góc phần tư thứ IV. Ở góc phần tư thứ IV:\n$\\sin\\alpha < 0$ và $\\cos\\alpha > 0$.\nDo đó khẳng định đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q019",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q019",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một cung tròn có độ dài bằng 4 lần bán kính. Số đo radian của cung tròn đó là:",
+      "explanation": "Công thức tính độ dài cung tròn là $l = R\\alpha \\iff \\alpha = \\dfrac{l}{R}$.\nTheo đề bài $l = 4R$, do đó $\\alpha = \\dfrac{4R}{R} = 4$ rad.\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q020",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q020",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các mệnh đề sau, mệnh đề nào ĐÚNG?",
+      "explanation": "Theo tính chất của hai góc hơn kém nhau $\\pi$:\n$\\sin(\\pi + \\alpha) = -\\sin\\alpha$, $\\cos(\\pi + \\alpha) = -\\cos\\alpha$, $\\tan(\\pi + \\alpha) = \\tan\\alpha$, $\\cot(\\pi + \\alpha) = \\cot\\alpha$.\nDo đó mệnh đề đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q021",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q021",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$, biết $u_1 = 1, u_2 = 8$. Tính công sai $d$ của cấp số cộng đó.",
+      "explanation": "Công sai của cấp số cộng là $d = u_2 - u_1 = 8 - 1 = 7$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q022",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q022",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$, biết $u_n = \\dfrac{2n^2 - 1}{n^2 + 3}$. Tìm số hạng $u_5$.",
+      "explanation": "Thay $n = 5$ vào công thức số hạng tổng quát:\n$u_5 = \\dfrac{2 \\cdot 5^2 - 1}{5^2 + 3} = \\dfrac{2 \\cdot 25 - 1}{25 + 3} = \\dfrac{49}{28} = \\dfrac{7}{4}$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q023",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q023",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ thỏa mãn $\\cos\\alpha = -\\dfrac{1}{3}$ và $\\pi < \\alpha < \\dfrac{3\\pi}{2}$. Tính $\\sin\\alpha$.",
+      "explanation": "Áp dụng hệ thức $\\sin^2\\alpha + \\cos^2\\alpha = 1$, ta có:\n$\\sin^2\\alpha = 1 - \\cos^2\\alpha = 1 - \\left(-\\dfrac{1}{3}\\right)^2 = 1 - \\dfrac{1}{9} = \\dfrac{8}{9}$.\nVì $\\pi < \\alpha < \\dfrac{3\\pi}{2}$ (góc phần tư thứ III) nên $\\sin\\alpha < 0$. Suy ra:\n$\\sin\\alpha = -\\sqrt{\\dfrac{8}{9}} = -\\dfrac{2\\sqrt{2}}{3}$.\nDo đó phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p3.png",
+          "sha256": "e4b9792f023ab84069a8d303599477281dfaaad7923fb49b7a1f6202c878c0ad"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q024",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-I-Q024",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nhiệt độ ngoài trời ở một thành phố A vào các thời điểm khác nhau trong ngày có thể được mô phỏng bởi công thức $h(t) = 15 - 3\\sin\\left(\\dfrac{\\pi}{12}(t - 7)\\right)$ với $h$ tính bằng $^\\circ\\text{C}$ và $t$ là thời gian trong ngày tính bằng giờ ($0 \\le t \\le 24$). Nhiệt độ thấp nhất trong ngày là bao nhiêu độ C và vào lúc mấy giờ?",
+      "explanation": "Ta có $-1 \\le \\sin\\left(\\dfrac{\\pi}{12}(t - 7)\\right) \\le 1$.\nDo đó $h(t) = 15 - 3\\sin\\left(\\dfrac{\\pi}{12}(t - 7)\\right) \\ge 15 - 3(1) = 12^\\circ\\text{C}$.\nNhiệt độ thấp nhất bằng $12^\\circ\\text{C}$ khi:\n$$\\sin\\left(\\dfrac{\\pi}{12}(t - 7)\\right) = 1 \\iff \\dfrac{\\pi}{12}(t - 7) = \\dfrac{\\pi}{2} + k2\\pi \\iff t - 7 = 6 + 24k \\iff t = 13 + 24k.$$\nVì $0 \\le t \\le 24$ nên chọn $k = 0 \\implies t = 13$ giờ.\nVậy nhiệt độ thấp nhất trong ngày là $12^\\circ\\text{C}$ vào lúc 13 giờ. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p4.png",
+          "sha256": "6c688d7b623d9e97dc376540859423bf09d9a455731e6c1d6724c256017382eb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q001",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q001",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương trình lượng giác $\\sin\\left(3x + \\dfrac{\\pi}{3}\\right) = -\\dfrac{\\sqrt{3}}{2}$. Các mệnh đề sau ĐÚNG hay SAI?",
+      "explanation": "Giải phương trình:\n$$\\sin\\left(3x + \\dfrac{\\pi}{3}\\right) = -\\dfrac{\\sqrt{3}}{2} = \\sin\\left(-\\dfrac{\\pi}{3}\\right)$$\n$$\\iff \\left[\\begin{array}{l} 3x + \\dfrac{\\pi}{3} = -\\dfrac{\\pi}{3} + k2\\pi \\\\ 3x + \\dfrac{\\pi}{3} = \\pi - \\left(-\\dfrac{\\pi}{3}\\right) + k2\\pi = \\dfrac{4\\pi}{3} + k2\\pi \\end{array}\\right. \\iff \\left[\\begin{array}{l} x = -\\dfrac{2\\pi}{9} + \\dfrac{k2\\pi}{3} \\\\ x = \\dfrac{\\pi}{3} + \\dfrac{k2\\pi}{3} \\end{array}\\right. (k \\in \\mathbb{Z}).$$\n- Mệnh đề a: Trong đề gốc công thức nghiệm ghi thiếu hoặc sai hệ số chu kỳ nên đáp án chính thức chấm SAI.\n- Mệnh đề b: Các nghiệm âm lớn nhất từ 2 họ:\n  + Với $x = -\\dfrac{2\\pi}{9} + \\dfrac{k2\\pi}{3}$: $k = 0 \\implies x = -\\dfrac{2\\pi}{9}$.\n  + Với $x = \\dfrac{\\pi}{3} + \\dfrac{k2\\pi}{3}$: $k = -1 \\implies x = -\\dfrac{\\pi}{3} = -\\dfrac{3\\pi}{9}$.\n  So sánh: $-\\dfrac{2\\pi}{9} > -\\dfrac{3\\pi}{9}$, do đó nghiệm âm lớn nhất là $-\\dfrac{2\\pi}{9}$. Mệnh đề b ĐÚNG.\n- Mệnh đề c: Xét khoảng $\\left(0; \\dfrac{2\\pi}{3}\\right)$ (hay $\\left(0; \\dfrac{6\\pi}{9}\\right)$):\n  + Họ 1: $k = 1 \\implies x = \\dfrac{4\\pi}{9} \\in \\left(0; \\dfrac{6\\pi}{9}\\right)$.\n  + Họ 2: $k = 0 \\implies x = \\dfrac{\\pi}{3} = \\dfrac{3\\pi}{9} \\in \\left(0; \\dfrac{6\\pi}{9}\\right)$.\n  Tổng các nghiệm: $\\dfrac{4\\pi}{9} + \\dfrac{3\\pi}{9} = \\dfrac{7\\pi}{9}$. Mệnh đề c ĐÚNG.\n- Mệnh đề d: Trong khoảng $\\left(0; \\dfrac{2\\pi}{3}\\right)$ chỉ có đúng 2 nghiệm là $\\dfrac{\\pi}{3}$ và $\\dfrac{4\\pi}{9}$, mệnh đề ghi 3 nghiệm là SAI.\nKết luận: a Sai, b Đúng, c Đúng, d Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p4.png",
+          "sha256": "6c688d7b623d9e97dc376540859423bf09d9a455731e6c1d6724c256017382eb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q002",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q002",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trên một cái bàn có nhiều ô vuông, người ta đặt 7 hạt thóc vào ô đầu tiên, sau đó đặt tiếp vào ô thứ hai số hạt thóc nhiều hơn ô thứ nhất là 5, tiếp tục đặt vào ô thứ ba số hạt thóc nhiều hơn ô thứ hai là 5,… và cứ thế tiếp tục đến ô thứ $n$. Biết rằng đặt hết số ô trên bàn người ta phải sử dụng 25450 hạt thóc. Các mệnh đề sau ĐÚNG hay SAI?",
+      "explanation": "Số hạt thóc trên mỗi ô lập thành một cấp số cộng $(u_n)$ có số hạng đầu $u_1 = 7$ và công sai $d = 5$.\n- Mệnh đề a: Số hạt thóc ở ô thứ 10 là $u_{10} = u_1 + 9d = 7 + 9 \\cdot 5 = 52$. Mệnh đề a ĐÚNG.\n- Mệnh đề b: Dãy số là cấp số cộng, không phải cấp số nhân. Mệnh đề b SAI.\n- Mệnh đề c: Tổng số hạt thóc của 20 ô đầu là $S_{20} = \\dfrac{20}{2} [2u_1 + 19d] = 10 [2 \\cdot 7 + 19 \\cdot 5] = 10 [14 + 95] = 1090 \\ne 1009$. Mệnh đề c SAI.\n- Mệnh đề d: Tổng số hạt thóc trên toàn bộ bàn là $S_n = \\dfrac{n}{2} [2 \\cdot 7 + (n - 1)5] = 25450 \\iff n(5n + 9) = 50900 \\iff 5n^2 + 9n - 50900 = 0$.\n  Phương trình có nghiệm dương duy nhất $n = 100$. Vậy bàn có 100 ô vuông. Mệnh đề d ĐÚNG.\nKết luận: a Đúng, b Sai, c Sai, d Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p4.png",
+          "sha256": "6c688d7b623d9e97dc376540859423bf09d9a455731e6c1d6724c256017382eb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q003",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q003",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Các mệnh đề sau ĐÚNG hay SAI?",
+      "explanation": "- Mệnh đề a: $\\lim \\dfrac{2n^2 - 3n + 5}{n^2 - 2n - 7} = \\lim \\dfrac{2 - \\dfrac{3}{n} + \\dfrac{5}{n^2}}{1 - \\dfrac{2}{n} - \\dfrac{7}{n^2}} = 2$. Mệnh đề a ĐÚNG.\n- Mệnh đề b: Đặt $L = \\lim u_n$. Lấy giới hạn hai vế của hệ thức truy hồi ta có $L = \\dfrac{1}{2 - L} \\iff L(2 - L) = 1 \\iff L^2 - 2L + 1 = 0 \\iff (L - 1)^2 = 0 \\iff L = 1 \\ne \\dfrac{1}{2}$. Mệnh đề b SAI.\n- Mệnh đề c: Ta có $\\lim_{x \\to 0} \\dfrac{\\sqrt[3]{x + 1} - 1}{x} = \\lim_{x \\to 0} \\dfrac{x}{x(\\sqrt[3]{(x+1)^2} + \\sqrt[3]{x+1} + 1)} = \\dfrac{1}{1 + 1 + 1} = \\dfrac{1}{3}$. Do đó $m = 1, n = 3 \\implies n - m = 3 - 1 = 2$. Mệnh đề c ĐÚNG.\n- Mệnh đề d: Tử số $1 + 2 + \\dots + 2^n = \\dfrac{2^{n+1} - 1}{2 - 1} = 2^{n+1} - 1$. Giới hạn $\\lim \\dfrac{2^{n+1} - 1}{5 \\cdot 2^{n+1} + 1} = \\dfrac{1}{5}$. Phân số tối giản có $a = 1, b = 5 \\implies b^2 - a^2 = 25 - 1 = 24 \\ne 99$. Mệnh đề d SAI.\nKết luận: a Đúng, b Sai, c Đúng, d Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p4.png",
+          "sha256": "6c688d7b623d9e97dc376540859423bf09d9a455731e6c1d6724c256017382eb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q004",
+      "questionId": "THPT-11-GIUA_HK1-112-M1131-PART-II-Q004",
+      "paperId": "THPT-11-GIUA_HK1-112",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$, biết $\\begin{cases} u_1 + u_5 = 51 \\\\ u_2 + u_6 = 102 \\end{cases}$. Các mệnh đề sau ĐÚNG hay SAI?",
+      "explanation": "- Mệnh đề a: Biểu diễn các số hạng theo $u_1$ và $q$: $u_5 = u_1 q^4, u_2 = u_1 q, u_6 = u_1 q^5$. Hệ phương trình trở thành $\\begin{cases} u_1 + u_1 q^4 = 51 \\\\ u_1 q + u_1 q^5 = 102 \\end{cases}$. Mệnh đề a ĐÚNG.\n- Giải hệ phương trình: lấy phương trình dưới chia phương trình trên ta được $q = \\dfrac{102}{51} = 2$. Thay vào phương trình đầu: $u_1(1 + 2^4) = 51 \\iff 17u_1 = 51 \\iff u_1 = 3$.\n- Mệnh đề b: Tổng 8 số hạng đầu là $S_8 = u_1 \\dfrac{1 - q^8}{1 - q} = 3 \\cdot \\dfrac{1 - 2^8}{1 - 2} = 3 \\cdot 255 = 765$. Mệnh đề b ĐÚNG.\n- Mệnh đề c: Ta có $u_n = u_1 q^{n-1} = 3 \\cdot 2^{n-1}$. Cho $3 \\cdot 2^{n-1} = 12288 \\iff 2^{n-1} = 4096 = 2^{12} \\iff n - 1 = 12 \\iff n = 13$. Vậy 12288 là số hạng thứ 13, không phải thứ 12. Mệnh đề c SAI.\n- Mệnh đề d: $u_4 = u_1 q^3 = 3 \\cdot 2^3 = 3 \\cdot 8 = 24 \\ne 48$. Mệnh đề d SAI.\nKết luận: a Đúng, b Đúng, c Sai, d Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-112-p4.png",
+          "sha256": "6c688d7b623d9e97dc376540859423bf09d9a455731e6c1d6724c256017382eb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q001",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q001",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xác định số đo của góc lượng giác $(Ou, Ov)$ được biểu diễn trong hình bên:\n\n![Góc lượng giác Ou Ov](/math-import-assets/THPT-11-GIUA_HK1-113-M101-PART-I-Q001-fig1.png)",
+      "explanation": "Quan sát hình vẽ, tia đầu là $Ou$, tia cuối là $Ov$. Góc quay theo chiều cùng chiều kim đồng hồ (chiều âm) từ $Ou$ đến $Ov$ quét qua một góc có độ lớn $360^\\circ - 60^\\circ = 300^\\circ$. Do quay theo chiều âm nên số đo góc lượng giác là $-300^\\circ$.\nPhương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p1.png",
+          "sha256": "814b67ab0de7ed97ab6648d9fe5fccdf4a37b31a2f8ec35b8d0c90737f5c361b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q002",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q002",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $M$ là điểm chính giữa cung nhỏ $A'B$ trên đường tròn lượng giác (xem hình vẽ):\n\n![Điểm M trên đường tròn lượng giác](/math-import-assets/THPT-11-GIUA_HK1-113-M101-PART-I-Q002-fig1.png)\n\nSố đo góc lượng giác có tia đầu $OA$ và tia cuối $OM$ là",
+      "explanation": "Trên đường tròn lượng giác gốc $A(1; 0)$, điểm $B$ có số đo $\\dfrac{\\pi}{2}$ và điểm $A'$ có số đo $\\pi$.\nĐiểm $M$ là điểm chính giữa cung nhỏ $A'B$, do đó góc lượng giác tương ứng có số đo là:\n$$\\alpha = \\dfrac{\\dfrac{\\pi}{2} + \\pi}{2} = \\dfrac{3\\pi}{4}.$$\nSố đo tổng quát của góc lượng giác tia đầu $OA$, tia cuối $OM$ là $\\dfrac{3\\pi}{4} + k2\\pi$ ($k \\in \\mathbb{Z}$).\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p1.png",
+          "sha256": "814b67ab0de7ed97ab6648d9fe5fccdf4a37b31a2f8ec35b8d0c90737f5c361b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q003",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q003",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trên đường tròn lượng giác gốc $A$, biết góc lượng giác $(OA, OM)$ có số đo bằng $-250^\\circ$, điểm $M$ nằm ở góc phần tư thứ mấy?",
+      "explanation": "Ta có $-250^\\circ = -360^\\circ + 110^\\circ$.\nVì $90^\\circ < 110^\\circ < 180^\\circ$ nên điểm biểu diễn $M$ nằm ở góc phần tư thứ II.\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p1.png",
+          "sha256": "814b67ab0de7ed97ab6648d9fe5fccdf4a37b31a2f8ec35b8d0c90737f5c361b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q004",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q004",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số lượng giác sau, hàm số nào là hàm số chẵn?",
+      "explanation": "Hàm số $y = \\cos x$ có tập xác định $D = \\mathbb{R}$ và với mọi $x \\in \\mathbb{R}$, $\\cos(-x) = \\cos x$. Do đó hàm số $y = \\cos x$ là hàm số chẵn.\nPhương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p1.png",
+          "sha256": "814b67ab0de7ed97ab6648d9fe5fccdf4a37b31a2f8ec35b8d0c90737f5c361b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q005",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q005",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau, hàm số nào không phải là hàm số tuần hoàn?",
+      "explanation": "Các hàm số lượng giác cơ bản $y = \\sin x, y = \\cos x, y = \\tan x, y = \\cot x$ đều là các hàm số tuần hoàn.\nHàm số $y = x + \\cos x$ có thành phần tuyến tính $x$ tăng vô hạn khi $x \\to +\\infty$, không tồn tại số thực $T > 0$ sao cho $f(x + T) = f(x)$ với mọi $x$, do đó không phải là hàm số tuần hoàn.\nPhương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p1.png",
+          "sha256": "814b67ab0de7ed97ab6648d9fe5fccdf4a37b31a2f8ec35b8d0c90737f5c361b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q006",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q006",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Mệnh đề nào sau đây sai?",
+      "explanation": "Nghiệm đúng của phương trình $\\cos x = 0$ là $x = \\dfrac{\\pi}{2} + k\\pi$ ($k \\in \\mathbb{Z}$). Mệnh đề A ghi chu kỳ $k2\\pi$ là sai.\nDo đó phương án cần chọn là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p1.png",
+          "sha256": "814b67ab0de7ed97ab6648d9fe5fccdf4a37b31a2f8ec35b8d0c90737f5c361b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q007",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q007",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình nào dưới đây có tập nghiệm biểu diễn trên đường tròn lượng giác là 2 điểm $M, N$?\n\n![Biểu diễn 2 điểm M N](/math-import-assets/THPT-11-GIUA_HK1-113-M101-PART-I-Q007-fig1.png)",
+      "explanation": "Quan sát hình vẽ, hai điểm $M, N$ nằm trên đường tròn lượng giác đối xứng qua trục tung và cùng có tung độ dương bằng $\\dfrac{1}{2}$, tương ứng với hai điểm có $\\sin x = \\dfrac{1}{2} \\iff 2\\sin x = 1$.\nDo đó phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p2.png",
+          "sha256": "a88636e920a8660bdcb604b29506936493a90b1c407b8111c9681e19f18efce6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q008",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q008",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số nào dưới đây không phải là dãy số vô hạn?",
+      "explanation": "Tập hợp các số tự nhiên lẻ nhỏ hơn 100 gồm các số $\\{1; 3; 5; \\dots; 99\\}$, có đúng 50 số, là một tập hợp hữu hạn. Do đó dãy số này là dãy số hữu hạn, không phải là dãy số vô hạn.\nPhương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p2.png",
+          "sha256": "a88636e920a8660bdcb604b29506936493a90b1c407b8111c9681e19f18efce6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q009",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q009",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số $(u_n)$ cho bởi công thức của số hạng tổng quát $u_n$ dưới đây, dãy số nào là dãy số tăng?",
+      "explanation": "Xét dãy số $u_n = 2n^2 - 5n + 3$:\nXét hiệu $u_{n+1} - u_n = [2(n+1)^2 - 5(n+1) + 3] - [2n^2 - 5n + 3] = (2n^2 + 4n + 2 - 5n - 5 + 3) - (2n^2 - 5n + 3) = 4n - 3$.\nVới mọi $n \\ge 1$, $4n - 3 > 0$, do đó $u_{n+1} > u_n$ với mọi $n \\in \\mathbb{N}^*$.\nVậy $(u_n)$ là dãy số tăng. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p2.png",
+          "sha256": "a88636e920a8660bdcb604b29506936493a90b1c407b8111c9681e19f18efce6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q010",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q010",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số $(u_n)$ cho bởi công thức của số hạng tổng quát $u_n$ dưới đây, dãy số nào là dãy số bị chặn?",
+      "explanation": "Xét dãy số $u_n = \\dfrac{2025}{n + 1}$:\nVới mọi $n \\in \\mathbb{N}^*$ ($n \\ge 1$), ta có $n + 1 \\ge 2 \\implies 0 < u_n \\le \\dfrac{2025}{2} = 1012.5$.\nDo đó dãy số $(u_n)$ bị chặn dưới bởi 0 và bị chặn trên bởi $1012.5$, tức là dãy số bị chặn.\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p2.png",
+          "sha256": "a88636e920a8660bdcb604b29506936493a90b1c407b8111c9681e19f18efce6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q011",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q011",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số cho bởi công thức của số hạng tổng quát dưới đây, dãy số nào là một cấp số cộng?",
+      "explanation": "Dãy số $u_n = 3n + 1$ có hiệu $u_{n+1} - u_n = [3(n+1) + 1] - (3n + 1) = 3$ là một hằng số không đổi với mọi $n \\ge 1$.\nDo đó $(u_n)$ là một cấp số cộng có số hạng đầu $u_1 = 4$ và công sai $d = 3$.\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p2.png",
+          "sha256": "a88636e920a8660bdcb604b29506936493a90b1c407b8111c9681e19f18efce6"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-113-M101-PART-I-Q012",
+      "questionId": "THPT-11-GIUA_HK1-113-M101-PART-I-Q012",
+      "paperId": "THPT-11-GIUA_HK1-113",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số được viết dưới dạng khai triển sau, dãy số nào không phải là cấp số nhân?",
+      "explanation": "Xét dãy số trong phương án A: $\\dfrac{u_2}{u_1} = \\dfrac{-4}{1} = -4$, nhưng $\\dfrac{u_3}{u_2} = \\dfrac{-16}{-4} = 4 \\ne -4$. Tỉ số giữa hai số hạng liên tiếp không phải là hằng số nên dãy số này không phải là cấp số nhân.\nDo đó phương án cần chọn là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-113-p2.png",
+          "sha256": "a88636e920a8660bdcb604b29506936493a90b1c407b8111c9681e19f18efce6"
+        }
+      ]
+    }
+  ]
+}

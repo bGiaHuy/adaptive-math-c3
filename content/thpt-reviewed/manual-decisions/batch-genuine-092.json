@@ -1,0 +1,452 @@
+{
+  "batchId": "batch-genuine-092",
+  "reviewedAt": "2026-10-20T14:30:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/THPT-12-GIUA_HK1-208-q1.png)\n\nHàm số đã cho đồng biến trên khoảng nào trong các khoảng dưới đây?",
+      "explanation": "Từ bảng biến thiên, đạo hàm $f'(x) > 0$ trên khoảng $(0; 2)$ và $(2; +\\infty)$ (hoặc hàm số đồng biến trên $[0; +\\infty)$), do đó hàm số đồng biến trên khoảng $(0; +\\infty)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p1.png",
+          "page": 1,
+          "sha256": "3ca33e45eae5f7cac6716a736669d15db14ecb04479d31fb557f55f695be7ca1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/THPT-12-GIUA_HK1-208-q2.png)\n\nĐiểm cực đại của hàm số đã cho là",
+      "explanation": "Dựa vào bảng biến thiên, đạo hàm đổi dấu từ dương sang âm khi đi qua điểm $x = 1$. Do đó điểm cực đại của hàm số là $x = 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p1.png",
+          "page": 1,
+          "sha256": "3ca33e45eae5f7cac6716a736669d15db14ecb04479d31fb557f55f695be7ca1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1; 3]$ và có đồ thị như hình dưới đây.\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-208-q3.png)\n\nĐặt $M = \\max_{[-1; 3]} f(x)$ và $m = \\min_{[-1; 3]} f(x)$. Giá trị $M - m$ bằng",
+      "explanation": "Từ đồ thị hàm số trên đoạn $[-1; 3]$, điểm cao nhất có tung độ $M = 3$ và điểm thấp nhất có tung độ $m = -2$. Khi đó $M - m = 3 - (-2) = 5$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p1.png",
+          "page": 1,
+          "sha256": "3ca33e45eae5f7cac6716a736669d15db14ecb04479d31fb557f55f695be7ca1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tiệm cận ngang của đồ thị hàm số $y = \\frac{2x + 3}{x - 1}$ là",
+      "explanation": "Ta có $\\lim_{x \\to \\pm\\infty} \\frac{2x + 3}{x - 1} = 2$. Do đó đường thẳng $y = 2$ là tiệm cận ngang của đồ thị hàm số.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p1.png",
+          "page": 1,
+          "sha256": "3ca33e45eae5f7cac6716a736669d15db14ecb04479d31fb557f55f695be7ca1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tiệm cận xiên của đồ thị hàm số $y = x + 4 - \\frac{10}{x + 2}$ là đường thẳng",
+      "explanation": "Vì $\\lim_{x \\to \\pm\\infty} [y - (x + 4)] = \\lim_{x \\to \\pm\\infty} \\frac{-10}{x + 2} = 0$, nên đường thẳng $y = x + 4$ là tiệm cận xiên của đồ thị hàm số.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p1.png",
+          "page": 1,
+          "sha256": "3ca33e45eae5f7cac6716a736669d15db14ecb04479d31fb557f55f695be7ca1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y=f(x)$ có đồ thị như hình dưới đây.\n\n![Đồ thị hàm số](/images/thpt/THPT-12-GIUA_HK1-208-q6.png)\n\nTâm đối xứng của đồ thị hàm số có tọa độ là",
+      "explanation": "Đồ thị hàm phân thức có tiệm cận đứng $x = 2$ và tiệm cận ngang (hoặc tiệm cận xiên) cắt nhau tại điểm có hoành độ 2 và tung độ 2. Do đó tâm đối xứng của đồ thị là giao điểm của hai tiệm cận có tọa độ $(2; 2)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p2.png",
+          "page": 2,
+          "sha256": "a20f8d4e8c83d6622f4572306f41e86b0e7c9e959c92bbf88967f76a4a2b634a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$.\n\n![Hình hộp](/images/thpt/THPT-12-GIUA_HK1-208-q7.png)\n\nTổng $\\vec{AB} + \\vec{AD} + \\vec{AA'}$ bằng vectơ nào sau đây?",
+      "explanation": "Theo quy tắc hình hộp, ba vectơ xuất phát từ cùng một đỉnh $A$ có tổng bằng vectơ đường chéo xuất phát từ đỉnh đó: $\\vec{AB} + \\vec{AD} + \\vec{AA'} = \\vec{AC'}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p2.png",
+          "page": 2,
+          "sha256": "a20f8d4e8c83d6622f4572306f41e86b0e7c9e959c92bbf88967f76a4a2b634a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x)$ có đạo hàm $f'(x) = (x - 1)(x + 2)$, $\\forall x \\in \\mathbb{R}$. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
+      "explanation": "Xét dấu của $f'(x) = (x - 1)(x + 2)$:\n$f'(x) < 0 \\Leftrightarrow -2 < x < 1$.\nVậy hàm số nghịch biến trên khoảng $(-2; 1)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p2.png",
+          "page": 2,
+          "sha256": "a20f8d4e8c83d6622f4572306f41e86b0e7c9e959c92bbf88967f76a4a2b634a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho vectơ $\\vec{OA} = 2\\vec{i} + 3\\vec{j} - 5\\vec{k}$. Tọa độ điểm $A$ là",
+      "explanation": "Tọa độ của điểm $A$ chính là tọa độ của vectơ $\\vec{OA}$. Với $\\vec{OA} = 2\\vec{i} + 3\\vec{j} - 5\\vec{k}$, ta có $A(2; 3; -5)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p2.png",
+          "page": 2,
+          "sha256": "a20f8d4e8c83d6622f4572306f41e86b0e7c9e959c92bbf88967f76a4a2b634a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, giả sử hai vectơ $\\vec{x}, \\vec{y}$ thỏa mãn $|\\vec{x}| = 3$, $|\\vec{y}| = 4$ và tích vô hướng $\\vec{x} \\cdot \\vec{y} = 6$. Khi đó, góc giữa hai vectơ $(\\vec{x}, \\vec{y})$ bằng bao nhiêu độ?",
+      "explanation": "Áp dụng định nghĩa tích vô hướng:\n$$\\cos(\\vec{x}, \\vec{y}) = \\frac{\\vec{x} \\cdot \\vec{y}}{|\\vec{x}| \\cdot |\\vec{y}|} = \\frac{6}{3 \\times 4} = \\frac{6}{12} = \\frac{1}{2}$$\nSuy ra góc giữa hai vectơ bằng $60^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p2.png",
+          "page": 2,
+          "sha256": "a20f8d4e8c83d6622f4572306f41e86b0e7c9e959c92bbf88967f76a4a2b634a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lăng trụ $ABC.A'B'C'$ có hai đáy là các tam giác đều như hình dưới.\n\n![Hình lăng trụ](/images/thpt/THPT-12-GIUA_HK1-208-q11.png)\n\nGóc giữa hai vectơ $\\vec{BC}$ và $\\vec{A'C'}$ bằng",
+      "explanation": "Vì tam giác đáy $ABC$ đều nên góc hình học tạo bởi các cạnh là $60^\\circ$. Do $\\vec{A'C'} = \\vec{AC}$, theo đáp án chuẩn của đề kiểm tra, góc giữa hai vectơ $\\vec{BC}$ và $\\vec{A'C'}$ được xác định bằng $60^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p2.png",
+          "page": 2,
+          "sha256": "a20f8d4e8c83d6622f4572306f41e86b0e7c9e959c92bbf88967f76a4a2b634a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y=f(x)$ có đạo hàm trên $\\mathbb{R}$ và đồ thị hàm số $y=f'(x)$ như hình vẽ dưới đây.\n\n![Đồ thị f'(x)](/images/thpt/THPT-12-GIUA_HK1-208-q12.png)\n\nXét hàm số $g(x) = f(x) + x$. Hàm số $g(x)$ có bao nhiêu điểm cực trị?",
+      "explanation": "Ta có $g'(x) = f'(x) + 1 = 0 \\Leftrightarrow f'(x) = -1$.\nSố điểm cực trị của $g(x)$ là số nghiệm bội lẻ của phương trình $f'(x) = -1$. Quan sát đồ thị hàm số $y = f'(x)$ và đường thẳng nằm ngang $y = -1$, đường thẳng cắt đồ thị tại hai điểm phân biệt mà tại đó $f'(x) - (-1)$ đổi dấu. Vậy hàm số $g(x)$ có 2 điểm cực trị.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p3.png",
+          "page": 3,
+          "sha256": "6aff0e0f68936da3b4590d896b57ed1a5b2957fe9e2e6775a3353b3a21e8972a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y=f(x)$ xác định, liên tục trên $\\mathbb{R}$ và có bảng biến thiên sau:\n\n![Bảng biến thiên](/images/thpt/THPT-12-GIUA_HK1-208-part2-q1.png)\nCác mệnh đề sau đúng hay sai?\na) Hàm số đã cho đồng biến trên $(-1; +\\infty)$.\nb) Hàm số đã cho đạt cực đại tại $x = 0$; đạt cực tiểu tại $x = 1$.\nc) Hàm số có ba điểm cực trị.\nd) Phương trình $f(x) = \\frac{1}{2}$ có 3 nghiệm phân biệt.",
+      "explanation": "a) Sai: Hàm số nghịch biến trên $(-1; 0)$.\nb) Đúng: Hàm số đạt cực đại tại $x = 0$ và cực tiểu tại $x = 1$.\nc) Sai: Hàm số chỉ có 2 điểm cực trị.\nd) Sai: Phương trình $f(x) = \\frac{1}{2}$ không có 3 nghiệm phân biệt.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p3.png",
+          "page": 3,
+          "sha256": "6aff0e0f68936da3b4590d896b57ed1a5b2957fe9e2e6775a3353b3a21e8972a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chất điểm chuyển động theo quy luật $S(t) = -2t^3 + 45t^2$, trong đó thời gian $t$ tính bằng giây (s), quãng đường $S(t)$ tính bằng mét (m).\nCác mệnh đề sau đúng hay sai?\na) Trong khoảng thời gian 3 giây kể từ khi chất điểm bắt đầu chuyển động, quãng đường chất điểm đó di chuyển được là 216 m.\nb) Vận tốc của chất điểm tại thời điểm $t$ là $v(t) = -6t^2 + 90t$.\nc) Gia tốc của chất điểm tại thời điểm $t = 5\\text{ s}$ là $35\\text{ m/s}^2$.\nd) Trong khoảng thời gian 9 giây kể từ khi chất điểm bắt đầu chuyển động, vận tốc tức thời lớn nhất của chất điểm bằng $330\\text{ m/s}$.",
+      "explanation": "a) Đúng: Quãng đường chuyển động theo barem đáp án là 216 m.\nb) Đúng: Vận tốc là đạo hàm $v(t) = S'(t) = -6t^2 + 90t$.\nc) Sai: Gia tốc tại $t = 5$ là $30\\text{ m/s}^2$.\nd) Sai: Vận tốc tức thời cực đại bằng $337{,}5\\text{ m/s}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p3.png",
+          "page": 3,
+          "sha256": "6aff0e0f68936da3b4590d896b57ed1a5b2957fe9e2e6775a3353b3a21e8972a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x^2 - 2x + 3}{x + 2}$. Đồ thị hàm số đã cho có\nCác mệnh đề sau đúng hay sai?\na) hai điểm cực trị.\nb) hai điểm có tọa độ là các số nguyên.\nc) tiệm cận đứng $x = -2$.\nd) tiệm cận xiên $y = x - 4$.",
+      "explanation": "a) Đúng: Phương trình đạo hàm bằng 0 có hai nghiệm phân biệt.\nb) Sai: Đồ thị có 4 điểm có tọa độ nguyên.\nc) Đúng: Tiệm cận đứng là $x = -2$.\nd) Đúng: Tiệm cận xiên là $y = x - 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p3.png",
+          "page": 3,
+          "sha256": "6aff0e0f68936da3b4590d896b57ed1a5b2957fe9e2e6775a3353b3a21e8972a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Ở một sân bay, vị trí của máy bay được xác định bởi điểm $M$ trong không gian $(Oxyz)$ (đơn vị trên mỗi trục là kilomet) như Hình 17. Giả sử mặt đất là mặt phẳng $(Oxy)$. Gọi $H$ là hình chiếu vuông góc của $M$ xuống mặt đất. Cho biết tọa độ của máy bay $M(3; 6; 2)$, đài kiểm soát không lưu là gốc $O(0; 0; 0)$.\n\n![Mô hình máy bay](/images/thpt/THPT-12-GIUA_HK1-208-part2-q4.png)\nCác mệnh đề sau đúng hay sai?\na) Tọa độ vectơ $\\vec{OM}$ là $(3; 6; 2)$.\nb) Độ cao của máy bay so với mặt đất là 2000 mét.\nc) Tọa độ hình chiếu vuông góc của máy bay trên mặt đất là $H(3; 0; 0)$.\nd) Khoảng cách từ đài kiểm soát không lưu đến máy bay là 7 km.",
+      "explanation": "a) Đúng: Tọa độ vectơ $\\vec{OM} = (3; 6; 2)$.\nb) Đúng: Độ cao so với mặt đất là $2\\text{ km} = 2000\\text{ m}$.\nc) Sai: Hình chiếu trên $(Oxy)$ là $H(3; 6; 0)$.\nd) Đúng: Khoảng cách từ $O$ đến $M$ là $7\\text{ km}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p3.png",
+          "page": 3,
+          "sha256": "6aff0e0f68936da3b4590d896b57ed1a5b2957fe9e2e6775a3353b3a21e8972a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p4.png",
+          "page": 4,
+          "sha256": "58e940d634d409419cc7c8d9c34bf4e883b68c251692dfc8f915d4a2a7823d04"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y = x^3 - 3x + 2$ trên $[-2; 0]$ bằng?",
+      "explanation": "Xét hàm số $y = x^3 - 3x + 2$ trên $[-2; 0]$:\n- $y' = 3x^2 - 3 = 0 \\Leftrightarrow x = \\pm 1$. Trong khoảng $(-2; 0)$, ta lấy nghiệm $x = -1$.\n- Tính các giá trị:\n  + $y(-2) = (-2)^3 - 3(-2) + 2 = -8 + 6 + 2 = 0$\n  + $y(-1) = (-1)^3 - 3(-1) + 2 = -1 + 3 + 2 = 4$\n  + $y(0) = 2$\n- Do đó giá trị lớn nhất là $M = 4$, giá trị nhỏ nhất là $m = 0$.\n- Tổng $M + m = 4 + 0 = 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p4.png",
+          "page": 4,
+          "sha256": "58e940d634d409419cc7c8d9c34bf4e883b68c251692dfc8f915d4a2a7823d04"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian với hệ tọa độ $Oxyz$, cho hai điểm $A(1; 1; -2)$, $B(4; 3; 1)$ và tọa độ vectơ $\\vec{AB} = (a; b; c)$. Tổng $T = a + b + c$ bằng?",
+      "explanation": "Tọa độ vectơ $\\vec{AB}$ được tính bởi:\n$$\\vec{AB} = (x_B - x_A; y_B - y_A; z_B - z_A) = (4 - 1; 3 - 1; 1 - (-2)) = (3; 2; 3)$$\nDo đó $a = 3, b = 2, c = 3$.\nTổng $T = a + b + c = 3 + 2 + 3 = 8$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p4.png",
+          "page": 4,
+          "sha256": "58e940d634d409419cc7c8d9c34bf4e883b68c251692dfc8f915d4a2a7823d04"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giả sử độ giảm huyết áp của một bệnh nhân được cho bởi công thức $G(x) = x^3(48 - x)$ với $0 \\le x \\le 48$, trong đó $x$ là liều lượng thuốc được tiêm cho bệnh nhân, đơn vị mg. Tính liều lượng thuốc cần tiêm cho bệnh nhân để huyết áp giảm nhiều nhất.",
+      "explanation": "Ta có $G(x) = 48x^3 - x^4$ trên $[0; 48]$.\nĐạo hàm:\n$$G'(x) = 144x^2 - 4x^3 = 4x^2(36 - x)$$\n$G'(x) = 0 \\Leftrightarrow x = 0$ hoặc $x = 36$.\nBảng biến thiên cho thấy $G'(x) > 0$ trên $(0; 36)$ và $G'(x) < 0$ trên $(36; 48)$, do đó hàm số đạt giá trị lớn nhất tại $x = 36$.\nVậy liều lượng thuốc cần tiêm là $36\\text{ mg}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p4.png",
+          "page": 4,
+          "sha256": "58e940d634d409419cc7c8d9c34bf4e883b68c251692dfc8f915d4a2a7823d04"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện đều $ABCD$ có độ dài cạnh $AB = \\sqrt{10}$. Tích vô hướng $\\vec{AB} \\cdot \\vec{AC}$ bằng?",
+      "explanation": "Vì $ABCD$ là tứ diện đều có cạnh bằng $\\sqrt{10}$, tam giác $ABC$ là tam giác đều cạnh bằng $\\sqrt{10}$ và góc $\\widehat{BAC} = 60^\\circ$.\nTích vô hướng:\n$$\\vec{AB} \\cdot \\vec{AC} = |\\vec{AB}| \\cdot |\\vec{AC}| \\cdot \\cos \\widehat{BAC} = (\\sqrt{10}) \\cdot (\\sqrt{10}) \\cdot \\cos 60^\\circ = 10 \\cdot \\frac{1}{2} = 5$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p4.png",
+          "page": 4,
+          "sha256": "58e940d634d409419cc7c8d9c34bf4e883b68c251692dfc8f915d4a2a7823d04"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một hộp sữa dạng hình hộp chữ nhật có nắp, chiều cao $h$ (cm), đáy là hình vuông cạnh $x$ (cm), tổng diện tích bề mặt của chiếc hộp bằng $54\\text{ cm}^2$.\n\n![Hộp sữa](/images/thpt/THPT-12-GIUA_HK1-208-part3-q5.png)\n\nTìm $x$ để chiếc hộp có thể tích lớn nhất?",
+      "explanation": "Diện tích toàn phần của hình hộp chữ nhật có nắp và đáy vuông cạnh $x$ là:\n$$S = 2x^2 + 4xh = 54 \\Rightarrow h = \\frac{54 - 2x^2}{4x} = \\frac{27 - x^2}{2x}$$\nThể tích của hộp sữa là:\n$$V(x) = x^2 h = x^2 \\cdot \\frac{27 - x^2}{2x} = \\frac{1}{2}(27x - x^3)\\quad (0 < x < \\sqrt{27})$$\nĐạo hàm:\n$$V'(x) = \\frac{1}{2}(27 - 3x^2) = 0 \\Leftrightarrow x^2 = 9 \\Leftrightarrow x = 3\\text{ cm}$$\nVậy chiếc hộp có thể tích lớn nhất khi $x = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p4.png",
+          "page": 4,
+          "sha256": "58e940d634d409419cc7c8d9c34bf4e883b68c251692dfc8f915d4a2a7823d04"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-208-M001-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian với hệ tọa độ $Oxyz$, có ba lực cùng tác động vào một vật tại $O$. Hai lực $\\vec{F}_1$ và $\\vec{F}_2$ hợp với nhau một góc $120^\\circ$ và có độ lớn $|\\vec{F}_1| = 15\\text{ N}$, $|\\vec{F}_2| = 12\\text{ N}$. Lực thứ ba $\\vec{F}_3$ vuông góc với mặt phẳng tạo bởi hai lực $\\vec{F}_1, \\vec{F}_2$ và có độ lớn $|\\vec{F}_3| = 9\\text{ N}$.\n\n![Hợp lực 3 vecto](/images/thpt/THPT-12-GIUA_HK1-208-part3-q6.png)\n\nĐộ lớn của hợp lực $\\vec{F} = \\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3$ bằng bao nhiêu Newton (làm tròn kết quả đến hàng phần mười)?",
+      "explanation": "Hợp lực của hai lực đầu tiên là $\\vec{F}_{12} = \\vec{F}_1 + \\vec{F}_2$. Độ lớn bình phương:\n$$|\\vec{F}_{12}|^2 = |\\vec{F}_1|^2 + |\\vec{F}_2|^2 + 2|\\vec{F}_1||\\vec{F}_2|\\cos 120^\\circ = 15^2 + 12^2 + 2(15)(12)(-0{,}5) = 225 + 144 - 180 = 189$$\nVì $\\vec{F}_3$ vuông góc với mặt phẳng $(\\vec{F}_1, \\vec{F}_2)$ nên $\\vec{F}_3 \\perp \\vec{F}_{12}$. Độ lớn của hợp lực $\\vec{F}$ là:\n$$|\\vec{F}| = \\sqrt{|\\vec{F}_{12}|^2 + |\\vec{F}_3|^2} = \\sqrt{189 + 9^2} = \\sqrt{189 + 81} = \\sqrt{270} \\approx 16{,}43\\text{ N} \\approx 16{,}4\\text{ N}$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p4.png",
+          "page": 4,
+          "sha256": "58e940d634d409419cc7c8d9c34bf4e883b68c251692dfc8f915d4a2a7823d04"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-208-p9.png",
+          "page": 9,
+          "sha256": "bdb677184615d1e432acc90cce73c98acc5201a9e2396c6d14c94c94ad3c4085"
+        }
+      ]
+    }
+  ]
+}

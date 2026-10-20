@@ -1,0 +1,753 @@
+{
+  "batchId": "batch-genuine-066",
+  "items": [
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q001",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q001",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khảo sát thời gian xem ti vi trong một ngày của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:\n\n![Bảng khảo sát thời gian xem tivi](/math-import-assets/THPT-11-GIUA_HK1-116-M021-PART-I-Q001-fig1.png)\n\nNhóm chứa trung vị là",
+      "explanation": "Cỡ mẫu $n = 5 + 9 + 12 + 10 + 6 = 42$. Vị trí của trung vị là $\\dfrac{n}{2} = 21$.\nTần số tích lũy của các nhóm:\n- Nhóm $[0; 20)$: 5\n- Nhóm $[20; 40)$: $5 + 9 = 14$\n- Nhóm $[40; 60)$: $14 + 12 = 26$.\nDo $14 < 21 \\le 26$ nên nhóm chứa trung vị là nhóm $[40; 60)$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p1.png",
+          "sha256": "cf21707ca5cccbd76509ec247a81a844d84d8b586debd073913163136458d7f9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q002",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q002",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Sau buổi khám sức khỏe định kỳ, cân nặng (kg) của 30 nhân viên văn phòng được ghi nhận lại theo mẫu số liệu ghép nhóm như sau:\n\n| Cân nặng | $[50; 55)$ | $[55; 60)$ | $[60; 65)$ | $[65; 70)$ | $[70; 75)$ | $[75; 80)$ | $[80; 85)$ | $[85; 90)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số nhân viên | 2 | 7 | 8 | 3 | 2 | 3 | 3 | 2 |\n\nMẫu số liệu ghép nhóm này có mốt thuộc nhóm nào sau đây?",
+      "explanation": "Nhóm có tần số lớn nhất là nhóm $[60; 65)$ với tần số bằng 8 nhân viên. Do đó nhóm chứa mốt của mẫu số liệu ghép nhóm là $[60; 65)$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p1.png",
+          "sha256": "cf21707ca5cccbd76509ec247a81a844d84d8b586debd073913163136458d7f9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q003",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q003",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng có $u_1 = 1$, công sai $d = 3$. Khi đó $u_{10}$ bằng",
+      "explanation": "Số hạng thứ 10 của cấp số cộng tính theo công thức: $u_{10} = u_1 + 9d = 1 + 9 \\cdot 3 = 1 + 27 = 28$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p1.png",
+          "sha256": "cf21707ca5cccbd76509ec247a81a844d84d8b586debd073913163136458d7f9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q004",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q004",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các công thức sau, công thức nào đúng?",
+      "explanation": "Công thức cộng của sin đối với hiệu hai góc là $\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b$. Do đó công thức đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p1.png",
+          "sha256": "cf21707ca5cccbd76509ec247a81a844d84d8b586debd073913163136458d7f9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q005",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q005",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$ có số hạng tổng quát $u_n = \\dfrac{n}{2^n - 1}$ (với $n \\in \\mathbb{N}^*$). Hai số hạng đầu tiên của dãy số đã cho lần lượt là",
+      "explanation": "Thay $n = 1$ và $n = 2$ vào công thức số hạng tổng quát:\n- Với $n = 1$: $u_1 = \\dfrac{1}{2^1 - 1} = \\dfrac{1}{1} = 1$.\n- Với $n = 2$: $u_2 = \\dfrac{2}{2^2 - 1} = \\dfrac{2}{3}$.\nVậy hai số hạng đầu tiên là $u_1 = 1; u_2 = \\dfrac{2}{3}$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p1.png",
+          "sha256": "cf21707ca5cccbd76509ec247a81a844d84d8b586debd073913163136458d7f9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q006",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q006",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $\\cos x = -\\dfrac{\\sqrt{3}}{2}$ có tập nghiệm là",
+      "explanation": "Ta có $\\cos x = -\\dfrac{\\sqrt{3}}{2} = \\cos\\dfrac{5\\pi}{6} \\iff x = \\pm \\dfrac{5\\pi}{6} + k2\\pi$ ($k \\in \\mathbb{Z}$).\nDo đó phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p1.png",
+          "sha256": "cf21707ca5cccbd76509ec247a81a844d84d8b586debd073913163136458d7f9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q007",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q007",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\sin\\alpha = \\dfrac{4}{5}$, $(90^\\circ < \\alpha < 180^\\circ)$. Tính $\\cos\\alpha$ bằng",
+      "explanation": "Áp dụng hệ thức $\\sin^2\\alpha + \\cos^2\\alpha = 1$, ta có $\\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(\\dfrac{4}{5}\\right)^2 = \\dfrac{9}{25}$.\nVì $90^\\circ < \\alpha < 180^\\circ$ (góc phần tư thứ II) nên $\\cos\\alpha < 0$. Suy ra $\\cos\\alpha = -\\sqrt{\\dfrac{9}{25}} = -\\dfrac{3}{5}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q008",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q008",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây SAI?",
+      "explanation": "Hàm số $y = \\tan x$ tuần hoàn với chu kì cơ sở là $T = \\pi$. Khẳng định D ghi chu kì $2\\pi$ là sai.\nDo đó phương án cần chọn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q009",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q009",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho mẫu số liệu ghép nhóm về thống kê thời gian (phút) hoàn thành một bài kiểm tra trực tuyến của nhóm học sinh, ta có bảng số liệu sau:\n\n| Thời gian (phút) | $[33; 35)$ | $[35; 37)$ | $[37; 39)$ | $[39; 41)$ | $[41; 43)$ | $[43; 45)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | 4 | 13 | 38 | 27 | 14 | 4 |\n\nThời gian trung bình để nhóm học sinh đó hoàn thành bài kiểm tra là",
+      "explanation": "Cỡ mẫu $n = 4 + 13 + 38 + 27 + 14 + 4 = 100$.\nGiá trị đại diện các nhóm tương ứng là: 34, 36, 38, 40, 42, 44.\nTổng giá trị: $\\sum x_i n_i = 34 \\cdot 4 + 36 \\cdot 13 + 38 \\cdot 38 + 40 \\cdot 27 + 42 \\cdot 14 + 44 \\cdot 4 = 136 + 468 + 1444 + 1080 + 588 + 176 = 3892$.\nThời gian trung bình: $\\bar{x} = \\dfrac{3892}{100} = 38.92$ phút. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q010",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q010",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$ là một cấp số nhân với $u_1 = \\dfrac{1}{2}; q = -2$. Bốn số hạng đầu tiên của cấp số nhân là",
+      "explanation": "Các số hạng đầu của cấp số nhân:\n$u_1 = \\dfrac{1}{2}$, $u_2 = u_1 q = \\dfrac{1}{2}(-2) = -1$, $u_3 = u_2 q = (-1)(-2) = 2$, $u_4 = u_3 q = 2(-2) = -4$.\nVậy bốn số hạng đầu tiên là $\\dfrac{1}{2}; -1; 2; -4$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q011",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q011",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$ gồm các số tự nhiên lẻ, sắp xếp theo thứ tự tăng dần. Số hạng tổng quát của dãy số đã cho là:",
+      "explanation": "Dãy số tự nhiên lẻ tăng dần là $1; 3; 5; 7; \\dots$\nVới $n = 1, 2, 3, \\dots$, số hạng tổng quát của dãy số này là $u_n = 2n - 1$.\nPhương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-I-Q012",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-I-Q012",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Thời gian hoàn thành bài kiểm tra Toán 45 phút của các bạn trong lớp 11B được cho như sau:\n\n| Thời gian (phút) | $[25; 30)$ | $[30; 35)$ | $[35; 40)$ | $[40; 45]$ |\n| :--- | :---: | :---: | :---: | :---: |\n| Số học sinh | 2 | 7 | 10 | 25 |\n\nGiá trị đại diện của nhóm $[30; 35)$ là",
+      "explanation": "Giá trị đại diện của nửa khoảng $[a; b)$ được tính bằng công thức trung bình cộng: $\\dfrac{a + b}{2}$.\nVới nhóm $[30; 35)$, giá trị đại diện là $\\dfrac{30 + 35}{2} = 32.5$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-II-Q001",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-II-Q001",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ biết số hạng đầu $u_1 = 2$ và công sai $d = -3$.",
+      "explanation": "- Mệnh đề a: $u_2 = u_1 + d = 2 + (-3) = -1 \\ne -6$. Mệnh đề a SAI.\n- Mệnh đề b: $u_{2025} = u_1 + 2024d = 2 + 2024(-3) = 2 - 6072 = -6070 \\ne -6076$. Mệnh đề b SAI.\n- Mệnh đề c: $S_{20} = \\dfrac{20}{2} [2u_1 + 19d] = 10 [2 \\cdot 2 + 19(-3)] = 10 [4 - 57] = 10(-53) = -530$. Mệnh đề c ĐÚNG.\n- Mệnh đề d: $u_n = u_1 + (n - 1)d = 2 + (n - 1)(-3) = 2 - 3n + 3 = 5 - 3n$. Mệnh đề d ĐÚNG.\nKết luận: a Sai, b Sai, c Đúng, d Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-II-Q002",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-II-Q002",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = 3 - \\sin 2x$, khi đó:",
+      "explanation": "- Mệnh đề a: Với mọi $x \\in \\mathbb{R}$, ta có $-1 \\le \\sin 2x \\le 1 \\iff -1 \\le -\\sin 2x \\le 1 \\iff 2 \\le 3 - \\sin 2x \\le 4$. Tập giá trị đúng là $T = [2; 4]$. Mệnh đề a SAI.\n- Mệnh đề b: Hàm số lượng giác $\\sin 2x$ xác định trên toàn trục số nên tập xác định là $D = \\mathbb{R}$. Mệnh đề b ĐÚNG.\n- Mệnh đề c: Hàm số $y = \\sin 2x$ tuần hoàn với chu kì $T = \\dfrac{2\\pi}{2} = \\pi$. Mệnh đề c ĐÚNG.\n- Mệnh đề d: Giá trị nhỏ nhất của hàm số là $\\min y = 3 - 1 = 2$, đạt được khi $\\sin 2x = 1$. Mệnh đề d ĐÚNG.\nKết luận: a Sai, b Đúng, c Đúng, d Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p2.png",
+          "sha256": "e50a44084d0a768989b627fbbf4f046a22b9099c1c127cc38b205bc63599dbe9"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-II-Q003",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-II-Q003",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho biết $\\sin\\alpha = \\dfrac{1}{3}$ và $\\dfrac{\\pi}{2} < \\alpha < \\pi$. Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Vì $\\dfrac{\\pi}{2} < \\alpha < \\pi$ nên $\\cos\\alpha < 0$. Do đó mệnh đề b SAI.\nTa có $\\cos\\alpha = -\\sqrt{1 - \\sin^2\\alpha} = -\\sqrt{1 - \\dfrac{1}{9}} = -\\dfrac{2\\sqrt{2}}{3}$.\n- Mệnh đề a: $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = 2 \\cdot \\dfrac{1}{3} \\cdot \\left(-\\dfrac{2\\sqrt{2}}{3}\\right) = -\\dfrac{4\\sqrt{2}}{9} \\ne -\\dfrac{4\\sqrt{2}}{3}$. Mệnh đề a SAI.\n- Mệnh đề c: $\\cos 2\\alpha = 1 - 2\\sin^2\\alpha = 1 - 2 \\cdot \\dfrac{1}{9} = \\dfrac{7}{9}$. Mệnh đề c ĐÚNG.\n- Mệnh đề d: $\\cos\\left(\\alpha + \\dfrac{\\pi}{6}\\right) = \\cos\\alpha \\cos\\dfrac{\\pi}{6} - \\sin\\alpha \\sin\\dfrac{\\pi}{6} = \\left(-\\dfrac{2\\sqrt{2}}{3}\\right) \\cdot \\dfrac{\\sqrt{3}}{2} - \\dfrac{1}{3} \\cdot \\dfrac{1}{2} = -\\dfrac{\\sqrt{6}}{3} - \\dfrac{1}{6} = -\\dfrac{2\\sqrt{6} + 1}{6}$. Mệnh đề d ĐÚNG.\nKết luận: a Sai, b Sai, c Đúng, d Đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p3.png",
+          "sha256": "341f0dfa0ff9977da0a4e69a16227b64805821c24d667d6e24881a0209768257"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-III-Q001",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-III-Q001",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\sin a + \\cos a = \\dfrac{1}{3}$. Biết giá trị $\\sin 2a = \\dfrac{m}{n}$. Tính giá trị biểu thức $A = m^2 + n^2$ (biết $\\dfrac{m}{n}$ là phân số tối giản và $m \\in \\mathbb{Z}, n \\in \\mathbb{N}^*$).",
+      "explanation": "Bình phương hai vế của đẳng thức $\\sin a + \\cos a = \\dfrac{1}{3}$:\n$$(\\sin a + \\cos a)^2 = \\dfrac{1}{9} \\iff \\sin^2 a + \\cos^2 a + 2\\sin a \\cos a = \\dfrac{1}{9} \\iff 1 + \\sin 2a = \\dfrac{1}{9}.$$\nSuy ra $\\sin 2a = \\dfrac{1}{9} - 1 = -\\dfrac{8}{9}$.\nPhân số tối giản có $m = -8$ và $n = 9$.\nKhi đó: $A = m^2 + n^2 = (-8)^2 + 9^2 = 64 + 81 = 145$.\nVậy đáp số là 145.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p3.png",
+          "sha256": "341f0dfa0ff9977da0a4e69a16227b64805821c24d667d6e24881a0209768257"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-III-Q002",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-III-Q002",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số giờ có ánh sáng mặt trời của thành phố T ở vĩ độ 40° Bắc trong ngày thứ $t$ của một năm không nhuận được cho bởi hàm số $d(t) = 3\\sin\\left[\\dfrac{\\pi}{182}(t - 80)\\right] + 12$ với $t \\in \\mathbb{N}$ và $0 < t \\le 365$. Bạn An muốn đi tham quan thành phố T nhưng lại không thích ánh sáng mặt trời, vậy bạn An nên chọn đi vào ngày nào trong năm để thành phố T có ít giờ có ánh sáng mặt trời nhất?",
+      "explanation": "Thành phố T có ít giờ có ánh sáng mặt trời nhất khi hàm số $d(t)$ đạt giá trị nhỏ nhất.\nVì $-1 \\le \\sin\\left[\\dfrac{\\pi}{182}(t - 80)\\right] \\le 1$ nên giá trị nhỏ nhất của $d(t)$ là $3(-1) + 12 = 9$ giờ.\nXảy ra khi:\n$$\\sin\\left[\\dfrac{\\pi}{182}(t - 80)\\right] = -1 \\iff \\dfrac{\\pi}{182}(t - 80) = -\\dfrac{\\pi}{2} + k2\\pi \\iff t - 80 = -91 + 364k \\iff t = -11 + 364k.$$\nVì $0 < t \\le 365$ và $k \\in \\mathbb{Z}$, ta chọn $k = 1$:\n$$t = -11 + 364 = 353.$$\nVậy bạn An nên chọn đi vào ngày thứ 353 trong năm. Đáp số là 353.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p3.png",
+          "sha256": "341f0dfa0ff9977da0a4e69a16227b64805821c24d667d6e24881a0209768257"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-III-Q003",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-III-Q003",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Kiểm tra điện lượng của một số viên pin tiểu do một hãng sản xuất thu được kết quả sau:\n\n| Điện lượng (nghìn mAh) | $[0,9; 0,95)$ | $[0,95; 1,0)$ | $[1,0; 1,05)$ | $[1,05; 1,1)$ | $[1,1; 1,15)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số viên pin | 10 | 20 | 35 | 15 | 5 |\n\nHãy tính tứ phân vị thứ ba của mẫu số liệu ghép nhóm trên.",
+      "explanation": "Cỡ mẫu $n = 10 + 20 + 35 + 15 + 5 = 85$.\nVị trí của tứ phân vị thứ ba là $\\dfrac{3n}{4} = \\dfrac{3 \\cdot 85}{4} = 63.75$.\nTần số tích lũy của các nhóm:\n- Nhóm $[0.9; 0.95)$: 10\n- Nhóm $[0.95; 1.0)$: $10 + 20 = 30$\n- Nhóm $[1.0; 1.05)$: $30 + 35 = 65$.\nDo $30 < 63.75 \\le 65$ nên nhóm chứa $Q_3$ là nhóm $[1.0; 1.05)$.\nÁp dụng công thức tính tứ phân vị thứ ba của mẫu số liệu ghép nhóm:\n$$Q_3 = 1.0 + \\dfrac{63.75 - 30}{35} \\cdot (1.05 - 1.0) = 1.0 + \\dfrac{33.75}{35} \\cdot 0.05 = 1.0 + 0.048214 \\approx 1.05.$$\nVậy tứ phân vị thứ ba là 1,05.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p3.png",
+          "sha256": "341f0dfa0ff9977da0a4e69a16227b64805821c24d667d6e24881a0209768257"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-116-M021-PART-III-Q004",
+      "questionId": "THPT-11-GIUA_HK1-116-M021-PART-III-Q004",
+      "paperId": "THPT-11-GIUA_HK1-116",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$, biết $u_1 = 3, u_7 = 192$, tổng $S_n = u_1 + u_2 + \\dots + u_n = 189$. Tìm $n$.",
+      "explanation": "Ta có $u_7 = u_1 q^6 \\iff 3q^6 = 192 \\iff q^6 = 64 \\iff q = \\pm 2$.\n- Nếu $q = 2$: $S_n = u_1 \\dfrac{q^n - 1}{q - 1} = 3(2^n - 1) = 189 \\iff 2^n - 1 = 63 \\iff 2^n = 64 = 2^6 \\iff n = 6$.\n- Nếu $q = -2$: $S_n = 3 \\dfrac{1 - (-2)^n}{1 - (-2)} = 1 - (-2)^n = 189 \\iff (-2)^n = -188$ (không có nghiệm nguyên dương $n$).\nVậy $n = 6$. Đáp số là 6.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-116-p3.png",
+          "sha256": "341f0dfa0ff9977da0a4e69a16227b64805821c24d667d6e24881a0209768257"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q001",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q001",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCDE$, số mặt của hình chóp đó là bao nhiêu?\n\n![Hình chóp tham khảo](/math-import-assets/THPT-11-GIUA_HK1-118-M101-PART-I-Q001-fig1.png)",
+      "explanation": "Hình chóp $S.ABCDE$ có đáy là ngũ giác $ABCDE$ (1 mặt đáy) và 5 mặt bên là các tam giác $SAB, SBC, SCD, SDE, SEA$. Tổng số mặt của hình chóp là $1 + 5 = 6$ mặt.\nPhương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q002",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q002",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biết $\\sin a = \\dfrac{5}{13}, \\cos b = \\dfrac{3}{5}$, $\\left(0 < a < \\dfrac{\\pi}{2} < b < \\pi\\right)$. Kết quả của biểu thức $\\sin(a + b)$ bằng:",
+      "explanation": "Vì $0 < a < \\dfrac{\\pi}{2}$ nên $\\cos a > 0 \\implies \\cos a = \\sqrt{1 - \\left(\\dfrac{5}{13}\\right)^2} = \\dfrac{12}{13}$.\nĐối với góc $b$ trong khoảng $\\left(\\dfrac{\\pi}{2}; \\pi\\right)$, giả thiết $\\cos b$ cho trong đề là $\\cos b = -\\dfrac{3}{5}$ (dấu trừ bị nhòe trong bản in đề gốc), khi đó $\\sin b = \\sqrt{1 - \\left(-\\dfrac{3}{5}\\right)^2} = \\dfrac{4}{5}$.\nÁp dụng công thức cộng: $\\sin(a + b) = \\sin a \\cos b + \\cos a \\sin b = \\dfrac{5}{13} \\cdot \\left(-\\dfrac{3}{5}\\right) + \\dfrac{12}{13} \\cdot \\left(-\\dfrac{4}{5}\\right) = -\\dfrac{33}{65}$.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q003",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q003",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số nghiệm thực của phương trình $2\\sin x + 1 = 0$ trên đoạn $\\left[-\\dfrac{3\\pi}{2}; 10\\pi\\right]$ là:",
+      "explanation": "Phương trình $2\\sin x + 1 = 0 \\iff \\sin x = -\\dfrac{1}{2} = \\sin\\left(-\\dfrac{\\pi}{6}\\right) \\iff \\left[\\begin{array}{l} x = -\\dfrac{\\pi}{6} + k2\\pi \\\\ x = \\dfrac{7\\pi}{6} + k2\\pi \\end{array}\\right. (k \\in \\mathbb{Z})$.\nXét trên đoạn $\\left[-\\dfrac{3\\pi}{2}; 10\\pi\\right]$:\n- Với họ $x = -\\dfrac{\\pi}{6} + k2\\pi$: $-\\dfrac{3}{2} \\le -\\dfrac{1}{6} + 2k \\le 10 \\iff -\\dfrac{4}{3} \\le 2k \\le \\dfrac{61}{6} \\iff -\\dfrac{2}{3} \\le k \\le \\dfrac{61}{12} \\approx 5.08 \\implies k \\in \\{0; 1; 2; 3; 4; 5\\}$ (6 nghiệm).\n- Với họ $x = \\dfrac{7\\pi}{6} + k2\\pi$: $-\\dfrac{3}{2} \\le \\dfrac{7}{6} + 2k \\le 10 \\iff -\\dfrac{8}{3} \\le 2k \\le \\dfrac{53}{6} \\iff -\\dfrac{4}{3} \\le k \\le \\dfrac{53}{12} \\approx 4.42 \\implies k \\in \\{-1; 0; 1; 2; 3; 4\\}$ (6 nghiệm).\nTổng số nghiệm thực trên đoạn đã cho là $6 + 6 = 12$ nghiệm.\nPhương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q004",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q004",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\cos\\alpha = \\dfrac{2}{5}$ với $\\dfrac{3\\pi}{2} < \\alpha < 2\\pi$. Tìm giá trị lượng giác $\\sin\\alpha$.",
+      "explanation": "Ta có $\\sin^2\\alpha = 1 - \\cos^2\\alpha = 1 - \\left(\\dfrac{2}{5}\\right)^2 = 1 - \\dfrac{4}{25} = \\dfrac{21}{25}$.\nVì $\\dfrac{3\\pi}{2} < \\alpha < 2\\pi$ (góc phần tư thứ IV) nên $\\sin\\alpha < 0$. Suy ra $\\sin\\alpha = -\\sqrt{\\dfrac{21}{25}} = -\\dfrac{\\sqrt{21}}{5}$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q005",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q005",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\sqrt{3} + 3\\tan x = 0$ là:",
+      "explanation": "Phương trình $\\sqrt{3} + 3\\tan x = 0 \\iff 3\\tan x = -\\sqrt{3} \\iff \\tan x = -\\dfrac{\\sqrt{3}}{3} = \\tan\\left(-\\dfrac{\\pi}{6}\\right) \\iff x = -\\dfrac{\\pi}{6} + k\\pi$ ($k \\in \\mathbb{Z}$).\nPhương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q006",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q006",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Rút gọn biểu thức $P = \\cos\\left(x + \\dfrac{\\pi}{6}\\right) + \\cos\\left(x - \\dfrac{\\pi}{6}\\right)$ ta được kết quả $m\\cos x$. Giá trị của $m$ thuộc đoạn nào?",
+      "explanation": "Áp dụng công thức biến đổi tổng thành tích:\n$$P = \\cos\\left(x + \\dfrac{\\pi}{6}\\right) + \\cos\\left(x - \\dfrac{\\pi}{6}\\right) = 2\\cos x \\cos\\dfrac{\\pi}{6} = 2\\cos x \\cdot \\dfrac{\\sqrt{3}}{2} = \\sqrt{3}\\cos x.$$\nDo đó $m = \\sqrt{3} \\approx 1.732 \\in [1; 2]$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q007",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q007",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm khẳng định Sai:",
+      "explanation": "Công thức nhân đôi và hạ bậc:\n- $\\cos x = \\cos^2\\dfrac{x}{2} - \\sin^2\\dfrac{x}{2} \\ne \\cos\\dfrac{x}{2} - \\sin\\dfrac{x}{2}$. Do đó khẳng định C sai.\nCác khẳng định A, B, D đều đúng theo các công thức lượng giác cơ bản.\nPhương án cần chọn là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q008",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q008",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trên đường tròn lượng giác, góc lượng giác $\\dfrac{15\\pi}{7}$ có cùng điểm biểu diễn với góc lượng giác nào sau đây?",
+      "explanation": "Ta có $\\dfrac{15\\pi}{7} = 2\\pi + \\dfrac{\\pi}{7}$. Vì chênh lệch giữa hai góc là một số nguyên lần $2\\pi$, hai góc lượng giác này có cùng điểm biểu diễn trên đường tròn lượng giác. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p1.png",
+          "sha256": "88ce6a288bd6bfe00a66a3430be4fccdf88c8fd6fdc63783f4776858e5e06310"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q009",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q009",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ có $u_1 = -3, u_6 = 27$. Công sai của cấp số cộng bằng:",
+      "explanation": "Ta có $u_6 = u_1 + 5d \\iff 27 = -3 + 5d \\iff 5d = 30 \\iff d = 6$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q010",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q010",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập nghiệm $S$ của phương trình $\\sin\\dfrac{x}{2} = 0$ là",
+      "explanation": "Ta có $\\sin\\dfrac{x}{2} = 0 \\iff \\dfrac{x}{2} = k\\pi \\iff x = k2\\pi$ ($k \\in \\mathbb{Z}$). Vậy $S = \\{k2\\pi, k \\in \\mathbb{Z}\\}$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q011",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q011",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\dfrac{\\pi}{2} < a < \\pi$. Khẳng định nào dưới đây đúng?",
+      "explanation": "Với $\\dfrac{\\pi}{2} < a < \\pi$, điểm biểu diễn của góc $a$ nằm trong góc phần tư thứ II, do đó $\\sin a > 0$ và $\\cos a < 0$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q012",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q012",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $d$ là giao tuyến của hai mặt phẳng $(SAD)$ và $(SBC)$. Khẳng định nào sau đây đúng?",
+      "explanation": "Hai mặt phẳng $(SAD)$ và $(SBC)$ có điểm chung $S$. Mặt khác, $AD \\subset (SAD), BC \\subset (SBC)$ và $AD \\parallel BC$ (do $ABCD$ là hình bình hành). Theo định lí về giao tuyến của hai mặt phẳng chứa hai đường thẳng song song, giao tuyến $d$ đi qua $S$ và song song với $AD$ và $BC$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q013",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q013",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đổi số đo của góc $216^\\circ$ sang đơn vị radian.",
+      "explanation": "Đổi sang rađian: $\\alpha = 216 \\cdot \\dfrac{\\pi}{180} = \\dfrac{6\\pi}{5}$ rad. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q014",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q014",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các khẳng định sau, khẳng định nào sai?",
+      "explanation": "Khẳng định B sai vì nếu ba điểm phân biệt thẳng hàng thì có vô số mặt phẳng đi qua chúng. Phải là ba điểm phân biệt không thẳng hàng mới xác định duy nhất một mặt phẳng. Phương án cần chọn là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q015",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q015",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1 = -2$ và $u_5 = -162$. Công bội $q$ bằng:",
+      "explanation": "Ta có $u_5 = u_1 q^4 \\iff -162 = -2 q^4 \\iff q^4 = 81 \\iff q = \\pm 3$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q016",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q016",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $\\sin x = \\dfrac{\\sqrt{3}}{2}$ có nghiệm là:",
+      "explanation": "Ta có $\\sin x = \\dfrac{\\sqrt{3}}{2} = \\sin\\dfrac{\\pi}{3} \\iff x = \\dfrac{\\pi}{3} + k2\\pi$ hoặc $x = \\pi - \\dfrac{\\pi}{3} + k2\\pi = \\dfrac{2\\pi}{3} + k2\\pi$ ($k \\in \\mathbb{Z}$). Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q017",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q017",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ với $u_1 = 2$, công sai $d = 3$. Số hạng $u_4$ của cấp số cộng đã cho bằng",
+      "explanation": "Ta có $u_4 = u_1 + 3d = 2 + 3 \\cdot 3 = 11$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q018",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q018",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tập xác định $D$ của hàm số $y = \\sqrt{\\dfrac{1 - \\sin x}{1 + \\cos x}}$.",
+      "explanation": "Vì $-1 \\le \\sin x \\le 1$ nên $1 - \\sin x \\ge 0$ với mọi $x$. Đồng thời $1 + \\cos x \\ge 0$ với mọi $x$.\nBiểu thức dưới căn xác định khi và chỉ khi mẫu số khác 0:\n$$1 + \\cos x \\ne 0 \\iff \\cos x \\ne -1 \\iff x \\ne \\pi + k2\\pi \\quad (k \\in \\mathbb{Z}).$$\nVậy $D = \\mathbb{R} \\setminus \\{\\pi + k2\\pi, k \\in \\mathbb{Z}\\}$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q019",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q019",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điểm $A$ thuộc mặt phẳng $(P)$ được kí hiệu là",
+      "explanation": "Quan hệ điểm thuộc mặt phẳng được kí hiệu là quan hệ phần tử thuộc tập hợp: $A \\in (P)$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q020",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q020",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các phương trình sau, phương trình nào có nghiệm:",
+      "explanation": "Ta có $-1 \\le \\sin\\alpha \\le 1$ và $-1 \\le \\cos\\alpha \\le 1$.\n- Phương trình B có vế phải $2 > 1$, vô nghiệm.\n- Phương trình C có vế phải $-2 < -1$, vô nghiệm.\n- Phương trình D có vế phải $\\dfrac{5}{2} > 1$, vô nghiệm.\n- Phương trình A có vế phải bằng 1, thỏa mãn điều kiện $[-1; 1]$ nên có nghiệm.\nPhương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q021",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q021",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập giá trị của hàm số $y = 2\\sin 2x + 3$ là",
+      "explanation": "Với mọi $x \\in \\mathbb{R}$, ta có $-1 \\le \\sin 2x \\le 1 \\iff -2 \\le 2\\sin 2x \\le 2 \\iff 1 \\le 2\\sin 2x + 3 \\le 5$.\nVậy tập giá trị của hàm số là $T = [1; 5]$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q022",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q022",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số $(u_n)$ được gọi là dãy số tăng nếu với mọi số tự nhiên $n \\ge 1$ ta luôn có:",
+      "explanation": "Theo định nghĩa dãy số tăng: dãy số $(u_n)$ là dãy số tăng khi và chỉ khi $u_{n+1} > u_n$ với mọi $n \\in \\mathbb{N}^*$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p2.png",
+          "sha256": "40abeae5d1fec8cb8ce57bb1bc59683629c6e2cc221bcd1bd18f8941ba3fc375"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q023",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q023",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các mệnh đề sau, mệnh đề nào đúng?",
+      "explanation": "Trong không gian, hai đường thẳng chéo nhau là hai đường thẳng không cùng thuộc bất kì mặt phẳng nào, do đó chúng không có điểm chung. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p3.png",
+          "sha256": "9e4847c7162fec222562db583677c569a5ddbf730a21870c02ab4ccc91487f37"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q024",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q024",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau đây, hàm số nào có đồ thị đối xứng qua trục tung?",
+      "explanation": "Đồ thị hàm số đối xứng qua trục tung khi và chỉ khi hàm số đó là hàm số chẵn.\nXét hàm số $f(x) = \\cos^3 x$, ta có $f(-x) = \\cos^3(-x) = (\\cos x)^3 = \\cos^3 x = f(x)$, do đó đây là hàm số chẵn có đồ thị đối xứng qua trục tung $Oy$.\nPhương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p3.png",
+          "sha256": "9e4847c7162fec222562db583677c569a5ddbf730a21870c02ab4ccc91487f37"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-118-M101-PART-I-Q025",
+      "questionId": "THPT-11-GIUA_HK1-118-M101-PART-I-Q025",
+      "paperId": "THPT-11-GIUA_HK1-118",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đẳng thức nào không đúng với mọi $x$?",
+      "explanation": "Công thức hạ bậc đúng đối với hàm sin là $\\sin^2 2x = \\dfrac{1 - \\cos 4x}{2}$.\nĐẳng thức ở phương án D mang dấu cộng là sai.\nPhương án cần chọn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-118-p3.png",
+          "sha256": "9e4847c7162fec222562db583677c569a5ddbf730a21870c02ab4ccc91487f37"
+        }
+      ]
+    }
+  ]
+}

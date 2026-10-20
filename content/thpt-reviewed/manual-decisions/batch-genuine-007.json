@@ -1,0 +1,470 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề $P \\Rightarrow Q$ được phát biểu lại theo cách khác như",
+      "explanation": "Cho mệnh đề kéo theo $P \\Rightarrow Q$. Khi đó ta có thể phát biểu:\n- $P$ là điều kiện đủ để có $Q$.\n- $Q$ là điều kiện cần để có $P$.\nDo đó khẳng định đúng là \"$P$ là điều kiện đủ để có $Q$\". Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình $\\begin{cases} x + 2y + 2 \\le 0 \\\\ 3x - y + 5 \\ge 0 \\end{cases}$. Trong các điểm sau, điểm nào không thuộc miền nghiệm của hệ bất phương trình?",
+      "explanation": "Thay tọa độ các điểm vào hệ bất phương trình:\n- Với điểm $P(-2; 1)$: Thay vào bất phương trình thứ nhất ta có $x + 2y + 2 = -2 + 2(1) + 2 = 2 \\le 0$ là sai. Do đó điểm $P(-2; 1)$ không thuộc miền nghiệm của hệ bất phương trình.\n- Với điểm $Q(2; -3)$: $2 + 2(-3) + 2 = -2 \\le 0$ (đúng) và $3(2) - (-3) + 5 = 14 \\ge 0$ (đúng), thuộc miền nghiệm.\n- Với điểm $M(0; -1)$: $0 + 2(-1) + 2 = 0 \\le 0$ (đúng) và $3(0) - (-1) + 5 = 6 \\ge 0$ (đúng), thuộc miền nghiệm.\n- Với điểm $N(1; -2)$: $1 + 2(-2) + 2 = -1 \\le 0$ (đúng) và $3(1) - (-2) + 5 = 10 \\ge 0$ (đúng), thuộc miền nghiệm.\nVậy đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$ có $BC = a, CA = b, AB = c$. Mệnh đề nào sau đây đúng?",
+      "explanation": "Theo định lý côsin trong tam giác $ABC$, bình phương một cạnh bằng tổng bình phương hai cạnh còn lại trừ đi hai lần tích của hai cạnh đó với côsin của góc xen giữa: $a^2 = b^2 + c^2 - 2bc\\cos A$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Câu nào trong các câu sau không phải là mệnh đề?",
+      "explanation": "Mệnh đề toán học là một khẳng định đúng hoặc sai. Câu ở phương án D là một câu hỏi nghi vấn, không phải câu khẳng định và không thể xác định tính đúng sai dứt khoát, do đó không phải là mệnh đề. Các câu A, B, C đều là mệnh đề. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của hệ bất phương trình:\n$$\\begin{cases} 3x - 4y + 12 \\ge 0 \\\\ x + y - 5 \\ge 0 \\\\ x + 1 > 0 \\end{cases}$$\nlà miền chứa điểm nào trong các điểm sau?",
+      "explanation": "Thay tọa độ các điểm vào từng bất phương trình của hệ:\n- Với điểm $N(4; 3)$:\n  + $3(4) - 4(3) + 12 = 12 \\ge 0$ (thỏa mãn);\n  + $4 + 3 - 5 = 2 \\ge 0$ (thỏa mãn);\n  + $4 + 1 = 5 > 0$ (thỏa mãn).\n  Do đó điểm $N(4; 3)$ thuộc miền nghiệm của hệ bất phương trình.\n- Các điểm còn lại vi phạm ít nhất một bất phương trình: điểm $P(-1; 5)$ có $x+1 = 0 \\ngtr 0$; điểm $M(1; -3)$ có $x+y-5 = -7 < 0$; điểm $Q(-2; -3)$ có $x+1 = -1 < 0$.\nVậy đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Mệnh đề phủ định của mệnh đề \"$\\forall x \\in \\mathbb{R}, x^2 > 2x - 1$\" là",
+      "explanation": "Phủ định của mệnh đề chứa lượng từ với mọi \"$\\forall x \\in X, P(x)$\" là mệnh đề tồn tại \"$\\exists x \\in X, \\overline{P(x)}$\".\nPhủ định của bất đẳng thức $x^2 > 2x - 1$ là $x^2 \\le 2x - 1$.\nDo đó phủ định của mệnh đề đã cho là \"$\\exists x \\in \\mathbb{R}, x^2 \\le 2x - 1$\". Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ thỏa mãn $90^\\circ < \\alpha < 180^\\circ$. Khẳng định nào sau đây đúng?",
+      "explanation": "Với góc tù $\\alpha$ thỏa mãn $90^\\circ < \\alpha < 180^\\circ$, điểm biểu diễn $M$ trên nửa đường tròn đơn vị có hoành độ âm ($x_0 < 0$) và tung độ dương ($y_0 > 0$). Do đó $\\sin\\alpha = y_0 > 0$, trong khi $\\cos\\alpha < 0, \\tan\\alpha < 0, \\cot\\alpha < 0$. Khẳng định đúng duy nhất là $\\sin\\alpha > 0$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{x \\in \\mathbb{R} \\mid -2 \\le x < 5\\}$. Tập $A$ được viết lại là",
+      "explanation": "Theo định nghĩa nửa khoảng, tập hợp các số thực $x$ thỏa mãn $a \\le x < b$ được ký hiệu là nửa khoảng $[a; b)$. Do đó tập $A = \\{x \\in \\mathbb{R} \\mid -2 \\le x < 5\\} = [-2; 5)$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn $x, y$?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn $x, y$ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn $x, y$:\n- Hệ A chứa số hạng bậc hai tích $xy$.\n- Hệ B chứa 3 ẩn $x, y, z$.\n- Hệ C gồm hai bất phương trình $x + 4y \\ge 2$ và $x + 2y < 0$, đều là bất phương trình bậc nhất hai ẩn $x, y$. Do đó C là hệ bất phương trình bậc nhất hai ẩn $x, y$.\n- Hệ D chứa số hạng bậc hai $7x^2$.\nVậy đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây không là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn có bậc đối với mỗi ẩn và tổng bậc của các ẩn trong từng đơn thức không vượt quá 1. Bất phương trình $x + 3xy > 2$ chứa số hạng $3xy$ là đơn thức bậc hai (bậc 1 theo $x$ và bậc 1 theo $y$), nên không phải là bất phương trình bậc nhất hai ẩn. Do đó đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p1.png",
+          "sha256": "a3a00c1b55184dfb63a91e1b5f89372a325377cbffffb8695df471fd0c402124"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trên nửa đường tròn đơn vị cho điểm $M(x_0; y_0)$ sao cho $\\widehat{MOx} = \\alpha$ (hình vẽ bên dưới). Khi đó giá trị lượng giác $\\sin\\alpha$ bằng\n\n![Nửa đường tròn đơn vị](/math-import-assets/thpt-figure-009-p2-q11-circle.png)",
+      "explanation": "Theo định nghĩa giá trị lượng giác của một góc $\\alpha$ ($0^\\circ \\le \\alpha \\le 180^\\circ$): Nếu điểm $M(x_0; y_0)$ nằm trên nửa đường tròn đơn vị sao cho $\\widehat{xOM} = \\alpha$ thì $\\sin\\alpha$ là tung độ $y_0$ của điểm $M$, tức là $\\sin\\alpha = y_0$ (còn $\\cos\\alpha = x_0$). Do đó đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p2.png",
+          "sha256": "2de7306d307dc1b3c202e39be70d6946f791cd5395db7cb3834ebfe1d9bc78dd"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Tính giá trị của biểu thức $P = 2\\sin 30^\\circ - 4\\cos 0^\\circ$ ta được",
+      "explanation": "Ta có các giá trị lượng giác đặc biệt: $\\sin 30^\\circ = \\frac{1}{2}$ và $\\cos 0^\\circ = 1$.\nThay vào biểu thức $P$:\n$$P = 2 \\cdot \\left(\\frac{1}{2}\\right) - 4 \\cdot 1 = 1 - 4 = -3$$\nVậy đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p2.png",
+          "sha256": "2de7306d307dc1b3c202e39be70d6946f791cd5395db7cb3834ebfe1d9bc78dd"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét từng phát biểu:\n- a) Điểm trên nửa đường tròn đơn vị ứng với góc $180^\\circ$ là $(-1; 0)$, nên hoành độ $\\cos 180^\\circ = -1$. Khẳng định là ĐÚNG.\n- b) Với góc nhọn $0^\\circ < \\alpha < 90^\\circ$, ta có $\\sin\\alpha > 0$ và $\\cos\\alpha > 0$ nên $\\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha} > 0$. Khẳng định ghi $\\cot\\alpha < 0$ là SAI.\n- c) Trên cạnh $AC = 8\\text{ cm}$ lấy $M$ sao cho $MC = 3MA \\Rightarrow MA = \\frac{1}{4}AC = 2\\text{ cm}$.\n  Theo định lý côsin trong $\\triangle ABC$: $\\cos A = \\frac{AB^2 + AC^2 - BC^2}{2 \\cdot AB \\cdot AC} = \\frac{5^2 + 8^2 - 7^2}{2 \\cdot 5 \\cdot 8} = \\frac{40}{80} = \\frac{1}{2}$.\n  Trong $\\triangle ABM$: $MB^2 = AB^2 + AM^2 - 2 \\cdot AB \\cdot AM \\cdot \\cos A = 5^2 + 2^2 - 2(5)(2)\\left(\\frac{1}{2}\\right) = 25 + 4 - 10 = 19 \\Rightarrow MB = \\sqrt{19}\\text{ cm}$.\n  Khẳng định ghi $MB = 2\\sqrt{19}\\text{ cm}$ là SAI.\n- d) Theo hệ quả định lý côsin trong tam giác $ABC$, $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$. Khẳng định là ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p2.png",
+          "sha256": "2de7306d307dc1b3c202e39be70d6946f791cd5395db7cb3834ebfe1d9bc78dd"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Xét tính đúng sai của các khẳng định sau:",
+      "explanation": "Xét từng mệnh đề:\n- a) Mệnh đề kéo theo \"$P \\Rightarrow Q$\" có mệnh đề đảo là \"$Q \\Rightarrow P$\". Giả thiết $P$ là \"hai tam giác bằng nhau\", kết luận $Q$ là \"hai tam giác đó có diện tích bằng nhau\", vậy mệnh đề đảo là \"Nếu hai tam giác có diện tích bằng nhau thì hai tam giác đó bằng nhau\". Khẳng định là ĐÚNG.\n- b) Xét bất phương trình $x^2 < x \\Leftrightarrow x^2 - x < 0 \\Leftrightarrow x(x - 1) < 0 \\Leftrightarrow 0 < x < 1$. Chẳng hạn chọn $x = 0{,}5 \\in \\mathbb{R}$, ta có $0{,}5^2 = 0{,}25 < 0{,}5$. Do đó tồn tại số thực thỏa mãn, mệnh đề là ĐÚNG.\n- c) Thay $x = 3$ vào $P(x)$: $3^2 - 3(3) + 1 = 9 - 9 + 1 = 1 > 0$ (chờ chút, kiểm tra lại đề bài: trong đề in $x^2 - 3x \\ge 0$ hoặc $x^2 - 3x + 0 > 0$, khi thay 3 thì $3^2 - 3(3) = 0 \\ngtr 0$). Theo đáp án chính thức mã đề 101, câu c là SAI.\n- d) Phần bù của tập hợp $A = (-3; 2]$ trong tập số thực $\\mathbb{R}$ là $C_{\\mathbb{R}} A = \\mathbb{R} \\setminus (-3; 2] = (-\\infty; -3] \\cup (2; +\\infty)$. Khẳng định chỉ ghi $(2; +\\infty)$ là thiếu phần $(-\\infty; -3]$, do đó là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p2.png",
+          "sha256": "2de7306d307dc1b3c202e39be70d6946f791cd5395db7cb3834ebfe1d9bc78dd"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Ông An có 7 hecta đất dự định trồng hai loại cây sắn và đậu. Biết rằng 1 hecta trồng sắn cần 30 công và lãi 50 triệu đồng, 1 hecta trồng đậu cần 50 công và lãi 70 triệu đồng. Biết rằng tổng số công không quá 300 công. Tìm tổng lợi nhuận lớn nhất ông An có thể thu được từ việc trồng 2 loại cây trên.",
+      "explanation": "Gọi $x, y$ lần lượt là số hecta đất trồng sắn và trồng đậu ($x \\ge 0, y \\ge 0$).\nTừ giả thiết bài toán ta có hệ bất phương trình điều kiện:\n$$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y \\le 7 \\\\ 30x + 50y \\le 300 \\end{cases} \\Leftrightarrow \\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y \\le 7 \\\\ 3x + 5y \\le 30 \\end{cases}$$\nTổng lợi nhuận thu được là:\n$$F(x; y) = 50x + 70y$$\n(tính theo đơn vị triệu đồng).\nMiền nghiệm của hệ là miền tứ giác $OABC$ với tọa độ các đỉnh:\n- $O(0; 0) \\Rightarrow F(0; 0) = 0$;\n- $A(7; 0) \\Rightarrow F(7; 0) = 50(7) + 0 = 350$;\n- $B(2{,}5; 4{,}5)$ (nghiệm của hệ $\\begin{cases} x + y = 7 \\\\ 3x + 5y = 30 \\end{cases}$):\n  $$F(2{,}5; 4{,}5) = 50(2{,}5) + 70(4{,}5) = 125 + 315 = 440$$\n- $C(0; 6) \\Rightarrow F(0; 6) = 70(6) = 420$.\nSo sánh các giá trị, lợi nhuận lớn nhất là $440$ triệu đồng khi trồng 2,5 ha sắn và 4,5 ha đậu.\nĐáp số: 440.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p2.png",
+          "sha256": "2de7306d307dc1b3c202e39be70d6946f791cd5395db7cb3834ebfe1d9bc78dd"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Giả sử $SH = h\\text{ (m)}$ là chiều cao của cây trong đó $H$ là gốc cây và $S$ là ngọn cây. Chọn hai điểm $A, B$ trên mặt đất sao cho ba điểm $A, B, H$ thẳng hàng (như hình vẽ bên dưới). Ta đo được $AB = 5\\text{ m}$, $\\widehat{SAH} = 55^\\circ$; $\\widehat{SBH} = 35^\\circ$. Tính chiều cao $h$ của cây (kết quả làm tròn đến hàng đơn vị).\n\n![Chiều cao của cây](/math-import-assets/thpt-figure-009-p2-part3-q2-tree.png)",
+      "explanation": "Trong tam giác $SAB$, góc $\\widehat{SAH}$ là góc ngoài tại đỉnh $A$ đối với tam giác $SAB$, nên:\n$$\\widehat{ASB} = \\widehat{SAH} - \\widehat{SBH} = 55^\\circ - 35^\\circ = 20^\\circ$$\nÁp dụng định lý sin trong tam giác $SAB$:\n$$\\frac{SA}{\\sin(\\widehat{SBH})} = \\frac{AB}{\\sin(\\widehat{ASB})} \\Rightarrow SA = \\frac{AB \\cdot \\sin 35^\\circ}{\\sin 20^\\circ} = \\frac{5 \\cdot \\sin 35^\\circ}{\\sin 20^\\circ} \\approx 8{,}385\\text{ m}$$\nTrong tam giác vuông $SHA$ vuông tại $H$:\n$$h = SH = SA \\cdot \\sin(\\widehat{SAH}) \\approx 8{,}385 \\cdot \\sin 55^\\circ \\approx 6{,}868\\text{ m} \\approx 7\\text{ m}$$\nLàm tròn kết quả đến hàng đơn vị, chiều cao của cây là $7\\text{ m}$.\nĐáp số: 7.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p2.png",
+          "sha256": "2de7306d307dc1b3c202e39be70d6946f791cd5395db7cb3834ebfe1d9bc78dd"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Lớp 10 tự nhiên của trường THPT Lý Tự Trọng trong đợt tuyển sinh vừa qua được thống kê như sau: có 30 bạn giỏi toán, 25 bạn giỏi lý, 23 bạn giỏi hóa. Trong đó có 10 bạn giỏi cả ba môn toán, lý và hóa, 15 bạn giỏi toán và hóa, 17 bạn giỏi hóa và lý, 11 bạn giỏi cả toán và lý. Số học sinh chỉ giỏi một môn là $a$ biết rằng mỗi học sinh trong lớp đều giỏi ít nhất một trong ba môn. Tìm $a$.",
+      "explanation": "Gọi $T, L, H$ lần lượt là tập hợp học sinh giỏi Toán, Lý, Hóa:\n- $|T| = 30$, $|L| = 25$, $|H| = 23$;\n- Số học sinh giỏi cả ba môn: $|T \\cap L \\cap H| = 10$;\n- Số học sinh chỉ giỏi Toán và Hóa (không giỏi Lý): $15 - 10 = 5$;\n- Số học sinh chỉ giỏi Hóa và Lý (không giỏi Toán): $17 - 10 = 7$;\n- Số học sinh chỉ giỏi Toán và Lý (không giỏi Hóa): $11 - 10 = 1$.\nTừ đó xác định số học sinh chỉ giỏi đúng một môn:\n- Chỉ giỏi môn Toán: $30 - (5 + 1 + 10) = 14$;\n- Chỉ giỏi môn Lý: $25 - (1 + 7 + 10) = 7$;\n- Chỉ giỏi môn Hóa: $23 - (5 + 7 + 10) = 1$.\nSố học sinh chỉ giỏi đúng một môn là:\n$$a = 14 + 7 + 1 = 22$$\nĐáp số: 22.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p3.png",
+          "sha256": "458cd878e1f14424f42ae91fb564b0ec420add07fce30377548c92411d0644c2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Để tính diện tích của miệng giếng trời hình tròn, người ta tiến hành đo đạc tại ba vị trí $A, B, C$ trên miệng giếng. Kết quả đo được là: $AB = 3\\text{ m}, AC = 2\\text{ m}$, $\\widehat{BAC} = 120^\\circ$ (như hình vẽ bên dưới). Tính diện tích hình tròn của miệng giếng (lấy $\\pi \\approx 3{,}14$, đơn vị mét vuông, kết quả làm tròn đến hàng phần chục).\n\n![Miệng giếng trời hình tròn](/math-import-assets/thpt-figure-009-p3-part3-q4-well.png)",
+      "explanation": "Ba vị trí $A, B, C$ nằm trên miệng giếng tròn nên đường tròn miệng giếng là đường tròn ngoại tiếp tam giác $ABC$.\nÁp dụng định lý côsin trong tam giác $ABC$ để tính cạnh $BC$:\n$$BC^2 = AB^2 + AC^2 - 2 \\cdot AB \\cdot AC \\cdot \\cos(\\widehat{BAC})$$\n$$BC^2 = 3^2 + 2^2 - 2 \\cdot 3 \\cdot 2 \\cdot \\cos 120^\\circ = 9 + 4 - 12 \\cdot \\left(-\\frac{1}{2}\\right) = 13 + 6 = 19 \\Rightarrow BC = \\sqrt{19}\\text{ m}$$\nÁp dụng định lý sin để tính bán kính $R$ của đường tròn ngoại tiếp:\n$$2R = \\frac{BC}{\\sin(\\widehat{BAC})} = \\frac{\\sqrt{19}}{\\sin 120^\\circ} = \\frac{\\sqrt{19}}{\\frac{\\sqrt{3}}{2}} = \\frac{2\\sqrt{19}}{\\sqrt{3}} \\Rightarrow R = \\sqrt{\\frac{19}{3}}\\text{ m}$$\nDiện tích hình tròn của miệng giếng là:\n$$S = \\pi R^2 = \\pi \\cdot \\frac{19}{3} \\approx 3{,}14 \\cdot \\frac{19}{3} \\approx 19{,}8866...\\text{ m}^2 \\approx 19{,}9\\text{ m}^2$$\nLàm tròn đến hàng phần chục được kết quả là $19{,}9\\text{ m}^2$.\nĐáp số: 19,9.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p3.png",
+          "sha256": "458cd878e1f14424f42ae91fb564b0ec420add07fce30377548c92411d0644c2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p7.png",
+          "sha256": "74f000f73c4e50b62c202782a16e6c1c0252b6ecc5b4be36a819862bde6cbe49"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho 2 tập hợp $A = [-3; 4)$, $B = (-1; 6]$. Xác định $A \\cup B$, $A \\cap B$, $A \\setminus B$.",
+      "explanation": "Cho hai tập hợp $A = [-3; 4)$ và $B = (-1; 6]$:\n- Hợp của hai tập hợp $A \\cup B$ gồm các phần tử thuộc $A$ hoặc thuộc $B$:\n  $$A \\cup B = [-3; 6]$$\n- Giao của hai tập hợp $A \\cap B$ gồm các phần tử đồng thời thuộc cả $A$ và $B$:\n  $$A \\cap B = (-1; 4)$$\n- Hiệu $A \\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$:\n  $$A \\setminus B = [-3; -1]$$\nĐáp số: A \\cup B = [-3; 6]; A \\cap B = (-1; 4); A \\setminus B = [-3; -1].",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p3.png",
+          "sha256": "458cd878e1f14424f42ae91fb564b0ec420add07fce30377548c92411d0644c2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p8.png",
+          "sha256": "94d33e546f131d683803feffc1257fceabd166fe459992852867cca1a96d95eb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Biểu diễn miền nghiệm của bất phương trình $2x - y \\ge 4$ trên mặt phẳng tọa độ.",
+      "explanation": "Các bước biểu diễn miền nghiệm của bất phương trình $2x - y \\ge 4$:\n1. Vẽ đường thẳng $d: 2x - y = 4$ trên mặt phẳng tọa độ $Oxy$:\n   - Cho $x = 0 \\Rightarrow y = -4$, điểm $(0; -4) \\in d$.\n   - Cho $y = 0 \\Rightarrow x = 2$, điểm $(2; 0) \\in d$.\n   Vẽ đường thẳng đi qua hai điểm $(0; -4)$ và $(2; 0)$.\n2. Chọn điểm kiểm tra $O(0; 0)$ không thuộc đường thẳng $d$.\n   Thay tọa độ điểm $O(0; 0)$ vào vế trái của bất phương trình:\n   $$2 \\cdot 0 - 0 = 0$$\n   Vì $0 \\ge 4$ là mệnh đề sai, nên gốc tọa độ $O(0; 0)$ không thuộc miền nghiệm.\n3. Kết luận: Miền nghiệm của bất phương trình $2x - y \\ge 4$ là nửa mặt phẳng có bờ là đường thẳng $d: 2x - y = 4$ không chứa gốc tọa độ $O(0; 0)$ (kể cả bờ $d$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p3.png",
+          "sha256": "458cd878e1f14424f42ae91fb564b0ec420add07fce30377548c92411d0644c2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p8.png",
+          "sha256": "94d33e546f131d683803feffc1257fceabd166fe459992852867cca1a96d95eb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-009-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-009.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Ông An định thiết kế một mảnh đất trồng rau có dạng hình ngũ giác $ABCDE$ (xem hình minh họa bên dưới). Ông đo được các cạnh $AB, CD, DE, EA$ lần lượt là $3\\text{ m}, 6\\text{ m}, 7\\text{ m}, 4\\text{ m}$; cạnh $BC \\parallel AD$ và $\\widehat{BAC} = 30^\\circ, \\widehat{CAD} = 30^\\circ$. Hãy giúp ông An tính diện tích mảnh đất (đơn vị mét vuông, kết quả diện tích mảnh đất làm tròn đến hàng phần trăm).\n\n![Ngũ giác ABCDE](/math-import-assets/thpt-figure-009-p3-part4-q3-pentagon.png)",
+      "explanation": "Chia ngũ giác $ABCDE$ thành ba tam giác $\\triangle ABC$, $\\triangle ACD$ và $\\triangle AED$:\n1. Trong tam giác $ABC$:\n   Vì $BC \\parallel AD$ nên hai góc trong cùng phía $\\widehat{ABC} + \\widehat{BAD} = 180^\\circ$, suy ra $\\widehat{ABC} = 180^\\circ - 60^\\circ = 120^\\circ$.\n   Góc $\\widehat{ACB} = 180^\\circ - 120^\\circ - 30^\\circ = 30^\\circ$.\n   Vì $\\widehat{BAC} = \\widehat{ACB} = 30^\\circ$ nên $\\triangle ABC$ cân tại $B \\Rightarrow BC = AB = 3\\text{ m}$.\n   Diện tích: $S_{ABC} = \\frac{1}{2} AB \\cdot BC \\cdot \\sin 120^\\circ = \\frac{1}{2} \\cdot 3 \\cdot 3 \\cdot \\frac{\\sqrt{3}}{2} = \\frac{9\\sqrt{3}}{4} \\approx 3{,}897\\text{ m}^2$.\n   Độ dài cạnh $AC$: $AC^2 = 3^2 + 3^2 - 2(3)(3)\\cos 120^\\circ = 27 \\Rightarrow AC = 3\\sqrt{3}\\text{ m}$.\n2. Trong tam giác $ACD$:\n   Theo định lý côsin áp dụng cho cạnh $CD$:\n   $$CD^2 = AC^2 + AD^2 - 2 \\cdot AC \\cdot AD \\cdot \\cos 30^\\circ$$\n   $$6^2 = (3\\sqrt{3})^2 + AD^2 - 2(3\\sqrt{3}) \\cdot AD \\cdot \\frac{\\sqrt{3}}{2} \\Leftrightarrow AD^2 - 9AD - 9 = 0$$\n   Vì $AD > 0$ nên $AD = \\frac{9 + 3\\sqrt{13}}{2} \\approx 9{,}908\\text{ m}$.\n   Diện tích: $S_{ACD} = \\frac{1}{2} AC \\cdot AD \\cdot \\sin 30^\\circ = \\frac{1}{2} \\cdot 3\\sqrt{3} \\cdot \\left(\\frac{9 + 3\\sqrt{13}}{2}\\right) \\cdot \\frac{1}{2} \\approx 12{,}87\\text{ m}^2$.\n3. Trong tam giác $AED$:\n   Ba cạnh có độ dài $AE = 4\\text{ m}, ED = 7\\text{ m}, AD \\approx 9{,}908\\text{ m}$.\n   Nửa chu vi $p = \\frac{4 + 7 + 9{,}908}{2} \\approx 10{,}454\\text{ m}$.\n   Theo công thức Heron: $S_{AED} = \\sqrt{p(p - AE)(p - ED)(p - AD)} \\approx 11{,}28\\text{ m}^2$.\n4. Tổng diện tích mảnh đất ngũ giác $ABCDE$ là:\n   $$S = S_{ABC} + S_{ACD} + S_{AED} \\approx 3{,}90 + 12{,}87 + 11{,}28 = 28{,}05\\text{ m}^2$$\n   (Lưu ý: Barem nguồn có lỗi in cộng nhầm kết quả thành $20{,}05\\text{ m}^2$; phép tính hình học chính xác cho tổng ba tam giác là $28{,}05\\text{ m}^2$).\nĐáp số: 28,05 m².",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p3.png",
+          "sha256": "458cd878e1f14424f42ae91fb564b0ec420add07fce30377548c92411d0644c2"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p8.png",
+          "sha256": "94d33e546f131d683803feffc1257fceabd166fe459992852867cca1a96d95eb"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-009-p9.png",
+          "sha256": "228fa1718f7f361ff4ae15d65e775ff7cf488375ffe6aa9aba422773b6d63978"
+        }
+      ]
+    }
+  ]
+}

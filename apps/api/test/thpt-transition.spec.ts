@@ -13,7 +13,7 @@ import { EXAM_QUESTION_COUNTS } from '../src/modules/diagnostic/diagnostic-bluep
 
 describe('THPT transition without changing bank records or assignment snapshots', () => {
   it('exposes only grades 10–12 and a unique catalogue, never synthetic database IDs', async () => {
-    const db = { skillNode: { findMany: vi.fn() } };
+    const db = { skillNode: { findMany: vi.fn().mockResolvedValue([]) } };
     const service = new CurriculumService(db as any);
     expect(service.getGrades().map(g => g.id)).toEqual([10, 11, 12]);
     expect(THPT_CURRICULUM.map(g => g.chapters.length)).toEqual([9, 9, 6]);
@@ -26,14 +26,26 @@ describe('THPT transition without changing bank records or assignment snapshots'
       expect(result.chapters.flatMap(c => c.skills).every(s => !s.persisted && s.questionsCount === 0)).toBe(true);
     }
     expect((await service.getSkillsByGrade(9)).chapters).toEqual([]);
-    expect(db.skillNode.findMany).not.toHaveBeenCalled();
+    expect(db.skillNode.findMany).toHaveBeenCalledTimes(3);
   });
-  it('blocks legacy bank distribution before any database operation', async () => {
-    const db = new Proxy({}, { get() { throw new Error('Unexpected database access'); } });
-    expect(await new AdminService(db as any).getQuestions()).toEqual([]);
-    await expect(new AssignmentService(db as any).randomPreview('teacher', { skillIds: ['old'] })).rejects.toThrow('THPT');
-    await expect(new DiagnosticService(db as any).startAttempt('student')).rejects.toThrow('THPT');
-    await expect(new MathPracticeService(db as any).start('student', 'old')).rejects.toThrow('THPT');
+  it('keeps live bank and diagnostics THPT-scoped while preserving stored historical records', async () => {
+    const db:any = { question:{findMany:vi.fn().mockResolvedValue([])}, studentProfile:{findUnique:vi.fn().mockResolvedValue({grade:9})},
+      diagnosticAttempt:{findFirst:vi.fn().mockResolvedValue(null)}, mathPracticeSession:{findFirst:vi.fn().mockResolvedValue(null)},$queryRaw:vi.fn() };
+    db.$transaction=(fn:any)=>fn(db);
+    expect(await new AdminService(db).getQuestions()).toEqual([]);
+    expect(db.question.findMany.mock.calls[0][0].where.AND[0].skill.grade.in).toEqual([10,11,12]);
+    await expect(new AssignmentService(db).randomPreview('teacher', { skillIds: ['old'] })).rejects.toThrow();
+    expect(db.question.findMany.mock.calls[1][0].where.skill.grade.in).toEqual([10,11,12]);
+    await expect(new DiagnosticService(db).startAttempt('student')).rejects.toThrow('THPT');
+    await expect(new MathPracticeService(db).start('student', 'old')).rejects.toThrow('THPT');
+    expect(db.studentProfile).not.toHaveProperty('delete');
+  });
+  it('reports actual availability using persisted THPT skill IDs',async()=>{
+    const db:any={skillNode:{findMany:vi.fn().mockResolvedValue([{id:'real-skill',code:'KNTT-10',title:'Tập hợp',chapter:'Mệnh đề và tập hợp',orderIndex:1,
+      questions:Array.from({length:3},(_,index)=>({id:`q${index}`,status:'PUBLISHED',questionType:'SINGLE_CHOICE'}))}])}};
+    const result=await new CurriculumService(db).getSkillsByGrade(10);
+    expect(result.bankStatus).toBe('AVAILABLE');
+    expect(result.chapters[0].skills[0]).toMatchObject({id:'real-skill',persisted:true,questionsCount:3,canPractice:true});
   });
   it('accepts THPT profile/class grades and rejects THCS grades', async () => {
     for (const grade of [10, 11, 12]) {

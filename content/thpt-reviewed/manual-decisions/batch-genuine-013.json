@@ -1,0 +1,628 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Phủ định của mệnh đề: \"$\\exists x \\in \\mathbb{N}: 2x^2 - 5x + 3 = 0$\" là mệnh đề nào sau đây?",
+      "explanation": "Phủ định của mệnh đề \"$\\exists x \\in X: P(x)$\" là mệnh đề \"$\\forall x \\in X: \\overline{P(x)}$\". Do đó phủ định của \"$\\exists x \\in \\mathbb{N}: 2x^2 - 5x + 3 = 0$\" là \"$\\forall x \\in \\mathbb{N}: 2x^2 - 5x + 3 \\ne 0$\". Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-1.png",
+          "sha256": "2939ffc8f97ddfc191502e918eda4c4bdd39cebd6faeac19c87a69ce7c8265a6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Một cơ sở sản xuất hai loại bàn và ghế. Để làm 1 chiếc bàn cần 3 tấm gỗ và 2 giờ công; để làm 1 chiếc ghế cần 2 tấm gỗ và 1 giờ công. Cơ sở có tối đa 18 tấm gỗ và 10 giờ công trong một ngày. Lợi nhuận từ mỗi chiếc bàn và ghế lần lượt là 200 nghìn đồng và 100 nghìn đồng. Gọi $x, y$ lần lượt là số bàn và ghế được làm trong ngày. Để lợi nhuận đạt lớn nhất, trong ngày cơ sở cần sản xuất bao nhiêu chiếc mỗi loại?",
+      "explanation": "Hệ bất phương trình ràng buộc về số tấm gỗ và giờ công trong ngày là:\n$$\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ 3x + 2y \\le 18 \\\\ 2x + y \\le 10 \\end{cases}$$\nLợi nhuận thu được là $F(x; y) = 200x + 100y$ (nghìn đồng).\nKiểm tra các phương án:\n- Phương án A ($x = 5, y = 0$): $3(5) + 2(0) = 15 \\le 18$, $2(5) + 0 = 10 \\le 10$ (thỏa mãn), $F(5; 0) = 200(5) = 1000$ nghìn đồng.\n- Phương án B ($x = 0, y = 9$): $3(0) + 2(9) = 18 \\le 18$, $2(0) + 9 = 9 \\le 10$ (thỏa mãn), $F(0; 9) = 900$ nghìn đồng.\n- Phương án C ($x = 5, y = 2$): $3(5) + 2(2) = 19 > 18$ (không thỏa mãn ràng buộc gỗ).\n- Phương án D ($x = 0, y = 0$): $F = 0$.\nVậy trong các phương án, cơ sở sản xuất $x = 5, y = 0$ thu được lợi nhuận lớn nhất (1000 nghìn đồng). Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-1.png",
+          "sha256": "2939ffc8f97ddfc191502e918eda4c4bdd39cebd6faeac19c87a69ce7c8265a6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho biết $\\tan \\alpha = \\frac{1}{\\sqrt{3}}$. Tính $\\cot \\alpha$.",
+      "explanation": "Theo hệ thức liên hệ giữa tang và cotang: $\\tan \\alpha \\cdot \\cot \\alpha = 1$, suy ra $\\cot \\alpha = \\frac{1}{\\tan \\alpha} = \\frac{1}{1/\\sqrt{3}} = \\sqrt{3}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-1.png",
+          "sha256": "2939ffc8f97ddfc191502e918eda4c4bdd39cebd6faeac19c87a69ce7c8265a6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Hệ bất phương trình bậc nhất hai ẩn gồm các bất phương trình bậc nhất đối với hai ẩn $x, y$. Phương án A gồm hai bất phương trình $3x - y > 5$ và $6x + 4y < 1$ đều là bậc nhất hai ẩn. Phương án B là hệ phương trình, C chứa tích $xy$, D chứa bậc hai $x^2$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-1.png",
+          "sha256": "2939ffc8f97ddfc191502e918eda4c4bdd39cebd6faeac19c87a69ce7c8265a6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Phần không bị gạch trong hình vẽ sau đây là biểu diễn của tập hợp nào?\n\n![Trục số](/math-import-assets/thpt-figure-010-p1-q5-axis.png)",
+      "explanation": "Quan sát trục số:\n- Tại điểm $-2$ có dấu ngoặc tròn quay về bên trái, phần bị gạch nằm từ $-2$ đến $5$, do đó miền không bị gạch bên trái là $(-\\infty; -2)$.\n- Tại điểm $5$ có dấu ngoặc vuông quay về bên phải, do đó miền không bị gạch bên phải là $[5; +\\infty)$.\nVậy tập hợp được biểu diễn là $(-\\infty; -2) \\cup [5; +\\infty)$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-1.png",
+          "sha256": "2939ffc8f97ddfc191502e918eda4c4bdd39cebd6faeac19c87a69ce7c8265a6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Phần không tô đậm trong hình vẽ dưới đây (không kể bờ), biểu diễn miền nghiệm của hệ bất phương trình nào trong các hệ bất phương trình sau?\n\n![Miền nghiệm hệ bất phương trình](/math-import-assets/thpt-figure-010-p1-q6-region.png)",
+      "explanation": "Quan sát hình vẽ:\n- Hai đường thẳng bờ là $d_1: y = x \\Leftrightarrow x - y = 0$ và $d_2: y = 2x - 1 \\Leftrightarrow 2x - y = 1$.\n- Miền không tô đậm chứa điểm $(2; 0)$ trên trục hoành. Thay tọa độ $(2; 0)$ vào hai biểu thức:\n  - $x - y = 2 - 0 = 2 > 0$;\n  - $2x - y = 2(2) - 0 = 4 > 1$.\n- Vì không kể bờ nên các bất phương trình mang dấu ngặt ($>$).\nDo đó hệ bất phương trình là $\\begin{cases} x - y > 0 \\\\ 2x - y > 1 \\end{cases}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-1.png",
+          "sha256": "2939ffc8f97ddfc191502e918eda4c4bdd39cebd6faeac19c87a69ce7c8265a6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\frac{2x - 1}{x^2 - 4x - 5}$ là:",
+      "explanation": "Điều kiện xác định của hàm số là mẫu số khác 0:\n$$x^2 - 4x - 5 \\ne 0 \\Leftrightarrow (x + 1)(x - 5) \\ne 0 \\Leftrightarrow \\begin{cases} x \\ne -1 \\\\ x \\ne 5 \\end{cases}$$\nVậy tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{-1; 5\\}$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-1.png",
+          "sha256": "2939ffc8f97ddfc191502e918eda4c4bdd39cebd6faeac19c87a69ce7c8265a6"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Trong kì thi học sinh giỏi cấp trường, lớp 10A có 15 học sinh thi môn Ngữ văn, 20 học sinh thi môn Toán, 5 học sinh thi cả hai môn Ngữ văn và Toán. Biết rằng lớp 10A có 40 học sinh, hỏi lớp 10A có bao nhiêu học sinh không thi cả hai môn Toán và Ngữ văn.",
+      "explanation": "Số học sinh tham gia thi ít nhất một trong hai môn Toán hoặc Ngữ văn là:\n$$15 + 20 - 5 = 30$$ học sinh.\nSố học sinh không thi cả hai môn là:\n$$40 - 30 = 10$$ học sinh.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của hệ bất phương trình $\\begin{cases} x - 2y < 0 \\\\ x + 3y > 2 \\\\ x - y < 3 \\end{cases}$ chứa điểm nào sau đây?",
+      "explanation": "Thay tọa độ điểm $(2; 6)$ vào từng bất phương trình của hệ:\n- $2 - 2(6) = -10 < 0$ (đúng);\n- $2 + 3(6) = 20 > 2$ (đúng);\n- $2 - 6 = -4 < 3$ (đúng).\nVậy điểm $(2; 6)$ thuộc miền nghiệm của hệ bất phương trình. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = [-8; 3]$, $B = (1; 6]$. Khi đó, tập $B \\setminus A$ là:",
+      "explanation": "Hiệu $B \\setminus A$ là tập hợp các phần tử thuộc $B$ nhưng không thuộc $A$:\n$$B \\setminus A = (1; 6] \\setminus [-8; 3] = (3; 6].$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho $0^\\circ \\le x \\le 180^\\circ$. Khẳng định nào sau đây đúng?",
+      "explanation": "Theo tính chất hai góc bù nhau, với mọi $0^\\circ \\le x \\le 180^\\circ$ ta có: $\\sin(180^\\circ - x) = \\sin x$. Các giá trị $\\cos, \\tan, \\cot$ của góc bù đều đối dấu. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Miền nghiệm của bất phương trình $x + 3 + 2(2y + 5) < 2(1 - x)$ không chứa điểm nào sau đây?",
+      "explanation": "Rút gọn bất phương trình:\n$$x + 3 + 4y + 10 < 2 - 2x \\Leftrightarrow 3x + 4y + 11 < 0.$$\nThay tọa độ điểm $A(-1; -2)$ vào vế trái:\n$$3(-1) + 4(-2) + 11 = -3 - 8 + 11 = 0 \\not< 0.$$\nDo đó điểm $A(-1; -2)$ không thuộc miền nghiệm. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q013",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào dưới đây không phải là bất phương trình bậc nhất hai ẩn?",
+      "explanation": "Bất phương trình $2x + xy \\le 4$ chứa số hạng bậc hai $xy$ nên không phải là bất phương trình bậc nhất hai ẩn. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q014",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ bên dưới.\n\n![Đồ thị hàm số](/math-import-assets/thpt-figure-010-p2-diagram.jpeg)\n\nTập giá trị của hàm số đã cho là:",
+      "explanation": "Dựa vào đồ thị hàm số, giá trị nhỏ nhất của $y$ là $-3$ (tại $x = -4$) và giá trị lớn nhất là $5$ (tại $x = 4$). Đồ thị liên tục nên tập giá trị của hàm số là $[-3; 5]$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q015",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 2,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Bảng biến thiên của hàm số $y = -2x^2 + 4x + 1$ là bảng nào sau đây?\n\n- Phương án A: $x$ từ $-\\infty \\to 1 \\to +\\infty$; $y$ tăng từ $-\\infty$ lên $3$ rồi giảm xuống $-\\infty$.\n- Phương án B: $x$ từ $-\\infty \\to 2 \\to +\\infty$; $y$ tăng từ $-\\infty$ lên $1$ rồi giảm xuống $-\\infty$.\n- Phương án C: $x$ từ $-\\infty \\to 1 \\to +\\infty$; $y$ giảm từ $+\\infty$ xuống $3$ rồi tăng lên $+\\infty$.\n- Phương án D: $x$ từ $-\\infty \\to 2 \\to +\\infty$; $y$ giảm từ $+\\infty$ xuống $1$ rồi tăng lên $+\\infty$.",
+      "explanation": "Parabol $y = -2x^2 + 4x + 1$ có hệ số $a = -2 < 0$ nên bề lõm quay xuống dưới. Tọa độ đỉnh là $x = -\\frac{b}{2a} = 1$ và $y(1) = 3$. Do đó hàm số đồng biến trên $(-\\infty; 1)$ và nghịch biến trên $(1; +\\infty)$, giá trị lớn nhất là 3. Bảng biến thiên ở phương án A mô tả đúng đặc điểm này. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-2.png",
+          "sha256": "55d1868c35dab49db270685b1b35a66e4b662142f0c156ff64867f55275c615f"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q016",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho mệnh đề chứa biến $P(x): \"-2x^2 + x + 1 < 0\"$. Giá trị nào sau đây của biến $x$ làm cho $P(x)$ trở thành một mệnh đề sai?",
+      "explanation": "Thay $x = \\frac{1}{2}$ vào bất phương trình:\n$$-2\\left(\\frac{1}{2}\\right)^2 + \\frac{1}{2} + 1 = -\\frac{1}{2} + \\frac{1}{2} + 1 = 1 < 0$$ (khẳng định sai).\nDo đó tại $x = \\frac{1}{2}$, mệnh đề $P(x)$ trở thành mệnh đề sai. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q017",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Hãy liệt kê các phần tử của tập $X = \\{x \\in \\mathbb{N} \\mid (x + 3)(2x^2 - 7x + 5) = 0\\}$.",
+      "explanation": "Phương trình $(x + 3)(2x^2 - 7x + 5) = 0 \\Leftrightarrow x = -3$ hoặc $x = 1$ hoặc $x = \\frac{5}{2}$.\nVì điều kiện $x \\in \\mathbb{N}$ (tập số tự nhiên), nên chỉ có nghiệm $x = 1$ thỏa mãn.\nVậy $X = \\{1\\}$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q018",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Trong các câu sau, có bao nhiêu câu là mệnh đề?\n1) \"19 là số nguyên tố\".\n2) \"Tam giác vuông có một đường trung tuyến bằng nửa cạnh huyền\".\n3) \"Các em cố gắng tập thật tốt nhé, sắp thi giữa học kỳ 1 rồi!\".\n4) \"Mọi hình chữ nhật đều nội tiếp được đường tròn\".",
+      "explanation": "Các câu 1, 2, 4 là những câu khẳng định có tính đúng hoặc sai xác định, nên là các mệnh đề. Câu 3 là câu cảm thán/hiệu triệu nên không phải mệnh đề. Vậy có 3 câu là mệnh đề. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q019",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho $A = \\{x \\in \\mathbb{N}^* \\mid x < 10, x \\ \\vdots \\ 3\\}$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Các số nguyên dương nhỏ hơn 10 chia hết cho 3 là $3, 6, 9$. Do đó $A = \\{3; 6; 9\\}$, có tất cả 3 phần tử. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q020",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng dự định nhập hai loại sản phẩm. Mỗi sản phẩm loại A có giá 200 nghìn đồng, Mỗi sản phẩm loại B có giá 300 nghìn đồng. Cửa hàng chỉ có số tiền tối đa là 12 triệu đồng để nhập hàng. Gọi $x$ và $y$ lần lượt là số sản phẩm loại A và loại B được nhập. Hãy lập bất phương trình theo $x$ và $y$ để biểu diễn điều kiện về chi phí mà cửa hàng phải thỏa mãn.",
+      "explanation": "Đổi 12 triệu đồng = 12000 nghìn đồng. Chi phí nhập $x$ sản phẩm loại A và $y$ sản phẩm loại B là $200x + 300y$ (nghìn đồng). Vì số tiền tối đa là 12000 nghìn đồng nên bất phương trình là $200x + 300y \\le 12000$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q021",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Giá trị của $\\tan 36^\\circ$ bằng?",
+      "explanation": "Vì $36^\\circ + 54^\\circ = 90^\\circ$ là hai góc phụ nhau nên $\\tan 36^\\circ = \\cot 54^\\circ$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q022",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Một chiếc cổng hình parabol có phương trình $f(x) = -\\frac{1}{2}x^2$. Biết cổng có chiều rộng $d = 6\\text{ m}$ (như hình vẽ). Hãy tính chiều cao $h$ của cổng.\n\n![Cổng parabol](/math-import-assets/thpt-figure-010-p3-diagram.jpeg)",
+      "explanation": "Vì cổng có chiều rộng $d = 6\\text{ m}$ và đối xứng qua trục tung $Oy$ nên hoành độ hai chân cổng lần lượt là $x = -3$ và $x = 3$. Tung độ tại chân cổng là $f(3) = -\\frac{1}{2}(3)^2 = -4{,}5\\text{ m}$. Đỉnh cổng ở gốc tọa độ $(0; 0)$ nên chiều cao của cổng là $h = 0 - (-4{,}5) = 4{,}5\\text{ m}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q023",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho tập hợp $A = \\{2, 3, 4\\}$ và $B = \\{2, 4, 6, 7, 8\\}$. Khi đó $A \\cup B$ là:",
+      "explanation": "Hợp của hai tập hợp $A$ và $B$ gồm tất cả các phần tử thuộc $A$ hoặc thuộc $B$:\n$$A \\cup B = \\{2, 3, 4, 6, 7, 8\\}.$$\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-I-Q024",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 3,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Một cửa hàng bán giày nhập vào một đôi với giá là 40 nghìn đồng. Cửa hàng ước tính rằng nếu đôi giày được bán với giá $x$ nghìn đồng thì mỗi tháng khách hàng sẽ mua $(120 - x)$ đôi. Hỏi cửa hàng bán một đôi giày giá bao nhiêu nghìn đồng thì thu được nhiều lãi nhất?",
+      "explanation": "Lợi nhuận từ một đôi giày bán ra là $x - 40$ (nghìn đồng). Tổng lợi nhuận mỗi tháng là:\n$$L(x) = (x - 40)(120 - x) = -x^2 + 160x - 4800.$$\nĐây là hàm số bậc hai có hệ số $a = -1 < 0$, đạt giá trị lớn nhất tại hoành độ đỉnh:\n$$x = -\\frac{b}{2a} = -\\frac{160}{2(-1)} = 80$$ nghìn đồng.\nVậy cửa hàng bán với giá 80 nghìn đồng một đôi thì thu được nhiều lãi nhất. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-3.png",
+          "sha256": "6c625a46d90f6f0831935f14388b5bcebb03122ef558a3c5011c6c4c60cf528a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-4.png",
+          "sha256": "bc50135246e5658662937d827cf5f43d778cfdf342be24b9ce635732ba49e1f1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hai tập hợp: $A = (-3; 5], B = (2; +\\infty)$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Giải thích chi tiết từng ý:\n- Ý A: Khoảng $(2; +\\infty)$ là tập hợp các số thực lớn hơn 2, nên $B = \\{x \\in \\mathbb{R} \\mid x > 2\\}$. Mệnh đề đúng.\n- Ý B: $A \\cup B = (-3; 5] \\cup (2; +\\infty) = (-3; +\\infty)$. Mệnh đề đúng.\n- Ý C: $A = (-3; 5]$ không chứa điểm $-3$ (ngoặc tròn), nên điều kiện đúng là $-3 < x \\le 5$. Mệnh đề sai.\n- Ý D: $A \\cap B = (-3; 5] \\cap (2; +\\infty) = (2; 5]$. Mệnh đề sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-4.png",
+          "sha256": "bc50135246e5658662937d827cf5f43d778cfdf342be24b9ce635732ba49e1f1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hệ bất phương trình: $\\begin{cases} x + 2y \\le 5 \\\\ y \\ge 0 \\\\ -2x + 6y \\ge 12 \\end{cases}$. Khi đó:",
+      "explanation": "Kiểm tra từng mệnh đề:\n- Ý A: Thay $(-1; 3)$ vào hệ: $-1 + 2(3) = 5 \\le 5$ (đúng), $3 \\ge 0$ (đúng), $-2(-1) + 6(3) = 20 \\ge 12$ (đúng). Do đó $(-1; 3)$ là một nghiệm của hệ. Khẳng định \"không là nghiệm\" là sai.\n- Ý B: Thay $(-2; 0)$ vào bất phương trình thứ ba: $-2(-2) + 6(0) = 4 \\ge 12$ (sai). Do đó $(-2; 0)$ không là nghiệm. Mệnh đề sai.\n- Ý C: Cả ba bất phương trình trong hệ đều là bậc nhất hai ẩn. Mệnh đề đúng.\n- Ý D: Tọa độ giao điểm của các đường bờ không phải là $(-6; 0), (5; 0), (1; 1)$ (chẳng hạn $(5; 0)$ không thỏa mãn bất phương trình thứ ba). Mệnh đề sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-4.png",
+          "sha256": "bc50135246e5658662937d827cf5f43d778cfdf342be24b9ce635732ba49e1f1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Xét hàm số bậc hai $y = -x^2 + 4x + 5$. Hãy xác định các mệnh đề sau đúng hay sai:",
+      "explanation": "Xét hàm số $y = -x^2 + 4x + 5$:\n- Trục đối xứng $x = -\\frac{b}{2a} = -\\frac{4}{2(-1)} = 2$. Ý A đúng.\n- Tọa độ đỉnh $S(2; y(2))$ với $y(2) = -(2)^2 + 4(2) + 5 = 9$. Ý B đúng.\n- Hệ số $a = -1 < 0$ nên parabol có bề lõm quay xuống dưới. Khẳng định \"hướng lên trên\" là sai. Ý C sai.\n- Trên đoạn $[0; 4]$, đỉnh $x = 2 \\in [0; 4]$ cho giá trị lớn nhất $y_{\\max} = 9 \\ne 12$. Ý D sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-4.png",
+          "sha256": "bc50135246e5658662937d827cf5f43d778cfdf342be24b9ce635732ba49e1f1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK1-010-M1001-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-GIUA_HK1-010.pdf",
+      "pdfPage": 4,
+      "sourceExamCode": "1001",
+      "sourceExamName": "Mã đề 1001",
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = \\begin{cases} 5x + 2 & \\text{khi } x \\ge 1 \\\\ 3 - x & \\text{khi } x < 1 \\end{cases}$. Các mệnh đề sau đúng hay sai?",
+      "explanation": "Xét từng mệnh đề đối với hàm số từng khúc:\n- Ý A: Với $x = 0 < 1$, $f(0) = 3 - 0 = 3$. Mệnh đề đúng.\n- Ý B: Trên khoảng $(-\\infty; 1)$, $f(x) = 3 - x$ có hệ số góc $-1 < 0$ nên nghịch biến, không phải đồng biến trên $\\mathbb{R}$. Mệnh đề sai.\n- Ý C: Hàm số xác định với mọi $x \\ge 1$ và $x < 1$, do đó tập xác định là $D = \\mathbb{R}$. Mệnh đề đúng.\n- Ý D: Với $x = 2 \\ge 1$, $f(2) = 5(2) + 2 = 12$. Mệnh đề đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-4.png",
+          "sha256": "bc50135246e5658662937d827cf5f43d778cfdf342be24b9ce635732ba49e1f1"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK1-010-page-5.png",
+          "sha256": "ef42f575aedabdbf132712e250891656e7d6cd20d819c7b150556f22471bbb08"
+        }
+      ]
+    }
+  ]
+}

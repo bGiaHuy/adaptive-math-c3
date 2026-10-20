@@ -51,3 +51,15 @@ Không đặt ngoại lệ cho 9 lỗi cũ; di chuyển đúng quyền sở hữ
 Baseline toàn API lỗi tại assignment.integration, e2e-scenarios.integration, diagnostic-resilience.integration, math-learning.integration, classroom.integration, diagnostic.integration và thpt-transition. Nhiều fixture dùng grade 9 trong lúc DTO yêu cầu THPT; test legacy pause cũng không khớp luồng đọc bank. Chưa coi đây là toàn bộ nguyên nhân; C3-01 phải phân tích từng test.
 
 Không chạy browser end-to-end, smoke test production hoặc workflow GitHub hosted. Test helper/HTTP route đạt không chứng minh toàn bộ phiên auth/session/persistence thực tế. Không deploy hoặc đổi cấu hình cloud kế thừa. Job API CI giữ failure hiển thị, không dùng continue-on-error.
+
+## Cập nhật THPT ngày 20/10/2026
+
+Các lỗi baseline nêu ở trên đã được điều tra và sửa trong lượt hoàn thiện THPT. Fixture lớp 9 được chuyển sang lớp 10–12; admin/tác giả và ngân hàng ma trận được tạo trong schema PostgreSQL riêng cho từng lần chạy. 17 ca từng bị bỏ qua do beforeAll nay chạy đầy đủ; không thêm skip, không bỏ assertion hoặc nới policy.
+
+`npm run verify` đạt: lint, format:check, architecture:check, typecheck, frontend 52/52, API 226/226 (35 tệp, không skip), build frontend và API. `npm run architecture:test` đạt 22/22. Bằng chứng lệnh trong `tmp/thpt-final-verify.txt` và `tmp/thpt-architecture-tests.txt`; các tệp tmp chỉ là nhật ký cục bộ, không phải đầu vào sản phẩm.
+
+API integration mới kiểm tra mặc định lớp 10, quyền mục tiêu đại học chỉ lớp 12, chuẩn hóa hồ sơ cũ và lưu trữ bài THCS đang làm, bảo toàn lịch sử, lên lớp một lần, dữ liệu biểu đồ/lộ trình theo lớp mới, ôn cả ba dạng câu, private AI theo chủ sở hữu, snapshot riêng của bài giáo viên đã công bố, và chống lộ đáp án từ bài đang làm. Kiểm tra Chrome bằng fixture riêng xác nhận các form mục tiêu và ôn tập, payload, chấm/lưu mức nhớ, cùng các luồng bài đầu vào desktop/mobile. Fixture UI không được coi là smoke test production.
+
+Graphify được cập nhật AST. Công cụ vẫn báo thiếu bộ phân tích SQL và lỗi phân tích ở các tệp có sẵn `scripts/generate_batch_061.py`, `src/components/BrandLogo.jsx`; đây là giới hạn đồ thị, không thay thế build/typecheck. Toàn cây còn whitespace có sẵn ở `scripts/test_batch1_answers.py` và `src/components/QuestionDisplay.css`; không sửa thay đổi ngoài phạm vi để che kết quả.
+
+Migration default THPT được lưu trong repository, chưa deploy/apply trên môi trường người dùng. Không push hoặc triển khai cloud trong lượt này.

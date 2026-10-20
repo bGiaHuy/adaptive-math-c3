@@ -25,7 +25,7 @@ export const dependencies = {
   auth: ['prisma'],
   classroom: ['auth', 'prisma'],
   curriculum: ['auth', 'prisma'],
-  diagnostic: ['auth', 'prisma', 'question', 'curriculum'],
+  diagnostic: ['auth', 'prisma', 'question', 'curriculum', 'ai'],
   english: ['auth', 'prisma'],
   health: ['prisma'],
   student: ['auth', 'prisma', 'question', 'curriculum', 'ai'],

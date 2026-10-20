@@ -47,7 +47,7 @@ describe('Classroom Assignment & Admin Management Integration', () => {
         email: tEmail,
         fullName: 'Thầy Giáo Viên',
         password: 'P@ssword123!',
-        schoolName: 'THCS Giảng Võ'
+        schoolName: 'THPT Giảng Võ'
       });
     teacherId = tReg.body.id;
     await prisma.user.update({
@@ -145,7 +145,7 @@ describe('Classroom Assignment & Admin Management Integration', () => {
     const classRes = await request(app.getHttpServer())
       .post('/api/v1/classrooms')
       .set('Cookie', teacherCookie)
-      .send({ name: 'Lớp 9A Test Đề', grade: 9, academicYear: '2026-2027' })
+      .send({ name: 'Lớp 10A Test Đề', grade: 10, academicYear: '2026-2027' })
       .expect(201);
     classId = classRes.body.classroom.id;
 

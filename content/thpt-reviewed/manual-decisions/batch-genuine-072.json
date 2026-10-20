@@ -1,0 +1,401 @@
+{
+  "batchId": "batch-genuine-072",
+  "reviewedAt": "2026-10-20T12:00:00+07:00",
+  "reviewer": "Antigravity Reviewer",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $\\sin x = 0$ có họ các nghiệm là:",
+      "explanation": "Phương trình lượng giác cơ bản $\\sin x = 0 \\iff x = k\\pi$ ($k \\in \\mathbb{Z}$). Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p1.png",
+          "sha256": "7be246c65e9e514b62bc5e211187bfa856e1f0f12ea5ecfcef8d5fade4bd5778"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số nhân $(u_n)$: $u_1 = -3$ và công bội $q = \\dfrac{2}{3}$. Số hạng thứ 5 của $(u_n)$ là:",
+      "explanation": "Số hạng thứ 5 của cấp số nhân là $u_5 = u_1 \\cdot q^4 = -3 \\cdot \\left(\\dfrac{2}{3}\\right)^4 = -3 \\cdot \\dfrac{16}{81} = -\\dfrac{16}{27}$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p1.png",
+          "sha256": "7be246c65e9e514b62bc5e211187bfa856e1f0f12ea5ecfcef8d5fade4bd5778"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lăng trụ $ABC.A'B'C'$, gọi $I, I'$ lần lượt là trung điểm của $AB, A'B'$. Qua phép chiếu song song theo phương $AI'$ lên mặt phẳng $(A'B'C')$, điểm $I$ biến thành điểm nào sau đây?\n\n![Hình lăng trụ tam giác ABC.A'B'C'](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-I-Q003-fig1.png)",
+      "explanation": "Trong hình bình hành $ABB'A'$, $I$ và $I'$ lần lượt là trung điểm của $AB$ và $A'B'$. Ta có $AI = I'B' = \\dfrac{1}{2}AB$ và $AI \\parallel I'B'$, do đó tứ giác $AIB'I'$ là hình bình hành. Suy ra đường thẳng $IB'$ song song với đường thẳng $AI'$. Vì $B' \\in (A'B'C')$ nên qua phép chiếu song song theo phương $AI'$ lên mặt phẳng $(A'B'C')$, điểm $I$ biến thành điểm $B'$. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p1.png",
+          "sha256": "7be246c65e9e514b62bc5e211187bfa856e1f0f12ea5ecfcef8d5fade4bd5778"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nếu $\\lim_{x \\to 3} f(x) = 2$ thì $\\lim_{x \\to 3} [4x - 3f(x)]$ bằng:",
+      "explanation": "Áp dụng các quy tắc tính giới hạn: $\\lim_{x \\to 3} [4x - 3f(x)] = 4 \\lim_{x \\to 3} x - 3 \\lim_{x \\to 3} f(x) = 4 \\times 3 - 3 \\times 2 = 12 - 6 = 6$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p1.png",
+          "sha256": "7be246c65e9e514b62bc5e211187bfa856e1f0f12ea5ecfcef8d5fade4bd5778"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các mệnh đề sau, mệnh đề nào đúng?",
+      "explanation": "Theo định nghĩa hai đường thẳng chéo nhau trong không gian: hai đường thẳng chéo nhau là hai đường thẳng không cùng nằm trong một mặt phẳng, do đó chúng không có điểm chung. Ngược lại, hai đường thẳng không có điểm chung có thể song song; hai đường thẳng phân biệt không song song có thể cắt nhau. Vậy mệnh đề A đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p1.png",
+          "sha256": "7be246c65e9e514b62bc5e211187bfa856e1f0f12ea5ecfcef8d5fade4bd5778"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành tâm $O$, gọi $M, N$ lần lượt là trung điểm $SA, SD$. Mặt phẳng $(MNO)$ song song với mặt phẳng nào sau đây?\n\n![Hình chóp S.ABCD](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-I-Q006-fig1.png)",
+      "explanation": "Trong $\\triangle SAD$, $MN$ là đường trung bình $\\implies MN \\parallel AD$. Vì $ABCD$ là hình bình hành nên $AD \\parallel BC \\implies MN \\parallel BC \\subset (SBC)$. Trong $\\triangle SBD$, $O$ là trung điểm $BD$ và $N$ là trung điểm $SD \\implies ON$ là đường trung bình $\\implies ON \\parallel SB \\subset (SBC)$. Hai đường thẳng cắt nhau $MN, ON$ trong $(MNO)$ cùng song song với mặt phẳng $(SBC)$, do đó $(MNO) \\parallel (SBC)$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p2.png",
+          "sha256": "3b403bbcfb710fc94af9f267b61a32b715e53f04a3eacd6121f647ebe76448d3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $f(x)$ có đồ thị như hình bên dưới. Hàm số $f(x)$ không liên tục tại điểm nào dưới đây?\n\n![Đồ thị hàm số f(x)](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-I-Q007-fig1.png)",
+      "explanation": "Quan sát đồ thị hàm số, tại điểm có hoành độ $x = 2$, đường cong đồ thị bị đứt đoạn (giới hạn trái khác giới hạn phải). Do đó hàm số $f(x)$ không liên tục (gián đoạn) tại điểm $x = 2$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p2.png",
+          "sha256": "3b403bbcfb710fc94af9f267b61a32b715e53f04a3eacd6121f647ebe76448d3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Công thức số hạng tổng quát $u_n$ của cấp số cộng có số hạng đầu $u_1$ và công sai $d$ là:",
+      "explanation": "Theo lý thuyết cấp số cộng, số hạng tổng quát của cấp số cộng có số hạng đầu $u_1$ và công sai $d$ được xác định bởi công thức: $u_n = u_1 + (n - 1)d$ với $n \\ge 2$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p2.png",
+          "sha256": "3b403bbcfb710fc94af9f267b61a32b715e53f04a3eacd6121f647ebe76448d3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị của $\\tan \\dfrac{\\pi}{6}$ là:",
+      "explanation": "Giá trị lượng giác đặc biệt của góc $\\dfrac{\\pi}{6}$ là: $\\tan \\dfrac{\\pi}{6} = \\dfrac{1}{\\sqrt{3}} = \\dfrac{\\sqrt{3}}{3}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p2.png",
+          "sha256": "3b403bbcfb710fc94af9f267b61a32b715e53f04a3eacd6121f647ebe76448d3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính chất nào không đúng về hình lăng trụ:",
+      "explanation": "Hình lăng trụ có các cạnh bên đôi một song song và bằng nhau, không bao giờ đồng quy tại một điểm (tính chất đồng quy tại đỉnh là của hình chóp). Do đó khẳng định D không đúng. Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p2.png",
+          "sha256": "3b403bbcfb710fc94af9f267b61a32b715e53f04a3eacd6121f647ebe76448d3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai mặt phẳng $(\\alpha), (\\beta)$ cắt nhau và cùng song song với đường thẳng $d$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Theo định lý về giao tuyến của hai mặt phẳng cùng song song với một đường thẳng: Nếu hai mặt phẳng cắt nhau cùng song song với một đường thẳng thì giao tuyến của chúng song song với đường thẳng đó (giao tuyến không thể trùng với $d$ vì $d \\parallel (\\alpha)$ nên $d \\not\\subset (\\alpha)$). Phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p2.png",
+          "sha256": "3b403bbcfb710fc94af9f267b61a32b715e53f04a3eacd6121f647ebe76448d3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hình vẽ nào sau đây không phải là hình biểu diễn của hình chóp tứ giác $S.ABCD$?\n\n- Hình A: ![Hình biểu diễn A](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-I-Q012-optA.png)\n- Hình B: ![Hình biểu diễn B](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-I-Q012-optB.png)\n- Hình C: ![Hình biểu diễn C](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-I-Q012-optC.png)\n- Hình D: ![Hình biểu diễn D](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-I-Q012-optD.png)",
+      "explanation": "Trong hình C, điểm $C$ nằm trực tiếp trên đoạn thẳng $AD$ (ba điểm $A, C, D$ thẳng hàng), do đó đáy không phải là một tứ giác $ABCD$. Hơn nữa đường biểu diễn sai quy tắc nét khuất và nét thấy của hình chóp tứ giác. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p2.png",
+          "sha256": "3b403bbcfb710fc94af9f267b61a32b715e53f04a3eacd6121f647ebe76448d3"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $u_n = \\dfrac{2n^2 + 1}{n^2 + n - 2025}$; $v_n = \\left(\\dfrac{1}{2}\\right)^n$ có $\\lim u_n = a$; $\\lim v_n = b$. Xét tính đúng sai của các mệnh đề sau:",
+      "explanation": "Ta có các giới hạn:\n- $a = \\lim_{n \\to \\infty} \\dfrac{2n^2 + 1}{n^2 + n - 2025} = \\lim_{n \\to \\infty} \\dfrac{2 + \\dfrac{1}{n^2}}{1 + \\dfrac{1}{n} - \\dfrac{2025}{n^2}} = 2$.\n- $b = \\lim_{n \\to \\infty} \\left(\\dfrac{1}{2}\\right)^n = 0$.\nXét từng khẳng định:\n- a) Khi $x \\to -\\infty$ ($x < 0$), ta có $\\sqrt{4x^2 + 1} = |x|\\sqrt{4 + \\dfrac{1}{x^2}} = -x\\sqrt{4 + \\dfrac{1}{x^2}}$. Do đó $\\lim_{x \\to -\\infty} \\dfrac{\\sqrt{4x^2 + 1}}{x - 1} = \\lim_{x \\to -\\infty} \\dfrac{-x\\sqrt{4 + \\dfrac{1}{x^2}}}{x(1 - \\dfrac{1}{x})} = -2 \\ne a = 2$. Mệnh đề a SAI.\n- b) $a = 2$. Mệnh đề b ĐÚNG.\n- c) Vì $b = 0$ và $a = 2$ nên $b < a$. Mệnh đề c ĐÚNG.\n- d) Hàm số $f(x) = \\dfrac{3x + 2}{x^2 - 5x + 6}$ có mẫu số xác định khi $x^2 - 5x + 6 \\ne 0 \\iff x \\ne 2$ và $x \\ne 3$. Tại điểm $x = b = 0$, mẫu số là $6 \\ne 0$ nên $f(x)$ xác định và liên tục tại $x = 0$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p3.png",
+          "sha256": "3b11e1e5353b3eadf51277026b35fe8c27f9143affc0857c9a7ee6a947e0a3ae"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đọc các phát biểu sau đây về dãy số và cho biết mỗi phát biểu là đúng hay sai:",
+      "explanation": "Xét từng phát biểu:\n- a) Số hạng thứ 5: $u_5 = \\dfrac{5 + 1}{5} = \\dfrac{6}{5} \\notin \\mathbb{Z}$. Mệnh đề a SAI.\n- b) Ta có $u_{n+1} - u_n = [2(n + 1) - 1] - (2n - 1) = 2 > 0$ với mọi $n \\ge 1$, do đó dãy $(u_n)$ tăng. Mệnh đề b ĐÚNG.\n- c) Áp dụng công thức tổng $n$ số hạng đầu cấp số cộng: $S_{10} = \\dfrac{10}{2}[2(5) + 9(-2)] = 5(10 - 18) = -40$. Mệnh đề c ĐÚNG.\n- d) Áp dụng công thức cấp số nhân: $u_k = u_1 \\cdot q^{k-1} \\iff 2 \\cdot 3^{k-1} = 162 \\iff 3^{k-1} = 81 = 3^4 \\iff k - 1 = 4 \\iff k = 5$. Mệnh đề d ĐÚNG.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p3.png",
+          "sha256": "3b11e1e5353b3eadf51277026b35fe8c27f9143affc0857c9a7ee6a947e0a3ae"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình hộp $ABCD.A'B'C'D'$. Gọi $G_1, G_2$ là trọng tâm của các tam giác $A'BD, B'D'C$. Tỉ số $\\dfrac{G_1 G_2}{A'C} = \\dfrac{a}{b}$, với $\\dfrac{a}{b}$ là phân số tối giản. Tính $a + b$.\n\n![Hình hộp ABCD.A'B'C'D'](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-III-Q001-fig1.png)",
+      "explanation": "Trong hình hộp $ABCD.A'B'C'D'$, đường chéo $A'C$ cắt hai mặt phẳng $(A'BD)$ và $(B'D'C)$ lần lượt tại trọng tâm $G_1$ của $\\triangle A'BD$ và $G_2$ của $\\triangle B'D'C$. Theo tính chất hình hộp, đường chéo $A'C$ bị chia thành ba đoạn bằng nhau:\n$$A'G_1 = G_1 G_2 = G_2 C = \\dfrac{1}{3} A'C$$\nDo đó tỉ số $\\dfrac{G_1 G_2}{A'C} = \\dfrac{1}{3}$. Vì phân số $\\dfrac{1}{3}$ tối giản nên $a = 1, b = 3$. Vậy $a + b = 1 + 3 = 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p3.png",
+          "sha256": "3b11e1e5353b3eadf51277026b35fe8c27f9143affc0857c9a7ee6a947e0a3ae"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Vào năm 2020, dân số của một quốc gia là 97 triệu người và tốc độ tăng trưởng dân số là 0,91%. Giả sử tốc độ tăng trưởng dân số này được giữ nguyên hàng năm, hãy tính dân số của quốc gia đó vào năm 2030 (đơn vị: triệu người, kết quả làm tròn đến hàng phần mười).",
+      "explanation": "Khoảng thời gian từ năm 2020 đến năm 2030 là $t = 2030 - 2020 = 10$ năm.\nDân số sau 10 năm được tính theo công thức lãi kép liên tục / tăng trưởng hàng năm:\n$$P = P_0 (1 + r)^t = 97 \\times (1 + 0{,}0091)^{10} \\approx 97 \\times 1{,}094818 \\approx 106{,}197\\text{ triệu người}$$\nLàm tròn đến hàng phần mười ta được $106{,}2$ triệu người (bảng đáp án nguồn ghi phần nguyên là $106$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p3.png",
+          "sha256": "3b11e1e5353b3eadf51277026b35fe8c27f9143affc0857c9a7ee6a947e0a3ae"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biết $\\lim \\dfrac{\\sqrt{3n^2 + 1} + n}{2n + 1} = \\dfrac{\\sqrt{a} + 1}{b}$, với $a, b \\in \\mathbb{N}^*$. Tìm $a + b$.",
+      "explanation": "Chia cả tử và mẫu cho $n$ ($n > 0$):\n$$\\lim \\dfrac{\\sqrt{3n^2 + 1} + n}{2n + 1} = \\lim \\dfrac{\\sqrt{3 + \\dfrac{1}{n^2}} + 1}{2 + \\dfrac{1}{n}} = \\dfrac{\\sqrt{3} + 1}{2}$$\nĐối chiếu với dạng $\\dfrac{\\sqrt{a} + 1}{b}$ với $a, b \\in \\mathbb{N}^*$, ta có $a = 3, b = 2$. Do đó $a + b = 3 + 2 = 5$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p3.png",
+          "sha256": "3b11e1e5353b3eadf51277026b35fe8c27f9143affc0857c9a7ee6a947e0a3ae"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông tâm $O$, cạnh bằng $\\sqrt{2}$. Mặt phẳng $(\\alpha)$ song song với $(SBD)$ và qua trung điểm $I$ của $SA$. Mặt phẳng $(\\alpha)$ cắt $AB, AD$ lần lượt tại $M, N$. Tính độ dài đoạn $MN$?\n\n![Hình chóp S.ABCD](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-III-Q004-fig1.png)",
+      "explanation": "Trong $(SAB)$, mặt phẳng $(\\alpha) \\parallel (SBD)$ qua $I$ cắt $AB$ theo giao tuyến $IM \\parallel SB$. Vì $I$ là trung điểm của $SA$ nên $M$ là trung điểm của $AB$.\n- Trong $(SAD)$, $(\\alpha)$ qua $I$ cắt $AD$ theo giao tuyến $IN \\parallel SD$. Vì $I$ là trung điểm của $SA$ nên $N$ là trung điểm của $AD$.\n- Trong $\\triangle ABD$, $M$ và $N$ lần lượt là trung điểm của $AB$ và $AD$, do đó $MN$ là đường trung bình: $MN = \\dfrac{1}{2}BD$.\n- Đáy $ABCD$ là hình vuông cạnh $a = \\sqrt{2}$, nên độ dài đường chéo $BD = a\\sqrt{2} = \\sqrt{2} \\times \\sqrt{2} = 2$.\nSuy ra $MN = \\dfrac{1}{2} \\times 2 = 1$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p4.png",
+          "sha256": "d5e1ced94efe2173dfc80d2e9042612a2e1f07673524bd71f54fa43ef6c3cc39"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho lăng trụ tam giác $ABC.A'B'C'$. Gọi $I, J, K$ lần lượt là trọng tâm $\\triangle ABC$, $\\triangle A'B'C'$, $\\triangle ACC'$. Gọi $M, N, H$ lần lượt là trung điểm $BC, B'C', AC$.\n\na) Chứng minh $AIJA'$ là hình bình hành.\nb) Chứng minh $IK$ song song với mặt phẳng $(BB'C'C)$.\n\n![Hình vẽ bài tự luận lăng trụ](/math-import-assets/THPT-11-CUOI_HK1-134-M1101-PART-IV-Q001-sol-fig1.png)",
+      "explanation": "a) Gọi $M, N$ lần lượt là trung điểm của $BC, B'C'$. Trong hình bình hành $BCC'B'$, ta có $MN \\parallel BB' \\parallel AA'$ và $MN = BB' = AA'$. Do đó $AMNA'$ là hình bình hành, suy ra $AM \\parallel A'N$ và $AM = A'N$.\n- Vì $I$ là trọng tâm $\\triangle ABC$ nên $I \\in AM$ và $AI = \\dfrac{2}{3}AM$.\n- Vì $J$ là trọng tâm $\\triangle A'B'C'$ nên $J \\in A'N$ và $A'J = \\dfrac{2}{3}A'N$.\nSuy ra $AI \\parallel A'J$ và $AI = A'J$. Do đó tứ giác $AIJA'$ là hình bình hành.\n\nb) Gọi $O$ là trung điểm của $A'C$. Vì $K$ là trọng tâm $\\triangle ACC'$ nên $\\dfrac{CK}{CO} = \\dfrac{2}{3} \\implies \\dfrac{A'K}{A'C} = \\dfrac{2}{3}$.\nMặt khác, ta có $\\dfrac{A'I}{A'N} = \\dfrac{2}{3}$. Suy ra $\\dfrac{A'I}{A'N} = \\dfrac{A'K}{A'C} = \\dfrac{2}{3} \\implies IK \\parallel CN$.\nMà $CN \\subset (BB'C'C)$ và $IK \\not\\subset (BB'C'C)$, vậy $IK \\parallel (BB'C'C)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p4.png",
+          "sha256": "d5e1ced94efe2173dfc80d2e9042612a2e1f07673524bd71f54fa43ef6c3cc39"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p6.png",
+          "sha256": "779d92cb758f69883d98b512d86eba6d66ad8004ae9663cc058191f36583319a"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p7.png",
+          "sha256": "07f5931501687fec79fc76b1ea533919e894d1cbdf984f6e2d55f0d4594d0b39"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tính các giới hạn sau:\n\na) $\\lim \\dfrac{3 \\cdot 4^n - 1}{2 \\cdot 5^n - 6}$\n\nb) $\\lim_{x \\to 2} \\dfrac{x - 2}{x^2 + x - 6}$",
+      "explanation": "a) Chia cả tử và mẫu cho $5^n$:\n$$\\lim \\dfrac{3 \\cdot 4^n - 1}{2 \\cdot 5^n - 6} = \\lim \\dfrac{3 \\cdot \\left(\\dfrac{4}{5}\\right)^n - \\left(\\dfrac{1}{5}\\right)^n}{2 - 6 \\cdot \\left(\\dfrac{1}{5}\\right)^n} = \\dfrac{3 \\times 0 - 0}{2 - 6 \\times 0} = 0$$\n\nb) Phân tích đa thức ở mẫu thành nhân tử: $x^2 + x - 6 = (x - 2)(x + 3)$.\n$$\\lim_{x \\to 2} \\dfrac{x - 2}{x^2 + x - 6} = \\lim_{x \\to 2} \\dfrac{x - 2}{(x - 2)(x + 3)} = \\lim_{x \\to 2} \\dfrac{1}{x + 3} = \\dfrac{1}{2 + 3} = \\dfrac{1}{5}$$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p4.png",
+          "sha256": "d5e1ced94efe2173dfc80d2e9042612a2e1f07673524bd71f54fa43ef6c3cc39"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p6.png",
+          "sha256": "779d92cb758f69883d98b512d86eba6d66ad8004ae9663cc058191f36583319a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK1-134-M1101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "a) Một du khách vào trường đua ngựa xem đua ngựa và đặt cược chọn con thắng cuộc. Nếu chọn đúng con thắng cuộc thì sẽ nhận được số tiền gấp đôi số tiền đặt cược, còn nếu chọn sai thì sẽ mất số tiền đặt cược. Người du khách đó lần đầu tiên đặt 10 USD, mỗi lần sau tiền đặt gấp đôi tiền đặt lần trước. Người đó chơi tất cả 10 ván, thắng ở lần thứ 5 và thứ 10, thua ở tất cả các lần còn lại. Sau 10 lần chơi, du khách đó đã lãi hay lỗ và số tiền là bao nhiêu USD?\n\nb) Cho cấp số cộng $(u_n)$ thỏa mãn $\\begin{cases} u_2 + u_5 - u_3 = 10 \\\\ u_4 + u_6 = 26 \\end{cases}$. Tìm số hạng đầu và công sai của cấp số cộng đã cho.",
+      "explanation": "a) Số tiền đặt cược qua các ván lập thành cấp số nhân với $u_1 = 10$ và $q = 2$.\nTổng số tiền người chơi đặt cược sau 10 ván là:\n$$S_{10} = u_1 \\dfrac{2^{10} - 1}{2 - 1} = 10 \\times (1024 - 1) = 10230\\text{ USD}$$\nSố tiền nhận về khi thắng ở ván 5 và ván 10:\n$$2 \\times u_5 + 2 \\times u_{10} = 2 \\times 10 \\times 2^4 + 2 \\times 10 \\times 2^9 = 320 + 10240 = 10560\\text{ USD}$$\nSố tiền chênh lệch sau 10 ván: $10560 - 10230 = 330\\text{ USD} > 0$. Vậy du khách đã lãi $330\\text{ USD}$.\n\nb) Biểu diễn các số hạng qua $u_1$ và công sai $d$:\n$$\\begin{cases} (u_1 + d) + (u_1 + 4d) - (u_1 + 2d) = 10 \\\\ (u_1 + 3d) + (u_1 + 5d) = 26 \\end{cases} \\iff \\begin{cases} u_1 + 3d = 10 \\\\ 2u_1 + 8d = 26 \\end{cases} \\iff \\begin{cases} u_1 + 3d = 10 \\\\ u_1 + 4d = 13 \\end{cases}$$\nLấy phương trình thứ hai trừ phương trình thứ nhất ta được: $d = 3$.\nThay $d = 3$ vào phương trình đầu: $u_1 + 3(3) = 10 \\implies u_1 = 1$.\nVậy cấp số cộng có số hạng đầu $u_1 = 1$ và công sai $d = 3$.\n(Lưu ý đối chiếu: Trong trang đáp án của trường, bước giải ghi $u_1 + 3d = 10; 2u_1 + 8d = 26$ nhưng dòng cuối bị lỗi đánh máy nhầm thành $u_1 = -99, d = 28$; nghiệm chính xác độc lập là $u_1 = 1, d = 3$).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p4.png",
+          "sha256": "d5e1ced94efe2173dfc80d2e9042612a2e1f07673524bd71f54fa43ef6c3cc39"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p5.png",
+          "sha256": "29e9de6acc7ef4e9262956dd100e335f6fd7ed7ce2b585cb19210552db1c0d21"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK1-134-p6.png",
+          "sha256": "779d92cb758f69883d98b512d86eba6d66ad8004ae9663cc058191f36583319a"
+        }
+      ]
+    }
+  ]
+}

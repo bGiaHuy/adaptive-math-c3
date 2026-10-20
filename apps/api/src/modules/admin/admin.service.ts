@@ -1,4 +1,4 @@
-import { LEGACY_BANK_PAUSED } from '../curriculum/thpt-catalog';
+import { LEGACY_BANK_PAUSED, sharedThptDraftWhere } from '../curriculum/thpt-catalog';
 import {
   Injectable,
   NotFoundException,
@@ -30,7 +30,7 @@ export class AdminService {
       where: { id: dto.skillId }
     });
 
-    if (!skill || skill.code === 'MATH9-REVIEW-REQUIRED') {
+    if (!skill || ![10,11,12].includes(skill.grade)) {
       throw new NotFoundException({
         code: 'SKILL_NOT_FOUND',
         message: 'Kỹ năng SkillNode không tồn tại.'
@@ -134,7 +134,7 @@ export class AdminService {
     // During the legacy pause, expose only the independently checked THPT batch.
     const where: any = LEGACY_BANK_PAUSED ? {
       AND: [{ skill: { grade: { in: [10, 11, 12] } } },
-        { source: { path: ['importBatchId'], equals: 'thpt-phuloc-source-54-v1' } },
+        { OR: ['thpt-phuloc-source-54-v1','thpt-nvc-source-18-v1','thpt-batch001-reviewed-18-v1','thpt-text-intake-8-v1','thpt-ttt101-reviewed-18-v1','thpt-manual-round2-36-v1'].map(batchId => ({ source: { path: ['importBatchId'], equals: batchId } })) },
         { source: { path: ['reviewStatus'], equals: 'SOURCE_KEY_AND_SOLUTION_CHECKED' } }]
     } : {};
     if (status) where.status = status;
@@ -148,6 +148,7 @@ export class AdminService {
       where.questionType = questionType;
     }
     if (role === UserRole.TEACHER) where.OR = [
+      sharedThptDraftWhere(),
       { status: QuestionStatus.PUBLISHED },
       { status: QuestionStatus.DRAFT, authorId: userId },
       { status: QuestionStatus.DRAFT, source: { path: ['reviewStatus'], equals: 'VERIFIED' } }

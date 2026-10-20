@@ -1,0 +1,579 @@
+{
+  "batchId": "batch-genuine-062",
+  "items": [
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\tan\\alpha = \\dfrac{4}{5}$ với $0 < \\alpha < \\dfrac{\\pi}{2}$.\na) Tính $\\sin\\alpha$.\nb) Tính $\\tan\\left(\\dfrac{\\pi}{4} - \\alpha\\right)$.",
+      "explanation": "a) Vì $0 < \\alpha < \\dfrac{\\pi}{2}$ nên $\\sin\\alpha > 0$ và $\\cos\\alpha > 0$.\nÁp dụng hệ thức liên hệ giữa sin và cotang:\n$$1 + \\cot^2\\alpha = \\dfrac{1}{\\sin^2\\alpha} \\iff 1 + \\left(\\dfrac{5}{4}\\right)^2 = \\dfrac{1}{\\sin^2\\alpha} \\iff 1 + \\dfrac{25}{16} = \\dfrac{1}{\\sin^2\\alpha} \\iff \\dfrac{41}{16} = \\dfrac{1}{\\sin^2\\alpha}.$$\nSuy ra $\\sin^2\\alpha = \\dfrac{16}{41}$. Do $\\sin\\alpha > 0$ nên:\n$$\\sin\\alpha = \\dfrac{4}{\\sqrt{41}} = \\dfrac{4\\sqrt{41}}{41}.$$\n\nb) Áp dụng công thức cộng cho tang:\n$$\\tan\\left(\\dfrac{\\pi}{4} - \\alpha\\right) = \\dfrac{\\tan\\dfrac{\\pi}{4} - \\tan\\alpha}{1 + \\tan\\dfrac{\\pi}{4}\\tan\\alpha} = \\dfrac{1 - \\dfrac{4}{5}}{1 + 1 \\cdot \\dfrac{4}{5}} = \\dfrac{\\dfrac{1}{5}}{\\dfrac{9}{5}} = \\dfrac{1}{9}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p3.png",
+          "sha256": "a2fb7fcd89e9bda54a51f0ed9cdd97829f2cf839e7497d2a24efb200de8f00db"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "a) Giải phương trình: $2\\sin 2x + 1 = 0$.\nb) Tìm các nghiệm của phương trình $\\tan\\left(x + \\dfrac{\\pi}{6}\\right) = 1$ trên đoạn $[3\\pi; 5\\pi]$.",
+      "explanation": "a) Phương trình:\n$$2\\sin 2x + 1 = 0 \\iff \\sin 2x = -\\dfrac{1}{2} = \\sin\\left(-\\dfrac{\\pi}{6}\\right).$$\n$$\\iff \\left[\\begin{array}{l} 2x = -\\dfrac{\\pi}{6} + k2\\pi \\\\ 2x = \\pi - \\left(-\\dfrac{\\pi}{6}\\right) + k2\\pi = \\dfrac{7\\pi}{6} + k2\\pi \\end{array}\\right. \\iff \\left[\\begin{array}{l} x = -\\dfrac{\\pi}{12} + k\\pi \\\\ x = \\dfrac{7\\pi}{12} + k\\pi \\end{array}\\right. \\quad (k \\in \\mathbb{Z}).$$\nVậy phương trình có các nghiệm là $x = -\\dfrac{\\pi}{12} + k\\pi$ và $x = \\dfrac{7\\pi}{12} + k\\pi$ ($k \\in \\mathbb{Z}$).\n\nb) Phương trình:\n$$\\tan\\left(x + \\dfrac{\\pi}{6}\\right) = 1 \\iff x + \\dfrac{\\pi}{6} = \\dfrac{\\pi}{4} + k\\pi \\iff x = \\dfrac{\\pi}{12} + k\\pi \\quad (k \\in \\mathbb{Z}).$$\nVì $x \\in [3\\pi; 5\\pi]$ nên:\n$$3\\pi \\le \\dfrac{\\pi}{12} + k\\pi \\le 5\\pi \\iff 3 \\le \\dfrac{1}{12} + k \\le 5 \\iff \\dfrac{35}{12} \\le k \\le \\dfrac{59}{12}.$$\nDo $k \\in \\mathbb{Z}$ nên $k \\in \\{3; 4\\}$.\n- Với $k = 3 \\implies x = \\dfrac{\\pi}{12} + 3\\pi = \\dfrac{37\\pi}{12}$.\n- Với $k = 4 \\implies x = \\dfrac{\\pi}{12} + 4\\pi = \\dfrac{49\\pi}{12}$.\n\nVậy các nghiệm cần tìm là $x = \\dfrac{37\\pi}{12}$ và $x = \\dfrac{49\\pi}{12}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p3.png",
+          "sha256": "a2fb7fcd89e9bda54a51f0ed9cdd97829f2cf839e7497d2a24efb200de8f00db"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $M$ là trung điểm của cạnh $SA$. Trên cạnh $SD$ lấy điểm $N$ sao cho $SN = 2ND$. Gọi $G$ là trọng tâm của tam giác $SCD$.\na) Tìm giao tuyến của hai mặt phẳng $(BMN)$ và $(ABD)$.\nb) Chứng minh đường thẳng $GN$ song song với mặt phẳng $(SAB)$.",
+      "explanation": "a) Tìm giao tuyến của $(BMN)$ và $(ABD)$:\n- Ta có $B$ là điểm chung thứ nhất của hai mặt phẳng $(BMN)$ và $(ABD)$.\n- Trong mặt phẳng $(SAD)$, vì $\\dfrac{SM}{SA} = \\dfrac{1}{2} \\ne \\dfrac{SN}{SD} = \\dfrac{2}{3}$ nên hai đường thẳng $MN$ và $AD$ không song song. Gọi $K$ là giao điểm của $MN$ và $AD$.\nVì $K \\in MN \\subset (BMN)$ và $K \\in AD \\subset (ABD)$, nên $K$ là điểm chung thứ hai.\nVậy giao tuyến của hai mặt phẳng $(BMN)$ và $(ABD)$ là đường thẳng $BK$.\n\nb) Chứng minh $GN \\parallel (SAB)$:\n- Gọi $I$ là trung điểm của cạnh $CD$. Vì $G$ là trọng tâm của tam giác $SCD$ nên $G \\in SI$ và $\\dfrac{SG}{SI} = \\dfrac{2}{3}$.\n- Theo giả thiết $SN = 2ND \\implies \\dfrac{SN}{SD} = \\dfrac{2}{3}$.\n- Xét tam giác $SID$, có $\\dfrac{SG}{SI} = \\dfrac{SN}{SD} = \\dfrac{2}{3}$, suy ra $GN \\parallel ID$ (định lí Ta-lét đảo).\n- Mặt khác, trong hình bình hành $ABCD$, $I$ là trung điểm $CD$ nên $ID \\parallel AB$.\nDo đó $GN \\parallel AB$.\n- Vì $AB \\subset (SAB)$ và $GN \\not\\subset (SAB)$, nên đường thẳng $GN$ song song với mặt phẳng $(SAB)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p3.png",
+          "sha256": "a2fb7fcd89e9bda54a51f0ed9cdd97829f2cf839e7497d2a24efb200de8f00db"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\cos x$ có đồ thị như hình vẽ dưới đây. Phát biểu nào sau đây là đúng?\n\n![Đồ thị hàm số y = cos x](/math-import-assets/THPT-11-GIUA_HK1-108-M1001-PART-I-Q001-fig1.png)",
+      "explanation": "Quan sát đồ thị hàm số $y = \\cos x$, trên khoảng $(\\pi; 2\\pi)$ đồ thị đi lên từ trái sang phải từ giá trị $-1$ lên $1$, do đó hàm số đồng biến trên khoảng $(\\pi; 2\\pi)$.\n- Khẳng định A sai vì giá trị lớn nhất của $y = \\cos x$ là 1.\n- Khẳng định C sai vì đồ thị cắt trục hoành tại vô số điểm $x = \\dfrac{\\pi}{2} + k\\pi$ ($k \\in \\mathbb{Z}$).\n- Khẳng định D sai vì trục hoành không phải là trục đối xứng của đồ thị.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p1.png",
+          "sha256": "78fd15a5b49f701337945e08459fe777176a80e1553a37ae648e13c9e3c2ca0a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số đo theo đơn vị rađian của góc $315^\\circ$ là:",
+      "explanation": "Đổi từ đơn vị độ sang đơn vị rađian:\n$$\\alpha = 315^\\circ = 315 \\cdot \\dfrac{\\pi}{180} = \\dfrac{7\\pi}{4}.$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p1.png",
+          "sha256": "78fd15a5b49f701337945e08459fe777176a80e1553a37ae648e13c9e3c2ca0a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\cos x$ là:",
+      "explanation": "Hàm số lượng giác $y = \\cos x$ xác định với mọi số thực $x \\in \\mathbb{R}$. Do đó tập xác định của hàm số là $D = \\mathbb{R}$.\n\n(Lưu ý đối chiếu hướng dẫn chấm gốc: Bảng đáp án chính thức của trường ghi nhận phương án A, xuất phát từ sai sót xáo trộn mã đề của phần mềm tạo đề trắc nghiệm khi hoán vị các phương án với mã đề 1002. Theo chuẩn kiến thức toán học THPT, đáp án đúng duy nhất là C: $\\mathbb{R}$).\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p1.png",
+          "sha256": "78fd15a5b49f701337945e08459fe777176a80e1553a37ae648e13c9e3c2ca0a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các công thức sau, công thức nào sai?",
+      "explanation": "Theo công thức biến đổi tích thành tổng:\n$$\\sin a\\cos b = \\dfrac{1}{2}[\\sin(a + b) + \\sin(a - b)].$$\nDo đó công thức ở phương án A: $\\sin a\\cos b = \\dfrac{1}{2}[\\sin(a - b) - \\cos(a + b)]$ là sai.\n\nVậy công thức sai là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p1.png",
+          "sha256": "78fd15a5b49f701337945e08459fe777176a80e1553a37ae648e13c9e3c2ca0a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình thang $ABCD$ ($AD \\parallel BC$). Gọi $M$ là trung điểm của $CD$. Giao tuyến của hai mặt phẳng $(SMB)$ và $(SAC)$ là đường thẳng:",
+      "explanation": "Xét hai mặt phẳng $(SMB)$ và $(SAC)$:\n- Điểm chung thứ nhất là đỉnh $S$.\n- Trong mặt phẳng đáy $(ABCD)$, gọi $I = BM \\cap AC$. Khi đó $I \\in BM \\subset (SMB)$ và $I \\in AC \\subset (SAC)$, nên $I$ là điểm chung thứ hai.\nDo đó giao tuyến của hai mặt phẳng $(SMB)$ và $(SAC)$ là đường thẳng $SI$.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p1.png",
+          "sha256": "78fd15a5b49f701337945e08459fe777176a80e1553a37ae648e13c9e3c2ca0a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\tan\\alpha = \\sqrt{5}$ với $\\pi < \\alpha < \\dfrac{3\\pi}{2}$. Khi đó $\\cos\\alpha$ bằng:",
+      "explanation": "Ta có hệ thức: $1 + \\tan^2\\alpha = \\dfrac{1}{\\cos^2\\alpha} \\iff 1 + 5 = \\dfrac{1}{\\cos^2\\alpha} \\iff \\cos^2\\alpha = \\dfrac{1}{6}$.\nVì $\\pi < \\alpha < \\dfrac{3\\pi}{2}$ (góc phần tư thứ III) nên $\\cos\\alpha < 0$.\nDo đó: $\\cos\\alpha = -\\sqrt{\\dfrac{1}{6}} = -\\dfrac{1}{\\sqrt{6}} = -\\dfrac{\\sqrt{6}}{6}$.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p1.png",
+          "sha256": "78fd15a5b49f701337945e08459fe777176a80e1553a37ae648e13c9e3c2ca0a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Lấy điểm $M$ nằm trên cạnh $SB$ sao cho $SB = 4SM$. Giao điểm của đường thẳng $SD$ và mặt phẳng $(ACM)$ nằm trên đường thẳng nào sau đây?",
+      "explanation": "Xét mặt phẳng $(SBD)$ chứa đường thẳng $SD$.\n- Mặt phẳng $(ACM)$ và mặt phẳng $(SBD)$ có các điểm chung:\n  + $O = AC \\cap BD \\implies O \\in (ACM) \\cap (SBD)$.\n  + $M \\in SB \\subset (SBD)$ và $M \\in (ACM) \\implies M \\in (ACM) \\cap (SBD)$.\nDo đó giao tuyến của $(ACM)$ và $(SBD)$ là đường thẳng $OM$.\n- Trong mặt phẳng $(SBD)$, đường thẳng $OM$ cắt đường thẳng $SD$ tại điểm $E$.\nVì $E \\in OM \\subset (ACM)$ nên $E$ là giao điểm của đường thẳng $SD$ và mặt phẳng $(ACM)$.\nVậy giao điểm của $SD$ và $(ACM)$ nằm trên đường thẳng $OM$.\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p1.png",
+          "sha256": "78fd15a5b49f701337945e08459fe777176a80e1553a37ae648e13c9e3c2ca0a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho góc lượng giác $\\alpha$ với $\\dfrac{\\pi}{2} < \\alpha < \\pi$. Xét dấu $\\sin\\left(\\alpha + \\dfrac{\\pi}{2}\\right)$ và $\\tan(-\\alpha)$. Phát biểu nào sau đây là đúng?",
+      "explanation": "Ta có:\n- $\\sin\\left(\\alpha + \\dfrac{\\pi}{2}\\right) = \\cos\\alpha$.\n  Vì $\\dfrac{\\pi}{2} < \\alpha < \\pi$ (góc phần tư thứ II) nên $\\cos\\alpha < 0$, suy ra $\\sin\\left(\\alpha + \\dfrac{\\pi}{2}\\right) < 0$.\n- $\\tan(-\\alpha) = -\\tan\\alpha$.\n  Ở góc phần tư thứ II, $\\sin\\alpha > 0$ và $\\cos\\alpha < 0$ nên $\\tan\\alpha < 0$. Do đó $-\\tan\\alpha > 0$, tức là $\\tan(-\\alpha) > 0$.\nVậy $\\begin{cases} \\sin\\left(\\alpha + \\dfrac{\\pi}{2}\\right) < 0 \\\\ \\tan(-\\alpha) > 0 \\end{cases}$.\n\nPhương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p2.png",
+          "sha256": "98413ec15016009de36eb555dee64ae284436292e6b097e545928a315ed8ac3f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Kết quả thu gọn của biểu thức $A = \\dfrac{\\sin x + \\sin 2x + \\sin 3x}{\\cos x + \\cos 2x + \\cos 3x}$ là:",
+      "explanation": "Nhóm số hạng thứ nhất và thứ ba rồi áp dụng công thức biến đổi tổng thành tích:\n- Tử số:\n  $$(\\sin 3x + \\sin x) + \\sin 2x = 2\\sin 2x\\cos x + \\sin 2x = \\sin 2x(2\\cos x + 1).$$\n- Mẫu số:\n  $$(\\cos 3x + \\cos x) + \\cos 2x = 2\\cos 2x\\cos x + \\cos 2x = \\cos 2x(2\\cos x + 1).$$\nDo đó:\n$$A = \\dfrac{\\sin 2x(2\\cos x + 1)}{\\cos 2x(2\\cos x + 1)} = \\dfrac{\\sin 2x}{\\cos 2x} = \\tan 2x.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p2.png",
+          "sha256": "98413ec15016009de36eb555dee64ae284436292e6b097e545928a315ed8ac3f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$. Gọi $M, N, P, Q$ lần lượt là trung điểm của các cạnh $AB, AD, CD, BC$. Phát biểu nào sau đây sai?",
+      "explanation": "Trong tam giác $ABD$, $MN$ là đường trung bình nên $MN \\parallel BD$ và $MN = \\dfrac{1}{2}BD$.\nTrong tam giác $CBD$, $PQ$ là đường trung bình nên $PQ \\parallel BD$ và $PQ = \\dfrac{1}{2}BD$.\nSuy ra $MN \\parallel PQ$ và $MN = PQ$. Do đó tứ giác $MNPQ$ là hình bình hành.\nVì $MNPQ$ là hình bình hành, hai đường chéo $MP$ và $NQ$ cắt nhau tại trung điểm của mỗi đường, chúng cùng nằm trong mặt phẳng $(MNPQ)$ nên không thể là hai đường thẳng chéo nhau.\nVậy khẳng định sai là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p2.png",
+          "sha256": "98413ec15016009de36eb555dee64ae284436292e6b097e545928a315ed8ac3f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $\\sin\\left(\\dfrac{2x}{3} - \\dfrac{\\pi}{3}\\right) = 0$ có các nghiệm là:",
+      "explanation": "Ta có:\n$$\\sin\\left(\\dfrac{2x}{3} - \\dfrac{\\pi}{3}\\right) = 0 \\iff \\dfrac{2x}{3} - \\dfrac{\\pi}{3} = k\\pi \\quad (k \\in \\mathbb{Z})$$\n$$\\iff \\dfrac{2x}{3} = \\dfrac{\\pi}{3} + k\\pi \\iff 2x = \\pi + k3\\pi \\iff x = \\dfrac{\\pi}{2} + \\dfrac{k3\\pi}{2} \\quad (k \\in \\mathbb{Z}).$$\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p2.png",
+          "sha256": "98413ec15016009de36eb555dee64ae284436292e6b097e545928a315ed8ac3f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$. Gọi $E$ và $F$ lần lượt là trung điểm của đoạn thẳng $AB$ và $CD$. Gọi $G$ là trọng tâm của tam giác $BCD$. Giao điểm của đường thẳng $EG$ và mặt phẳng $(ACD)$ là:",
+      "explanation": "Vì $F$ là trung điểm của $CD$, trong tam giác $BCD$, $BF$ là đường trung tuyến chứa trọng tâm $G$.\nDo đó đường thẳng $BG$ chính là đường thẳng $BF$, tức là $G \\in BF$.\nXét mặt phẳng $(ABF)$ chứa điểm $E$ (trung điểm $AB$) và điểm $G$ (thuộc $BF$), suy ra đường thẳng $EG$ nằm trong mặt phẳng $(ABF)$.\nMặt phẳng $(ACD)$ chứa đường thẳng $AF$ (vì $A, F \\in (ACD)$).\nTrong mặt phẳng $(ABF)$, hai đường thẳng $EG$ và $AF$ không song song nên cắt nhau tại một điểm $P$.\nVì $P \\in AF \\subset (ACD)$, nên $P$ chính là giao điểm của đường thẳng $EG$ và mặt phẳng $(ACD)$.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p2.png",
+          "sha256": "98413ec15016009de36eb555dee64ae284436292e6b097e545928a315ed8ac3f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $I, K$ lần lượt là trung điểm của cạnh $SB$ và $SD$. Khi đó:",
+      "explanation": "Xét các mệnh đề:\n- Ý a: Trong tam giác $SBD$, $O$ là trung điểm $BD$, $I$ là trung điểm $SB$, do đó $OI$ là đường trung bình nên $OI \\parallel SD$.\nMặt phẳng $(OIA)$ chính là mặt phẳng $(OIAC)$ vì $A, O, C$ thẳng hàng. Do đó $(OIA)$ chứa điểm $C$ và chứa $OI \\parallel SD$.\nMặt phẳng $(SCD)$ chứa $C$ và chứa đường thẳng $SD$. Giao tuyến của hai mặt phẳng đi qua điểm chung $C$ và song song với $OI$ và $SD$. Mệnh đề a ĐÚNG.\n- Ý b: Trong mặt phẳng $(SBD)$, gọi $L = SO \\cap BK$. Vì $SO, BK$ là hai đường trung tuyến của tam giác $SBD$ nên $L$ là trọng tâm $\\Delta SBD \\implies \\dfrac{SL}{SO} = \\dfrac{2}{3}$.\nTrong tam giác $SAC$, $SO$ là đường trung tuyến và $\\dfrac{SL}{SO} = \\dfrac{2}{3}$ nên $L$ cũng là trọng tâm tam giác $SAC$. Do đó đường thẳng qua $C$ và $L$ chính là đường trung tuyến cắt $SA$ tại trung điểm $J$. Vậy $J$ là trung điểm của $SA$.\nTrong tam giác $SAB$, $I$ và $J$ lần lượt là trung điểm của $SB$ và $SA$, nên $IJ$ là đường trung bình $\\implies IJ \\parallel AB$. Mặt khác $AB \\parallel CD$ (hình bình hành $ABCD$) nên $IJ \\parallel CD$. Mệnh đề b ĐÚNG.\n- Ý c: $J$ là trung điểm $SA$ và $K$ là trung điểm $SD$, do đó $JK \\parallel AD$. Vì $AD$ cắt $DC$ tại $D$ nên $JK$ không song song với $DC$. Mệnh đề c SAI.\n- Ý d: Hai mặt phẳng $(SAC)$ và $(SBD)$ có điểm chung $S$, và trong mặt đáy $AC \\cap BD = O$ nên $O$ là điểm chung thứ hai. Vậy giao tuyến là $SO$. Mệnh đề d ĐÚNG.\n\nBảng đáp án: a Đ, b Đ, c S, d Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p2.png",
+          "sha256": "98413ec15016009de36eb555dee64ae284436292e6b097e545928a315ed8ac3f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho biết $\\cos\\alpha = -\\dfrac{1}{\\sqrt{6}}$ và $\\dfrac{\\pi}{2} < \\alpha < \\pi$. Khi đó:",
+      "explanation": "Xét các mệnh đề với $\\cos\\alpha = -\\dfrac{1}{\\sqrt{6}}$ và $\\dfrac{\\pi}{2} < \\alpha < \\pi$ (góc phần tư thứ II):\n- Ý b: Vì $\\dfrac{\\pi}{2} < \\alpha < \\pi$ nên $\\sin\\alpha > 0$. Ta có:\n  $$\\sin\\alpha = \\sqrt{1 - \\cos^2\\alpha} = \\sqrt{1 - \\dfrac{1}{6}} = \\dfrac{\\sqrt{5}}{\\sqrt{6}} \\ne \\dfrac{\\sqrt{2}}{\\sqrt{6}}.$$\n  Do đó mệnh đề b SAI.\n- Ý a: Rút gọn các giá trị lượng giác:\n  + $\\sin(7\\pi - \\alpha) = \\sin(\\pi - \\alpha) = \\sin\\alpha$.\n  + $\\cos\\left(\\dfrac{17\\pi}{2} + \\alpha\\right) = \\cos\\left(8\\pi + \\dfrac{\\pi}{2} + \\alpha\\right) = \\cos\\left(\\dfrac{\\pi}{2} + \\alpha\\right) = -\\sin\\alpha$.\n  + $\\tan(2025\\pi + \\alpha) = \\tan(\\pi + \\alpha) = \\tan\\alpha$.\n  Suy ra: $A = \\sin\\alpha + (-\\sin\\alpha) - 2\\tan\\alpha = -2\\tan\\alpha$.\n  Với $\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} = \\dfrac{\\sqrt{5}/\\sqrt{6}}{-1/\\sqrt{6}} = -\\sqrt{5}$.\n  Khi đó $A = -2(-\\sqrt{5}) = 2\\sqrt{5}$. Mệnh đề a ĐÚNG.\n- Ý c: Do hàm số sin tuần hoàn với chu kì $2\\pi$, $\\sin(2\\pi + \\alpha) = \\sin\\alpha$ là đồng nhất thức. Mệnh đề c ĐÚNG.\n- Ý d: $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = 2\\left(\\dfrac{\\sqrt{5}}{\\sqrt{6}}\\right)\\left(-\\dfrac{1}{\\sqrt{6}}\\right) = -\\dfrac{2\\sqrt{5}}{6} = -\\dfrac{\\sqrt{5}}{3} \\ne \\dfrac{1}{3}$. Mệnh đề d SAI.\n\nBảng đáp án: a Đ, b S, c Đ, d S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p2.png",
+          "sha256": "98413ec15016009de36eb555dee64ae284436292e6b097e545928a315ed8ac3f"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Chiều cao so với mực nước biển trung bình tại thời điểm $t$ (giây) (với $t \\ge 0$) của một con sóng được cho bởi hàm số $h(t) = 75\\sin\\left(\\dfrac{\\pi t}{8}\\right)$, trong đó $h(t)$ được tính bằng centimét. Trong 30 giây đầu tiên (kể từ mốc $t = 0$ giây), có bao nhiêu thời điểm để con sóng đạt chiều cao lớn nhất?",
+      "explanation": "Hàm số $h(t) = 75\\sin\\left(\\dfrac{\\pi t}{8}\\right)$ đạt giá trị lớn nhất bằng $75\\text{ cm}$ khi:\n$$\\sin\\left(\\dfrac{\\pi t}{8}\\right) = 1 \\iff \\dfrac{\\pi t}{8} = \\dfrac{\\pi}{2} + k2\\pi \\iff t = 4 + 16k \\quad (k \\in \\mathbb{Z}).$$\nTrong 30 giây đầu tiên ($0 \\le t \\le 30$):\n$$0 \\le 4 + 16k \\le 30 \\iff -4 \\le 16k \\le 26 \\iff -0{,}25 \\le k \\le 1{,}625.$$\nVì $k \\in \\mathbb{Z}$ nên $k \\in \\{0; 1\\}$.\n- Với $k = 0 \\implies t = 4$ (giây).\n- Với $k = 1 \\implies t = 20$ (giây).\nNhư vậy có đúng 2 thời điểm con sóng đạt chiều cao lớn nhất.\n\nĐáp số: 2.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p3.png",
+          "sha256": "a2fb7fcd89e9bda54a51f0ed9cdd97829f2cf839e7497d2a24efb200de8f00db"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Có bao nhiêu giá trị nguyên của tham số $m$ để phương trình $\\sin(x - 3) + m - 3 = 0$ có nghiệm?",
+      "explanation": "Phương trình tương đương với:\n$$\\sin(x - 3) = 3 - m.$$\nPhương trình có nghiệm khi và chỉ khi:\n$$-1 \\le 3 - m \\le 1 \\iff -4 \\le -m \\le -2 \\iff 2 \\le m \\le 4.$$\nVì $m$ là số nguyên nên $m \\in \\{2; 3; 4\\}$. Có tất cả 3 giá trị nguyên của tham số $m$.\n\nĐáp số: 3.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p3.png",
+          "sha256": "a2fb7fcd89e9bda54a51f0ed9cdd97829f2cf839e7497d2a24efb200de8f00db"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $G$ là trọng tâm tam giác $ABC$ và $M$ là trung điểm của cạnh $SC$. Gọi $K$ là giao điểm của đường thẳng $SD$ với mặt phẳng $(AGM)$. Tỉ số $\\dfrac{KS}{KD}$ bằng bao nhiêu?",
+      "explanation": "Gọi $O = AC \\cap BD$ là tâm hình bình hành $ABCD$.\n- Trong mặt phẳng $(ABCD)$, vì $G$ là trọng tâm tam giác $ABC$ nên $G$ nằm trên đường trung tuyến $BO$ và $\\dfrac{BG}{BO} = \\dfrac{2}{3} \\implies OG = \\dfrac{1}{3}OB = \\dfrac{1}{3}OD$.\n- Trong mặt phẳng $(SAC)$, $SO$ và $AM$ là hai đường trung tuyến của tam giác $SAC$ cắt nhau tại trọng tâm $E$ của tam giác $SAC$. Khi đó $\\dfrac{SE}{SO} = \\dfrac{2}{3} \\implies \\dfrac{SE}{EO} = 2$.\n- Đường thẳng $EG$ nằm trong mặt phẳng $(SBD)$ và thuộc mặt phẳng $(AGM)$. Giao điểm của $SD$ với $(AGM)$ chính là $K = EG \\cap SD$.\n- Xét tam giác $SOD$ với cát tuyến $E - G - K$. Áp dụng định lí Menelaus:\n  $$\\dfrac{ES}{EO} \\cdot \\dfrac{GO}{GD} \\cdot \\dfrac{KD}{KS} = 1.$$\n  Ta có $\\dfrac{ES}{EO} = 2$. Vì $O$ nằm giữa $G$ và $D$ nên $GD = GO + OD = \\dfrac{1}{3}OD + OD = \\dfrac{4}{3}OD$, suy ra $\\dfrac{GO}{GD} = \\dfrac{1/3}{4/3} = \\dfrac{1}{4}$.\n  Thay vào hệ thức Menelaus:\n  $$2 \\cdot \\dfrac{1}{4} \\cdot \\dfrac{KD}{KS} = 1 \\iff \\dfrac{1}{2} \\cdot \\dfrac{KD}{KS} = 1 \\iff \\dfrac{KD}{KS} = 2 \\implies \\dfrac{KS}{KD} = \\dfrac{1}{2} = 0{,}5.$$\n\nĐáp số: 0,5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p3.png",
+          "sha256": "a2fb7fcd89e9bda54a51f0ed9cdd97829f2cf839e7497d2a24efb200de8f00db"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-108-M1001-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai góc lượng giác $a, b$ biết $\\cos a = \\dfrac{1}{3}, \\cos b = \\dfrac{1}{4}$. Khi đó giá trị của biểu thức $P = \\cos(a + b)\\cos(a - b)$ bằng bao nhiêu? (Làm tròn kết quả đến hàng phần mười).",
+      "explanation": "Áp dụng công thức biến đổi tích thành tổng:\n$$P = \\cos(a + b)\\cos(a - b) = \\dfrac{1}{2}[\\cos 2a + \\cos 2b].$$\nTheo công thức nhân đôi: $\\cos 2a = 2\\cos^2 a - 1$ và $\\cos 2b = 2\\cos^2 b - 1$, suy ra:\n$$P = \\dfrac{1}{2}[(2\\cos^2 a - 1) + (2\\cos^2 b - 1)] = \\cos^2 a + \\cos^2 b - 1.$$\nThay $\\cos a = \\dfrac{1}{3}$ và $\\cos b = \\dfrac{1}{4}$ vào:\n$$P = \\left(\\dfrac{1}{3}\\right)^2 + \\left(\\dfrac{1}{4}\\right)^2 - 1 = \\dfrac{1}{9} + \\dfrac{1}{16} - 1 = \\dfrac{25}{144} - 1 = -\\dfrac{119}{144} \\approx -0{,}826...$$\nLàm tròn đến hàng phần mười ta được $-0{,}8$.\n\nĐáp số: -0,8.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-108-p3.png",
+          "sha256": "a2fb7fcd89e9bda54a51f0ed9cdd97829f2cf839e7497d2a24efb200de8f00db"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "a) Cho cấp số cộng $(u_n)$ thỏa mãn $\\begin{cases} u_1 + u_4 = 8 \\\\ u_3 - u_2 = 2 \\end{cases}$. Tính tổng 50 số hạng đầu của cấp số cộng trên.\nb) Bình bắt đầu tập chạy bộ để rèn luyện sức khỏe. Bạn thực hiện chương trình tập luyện bằng việc chạy 900m vào ngày đầu tiên và sau mỗi ngày, bạn chạy tăng thêm 300m so với ngày trước đó. Tính tổng quãng đường (theo đơn vị m) mà Bình chạy được sau 30 ngày.",
+      "explanation": "a) Gọi $d$ là công sai của cấp số cộng. Ta có $u_4 = u_1 + 3d, u_3 = u_1 + 2d, u_2 = u_1 + d$.\nTừ hệ phương trình:\n$$\\begin{cases} u_1 + (u_1 + 3d) = 8 \\\\ (u_1 + 2d) - (u_1 + d) = 2 \\end{cases} \\iff \\begin{cases} 2u_1 + 3d = 8 \\\\ d = 2 \\end{cases} \\iff \\begin{cases} 2u_1 + 6 = 8 \\\\ d = 2 \\end{cases} \\iff \\begin{cases} u_1 = 1 \\\\ d = 2 \\end{cases}.$$\nTổng của 50 số hạng đầu của cấp số cộng là:\n$$S_{50} = \\dfrac{50}{2} [2u_1 + 49d] = 25 \\cdot [2(1) + 49(2)] = 25 \\cdot [2 + 98] = 25 \\cdot 100 = 2500.$$\n\nb) Quãng đường chạy mỗi ngày của Bình lập thành một cấp số cộng với số hạng đầu $u_1 = 900\\text{ m}$ và công sai $d = 300\\text{ m}$.\nTổng quãng đường Bình chạy được sau 30 ngày là:\n$$S_{30} = \\dfrac{30}{2} [2u_1 + 29d] = 15 \\cdot [2(900) + 29(300)] = 15 \\cdot [1800 + 8700] = 15 \\cdot 10500 = 157500\\text{ m}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p3.png",
+          "sha256": "ac359d6685187c11320f9a72b6085449a6c3df8699c0cff18449f3c692d5e909"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho mẫu số liệu về chiều cao (cm) của các học sinh nữ trong khối 11 của trường như sau:\n\n| Chiều cao (cm) | [145; 150) | [150; 155) | [155; 160) | [160; 165) | [165; 170) | [170; 175) |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | 30 | 34 | 45 | 27 | 15 | 4 |\n\na) Tính chiều cao trung bình của học sinh nữ khối 11.\nb) Chiều cao học sinh chiếm tỉ lệ cao nhất trong bảng số liệu trên là bao nhiêu cm?",
+      "explanation": "a) Cỡ mẫu: $n = 30 + 34 + 45 + 27 + 15 + 4 = 155$.\nGiá trị đại diện của các nhóm chiều cao lần lượt là: $147{,}5; 152{,}5; 157{,}5; 162{,}5; 167{,}5; 172{,}5$.\nChiều cao trung bình của học sinh nữ khối 11 là:\n$$\\bar{x} = \\dfrac{30(147{,}5) + 34(152{,}5) + 45(157{,}5) + 27(162{,}5) + 15(167{,}5) + 4(172{,}5)}{155}$$\n$$= \\dfrac{4425 + 5185 + 7087{,}5 + 4387{,}5 + 2512{,}5 + 690}{155} = \\dfrac{24287{,}5}{155} \\approx 156{,}7\\text{ cm}.$$\n\nb) Chiều cao học sinh chiếm tỉ lệ cao nhất chính là mốt $M_o$ của mẫu số liệu ghép nhóm.\nNhóm chứa mốt là nhóm có tần số lớn nhất: $[155; 160)$ với tần số $n_3 = 45$.\nTa có: đầu mút trái $u_m = 155$, độ dài nhóm $h = 5$, tần số nhóm trước $n_2 = 34$, tần số nhóm sau $n_4 = 27$.\nÁp dụng công thức tính mốt:\n$$M_o = u_m + \\dfrac{n_3 - n_2}{(n_3 - n_2) + (n_3 - n_4)} \\cdot h = 155 + \\dfrac{45 - 34}{(45 - 34) + (45 - 27)} \\cdot 5$$\n$$= 155 + \\dfrac{11}{11 + 18} \\cdot 5 = 155 + \\dfrac{55}{29} \\approx 156{,}9\\text{ cm}.$$\n\nVậy chiều cao chiếm tỉ lệ cao nhất là xấp xỉ $156{,}9\\text{ cm}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p3.png",
+          "sha256": "ac359d6685187c11320f9a72b6085449a6c3df8699c0cff18449f3c692d5e909"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đo cân nặng (tính bằng kg) của một số học sinh lớp 11A trong một trường THPT ta thu được kết quả như sau:\n\n| Cân nặng (kg) | [40,5; 45,5) | [45,5; 50,5) | [50,5; 55,5) | [55,5; 60,5) | [60,5; 65,5) | [65,5; 70,5) |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | 10 | 7 | 16 | 4 | 2 | 3 |\n\nSố học sinh có cân nặng từ 45,5 kg tới dưới 55,5 kg là:",
+      "explanation": "Khoảng cân nặng từ 45,5 kg tới dưới 55,5 kg bao gồm hai nhóm: $[45{,}5; 50{,}5)$ và $[50{,}5; 55{,}5)$.\nSố học sinh tương ứng là:\n$$7 + 16 = 23\\text{ (học sinh)}.$$\n\nVậy phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số sau, dãy số nào không là dãy số tăng?",
+      "explanation": "Dãy số $(u_n)$ là dãy số tăng nếu $u_{n+1} > u_n$ với mọi $n \\in \\mathbb{N}^*$.\nDãy số $1; 1; 1; 1; \\dots$ có $u_{n+1} = u_n = 1$ với mọi $n$, đây là dãy số không đổi (dãy hằng), không phải là dãy số tăng.\n\nVậy dãy số không là dãy số tăng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Số lượng người đi xem một bộ phim mới theo độ tuổi trong một rạp chiếu phim (sau 1 giờ đầu công chiếu) được ghi lại theo bảng số liệu:\n\n| Độ tuổi | [10; 20) | [20; 30) | [30; 40) | [40; 50) | [50; 60) |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số người | 6 | 12 | 16 | 7 | 2 |\n\nKhẳng định nào sau đây là đúng?",
+      "explanation": "Tổng số người đi xem phim là:\n$$6 + 12 + 16 + 7 + 2 = 43\\text{ (người)}.$$\nGiá trị đại diện của nhóm $[50; 60)$ là $\\dfrac{50 + 60}{2} = 55$.\nDo đó khẳng định đúng là: \"Tổng số người đi xem phim là 43\".\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mẫu số liệu ghép nhóm, số đặc trưng nào sau đây chia mẫu số liệu thành hai phần, mỗi phần chứa $50\\%$ giá trị?",
+      "explanation": "Theo định nghĩa, số trung vị (hoặc tứ phân vị thứ hai $Q_2$) là số chia mẫu số liệu đã sắp thứ tự thành hai phần bằng nhau, mỗi phần chứa $50\\%$ giá trị của mẫu.\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $\\cos x = \\cos\\alpha$ có nghiệm là:",
+      "explanation": "Công thức nghiệm cơ bản của phương trình côsin:\n$$\\cos x = \\cos\\alpha \\iff x = \\pm\\alpha + k2\\pi \\quad (k \\in \\mathbb{Z}).$$\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số sau, dãy số nào không phải cấp số cộng?",
+      "explanation": "Xét dãy số $3; 1; -1; -2; -4$:\n$1 - 3 = -2$; $-1 - 1 = -2$; nhưng $-2 - (-1) = -1 \\ne -2$.\nHiệu giữa hai số hạng liên tiếp không không đổi, do đó đây không phải là cấp số cộng.\n\nVậy dãy số không phải cấp số cộng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ thoả mãn $\\pi < \\alpha < \\dfrac{3\\pi}{2}$. Khẳng định nào sau đây là đúng?",
+      "explanation": "Vì $\\pi < \\alpha < \\dfrac{3\\pi}{2}$ (góc lượng giác thuộc góc phần tư thứ III), ta có:\n$$\\sin\\alpha < 0, \\quad \\cos\\alpha < 0 \\implies \\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} > 0.$$\n\nVậy khẳng định đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Công thức nào sau đây là đúng?",
+      "explanation": "Theo công thức cộng lượng giác cho sin:\n$$\\sin(a + b) = \\sin a\\cos b + \\cos a\\sin b.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các dãy số sau, dãy số nào là một cấp số nhân?",
+      "explanation": "Dãy số $1; -3; 9; -27; 81$ có tỉ số giữa số hạng đứng sau và số hạng đứng trước không đổi:\n$$\\dfrac{-3}{1} = \\dfrac{9}{-3} = \\dfrac{-27}{9} = \\dfrac{81}{-27} = -3.$$\nDo đó đây là một cấp số nhân với số hạng đầu $u_1 = 1$ và công bội $q = -3$.\n\nVậy phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p1.png",
+          "sha256": "d72aca85bdb82092718cf819a23891b81d544eb6b8561cad0434177d9468296a"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào sau đây là đúng?",
+      "explanation": "Phương trình lượng giác cơ bản:\n$$\\sin x = 1 \\iff x = \\dfrac{\\pi}{2} + k2\\pi \\quad (k \\in \\mathbb{Z}).$$\n- Phương án B sai vì $\\sin\\left(\\dfrac{3\\pi}{2}\\right) = -1$.\n- Phương án C sai vì $\\sin x = 0 \\iff x = k\\pi$.\n- Phương án D sai vì $\\cos x = 0 \\iff x = \\dfrac{\\pi}{2} + k\\pi$.\n\nVậy khẳng định đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\tan x$ là:",
+      "explanation": "Hàm số $y = \\tan x = \\dfrac{\\sin x}{\\cos x}$ xác định khi và chỉ khi:\n$$\\cos x \\ne 0 \\iff x \\ne \\dfrac{\\pi}{2} + k\\pi \\quad (k \\in \\mathbb{Z}).$$\nDo đó tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\left\\{\\dfrac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}\\right\\}$.\n\nVậy phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho góc lượng giác $\\alpha = (Ox, OM)$ với điểm $M\\left(-\\dfrac{1}{2}; \\dfrac{\\sqrt{3}}{2}\\right)$ trên đường tròn đơn vị. Giá trị lượng giác của $\\sin\\alpha$ là:",
+      "explanation": "Trên đường tròn đơn vị, điểm $M(x_0; y_0)$ biểu diễn góc lượng giác $\\alpha$ thì $\\cos\\alpha = x_0$ và $\\sin\\alpha = y_0$.\nVới $M\\left(-\\dfrac{1}{2}; \\dfrac{\\sqrt{3}}{2}\\right)$, ta có:\n$$\\sin\\alpha = y_M = \\dfrac{\\sqrt{3}}{2}.$$\n\nVậy phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$ xác định bởi: $\\begin{cases} u_1 = -2 \\\\ u_n = 3u_{n-1} & (n \\in \\mathbb{N}, n \\ge 2) \\end{cases}$. Xác định tính đúng sai của các mệnh đề sau:",
+      "explanation": "Dãy số $(u_n)$ có $u_1 = -2$ và $u_n = 3u_{n-1}$ ($n \\ge 2$):\n- Ý b: Số hạng đầu tiên của dãy số là $u_1 = -2$. Mệnh đề b ĐÚNG.\n- Ý d: Với mọi $n \\ge 2$, ta có $\\dfrac{u_n}{u_{n-1}} = 3$ không đổi, do đó $(u_n)$ là một cấp số nhân có số hạng đầu $u_1 = -2$ và công bội $q = 3$. Mệnh đề d ĐÚNG.\n- Ý a: Số hạng tổng quát của cấp số nhân là $u_n = u_1 \\cdot q^{n-1} = -2 \\cdot 3^{n-1}$.\n  Số hạng thứ 3 là $u_3 = -2 \\cdot 3^2 = -2 \\cdot 9 = -18 \\ne 18$. Mệnh đề a SAI.\n- Ý c: Số hạng thứ 11 là $u_{11} = -2 \\cdot 3^{10} = -2 \\cdot 59049 = -118098 \\ne 118098$. Mệnh đề c SAI.\n\nBảng đáp án: a S, b Đ, c S, d Đ.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\cos x - \\dfrac{\\sqrt{3}}{2}$.",
+      "explanation": "Xét các mệnh đề đối với hàm số $y = \\cos x - \\dfrac{\\sqrt{3}}{2}$:\n- Ý a: Hàm số $y = \\cos x - \\dfrac{\\sqrt{3}}{2}$ xác định với mọi $x \\in \\mathbb{R}$, nên tập xác định là $D = \\mathbb{R}$. Mệnh đề a SAI.\n- Ý b: Vì hàm số $y = \\cos x$ tuần hoàn với chu kì $2\\pi$, hằng số $-\\dfrac{\\sqrt{3}}{2}$ không làm đổi chu kì, nên hàm số đã cho tuần hoàn với chu kì $2\\pi$. Mệnh đề b ĐÚNG.\n- Ý c: $\\cos x - \\dfrac{\\sqrt{3}}{2} = 0 \\iff \\cos x = \\dfrac{\\sqrt{3}}{2}$. Vì $\\cos\\dfrac{\\pi}{6} = \\dfrac{\\sqrt{3}}{2}$, phương trình tương đương với $\\cos x = \\cos\\dfrac{\\pi}{6}$. Mệnh đề c ĐÚNG.\n- Ý d: Theo công thức biến đổi hiệu thành tích: $\\cos a - \\cos b = -2\\sin\\left(\\dfrac{a + b}{2}\\right)\\sin\\left(\\dfrac{a - b}{2}\\right)$.\n  Áp dụng: $\\cos x - \\cos\\dfrac{\\pi}{6} = -2\\sin\\left(\\dfrac{x + \\pi/6}{2}\\right)\\sin\\left(\\dfrac{x - \\pi/6}{2}\\right) \\ne 2\\sin\\left(\\dfrac{x + \\pi/6}{2}\\right)\\sin\\left(\\dfrac{x - \\pi/6}{2}\\right)$. Mệnh đề d SAI.\n\nBảng đáp án: a S, b Đ, c Đ, d S.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Để chuẩn bị cho việc mua nhà trong tương lai, anh Nam dự định vào ngày đầu hằng tháng gởi vào ngân hàng một khoản tiền $T$ (triệu đồng) với lãi suất không đổi $2\\%/\\text{tháng}$ trong suốt thời gian gởi và anh thực hiện đều đặn trong suốt thời gian 5 năm. Căn nhà anh Nam dự định mua ban đầu có giá 500 triệu nhưng với biến động thị trường giá của căn nhà hằng năm tăng lên $5\\%$ so với năm trước. Để sau 5 năm anh Nam có đủ tiền mua căn nhà đó thì hằng tháng anh Nam phải gởi vào ngân hàng bao nhiêu triệu đồng? (Làm tròn đến hàng phần trăm).",
+      "explanation": "1. Giá trị căn nhà sau 5 năm:\n   Giá nhà ban đầu $V_0 = 500$ triệu đồng, mỗi năm tăng $5\\%$:\n   $$V_5 = 500 \\cdot (1 + 0{,}05)^5 = 500 \\cdot 1{,}05^5 = 638{,}14078125\\text{ (triệu đồng)}.$$\n2. Số tiền anh Nam tích lũy được sau 5 năm (60 tháng):\n   Gửi vào đầu mỗi tháng số tiền $T$ với lãi suất $r = 2\\% = 0{,}02$/tháng.\n   Tổng số tiền cả gốc và lãi sau 60 tháng là:\n   $$S_{60} = T(1 + r) \\cdot \\dfrac{(1 + r)^{60} - 1}{r} = T(1{,}02) \\cdot \\dfrac{1{,}02^{60} - 1}{0{,}02} \\approx T \\cdot 116{,}33257.$$\n3. Để đủ tiền mua nhà, ta có:\n   $$S_{60} = V_5 \\iff T \\cdot 116{,}33257 = 638{,}14078125 \\iff T = \\dfrac{638{,}14078125}{116{,}33257} \\approx 5{,}48548... \\approx 5{,}49\\text{ (triệu đồng)}.$$\n\nĐáp số: 5,49.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$, biết $u_n = \\dfrac{an - 7}{2n + 8}$ ($n \\in \\mathbb{N}^*$). Xác định $a$ để $u_{12} = \\dfrac{49}{8}$ (làm tròn số $a$ tới chữ số hàng đơn vị).",
+      "explanation": "Thay $n = 12$ vào công thức số hạng tổng quát:\n$$u_{12} = \\dfrac{12a - 7}{2(12) + 8} = \\dfrac{12a - 7}{32}.$$\nTheo giả thiết $u_{12} = \\dfrac{49}{8}$, ta có:\n$$\\dfrac{12a - 7}{32} = \\dfrac{49}{8} \\iff 12a - 7 = 49 \\cdot 4 = 196 \\iff 12a = 203 \\iff a = \\dfrac{203}{12} \\approx 16{,}9166...$$\nLàm tròn đến chữ số hàng đơn vị ta được $a = 17$.\n\nĐáp số: 17.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một bánh xe đạp có đường kính 50 cm (kể cả lốp). Nếu chạy với vận tốc 12 km/h thì trong 21 giây bánh xe quay được bao nhiêu vòng (làm tròn đến hàng đơn vị)?",
+      "explanation": "1. Đổi đơn vị vận tốc:\n   $$v = 12\\text{ km/h} = \\dfrac{12 \\cdot 1000}{3600}\\text{ m/s} = \\dfrac{10}{3}\\text{ m/s}.$$\n2. Quãng đường bánh xe lăn được trong 21 giây là:\n   $$s = v \\cdot t = \\dfrac{10}{3} \\cdot 21 = 70\\text{ (m)} = 7000\\text{ (cm)}.$$\n3. Chu vi của bánh xe là:\n   $$C = \\pi \\cdot d = 50\\pi\\text{ (cm)}.$$\n4. Số vòng bánh xe quay được là:\n   $$N = \\dfrac{s}{C} = \\dfrac{7000}{50\\pi} = \\dfrac{140}{\\pi} \\approx 44{,}563...\\text{ (vòng)}.$$\nLàm tròn đến hàng đơn vị ta được 45 vòng.\n\nĐáp số: 45.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-109-M101-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ thoả $\\sin\\alpha = \\dfrac{3}{4}$ và $0 < \\alpha < \\dfrac{\\pi}{2}$. Khi đó $\\sin\\left(\\alpha + \\dfrac{\\pi}{4}\\right) = \\dfrac{3\\sqrt{a} + \\sqrt{b}}{c}$ với $a, b, c$ là các số nguyên nhỏ hơn 15. Tính giá trị của biểu thức $P = a - b - 2c$.",
+      "explanation": "Vì $0 < \\alpha < \\dfrac{\\pi}{2}$ nên $\\cos\\alpha > 0$. Ta có:\n$$\\cos\\alpha = \\sqrt{1 - \\sin^2\\alpha} = \\sqrt{1 - \\left(\\dfrac{3}{4}\\right)^2} = \\sqrt{1 - \\dfrac{9}{16}} = \\dfrac{\\sqrt{7}}{4}.$$\nÁp dụng công thức cộng cho sin:\n$$\\sin\\left(\\alpha + \\dfrac{\\pi}{4}\\right) = \\sin\\alpha\\cos\\dfrac{\\pi}{4} + \\cos\\alpha\\sin\\dfrac{\\pi}{4} = \\dfrac{3}{4} \\cdot \\dfrac{\\sqrt{2}}{2} + \\dfrac{\\sqrt{7}}{4} \\cdot \\dfrac{\\sqrt{2}}{2} = \\dfrac{3\\sqrt{2} + \\sqrt{14}}{8}.$$\nĐồng nhất với biểu thức $\\dfrac{3\\sqrt{a} + \\sqrt{b}}{c}$ với $a, b, c$ là các số nguyên nhỏ hơn 15, ta được:\n$$a = 2, \\quad b = 14, \\quad c = 8.$$\nKhi đó giá trị biểu thức $P$ là:\n$$P = a - b - 2c = 2 - 14 - 2(8) = 2 - 14 - 16 = -28.$$\n\nĐáp số: -28.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-109-p2.png",
+          "sha256": "c77d0397379a2bf127827e6e70fe894d8816b84a4a9a8eed3250e52cd1b7d408"
+        }
+      ]
+    }
+  ]
+}

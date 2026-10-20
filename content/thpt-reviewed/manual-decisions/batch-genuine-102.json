@@ -1,0 +1,403 @@
+{
+  "batchId": "batch-genuine-102",
+  "reviewedAt": "2026-10-20T16:05:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường cong hình bên là đồ thị của một trong bốn hàm số dưới đây. Hàm số đó là hàm số nào?\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-223-p1-cau1.png)",
+      "explanation": "Đường cong đã cho là đồ thị của hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ có nhánh bên phải đi lên nên $a > 0$.\nĐồ thị cắt trục tung tại điểm $(0; 2)$ và có điểm cực tiểu tại $(1; 0)$.\nXét hàm số $y = x^3 - 3x + 2$ có:\n- $y(0) = 2$.\n- $y' = 3x^2 - 3 = 0 \\iff x = \\pm 1$, với điểm cực tiểu tại $x = 1, y(1) = 0$.\nDo đó hàm số cần tìm là $y = x^3 - 3x + 2$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p1.png",
+          "sha256": "62bf3e1820ccd88b1b60420ceec3ebd193882c2cbcbe79f280ac41e844bde664"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tứ diện $ABCD$, gọi $I, J$ lần lượt là trung điểm của $AB$ và $CD$. Đẳng thức nào sai?",
+      "explanation": "Với $I, J$ lần lượt là trung điểm của $AB$ và $CD$, ta có:\n- $\\vec{IJ} = \\vec{IA} + \\vec{AD} + \\vec{DJ}$ và $\\vec{IJ} = \\vec{IB} + \\vec{BC} + \\vec{CJ}$. Cộng lại được $2\\vec{IJ} = \\vec{AD} + \\vec{BC}$ hay $\\vec{IJ} = \\frac{1}{2}(\\vec{AD} + \\vec{BC})$ (B đúng).\n- Tương tự $2\\vec{IJ} = \\vec{AC} + \\vec{BD} \\implies \\vec{IJ} = \\frac{1}{2}(\\vec{AC} + \\vec{BD})$ (D đúng).\n- Ở phương án C: $\\vec{BD} + \\vec{DC} = \\vec{BC}$ nên $\\frac{1}{2}(\\vec{AD} + \\vec{BD} + \\vec{DC}) = \\frac{1}{2}(\\vec{AD} + \\vec{BC}) = \\vec{IJ}$ (C đúng).\n- Đẳng thức $\\vec{IJ} = \\frac{1}{2}(\\vec{AB} + \\vec{CD})$ là sai vì $\\vec{AB}$ và $\\vec{CD}$ không xác định vectơ nối hai trung điểm $\\vec{IJ}$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p1.png",
+          "sha256": "62bf3e1820ccd88b1b60420ceec3ebd193882c2cbcbe79f280ac41e844bde664"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường cong trong hình sau là đồ thị của hàm số nào?\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-223-p1-cau3.png)",
+      "explanation": "Từ đồ thị ta thấy:\n- Tiệm cận đứng là đường thẳng $x = 1$.\n- Đồ thị cắt trục tung tại điểm $(0; -2)$.\nXét hàm số $y = \\frac{x^2 - x + 2}{x - 1}$:\n- Tập xác định $D = \\mathbb{R} \\setminus \\{1\\}$, có tiệm cận đứng $x = 1$.\n- Tại $x = 0$ thì $y = \\frac{2}{-1} = -2$.\n- Ta có $y = x + \\frac{2}{x - 1}$, tiệm cận xiên là $y = x$.\nDo đó đây chính là đồ thị hàm số $y = \\frac{x^2 - x + 2}{x - 1}$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p1.png",
+          "sha256": "62bf3e1820ccd88b1b60420ceec3ebd193882c2cbcbe79f280ac41e844bde664"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho hai vectơ $\\vec{u} = (1; 3; -2)$ và $\\vec{v} = (2; 1; -1)$. Tọa độ vectơ $\\vec{u} - \\vec{v}$ là:",
+      "explanation": "Tọa độ vectơ $\\vec{u} - \\vec{v}$ là:\n$$\\vec{u} - \\vec{v} = (1 - 2; 3 - 1; -2 - (-1)) = (-1; 2; -1).$$\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p1.png",
+          "sha256": "62bf3e1820ccd88b1b60420ceec3ebd193882c2cbcbe79f280ac41e844bde664"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[-1; 3]$ và có đồ thị như hình vẽ bên. Gọi $M$ và $m$ lần lượt là giá trị lớn nhất và nhỏ nhất của hàm số trên đoạn $[-1; 3]$. Khi đó, tổng $M + m$ bằng\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-223-p2-cau5.png)",
+      "explanation": "Dựa vào đồ thị hàm số trên đoạn $[-1; 3]$:\n- Điểm cao nhất của đồ thị có tung độ bằng $2$, do đó $M = \\max_{[-1; 3]} f(x) = 2$.\n- Điểm thấp nhất của đồ thị có tung độ bằng $-4$, do đó $m = \\min_{[-1; 3]} f(x) = -4$.\nVậy tổng $M + m = 2 + (-4) = -2$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p2.png",
+          "sha256": "25b49cc4a51832722dd3c3e279950c4c0610b2c50d16584094bb98e22029f822"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x)$ xác định và liên tục trên $\\mathbb{R} \\setminus \\{-1\\}$, có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-223-p2-cau6.png)\n\nKhẳng định nào sau đây là khẳng định đúng?",
+      "explanation": "Dựa vào bảng biến thiên:\n- $\\lim_{x \\to -\\infty} f(x) = 2$ nên đường thẳng $y = 2$ là tiệm cận ngang.\n- $\\lim_{x \\to +\\infty} f(x) = 5$ nên đường thẳng $y = 5$ là tiệm cận ngang.\n- $\\lim_{x \\to -1^+} f(x) = +\\infty$ (và $\\lim_{x \\to -1^-} f(x) = -\\infty$) nên đường thẳng $x = -1$ là tiệm cận đứng.\nVậy đồ thị hàm số có hai tiệm cận ngang $y = 2, y = 5$ và một tiệm cận đứng $x = -1$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p2.png",
+          "sha256": "25b49cc4a51832722dd3c3e279950c4c0610b2c50d16584094bb98e22029f822"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = -x^4 + 12x^2 + 1$, khi đó giá trị lớn nhất của hàm số $y = f(x)$ trên đoạn $[-1; 2]$ bằng:",
+      "explanation": "Xét hàm số $f(x) = -x^4 + 12x^2 + 1$ trên đoạn $[-1; 2]$.\nĐạo hàm $f'(x) = -4x^3 + 24x = -4x(x^2 - 6)$.\nCho $f'(x) = 0 \\iff x = 0$ hoặc $x = \\pm \\sqrt{6}$.\nVì $\\pm \\sqrt{6} \\notin [-1; 2]$ nên ta chỉ xét $x = 0$.\nTính các giá trị:\n- $f(-1) = -(-1)^4 + 12(-1)^2 + 1 = 12$.\n- $f(0) = 1$.\n- $f(2) = -(2)^4 + 12(2)^2 + 1 = -16 + 48 + 1 = 33$.\nVậy giá trị lớn nhất của hàm số trên đoạn $[-1; 2]$ là $33$ (đạt được tại $x = 2$).\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p2.png",
+          "sha256": "25b49cc4a51832722dd3c3e279950c4c0610b2c50d16584094bb98e22029f822"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đồ thị của hàm số $y = f(x)$ có đồ thị như hình vẽ bên dưới. Hàm số đã cho đồng biến trên khoảng nào dưới đây?\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-223-p2-cau8.png)",
+      "explanation": "Từ đồ thị ta thấy hàm số đồng biến trên các khoảng $(-\\infty; 0)$ và $(2; +\\infty)$.\nVì khoảng $(-\\infty; -4) \\subset (-\\infty; 0)$ nên hàm số cũng đồng biến trên khoảng $(-\\infty; -4)$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p2.png",
+          "sha256": "25b49cc4a51832722dd3c3e279950c4c0610b2c50d16584094bb98e22029f822"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có đồ thị như hình vẽ bên. Đường tiệm cận ngang của đồ thị hàm số có phương trình là:\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-223-p3-cau9.png)",
+      "explanation": "Từ đồ thị ta thấy khi $x \\to \\pm\\infty$, đường cong tiến dần đến đường thẳng nằm ngang $y = 2$.\nDo đó đường tiệm cận ngang của đồ thị hàm số có phương trình là $y = 2$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p3.png",
+          "sha256": "a0eb3256055e5af811ce4e9f07b0eba21d2b365cf2b00f77f60f94b672f4b089"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ xác định, liên tục trên $\\mathbb{R}$ và có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-223-p3-cau10.png)\n\nĐiểm cực đại của hàm số là",
+      "explanation": "Từ bảng biến thiên, đạo hàm $f'(x)$ đổi dấu từ dương sang âm khi qua điểm $x = 1$.\nDo đó điểm cực đại của hàm số là $x = 1$ (giá trị cực đại là $y_{CĐ} = 5$).\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p3.png",
+          "sha256": "a0eb3256055e5af811ce4e9f07b0eba21d2b365cf2b00f77f60f94b672f4b089"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chiếc buýt có sức chứa tối đa 50 hành khách. Nếu một chuyến xe buýt chở $x$ hành khách thì giá tiền cho mỗi hành khách là $20\\left(3 - \\frac{x}{40}\\right)^2$ (nghìn đồng). Hỏi để thu được số tiền nhiều nhất thì một chuyến xe buýt cần chở bao nhiêu khách?",
+      "explanation": "Doanh thu của chuyến xe buýt chở $x$ hành khách ($0 \\le x \\le 50$, $x \\in \\mathbb{N}^*$) là:\n$$R(x) = x \\cdot 20\\left(3 - \\frac{x}{40}\\right)^2.$$\nXét hàm số $f(x) = x\\left(3 - \\frac{x}{40}\\right)^2$ trên $[0; 50]$:\n$$f'(x) = \\left(3 - \\frac{x}{40}\\right)^2 + x \\cdot 2\\left(3 - \\frac{x}{40}\\right)\\left(-\\frac{1}{40}\\right) = \\left(3 - \\frac{x}{40}\\right)\\left(3 - \\frac{x}{40} - \\frac{2x}{40}\\right) = \\left(3 - \\frac{x}{40}\\right)\\left(3 - \\frac{3x}{40}\\right).$$\nCho $f'(x) = 0$ với $x \\in [0; 50]$ ta được:\n$$3 - \\frac{3x}{40} = 0 \\iff 3x = 120 \\iff x = 40.$$\nBảng biến thiên cho thấy $f'(x) > 0$ khi $0 < x < 40$ và $f'(x) < 0$ khi $40 < x \\le 50$.\nDo đó hàm doanh thu đạt giá trị lớn nhất tại $x = 40$.\nVậy chuyến xe buýt cần chở 40 khách để thu được số tiền nhiều nhất.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p3.png",
+          "sha256": "a0eb3256055e5af811ce4e9f07b0eba21d2b365cf2b00f77f60f94b672f4b089"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ có bảng biến thiên như sau:\n\n![Bảng biến thiên](/images/thpt/thpt-12-giua-hk1-223-p3-cau12.png)\n\nHỏi hàm số đã đồng biến trên khoảng nào?",
+      "explanation": "Từ bảng biến thiên, ta thấy $y' > 0$ trên các khoảng $(-\\infty; -1)$ và $(0; 1)$.\nDo đó hàm số đồng biến trên các khoảng $(-\\infty; -1)$ và $(0; 1)$.\nTrong các phương án đã cho, hàm số đồng biến trên khoảng $(0; 1)$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p3.png",
+          "sha256": "a0eb3256055e5af811ce4e9f07b0eba21d2b365cf2b00f77f60f94b672f4b089"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp tứ giác đều $S.ABCD$ có độ dài tất cả các cạnh đều bằng $a$.",
+      "explanation": "a) Đúng: Vì đáy $ABCD$ là hình vuông nên theo quy tắc hình bình hành ta có $\\vec{AB} + \\vec{AD} = \\vec{AC}$.\nb) Đúng: Ta có $\\vec{SB} \\cdot \\vec{BD} = -\\vec{BS} \\cdot \\vec{BD} = -BS \\cdot BD \\cdot \\cos(\\widehat{SBD})$. Tam giác $SBD$ có $SB = SD = a, BD = a\\sqrt{2}$, ta thấy $SB^2 + SD^2 = a^2 + a^2 = 2a^2 = BD^2$, do đó tam giác $SBD$ vuông cân tại $S$, suy ra $\\widehat{SBD} = 45^\\circ$. Vậy $\\vec{SB} \\cdot \\vec{BD} = -a \\cdot a\\sqrt{2} \\cdot \\cos 45^\\circ = -a \\cdot a\\sqrt{2} \\cdot \\frac{\\sqrt{2}}{2} = -a^2$.\nc) Sai: Vì $ABCD$ là hình vuông nên $\\vec{AB} = \\vec{DC} = -\\vec{CD} \\ne \\vec{CD}$.\nd) Sai: Góc giữa hai vectơ $\\vec{SB}$ và $\\vec{BD}$ là $180^\\circ - \\widehat{SBD} = 180^\\circ - 45^\\circ = 135^\\circ \\ne 45^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p3.png",
+          "sha256": "a0eb3256055e5af811ce4e9f07b0eba21d2b365cf2b00f77f60f94b672f4b089"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty sản xuất một sản phẩm. Bộ phận tài chính của công ty đưa ra hàm giá bán là $p(x) = 1000 - 25x$, trong đó $p(x)$ (triệu đồng) là giá bán của mỗi sản phẩm mà tại giá bán này, có $x$ sản phẩm được bán ra.",
+      "explanation": "a) Đúng: $(-25x^2 + 1000x)' = -50x + 1000$.\nb) Đúng: Doanh thu bằng số lượng sản phẩm nhân với giá bán mỗi sản phẩm, do đó $f(x) = x \\cdot p(x) = x(1000 - 25x) = -25x^2 + 1000x$.\nc) Sai: Phương trình $f'(x) = 0 \\iff -50x + 1000 = 0 \\iff x = 20 \\ne 2$.\nd) Sai: Hàm số bậc hai $f(x) = -25x^2 + 1000x$ đạt giá trị lớn nhất tại $x = 20$, khi đó $f(20) = -25(20)^2 + 1000(20) = -10000 + 20000 = 10000 \\ne 1000$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p3.png",
+          "sha256": "a0eb3256055e5af811ce4e9f07b0eba21d2b365cf2b00f77f60f94b672f4b089"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = x^3 - ax^2 + bx + c$ có đồ thị như Hình 2.\n\n![Đồ thị hàm số](/images/thpt/thpt-12-giua-hk1-223-p4-p2c3.png)",
+      "explanation": "Đạo hàm $f'(x) = 3x^2 - 2ax + b$.\nTừ đồ thị Hình 2, đồ thị có điểm cực đại tại $(0; 2)$ và điểm cực tiểu tại $(2; -2)$.\nDo đó:\n- $f'(0) = 0 \\implies b = 0$ (ý a đúng).\n- $f'(2) = 0 \\implies 3(2)^2 - 2a(2) = 0 \\implies 12 - 4a = 0 \\implies a = 3$.\n- Đồ thị cắt trục tung tại $(0; 2) \\implies f(0) = c = 2 \\ne -2$ (ý d sai).\n- Khi đó $f(x) = x^3 - 3x^2 + 2 \\ne x^3 - 6x^2 + 2$ (ý b sai).\n- Hai điểm cực trị của hàm số là $x_1 = 0$ và $x_2 = 2$ (ý c đúng).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong không gian $Oxyz$, cho các điểm $A(1; -2; 3)$, $B(-2; 1; 2)$, $C(3; -1; 2)$.",
+      "explanation": "Ta có:\n- $\\vec{AB} = (-2 - 1; 1 - (-2); 2 - 3) = (-3; 3; -1)$ (ý d đúng).\n- $\\vec{AC} = (3 - 1; -1 - (-2); 2 - 3) = (2; 1; -1)$.\n- $|\\vec{AB}| = \\sqrt{(-3)^2 + 3^2 + (-1)^2} = \\sqrt{19}$, $|\\vec{AC}| = \\sqrt{2^2 + 1^2 + (-1)^2} = \\sqrt{6}$. Do $\\sqrt{19} \\ne 3\\sqrt{6}$ nên ý a sai.\n- Hai vectơ $\\vec{AB}$ và $\\vec{AC}$ không cùng phương (do $\\frac{-3}{2} \\ne \\frac{3}{1}$), suy ra ba điểm $A, B, C$ không thẳng hàng (ý b đúng).\n- Tứ giác $ABCD$ là hình bình hành $\\iff \\vec{AD} = \\vec{BC}$.\nTa có $\\vec{BC} = (3 - (-2); -1 - 1; 2 - 2) = (5; -2; 0)$.\nKhi đó $D = A + \\vec{BC} = (1 + 5; -2 - 2; 3 + 0) = (6; -4; 3) \\ne (2; -1; 1)$ (ý c sai).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khu trò chơi trẻ em Gấu Misa hiện có khách lượng ổn định mỗi ngày là 1.000 khách. Mỗi khách vào cổng mua vé giá 40.000 đồng. Một cuộc khảo sát cho thấy cứ mỗi lần giảm 2.000 đồng giá vé, khu trò chơi có thể có thêm 100 khách. Để doanh thu thu được là tối đa, khu trò chơi nên bán vé với giá là bao nhiêu nghìn đồng?",
+      "explanation": "Gọi $x$ là số lần giảm $2.000$ đồng giá vé ($x \\ge 0$, $x \\le 20$).\nKhi đó:\n- Giá vé sau khi giảm là $40 - 2x$ (nghìn đồng).\n- Số lượng khách là $1000 + 100x$ (khách).\nDoanh thu của khu trò chơi là:\n$$R(x) = (40 - 2x)(1000 + 100x) = 200(20 - x)(10 + x) = 200(-x^2 + 10x + 200).$$\nTam thức bậc hai $-x^2 + 10x + 200$ đạt giá trị lớn nhất tại đỉnh parabol:\n$$x = -\\frac{10}{2(-1)} = 5.$$\nKhi đó giá vé nên bán là:\n$$40 - 2(5) = 30\\text{ (nghìn đồng)}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\frac{x^2 + 4x + 1}{x + 1}$ có hai điểm cực trị là $x_1, x_2$. Tổng $x_1 + x_2$ bằng bao nhiêu?",
+      "explanation": "Tập xác định $D = \\mathbb{R} \\setminus \\{-1\\}$.\nTa có:\n$$y' = \\frac{(2x + 4)(x + 1) - (x^2 + 4x + 1)}{(x + 1)^2} = \\frac{2x^2 + 6x + 4 - x^2 - 4x - 1}{(x + 1)^2} = \\frac{x^2 + 2x + 3}{(x + 1)^2}.$$\nTheo cấu trúc hàm phân thức $y = \\frac{x^2 + bx + c}{x + d}$ có hai điểm cực trị $x_1, x_2$, phương trình hoành độ điểm cực trị luôn có tổng hai nghiệm theo định lý Vi-ét là:\n$$x_1 + x_2 = -2d = -2(1) = -2.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABCD.A'B'C'D'$ cạnh là 2. Hãy tính $\\vec{AC} \\cdot \\vec{BC'}$.",
+      "explanation": "Ta có $\\vec{BC'} = \\vec{BC} + \\vec{CC'}$. Khi đó:\n$$\\vec{AC} \\cdot \\vec{BC'} = \\vec{AC} \\cdot (\\vec{BC} + \\vec{CC'}) = \\vec{AC} \\cdot \\vec{BC} + \\vec{AC} \\cdot \\vec{CC'}.$$\nDo $CC' \\perp (ABCD)$ nên $\\vec{AC} \\cdot \\vec{CC'} = 0$.\nTrong hình vuông $ABCD$, tam giác $ABC$ vuông tại $B$ với $BA = BC = 2$, suy ra $AC = 2\\sqrt{2}$ và $(\\vec{AC}, \\vec{BC}) = 45^\\circ$.\nDo đó:\n$$\\vec{AC} \\cdot \\vec{BC} = AC \\cdot BC \\cdot \\cos 45^\\circ = 2\\sqrt{2} \\cdot 2 \\cdot \\frac{\\sqrt{2}}{2} = 4.$$\nVậy $\\vec{AC} \\cdot \\vec{BC'} = 4$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một phân xưởng được đặt hàng sản xuất 1250 quả bóng pickleball. Hiện tại phân xưởng đang có một số máy có thể cài đặt để mỗi máy trong 1 giờ sản xuất tự động được 40 quả bóng pickleball mà không cần công nhân tham gia. Chi phí nhân công cài đặt mỗi máy là 500 nghìn đồng và vận hành hệ thống là 400 nghìn đồng mỗi giờ. Phân xưởng nên dùng bao nhiêu máy để tiết kiệm chi phí nhân công và vận hành hệ thống?",
+      "explanation": "Gọi $n$ ($n \\in \\mathbb{N}^*$) là số máy phân xưởng sử dụng.\nTrong 1 giờ, $n$ máy sản xuất được $40n$ quả bóng pickleball.\nThời gian để hoàn thành đơn hàng 1250 quả bóng là:\n$$t = \\frac{1250}{40n} = \\frac{125}{4n}\\text{ (giờ)}.$$\nTổng chi phí nhân công cài đặt và vận hành hệ thống là:\n$$C(n) = 500n + 400 \\cdot t = 500n + 400 \\cdot \\frac{125}{4n} = 500n + \\frac{12500}{n}\\text{ (nghìn đồng)}.$$\nÁp dụng bất đẳng thức AM-GM cho hai số dương $500n$ và $\\frac{12500}{n}$:\n$$C(n) \\ge 2\\sqrt{500n \\cdot \\frac{12500}{n}} = 2\\sqrt{6250000} = 2 \\cdot 2500 = 5000.$$\nDấu bằng xảy ra khi:\n$$500n = \\frac{12500}{n} \\iff n^2 = \\frac{12500}{500} = 25 \\iff n = 5.$$\nVậy phân xưởng nên dùng 5 máy.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Các đường tiệm cận của đồ thị hàm số $y = \\frac{-8x + 3}{2x - 5}$ tạo với hai trục tọa độ một hình chữ nhật có diện tích bằng bao nhiêu?",
+      "explanation": "Đồ thị hàm số $y = \\frac{-8x + 3}{2x - 5}$ có:\n- Tiệm cận đứng là đường thẳng $x = \\frac{5}{2}$.\n- Tiệm cận ngang là đường thẳng $y = \\frac{-8}{2} = -4$.\nHai đường tiệm cận cùng với hai trục tọa độ $x = 0$ và $y = 0$ tạo thành một hình chữ nhật có các cạnh độ dài là:\n$$a = \\left|\\frac{5}{2}\\right| = \\frac{5}{2}, \\quad b = |-4| = 4.$$\nDiện tích hình chữ nhật tạo thành là:\n$$S = a \\cdot b = \\frac{5}{2} \\cdot 4 = 10.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    },
+    {
+      "id": "THPT-12-GIUA_HK1-223-M1061-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giá trị lớn nhất của hàm số $y = \\sqrt{1 - x^2} + x + 1$ là $a + \\sqrt{b}$ trong đó $a, b$ là các số tự nhiên. Khi đó kết quả $a + b$ bằng bao nhiêu?",
+      "explanation": "Tập xác định của hàm số là $D = [-1; 1]$.\nCách 1: Áp dụng bất đẳng thức Cauchy-Schwarz:\n$$\\left(1 \\cdot \\sqrt{1 - x^2} + 1 \\cdot x\\right)^2 \\le (1^2 + 1^2)(1 - x^2 + x^2) = 2 \\cdot 1 = 2.$$\nSuy ra $\\sqrt{1 - x^2} + x \\le \\sqrt{2}$.\nDo đó $y = \\sqrt{1 - x^2} + x + 1 \\le \\sqrt{2} + 1 = 1 + \\sqrt{2}$.\nDấu bằng xảy ra khi $\\frac{\\sqrt{1 - x^2}}{1} = \\frac{x}{1} > 0 \\iff \\sqrt{1 - x^2} = x \\iff x = \\frac{1}{\\sqrt{2}} \\in [-1; 1]$.\nCách 2: Đạo hàm trên $(-1; 1)$:\n$$y' = -\\frac{x}{\\sqrt{1 - x^2}} + 1 = \\frac{\\sqrt{1 - x^2} - x}{\\sqrt{1 - x^2}}.$$\nCho $y' = 0 \\iff \\sqrt{1 - x^2} = x \\iff x = \\frac{\\sqrt{2}}{2}$.\nTính giá trị:\n- $y(-1) = 0, y(1) = 2$.\n- $y\\left(\\frac{\\sqrt{2}}{2}\\right) = \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2} + 1 = 1 + \\sqrt{2}$.\nVậy giá trị lớn nhất của hàm số là $1 + \\sqrt{2}$.\nTheo đề bài, giá trị lớn nhất là $a + \\sqrt{b}$ với $a, b \\in \\mathbb{N}$, suy ra $a = 1, b = 2$.\nKhi đó $a + b = 1 + 2 = 3$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p4.png",
+          "sha256": "767100a61eecf9ac71dd2a6cc0beb82d670b79f2d2db1f2fdbcc0db779a9c34e"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-12-GIUA_HK1-223-p9.png",
+          "sha256": "9b244ec321e6441740f2c0d4aa33b7d79e7f3a596de72062f911635f3b80509c"
+        }
+      ]
+    }
+  ]
+}

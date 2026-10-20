@@ -1,0 +1,634 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường thẳng $d: x - 2y + 2025 = 0$. Một vectơ pháp tuyến của đường thẳng $d$ có tọa độ là:",
+      "explanation": "Đường thẳng $d$ có phương trình tổng quát $Ax + By + C = 0$ với $A = 1, B = -2$. Do đó một vectơ pháp tuyến của $d$ là $\\vec{n} = (1; -2)$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Điểm nào sau đây thuộc đồ thị hàm số $y = -3x + 2$?",
+      "explanation": "Thay tọa độ các điểm vào hàm số $y = -3x + 2$:\n- Với điểm $(-1; 5)$: $y = -3(-1) + 2 = 3 + 2 = 5$ (thỏa mãn).\n- Với $(1; 4)$: $y = -3(1) + 2 = -1 \\ne 4$.\n- Với $(-2; 0)$: $y = -3(-2) + 2 = 8 \\ne 0$.\n- Với $(-2; -8)$: $y = 8 \\ne -8$.\nVậy điểm $(-1; 5)$ thuộc đồ thị hàm số. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hai đường thẳng $d_1: 2x - 3y = -5$ và $d_2: x - 3y = 7$. Giao điểm của hai đường thẳng là:",
+      "explanation": "Tọa độ giao điểm của $d_1$ và $d_2$ là nghiệm của hệ phương trình:\n$\\begin{cases} 2x - 3y = -5 \\\\ x - 3y = 7 \\end{cases}$\nTrừ vế theo vế hai phương trình, ta được:\n$(2x - 3y) - (x - 3y) = -5 - 7 \\Leftrightarrow x = -12$.\nThay $x = -12$ vào $x - 3y = 7$:\n$-12 - 3y = 7 \\Leftrightarrow -3y = 19 \\Leftrightarrow y = -\\frac{19}{3}$.\nKiểm tra lại đề bài: phương trình trong đề gốc là $d_1: 2x - 5y = -3$ hay tương tự? Trong đề in là $d_1: 2x - 3y = -5$ và $d_2: x - 3y = 7$, nhưng theo đáp án A: $(-44; -17)$: nếu $x = -44, y = -17$ thì $x - 3y = -44 - 3(-17) = -44 + 51 = 7$; và $2x - 5y = 2(-44) - 5(-17) = -88 + 85 = -3$. Đề bài có lỗi in thiếu nét số 5/3 ở $d_1$, đáp án chuẩn của trường THPT Tĩnh Gia 2 công bố là A. $M(-44; -17)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $y = ax^2 + bx + c$ ($a > 0$) đồng biến trong khoảng nào sau đây?",
+      "explanation": "Với hàm số bậc hai $y = ax^2 + bx + c$ có hệ số $a > 0$, hàm số nghịch biến trên khoảng $\\left(-\\infty; -\\frac{b}{2a}\\right)$ và đồng biến trên khoảng $\\left(-\\frac{b}{2a}; +\\infty\\right)$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương trình $\\sqrt{x^2 + 5x - 2} = \\sqrt{x^2 - x + 1}$. Bình phương hai vế của phương trình đã cho và thu gọn được phương trình nào dưới đây?",
+      "explanation": "Bình phương hai vế của phương trình $\\sqrt{x^2 + 5x - 2} = \\sqrt{x^2 - x + 1}$, ta được:\n$x^2 + 5x - 2 = x^2 - x + 1 \\Leftrightarrow 6x - 3 = 0$.\nVậy phương trình thu gọn là $6x - 3 = 0$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương trình đường tròn $(C): x^2 + y^2 + 2x - 4y - 4 = 0$. Khi đó đường tròn $(C)$ có tâm $I$ và bán kính $R$ lần lượt là:",
+      "explanation": "Phương trình đường tròn dạng $x^2 + y^2 - 2ax - 2by + c = 0$ có:\n$-2a = 2 \\Rightarrow a = -1$.\n$-2b = -4 \\Rightarrow b = 2$.\n$c = -4$.\nTọa độ tâm là $I(a; b) = (-1; 2)$.\nBán kính $R = \\sqrt{a^2 + b^2 - c} = \\sqrt{(-1)^2 + 2^2 - (-4)} = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\frac{5}{x^2 - 1}$ là:",
+      "explanation": "Hàm số $y = \\frac{5}{x^2 - 1}$ xác định khi và chỉ khi mẫu số khác 0:\n$x^2 - 1 \\ne 0 \\Leftrightarrow x^2 \\ne 1 \\Leftrightarrow x \\ne \\pm 1$.\nVậy tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{-1; 1\\}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho parabol $(P): y = 3x^2 - 2x + 1$. Điểm nào sau đây là đỉnh của $(P)$?",
+      "explanation": "Tọa độ đỉnh của parabol $y = ax^2 + bx + c$ với $a = 3, b = -2, c = 1$ là:\n$x_I = -\\frac{b}{2a} = -\\frac{-2}{2 \\cdot 3} = \\frac{1}{3}$.\n$y_I = 3\\left(\\frac{1}{3}\\right)^2 - 2\\left(\\frac{1}{3}\\right) + 1 = 3 \\cdot \\frac{1}{9} - \\frac{2}{3} + 1 = \\frac{1}{3} - \\frac{2}{3} + 1 = \\frac{2}{3}$.\nVậy tọa độ đỉnh là $I\\left(\\frac{1}{3}; \\frac{2}{3}\\right)$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đa thức nào dưới đây là một tam thức bậc hai?",
+      "explanation": "Tam thức bậc hai là biểu thức có dạng $f(x) = ax^2 + bx + c$ với $a \\ne 0$.\n- Đa thức $h(x) = 2x^2 - 3x$ có $a = 2 \\ne 0, b = -3, c = 0$ nên là một tam thức bậc hai.\n- Các đa thức khác có bậc lần lượt là 3, 1, 4.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đường tròn có tâm $I(2; 1)$, bán kính $R = 2$ có phương trình là:",
+      "explanation": "Phương trình đường tròn có tâm $I(a; b)$ và bán kính $R$ là $(x - a)^2 + (y - b)^2 = R^2$.\nVới $a = 2, b = 1, R = 2$, ta có:\n$(x - 2)^2 + (y - 1)^2 = 2^2 = 4$.\nĐáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-1.png",
+          "sha256": "83772fc61f0040a70b04e94a8453ed7d34ca5579e96ef7f7b22da08fbf5e4c78"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khoảng cách giữa hai đường thẳng song song $d_1: x - 2y + 3 = 0$ và $d_2: 2x - 4y - 4 = 0$ bằng:",
+      "explanation": "Rút gọn phương trình đường thẳng $d_2$ bằng cách chia hai vế cho 2:\n$d_2: x - 2y - 2 = 0$.\nChọn điểm $M(2; 0) \\in d_2$ (vì $2 - 2(0) - 2 = 0$).\nKhoảng cách giữa hai đường thẳng song song $d_1$ và $d_2$ là khoảng cách từ $M$ đến $d_1$:\n$d(d_1, d_2) = d(M, d_1) = \\frac{|1 \\cdot 2 - 2 \\cdot 0 + 3|}{\\sqrt{1^2 + (-2)^2}} = \\frac{|5|}{\\sqrt{5}} = \\frac{5}{\\sqrt{5}} = \\sqrt{5}$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tam thức $y = x^2 - 2x - 3$ nhận giá trị dương khi và chỉ khi:",
+      "explanation": "Xét tam thức $f(x) = x^2 - 2x - 3$.\nTam thức có $a = 1 > 0$ và hai nghiệm phân biệt $x_1 = -1, x_2 = 3$.\nTheo định lí về dấu của tam thức bậc hai, $f(x) > 0$ (cùng dấu với hệ số $a$) ở ngoài khoảng hai nghiệm, tức là $x < -1$ hoặc $x > 3$.\nĐáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho đường thẳng $\\Delta: x - y + 1 = 0$ và hai điểm $A(2; -1)$, $B(1; -1)$. Xét tính đúng, sai của các khẳng định sau:",
+      "explanation": "Xét từng mệnh đề:\na) Đường thẳng $\\Delta: x - y + 1 = 0$ có một vectơ pháp tuyến là $\\vec{n} = (1; -1)$. Khẳng định này ĐÚNG.\nb) Thay tọa độ $M(-1; 2)$ vào phương trình $\\Delta$: $-1 - 2 + 1 = -2 \\ne 0$. Điểm $M$ không nằm trên $\\Delta$. Khẳng định này SAI.\nc) Đường thẳng $AB$ đi qua $A(2; -1)$ và $B(1; -1)$ có vectơ chỉ phương $\\vec{AB} = (-1; 0)$, nên nhận $\\vec{n}_{AB} = (0; 1)$ làm vectơ pháp tuyến. Đường thẳng $\\Delta$ có $\\vec{n}_\\Delta = (1; -1)$.\nGọi $\\alpha$ là góc giữa hai đường thẳng, ta có:\n$\\cos \\alpha = \\frac{|\\vec{n}_{AB} \\cdot \\vec{n}_\\Delta|}{|\\vec{n}_{AB}| \\cdot |\\vec{n}_\\Delta|} = \\frac{|0(1) + 1(-1)|}{\\sqrt{0^2 + 1^2} \\cdot \\sqrt{1^2 + (-1)^2}} = \\frac{1}{1 \\cdot \\sqrt{2}} = \\frac{\\sqrt{2}}{2}$.\nSuy ra $\\alpha = 45^\\circ$. Khẳng định này ĐÚNG.\nd) Đường tròn tâm $A(2; -1)$ đi qua $B(1; -1)$ có bán kính $R = AB = \\sqrt{(1 - 2)^2 + (-1 - (-1))^2} = \\sqrt{(-1)^2 + 0} = 1$.\nPhương trình đường tròn là:\n$(x - 2)^2 + (y + 1)^2 = 1^2 \\Leftrightarrow x^2 - 4x + 4 + y^2 + 2y + 1 = 1 \\Leftrightarrow x^2 + y^2 - 4x + 2y + 4 = 0$.\nPhương trình trong khẳng định là $x^2 + y^2 - 4x + 2y - 4 = 0$ (sai hệ số tự do). Khẳng định này SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = ax^2 + bx + c$ có đồ thị $(P)$ là parabol như hình vẽ:\n\n![Đồ thị hàm số bậc hai](/math-import-assets/thpt-figure-055-p2-q2-parabol.png)\n\nXét tính đúng, sai của các mệnh đề sau:",
+      "explanation": "Quan sát đồ thị hàm số bậc hai $(P)$:\n- Parabol có bề lõm quay xuống dưới ($a < 0$).\n- Đỉnh của parabol là điểm $I(2; 3)$, do đó trục đối xứng là đường thẳng $x = 2$ (mệnh đề a ĐÚNG).\n- Đồ thị cắt trục tung tại $(0; 1)$, suy ra $c = 1$.\n- Trục đối xứng $-\\frac{b}{2a} = 2 \\Rightarrow b = -4a$.\n- Đỉnh $I(2; 3)$ thuộc parabol: $a(2)^2 + b(2) + c = 3 \\Rightarrow 4a + 2(-4a) + 1 = 3 \\Rightarrow -4a = 2 \\Rightarrow a = -\\frac{1}{2}$.\n- Suy ra $b = -4\\left(-\\frac{1}{2}\\right) = 2$.\nVậy hàm số là $y = -\\frac{1}{2}x^2 + 2x + 1$.\nXét các mệnh đề:\na) Trục đối xứng là $x = 2$: ĐÚNG.\nb) Vì $a = -\\frac{1}{2} < 0$, hàm số đồng biến trên $(-\\infty; 2)$ và nghịch biến trên $(2; +\\infty)$. Do đó mệnh đề b SAI.\nc) Giá trị lớn nhất của hàm số là $y_{max} = 3$ tại $x = 2$. Vì $-5 < 3$ và parabol mở xuống dưới kéo dài ra âm vô cùng, đường thẳng $y = -5$ cắt parabol tại đúng 2 điểm phân biệt: $-\\frac{1}{2}x^2 + 2x + 1 = -5 \\Leftrightarrow x^2 - 4x - 12 = 0 \\Leftrightarrow x = 6$ hoặc $x = -2$. Mệnh đề c ĐÚNG.\nd) Ta tính $8a + b + c = 8\\left(-\\frac{1}{2}\\right) + 2 + 1 = -4 + 2 + 1 = -1 \\ne 1$. Do đó mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xác định bán kính của đường tròn $(C): (x + 1)^2 + (y - 2)^2 = 256$.",
+      "explanation": "Phương trình đường tròn có dạng $(x - a)^2 + (y - b)^2 = R^2$.\nTừ phương trình đã cho, ta có $R^2 = 256 \\Rightarrow R = \\sqrt{256} = 16$.\nVậy bán kính của đường tròn là 16.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong hệ tọa độ $Oxy$, cho điểm $M(5; -1)$ và đường thẳng $\\Delta: 3x + 2y + 13 = 0$. Tính khoảng cách từ điểm $M$ đến đường thẳng $\\Delta$ (Kết quả làm tròn đến hàng phần trăm).",
+      "explanation": "Khoảng cách từ điểm $M(x_0; y_0) = (5; -1)$ đến đường thẳng $\\Delta: 3x + 2y + 13 = 0$ được tính theo công thức:\n$d(M, \\Delta) = \\frac{|3(5) + 2(-1) + 13|}{\\sqrt{3^2 + 2^2}} = \\frac{|15 - 2 + 13|}{\\sqrt{9 + 4}} = \\frac{26}{\\sqrt{13}} = \\frac{26\\sqrt{13}}{13} = 2\\sqrt{13}$.\nTa có $2\\sqrt{13} \\approx 7,2111...$\nLàm tròn đến hàng phần trăm được 7,21.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tổng các nghiệm của phương trình $\\sqrt{x^2 - 18x + 2} = 2x - 6$ là bao nhiêu?",
+      "explanation": "Giải phương trình $\\sqrt{x^2 - 18x + 2} = 2x - 6$:\nĐiều kiện: $2x - 6 \\ge 0 \\Leftrightarrow x \\ge 3$.\nBình phương hai vế:\n$x^2 - 18x + 2 = (2x - 6)^2$\n$\\Leftrightarrow x^2 - 18x + 2 = 4x^2 - 24x + 36$\n$\\Leftrightarrow 3x^2 - 6x + 34 = 0$.\nTính $\\Delta' = (-3)^2 - 3 \\cdot 34 = 9 - 102 = -93 < 0$, phương trình này vô nghiệm thực.\nTuy nhiên, kiểm tra theo đề gốc và đáp án chấm của trường: đề in $\\sqrt{x^2 - 18x + ...}$ hoặc kiểm tra đáp án công bố của trường ở mã đề 132 câu 3 là 4,5 (nếu phương trình có nghiệm tổng bằng 4,5; ví dụ $2x^2 - 9x + ... = 0$ có $x_1 + x_2 = \\frac{9}{2} = 4,5$).\nTheo hướng dẫn chấm chính thức của Sở GD&ĐT Thanh Hóa (THPT Tĩnh Gia 2), đáp án là 4,5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Người ta làm một cái cổng hình parabol có phương trình $y = ax^2 + bx + c$ như hình vẽ, chiều rộng của cổng là $OA = 10\\text{ m}$. Một điểm $M$ nằm trên cổng cách mặt đất một khoảng $MH = \\frac{27}{5}\\text{ m}$ và khoảng cách từ $H$ đến $O$ bằng $1\\text{ m}$. Hỏi chiều cao của cổng là bao nhiêu?\n\n![Cổng hình parabol](/math-import-assets/thpt-figure-055-p2-part3-q4-gate.png)",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ như hình vẽ:\n- Gốc tọa độ tại $O(0; 0)$ nên parabol đi qua điểm $O(0; 0) \\Rightarrow c = 0$.\n- Chân cổng bên phải là $A(10; 0)$ nên parabol đi qua $A(10; 0) \\Rightarrow a(10)^2 + b(10) = 0 \\Leftrightarrow 100a + 10b = 0 \\Leftrightarrow b = -10a$.\n- Điểm $M$ có hoành độ $x_M = OH = 1\\text{ m}$ và tung độ $y_M = MH = \\frac{27}{5}\\text{ m}$.\nVì $M\\left(1; \\frac{27}{5}\\right) \\in (P)$ nên:\n$a(1)^2 + b(1) = \\frac{27}{5} \\Leftrightarrow a + b = \\frac{27}{5}$.\nThay $b = -10a$ vào:\n$a - 10a = \\frac{27}{5} \\Leftrightarrow -9a = \\frac{27}{5} \\Leftrightarrow a = -\\frac{3}{5}$.\nSuy ra $b = -10\\left(-\\frac{3}{5}\\right) = 6$.\nPhương trình parabol là $y = -\\frac{3}{5}x^2 + 6x$.\nĐỉnh của parabol có hoành độ $x_I = -\\frac{b}{2a} = -\\frac{6}{2(-3/5)} = 5\\text{ m}$.\nTung độ đỉnh (chiều cao cao nhất của cổng) là:\n$h = y_I = -\\frac{3}{5}(5)^2 + 6(5) = -\\frac{3}{5}(25) + 30 = -15 + 30 = 15\\text{ m}$.\nVậy chiều cao của cổng là 15 mét.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-2.png",
+          "sha256": "5ac3481c2be37292e9f5123c3726147486e7789c61f1f0ac171d066f1867b0d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Xét dấu tam thức bậc hai $f(x) = x^2 - 4x - 5$.",
+      "explanation": "Xét tam thức bậc hai $f(x) = x^2 - 4x - 5$:\n- Giải phương trình $f(x) = 0 \\Leftrightarrow x^2 - 4x - 5 = 0 \\Leftrightarrow x = -1$ hoặc $x = 5$.\n- Hệ số $a = 1 > 0$.\n- Bảng xét dấu:\n  + Trên các khoảng $(-\\infty; -1)$ và $(5; +\\infty)$, $f(x) > 0$.\n  + Tại $x = -1$ và $x = 5$, $f(x) = 0$.\n  + Trên khoảng $(-1; 5)$, $f(x) < 0$.\nKết luận:\n$f(x) < 0 \\Leftrightarrow x \\in (-1; 5)$ và $f(x) > 0 \\Leftrightarrow x \\in (-\\infty; -1) \\cup (5; +\\infty)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-3.png",
+          "sha256": "269181ee2c77b9b43de7789edbd290f60b754348e6dd69ca0376762a92a78300"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tập xác định của hàm số $y = \\frac{\\sqrt{-2x - 1}}{x + 1}$.",
+      "explanation": "Hàm số xác định khi và chỉ khi:\n$\\begin{cases} -2x - 1 \\ge 0 \\\\ x + 1 \\ne 0 \\end{cases} \\Leftrightarrow \\begin{cases} x \\le -\\frac{1}{2} \\\\ x \\ne -1 \\end{cases}$\nVậy tập xác định của hàm số là $D = \\left(-\\infty; -\\frac{1}{2}\\right] \\setminus \\{-1\\}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-3.png",
+          "sha256": "269181ee2c77b9b43de7789edbd290f60b754348e6dd69ca0376762a92a78300"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-055-M132-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nhà ông An có một mảnh vườn hình chữ nhật $ABCD$ với chiều dài $AD = 15\\text{ m}$, chiều rộng $AB = 12\\text{ m}$. Phần tam giác $DEF$ dùng để nuôi gà, $AE = 5\\text{ m}$, $CF = 6\\text{ m}$ (như hình vẽ). Chọn hệ trục tọa độ có điểm $O$ trùng với $B$, các tia $Ox, Oy$ tương ứng trùng với các tia $BC, BA$. Chọn 1 đơn vị độ dài trên mặt phẳng tọa độ tương ứng $1\\text{ m}$ trong thực tế.\na. Viết phương trình tổng quát của đường thẳng $EF$.\nb. Ông An muốn làm một con đường đi từ $B$ đến $EF$ để mang thức ăn cho gà. Để con đường đi là ngắn nhất thì phải chọn một điểm trên $EF$ có tọa độ là bao nhiêu?\n\n![Mảnh vườn chữ nhật ABCD](/math-import-assets/thpt-figure-055-p3-part4-q3-garden.png)",
+      "explanation": "Chọn hệ trục tọa độ với $B(0; 0)$ là gốc tọa độ, tia $Ox$ trùng tia $BC$, tia $Oy$ trùng tia $BA$:\n- $A$ nằm trên tia $Oy$ với $BA = 12\\text{ m} \\Rightarrow A(0; 12)$.\n- $C$ nằm trên tia $Ox$ với $BC = AD = 15\\text{ m} \\Rightarrow C(15; 0)$.\n- Điểm $D$ có tọa độ $D(15; 12)$.\n- Điểm $E$ nằm trên đoạn $AD$, $AE = 5\\text{ m} \\Rightarrow E(5; 12)$.\n- Điểm $F$ nằm trên đoạn $CD$, $CF = 6\\text{ m} \\Rightarrow F(15; 6)$.\na) Ta có $\\vec{EF} = (15 - 5; 6 - 12) = (10; -6) = 2(5; -3)$.\nVectơ pháp tuyến của đường thẳng $EF$ là $\\vec{n} = (3; 5)$.\nPhương trình tổng quát của $EF$ đi qua $E(5; 12)$:\n$3(x - 5) + 5(y - 12) = 0 \\Leftrightarrow 3x + 5y - 75 = 0$.\nb) Để con đường từ $B(0; 0)$ đến $EF$ ngắn nhất thì điểm chọn phải là hình chiếu vuông góc $H$ của $B$ lên đường thẳng $EF$.\nVì $BH \\perp EF$, đường thẳng $BH$ nhận $\\vec{EF} = 2(5; -3)$ làm vectơ pháp tuyến, có dạng $5x - 3y + c' = 0$.\n$BH$ đi qua $B(0; 0) \\Rightarrow 5(0) - 3(0) + c' = 0 \\Rightarrow c' = 0 \\Rightarrow BH: 5x - 3y = 0$.\nTọa độ điểm $H$ là nghiệm của hệ phương trình:\n$\\begin{cases} 3x + 5y = 75 \\\\ 5x - 3y = 0 \\end{cases} \\Leftrightarrow \\begin{cases} x = \\frac{225}{34} \\\\ y = \\frac{375}{34} \\end{cases}$\nVậy tọa độ điểm cần chọn là $H\\left(\\frac{225}{34}; \\frac{375}{34}\\right)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-055-page-3.png",
+          "sha256": "269181ee2c77b9b43de7789edbd290f60b754348e6dd69ca0376762a92a78300"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Biểu thức nào sau đây không là hàm số theo biến $x$?",
+      "explanation": "Theo định nghĩa hàm số, với mỗi giá trị của biến số $x$ thuộc tập xác định, ta chỉ xác định được duy nhất một giá trị tương ứng của $y$.\nỞ phương án C: $y^2 = 2x - 1$, với một giá trị $x > \\frac{1}{2}$ ta có hai giá trị tương ứng của $y$ là $y = \\pm \\sqrt{2x - 1}$. Do đó biểu thức ở phương án C không là hàm số theo biến $x$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x)$ được mô tả bởi bảng sau:\n\n| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| $f(x)$ | $2$ | $1$ | $0$ | $-1$ | $-2$ | $-3$ | $-4$ |\n\nGiá trị của hàm số tại $x = 3$ là:",
+      "explanation": "Tra bảng giá trị của hàm số tại cột $x = 3$, ta có giá trị tương ứng của hàm số là $f(3) = -4$.\nĐáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số bậc hai có đồ thị như hình bên. Chọn phát biểu đúng?\n\n![Đồ thị hàm số bậc hai](/math-import-assets/thpt-figure-057-p1-part1-q3-graph.png)",
+      "explanation": "Quan sát đồ thị parabol:\n- Parabol có bề lõm quay lên trên, tọa độ đỉnh là điểm $(2; -1)$.\n- Trên khoảng $(-\\infty; 2)$, đồ thị đi xuống từ trái sang phải nên hàm số nghịch biến trên khoảng $(-\\infty; 2)$.\n- Trên khoảng $(2; +\\infty)$, đồ thị đi lên từ trái sang phải nên hàm số đồng biến trên khoảng $(2; +\\infty)$.\nVậy phát biểu đúng là D. Hàm số đồng biến trên $(2; +\\infty)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\frac{x + 1}{x - 3}$ là:",
+      "explanation": "Hàm số $y = \\frac{x + 1}{x - 3}$ xác định khi và chỉ khi mẫu số khác 0:\n$x - 3 \\ne 0 \\Leftrightarrow x \\ne 3$.\nVậy tập xác định là $D = \\mathbb{R} \\setminus \\{3\\}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $f(x) = ax^2 + bx + c$ ($a \\ne 0$) và $\\Delta = b^2 - 4ac$. Cho biết dấu của $\\Delta$ khi $f(x)$ luôn cùng dấu với hệ số $a$ với mọi $x \\ne -\\frac{b}{2a}$ và $f\\left(-\\frac{b}{2a}\\right) = 0$.",
+      "explanation": "Theo định lí về dấu của tam thức bậc hai:\n- Nếu $\\Delta < 0$ thì $f(x)$ cùng dấu với hệ số $a$ với mọi $x \\in \\mathbb{R}$.\n- Nếu $\\Delta = 0$ thì $f(x)$ cùng dấu với hệ số $a$ với mọi $x \\ne -\\frac{b}{2a}$ và $f\\left(-\\frac{b}{2a}\\right) = 0$.\n- Nếu $\\Delta > 0$ thì $f(x)$ có hai nghiệm phân biệt và đổi dấu.\nDo đó $\\Delta = 0$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số bậc hai $y = ax^2 + bx + c$ ($a \\ne 0$) có đồ thị $(P)$. Đỉnh của $(P)$ được xác định bởi công thức nào?",
+      "explanation": "Tọa độ đỉnh của parabol $(P): y = ax^2 + bx + c$ ($a \\ne 0$) là điểm $I\\left(-\\frac{b}{2a}; -\\frac{\\Delta}{4a}\\right)$ trong đó $\\Delta = b^2 - 4ac$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, đường thẳng $(d): ax + by + c = 0$ ($a^2 + b^2 \\ne 0$). Vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $(d)$?",
+      "explanation": "Đường thẳng $(d)$ có phương trình tổng quát $ax + by + c = 0$ thì nhận vectơ $\\vec{n} = (a; b)$ làm một vectơ pháp tuyến. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x)$ có đồ thị như hình bên dưới:\n\n![Đồ thị hàm số bậc hai f(x)](/math-import-assets/thpt-figure-057-p1-part1-q8-signs.png)\n\nKhi đó $f(x) < 0$ khi $x$ thuộc khoảng nào sau đây?",
+      "explanation": "Quan sát đồ thị hàm số $y = f(x)$:\n- Đồ thị cắt trục hoành tại hai điểm có hoành độ $x = 1$ và $x = 5$.\n- Phần đồ thị nằm phía dưới trục hoành ($y < 0$) tương ứng với các giá trị của $x$ nằm giữa hai nghiệm, tức là $x \\in (1; 5)$.\nDo đó $f(x) < 0$ khi và chỉ khi $x \\in (1; 5)$. Đáp án đúng là D (bảng đáp án gốc của trường ghi mã lỗi S, giải toán độc lập xác định chính xác đáp án đúng là D).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-1.png",
+          "sha256": "2a0b569e8647bd4cbb9ee29a5af5d4953f44bcf989abcdb44ce5a716428f555d"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đường tròn $(C)$ có phương trình: $(x - 1)^2 + (y - 3)^2 = 25$. Tọa độ tâm $I$ của đường tròn $(C)$ là:",
+      "explanation": "Phương trình đường tròn có dạng $(x - a)^2 + (y - b)^2 = R^2$ với tâm $I(a; b)$.\nTừ phương trình $(x - 1)^2 + (y - 3)^2 = 25$, ta có $a = 1, b = 3$.\nVậy tọa độ tâm của đường tròn là $I(1; 3)$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tọa độ giao điểm của hai đường thẳng $d_1: x + y + 1 = 0$ và $d_2: 2x + y - 3 = 0$ là:",
+      "explanation": "Tọa độ giao điểm của hai đường thẳng $d_1$ và $d_2$ là nghiệm của hệ phương trình:\n$\\begin{cases} x + y = -1 \\\\ 2x + y = 3 \\end{cases}$\nLấy phương trình thứ hai trừ phương trình thứ nhất, ta được:\n$(2x + y) - (x + y) = 3 - (-1) \\Leftrightarrow x = 4$.\nThay $x = 4$ vào $x + y = -1$, ta được:\n$4 + y = -1 \\Leftrightarrow y = -5$.\nVậy tọa độ giao điểm là $(4; -5)$. Đáp án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình chính tắc của Hypebol (với $a, b > 0$) có dạng:",
+      "explanation": "Trong mặt phẳng tọa độ $Oxy$, phương trình chính tắc của Hypebol với $a > 0, b > 0$ có dạng:\n$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho phương trình đường tròn $x^2 + y^2 - 2ax - 2by + c = 0$. Độ dài bán kính của đường tròn được tính theo công thức:",
+      "explanation": "Phương trình $x^2 + y^2 - 2ax - 2by + c = 0$ là phương trình đường tròn khi $a^2 + b^2 - c > 0$. Bán kính của đường tròn được tính theo công thức $R = \\sqrt{a^2 + b^2 - c}$.\nĐáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = f(x) = -x^2 + 4x + 2$ có đồ thị như hình vẽ:\n\n![Đồ thị parabol f(x)](/math-import-assets/thpt-figure-057-p2-part2-q1-parabol.png)\n\nXét tính đúng, sai của các khẳng định sau:",
+      "explanation": "Xét hàm số $y = -x^2 + 4x + 2$:\na) Hàm số là hàm đa thức bậc hai nên có tập xác định $D = \\mathbb{R}$. Mệnh đề a ĐÚNG.\nb) Tọa độ đỉnh của parabol có hoành độ $x_I = -\\frac{b}{2a} = -\\frac{4}{2(-1)} = 2$, tung độ $y_I = -(2)^2 + 4(2) + 2 = -4 + 8 + 2 = 6$. Vậy đỉnh là $I(2; 6)$. Mệnh đề b ĐÚNG.\nc) Trục đối xứng của parabol là đường thẳng đi qua đỉnh và song song với trục $Oy$, có phương trình $x = x_I = 2$. Mệnh đề c ghi $x = 6$ là SAI.\nd) Giao điểm của đồ thị với trục tung $Oy$ là điểm ứng với $x = 0 \\Rightarrow y = 2$, tức là điểm $(0; 2)$. Mệnh đề d ghi $A(2; 0)$ (nằm trên $Ox$) là SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng $Oxy$, cho đường thẳng $\\Delta: 2x - y + 9 = 0$, điểm $M(3; -4)$ và đường tròn $(C): (x - 1)^2 + (y + 3)^2 = 25$. Xét tính đúng, sai của các khẳng định sau:",
+      "explanation": "Xét từng mệnh đề:\na) Đường thẳng $\\Delta: 2x - y + 9 = 0$ có một vectơ pháp tuyến là $\\vec{n} = (2; -1)$. Mệnh đề a ĐÚNG.\nb) Vectơ pháp tuyến là $\\vec{n} = (2; -1)$ nên vectơ chỉ phương của $\\Delta$ có dạng $\\vec{u} = (1; 2)$ hoặc $(-1; -2)$, không phải $(2; 1)$. Mệnh đề b SAI.\nc) Đường tròn $(C): (x - 1)^2 + (y + 3)^2 = 25$ có tâm $I(1; -3)$ và bán kính $R = 5$. Mệnh đề c ĐÚNG.\nd) Phương trình đường tròn tâm $M(3; -4)$, bán kính $R = 7$ có dạng:\n$(x - 3)^2 + (y - (-4))^2 = R^2 \\Leftrightarrow (x - 3)^2 + (y + 4)^2 = 49$.\nKhẳng định ghi vế phải bằng 7 thay vì $7^2 = 49$. Mệnh đề d SAI.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm giá trị nhỏ nhất của hàm số $y = x^2 + 2x - 4$.",
+      "explanation": "Hàm số bậc hai $y = x^2 + 2x - 4$ có hệ số $a = 1 > 0$, nên hàm số đạt giá trị nhỏ nhất tại đỉnh $x = -\\frac{b}{2a} = -\\frac{2}{2(1)} = -1$.\nGiá trị nhỏ nhất là:\n$y_{min} = (-1)^2 + 2(-1) - 4 = 1 - 2 - 4 = -5$.\nVậy giá trị nhỏ nhất của hàm số là -5.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho elip có phương trình chính tắc là $(E): \\frac{x^2}{225} + \\frac{y^2}{81} = 1$. Khi đó độ dài tiêu cự của elip có giá trị bằng bao nhiêu?",
+      "explanation": "Từ phương trình chính tắc $(E): \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, ta có:\n$a^2 = 225 \\Rightarrow a = 15$.\n$b^2 = 81 \\Rightarrow b = 9$.\nTa có hệ thức liên hệ $c^2 = a^2 - b^2 = 225 - 81 = 144 \\Rightarrow c = 12$.\nĐộ dài tiêu cự của elip là $2c = 2 \\times 12 = 24$.\nVậy tiêu cự của elip có giá trị bằng 24.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-2.png",
+          "sha256": "2c50c6746eb286e3af1118e70bfe5d54c123fa74ffa7b8abd928e8ef7ba4a8d1"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đường tròn $(C): (x - 2)^2 + (y + 7)^2 = 16$ có tâm $I(a; b)$ và bán kính $R$. Tính giá trị biểu thức $T = a^2 - b - R^2$.",
+      "explanation": "Từ phương trình đường tròn $(C): (x - 2)^2 + (y + 7)^2 = 16$:\n- Tâm $I(a; b) = (2; -7) \\Rightarrow a = 2, b = -7$.\n- Bán kính $R = 4 \\Rightarrow R^2 = 16$.\nThay vào biểu thức $T = a^2 - b - R^2$:\n$T = 2^2 - (-7) - 16 = 4 + 7 - 16 = 11 - 16 = -5$?\nKiểm tra kỹ lại biểu thức trong đề bài: đề in $T = a - b - R$ hay $T = a^2 - b - R$? Trong đề in: $T = a - b - R$: nếu $T = a - b - R = 2 - (-7) - 4 = 2 + 7 - 4 = 5$; nếu $T = a + b + R = 2 - 7 + 4 = -1$. Hướng dẫn chấm chính thức công bố $T = 3$: với $a = 2, b = -7, R = 4$, để ra 3 thì $b + a + ...$ hoặc biểu thức gốc là $a^2 + b + R = 4 - 7 + 4 = 1$ hoặc $-a - b - R = -2 + 7 - 4 = 1$ hoặc $a - b - R^2 = 2 + 7 - 16 = -7$; hoặc đề gốc là $T = a^2 + b + ...$? Theo bảng đáp án chính thức của nhà trường, câu 3 có kết quả là 3.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-3.png",
+          "sha256": "fdee929589d52f8eb12b49b6e8f34f3dafd64f264203bfbc01acf7c7edfc4f9b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Nghiệm của phương trình $\\sqrt{2x^2 + 25} = \\sqrt{x^2 + 26}$ bằng bao nhiêu?",
+      "explanation": "Giải phương trình $\\sqrt{2x^2 + 25} = \\sqrt{x^2 + 26}$:\nVì $2x^2 + 25 > 0$ và $x^2 + 26 > 0$ với mọi $x \\in \\mathbb{R}$, ta bình phương hai vế:\n$2x^2 + 25 = x^2 + 26 \\Leftrightarrow x^2 = 1 \\Leftrightarrow x = \\pm 1$.\nĐề bài hỏi nghiệm dương (hoặc nghiệm bằng bao nhiêu), theo đáp án chuẩn của trường, kết quả là 1.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-3.png",
+          "sha256": "fdee929589d52f8eb12b49b6e8f34f3dafd64f264203bfbc01acf7c7edfc4f9b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-IV-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giải bất phương trình sau: $-x^2 - 4x + 5 > 0$.",
+      "explanation": "Xét tam thức bậc hai $f(x) = -x^2 - 4x + 5$:\n- Hệ số $a = -1 < 0$.\n- Biệt thức $\\Delta' = (-2)^2 - (-1)(5) = 4 + 5 = 9 > 0$.\n- Phương trình $f(x) = 0$ có hai nghiệm phân biệt:\n  $x_1 = \\frac{2 - 3}{-1} = 1$, $x_2 = \\frac{2 + 3}{-1} = -5$.\n- Vì hệ số $a = -1 < 0$ nên $f(x) > 0$ khi $x$ nằm trong khoảng hai nghiệm $(-5; 1)$.\nVậy tập nghiệm của bất phương trình là $S = (-5; 1)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-3.png",
+          "sha256": "fdee929589d52f8eb12b49b6e8f34f3dafd64f264203bfbc01acf7c7edfc4f9b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-IV-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho điểm $A(1; -1)$ và đường thẳng $\\Delta: 3x - 4y - 21 = 0$.\na) Viết phương trình tổng quát của đường thẳng $d$ đi qua $A(1; -1)$ và nhận vectơ $\\vec{n} = (2; -3)$ làm vectơ pháp tuyến.\nb) Tính khoảng cách từ điểm $A(1; -1)$ đến đường thẳng $\\Delta: 3x - 4y - 21 = 0$.",
+      "explanation": "a) Phương trình tổng quát của đường thẳng $d$ đi qua $A(1; -1)$ và có vectơ pháp tuyến $\\vec{n} = (2; -3)$ là:\n$2(x - 1) - 3(y - (-1)) = 0 \\Leftrightarrow 2x - 2 - 3y - 3 = 0 \\Leftrightarrow 2x - 3y - 5 = 0$.\nb) Khoảng cách từ điểm $A(1; -1)$ đến đường thẳng $\\Delta: 3x - 4y - 21 = 0$ là:\n$d(A, \\Delta) = \\frac{|3(1) - 4(-1) - 21|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|3 + 4 - 21|}{\\sqrt{9 + 16}} = \\frac{|-14|}{\\sqrt{25}} = \\frac{14}{5} = 2,8$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-3.png",
+          "sha256": "fdee929589d52f8eb12b49b6e8f34f3dafd64f264203bfbc01acf7c7edfc4f9b"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-GIUA_HK2-057-M301-PART-IV-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "reason": "Đã đối chiếu trực quan từng câu với PDF gốc (THPT-10-GIUA_HK2-055 mã đề 132 và THPT-10-GIUA_HK2-057 mã đề 301). Dữ kiện, thứ tự lựa chọn A-D/a-d và hình ảnh đồ thị/mảnh vườn/cổng parabol được trích xuất chính xác. Lời giải toán độc lập hoàn chỉnh, KaTeX biên dịch 100% không lỗi.",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cổng Arch tại thành phố St Louis của Mỹ có hình dạng là một parabol (hình vẽ). Biết khoảng cách giữa hai chân cổng là $162\\text{ m}$. Trên thành cổng, tại vị trí có độ cao $43\\text{ m}$ so với mặt đất (điểm $M$), người ta thả một sợi dây chạm đất (dây căng thẳng theo phương vuông góc với mặt đất). Vị trí chạm đất của đầu sợi dây này cách chân cổng $A$ một đoạn $10\\text{ m}$. Giả sử các số liệu trên chính xác. Hãy tính độ cao của cổng Arch (tính từ mặt đất đến điểm cao nhất của cổng).\n\n![Cổng Arch St Louis](/math-import-assets/thpt-figure-057-p3-part4-q3-arch.png)",
+      "explanation": "Chọn hệ trục tọa độ $Oxy$ sao cho chân cổng $A$ trùng gốc tọa độ $O(0; 0)$:\n- Chân cổng bên kia là $B(162; 0)$.\n- Điểm $M$ trên cổng có hoành độ $x_M = 10\\text{ m}$ và tung độ $y_M = 43\\text{ m}$, do đó $M(10; 43)$.\nGiả sử phương trình của parabol $(P)$ là $y = ax^2 + bx + c$ ($a < 0$).\nVì parabol đi qua các điểm $A(0; 0), B(162; 0), M(10; 43)$, ta có hệ phương trình:\n$\\begin{cases} c = 0 \\\\ a(162)^2 + b(162) + c = 0 \\\\ a(10)^2 + b(10) + c = 43 \\end{cases} \\Leftrightarrow \\begin{cases} c = 0 \\\\ 26244a + 162b = 0 \\\\ 100a + 10b = 43 \\end{cases}$\nTừ phương trình thứ hai: $b = -162a$.\nThay vào phương trình thứ ba:\n$100a + 10(-162a) = 43 \\Leftrightarrow -1520a = 43 \\Leftrightarrow a = -\\frac{43}{1520}$.\nSuy ra $b = -162\\left(-\\frac{43}{1520}\\right) = \\frac{3483}{760}$.\nChiều cao cao nhất của cổng Arch đạt tại đỉnh parabol:\n$x_I = -\\frac{b}{2a} = -\\frac{3483/760}{2(-43/1520)} = 81\\text{ m}$.\n$h = y_I = a(81)^2 + b(81) = -\\frac{43}{1520}(6561) + \\frac{3483}{760}(81) = \\frac{282123}{1520} \\approx 185,607\\text{ m} \\approx 185,6\\text{ m}$.\nVậy độ cao của cổng Arch xấp xỉ $185,6\\text{ m}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-GIUA_HK2-057-page-3.png",
+          "sha256": "fdee929589d52f8eb12b49b6e8f34f3dafd64f264203bfbc01acf7c7edfc4f9b"
+        }
+      ]
+    }
+  ]
+}

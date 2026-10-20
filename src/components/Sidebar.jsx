@@ -39,7 +39,7 @@ export const TEACHER_APPLICANT_MENU = [
 export const TEACHER_MENU = [
   { id: 'teacher-overview', label: 'Tổng quan', icon: Home },
   { id: 'teacher-classes', label: 'Lớp học', icon: Users },
-  { id: 'teacher-library', label: 'Thư viện đề', icon: FileText },
+  { id: 'teacher-library', label: 'Đề của tôi', icon: FileText },
   { id: 'teacher-bank', label: 'Học liệu THPT', icon: FileQuestion }
 ];
 

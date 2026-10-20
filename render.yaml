@@ -1,7 +1,8 @@
 services:
   - type: web
     name: adaptivemath-api
-    repo: https://github.com/bGiaHuy/math
+    repo: https://github.com/bGiaHuy/adaptive-math-c3
+    branch: codex/thpt-production-release
     runtime: node
     plan: free
     region: singapore

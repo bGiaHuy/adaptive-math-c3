@@ -34,7 +34,7 @@ describe('Shared exam matrix enforcement across authoring sources', () => {
       classroomAssignment: { create: vi.fn(async ({data}) => (saved = { ...data, id:'assignment', questions: data.questions.createMany.data })) },
       assignmentQuestion: { findMany: vi.fn(async () => saved.questions.map((aq: any,i: number) => ({ ...aq, id:`aq-${i}`, question:rows.find(q => q.id === aq.questionId) }))), update: vi.fn() }
     };
-    const db: any = { classroom: { findUnique: vi.fn(async () => ({ id:'class', teacherId:'teacher', grade:9, isActive:true })) }, $transaction:(fn: any) => fn(tx) };
+    const db: any = { classroom: { findUnique: vi.fn(async () => ({ id:'class', teacherId:'teacher', grade:10, isActive:true })) }, $transaction:(fn: any) => fn(tx) };
     return { service: new AssignmentService(db), tx, rows };
   }
   it('persists a valid manual/AI/JSON paper with matrix version and canonical order', async () => {
@@ -75,7 +75,7 @@ describe('Shared exam matrix enforcement across authoring sources', () => {
     const question = {questionType:'SHORT_ANSWER',content:'Which SQL clause filters grouped rows?',difficulty:'MEDIUM',shortAnswer:{mode:'TEXT',acceptedAnswers:['HAVING'],instructions:'Enter one SQL keyword.'}};
     const result = await service.createAssignment('teacher','class',{title:'Database Systems',durationMinutes:15,questionCounts:{SINGLE_CHOICE:0,TRUE_FALSE:0,SHORT_ANSWER:1},customQuestions:[question]} as any);
     expect(result.assignment.questionCount).toBe(1);
-    expect(tx.skillNode.upsert.mock.calls[0][0].create.grade).toBe(0);
+    expect(tx.skillNode.upsert.mock.calls[0][0].create.grade).toBe(10);
     expect(tx.question.createMany.mock.calls[0][0].data[0]).toMatchObject({skillId:'teacher-general',difficulty:'MEDIUM',content:question.content});
     expect(tx.classroomAssignment.create.mock.calls[0][0].data.questions.createMany.data[0].snapshot.shortAnswer.acceptedAnswers).toEqual(['HAVING']);
   });

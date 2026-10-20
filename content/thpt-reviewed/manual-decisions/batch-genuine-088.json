@@ -1,0 +1,411 @@
+{
+  "batchId": "batch-genuine-088",
+  "reviewedAt": "2026-10-20T14:00:00+07:00",
+  "reviewer": "Antigravity Dual-Review Engine",
+  "items": [
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm gia tốc tức thời của chuyển động có phương trình vận tốc $v(t) = t^2 - t + 2$, trong đó $s$ được tính bằng mét ($m$) và $t$ được tính bằng giây ($s$).",
+      "explanation": "Gia tốc tức thời là đạo hàm của vận tốc theo thời gian: $a(t) = v'(t) = (t^2 - t + 2)' = 2t - 1$. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Công thức tính thể tích của khối chóp có diện tích đáy $S$ và chiều cao $h$ là:",
+      "explanation": "Theo công thức tính thể tích hình chóp, ta có $V = \\frac{1}{3} S \\cdot h$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Phương trình $6^{3x+1} = 6^{2x+1}$ có nghiệm là:",
+      "explanation": "Vì cơ số $6 > 0, 6 \\neq 1$ nên $6^{3x+1} = 6^{2x+1} \\iff 3x + 1 = 2x + 1 \\iff x = 0$. Tập nghiệm của phương trình là $\\{0\\}$. Do đó chọn phương án B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hàm số $y = \\sin x + x$ có đạo hàm là:",
+      "explanation": "Ta có $y' = (\\sin x + x)' = (\\sin x)' + (x)' = \\cos x + 1$. Do đó chọn phương án A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Thể tích của khối lăng trụ đứng có đáy là tam giác vuông cân với cạnh góc vuông bằng 2 và đường cao khối lăng trụ đứng bằng 3 là:",
+      "explanation": "Diện tích đáy là tam giác vuông cân có cạnh góc vuông bằng 2: $S = \\frac{1}{2} \\cdot 2 \\cdot 2 = 2$. Thể tích của khối lăng trụ đứng là $V = S \\cdot h = 2 \\cdot 3 = 6$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm tập xác định $D$ của hàm số: $y = \\log_5(2x - 4)$.",
+      "explanation": "Hàm số $y = \\log_5(2x - 4)$ xác định khi $2x - 4 > 0 \\iff 2x > 4 \\iff x > 2$. Vậy tập xác định là $D = (2; +\\infty)$. Do đó chọn phương án A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lăng trụ đứng $ABC.A'B'C', đường thẳng $CC'$ vuông góc với mặt phẳng nào sau đây:",
+      "explanation": "Trong hình lăng trụ đứng, các cạnh bên vuông góc với hai mặt phẳng đáy. Do đó cạnh bên $CC' \\perp (ABC)$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABCD.EFGH$, cặp cạnh nào sau đây vuông góc với nhau:",
+      "explanation": "Trong hình lập phương $ABCD.EFGH$, cạnh bên $HD$ vuông góc với mặt phẳng đáy $(ABCD)$. Do đường thẳng $AB$ nằm trong mặt phẳng $(ABCD)$ nên $HD \\perp AB$. Do đó chọn phương án C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p1.png",
+          "sha256": "62cebbfb325e9e4add1196289209e31cab4eb5381436b4d3c829eeae925887b8"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p2.png",
+          "sha256": "22c4ad28ff5ed01995ff8caeeee824379a0cbd5711aea7c6e3a0ae4fbf93a489"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hai học sinh cùng giải một bài tập toán một cách độc lập. Xác suất giải đúng bài tập toán của hai học sinh lần lượt là $\\frac{1}{2}$ và $\\frac{2}{3}$. Xác suất để cả hai học sinh đều giải được bài tập toán bằng:",
+      "explanation": "Gọi $A, B$ lần lượt là biến cố học sinh thứ nhất và học sinh thứ hai giải đúng bài toán. Do $A$ và $B$ độc lập nên xác suất cả hai cùng giải đúng là $P(AB) = P(A) \\cdot P(B) = \\frac{1}{2} \\cdot \\frac{2}{3} = \\frac{1}{3}$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p2.png",
+          "sha256": "22c4ad28ff5ed01995ff8caeeee824379a0cbd5711aea7c6e3a0ae4fbf93a489"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ đáy $ABCD$ là hình vuông có cạnh $AB = 3$, $SB = 5$. Biết $SA$ vuông góc với mặt phẳng đáy. Khoảng cách từ điểm $S$ đến mặt phẳng $(ABCD)$ bằng:",
+      "explanation": "Vì $SA \\perp (ABCD)$ nên khoảng cách từ $S$ đến mặt phẳng $(ABCD)$ bằng độ dài đoạn thẳng $SA$. Vì $SA \\perp (ABCD)$ nên $SA \\perp AB$, tam giác $SAB$ vuông tại $A$. Khi đó $SA = \\sqrt{SB^2 - AB^2} = \\sqrt{5^2 - 3^2} = \\sqrt{16} = 4$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p2.png",
+          "sha256": "22c4ad28ff5ed01995ff8caeeee824379a0cbd5711aea7c6e3a0ae4fbf93a489"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $A, B$ là hai biến cố xung khắc. Biết $P(A) = \\frac{1}{3}, P(A \\cup B) = \\frac{1}{2}$. Tính $P(B)$.",
+      "explanation": "Vì $A$ và $B$ xung khắc nên $P(A \\cup B) = P(A) + P(B)$. Suy ra $P(B) = P(A \\cup B) - P(A) = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p2.png",
+          "sha256": "22c4ad28ff5ed01995ff8caeeee824379a0cbd5711aea7c6e3a0ae4fbf93a489"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình lập phương $ABCD.EFGH$ có độ dài cạnh bằng 7, khoảng cách giữa hai mặt phẳng $(ABCD)$ và $(EFGH)$ bằng:",
+      "explanation": "Hai mặt phẳng $(ABCD)$ và $(EFGH)$ là hai mặt đáy đối diện của hình lập phương. Khoảng cách giữa hai mặt này bằng độ dài cạnh của hình lập phương, tức bằng 7. Do đó chọn phương án D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p2.png",
+          "sha256": "22c4ad28ff5ed01995ff8caeeee824379a0cbd5711aea7c6e3a0ae4fbf93a489"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-II-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông tâm $O$ với độ dài $AB = 2$, $SO \\perp (ABCD)$, góc tạo bởi $SA$ và mặt phẳng đáy bằng $60^\\circ$. Khi đó:\nCác mệnh đề sau đúng hay sai?\na) Diện tích đáy $S_{ABCD} = 2$.\nb) Khoảng cách từ điểm $S$ đến $(ABCD)$ là $\\sqrt{6}$.\nc) Thể tích hình chóp $V_{S.ABCD} = 4\\sqrt{6}$.\nd) Khoảng cách giữa hai đường thẳng $SA$ và $BC$ là $\\sqrt{21}$.",
+      "explanation": "a) Sai: Đáy $ABCD$ là hình vuông cạnh 2 nên diện tích đáy là $S_{ABCD} = 2^2 = 4 \\neq 2$. Do đó khẳng định a sai.\nb) Đúng: Vì $SO \\perp (ABCD)$ nên khoảng cách từ $S$ đến $(ABCD)$ chính là độ dài đoạn $SO$. Đáy là hình vuông cạnh 2 nên đường chéo $AC = 2\\sqrt{2} \\implies OA = \\sqrt{2}$. Góc giữa $SA$ và mặt phẳng đáy là $\\widehat{SAO} = 60^\\circ$. Trong tam giác vuông $SOA$: $SO = OA \\cdot \\tan 60^\\circ = \\sqrt{2} \\cdot \\sqrt{3} = \\sqrt{6}$. Do đó khẳng định b đúng.\nc) Sai: Thể tích khối chóp là $V = \\frac{1}{3} S_{ABCD} \\cdot SO = \\frac{1}{3} \\cdot 4 \\cdot \\sqrt{6} = \\frac{4\\sqrt{6}}{3} \\neq 4\\sqrt{6}$. Do đó khẳng định c sai.\nd) Sai: Ta có $BC \\parallel AD \\subset (SAD) \\implies BC \\parallel (SAD)$. Khoảng cách giữa $SA$ và $BC$ bằng $d(BC, (SAD)) = d(B, (SAD))$. Ta có $BA \\perp AD$ và $BA \\perp SO \\implies BA \\perp (SAD)$ khi quy chiếu, khoảng cách thực tế là $2 \\neq \\sqrt{21}$. Do đó khẳng định d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p2.png",
+          "sha256": "22c4ad28ff5ed01995ff8caeeee824379a0cbd5711aea7c6e3a0ae4fbf93a489"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p3.png",
+          "sha256": "cd78daebfe2d448ee2d93ec01c366567d8ac98986be3dd1e179053d7fe98def0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-II-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = -x^2 + 2x + 3$. Khi đó:\nCác mệnh đề sau đúng hay sai?\na) $f'(x) = -2x + 2$.\nb) $f'(3) = -3$.\nc) Tập nghiệm của phương trình $f'(x) = 0$ là $S = \\{-1; 3\\}$.\nd) Phương trình tiếp tuyến của hàm số $y = -x^2 + 2x + 3$ tại $x_0 = 3$ có dạng $y = -4x + 1$.",
+      "explanation": "a) Đúng: Đạo hàm của hàm số là $f'(x) = (-x^2 + 2x + 3)' = -2x + 2$. Do đó khẳng định a đúng.\nb) Sai: Thay $x = 3$ vào đạo hàm ta được $f'(3) = -2(3) + 2 = -6 + 2 = -4 \\neq -3$. Do đó khẳng định b sai.\nc) Sai: Ta có $f'(x) = 0 \\iff -2x + 2 = 0 \\iff x = 1$. Tập nghiệm là $S = \\{1\\} \\neq \\{-1; 3\\}$. Do đó khẳng định c sai.\nd) Sai: Tại $x_0 = 3$, ta có $y_0 = -(3)^2 + 2(3) + 3 = 0$. Hệ số góc tiếp tuyến là $k = f'(3) = -4$. Phương trình tiếp tuyến là $y = -4(x - 3) + 0 = -4x + 12 \\neq -4x + 1$. Do đó khẳng định d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p3.png",
+          "sha256": "cd78daebfe2d448ee2d93ec01c366567d8ac98986be3dd1e179053d7fe98def0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-II-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Gieo một con xúc xắc cân đối và đồng chất 1 lần. Gọi A là biến cố \"Số chấm xuất hiện trên xúc xắc là số nguyên tố\" và B là biến cố \"Số chấm xuất hiện trên xúc xắc chia hết cho 2\". Khi đó:\nCác mệnh đề sau đúng hay sai?\na) A và B là hai biến cố xung khắc.\nb) $A = \\{2; 3; 5\\}; B = \\{2; 4; 6\\}$.\nc) $P(B) = P(A) = \\frac{1}{2}$.\nd) $P(A \\cup B) = 1$.",
+      "explanation": "a) Sai: Không gian mẫu $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$. Biến cố $A = \\{2, 3, 5\\}$ và biến cố $B = \\{2, 4, 6\\}$. Giao của hai biến cố là $A \\cap B = \\{2\\} \\neq \\emptyset$, do đó A và B không xung khắc. Khẳng định a sai.\nb) Đúng: Các số nguyên tố từ 1 đến 6 là 2, 3, 5. Các số chia hết cho 2 từ 1 đến 6 là 2, 4, 6. Do đó khẳng định b đúng.\nc) Đúng: Ta có $n(A) = 3 \\implies P(A) = \\frac{3}{6} = \\frac{1}{2}$. Lại có $n(B) = 3 \\implies P(B) = \\frac{3}{6} = \\frac{1}{2}$. Do đó $P(B) = P(A) = \\frac{1}{2}$. Khẳng định c đúng.\nd) Sai: Ta có $A \\cup B = \\{2, 3, 4, 5, 6\\} \\implies n(A \\cup B) = 5$. Khi đó $P(A \\cup B) = \\frac{5}{6} \\neq 1$. Do đó khẳng định d sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p3.png",
+          "sha256": "cd78daebfe2d448ee2d93ec01c366567d8ac98986be3dd1e179053d7fe98def0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-II-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $y = \\log_3(x - 4)$. Khi đó:\nCác mệnh đề sau đúng hay sai?\na) Hàm số có tập xác định $D = (4; +\\infty)$.\nb) Hàm số đã cho nghịch biến trên $D = (4; +\\infty)$.\nc) Phương trình $y = 1$ có nghiệm là $x = 7$.\nd) Đồ thị hàm số $y = \\log_3(x - 4)$ có hình vẽ như hình bên dưới (đi qua $(5; 0)$, $(7; 1)$ và có tiệm cận đứng $x = 4$).",
+      "explanation": "a) Đúng: Điều kiện xác định: $x - 4 > 0 \\iff x > 4$. Tập xác định là $D = (4; +\\infty)$. Do đó khẳng định a đúng.\nb) Sai: Vì cơ số $3 > 1$ nên hàm số $y = \\log_3(x - 4)$ luôn đồng biến trên khoảng $(4; +\\infty)$. Do đó khẳng định b sai.\nc) Đúng: Phương trình $\\log_3(x - 4) = 1 \\iff x - 4 = 3^1 \\iff x = 7$. Do đó khẳng định c đúng.\nd) Đúng: Đồ thị hàm số $\\log_3(x - 4)$ có đường tiệm cận đứng $x = 4$, cắt trục hoành tại $(5; 0)$ và đi qua $(7; 1)$ hoàn toàn phù hợp với hình vẽ trong đề. Do đó khẳng định d đúng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p3.png",
+          "sha256": "cd78daebfe2d448ee2d93ec01c366567d8ac98986be3dd1e179053d7fe98def0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-III-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một thợ xây cần xây một bể nước hình lăng trụ đứng có đáy là tam giác đều, chứa được $1\\text{ m}^3$ nước. Biết rằng chi phí để làm nắp đậy, tường xung quanh và đáy dưới là 1 triệu đồng trên $1\\text{ m}^2$. Hỏi người thợ xây cần ít nhất bao nhiêu triệu đồng để hoàn thành công việc? (kết quả làm tròn đến hàng phần chục)",
+      "explanation": "Gọi cạnh đáy tam giác đều là $x\\text{ (m)}$ ($x > 0$), chiều cao là $h\\text{ (m)}$. Diện tích đáy là $S = \\frac{x^2\\sqrt{3}}{4}$. Thể tích bể là $V = S \\cdot h = \\frac{x^2\\sqrt{3}}{4} h = 1 \\implies h = \\frac{4}{x^2\\sqrt{3}}$. Tổng diện tích làm nắp, đáy và xung quanh là: $S_{\\text{tp}} = 2 S + 3xh = \\frac{x^2\\sqrt{3}}{2} + \\frac{4\\sqrt{3}}{x}$. Khảo sát hàm số $f(x) = \\frac{\\sqrt{3}}{2}x^2 + \\frac{4\\sqrt{3}}{x}$ với $x > 0$: $f'(x) = \\sqrt{3}x - \\frac{4\\sqrt{3}}{x^2} = 0 \\iff x^3 = 4 \\iff x = \\sqrt[3]{4}$. Giá trị nhỏ nhất là $f(\\sqrt[3]{4}) = 3\\sqrt{3}\\sqrt[3]{2} \\approx 6{,}55\\text{ m}^2$, tương ứng chi phí ít nhất xấp xỉ 6,5 triệu đồng.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p3.png",
+          "sha256": "cd78daebfe2d448ee2d93ec01c366567d8ac98986be3dd1e179053d7fe98def0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-III-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Hộp A đựng 5 tấm thẻ được đánh số từ 1 đến 5, hộp B đựng 6 tấm thẻ được đánh số từ 1 đến 6, hai thẻ khác nhau ở mỗi hộp đánh hai số khác nhau. Chọn ngẫu nhiên từ hộp A một tấm thẻ và từ hộp B hai tấm thẻ. Gọi X là biến cố: \"Chọn được thẻ mang số lẻ từ hộp A\", Y là biến cố: \"Chọn được thẻ mang số chẵn từ hộp A\", Z là biến cố: \"Chọn được hai thẻ mang số lẻ từ hộp B\". Tính xác suất để tích số được ghi trên ba tấm thẻ thu được là số chẵn.",
+      "explanation": "Tổng số kết quả có thể khi chọn 1 thẻ từ hộp A và 2 thẻ từ hộp B là $n(\\Omega) = C_5^1 \\cdot C_6^2 = 5 \\cdot 15 = 75$. Tích ba số là số lẻ khi và chỉ khi cả ba tấm thẻ đều mang số lẻ. Số cách chọn thẻ lẻ từ hộp A (gồm 3 thẻ lẻ $\\{1, 3, 5\\}$) là 3. Số cách chọn 2 thẻ lẻ từ hộp B (gồm 3 thẻ lẻ $\\{1, 3, 5\\}$) là $C_3^2 = 3$. Vậy số kết quả để tích là số lẻ là $3 \\cdot 3 = 9$. Xác suất để tích là số lẻ là $\\frac{9}{75} = 0{,}12$. Do đó xác suất để tích ba số là số chẵn là $1 - 0{,}12 = 0{,}88$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p3.png",
+          "sha256": "cd78daebfe2d448ee2d93ec01c366567d8ac98986be3dd1e179053d7fe98def0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-III-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho tam giác đều $ABC$ cạnh $a$, $I$ là trung điểm của $BC$, $D$ là điểm đối xứng với $A$ qua $I$. Vẽ đoạn thẳng $SD$ có độ dài bằng $\\frac{a\\sqrt{6}}{2}$ và vuông góc với mặt phẳng $(ABC)$. Tính góc $\\varphi$ (đơn vị: độ) giữa hai mặt phẳng $(SBC)$ và $(SAD)$.",
+      "explanation": "Vì tam giác $ABC$ đều và $I$ là trung điểm $BC$ nên $AI \\perp BC$. Vì $D$ đối xứng với $A$ qua $I$ nên $A, I, D$ thẳng hàng, suy ra $AD \\perp BC$. Mặt khác, do $SD \\perp (ABC)$ mà $BC \\subset (ABC)$ nên $SD \\perp BC$. Từ $BC \\perp AD$ và $BC \\perp SD$ suy ra $BC \\perp (SAD)$. Vì đường thẳng $BC$ nằm trong mặt phẳng $(SBC)$ và vuông góc với mặt phẳng $(SAD)$ nên hai mặt phẳng $(SBC)$ và $(SAD)$ vuông góc với nhau. Góc $\\varphi$ giữa hai mặt phẳng bằng $90^\\circ$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p3.png",
+          "sha256": "cd78daebfe2d448ee2d93ec01c366567d8ac98986be3dd1e179053d7fe98def0"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-III-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hình chóp $S.ABCD$ có $SA \\perp (ABCD)$, $SA = 3$, $ABCD$ là hình vuông cạnh bằng 1. Tính khoảng cách giữa hai đường thẳng $AC$ và $SB$. (Làm tròn đến kết quả hàng phần trăm)",
+      "explanation": "Chọn hệ tọa độ $Oxyz$ với $A(0; 0; 0)$ là gốc tọa độ, $B(1; 0; 0)$, $D(0; 1; 0)$, $C(1; 1; 0)$, $S(0; 0; 3)$. Vectơ chỉ phương của đường thẳng $AC$ là $\\vec{u}_1 = (1; 1; 0)$. Vectơ chỉ phương của đường thẳng $SB$ là $\\vec{u}_2 = \\vec{BS} = (-1; 0; 3)$. Vectơ pháp tuyến chung của hai đường thẳng là $\\vec{n} = [\\vec{u}_1, \\vec{u}_2] = (3; -3; 1)$. Vectơ $\\vec{AB} = (1; 0; 0)$. Khoảng cách giữa hai đường thẳng chéo nhau là $d(AC, SB) = \\frac{|\\vec{AB} \\cdot \\vec{n}|}{|\\vec{n}|} = \\frac{|1(3) + 0 + 0|}{\\sqrt{3^2 + (-3)^2 + 1^2}} = \\frac{3}{\\sqrt{19}} \\approx 0{,}688 \\approx 0{,}69$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p4.png",
+          "sha256": "5e8a833ac3c23ae8449002c9632c487a00674ec763c3defe86cb4fe8343817df"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-III-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chất điểm có phương trình chuyển động $s(t) = \\frac{t^3}{3} - 2t^2 + 2t + 1$, trong đó $t > 0$, $t$ tính bằng giây, $s(t)$ tính bằng mét. Tính gia tốc tức thời của chất điểm tại thời điểm mà vận tốc tức thời của chất điểm bằng $7\\text{ m/s}$.",
+      "explanation": "Vận tốc tức thời là $v(t) = s'(t) = t^2 - 4t + 2$. Theo giả thiết $v(t) = 7 \\iff t^2 - 4t + 2 = 7 \\iff t^2 - 4t - 5 = 0 \\iff (t - 5)(t + 1) = 0$. Vì $t > 0$ nên thời điểm đó là $t = 5\\text{ s}$. Gia tốc tức thời của chất điểm là $a(t) = v'(t) = 2t - 4$. Tại $t = 5\\text{ s}$, gia tốc tức thời là $a(5) = 2(5) - 4 = 6\\text{ m/s}^2$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p4.png",
+          "sha256": "5e8a833ac3c23ae8449002c9632c487a00674ec763c3defe86cb4fe8343817df"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-CUOI_HK2-189-M2102-PART-III-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một câu trắc nghiệm có 4 phương án độc lập, trong đó có 1 phương án đúng. Một học sinh tô ngẫu nhiên 5 câu trắc nghiệm. Xác suất để học sinh đó tô sai cả 5 câu bằng ? (Làm tròn đến kết quả hàng phần trăm)",
+      "explanation": "Xác suất để học sinh tô sai một câu trắc nghiệm là $1 - \\frac{1}{4} = \\frac{3}{4} = 0{,}75$. Vì 5 câu trả lời độc lập với nhau nên xác suất để học sinh đó tô sai cả 5 câu là $P = \\left(\\frac{3}{4}\\right)^5 = \\frac{243}{1024} \\approx 0{,}2373 \\approx 0{,}24$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p4.png",
+          "sha256": "5e8a833ac3c23ae8449002c9632c487a00674ec763c3defe86cb4fe8343817df"
+        },
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-CUOI_HK2-189-p9.png",
+          "sha256": "73ad32b8b4d4f1990d236cf5349f77cb35df9efaea2443cc221c62686c6e956e"
+        }
+      ]
+    }
+  ]
+}

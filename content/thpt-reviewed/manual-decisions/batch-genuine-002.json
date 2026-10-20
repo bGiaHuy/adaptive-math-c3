@@ -1,0 +1,220 @@
+{
+  "items": [
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q001",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Phát biểu nào sau đây là mệnh đề?",
+      "explanation": "Mệnh đề là một câu khẳng định có tính đúng hoặc sai dứt khoát. Phương án A là câu khẳng định về sự kiện lịch sử (có tính đúng/sai xác định) nên là mệnh đề. Phương án B là câu hỏi, C là câu cầu khiến, D là mệnh đề chứa biến chưa xác định chân trị. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q002",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Bất phương trình nào sau đây là bất phương trình bậc nhất 2 ẩn $x, y$?",
+      "explanation": "Bất phương trình bậc nhất hai ẩn $x, y$ có dạng $ax + by \\ge c$ (hoặc $\\le, <, >$) với $a, b$ không đồng thời bằng 0. Trong các phương án đưa ra, $5x - 2y \\ge 3$ có $a = 5, b = -2, c = 3$ thỏa mãn dạng trên. Phương án A và C chứa ẩn ở mẫu thức, phương án D chứa $y^2$ (bậc hai). Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q003",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ với $90^\\circ < \\alpha < 180^\\circ$, phát biểu nào sau đây đúng?",
+      "explanation": "Với góc tù $90^\\circ < \\alpha < 180^\\circ$ thuộc góc phần tư thứ II trên đường tròn lượng giác: điểm biểu diễn góc $\\alpha$ có hoành độ âm và tung độ dương. Suy ra $\\sin\\alpha > 0$ và $\\cos\\alpha < 0$. Do đó $\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha} < 0$ và $\\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha} < 0$. Khẳng định đúng duy nhất là $\\cos\\alpha < 0$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q004",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho góc $\\alpha$ ($0^\\circ < \\alpha < 180^\\circ$), phát biểu nào sau đây đúng?",
+      "explanation": "Theo tính chất giá trị lượng giác của hai góc bù nhau ($x$ và $180^\\circ - x$), ta có công thức: $\\sin(180^\\circ - \\alpha) = \\sin\\alpha$ và $\\cos(180^\\circ - \\alpha) = -\\cos\\alpha$. Do đó khẳng định A là khẳng định đúng. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q005",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Vectơ có điểm đầu là $A$, điểm cuối là $B$ được kí hiệu là:",
+      "explanation": "Vectơ là một đoạn thẳng có hướng. Vectơ có điểm đầu là $A$ và điểm cuối là $B$ được kí hiệu là $\\vec{AB}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q006",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho tam giác $ABC$. Có thể xác định bao nhiêu vectơ khác vectơ-không có điểm đầu và điểm cuối là các đỉnh $A, B, C$?",
+      "explanation": "Từ ba đỉnh $A, B, C$ của tam giác, mỗi cách chọn có thứ tự 2 đỉnh phân biệt xác định một vectơ khác $\\vec{0}$. Số vectơ thỏa mãn là $A_3^2 = 3 \\cdot 2 = 6$. Các vectơ đó là: $\\vec{AB}, \\vec{BA}, \\vec{AC}, \\vec{CA}, \\vec{BC}, \\vec{CB}$. Đáp án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q007",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho hình thoi $ABCD$. Khẳng định nào sau đây đúng?",
+      "explanation": "Trong hình thoi $ABCD$, hai cạnh đối diện $AB$ và $DC$ song song và bằng nhau về độ dài, đồng thời hướng từ $A$ sang $B$ cùng hướng với hướng từ $D$ sang $C$. Do đó $\\vec{AB} = \\vec{DC}$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q008",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho ba điểm $A, B, C$ tùy ý. Trong các khẳng định sau, khẳng định nào sai?",
+      "explanation": "Theo quy tắc ba điểm của phép cộng vectơ: $\\vec{BC} + \\vec{CA} = \\vec{BA}$. Vì $\\vec{BA} = -\\vec{AB} \\ne \\vec{AB}$ (với $A \\ne B$), khẳng định $\\vec{BC} + \\vec{CA} = \\vec{AB}$ ở phương án A là sai. Các khẳng định B, C, D đều đúng. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q009",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho $\\vec{a} = 4\\vec{j} - \\vec{i}$. Tọa độ vectơ $\\vec{a}$ là:",
+      "explanation": "Trong hệ tọa độ $Oxy$, vectơ $\\vec{a} = x\\vec{i} + y\\vec{j}$ có tọa độ $(x; y)$. Ta sắp xếp lại: $\\vec{a} = 4\\vec{j} - \\vec{i} = -1\\vec{i} + 4\\vec{j}$. Do đó tọa độ của $\\vec{a}$ là $(-1; 4)$. Đáp án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q010",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Trong mặt phẳng tọa độ $Oxy$, cho $\\vec{a} = (1; 2)$, $\\vec{b} = (3; 8)$. Tọa độ $\\vec{c} = 2\\vec{a} - 5\\vec{b}$ là:",
+      "explanation": "Tính tọa độ $\\vec{c} = 2\\vec{a} - 5\\vec{b}$ theo công thức tọa độ:\n- Hoành độ: $x_c = 2x_a - 5x_b = 2(1) - 5(3) = 2 - 15 = -13$.\n- Tung độ: $y_c = 2y_a - 5y_b = 2(2) - 5(8) = 4 - 40 = -36$.\nVậy tọa độ của vectơ $\\vec{c}$ là $(-13; -36)$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q011",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Sai số tuyệt đối của số gần đúng $a$ được tính theo công thức nào sau đây?",
+      "explanation": "Theo định nghĩa trong sách giáo khoa Toán 10: Nếu $\\overline{a}$ là số đúng của một đại lượng và $a$ là số gần đúng của $\\overline{a}$, thì $\\Delta_a = |a - \\overline{a}|$ được gọi là sai số tuyệt đối của số gần đúng $a$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-10-CUOI_HK1-032-M101-PART-I-Q012",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "sourcePdf": "outputs/thpt-300-papers/sources/THPT-10-CUOI_HK1-032.pdf",
+      "pdfPage": 1,
+      "sourceExamCode": "101",
+      "sourceExamName": "Mã đề 101",
+      "independentlyReasoned": true,
+      "content": "Cho số gần đúng $a = 7141516$ với độ chính xác $d = 400$. Số qui tròn của số gần đúng $a$ là:",
+      "explanation": "Vì độ chính xác $d = 400$ có hàng lớn nhất là hàng trăm ($100 < d = 400 < 1000$), nên ta quy tròn số $a$ đến hàng nghìn (hàng liền trước hàng trăm). Chữ số ở hàng trăm của $a = 7141516$ là 5 (thỏa mãn $\\ge 5$), do đó ta cộng thêm 1 vào chữ số hàng nghìn (1 thành 2) và thay các chữ số hàng trăm, chục, đơn vị bằng các chữ số 0: $7141516 \\approx 7142000$. Đáp án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-10-CUOI_HK1-032-p1.png",
+          "sha256": "cfc8c7e62b8083d2bf487daaf44bd1918f0afed201c3bd10e4addbfc415690e3"
+        }
+      ]
+    }
+  ]
+}

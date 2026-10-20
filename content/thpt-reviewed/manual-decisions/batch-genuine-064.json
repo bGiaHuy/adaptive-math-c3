@@ -1,0 +1,583 @@
+{
+  "batchId": "batch-genuine-064",
+  "items": [
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q001",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q001",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho hàm số $f(x) = 3\\tan x + \\sqrt{3}$, giá trị $f\\left(-\\dfrac{\\pi}{3}\\right)$ là",
+      "explanation": "Ta có $f\\left(-\\dfrac{\\pi}{3}\\right) = 3\\tan\\left(-\\dfrac{\\pi}{3}\\right) + \\sqrt{3} = 3(-\\sqrt{3}) + \\sqrt{3} = -3\\sqrt{3} + \\sqrt{3} = -2\\sqrt{3}$.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q002",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q002",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một nghiệm của phương trình $\\cos x = -\\dfrac{1}{2}$ là",
+      "explanation": "Phương trình $\\cos x = -\\dfrac{1}{2} = \\cos\\dfrac{2\\pi}{3} \\iff x = \\pm \\dfrac{2\\pi}{3} + k2\\pi$ ($k \\in \\mathbb{Z}$).\nVới $k = 1$, xét họ nghiệm $x = -\\dfrac{2\\pi}{3} + 2\\pi = \\dfrac{4\\pi}{3}$.\nDo đó một nghiệm của phương trình là $x = \\dfrac{4\\pi}{3}$. Phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q003",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q003",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho đồ thị hàm số lượng giác ở hình sau:\n\n![Đồ thị hàm số lượng giác](/math-import-assets/THPT-11-GIUA_HK1-120-M126-PART-I-Q003-fig1.png)\n\nKhoảng nghịch biến của hàm số là",
+      "explanation": "Hình vẽ là đồ thị hàm số cosin $y = \\cos x$. Trên khoảng $(0; \\pi)$, đồ thị hàm số đi xuống từ điểm $(0; 1)$ đến điểm $(\\pi; -1)$, tức là hàm số nghịch biến trên khoảng $(0; \\pi)$.\nDo đó phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q004",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q004",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Góc có số đo $7\\pi$ (rad) khi đổi theo đơn vị độ là",
+      "explanation": "Công thức đổi từ rađian sang độ: $a^\\circ = \\alpha \\cdot \\dfrac{180^\\circ}{\\pi}$.\nVới $\\alpha = 7\\pi$, ta có số đo độ là $7\\pi \\cdot \\dfrac{180^\\circ}{\\pi} = 7 \\cdot 180^\\circ = 1260^\\circ$.\nDo đó phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q005",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q005",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Góc lượng giác $-\\dfrac{33\\pi}{4}$ có điểm biểu diễn trên đường tròn lượng giác trùng với điểm biểu diễn của góc",
+      "explanation": "Ta có $-\\dfrac{33\\pi}{4} = -8\\pi - \\dfrac{\\pi}{4} = -4 \\cdot (2\\pi) - \\dfrac{\\pi}{4}$.\nVì $-8\\pi$ là bội nguyên của $2\\pi$, điểm biểu diễn của góc $-\\dfrac{33\\pi}{4}$ trên đường tròn lượng giác trùng với điểm biểu diễn của góc $-\\dfrac{\\pi}{4}$.\nDo đó phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q006",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q006",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số nào sau đây là cấp số cộng?",
+      "explanation": "Xét dãy số $2; 5; 8; 11; \\dots$, ta có $5 - 2 = 3$, $8 - 5 = 3$, $11 - 8 = 3$. Hiệu của hai số hạng liên tiếp luôn không đổi và bằng $d = 3$. Do đó dãy số này là một cấp số cộng.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q007",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q007",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Doanh thu bán hàng trong 30 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):\n\n| Doanh thu | $[5; 7)$ | $[7; 9)$ | $[9; 11)$ | $[11; 13)$ | $[13; 15)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số ngày | 1 | 9 | 2 | 10 | 8 |\n\nSố Mốt của dãy số liệu thuộc nhóm nào?",
+      "explanation": "Quan sát bảng số liệu ghép nhóm, nhóm có tần số lớn nhất là nhóm $[11; 13)$ với tần số bằng 10 ngày. Do đó nhóm chứa Mốt của mẫu số liệu là $[11; 13)$.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q008",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q008",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Với các điều kiện có nghĩa, công thức biến đổi lượng giác nào sau đây là sai?",
+      "explanation": "Công thức cộng của hàm cosin đúng là $\\cos(a + b) = \\cos a \\cos b - \\sin a \\sin b$. Công thức trong phương án C ghi $\\sin b \\sin b$ thay vì $\\sin a \\sin b$ nên là khẳng định sai.\nDo đó phương án cần chọn là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p1.png",
+          "sha256": "65ff0696293ba6bef969326bf5721b89c51a87d42306f3dcc7b37ecdf11da1e3"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q009",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q009",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số $(u_n)$ có $u_1 = 6$ và $u_{n+1} = 5u_n - 3$, $(\\forall n \\in \\mathbb{N}^*)$ thì giá trị số hạng thứ hai bằng",
+      "explanation": "Áp dụng hệ thức truy hồi với $n = 1$:\n$u_2 = 5u_1 - 3 = 5 \\cdot 6 - 3 = 30 - 3 = 27$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q010",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q010",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Dãy số $(u_n)$ có công thức số hạng tổng quát là $u_n = \\dfrac{3n + 1}{n + 2}$ thì giá trị số hạng thứ ba bằng",
+      "explanation": "Thay $n = 3$ vào công thức số hạng tổng quát:\n$u_3 = \\dfrac{3 \\cdot 3 + 1}{3 + 2} = \\dfrac{10}{5} = 2$.\nDo đó phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q011",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q011",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cấp số nhân $(u_n)$ có số hạng thứ nhất $u_1 = -5$ và số hạng thứ hai là $u_2 = -45$ thì số công bội bằng",
+      "explanation": "Công bội của cấp số nhân là $q = \\dfrac{u_2}{u_1} = \\dfrac{-45}{-5} = 9$.\nDo đó phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-I-Q012",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-I-Q012",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Các nghiệm của $\\sin x = \\dfrac{\\sqrt{2}}{2}$ là",
+      "explanation": "Ta có $\\sin x = \\dfrac{\\sqrt{2}}{2} = \\sin\\dfrac{\\pi}{4} \\iff \\left[\\begin{array}{l} x = \\dfrac{\\pi}{4} + k2\\pi \\\\ x = \\pi - \\dfrac{\\pi}{4} + k2\\pi = \\dfrac{3\\pi}{4} + k2\\pi \\end{array}\\right. (k \\in \\mathbb{Z})$.\nDo đó phương án đúng là D (hoặc A, đáp án chính thức theo biểu điểm đề thi là D).",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-II-Q001",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-II-Q001",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty xây dựng khảo sát khách hàng xem họ có nhu cầu mua nhà ở mức giá nào. Kết quả khảo sát được ghi lại ở bảng sau:\n\n| Mức giá (triệu đồng/$m^2$) | $[10; 14)$ | $[14; 18)$ | $[18; 22)$ | $[22; 26)$ | $[26; 30)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số khách hàng | 60 | 16 | 150 | 40 | 34 |\n\n(Các giá trị tính toán làm tròn đến 1 chữ số thập phân)",
+      "explanation": "Cỡ mẫu $n = 60 + 16 + 150 + 40 + 34 = 300$.\n- Giá trị đại diện các nhóm: 12, 16, 20, 24, 28.\nTổng giá trị: $\\sum x_i n_i = 12 \\cdot 60 + 16 \\cdot 16 + 20 \\cdot 150 + 24 \\cdot 40 + 28 \\cdot 34 = 720 + 256 + 3000 + 960 + 952 = 5888$.\nGiá trị trung bình $\\bar{x} = \\dfrac{5888}{300} \\approx 19.6$ (làm tròn đến 1 chữ số thập phân, mệnh đề nêu 19,63 là sai quy cách làm tròn đến 1 chữ số thập phân). Mệnh đề a SAI.\n- Nhóm chứa trung vị: $\\dfrac{n}{2} = 150$. Tần số tích lũy: $cf_1 = 60, cf_2 = 76, cf_3 = 226$. Do đó trung vị thuộc nhóm thứ ba $[18; 22)$. Mệnh đề b ĐÚNG.\n- Mốt: nhóm chứa mốt là $[18; 22)$ với $m_3 = 150$.\n$M_o = 18 + \\dfrac{150 - 16}{(150 - 16) + (150 - 40)} \\cdot (22 - 18) = 18 + \\dfrac{134}{134 + 110} \\cdot 4 = 18 + \\dfrac{134}{244} \\cdot 4 \\approx 18 + 2.197 \\approx 20.2$. Mệnh đề c ĐÚNG.\n- Tứ phân vị thứ nhất $Q_1$: $\\dfrac{n}{4} = 75 \\in [14; 18)$. $Q_1 = 14 + \\dfrac{75 - 60}{16} \\cdot 4 = 14 + 3.75 = 17.75$.\nTứ phân vị thứ hai $Q_2$: $Q_2 = 18 + \\dfrac{150 - 76}{150} \\cdot 4 = 18 + \\dfrac{74 \\cdot 4}{150} \\approx 19.97$.\nTổng $Q_1 + Q_2 \\approx 17.75 + 19.97 = 37.72 \\ne 38.8$. Mệnh đề d SAI.\nKết luận: a Sai, b Đúng, c Đúng, d Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-II-Q002",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-II-Q002",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-II",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng $(u_n)$ có $u_4 = 6; u_5 = 1$.",
+      "explanation": "- Ta có công sai $d = u_5 - u_4 = 1 - 6 = -5$. Mệnh đề a ĐÚNG.\n- Số hạng đầu $u_1 = u_4 - 3d = 6 - 3(-5) = 21$. Các số hạng tiếp theo: $u_2 = 21 - 5 = 16, u_3 = 16 - 5 = 11$. Vậy ba số hạng đầu là 21; 16; 11. Mệnh đề b ĐÚNG.\n- Tổng 10 số hạng đầu: $S_{10} = \\dfrac{10}{2} [2u_1 + 9d] = 5 [2(21) + 9(-5)] = 5 [42 - 45] = 5(-3) = -15$. Mệnh đề c ĐÚNG.\n- Xét đẳng thức: $2u_{10} = 2(u_1 + 9d) = 2u_1 + 18d$. Trong khi đó $u_7 + u_8 = (u_1 + 6d) + (u_1 + 7d) = 2u_1 + 13d$. Vì $18d \\ne 13d$ ($d = -5 \\ne 0$), nên $2u_{10} \\ne u_7 + u_8$. Mệnh đề d SAI.\nKết luận: a Đúng, b Đúng, c Đúng, d Sai.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-III-Q001",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-III-Q001",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cấp số cộng $(u_n)$ có số hạng thứ nhất là $u_1 = -8$ và công sai $d = 2$. Giá trị của tổng 28 số hạng đầu tiên của cấp số cộng này bằng bao nhiêu?",
+      "explanation": "Tổng $n$ số hạng đầu tiên của cấp số cộng tính theo công thức:\n$S_n = \\dfrac{n}{2} [2u_1 + (n - 1)d]$.\nVới $n = 28, u_1 = -8, d = 2$:\n$S_{28} = \\dfrac{28}{2} [2(-8) + 27 \\cdot 2] = 14 [-16 + 54] = 14 \\cdot 38 = 532$.\nVậy đáp số là 532.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-III-Q002",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-III-Q002",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một chiếc đu quay hình tròn được thiết kế với đường kính 80m để có thể ngắm toàn cảnh thành phố. Các kĩ sư đã tính toán bố trí cứ cách nhau 3m trên vành tròn của xích đu thì gắn 1 ghế ngồi. Hỏi có thể gắn tối đa bao nhiêu ghế trong một cung tròn của đu quay có số đo $60^\\circ$? (không làm tròn các phép tính trung gian, làm tròn kết quả cuối cùng đến hàng đơn vị)",
+      "explanation": "Bán kính của đu quay là $R = \\dfrac{80}{2} = 40$ m.\nSố đo cung tròn theo rađian: $\\alpha = 60^\\circ = \\dfrac{\\pi}{3}$ rad.\nĐộ dài cung tròn có số đo $60^\\circ$ là:\n$l = R\\alpha = 40 \\cdot \\dfrac{\\pi}{3} = \\dfrac{40\\pi}{3}$ (m).\nSố ghế tối đa gắn được trên cung tròn là:\n$N = \\dfrac{l}{3} = \\dfrac{40\\pi}{9} \\approx 13.9626$.\nLàm tròn đến hàng đơn vị theo yêu cầu đề bài, ta được 14 ghế.\nVậy đáp số là 14.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-III-Q003",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-III-Q003",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một công ty xây dựng mua một chiếc máy ủi với giá 3,2 tỉ đồng. Cứ sau mỗi năm sử dụng thì giá trị khấu hao của chiếc máy ủi này giảm xuống 20% so với giá trị của nó trong năm liền trước đó. Tính giá trị còn lại của chiếc máy ủi này sau 6 năm sử dụng (đơn vị đo: triệu đồng)? (kết quả làm tròn đến hàng đơn vị)",
+      "explanation": "Đổi 3,2 tỉ đồng = 3200 triệu đồng.\nSau mỗi năm sử dụng, giá trị còn lại của máy ủi bằng $100\\% - 20\\% = 80\\% = 0.8$ so với năm liền trước.\nSau 6 năm sử dụng, giá trị còn lại của máy ủi là:\n$V_6 = 3200 \\cdot (0.8)^6 = 3200 \\cdot 0.262144 = 838.8608$ (triệu đồng).\nLàm tròn đến hàng đơn vị, giá trị còn lại là 839 triệu đồng.\nVậy đáp số là 839.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p2.png",
+          "sha256": "9603cbbc84e4de26666e0b9bce8278209ec3aed1cf49c3e629d41e93888ecdfb"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-III-Q004",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-III-Q004",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-III",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Giả sử một vật dao động điều hòa xung quanh vị trí cân bằng được cho bởi công thức $h(t) = 2\\cos\\left(5t - \\dfrac{\\pi}{6}\\right)$. Ở đây, thời gian tính bằng giây và quãng đường $h$ tính bằng cm. Hãy cho biết trong khoảng thời gian từ 0 đến 9 giây, vật đi qua vị trí cân bằng bao nhiêu lần?",
+      "explanation": "Vật đi qua vị trí cân bằng khi quãng đường $h(t) = 0$:\n$2\\cos\\left(5t - \\dfrac{\\pi}{6}\\right) = 0 \\iff 5t - \\dfrac{\\pi}{6} = \\dfrac{\\pi}{2} + k\\pi \\iff 5t = \\dfrac{2\\pi}{3} + k\\pi \\iff t = \\dfrac{2\\pi}{15} + \\dfrac{k\\pi}{5}$ ($k \\in \\mathbb{Z}$).\nThời gian xét trong đoạn từ 0 đến 9 giây:\n$0 \\le \\dfrac{2\\pi}{15} + \\dfrac{k\\pi}{5} \\le 9 \\iff -\\dfrac{2\\pi}{15} \\le \\dfrac{k\\pi}{5} \\le 9 - \\dfrac{2\\pi}{15}$\n$\\iff -\\dfrac{2}{3} \\le k \\le \\dfrac{45}{\\pi} - \\dfrac{2}{3} \\approx 14.324 - 0.667 = 13.657$.\nDo $k \\in \\mathbb{Z}$ nên $k \\in \\{0; 1; 2; \\dots; 13\\}$.\nSố nghiệm là $13 - 0 + 1 = 14$ nghiệm, tương ứng với 14 lần vật đi qua vị trí cân bằng.\nVậy đáp số là 14.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p3.png",
+          "sha256": "890f72523da87efea5e450f306485e114993c8a73ebc40570d926654308df052"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q001",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q001",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-IV",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\cos a = -\\dfrac{1}{\\sqrt{5}}$, $a \\in \\left(\\dfrac{\\pi}{2}; \\pi\\right)$, tính giá trị: $T = \\sin\\left(a - \\dfrac{\\pi}{3}\\right)$.",
+      "explanation": "Ta có $\\sin^2 a = 1 - \\cos^2 a = 1 - \\left(-\\dfrac{1}{\\sqrt{5}}\\right)^2 = 1 - \\dfrac{1}{5} = \\dfrac{4}{5}$.\nVì $a \\in \\left(\\dfrac{\\pi}{2}; \\pi\\right)$ nên $\\sin a > 0$, suy ra:\n$$\\sin a = \\sqrt{\\dfrac{4}{5}} = \\dfrac{2}{\\sqrt{5}} = \\dfrac{2\\sqrt{5}}{5}.$$\nÁp dụng công thức cộng cho hàm số sin:\n$$T = \\sin\\left(a - \\dfrac{\\pi}{3}\\right) = \\sin a \\cos\\dfrac{\\pi}{3} - \\cos a \\sin\\dfrac{\\pi}{3}.$$\nThay giá trị $\\sin a = \\dfrac{2\\sqrt{5}}{5}$, $\\cos a = -\\dfrac{1}{\\sqrt{5}} = -\\dfrac{\\sqrt{5}}{5}$, $\\cos\\dfrac{\\pi}{3} = \\dfrac{1}{2}$, $\\sin\\dfrac{\\pi}{3} = \\dfrac{\\sqrt{3}}{2}$:\n$$T = \\dfrac{2\\sqrt{5}}{5} \\cdot \\dfrac{1}{2} - \\left(-\\dfrac{\\sqrt{5}}{5}\\right) \\cdot \\dfrac{\\sqrt{3}}{2} = \\dfrac{\\sqrt{5}}{5} + \\dfrac{\\sqrt{15}}{10} = \\dfrac{2\\sqrt{5} + \\sqrt{15}}{10}.$$\nVậy $T = \\dfrac{\\sqrt{15} + 2\\sqrt{5}}{10}$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p3.png",
+          "sha256": "890f72523da87efea5e450f306485e114993c8a73ebc40570d926654308df052"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q002",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q002",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-IV",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cấp số nhân gồm các số hạng dương. Biết số hạng thứ 10 bằng 39366, số hạng thứ 12 bằng 354294. Tìm số hạng thứ 26?",
+      "explanation": "Gọi $u_1$ là số hạng đầu và $q$ là công bội của cấp số nhân. Ta có:\n$$u_{10} = u_1 q^9 = 39366,$$\n$$u_{12} = u_1 q^{11} = 354294.$$\nSuy ra:\n$$\\dfrac{u_{12}}{u_{10}} = \\dfrac{u_1 q^{11}}{u_1 q^9} = q^2 = \\dfrac{354294}{39366} = 9.$$\nVì cấp số nhân có các số hạng đều dương nên $q > 0$. Do đó $q = \\sqrt{9} = 3$.\nKhi đó, số hạng đầu là:\n$$u_1 = \\dfrac{u_{10}}{q^9} = \\dfrac{39366}{3^9} = \\dfrac{39366}{19683} = 2.$$\nVậy số hạng thứ 26 của cấp số nhân là:\n$$u_{26} = u_1 q^{25} = 2 \\cdot 3^{25}.$$",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p3.png",
+          "sha256": "890f72523da87efea5e450f306485e114993c8a73ebc40570d926654308df052"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q003",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q003",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-IV",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tìm ba số, biết theo thứ tự đó chúng lập thành cấp số cộng và có tổng bằng 21, và nếu lần lượt cộng thêm các số 2, 3, 9 vào ba số đó thì được ba số lập thành cấp số nhân.",
+      "explanation": "Gọi ba số cần tìm theo thứ tự là $a, b, c$.\nTheo giả thiết:\n1) Ba số $a, b, c$ lập thành cấp số cộng nên:\n$$a + c = 2b.$$\n2) Tổng ba số bằng 21 nên:\n$$a + b + c = 21 \\iff 2b + b = 21 \\iff 3b = 21 \\iff b = 7.$$\nSuy ra $a + c = 14 \\iff c = 14 - a$.\n3) Khi lần lượt cộng thêm các số 2, 3, 9 vào ba số đó, ta được ba số $a + 2$, $b + 3 = 10$, $c + 9 = 23 - a$. Ba số này lập thành cấp số nhân nên:\n$$(a + 2)(23 - a) = 10^2 = 100.$$\nKhai triển và rút gọn phương trình:\n$$23a - a^2 + 46 - 2a = 100 \\iff -a^2 + 21a + 46 = 100 \\iff a^2 - 21a + 54 = 0.$$\nGiải phương trình bậc hai:\n$$(a - 3)(a - 18) = 0 \\iff \\left[\\begin{array}{l} a = 3 \\\\ a = 18. \\end{array}\\right.$$\n- Với $a = 3 \\implies b = 7, c = 14 - 3 = 11$.\n- Với $a = 18 \\implies b = 7, c = 14 - 18 = -4$.\nVậy ba số cần tìm là $(3; 7; 11)$ hoặc $(18; 7; -4)$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p3.png",
+          "sha256": "890f72523da87efea5e450f306485e114993c8a73ebc40570d926654308df052"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q004",
+      "questionId": "THPT-11-GIUA_HK1-120-M126-PART-IV-Q004",
+      "paperId": "THPT-11-GIUA_HK1-120",
+      "part": "PART-IV",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho biết $\\tan x, \\tan y$ là 2 nghiệm của phương trình bậc hai\n$$2027t^2 + 2026t - 2025 = 0 \\quad (1).$$\nTính chính xác giá trị biểu thức\n$$T = 2027\\sin^2(x + y) + 2026\\sin(x + y)\\cos(x + y) - 2025\\cos^2(x + y).$$",
+      "explanation": "Vì $\\tan x, \\tan y$ là hai nghiệm của phương trình $2027t^2 + 2026t - 2025 = 0$, theo định lí Viète ta có:\n$$\\tan x + \\tan y = -\\dfrac{2026}{2027}, \\quad \\tan x \\tan y = -\\dfrac{2025}{2027}.$$\nÁp dụng công thức cộng đối với hàm tang:\n$$\\tan(x + y) = \\dfrac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\dfrac{-\\dfrac{2026}{2027}}{1 - \\left(-\\dfrac{2025}{2027}\\right)} = \\dfrac{-\\dfrac{2026}{2027}}{\\dfrac{4052}{2027}} = -\\dfrac{2026}{4052} = -\\dfrac{1}{2}.$$\nBiến đổi biểu thức $T$ bằng cách đặt thừa số chung $\\cos^2(x + y)$:\n$$T = \\cos^2(x + y) \\left[ 2027\\tan^2(x + y) + 2026\\tan(x + y) - 2025 \\right].$$\nMặt khác, $\\cos^2(x + y) = \\dfrac{1}{1 + \\tan^2(x + y)} = \\dfrac{1}{1 + \\left(-\\dfrac{1}{2}\\right)^2} = \\dfrac{1}{1 + \\dfrac{1}{4}} = \\dfrac{4}{5}$.\nBiểu thức trong ngoặc với $\\tan(x + y) = -\\dfrac{1}{2}$ là:\n$$2027\\left(-\\dfrac{1}{2}\\right)^2 + 2026\\left(-\\dfrac{1}{2}\\right) - 2025 = \\dfrac{2027}{4} - 1013 - 2025 = \\dfrac{2027}{4} - 3038 = \\dfrac{2027 - 12152}{4} = -\\dfrac{10125}{4}.$$\nDo đó:\n$$T = \\dfrac{4}{5} \\cdot \\left(-\\dfrac{10125}{4}\\right) = -\\dfrac{10125}{5} = -2025.$$\nVậy giá trị chính xác của biểu thức là $T = -2025$.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-120-p3.png",
+          "sha256": "890f72523da87efea5e450f306485e114993c8a73ebc40570d926654308df052"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q001",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q001",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho dãy số $(u_n)$ xác định bởi $\\begin{cases} u_1 = 2 \\\\ u_n = u_{n-1} + n, & n \\ge 2 \\end{cases}$. Số hạng thứ 3 là",
+      "explanation": "Từ hệ thức truy hồi của dãy số:\n- Với $n = 2$: $u_2 = u_1 + 2 = 2 + 2 = 4$.\n- Với $n = 3$: $u_3 = u_2 + 3 = 4 + 3 = 7$.\nVậy số hạng thứ 3 là $u_3 = 7$. Phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p1.png",
+          "sha256": "333f85f56adc2f91dfdb32bfcd0a56d725518012c1b042d8c9567942abdd6dcc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q002",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q002",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho $\\sin\\alpha = \\dfrac{3}{5}$ với $\\dfrac{\\pi}{2} < \\alpha < \\pi$, giá trị của $\\cos\\alpha$ bằng",
+      "explanation": "Áp dụng hệ thức cơ bản $\\sin^2\\alpha + \\cos^2\\alpha = 1$, ta có:\n$\\cos^2\\alpha = 1 - \\sin^2\\alpha = 1 - \\left(\\dfrac{3}{5}\\right)^2 = \\dfrac{16}{25}$.\nVì $\\dfrac{\\pi}{2} < \\alpha < \\pi$ (góc phần tư thứ II) nên $\\cos\\alpha < 0$. Suy ra:\n$\\cos\\alpha = -\\sqrt{\\dfrac{16}{25}} = -\\dfrac{4}{5}$.\nDo đó phương án đúng là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p1.png",
+          "sha256": "333f85f56adc2f91dfdb32bfcd0a56d725518012c1b042d8c9567942abdd6dcc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q003",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q003",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng có $u_2 = -1; u_3 = 2$. Công sai $d$ của cấp số cộng bằng",
+      "explanation": "Công sai của cấp số cộng được xác định bởi:\n$d = u_3 - u_2 = 2 - (-1) = 3$.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p1.png",
+          "sha256": "333f85f56adc2f91dfdb32bfcd0a56d725518012c1b042d8c9567942abdd6dcc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q004",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q004",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Thống kê chiều cao của 40 học sinh lớp 11 của một trường THPT, ta có bảng số liệu sau:\n\n| Chiều cao (cm) | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ | $[170; 175)$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Số học sinh | 4 | 10 | 16 | 8 | 2 |\n\nSố học sinh có chiều cao đạt chuẩn (từ 165 cm đến dưới 175 cm) là",
+      "explanation": "Chiều cao từ 165 cm đến dưới 175 cm tương ứng với hai nhóm ghép $[165; 170)$ và $[170; 175)$.\nSố học sinh đạt chuẩn là tổng tần số của hai nhóm này:\n$n = 8 + 2 = 10$ học sinh.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p1.png",
+          "sha256": "333f85f56adc2f91dfdb32bfcd0a56d725518012c1b042d8c9567942abdd6dcc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q005",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q005",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Tập xác định của hàm số $y = \\tan x$ là",
+      "explanation": "Hàm số $y = \\tan x = \\dfrac{\\sin x}{\\cos x}$ xác định khi và chỉ khi:\n$\\cos x \\ne 0 \\iff x \\ne \\dfrac{\\pi}{2} + k\\pi \\quad (k \\in \\mathbb{Z})$.\nVậy tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\left\\{\\dfrac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}\\right\\}$. Phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p1.png",
+          "sha256": "333f85f56adc2f91dfdb32bfcd0a56d725518012c1b042d8c9567942abdd6dcc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q006",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q006",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Đây là một phần đồ thị của hàm số nào?\n\n![Đồ thị hàm số lượng giác](/math-import-assets/THPT-11-GIUA_HK1-110-M280-PART-I-Q006-fig1.png)",
+      "explanation": "Quan sát đồ thị hình vẽ:\n- Tại $x = 0$, đồ thị đi qua điểm $(0; 1)$.\n- Tại $x = \\pm \\dfrac{\\pi}{2}$, đồ thị cắt trục hoành tại các điểm có tung độ bằng 0.\n- Tại $x = \\pm \\pi$, đồ thị đạt giá trị cực tiểu bằng $-1$.\n- Đồ thị đối xứng qua trục tung $Oy$, là đồ thị của hàm số chẵn.\nCác đặc điểm này hoàn toàn trùng khớp với hàm số $y = \\cos x$.\nDo đó phương án đúng là A.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p1.png",
+          "sha256": "333f85f56adc2f91dfdb32bfcd0a56d725518012c1b042d8c9567942abdd6dcc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q007",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q007",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào dưới đây sai?",
+      "explanation": "Theo tính chất của các cung liên kết:\n- Hai góc đối nhau $\\alpha$ và $-\\alpha$ có: $\\cos(-\\alpha) = \\cos\\alpha$, $\\sin(-\\alpha) = -\\sin\\alpha$.\nKhẳng định D ghi $\\cos(-\\alpha) = -\\cos\\alpha$ là sai.\nDo đó phương án cần chọn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p1.png",
+          "sha256": "333f85f56adc2f91dfdb32bfcd0a56d725518012c1b042d8c9567942abdd6dcc"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q008",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q008",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Khẳng định nào dưới đây sai?",
+      "explanation": "Công thức biến đổi tổng thành tích đúng là:\n$$\\cos x + \\cos y = 2\\cos\\dfrac{x + y}{2}\\cos\\dfrac{x - y}{2}.$$\nKhẳng định D ghi $2\\cos(x + y)\\cos(x - y)$ thiếu chia 2 ở các góc nên là sai.\nDo đó phương án cần chọn là D.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p2.png",
+          "sha256": "bc13323499d5c9f2c30619fac47f621513f69f48dc73ba88565571eb4dda5cac"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q009",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q009",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Một dịch vụ chuyển hàng nhanh, thống kê lại số sản phẩm gửi đến một cơ quan mỗi ngày trong tháng 12/2025 trong bảng sau:\n\n![Bảng thống kê số sản phẩm](/math-import-assets/THPT-11-GIUA_HK1-110-M280-PART-I-Q009-fig1.png)\n\nNhóm chứa Mốt của mẫu số liệu là",
+      "explanation": "Bảng thống kê số bưu phẩm và số ngày tương ứng:\n- $[20; 24]$: 4 ngày\n- $[25; 29]$: 6 ngày\n- $[30; 34]$: 10 ngày\n- $[35; 39]$: 6 ngày\n- $[40; 44]$: 4 ngày\nTần số lớn nhất là 10, tương ứng với nhóm $[30; 34]$. Do đó nhóm chứa Mốt của mẫu số liệu là $[30; 34]$.\nPhương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p2.png",
+          "sha256": "bc13323499d5c9f2c30619fac47f621513f69f48dc73ba88565571eb4dda5cac"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q010",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q010",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Công thức nghiệm của phương trình $\\sin x = \\sin\\alpha$ là",
+      "explanation": "Phương trình lượng giác cơ bản $\\sin x = \\sin\\alpha$ có công thức nghiệm tổng quát là:\n$$\\left[\\begin{array}{l} x = \\alpha + k2\\pi \\\\ x = \\pi - \\alpha + k2\\pi \\end{array}\\right. \\quad (k \\in \\mathbb{Z}).$$\nDo đó phương án đúng là C.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p2.png",
+          "sha256": "bc13323499d5c9f2c30619fac47f621513f69f48dc73ba88565571eb4dda5cac"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q011",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q011",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Trong các hàm số sau, hàm số nào là hàm số chẵn?",
+      "explanation": "Trong bốn hàm số lượng giác cơ bản:\n- Hàm số $y = \\cos x$ có $\\cos(-x) = \\cos x$ với mọi $x \\in \\mathbb{R}$, do đó là hàm số chẵn.\n- Các hàm số $y = \\sin x, y = \\tan x, y = \\cot x$ đều thỏa mãn $f(-x) = -f(x)$ trên tập xác định tương ứng nên là hàm số lẻ.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p2.png",
+          "sha256": "bc13323499d5c9f2c30619fac47f621513f69f48dc73ba88565571eb4dda5cac"
+        }
+      ]
+    },
+    {
+      "id": "THPT-11-GIUA_HK1-110-M280-PART-I-Q012",
+      "questionId": "THPT-11-GIUA_HK1-110-M280-PART-I-Q012",
+      "paperId": "THPT-11-GIUA_HK1-110",
+      "part": "PART-I",
+      "decision": "APPROVED_REFERENCE",
+      "visualSourceChecked": true,
+      "independentlyReasoned": true,
+      "content": "Cho cấp số cộng có $u_1 = -2; d = 3$. Số hạng thứ 10 là",
+      "explanation": "Số hạng tổng quát của cấp số cộng tính theo công thức:\n$u_n = u_1 + (n - 1)d$.\nVới $n = 10, u_1 = -2, d = 3$:\n$u_{10} = -2 + (10 - 1) \\cdot 3 = -2 + 9 \\cdot 3 = -2 + 27 = 25$.\nDo đó phương án đúng là B.",
+      "evidence": [
+        {
+          "file": "outputs/thpt-manual-reviewed/evidence/THPT-11-GIUA_HK1-110-p2.png",
+          "sha256": "bc13323499d5c9f2c30619fac47f621513f69f48dc73ba88565571eb4dda5cac"
+        }
+      ]
+    }
+  ]
+}

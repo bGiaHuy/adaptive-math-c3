@@ -1,0 +1,13 @@
+{
+  "batchId": "thpt-nvc-source-18-v1",
+  "batchSha256": "c7a532d13224f5372369b64c4405e7c197cb5fcebd07573f60b6288613e8b904",
+  "mode": "DRY_RUN",
+  "ownerId": "1762cc0a-1d6d-46bb-b36c-768ccc75f642",
+  "status": "DRAFT",
+  "peerReviewed": false,
+  "questions": 18,
+  "existing": 0,
+  "toImport": 18,
+  "assignmentDigestBefore": "f8eeb7a90356a63a75fdb1ec90af8b82dab6b46b40638763ba3e75e9abf7502a",
+  "priorQuestionDigest": "4a729cc6522134ec59c6197083c804dc40ff18df0bbc2772c9f5131765f472fa"
+}

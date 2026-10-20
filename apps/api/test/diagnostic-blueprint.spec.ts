@@ -1,9 +1,9 @@
-// Exercise the preserved legacy algorithm only; thpt-transition.spec.ts verifies the enabled pause.
-vi.mock('../src/modules/curriculum/thpt-catalog', () => ({ LEGACY_BANK_PAUSED: false }));
+// Historical matrix helpers remain compatible; live attempts use THPT fixtures.
 import 'reflect-metadata';
 import { describe, it, expect, vi } from 'vitest';
 import { DIAGNOSTIC_BLUEPRINT, selectBlueprintPaper } from '../src/modules/diagnostic/diagnostic-blueprint';
 import { DiagnosticService } from '../src/modules/diagnostic/diagnostic.service';
+import { thptBank } from './fixtures/blueprint';
 
 const bank = () => DIAGNOSTIC_BLUEPRINT.flatMap(slot => Array.from({ length: 4 }, (_, variant) => ({
   id: `${slot.slot}-${variant}`, questionType: slot.questionType, cognitiveLevel: slot.cognitiveLevel,
@@ -50,11 +50,11 @@ describe('Grade 9 comprehensive diagnostic blueprint', () => {
     expect(() => selectBlueprintPaper(pool, 'a')).toThrow();
   });
   it('pins safe questions on start and resumes without reselecting the paper', async () => {
-    const pool = bank();
+    const pool = thptBank();
     let attempt: any = null;
     const tx: any = {
       $queryRaw: vi.fn(), mathPracticeSession: { findFirst: vi.fn(async () => null) },
-      studentProfile: { findUnique: vi.fn(async () => ({ grade: 9 })) },
+      studentProfile: { findUnique: vi.fn(async () => ({ grade: 10 })) },
       skillNode: { findMany: vi.fn(async () => pool.map(q => ({ id: q.skillId }))) },
       question: { findMany: vi.fn(async () => pool) },
       diagnosticAttempt: {
@@ -65,7 +65,7 @@ describe('Grade 9 comprehensive diagnostic blueprint', () => {
     };
     const service = new DiagnosticService({ $transaction: (fn: any) => fn(tx) } as any);
     const started = await service.startAttempt('student');
-    expect(started.questions).toHaveLength(22);
+    expect(started.questions).toHaveLength(18);
     for (const q of started.questions) {
       expect(q).not.toHaveProperty('shortAnswer');
       expect(q).not.toHaveProperty('explanation');
@@ -81,9 +81,9 @@ describe('Grade 9 comprehensive diagnostic blueprint', () => {
   it('does not create an attempt when the bank cannot satisfy the blueprint', async () => {
     const tx: any = {
       $queryRaw: vi.fn(), mathPracticeSession: { findFirst: vi.fn(async () => null) },
-      studentProfile: { findUnique: vi.fn(async () => ({ grade: 9 })) },
+      studentProfile: { findUnique: vi.fn(async () => ({ grade: 10 })) },
       skillNode: { findMany: vi.fn(async () => [{ id: 'skill' }]) },
-      question: { findMany: vi.fn(async () => bank().slice(0, 4)) },
+      question: { findMany: vi.fn(async () => thptBank().slice(0, 2)) },
       diagnosticAttempt: { findFirst: vi.fn(async () => null), create: vi.fn() }
     };
     const service = new DiagnosticService({ $transaction: (fn: any) => fn(tx) } as any);
