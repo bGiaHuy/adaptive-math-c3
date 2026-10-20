@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://adaptivemath-api.onrender.com/api/:path*"
+      "destination": "https://adaptive-math-c3-api.onrender.com/api/:path*"
     },
     {
       "source": "/(.*)",

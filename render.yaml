@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: adaptivemath-api
+    name: adaptive-math-c3-api
     repo: https://github.com/bGiaHuy/adaptive-math-c3
     branch: codex/thpt-production-release
     runtime: node
@@ -13,13 +13,13 @@ services:
       - key: NODE_ENV
         value: production
       - key: WEB_URL
-        value: https://adaptivemath-blush.vercel.app
+        value: https://adaptive-math-thpt.vercel.app
       - key: DATABASE_URL
         sync: false
       - key: SESSION_SECRET
         generateValue: true
       - key: SESSION_COOKIE_NAME
-        value: __Host-am_math_session
+        value: __Host-am_c3_session
       - key: SESSION_TTL_SECONDS
         value: "604800"
       - key: INVITE_CODE_HMAC_SECRET
@@ -27,4 +27,14 @@ services:
       - key: NODE_VERSION
         value: "24"
       - key: AI_ENABLED
-        value: "false"
+        value: "true"
+      - key: AI_PROVIDER
+        value: mwapi
+      - key: AI_MODEL
+        value: claude-haiku-4-5-20251001
+      - key: MATH_MWAPI_AUTH_TOKEN
+        sync: false
+      - key: AI_INPUT_USD_PER_MILLION
+        sync: false
+      - key: AI_OUTPUT_USD_PER_MILLION
+        sync: false
