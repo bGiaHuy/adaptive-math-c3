@@ -2,7 +2,7 @@ import { Injectable, Optional, NotFoundException, ForbiddenException, BadRequest
 import { PrismaService } from '../prisma/prisma.service';
 import { SaveDiagnosticDraftDto } from './dto/save-diagnostic-draft.dto';
 import { AnswerQuestionDto } from './dto/answer-question.dto';
-import { gradeQuestion, validateAnswer } from '../question/math-question';
+import { gradeQuestion, validateAnswer, diagnosticExamScore, examQuestionPoints } from '../question/math-question';
 import { estimateAbility, diagnosticMastery, selectStaircase } from '../../common/domain/math-adaptive';
 import { selectThptDiagnostic } from '../question/diagnostic-blueprint';
 import { diagnosticBankWhere } from './diagnostic-bank';
@@ -224,7 +224,7 @@ export class DiagnosticService {
         }
       }
       return { attemptId, status: 'COMPLETED', finalTheta: ability.theta, standardError: ability.standardError,
-        scorePercentage: Math.round(attempt.answers.reduce((sum, a) => sum + (a.pointsAwarded ?? Number(a.isCorrect)), 0) / attempt.answers.length * 100), correctCount,
+        ...diagnosticExamScore(attempt.answers), correctCount,
         totalAnswered: attempt.answers.length, skillsEvaluated, alreadySubmitted: attempt.status === 'COMPLETED', parameterStatus: 'PROVISIONAL' };
     }, { maxWait: 10000, timeout: 15000 });
   }
@@ -249,11 +249,12 @@ export class DiagnosticService {
     const ability = estimateAbility(attempt.answers);
     return { attemptId, status: attempt.status, finalTheta: ability.theta, standardError: ability.standardError,
       startedAt: attempt.startedAt, completedAt: attempt.completedAt, totalAnswered: attempt.answers.length,
-      scorePercentage: Math.round(attempt.answers.reduce((sum, a) => sum + (a.pointsAwarded ?? Number(a.isCorrect)), 0) / attempt.answers.length * 100),
+      ...diagnosticExamScore(attempt.answers),
       correctCount: attempt.answers.filter(a => a.isCorrect).length, parameterStatus: 'PROVISIONAL',
       answers: attempt.answers.map(a => ({ questionId: a.questionId, content: a.question.content,
         questionType: a.question.questionType, statements: a.question.statements, shortAnswer: a.question.shortAnswer,
         response: a.response, gradingDetails: a.gradingDetails, pointsAwarded: a.pointsAwarded ?? Number(a.isCorrect),
+        examPointsAwarded: (a.pointsAwarded ?? Number(a.isCorrect)) * examQuestionPoints(a.question), maxPoints: examQuestionPoints(a.question),
         explanation: a.question.explanation, skillTitle: a.question.skill.title, selectedOptionKey: a.selectedOptionKey,
         isCorrect: a.isCorrect, isTimeout: a.isTimeout, timeSpentSeconds: a.timeSpentSeconds, thetaAfter: a.thetaAfter,
         options: a.question.options.map(o => ({ key: o.optionKey, content: o.content, isCorrect: o.isCorrect })) })) };

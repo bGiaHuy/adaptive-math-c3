@@ -1,6 +1,21 @@
 import { BadRequestException } from '@nestjs/common';
 export const QUESTION_TYPES = ['SINGLE_CHOICE', 'TRUE_FALSE', 'SHORT_ANSWER'] as const;
 export type MathQuestionType = typeof QUESTION_TYPES[number];
+export function examQuestionPoints(q: any): number {
+  return q.questionType === 'TRUE_FALSE' ? 1 : q.questionType === 'SHORT_ANSWER' ? 0.5 : 0.25;
+}
+// Stored diagnostic credit remains normalized for the adaptive learning model.
+// Sum hundredths so decimal rubric values (e.g. 0.1 + 0.1 + 0.1) stay exact.
+export function diagnosticExamScore(answers: any[]) {
+  let earned = 0, possible = 0;
+  for (const answer of answers) {
+    const units = examQuestionPoints(answer.question) * 100;
+    earned += (answer.pointsAwarded ?? Number(Boolean(answer.isCorrect))) * units;
+    possible += units;
+  }
+  return { totalPoints: earned / 100, maxPoints: possible / 100,
+    scorePercentage: possible ? earned / possible * 100 : 0 };
+}
 export function parseNumericAnswer(value: string): number | null {
   const s = value.normalize('NFC').trim().replace(/−/g, '-').replace(/,/g, '.');
   const number = '[+-]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)';

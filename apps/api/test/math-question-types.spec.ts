@@ -1,8 +1,19 @@
 import {describe,it,expect} from 'vitest';
-import {gradeQuestion,validateQuestion,validateAnswer,parseNumericAnswer} from '../src/modules/question/math-question';
+import {gradeQuestion,validateQuestion,validateAnswer,parseNumericAnswer,diagnosticExamScore,examQuestionPoints} from '../src/modules/question/math-question';
 const tf={questionType:'TRUE_FALSE',content:'Q',statements:['a','b','c','d'].map((key,i)=>({key,content:key,isCorrect:i%2===0}))};
 const sa={questionType:'SHORT_ANSWER',content:'Q',shortAnswer:{mode:'NUMERIC',acceptedAnswers:['1/2'],tolerance:0.001}};
 describe('Math typed questions',()=>{
+ it('uses the exam rubric without rounding or rescaling to ten',()=>{
+ const choice={questionType:'SINGLE_CHOICE'}, short={questionType:'SHORT_ANSWER'};
+ expect(examQuestionPoints(choice)).toBe(.25);
+ expect(examQuestionPoints(short)).toBe(.5);
+ const answers=[{question:choice,pointsAwarded:1},{question:tf,pointsAwarded:.1},{question:short,pointsAwarded:1}];
+ expect(diagnosticExamScore(answers)).toEqual({totalPoints:.85,maxPoints:1.75,scorePercentage:85/175*100});
+ expect(diagnosticExamScore(Array.from({length:3},()=>({question:tf,pointsAwarded:.1}))).totalPoints).toBe(.3);
+ const perfect=[...Array(12).fill({question:choice,isCorrect:true}),...Array(2).fill({question:tf,isCorrect:true}),...Array(4).fill({question:short,isCorrect:true})];
+ expect(diagnosticExamScore(perfect)).toEqual({totalPoints:7,maxPoints:7,scorePercentage:100});
+ expect(diagnosticExamScore([])).toEqual({totalPoints:0,maxPoints:0,scorePercentage:0});
+ });
  it('TF partial credit ignores missing false',()=>expect(gradeQuestion(tf,{response:{trueFalseAnswers:{a:true,b:false,c:false}}})).toMatchObject({isCorrect:false,pointsAwarded:0.25,gradingDetails:{a:true,b:true,c:false,d:false}}));
  it.each([0,1,2,3,4])('TF nonlinear rubric for %i correct statements', count => {
  const q={...tf,statements:tf.statements.map(s=>({...s,isCorrect:true}))};

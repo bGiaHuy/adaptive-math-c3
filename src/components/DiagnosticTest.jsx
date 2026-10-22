@@ -113,20 +113,22 @@ export default function DiagnosticTest({ onFinishTest, onPauseTest, userProfile 
   };
   if (restoring) return <div className="diagnostic-card" role="status">Đang tải bài và kết quả đã lưu...</div>;
   if (completedResult) {
-    const rawPoints = (completedResult.answers || []).reduce((sum, item) => sum + (item.pointsAwarded ?? Number(item.isCorrect)), 0);
-    const score = completedResult.totalAnswered ? Math.round(rawPoints / completedResult.totalAnswered * 100) : 0;
+    const questionPoints = item => item.questionType === 'TRUE_FALSE' ? 1 : item.questionType === 'SHORT_ANSWER' ? 0.5 : 0.25;
+    const rawPoints = completedResult.totalPoints ?? (completedResult.answers || []).reduce((sum, item) => sum + (item.pointsAwarded ?? Number(item.isCorrect)) * questionPoints(item) * 100, 0) / 100;
+    const maxPoints = completedResult.maxPoints ?? (completedResult.answers || []).reduce((sum, item) => sum + questionPoints(item) * 100, 0) / 100;
+    const formatPoints = value => String(value).replace('.', ',');
     return <div className="diagnostic-view-root animate-fade-in">
       <section className="diagnostic-card" aria-label="Kết quả bài kiểm tra đầu vào">
         <h1>Đã nộp bài kiểm tra đầu vào</h1>
-        <p><strong>{score}%</strong> · {completedResult.correctCount}/{completedResult.totalAnswered} câu hoàn toàn đúng.</p>
-        <p>Câu đúng / sai: đúng 1/2/3/4 ý được 10%/25%/50%/100% điểm câu. Các câu có trọng số bằng nhau khi tính tỷ lệ điểm.</p>
+        <p><strong>{formatPoints(rawPoints)}/{formatPoints(maxPoints)} điểm</strong> · {completedResult.correctCount}/{completedResult.totalAnswered} câu hoàn toàn đúng.</p>
+        <p>Lựa chọn: 0,25 điểm/câu đúng. Đúng / sai: đúng 1/2/3/4 ý được 0,1/0,25/0,5/1 điểm. Trả lời ngắn: 0,5 điểm/câu đúng. Tổng điểm không làm tròn.</p>
         <button type="button" className="btn-quiz-submit" onClick={() => onFinishTest(completedResult)}>
           Xem hồ sơ năng lực và lộ trình <ArrowRight size={16} />
         </button>
       </section>
       {(completedResult.answers || []).map((item, index) => <section key={item.questionId} className="diagnostic-card" style={{ marginTop: 18 }}>
         <h2>Câu {index + 1} · {QUESTION_TYPE_LABELS[item.questionType || 'SINGLE_CHOICE']}</h2>
-        <p>{item.skillTitle} · {item.pointsAwarded ?? Number(item.isCorrect)}/1 điểm thô{item.isTimeout ? ' · Hết giờ' : ''}</p>
+        <p>{item.skillTitle} · {formatPoints(item.examPointsAwarded ?? (item.pointsAwarded ?? Number(item.isCorrect)) * questionPoints(item))}/{formatPoints(item.maxPoints ?? questionPoints(item))} điểm{item.isTimeout ? ' · Hết giờ' : ''}</p>
         <p role="status" style={{fontWeight:700,color:item.isCorrect ? '#047857' : item.pointsAwarded > 0 ? '#b45309' : '#b91c1c'}}>{item.isCorrect ? 'Đúng' : item.pointsAwarded > 0 ? 'Đúng một phần' : 'Sai hoặc chưa trả lời'}</p>
         <MathRenderer content={item.content} />
         <MathQuestionResult question={{ ...item, studentSelectedKey: item.selectedOptionKey }} />

@@ -123,7 +123,9 @@ describe('Mixed diagnostic grading and disclosure', () => {
     const service = new DiagnosticService({ $transaction: (fn: any) => fn(tx) } as any);
     const result = await service.submitAttempt('s', 'a');
     expect(result.totalAnswered).toBe(2);
-    expect(result.scorePercentage).toBe(25);
+    expect(result.totalPoints).toBe(0.5);
+    expect(result.maxPoints).toBe(1.5);
+    expect(result.scorePercentage).toBe(0.5 / 1.5 * 100);
     expect(tx.attemptAnswer.create).toHaveBeenCalledTimes(2);
     attempt.status = 'COMPLETED';
     expect((await service.submitAttempt('s', 'a')).alreadySubmitted).toBe(true);
