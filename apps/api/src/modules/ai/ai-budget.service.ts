@@ -44,7 +44,7 @@ export class AiBudgetService {
           day + data.reservedUsd > config.dailyUsd) {
         throw new HttpException(aiError('AI_BUDGET_EXHAUSTED', 'AI đã đạt hạn mức ngân sách. Bạn vẫn có thể học các bài có sẵn.'), 429);
       }
-      if (userDay + data.reservedUsd > config.userDailyUsd || requests >= config.dailyRequests) {
+      if ((config.userDailyUsd !== null && userDay + data.reservedUsd > config.userDailyUsd) || requests >= config.dailyRequests) {
         throw new HttpException(aiError('AI_USER_LIMIT', 'Bạn đã dùng hết lượt AI hôm nay. Hãy tiếp tục với bài học có sẵn.'), 429);
       }
       if (minute >= config.perMinute || ipMinute >= config.ipPerMinute || concurrent >= config.concurrency || userConcurrent > 0) {
@@ -79,7 +79,7 @@ export class AiBudgetService {
     const used = (usage._sum.costUsd || 0) + (usage._sum.reservedUsd || 0);
     const result: any = { enabled: config.enabled, requestsToday: requests, dailyRequestLimit: config.dailyRequests,
       mode: process.env.NODE_ENV !== 'production' && (process.env.AI_DEMO_MODE === 'true' || process.execArgv.some(arg => arg.endsWith('mock-claude.cjs'))) ? 'demo' : 'live',
-      remainingRequests: Math.max(0, config.dailyRequests - requests), budgetRemaining: used < config.userDailyUsd,
+      remainingRequests: Math.max(0, config.dailyRequests - requests), budgetRemaining: config.userDailyUsd === null || used < config.userDailyUsd,
       inputTokens: usage._sum.inputTokens || 0, outputTokens: usage._sum.outputTokens || 0 };
     if (admin) {
       const totals = await this.prisma.aiRequest.aggregate({ _sum: { costUsd: true, reservedUsd: true } });

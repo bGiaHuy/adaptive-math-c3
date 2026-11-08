@@ -31,7 +31,8 @@ export function aiConfig(env: Record<string, string | undefined> = process.env) 
     lifetimeUsd: number(env, 'AI_LIFETIME_BUDGET_USD', 90, 100000),
     monthlyUsd: number(env, 'AI_MONTHLY_BUDGET_USD', 30, 100000),
     dailyUsd: number(env, 'AI_DAILY_BUDGET_USD', 5, 10000),
-    userDailyUsd: number(env, 'AI_USER_DAILY_BUDGET_USD', 0.15, 100),
+    userDailyUsd: env.AI_USER_DAILY_BUDGET_USD === 'unlimited'
+      ? null : number(env, 'AI_USER_DAILY_BUDGET_USD', 0.15, 100),
     dailyRequests: number(env, 'AI_USER_DAILY_REQUESTS', 40, 1000),
     perMinute: number(env, 'AI_USER_REQUESTS_PER_MINUTE', 6, 100),
     ipPerMinute: number(env, 'AI_IP_REQUESTS_PER_MINUTE', 30, 1000),

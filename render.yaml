@@ -31,7 +31,9 @@ services:
       - key: AI_PROVIDER
         value: mwapi
       - key: AI_MODEL
-        value: claude-haiku-4-5-20251001
+        value: claude-sonnet-4-6
+      - key: AI_USER_DAILY_BUDGET_USD
+        value: unlimited
       - key: MATH_MWAPI_AUTH_TOKEN
         sync: false
       - key: AI_INPUT_USD_PER_MILLION
