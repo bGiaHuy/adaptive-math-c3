@@ -1,0 +1,104 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "adaptive-math-c3",
+  "account_id": "dd2f7a1c403332569d3a1058ab9dd3d2",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-09",
+  "workers_dev": true,
+  "vars": {
+    "EDGE_SECURITY_ENABLED": "true",
+    "API_INSTANCE_KEY": "release-20261109-pruned-v1",
+    "IMAGE_OPTIMIZATION_ENABLED": "true",
+    "TURNSTILE_ENABLED": "true",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAF5w55TWqVSwSJ9z",
+  },
+  "images": {
+    "binding": "IMAGES",
+  },
+  "version_metadata": {
+    "binding": "CF_VERSION_METADATA",
+  },
+  "ratelimits": [
+    {
+      "name": "EDGE_API_LIMITER",
+      "namespace_id": "2026110901",
+      "simple": {
+        "limit": 600,
+        "period": 60,
+      },
+    },
+    {
+      "name": "EDGE_AUTH_LIMITER",
+      "namespace_id": "2026110902",
+      "simple": {
+        "limit": 120,
+        "period": 60,
+      },
+    },
+    {
+      "name": "EDGE_REGISTER_LIMITER",
+      "namespace_id": "2026110903",
+      "simple": {
+        "limit": 60,
+        "period": 60,
+      },
+    },
+    {
+      "name": "EDGE_AI_LIMITER",
+      "namespace_id": "2026110904",
+      "simple": {
+        "limit": 60,
+        "period": 60,
+      },
+    },
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "invocation_logs": false,
+    },
+  },
+  "assets": {
+    "directory": "../../dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": true,
+  },
+  "containers": [
+    {
+      "class_name": "AdaptiveMathApi",
+      "scheduling_policy": "durable_object",
+      "images": {
+        "base": {
+          "dockerfile": "Dockerfile",
+          "build_context": "../..",
+        },
+      },
+    },
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "API",
+        "class_name": "AdaptiveMathApi",
+      },
+      {
+        "name": "EDGE_AUTH_GUARD",
+        "class_name": "EdgeRateGuard",
+      },
+    ],
+  },
+  "exports": {
+    "AdaptiveMathApi": {
+      "type": "durable-object",
+      "storage": "sqlite",
+    },
+    "EdgeRateGuard": {
+      "type": "durable-object",
+      "storage": "sqlite",
+    },
+  },
+}
+

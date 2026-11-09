@@ -35,6 +35,16 @@ AI flows on the canonical deployment. Consolidate its exact Worker source and
 reproducible release config into the reviewed branch before completion. The
 older Vercel/Render/Supabase services remain available for rollback.
 
+Canonical Worker source, public binding configuration, image Dockerfile and
+headers are now consolidated under `deploy/cloudflare-production`. Its README
+documents clean-checkout builds and Worker-only deployment with container
+rollout disabled. The distinct `deploy/cloudflare` candidate remains isolated.
+Regression testing exposed case/trailing-slash auth routes bypassing exact edge
+path comparisons. A shared comparison helper now matches Express route
+semantics while forwarding the original request unchanged. All six focused
+tests passed after reproducing five failures in the unpatched source. Existing
+hostname/action validation, strict auth guard and rate thresholds are unchanged.
+
 Initial preparation is committed. The user subsequently authorized Wrangler
 login and Cloudflare preview deployment. A separate candidate deployment is in
 progress; no production database change, DNS cutover, or shutdown of an existing
