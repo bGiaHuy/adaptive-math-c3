@@ -9,6 +9,7 @@ import { generateKeyPairSync, randomUUID, sign } from 'node:crypto';
 import { OAuth2Client } from 'google-auth-library';
 import { AppModule } from '../src/app.module';
 import { PrismaService } from '../src/modules/prisma/prisma.service';
+import { AuthService } from '../src/modules/auth/auth.service';
 import {
   GOOGLE_FLOW_TTL_MS,
   googleCodeChallenge,
@@ -256,11 +257,21 @@ describe('Google auth with real ID-token cryptographic verification and isolated
       .expect(200);
     const cookie = sessionCookie(login),
       flow = await start('student', cookie);
+    const auth = app.get(AuthService);
+    const previouslyValidated = await auth.validateSession(cookie.split('=')[1]);
     await request(app.getHttpServer())
       .post('/api/v1/auth/logout')
       .set('Cookie', cookie)
       .expect(200);
-    await finish(flow, { sub: `revoked-${suffix}`, email }, 400, cookie);
+    // Simulate logout committing just after the callback's initial session validation.
+    const staleValidation = vi
+      .spyOn(auth, 'validateSession')
+      .mockResolvedValueOnce(previouslyValidated);
+    try {
+      await finish(flow, { sub: `revoked-${suffix}`, email }, 400, cookie);
+    } finally {
+      staleValidation.mockRestore();
+    }
     expect(
       await prisma.externalIdentity.findUnique({
         where: { userId_provider: { userId: registration.body.id, provider: 'google' } },

@@ -192,8 +192,25 @@ export class GoogleAuthService {
       });
       const linked = existingIdentity?.user;
       if (flow.link) {
-        await tx.$queryRaw`SELECT "id" FROM "User" WHERE "id" = ${flow.link.userId} FOR UPDATE`;
+        await tx.$queryRaw`SELECT "id" FROM "User" WHERE "id" = ${flow.link.userId} FOR NO KEY UPDATE`;
         const owner = await tx.user.findUniqueOrThrow({ where: { id: flow.link.userId } });
+        await tx.$queryRaw`SELECT "id" FROM "Session" WHERE "tokenHash" = ${flow.link.sessionHash} FOR UPDATE`;
+        const session = await tx.session.findUnique({
+          where: { tokenHash: flow.link.sessionHash },
+        });
+        if (
+          !session ||
+          session.userId !== owner.id ||
+          session.revokedAt ||
+          session.expiresAt <= new Date() ||
+          session.permissionVersion !== owner.permissionVersion
+        ) {
+          throw new ForbiddenException({
+            code: 'GOOGLE_LINK_SESSION_CHANGED',
+            message:
+              'Phiên đăng nhập đã thay đổi. Vui lòng đăng nhập lại trước khi liên kết Google.',
+          });
+        }
         const previous = await tx.externalIdentity.findUnique({
           where: { userId_provider: { userId: owner.id, provider: 'google' } },
         });
