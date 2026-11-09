@@ -4,6 +4,37 @@ Branch: `codex/cloudflare-fullstack-migration`. Base: `c3e667c`.
 
 ## Current status
 
+Canonical hostname selected by this agent after the user delegated the decision:
+https://adaptive-math-c3.adaptive-learning-c3.workers.dev . Its existing
+`AdaptiveMathApi` deployment is retained. On 2026-11-09 this task deployed an
+auth-form integration fix as Worker version `c4a0a113-d54f-46e1-8368-478b0a63414b`
+(source fix commit `bcc7914`). Container rollout was explicitly disabled and
+existing Worker variables/secrets preserved. No database schema or data-copy
+cutover was performed. The earlier canonical-URL decision gate is resolved.
+
+Live browser registration, fresh-token automatic login and session reload now
+pass on that hostname. The edge still requires and validates Turnstile; no test
+key or validation bypass was installed. The account is synthetic QA and remains
+in the canonical runtime database. See `.cache/cloudflare-canonical-auth-verification.json`
+and `.cache/cloudflare-canonical-qa-dashboard.png`. Its credentials are local,
+Git-ignored and protected by the same administrative ACL as the preview secrets.
+
+The discovered defect was an edge/UI mismatch: the deployed edge returned 403
+`SECURITY_CHALLENGE_REQUIRED` for every login/registration, while its frontend
+had no widget/header integration. Forms now acquire an `auth` token only after
+that explicit edge rejection, then submit it in a header. Registration and its
+following automatic login acquire separate tokens. Network errors, ordinary
+403/401 and rejected consumed tokens are not automatically retried. Retry and
+cancel controls are available; all server checks remain in place. Four focused
+regression tests and the frontend suite, lint, format, architecture, typecheck,
+clean frontend build, API build and Wrangler dry run passed; Graphify updated.
+
+This does not establish complete production migration. Independently recheck
+runtime database identity/configuration and the remaining role/ownership/grading/
+AI flows on the canonical deployment. Consolidate its exact Worker source and
+reproducible release config into the reviewed branch before completion. The
+older Vercel/Render/Supabase services remain available for rollback.
+
 Initial preparation is committed. The user subsequently authorized Wrangler
 login and Cloudflare preview deployment. A separate candidate deployment is in
 progress; no production database change, DNS cutover, or shutdown of an existing
