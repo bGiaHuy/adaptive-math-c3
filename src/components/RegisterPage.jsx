@@ -1,8 +1,10 @@
 import BrandLogo from './BrandLogo';
 import { BookOpen, CalendarDays, GraduationCap } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ArrowLeft, Eye, EyeOff, Check, Loader2, AlertCircle, Sparkles } from 'lucide-react';
 import { authApi } from '../lib/apiClient';
+import TurnstileChallenge from './TurnstileChallenge';
+import { runAuthChallenge } from '../lib/securityChallenge';
 
 export default function RegisterPage({
   initialMode = 'signup',
@@ -32,6 +34,37 @@ export default function RegisterPage({
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [fieldErrors, setFieldErrors] = useState({});
+  const [challenge, setChallenge] = useState(null);
+  const pendingChallenge = useRef(null);
+  const challengeReady = useCallback(() => {}, []);
+  const cancelChallenge = useCallback(() => {
+    pendingChallenge.current?.reject(Error('Đã hủy xác minh. Bạn có thể thử lại.'));
+    pendingChallenge.current = null;
+    setChallenge(null);
+  }, []);
+  const receiveChallenge = useCallback((token) => {
+    if (!token || !pendingChallenge.current) return;
+    pendingChallenge.current.resolve(token);
+    pendingChallenge.current = null;
+    setChallenge(null);
+  }, []);
+  const obtainChallenge = () => new Promise((resolve, reject) => {
+    const timeout = setTimeout(() => {
+      pendingChallenge.current = null;
+      setChallenge(null);
+      reject(Error('Xác minh quá hạn. Vui lòng thử lại.'));
+    }, 120000);
+    pendingChallenge.current = {
+      resolve: token => { clearTimeout(timeout); resolve(token); },
+      reject: error => { clearTimeout(timeout); reject(error); }
+    };
+    setChallenge({ nonce: Date.now() });
+  });
+  useEffect(() => () => {
+    pendingChallenge.current?.reject(Error('Đã rời trang xác minh.'));
+    pendingChallenge.current = null;
+  }, []);
+  const authenticate = operation => runAuthChallenge(operation, obtainChallenge);
 
   useEffect(() => {
     if (Object.keys(fieldErrors).length) document.querySelector('.auth-form .has-error')?.focus();
@@ -70,16 +103,16 @@ export default function RegisterPage({
 
     setIsLoading(true);
     try {
-      await authApi.registerStudent({
+      await authenticate(options => authApi.registerStudent({
         fullName: fullName.trim(),
         username: username.trim(),
         email: email.trim() || undefined,
         password,
         parentEmail: parentEmail.trim() || undefined
-      });
+      }, options));
 
       // Automatically login to establish HttpOnly session cookie
-      const loginRes = await authApi.login(username.trim(), password);
+      const loginRes = await authenticate(options => authApi.login(username.trim(), password, options));
       onCompleteRegistration(loginRes.user);
     } catch (err) {
       setErrorMessage(err.message || 'Đăng ký không thành công. Vui lòng thử lại.');
@@ -113,16 +146,16 @@ export default function RegisterPage({
 
     setIsLoading(true);
     try {
-      await authApi.registerTeacher({
+      await authenticate(options => authApi.registerTeacher({
         fullName: fullName.trim(),
         email: email.trim(),
         password,
         schoolName: schoolName.trim() || undefined,
         city: city.trim() || undefined
-      });
+      }, options));
 
       // Automatically login to establish HttpOnly session cookie
-      const loginRes = await authApi.login(email.trim(), password);
+      const loginRes = await authenticate(options => authApi.login(email.trim(), password, options));
       onCompleteRegistration(loginRes.user);
     } catch (err) {
       setErrorMessage(err.message || 'Nộp hồ sơ giáo viên không thành công. Vui lòng thử lại.');
@@ -146,7 +179,7 @@ export default function RegisterPage({
 
     setIsLoading(true);
     try {
-      const res = await authApi.login(identifier.trim(), loginPassword);
+      const res = await authenticate(options => authApi.login(identifier.trim(), loginPassword, options));
       onCompleteRegistration(res.user);
     } catch (err) {
       setErrorMessage(err.message || 'Tên đăng nhập hoặc mật khẩu không chính xác.');
@@ -174,6 +207,12 @@ export default function RegisterPage({
                 : 'Tiếp tục học tập và quản lý lớp học của bạn.'}
             </p>
           </div>
+
+          {challenge && <div role="region" aria-label="Xác minh bảo mật">
+            <p>Hoàn tất xác minh để tiếp tục.</p>
+            <TurnstileChallenge action="auth" resetSignal={challenge.nonce} onToken={receiveChallenge} onReady={challengeReady} />
+            <button type="button" onClick={cancelChallenge}>Hủy xác minh</button>
+          </div>}
 
           {/* Inline Error Message */}
           {errorMessage && (
