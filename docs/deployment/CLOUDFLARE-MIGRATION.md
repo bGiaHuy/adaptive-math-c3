@@ -126,6 +126,16 @@ the source counts/checksums from its exported repeatable-read snapshot.
 role attributes without passwords are inventoried in the source manifest.
 `restore-verification.json` records the comparison results. Keep these private.
 
+Integrity recheck on 2026-11-09 matched all ten files in `checksums.json`,
+including the full-restore verifier and evidence. Windows ACLs on this backup
+tree and this task's preview/runtime/AI/session credential files are protected
+from inherited permissions and allow only SYSTEM and Administrators.
+`.cache/cloudflare-backup-integrity.json` and
+`.cache/cloudflare-private-acl-verification.json` record these checks without
+credential contents. The backup and secret paths are confirmed Git-ignored.
+Administrative access is required for subsequent recovery tooling; this local
+backup is not an off-machine copy or a continuous/PITR backup.
+
 Verified on PostgreSQL 17.11 in Docker container `c3-backup-verify-20261109`,
 with `--network none`, no published port and no production application secrets:
 
@@ -288,6 +298,18 @@ were discovered. Do not overwrite or promote them without reconciling ownership,
 database targets and the canonical URL. The user authorized internal-chat
 coordination, but the available chat inventory did not identify their matching
 chats. No deployment was overwritten as part of that investigation.
+
+Reconciliation at 2026-11-09 11:10 UTC found an additional live
+`adaptive-math-c3.adaptive-learning-c3.workers.dev`, owned by the other worktree's
+`AdaptiveMathApi` implementation. Wrangler's latest deployment was version
+`6c8c4373-1785-491f-abdb-9f918e40b144`, created at 11:06:52 UTC. This changed
+during this task's investigation, so assuming another deployment is idle is
+unsafe. `cloudflare-url-reconciliation.json` records HTTP 200/database-connected
+health for that URL, `adaptive-math-thpt`, the other preview, and retained Vercel.
+The C3 login form also rendered in the real browser without an initial challenge.
+These observations do not establish database identity, authenticated production
+workflows, or successful human Turnstile verification. A canonical-URL decision
+was requested; promotion or overwriting another worktree remains pending.
 
 Before production promotion: confirm exact current global AI budgets (candidate
 uses explicit preview caps), canonical hostname and cookie reauthentication,
