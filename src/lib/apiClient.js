@@ -194,6 +194,9 @@ export const apiClient = {
 // ==============================================================================
 
 export const authApi = {
+  googleConfig: (options = {}) => apiClient.get('/auth/google/config', options),
+  googleStatus: (options = {}) => apiClient.get('/auth/google/status', options),
+  googleStartUrl: (role = 'student', linking = false) => `${DEFAULT_BASE_URL}/auth/google/${linking ? 'link' : `start?role=${encodeURIComponent(role)}`}`,
   getMe: (options) => apiClient.get('/auth/me', { timeoutMs: 75000, maxRetries: 0, ...options }),
   login: (identifier, password, options = {}) => apiClient.post('/auth/login', { identifier, password }, { timeoutMs: 75000, ...options }),
   registerStudent: (data, options = {}) => apiClient.post('/auth/register/student', data, options),

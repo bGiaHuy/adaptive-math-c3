@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { verifyChallenge } from '../challenge.mjs';
-import { edgeLimit } from '../security.mjs';
+import { edgeLimit, apiResponse } from '../security.mjs';
 
 const base = 'https://adaptive-math-c3.adaptive-learning-c3.workers.dev';
 for (const path of ['/api/v1/auth/login', '/api/v1/auth/login/', '/api/v1/AUTH/LOGIN?x=1', '/API/v1/auth/login']) {
@@ -30,4 +30,18 @@ test('server rejects an invalid token and preserves hostname/action validation',
     assert.equal((await verifyChallenge(request, { TURNSTILE_ENABLED: 'true', TURNSTILE_SECRET_KEY: 'fixture' }, async () => Response.json(result))).status, 403);
   }
   assert.equal(await verifyChallenge(request, { TURNSTILE_ENABLED: 'true', TURNSTILE_SECRET_KEY: 'fixture' }, async () => Response.json({ success: true, hostname: new URL(base).hostname, action: 'auth' })), null);
+});
+
+test('Google start/link use auth limits and callback keeps its no-referrer policy', async () => {
+  for (const path of ['/api/v1/auth/google/start?role=teacher', '/api/v1/AUTH/GOOGLE/LINK/']) {
+    let called = false;
+    const response = await edgeLimit(new Request(base + path), { EDGE_SECURITY_ENABLED: 'true', EDGE_AUTH_LIMITER: { limit: async () => { called = true; return { success: false }; } } });
+    assert.equal(response.status, 429);
+    assert.equal(called, true);
+  }
+  const source = new Response('callback', { headers: { 'referrer-policy': 'no-referrer', 'set-cookie': 'am_session=fixture; HttpOnly' } });
+  const forwarded = apiResponse(source);
+  assert.equal(forwarded.headers.get('referrer-policy'), 'no-referrer');
+  assert.equal(forwarded.headers.get('set-cookie'), source.headers.get('set-cookie'));
+  assert.equal(forwarded.body, source.body);
 });

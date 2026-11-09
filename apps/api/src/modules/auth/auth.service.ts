@@ -519,6 +519,17 @@ export class AuthService implements OnModuleInit {
   }
 
   // Create a fresh session for user (e.g. immediately after changing password)
+  async completeGoogleLogin(userId: string, userAgent?: string, ipAddress?: string) {
+    let user = await this.prisma.user.findUniqueOrThrow({ where: { id: userId }, include: { studentProfile: true, teacherProfile: true } });
+    if (user.status !== UserStatus.ACTIVE) throw new ForbiddenException({ code: 'ACCOUNT_SUSPENDED', message: 'Tài khoản đã bị tạm khóa.' });
+    if (user.role === UserRole.TEACHER_APPLICANT) user = await this.autoApproveTeacher(user.id);
+    await this.syncSchoolYear(user);
+    const session = await this.createSessionForUser(user.id, userAgent, ipAddress);
+    await this.prisma.auditLog.create({ data: { actorUserId: user.id, action: 'USER_LOGIN', targetEntity: 'User', targetEntityId: user.id,
+      ipAddress: ipAddress || null, metadata: { provider: 'google' } } });
+    return { ...session, user: this.sanitizeUser(user) };
+  }
+
   async createSessionForUser(userId: string, userAgent?: string, ipAddress?: string) {
     const user = await this.prisma.user.findUnique({ where: { id: userId } });
     if (!user) throw new NotFoundException('User not found');
@@ -600,7 +611,7 @@ export class AuthService implements OnModuleInit {
 
   // Strip password hash from returned user object
   sanitizeUser(user: any) {
-    const { passwordHash, ...sanitized } = user;
+    const { passwordHash, externalIdentities, ...sanitized } = user;
     return sanitized;
   }
 }

@@ -5,6 +5,7 @@ import { ArrowLeft, Eye, EyeOff, Check, Loader2, AlertCircle, Sparkles } from 'l
 import { authApi } from '../lib/apiClient';
 import TurnstileChallenge from './TurnstileChallenge';
 import { runAuthChallenge } from '../lib/securityChallenge';
+import GoogleSignInButton from './GoogleSignInButton';
 
 export default function RegisterPage({
   initialMode = 'signup',
@@ -208,6 +209,7 @@ export default function RegisterPage({
             </p>
           </div>
 
+          <GoogleSignInButton role={mode === 'signup' ? role : 'student'} disabled={isLoading} />
           {challenge && <div role="region" aria-label="Xác minh bảo mật">
             <p>Hoàn tất xác minh để tiếp tục.</p>
             <TurnstileChallenge action="auth" resetSignal={challenge.nonce} onToken={receiveChallenge} onReady={challengeReady} />

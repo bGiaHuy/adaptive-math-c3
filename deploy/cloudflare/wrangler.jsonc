@@ -20,5 +20,5 @@
   }],
   "durable_objects": { "bindings": [{ "name": "API", "class_name": "C3Api" }] },
   "exports": { "C3Api": { "type": "durable-object", "storage": "sqlite" } },
-  "observability": { "enabled": true }
+  "observability": { "enabled": true, "logs": { "enabled": true, "invocation_logs": false } }
 }

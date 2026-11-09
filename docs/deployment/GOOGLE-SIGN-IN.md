@@ -1,6 +1,6 @@
 # Google sign-in for canonical Cloudflare C3
 
-Status: integration design and provisioning inputs; not enabled or implemented.
+Status: implementation passes local verification; not deployed/enabled yet.
 Canonical origin: https://adaptive-math-c3.adaptive-learning-c3.workers.dev
 
 ## Google Cloud configuration
@@ -17,10 +17,18 @@ browser storage, URLs, Docker image layers or Git. A local ignored template is
 `.cache/c3-google-oauth.env.example`. Verify the consent screen's publishing/test
 user state before testing with accounts outside the project.
 
-The currently logged-in Cloud Console account presents a first-use Terms of
-Service screen; no terms were accepted. Project identity and console access are
-pending while the user prepares Google Cloud CLI. Do not create a replacement
-project or change billing merely to avoid this access step.
+Project `gen-lang-client-0244530142` (`brandify`), owner account
+`buigiahuy092007@gmail.com`, was found through the installed Google Cloud CLI.
+The user separately approved Google Cloud terms and Google API Services User
+Data Policy at the respective UI steps. No billing/trial was enabled. The new
+OAuth app is `Adaptive Math C3`, Web client `Adaptive Math C3 Web`, in Testing
+mode with the owner as a test user. The existing Gemini API key was not read or
+changed. No previous OAuth clients existed in this project.
+
+Client secret is protected by Windows administrator/SYSTEM ACL in Git-ignored
+`.cache/c3-google-oauth-secrets.json`; it is not in the image/source. Registered
+callbacks are the canonical URL above and the same callback path on
+`adaptive-math-c3-candidate.adaptive-learning-c3.workers.dev` for isolated QA.
 
 ## Implementation contract
 
@@ -54,6 +62,35 @@ project or change billing merely to avoid this access step.
   leaving an unusable button on production.
 
 ## Verification gate
+
+Implemented: backend authorization-code/PKCE flow using the official Google
+library, encrypted short-lived state cookie, explicit session-bound linking,
+an additive private `ExternalIdentity` table, existing-session issuance, existing
+teacher policy and a feature-gated frontend/link action. No automatic email
+merge, role change of linked accounts, or token persistence. The Google-only
+account password is an independent random secret that is never retained.
+
+`npm run verify` passed 56 frontend tests and 242 API tests (37 files), including
+RSA-signed ID tokens checked by the real Google verifier with isolated test
+certificates. These tests cover issuer/audience/expiry/signature/nonce, state
+binding/expiry/tampering, email collision, owner-origin checks, revoked linking
+sessions, cross-account identity ownership, student/teacher policy, suspended
+denial and normal logout. Google endpoints are mocked in these local tests;
+they do not prove a real Google consent flow.
+
+The migration was rehearsed on preview project `otpekgrqjnzjecieiqra`: existing
+42 users unchanged, RLS enabled, runtime insert/select/update/delete passed in a
+rolled-back transaction, direct `anon` and `authenticated` access denied.
+Connection used the CA from the dashboard's Download certificate link and full
+TLS verification. Report: `.cache/google-preview-migration-verification.json`.
+No production migration has been applied. State-table grants intentionally allow
+the trusted backend role to perform pre-login identity lookup; end-user access
+still goes through authenticated ownership checks and no Data API role is granted.
+
+Remaining: clean image build and clone deployment, real Google browser flow,
+compatible production migration/privilege check and rollout, consent publishing
+readiness and canonical regression. Do not expose Google login to ordinary users
+while the OAuth app remains restricted to test users.
 
 Test browser state mismatch/expiry/replay, rejected issuer/audience/nonce/subject,
 unverified email, duplicate identity, email collision without auto-link, explicit

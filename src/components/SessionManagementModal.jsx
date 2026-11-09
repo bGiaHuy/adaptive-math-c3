@@ -1,5 +1,6 @@
 import useModalFocus from './useModalFocus';
 import React, { useState, useEffect } from 'react';
+import GoogleSignInButton from './GoogleSignInButton';
 import { X, ShieldAlert, Monitor, Smartphone, Globe, LogOut, CheckCircle, RefreshCw } from 'lucide-react';
 import { authApi } from '../lib/apiClient';
 
@@ -145,6 +146,7 @@ export default function SessionManagementModal({ isOpen, onClose, onSessionRevok
           </h2>
         </div>
 
+        <GoogleSignInButton linking />
         <p style={{ fontSize: '0.88rem', color: '#64748b', marginBottom: '20px', lineHeight: 1.5 }}>
           Danh sách các thiết bị và trình duyệt đang duy trì phiên hoạt động với tài khoản của bạn. Bạn có thể chủ động thu hồi từng phiên hoặc đăng xuất toàn bộ để bảo mật.
         </p>

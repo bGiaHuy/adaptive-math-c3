@@ -33,6 +33,9 @@ export async function route(request, env, ctx) {
 
 export function containerEnvironment(env) {
   const configured = JSON.parse(env.APP_ENV_JSON || '{}');
+  for (const key of ['GOOGLE_AUTH_ENABLED', 'GOOGLE_CLIENT_ID', 'GOOGLE_CLIENT_SECRET', 'GOOGLE_REDIRECT_URI']) {
+    if (typeof env[key] === 'string') configured[key] = env[key];
+  }
   for (const [key, value] of Object.entries(configured)) {
     if (!/^[A-Z][A-Z0-9_]*$/.test(key) || typeof value !== 'string')
       throw Error('Invalid runtime environment.');

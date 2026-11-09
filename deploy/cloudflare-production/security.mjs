@@ -27,7 +27,7 @@ export async function edgeLimit(request, env) {
   const pathname = requestPath(request);
   let group = 'api',
     binding = env.EDGE_API_LIMITER;
-  if (request.method === 'POST' && AUTH.has(pathname)) {
+  if ((request.method === 'POST' && AUTH.has(pathname)) || (request.method === 'GET' && ['/api/v1/auth/google/start', '/api/v1/auth/google/link'].includes(pathname))) {
     group = 'login';
     binding = env.EDGE_AUTH_LIMITER;
   } else if (request.method === 'POST' && REGISTER.has(pathname)) {
@@ -73,7 +73,7 @@ export function apiResponse(response, env = {}) {
   const protectedResponse = new Response(response.body, response);
   protectedResponse.headers.set('cache-control', 'no-store, no-transform');
   protectedResponse.headers.set('x-content-type-options', 'nosniff');
-  protectedResponse.headers.set('referrer-policy', 'strict-origin-when-cross-origin');
+  if (!protectedResponse.headers.has('referrer-policy')) protectedResponse.headers.set('referrer-policy', 'strict-origin-when-cross-origin');
   protectedResponse.headers.set('strict-transport-security', 'max-age=31536000');
   protectedResponse.headers.set(
     'x-edge-security',
