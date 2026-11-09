@@ -4,11 +4,15 @@ Branch: `codex/cloudflare-fullstack-migration`. Base: `c3e667c`.
 
 ## Current status
 
-Preparation only. No Cloudflare deployment, paid subscription, production database
-change, DNS cutover, or shutdown of an existing service has been performed.
+Initial preparation is committed. The user subsequently authorized Wrangler
+login and Cloudflare preview deployment. A separate candidate deployment is in
+progress; no production database change, DNS cutover, or shutdown of an existing
+service has been performed. Check the progress section below for live evidence.
 The production logical backup is saved locally. All public application tables
-have passed an isolated restore and content comparison. Supabase-managed schemas
-are archived but have not been restored into a full Supabase stack.
+have passed an isolated restore and content comparison. A second restore on the
+official Supabase PostgreSQL 17.11 image also verified every archived table,
+including managed schemas. This verifies database recovery, not hosted Supabase
+service configuration or recovery of an entire hosted stack.
 
 Supabase dashboard access to `ulsucorhoygypetcfgxa` is available, but this Free
 project has no downloadable scheduled backups. Local `apps/api/.env` points to
@@ -37,8 +41,9 @@ PDF rendering and DOCX conversion. A Workers-native rewrite would be a separate,
 larger compatibility project. Hyperdrive connects Workers to an external database;
 it does not host or replace PostgreSQL.
 
-Cloudflare Containers requires Workers Paid. The user requested preparation only
-because Paid is not enabled. Do not enable billing or deploy until authorized.
+Cloudflare Containers requires Workers Paid. The user initially requested only
+preparation, then reported buying a paid plan and explicitly authorized preview
+deployment. Do not purchase or change subscriptions on the user's behalf.
 
 ## Preparation files
 
@@ -145,9 +150,15 @@ used a newly exported snapshot and a fresh restore, not the initial archive.
 The restore creates referenced role names as NOLOGIN, and skips original owners
 and ACL application. Original privilege definitions are archived separately;
 restoring/validating them under a production runtime role remains a release gate.
-Managed auth/storage/realtime/vault extensions and platform configuration require
-a separate Supabase-compatible recovery rehearsal; a vanilla PostgreSQL public
-schema restore does not establish full platform recovery.
+The subsequent full restore used the official Supabase PostgreSQL 17.11 image,
+container `c3-cf-full-restore-20261109-v2`, database `c3_full_restore`, with no
+network or published port. `full-restore-verification.json` records all 72 table
+counts and row-content checksums matching (1,165 rows), all 72 foreign-key
+definitions matching, exact sequence state, zero orphans and 31 restored RLS
+policies. The archive was restored in one transaction with exit-on-error.
+Original owners/ACLs and role login capabilities were intentionally not activated;
+their definitions remain archived separately. Hosted Auth, Realtime and Storage
+service settings were not exercised by this database-only restore.
 
 Checks passed: lint, format:check, architecture:check, architecture:test (22),
 typecheck, frontend tests, API tests (233 in 36 files), Vite build, API build,
@@ -156,10 +167,122 @@ build. Graphify was updated. Its existing SQL-parser and batch-061 Python syntax
 warnings remain; no policy or test was weakened. Docker npm install reported
 12 lockfile vulnerabilities; dependency remediation is outside this preparation.
 
-No Cloudflare URL exists yet. Live Cloudflare regression testing, cold starts,
-production-role privilege rehearsal and cutover remain unverified. Account
-selection and Workers Paid are needed only when deployment is requested.
-The user explicitly requested preparation without enabling Paid.
+Production-role privilege rehearsal and production
+cutover remain release gates. Live candidate regression evidence is recorded
+below; a build/dry run alone is not proof of application behavior.
+
+## Preview progress and security additions
+
+Wrangler authenticated as `buigiahuy092007@gmail.com`, account
+`dd2f7a1c403332569d3a1058ab9dd3d2`, using encrypted credentials protected by
+Windows Credential Manager. Only Workers/Containers-related write scopes were
+requested; missing unrelated optional Wrangler scopes are intentional.
+
+An existing Worker `adaptive-math-c3-preview` with class `AdaptiveApi` was found
+in the account. Its home page returned 200 but `/api/v1/health` returned 500.
+Do not overwrite that deployment without reconciling its source. This task uses
+the distinct name `adaptive-math-c3-candidate` with class `C3Api`.
+
+A clean Git archive of `ce14155` was built separately from the dirty worktree.
+Running its image exposed a real packaging defect: npm installs some API
+dependencies in `apps/api/node_modules`, but the image originally copied only
+root `node_modules`. The Dockerfile now copies both. The corrected image ran
+against a fresh restore on an internal Docker network with a non-superuser
+runtime role inheriting `c3_web_app`; AI and outbound networking were disabled.
+`smoke.mjs` passed health, anonymous rejection, registration, login, production
+cookie flags, authenticated session, material catalog, student role rejection,
+CSRF rejection without session loss, logout, and revoked-session rejection.
+This is a container test, not a live Cloudflare or browser test.
+
+The user authorized a separate free Supabase preview project. Created
+`otpekgrqjnzjecieiqra` (`adaptivemathc3-cloudflare-preview`, Seoul). Data API is
+disabled. Its initial database password is stored only in the Git-ignored local
+file `.cache/c3-cloudflare-preview.env`, inside this repository directory as
+requested. No production password was reset. All 31 application tables (907
+rows) were restored and compared before deployment. The Worker receives only a
+dedicated non-superuser runtime connection inheriting `c3_web_app`, not the
+project administrator connection.
+
+The user requested applicable Cloudflare security/performance features and has
+no purchased domain. Prepared changes:
+
+| Feature | Implementation / release condition |
+| --- | --- |
+| HTTPS | workers.dev HTTPS; HSTS for the served hostname, without preload or includeSubDomains |
+| Static CDN / cache | Workers Static Assets; immutable one-year browser caching only for fingerprinted `/assets/*`; HTML keeps revalidation |
+| Private API / AI | `private, no-store` plus CDN no-store, including errors and SSE; streaming body and cookies remain intact |
+| Auth rate limiting | Worker binding: coarse 120 login/registration POSTs per IP per 60s per Cloudflare location; preserves existing API/user/AI limits; handles trailing slashes, query strings and route case |
+| Browser protection | nosniff, deny framing, limited CSP for frame ancestors/object/base and a referrer policy on static responses |
+| Observability | Worker observability configuration enabled; verify live error/rate-limit visibility after deployment |
+| WAF / Super Bot Fight | Await a user-owned Cloudflare domain and applicable zone plan; do not pretend these are enabled on workers.dev |
+| Image optimization | Keep private academic images behind API authorization; no new paid Images subscription or lossy math-image transformation |
+| Turnstile | Not enabled yet; needs a site widget, secret and server validation with regression coverage before enforcing |
+
+Rate limiting uses Cloudflare's approximate, per-location binding rather than
+a global strict counter. The IP threshold is deliberately generous for classroom
+NATs; this does not replace per-account brute-force defenses. Requests denied at
+the edge return JSON 429 with Retry-After, not an HTML challenge inside the API.
+Five forwarding/security tests and a Wrangler dry run with the rate-limit binding
+pass. `prepare:assets` installs the Cloudflare-only `_headers` file into the built
+asset directory; it does not change the Vercel deployment.
+
+Additional references:
+- https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/
+- https://developers.cloudflare.com/workers/static-assets/headers/
+- https://developers.cloudflare.com/workers/configuration/routing/workers-dev/
+- https://developers.cloudflare.com/bots/get-started/super-bot-fight-mode/
+
+## Live candidate evidence
+
+Candidate: https://adaptive-math-c3-candidate.adaptive-learning-c3.workers.dev
+uses only the restored preview project `otpekgrqjnzjecieiqra`. It is not the
+production database or a production cutover. QA accounts and fixtures remain in
+the clone; credentials are Git-ignored in `.cache/c3-cloudflare-qa.json`.
+
+Evidence files under Git-ignored `.cache`:
+
+| Report | Observed result |
+| --- | --- |
+| `cloudflare-live-smoke.json` | 11 requests: login, cookie flags, session, role rejection, CSRF and logout/revocation |
+| `cloudflare-live-regression.json` | 47 requests: roles, bank permissions, ownership rejection, assignment snapshots, draft/resume, submit/grade, preview/apply regrade, stale revision rejection and audit |
+| `cloudflare-live-content.json` | 16 requests: all three question types scored 10, answer secrecy, exact uploaded/downloaded bytes, document ownership, protected images and all 408 packaged image assets |
+| `cloudflare-ai-verification.json` | Two real Sonnet requests completed: ordinary and SSE; multiple text events arrived before done, no-store/no-transform preserved |
+| `cloudflare-headers-verification.json` | Live static headers checked: HTML revalidation, fingerprinted JS immutable caching, HSTS and framing protection |
+| `cloudflare-concurrent-health.json` | Six simultaneous health requests returned 200 with database connected; process uptime was 3 seconds and responses completed in 3.7–4.3 seconds |
+
+The regression compared the complete question bank before/after assignment
+snapshot editing and verified other assignments unchanged. Controlled published
+questions were inserted only in the isolated clone because the restored bank
+did not contain the expected published single-choice fixture. Existing teacher
+applicant auto-approval behavior was observed and preserved, not changed to make
+the migration test pass.
+
+The deployed image includes both root and nested API node_modules. Container
+generation is selected by `API_INSTANCE`; change it when rotating process
+secrets so new requests reach a freshly initialized process. Existing streams
+can drain on the previous generation. Six routing/security unit tests cover
+forwarding, no-store, rate limiting and generation selection; this is not yet
+an end-to-end rotation/rollback rehearsal.
+
+Browser login and assignment paper presentation were checked on the candidate.
+Evidence includes `.cache/cloudflare-paper-options.png` showing visible A–D
+boxes and green/black correct-answer styling. Turnstile is not enabled on this
+candidate. A separate preview from another worktree displayed the reported
+Turnstile failure message, then later displayed Success; this does not prove
+the intermittent failure has been fixed.
+
+Other workers (`adaptive-math-c3-preview` and `adaptive-math-thpt`) and worktrees
+were discovered. Do not overwrite or promote them without reconciling ownership,
+database targets and the canonical URL. The user authorized internal-chat
+coordination, but the available chat inventory did not identify their matching
+chats. No deployment was overwritten as part of that investigation.
+
+Before production promotion: confirm exact current global AI budgets (candidate
+uses explicit preview caps), canonical hostname and cookie reauthentication,
+production runtime-role privileges, concurrent authenticated mutations, secret rotation,
+rollback and the selected security configuration. Keep original Vercel, Render
+and Supabase available. A clone containing QA data must never be promoted as an
+unreconciled replacement for the live database.
 
 ## Official references
 

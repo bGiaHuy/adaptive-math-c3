@@ -1,8 +1,12 @@
-// The original request and response pass through without buffering SSE or cookies.
-export function routeRequest(request, env) {
+import { apiResponse, authRateLimit } from './security.mjs';
+
+// Bodies and cookies pass through without buffering SSE.
+export async function routeRequest(request, env) {
   const path = new URL(request.url).pathname;
   if (path === '/api' || path.startsWith('/api/')) {
-    return env.API.getByName('c3-api').fetch(request);
+    const limited = await authRateLimit(request, env);
+    const instance = env.API_INSTANCE ? `c3-api-${env.API_INSTANCE}` : 'c3-api';
+    return apiResponse(limited || await env.API.getByName(instance).fetch(request));
   }
   return env.ASSETS.fetch(request);
 }

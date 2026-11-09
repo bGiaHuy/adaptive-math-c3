@@ -7,10 +7,13 @@ test('API routing preserves cookies, origin, request id, body and streaming resp
     method: 'POST', headers: { cookie: '__Host-am_c3_session=test', origin: 'https://c3.example', 'x-request-id': 'id' }, body: '{"reason":"test"}'
   });
   const response = new Response('event: done\ndata: {}\n\n', {
-    headers: { 'content-type': 'text/event-stream', 'set-cookie': '__Host-am_c3_session=next; Secure; HttpOnly; Path=/' }
+    headers: { 'content-type': 'text/event-stream', 'cache-control': 'no-cache, no-transform', 'set-cookie': '__Host-am_c3_session=next; Secure; HttpOnly; Path=/' }
   });
   const env = { API: { getByName(name) { assert.equal(name, 'c3-api'); return { fetch(r) { assert.equal(r, request); return response; } }; } } };
-  assert.equal(routeRequest(request, env), response);
+  const result = await routeRequest(request, env);
+  assert.equal(result.body, response.body);
+  assert.equal(result.headers.get('set-cookie'), response.headers.get('set-cookie'));
+  assert.equal(result.headers.get('cache-control'), 'private, no-store, no-transform');
   const forwarded = containerRequest(request);
   assert.equal(forwarded.url, 'http://container/api/v1/student/review/tutor-stream?x=1');
   assert.equal(forwarded.headers.get('origin'), 'https://c3.example');
@@ -19,12 +22,13 @@ test('API routing preserves cookies, origin, request id, body and streaming resp
   assert.equal(await forwarded.text(), '{"reason":"test"}');
 });
 
-test('static routes go to assets while every API path goes to the backend', () => {
+test('static routes go to assets while every API path goes to the backend', async () => {
   for (const path of ['/', '/assets/a.js', '/api-other']) {
     const request = new Request('https://c3.example' + path);
-    assert.equal(routeRequest(request, { ASSETS: { fetch(r) { assert.equal(r, request); return 'asset'; } } }), 'asset');
+    assert.equal(await routeRequest(request, { ASSETS: { fetch(r) { assert.equal(r, request); return 'asset'; } } }), 'asset');
   }
-  assert.equal(routeRequest(new Request('https://c3.example/api'), { API: { getByName() { return { fetch() { return 'api'; } }; } } }), 'api');
+  const result = await routeRequest(new Request('https://c3.example/api'), { API: { getByName() { return { fetch() { return new Response('api'); } }; } } });
+  assert.equal(await result.text(), 'api');
 });
 
 test('runtime secrets are explicitly passed, validated, and never include unrelated bindings', () => {
