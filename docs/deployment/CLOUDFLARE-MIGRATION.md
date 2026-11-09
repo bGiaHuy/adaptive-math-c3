@@ -261,8 +261,20 @@ The deployed image includes both root and nested API node_modules. Container
 generation is selected by `API_INSTANCE`; change it when rotating process
 secrets so new requests reach a freshly initialized process. Existing streams
 can drain on the previous generation. Six routing/security unit tests cover
-forwarding, no-store, rate limiting and generation selection; this is not yet
-an end-to-end rotation/rollback rehearsal.
+forwarding, no-store, rate limiting and generation selection.
+
+A live generation-switch and Worker rollback rehearsal passed on 2026-11-09:
+version `1834fa53-cf93-4987-8307-56c40b927509` selected a fresh process (uptime
+5 seconds), then Wrangler rollback restored version
+`494c4d70-bfe1-4804-9e89-1047769c88d4`. The same teacher session issued six
+successful concurrent `/auth/me` requests before, after the switch, and after
+rollback. Reports are `.cache/cloudflare-generation-{before,rotated,rollback}.json`.
+All use the same preview database, image digest and session signing secret.
+This proves process replacement and application-version rollback with retained
+sessions; it does not prove signing-secret rotation, database rollback, or
+continued AI streams during a live Worker code replacement. No additional AI
+requests were made for this rehearsal. Archive configuration was returned to
+the original generation after rollback.
 
 Browser login and assignment paper presentation were checked on the candidate.
 Evidence includes `.cache/cloudflare-paper-options.png` showing visible A–D
@@ -279,8 +291,9 @@ chats. No deployment was overwritten as part of that investigation.
 
 Before production promotion: confirm exact current global AI budgets (candidate
 uses explicit preview caps), canonical hostname and cookie reauthentication,
-production runtime-role privileges, concurrent authenticated mutations, secret rotation,
-rollback and the selected security configuration. Keep original Vercel, Render
+production runtime-role privileges, concurrent authenticated mutations, signing-secret
+rotation and the selected security configuration. Database rollback needs its
+own reconciliation if a database move is selected. Keep original Vercel, Render
 and Supabase available. A clone containing QA data must never be promoted as an
 unreconciled replacement for the live database.
 
